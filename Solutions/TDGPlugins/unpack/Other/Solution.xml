@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24093.168" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24093.168" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24093.00168">
+<ImportExportXml version="9.2.24102.154" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24102.154" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24102.00154">
   <SolutionManifest>
     <UniqueName>TDGPlugins</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Main solution for TDG Inspection Related Plugins&#xA;1.0.0.1 - WO Pre Create and Pre Update were modified." languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.134</Version>
+    <Version>1.2.0.136</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -144,6 +144,7 @@
       <RootComponent type="92" id="{c04cc49e-297a-eb11-a812-000d3af31ad8}" behavior="0" />
       <RootComponent type="92" id="{c203a8db-8fbc-ee11-9078-0022483cceb8}" behavior="0" />
       <RootComponent type="92" id="{c6a8b3d0-e440-ed11-bba2-0022483d0343}" behavior="0" />
+      <RootComponent type="92" id="{cf8c3139-1a8b-ef11-8a69-002248adac91}" behavior="0" />
       <RootComponent type="92" id="{d7be9f8c-8fbc-ee11-9078-0022483cceb8}" behavior="0" />
       <RootComponent type="92" id="{d7d0ad8a-84bd-eb11-bacc-0022483bbb9e}" behavior="0" />
       <RootComponent type="92" id="{db84fda4-753e-ec11-8c62-0022483d71b4}" behavior="0" />
@@ -159,11 +160,15 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Booking.Booking_PreStateChange: Update of bookableresourcebooking" id="{a872a6be-72fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="93" id="{a7f4f555-79fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
@@ -335,6 +340,10 @@
       <MissingDependency>
         <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PostCreate_Injuries: Create of ovs_incident_report" id="{0aa9f2c2-9260-ef11-bfe4-0022483bb3a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />
+        <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PreCreateValidation: Create of ovs_incident_report" id="{cf8c3139-1a8b-ef11-8a69-002248adac91}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
@@ -553,7 +562,9 @@
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateCompanyLegalName: Update of account" id="{330f7ce1-6264-ee11-8df0-0022483d0c87}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="bookableresourcebookingid" displayName="Bookable Resource Booking" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="2" schemaName="bookableresourcebookingid" displayName="Bookable Resource Booking" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="93" id="{a7f4f555-79fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
@@ -575,7 +586,9 @@
         <Dependent type="93" id="{a7f4f555-79fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Booking.Booking_PreStateChange: Update of bookableresourcebooking" id="{a872a6be-72fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>

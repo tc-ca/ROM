@@ -8,6 +8,9 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostCreate_ConnectionPrimary, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="a56bb9e3-3f43-4bc7-a0e0-d3de1d8e6513" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostCreate_ConnectionPrimary">
       <FriendlyName>9078b800-086c-4757-a872-2cc2b77b8070</FriendlyName>
     </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostCreate_Create_HOTI_Operation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="388b34ba-0e9a-48a7-b093-d9522facc201" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostCreate_Create_HOTI_Operation">
+      <FriendlyName>b133fee1-a097-4c96-9321-c36bc6e163fe</FriendlyName>
+    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostCreatePrimaryContact, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="c43451ea-fb1d-4b1c-9ed6-cc477da86fcd" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostCreatePrimaryContact">
       <FriendlyName>bcf4cf9a-b43c-48f6-a2b5-ab75c46f5172</FriendlyName>
     </PluginType>
@@ -22,6 +25,9 @@
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_ConnectionPrimary, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="5ded7fe8-3e37-41ad-9566-4b7e80965f03" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_ConnectionPrimary">
       <FriendlyName>8b813ad6-c733-4f3f-8942-57cc2ce6d2bd</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="ad5e344f-f483-448d-b301-4aadfc27bc10" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation">
+      <FriendlyName>80302e70-430b-477b-8d2f-28406c5ab89e</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateCompanyLegalName, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="26dfb5ba-ab16-42cd-aae9-3799350d1ffb" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateCompanyLegalName">
       <FriendlyName>8c37b30d-2023-4d34-9480-2fdefc5197b3</FriendlyName>
@@ -43,6 +49,9 @@
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdateSiteAddress, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="f0bbe306-b66e-4a8d-88e4-21313cb7ac64" Name="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdateSiteAddress">
       <FriendlyName>2a20bb00-20d7-4fe3-923a-18465b36edd4</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_Site_Post_Modes_Update, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="66e2ac91-8720-4b83-81f4-c3bbb24d9c1b" Name="TC.PowerApps.Plugins.Entities.Account.Account_Site_Post_Modes_Update">
+      <FriendlyName>3b28b409-ce56-417c-bf97-724c35413238</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.AccountClass.SiteClass_PreCreate_DuplicateCheck, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="8cc7223e-f654-4107-9be8-4aa0f887a131" Name="TC.PowerApps.Plugins.Entities.AccountClass.SiteClass_PreCreate_DuplicateCheck">
       <FriendlyName>badac275-9c56-482a-8334-98413bcc4279</FriendlyName>
@@ -88,6 +97,9 @@
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PostCreate_Injuries, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="72decdb4-802d-4a40-82ce-43aaa83c7b1e" Name="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PostCreate_Injuries">
       <FriendlyName>c35a3e1f-693b-4457-9757-b6f82b2bb208</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PreCreateValidation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="fb12772b-de4e-4e1e-9cf3-09b3e075d0b8" Name="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PreCreateValidation">
+      <FriendlyName>c82c7cd2-87d3-47cc-b378-f5741689b4d8</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.NOP.NOP_PostCreate, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="b27fa7f1-c467-47c1-9a80-bc81d1d70dfd" Name="TC.PowerApps.Plugins.Entities.NOP.NOP_PostCreate">
       <FriendlyName>3fc52cfe-d194-497f-aa40-2e21b870c24c</FriendlyName>
