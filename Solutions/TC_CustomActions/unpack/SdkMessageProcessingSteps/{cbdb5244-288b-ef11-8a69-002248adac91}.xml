@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="TC.PowerApps.CustomActions.IncidentScope.SetIncidentReportPrimary: ovs_SetIncidentReportPrimary of any Entity" SdkMessageProcessingStepId="{cbdb5244-288b-ef11-8a69-002248adac91}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>fe33a0cb-268b-ef11-8a69-002248adac91</SdkMessageId>
+  <PluginTypeName>TC.PowerApps.CustomActions.IncidentScope.SetIncidentReportPrimary, TC.PowerApps.CustomActions, Version=1.0.0.1, Culture=neutral, PublicKeyToken=6aecae9f68df76db</PluginTypeName>
+  <PluginTypeId>d6dc38e6-9f40-4996-af6e-a7c92ac5d8d9</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>TC.PowerApps.CustomActions.IncidentScope.SetIncidentReportPrimary: ovs_SetIncidentReportPrimary of any Entity</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

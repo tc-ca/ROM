@@ -11,15 +11,6 @@
         <mxsw:ArgumentEntityAttribute Value="" />
       </x:Property.Attributes>
     </x:Property>
-    <x:Property Name="irId" Type="InArgument(x:String)">
-      <x:Property.Attributes>
-        <mxsw:ArgumentRequiredAttribute Value="True" />
-        <mxsw:ArgumentTargetAttribute Value="False" />
-        <mxsw:ArgumentDescriptionAttribute Value="Id of Incident Report we call from, form or grid" />
-        <mxsw:ArgumentDirectionAttribute Value="Input" />
-        <mxsw:ArgumentEntityAttribute Value="" />
-      </x:Property.Attributes>
-    </x:Property>
     <x:Property Name="isOK" Type="OutArgument(x:Boolean)">
       <x:Property.Attributes>
         <mxsw:ArgumentRequiredAttribute Value="True" />
