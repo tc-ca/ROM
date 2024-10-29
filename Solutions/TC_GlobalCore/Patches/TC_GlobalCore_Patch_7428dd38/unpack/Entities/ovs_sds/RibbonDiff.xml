@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="ovs.cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.CustomAction" Location="Mscrm.HomepageGrid.ovs_sds.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.Alt" Command="cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button" Id="cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button" Image32by32="" Image16by16="" LabelText="$LocLabels:cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.LabelText" Sequence="55" TemplateAlias="o2" ToolTipTitle="$LocLabels:cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.ToolTipTitle" ModernImage="$webresource:msdyn_/Icons/SVG/EC17-Documentation.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ovs.cid.ovs_sds.viewDocument.Button.CustomAction" Location="Mscrm.Form.ovs_sds.MainTab.Save.Controls._children" Sequence="38">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cid.ovs_sds.viewDocument.Button.Alt" Command="cid.ovs_sds.viewDocument.Command" Id="cid.ovs_sds.viewDocument.Button" LabelText="$LocLabels:cid.ovs_sds.viewDocument.Button.LabelText" Sequence="38" TemplateAlias="o1" ToolTipTitle="$LocLabels:cid.ovs_sds.viewDocument.Button.ToolTipTitle" ModernImage="$webresource:AppCommon/ControlWS/SummaryPageImages/DocumentStorage_HighContrast.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button">
+      <EnableRules>
+        <EnableRule Id="Mscrm.ShowOnGridAndQuickAction" />
+        <EnableRule Id="Mscrm.SelectionCountExactlyOne" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="SafetySheetsRibbon.PDF_ViewButton_OnClick" Library="$webresource:ovs_safetydatasheetbuttons">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cid.ovs_sds.viewDocument.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cid.ovs_sds.DisplayRule0.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="SafetySheetsRibbon.PDF_ViewButton_OnClick" Library="$webresource:ovs_safetydatasheetbuttons">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cid.ovs_sds.DisplayRule0.DisplayRule">
+        <FormStateRule State="Existing" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.Alt">
+      <Titles>
+        <Title description="View Document" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.LabelText">
+      <Titles>
+        <Title description="View Document" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cid.ovs_sds.Button3.Button.cid.ovs_sds.viewDocument.Button.ToolTipTitle">
+      <Titles>
+        <Title description="View Document" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cid.ovs_sds.viewDocument.Button.Alt">
+      <Titles>
+        <Title description="View Document" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cid.ovs_sds.viewDocument.Button.LabelText">
+      <Titles>
+        <Title description="View Document" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cid.ovs_sds.viewDocument.Button.ToolTipTitle">
+      <Titles>
+        <Title description="View Document" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

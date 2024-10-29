@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24102.154" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24102.154" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24102.00154">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_7428dd38</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.166.10.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_incident_report" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_moc" behavior="2" />
+      <RootComponent type="1" schemaName="ovs_moc_dangerousgood" behavior="0" />
+      <RootComponent type="1" schemaName="ovs_naics_code" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_organization_naics_code" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_sds" behavior="1" />
+      <RootComponent type="20" id="{682094a5-178a-ee11-8179-000d3af35f84}" behavior="0" />
+      <RootComponent type="29" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" behavior="0" />
+      <RootComponent type="29" id="{8c59cdb2-1ee3-ee11-904c-002248adb34a}" behavior="0" />
+      <RootComponent type="29" id="{ddfcda7b-be08-ef11-9f89-000d3a0c4626}" behavior="0" />
+      <RootComponent type="61" schemaName="ovs_DGAIS_MOC_MainForm.js" behavior="0" />
+      <RootComponent type="80" schemaName="ovs_Core2Test" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_customerrequest" displayName="Customer Request" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />
+        <Dependent type="1" schemaName="ovs_incident_report" displayName="Incident Report" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_invitation" displayName="Invitation" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moc" displayName="MOC" solution="Active" />
+        <Dependent type="1" schemaName="ovs_moc" displayName="MOC" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_naics_code" displayName="NAICS Code" solution="Active" />
+        <Dependent type="1" schemaName="ovs_naics_code" displayName="NAICS Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_contact" displayName="Organization Contact" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_manufacturer" displayName="Organization Manufacturer" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_naics_code" displayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="1" schemaName="ovs_organization_naics_code" displayName="Organization NAICS Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_registration" displayName="Registration" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_registration_contact" displayName="Emergency Contact" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_sds" displayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="1" schemaName="ovs_sds" displayName="Safety Data Sheet" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_submission" displayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Show Additional Info field When status set to Additional Info Required" id="{8c59cdb2-1ee3-ee11-904c-002248adb34a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_submission" displayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Synchronize Status based on Status Reason" id="{ddfcda7b-be08-ef11-9f89-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_submission" displayName="Submission" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequest" displayName="Support Request" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="tdg_unnumber" displayName="UN Number" solution="Active" />
+        <Dependent type="26" schemaName="Dangerous goods MOC form" displayName="Dangerous goods MOC form" parentSchemaName="ovs_moc_dangerousgood" parentDisplayName="MOC Dangerous Good" id="{218e3fac-6a95-ef11-8a68-002248b24508}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_moc_specification_fdr_specification" displayName="ovs_moc_specification_fdr_specification" parentSchemaName="fdr_specification" parentDisplayName="Specification" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_incident_report_moc" displayName="ovs_incident_report_moc" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_cidcompanystatus" displayName="Organization Status" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Organization NAICS Codes" displayName="Inactive Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{9f5ce270-c75b-4711-8dff-5d08f911dd13}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalname" displayName="Legal Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="26" schemaName="Active Organization NAICS Codes" displayName="Active Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalname" displayName="Legal Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Organization NAICS Codes" displayName="Inactive Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{9f5ce270-c75b-4711-8dff-5d08f911dd13}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_analyst_report_ind" displayName="Analyst Report" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_analyst_report_ind" displayName="Analyst Report" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="29" displayName="Hide Source for Analyst report form" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_canutec_reference_number_txt" displayName="CANUTEC Reference Number" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_date_canutec_dte" displayName="CANUTEC" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_incident_reportid" displayName="Incident Report" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_incident_reportid" displayName="Incident Report" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="29" displayName="Hide Source for Analyst report form" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mode_cd" displayName="Mode" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="29" displayName="Hide Source for Analyst report form" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_primary_report_ind" displayName="Primary Report" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_source_cd" displayName="Source" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="29" displayName="Hide Source for Analyst report form" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" solution="Active" />
+        <Dependent type="26" schemaName="Incident grid - Active Incident Reports " displayName="Incident grid - Active Incident Reports " parentSchemaName="ovs_incident_report" parentDisplayName="Incident Report" id="{386bccfe-f869-ef11-a671-000d3a843b46}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_damage_ind" displayName="Damage" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_damage_location_cds" displayName="Damage Location" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_damage_type_cds" displayName="Damage Type" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_erap_number_txt" displayName="ERAP Number" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_incident_report_id" displayName="Incident Report" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_moc_built_in_canada_ind" displayName="MOC Built in Canada?" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_moc_form_cd" displayName="MOC Form" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_n_of_units_num" displayName="No. of Units" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="10" schemaName="ovs_MOC_DangerousGood" displayName="ovs_MOC_DangerousGood" parentSchemaName="ovs_moc" parentDisplayName="MOC" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_other_code_txt" displayName="Other Code" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_other_damage_location_txt" displayName="Other Damage Location" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_other_damage_txt" displayName="Other Damage Type" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_release_ind" displayName="Release" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_release_location_mcd" displayName="Release Location" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_release_location_other_txt" displayName="Other Release Location" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_released_quantity_num" displayName="Released Quantity" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_reportable_moc_ind" displayName="Reportable MoC" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_specification_id" displayName="Specification" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_transported_quantity_num" displayName="Transported Quantity" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_units" displayName="Units" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_vehicle_configuration_cd" displayName="Vehicle Configuration" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_vehicle_type_cd" displayName="Vehicle Type" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_moc" parentDisplayName="MOC" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_naics_codeid" displayName="NAICS Code" parentSchemaName="ovs_naics_code" parentDisplayName="NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Active Organization NAICS Codes" displayName="Active Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_title_etxt" displayName="Title English" parentSchemaName="ovs_naics_code" parentDisplayName="NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Active Organization NAICS Codes" displayName="Active Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Active Organization NAICS Codes" displayName="Active Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Organization NAICS Codes" displayName="Inactive Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{9f5ce270-c75b-4711-8dff-5d08f911dd13}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_naics_codeid" displayName="Organization NAICS Code" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Active Organization NAICS Codes" displayName="Active Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_naics_codeid" displayName="Organization NAICS Code" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Organization NAICS Codes" displayName="Inactive Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{9f5ce270-c75b-4711-8dff-5d08f911dd13}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Active Organization NAICS Codes" displayName="Active Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Organization NAICS Codes" displayName="Inactive Organization NAICS Codes" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" id="{9f5ce270-c75b-4711-8dff-5d08f911dd13}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_file_name_nm" displayName="File Name" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_file_name_nm" displayName="File Name" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_file_name_nm" displayName="File Name" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_language_cd" displayName="SDS Languages" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_language_cd" displayName="SDS Languages" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_language_cd" displayName="SDS Languages" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="SDS ID" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="SDS ID" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Advanced Find View" displayName="Safety Data Sheet Advanced Find View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{6625c317-7375-4674-a7dc-c3d4cffed7af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="SDS ID" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="SDS ID" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Associated View" displayName="Safety Data Sheet Associated View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{89a96e38-4175-423a-bd23-99b26043622b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="SDS ID" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_nonregistered_manufacturer_ind" displayName="Non Registered Manufacturer" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_nonregistered_manufacturer_ind" displayName="Non Registered Manufacturer" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_id" displayName="Organization" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_id" displayName="Organization" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_id" displayName="Organization" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_product_codes_txt" displayName="Product Codes" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Advanced Find View" displayName="Safety Data Sheet Advanced Find View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{6625c317-7375-4674-a7dc-c3d4cffed7af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_product_codes_txt" displayName="Product Codes" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Associated View" displayName="Safety Data Sheet Associated View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{89a96e38-4175-423a-bd23-99b26043622b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_product_identifier_nm" displayName="Product Identifier" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Advanced Find View" displayName="Safety Data Sheet Advanced Find View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{6625c317-7375-4674-a7dc-c3d4cffed7af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_product_identifier_nm" displayName="Product Identifier" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Associated View" displayName="Safety Data Sheet Associated View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{89a96e38-4175-423a-bd23-99b26043622b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_sdsid" displayName="Safety Data Sheet" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="My Icon Safety Data Sheets" displayName="My Icon Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3ad8a9f8-7dc0-ee11-907a-000d3ae8ef90}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_sdsid" displayName="Safety Data Sheet" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Quick Find Active Safety Data Sheets" displayName="Quick Find Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3d897d59-d552-4f97-890f-be421d49c183}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_sdsid" displayName="Safety Data Sheet" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Advanced Find View" displayName="Safety Data Sheet Advanced Find View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{6625c317-7375-4674-a7dc-c3d4cffed7af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_sdsid" displayName="Safety Data Sheet" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_sdsid" displayName="Safety Data Sheet" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Associated View" displayName="Safety Data Sheet Associated View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{89a96e38-4175-423a-bd23-99b26043622b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_sdsid" displayName="Safety Data Sheet" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="My Icon Safety Data Sheets" displayName="My Icon Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3ad8a9f8-7dc0-ee11-907a-000d3ae8ef90}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="My Icon Safety Data Sheets" displayName="My Icon Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{3ad8a9f8-7dc0-ee11-907a-000d3ae8ef90}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Advanced Find View" displayName="Safety Data Sheet Advanced Find View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{6625c317-7375-4674-a7dc-c3d4cffed7af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="All Safety Data Sheets" displayName="All Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{81945dd8-8ac3-ee11-9079-002248b0ad9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Safety Data Sheet Associated View" displayName="Safety Data Sheet Associated View" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{89a96e38-4175-423a-bd23-99b26043622b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" solution="Active" />
+        <Dependent type="26" schemaName="Active Safety Data Sheets" displayName="Active Safety Data Sheets" parentSchemaName="ovs_sds" parentDisplayName="Safety Data Sheet" id="{a0e775dd-217b-44d7-9a95-4448f841f4e1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_additionalinfo" displayName="Additional Info" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Show Additional Info field When status set to Additional Info Required" id="{8c59cdb2-1ee3-ee11-904c-002248adb34a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Submission Number" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Show Additional Info field When status set to Additional Info Required" id="{8c59cdb2-1ee3-ee11-904c-002248adb34a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Submission Number" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Synchronize Status based on Status Reason" id="{ddfcda7b-be08-ef11-9f89-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_submissionid" displayName="Submission" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Show Additional Info field When status set to Additional Info Required" id="{8c59cdb2-1ee3-ee11-904c-002248adb34a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_submissionid" displayName="Submission" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Synchronize Status based on Status Reason" id="{ddfcda7b-be08-ef11-9f89-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Synchronize Status based on Status Reason" id="{ddfcda7b-be08-ef11-9f89-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Show Additional Info field When status set to Additional Info Required" id="{8c59cdb2-1ee3-ee11-904c-002248adb34a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" />
+        <Dependent type="29" displayName="Synchronize Status based on Status Reason" id="{ddfcda7b-be08-ef11-9f89-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="tdg_name" displayName="UN Number" parentSchemaName="tdg_unnumber" parentDisplayName="UN Number" solution="Active" />
+        <Dependent type="10" schemaName="ovs_moc_dangerousgood_un_number" displayName="ovs_moc_dangerousgood_un_number" parentSchemaName="tdg_unnumber" parentDisplayName="UN Number" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="tdg_name" displayName="UN Number" parentSchemaName="tdg_unnumber" parentDisplayName="UN Number" solution="Active" />
+        <Dependent type="26" schemaName="Dangerous goods MOC form" displayName="Dangerous goods MOC form" parentSchemaName="ovs_moc_dangerousgood" parentDisplayName="MOC Dangerous Good" id="{218e3fac-6a95-ef11-8a68-002248b24508}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="tdg_unnumberid" displayName="UN Number" parentSchemaName="tdg_unnumber" parentDisplayName="UN Number" solution="Active" />
+        <Dependent type="26" schemaName="Dangerous goods MOC form" displayName="Dangerous goods MOC form" parentSchemaName="ovs_moc_dangerousgood" parentDisplayName="MOC Dangerous Good" id="{218e3fac-6a95-ef11-8a68-002248b24508}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Registration Advanced Find View" displayName="Registration Advanced Find View" parentSchemaName="ovs_registration" parentDisplayName="Registration" solution="Active" id="{155107d2-bcab-4d94-a8e3-04ecf9755ee6}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Submission Associated View" displayName="Submission Associated View" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" id="{164929fb-3579-4b25-ae92-5a37761f34e6}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Customer Request Advanced Find View" displayName="Customer Request Advanced Find View" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{29c7459a-c234-4133-b92a-0f20574a8f4f}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CRS Registrations View" displayName="CRS Registrations View" parentSchemaName="ovs_registration" parentDisplayName="Registration" solution="Active" id="{40c5ca0d-73d5-ee11-904c-000d3a845779}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Submission Lookup View" displayName="Submission Lookup View" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" id="{4fd66384-ecb0-443e-b7aa-2bf32f2d2bfd}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Registration Associated View" displayName="Registration Associated View" parentSchemaName="ovs_registration" parentDisplayName="Registration" solution="Active" id="{74eeb80a-3bdb-4fc5-a900-0731d1afde9e}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Organization Manufacturer Associated View" displayName="Active Organization Manufacturer Associated View" parentSchemaName="ovs_organization_manufacturer" parentDisplayName="Organization Manufacturer" solution="Active" id="{79e90ba9-5d23-ef11-840a-6045bd614ecd}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TDG Core Sites" displayName="TDG Core Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{7fa4b59f-485d-ee11-8df0-0022483d0c87}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TDG Core Connected contacts" displayName="TDG Core Connected contacts" parentSchemaName="connection" parentDisplayName="Connection" solution="Active" id="{7fd3af12-625d-ee11-8df0-0022483e130e}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Parent Requests" displayName="Parent Requests" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{810fc514-32ba-ee11-9079-6045bd60d62a}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Customer Requests" displayName="Active Customer Requests" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{81ae12f9-fb64-4efb-866c-9e9c7303934a}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Organization NAICS Code Advanced Find View" displayName="Organization NAICS Code Advanced Find View" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" id="{8470ceb2-f320-458f-96a4-5e84462dc7bf}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Customer Request Lookup View" displayName="Customer Request Lookup View" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{864a5d16-29d1-40b9-bf2c-8ce03bad574c}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Customer Requests" displayName="Customer Requests" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{8a9be4cc-655d-ee11-8df0-0022483e130e}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Organization Contacts" displayName="Active Organization Contacts" parentSchemaName="ovs_organization_contact" parentDisplayName="Organization Contact" solution="Active" id="{96e7c45a-8670-4ef1-a6cd-814c234fff18}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account Duplicated per Customer request" displayName="Account Duplicated per Customer request" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{9b760bd0-0437-ee11-bdf4-0022483d0343}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TDG Core Organizations" displayName="TDG Core Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{a5a9b46c-475d-ee11-8df0-0022483e130e}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CRS Submission" displayName="CRS Submission" parentSchemaName="ovs_submission" parentDisplayName="Submission" solution="Active" id="{a65f50d4-2ad5-ee11-904d-002248b0ab18}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Organization Manufacturers" displayName="Active Organization Manufacturers" parentSchemaName="ovs_organization_manufacturer" parentDisplayName="Organization Manufacturer" solution="Active" id="{bacdde2a-47b8-4bc1-a506-4e4bfdff1a5a}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Customer Requests" displayName="Inactive Customer Requests" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{db12fdac-8821-4bc9-9b5f-11e2487d3828}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Contacts Public View - TC" displayName="Contacts Public View - TC" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" id="{e6cd19fd-2d03-eb11-a813-000d3af3a7a7}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Customer Request Associated View" displayName="Customer Request Associated View" parentSchemaName="ovs_customerrequest" parentDisplayName="Customer Request" solution="Active" id="{eba0ac1c-eca6-451f-9e43-4dff2c43d2c8}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CRS Registration Contact" parentDisplayName="Emergency Contact" solution="Active" id="{01878e57-47cf-ee11-904d-002248b0ab18}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Organization Manufacturer quick create form" parentDisplayName="Organization Manufacturer" solution="Active" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Submission" solution="Active" id="{0f04ff3f-6ca1-490f-836e-cc580f2e5947}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Invitation form" parentDisplayName="Invitation" solution="Active" id="{199b6e86-34ae-ee11-a568-6045bd5e3464}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Emergency Contact" solution="Active" id="{45e7333b-919e-4cb2-b633-dc431bfcd469}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="TDG Contact Core2" parentDisplayName="Contact" solution="Active" id="{4b062092-0e62-ee11-8df0-0022483d0343}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Registration" solution="Active" id="{6f918db8-f2be-42fb-af3a-7f42b94a7e79}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CRS Organization" parentDisplayName="Account" solution="Active" id="{913bf6bd-a463-ee11-8df0-0022483d0343}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Registration" solution="Active" id="{9c6f5c44-c089-4c4a-950c-9538d8f372f6}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Submission" solution="Active" id="{9d8ef32b-2177-4fde-b7de-0ee1880407f4}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CRS Site Profile" parentDisplayName="Account" solution="Active" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Invitation" solution="Active" id="{c29522e7-6f88-4e01-94fc-52afb598ffb6}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="UN Number QV" parentDisplayName="UN Number" solution="Active" id="{c8784081-f353-ef11-bfe3-0022483bb3a9}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC Dangerous Good" id="{82b48578-5df9-460b-bcb7-4a394e8d7d01}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Organization Manufacturer" solution="Active" id="{ce085143-d723-4230-a7a1-5a28e579f159}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Submission quick view form" parentDisplayName="Submission" solution="Active" id="{d7f01d02-c96b-ef11-a671-0022483c7e68}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Organization Contact" solution="Active" id="{e2de43fd-ff25-4d4a-b0b6-6d9a743dfc92}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Default Contact Dashboard - TC" parentDisplayName="Contact" solution="Active" id="{e631a301-3f03-eb11-a813-000d3af3a7a7}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Registration quick view form" parentDisplayName="Registration" solution="Active" id="{eb9b4773-0e19-ef11-840a-6045bd602d21}" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Incident Report" solution="Active" id="{ee604d8a-4a0b-48ff-af79-eef48d71f87f}" />
+        <Dependent type="29" displayName="Hide Source for Analyst report form" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_icon_naics_code" displayName="ovs_icon_naics_code" solution="Active" />
+        <Dependent type="1" schemaName="ovs_naics_code" displayName="NAICS Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_icon_naics_code" displayName="ovs_icon_naics_code" solution="Active" />
+        <Dependent type="1" schemaName="ovs_organization_naics_code" displayName="Organization NAICS Code" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_icon_sds" displayName="ovs_icon_sds" solution="Active" />
+        <Dependent type="1" schemaName="ovs_sds" displayName="Safety Data Sheet" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="ovs_Core2Test" solution="Active" />
+        <Dependent type="80" schemaName="ovs_Core2Test" displayName="CRS" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2410.2013)">
+          <package>BaseCustomControlsCore (9.0.2410.2013)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="MOC" id="{ab7a68cf-1d72-4c50-a098-b985866dadf1}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

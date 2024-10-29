@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{38e7aa92-dbec-4c4d-a085-628d96d29227}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_organization_naics_codeid">
+          <cell name="ovs_organization_id" width="113" />
+          <cell name="ovs_naics_code_id" width="105" />
+          <cell name="a_32e2ce66daf943eda934f7e755481678.ovs_title_etxt" width="300" />
+          <cell name="a_2ac9fb3a2f6042e9a98e43b88e295862.ovs_legalname" width="195" />
+          <cell name="a_2ac9fb3a2f6042e9a98e43b88e295862.address1_composite" width="183" />
+          <cell name="a_2ac9fb3a2f6042e9a98e43b88e295862.statuscode" width="205" />
+          <cell name="createdon" width="105" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_organization_naics_code">
+          <attribute name="ovs_organization_naics_codeid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ovs_naics_code_id" />
+          <link-entity alias="a_32e2ce66daf943eda934f7e755481678" name="ovs_naics_code" to="ovs_naics_code_id" from="ovs_naics_codeid" link-type="outer" visible="false">
+            <attribute name="ovs_title_etxt" />
+          </link-entity>
+          <attribute name="ovs_organization_id" />
+          <link-entity alias="a_2ac9fb3a2f6042e9a98e43b88e295862" name="account" to="ovs_organization_id" from="accountid" link-type="outer" visible="false">
+            <attribute name="ovs_legalname" />
+            <attribute name="address1_composite" />
+            <attribute name="statuscode" />
+          </link-entity>
+          <attribute name="createdon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Organization NAICS Codes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

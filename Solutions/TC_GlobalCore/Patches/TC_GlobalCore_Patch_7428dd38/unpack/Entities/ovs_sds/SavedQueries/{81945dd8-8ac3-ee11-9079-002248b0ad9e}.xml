@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{81945dd8-8ac3-ee11-9079-002248b0ad9e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_sdsid">
+          <cell name="ovs_name" width="275" />
+          <cell name="ovs_file_name_nm" width="246" />
+          <cell name="ovs_file_content_txt" width="300" />
+          <cell name="ovs_organization_id" width="210" />
+          <cell name="ovs_language_cd" width="130" />
+          <cell name="ovs_nonregistered_manufacturer_ind" width="208" />
+          <cell name="createdon" width="163" />
+          <cell name="modifiedon" width="160" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_sds">
+          <attribute name="ovs_sdsid" />
+          <attribute name="ovs_name" />
+          <attribute name="statecode" />
+          <attribute name="ovs_organization_id" />
+          <attribute name="createdon" />
+          <attribute name="modifiedon" />
+          <attribute name="ovs_file_name_nm" />
+          <order attribute="modifiedon" descending="true" />
+          <attribute name="ovs_language_cd" />
+          <attribute name="ovs_nonregistered_manufacturer_ind" />
+          <attribute name="ovs_file_content_txt" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Safety Data Sheets" languagecode="1033" />
+      <LocalizedName description="Toutes les fiche de données de sécurité" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

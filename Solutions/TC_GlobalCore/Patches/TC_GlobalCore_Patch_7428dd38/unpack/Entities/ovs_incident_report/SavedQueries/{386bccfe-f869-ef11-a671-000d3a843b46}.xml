@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{386bccfe-f869-ef11-a671-000d3a843b46}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_incident_reportid">
+          <cell name="ovs_primary_report_ind" width="127" />
+          <cell name="ovs_analyst_report_ind" width="126" />
+          <cell name="ovs_mode_cd" width="100" />
+          <cell name="ovs_date_canutec_dte" width="100" />
+          <cell name="ovs_canutec_reference_number_txt" width="196" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_incident_report">
+          <attribute name="ovs_incident_reportid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ovs_mode_cd" />
+          <attribute name="ovs_canutec_reference_number_txt" />
+          <attribute name="ovs_primary_report_ind" />
+          <attribute name="ovs_date_canutec_dte" />
+          <attribute name="ovs_analyst_report_ind" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Incident grid - Active Incident Reports " languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ovs_moc_dangerousgood" />
+  <EntityRelationship Name="lk_ovs_moc_dangerousgood_createdby" />
+  <EntityRelationship Name="lk_ovs_moc_dangerousgood_modifiedby" />
+  <EntityRelationship Name="ovs_MOC_DangerousGood" />
+  <EntityRelationship Name="ovs_moc_dangerousgood_un_number" />
+  <EntityRelationship Name="ovs_organization_naics_code_naics_code" />
+  <EntityRelationship Name="ovs_organization_naics_code_organization" />
+  <EntityRelationship Name="owner_ovs_moc_dangerousgood" />
+  <EntityRelationship Name="team_ovs_moc_dangerousgood" />
+  <EntityRelationship Name="user_ovs_moc_dangerousgood" />
+</EntityRelationships>

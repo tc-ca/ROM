@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ovs_Core2Test</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="59" id="{74a622c0-5193-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="1" schemaName="ovs_organization_manufacturer" />
+    <AppModuleComponent type="1" schemaName="ovs_organization_naics_code" />
+    <AppModuleComponent type="1" schemaName="ovs_organization_contact" />
+    <AppModuleComponent type="1" schemaName="ovs_sds" />
+    <AppModuleComponent type="1" schemaName="ovs_registration_contact" />
+    <AppModuleComponent type="1" schemaName="ovs_customerrequest" />
+    <AppModuleComponent type="1" schemaName="ovs_invitation" />
+    <AppModuleComponent type="1" schemaName="ovs_naics_code" />
+    <AppModuleComponent type="1" schemaName="ovs_supportrequest" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="ovs_submission" />
+    <AppModuleComponent type="1" schemaName="connection" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="ovs_registration" />
+    <AppModuleComponent type="60" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+    <AppModuleComponent type="60" id="{e631a301-3f03-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="60" id="{d7f01d02-c96b-ef11-a671-0022483c7e68}" />
+    <AppModuleComponent type="60" id="{4b062092-0e62-ee11-8df0-0022483d0343}" />
+    <AppModuleComponent type="60" id="{913bf6bd-a463-ee11-8df0-0022483d0343}" />
+    <AppModuleComponent type="60" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+    <AppModuleComponent type="60" id="{01878e57-47cf-ee11-904d-002248b0ab18}" />
+    <AppModuleComponent type="60" id="{9d8ef32b-2177-4fde-b7de-0ee1880407f4}" />
+    <AppModuleComponent type="60" id="{c29522e7-6f88-4e01-94fc-52afb598ffb6}" />
+    <AppModuleComponent type="60" id="{ce085143-d723-4230-a7a1-5a28e579f159}" />
+    <AppModuleComponent type="60" id="{199b6e86-34ae-ee11-a568-6045bd5e3464}" />
+    <AppModuleComponent type="60" id="{eb9b4773-0e19-ef11-840a-6045bd602d21}" />
+    <AppModuleComponent type="60" id="{e2de43fd-ff25-4d4a-b0b6-6d9a743dfc92}" />
+    <AppModuleComponent type="60" id="{6f918db8-f2be-42fb-af3a-7f42b94a7e79}" />
+    <AppModuleComponent type="60" id="{9c6f5c44-c089-4c4a-950c-9538d8f372f6}" />
+    <AppModuleComponent type="60" id="{0f04ff3f-6ca1-490f-836e-cc580f2e5947}" />
+    <AppModuleComponent type="60" id="{45e7333b-919e-4cb2-b633-dc431bfcd469}" />
+    <AppModuleComponent type="62" schemaName="ovs_Core2Test" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="26" id="{40c5ca0d-73d5-ee11-904c-000d3a845779}" />
+    <AppModuleComponent type="26" id="{e6cd19fd-2d03-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="26" id="{9b760bd0-0437-ee11-bdf4-0022483d0343}" />
+    <AppModuleComponent type="26" id="{7fa4b59f-485d-ee11-8df0-0022483d0c87}" />
+    <AppModuleComponent type="26" id="{a5a9b46c-475d-ee11-8df0-0022483e130e}" />
+    <AppModuleComponent type="26" id="{7fd3af12-625d-ee11-8df0-0022483e130e}" />
+    <AppModuleComponent type="26" id="{8a9be4cc-655d-ee11-8df0-0022483e130e}" />
+    <AppModuleComponent type="26" id="{a65f50d4-2ad5-ee11-904d-002248b0ab18}" />
+    <AppModuleComponent type="26" id="{155107d2-bcab-4d94-a8e3-04ecf9755ee6}" />
+    <AppModuleComponent type="26" id="{74eeb80a-3bdb-4fc5-a900-0731d1afde9e}" />
+    <AppModuleComponent type="26" id="{29c7459a-c234-4133-b92a-0f20574a8f4f}" />
+    <AppModuleComponent type="26" id="{db12fdac-8821-4bc9-9b5f-11e2487d3828}" />
+    <AppModuleComponent type="26" id="{4fd66384-ecb0-443e-b7aa-2bf32f2d2bfd}" />
+    <AppModuleComponent type="26" id="{eba0ac1c-eca6-451f-9e43-4dff2c43d2c8}" />
+    <AppModuleComponent type="26" id="{bacdde2a-47b8-4bc1-a506-4e4bfdff1a5a}" />
+    <AppModuleComponent type="26" id="{164929fb-3579-4b25-ae92-5a37761f34e6}" />
+    <AppModuleComponent type="26" id="{9f5ce270-c75b-4711-8dff-5d08f911dd13}" />
+    <AppModuleComponent type="26" id="{8470ceb2-f320-458f-96a4-5e84462dc7bf}" />
+    <AppModuleComponent type="26" id="{810fc514-32ba-ee11-9079-6045bd60d62a}" />
+    <AppModuleComponent type="26" id="{79e90ba9-5d23-ef11-840a-6045bd614ecd}" />
+    <AppModuleComponent type="26" id="{38e7aa92-dbec-4c4d-a085-628d96d29227}" />
+    <AppModuleComponent type="26" id="{96e7c45a-8670-4ef1-a6cd-814c234fff18}" />
+    <AppModuleComponent type="26" id="{864a5d16-29d1-40b9-bf2c-8ce03bad574c}" />
+    <AppModuleComponent type="26" id="{81ae12f9-fb64-4efb-866c-9e9c7303934a}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{682094a5-178a-ee11-8179-000d3af35f84}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="CRS" languagecode="1033" />
+    <LocalizedName description="SIC" languagecode="1036" />
+  </LocalizedNames>
+</AppModule>
