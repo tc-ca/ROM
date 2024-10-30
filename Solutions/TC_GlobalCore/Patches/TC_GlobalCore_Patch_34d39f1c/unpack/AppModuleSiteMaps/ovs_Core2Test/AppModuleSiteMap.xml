@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ovs_Core2Test</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_912ce882" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Main" />
+      </Titles>
+      <Group Id="NewGroup_8c124ff7" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Portal Support" />
+          <Title LCID="1036" Title="Soutien du portail" />
+        </Titles>
+        <SubArea Id="subarea_bf280cff" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_supportrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2a5e1971" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_customerrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Demandes des clients " />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_a0d9d076" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_invitation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Invitations" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_659fc67" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Core Data" />
+          <Title LCID="1036" Title="Données de base " />
+        </Titles>
+        <SubArea Id="NewSubArea_a1159c82" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_5c55e30a" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_organization_contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_15c50a3e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Contacts" />
+            <Title LCID="1036" Title="Contacts" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_755a241a" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/main.aspx?appid=78945c66-9588-ee11-8179-0022483c5d19&amp;forceUCI=1&amp;pagetype=entitylist&amp;etn=account&amp;viewid=7fa4b59f-485d-ee11-8df0-0022483d0c87&amp;viewType=1039" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sites" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_0c00c5b5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_organization_naics_code" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_8fea1f63" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="CRS Services" />
+          <Title LCID="1036" Title="Services SIC" />
+        </Titles>
+        <SubArea Id="subarea_0a57d4c5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_submission" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Soumissions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_42b4368b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Inscriptions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_9a7f1971" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_sds" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Safety Data Sheets" />
+            <Title LCID="1036" Title="Fiches de données de sécurité " />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="CRS" languagecode="1033" />
+    <LocalizedName description="CRS" languagecode="1036" />
+  </LocalizedNames>
+</AppModuleSiteMap>
