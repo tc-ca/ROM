@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cid_unitofmeasurement" localizedName="Unit of measurement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Unit of measurement" languagecode="1033" />
+    <displayname description="Unité de mesure" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="100000008" ExternalValue="" Color="">
+      <labels>
+        <label description="Barrels" languagecode="1033" />
+        <label description="Barils" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000007" ExternalValue="" Color="">
+      <labels>
+        <label description="Cubic Metres" languagecode="1033" />
+        <label description="Mètres cubes" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000002" ExternalValue="" Color="">
+      <labels>
+        <label description="Grams" languagecode="1033" />
+        <label description="Grammes" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000003" ExternalValue="" Color="">
+      <labels>
+        <label description="Kilograms" languagecode="1033" />
+        <label description="Kilogrammes" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000005" ExternalValue="" Color="">
+      <labels>
+        <label description="Lbs." languagecode="1033" />
+        <label description="Livres" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000001" ExternalValue="" Color="">
+      <labels>
+        <label description="Litres" languagecode="1033" />
+        <label description="Litres" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000009" ExternalValue="" Color="">
+      <labels>
+        <label description="Micro Sieverts" languagecode="1033" />
+        <label description="Micro Sieverts" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000000" ExternalValue="" Color="">
+      <labels>
+        <label description="Millilitres" languagecode="1033" />
+        <label description="Millilitres" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000004" ExternalValue="" Color="">
+      <labels>
+        <label description="Metric Tonnes" languagecode="1033" />
+        <label description="Tonnes métriques" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="100000006" ExternalValue="" Color="">
+      <labels>
+        <label description="​Imperial Tons" languagecode="1033" />
+        <label description="Tonnes impériales" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

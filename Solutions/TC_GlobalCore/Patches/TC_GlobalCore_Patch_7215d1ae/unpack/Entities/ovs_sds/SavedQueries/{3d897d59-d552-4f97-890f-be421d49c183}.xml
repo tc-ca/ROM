@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3d897d59-d552-4f97-890f-be421d49c183}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_sdsid">
+          <cell name="ovs_name" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ovs_file_name_nm" width="266" />
+          <cell name="ovs_file_content_txt" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ovs_organization_id" width="113" />
+          <cell name="ovs_language_cd" width="130" />
+          <cell name="createdon" width="105" />
+          <cell name="modifiedon" width="113" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_sds">
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ovs_organization_id" operator="like" value="{0}" />
+            <condition attribute="ovs_file_name_nm" operator="like" value="{0}" />
+            <condition attribute="ovs_file_content_txt" operator="like" value="{0}" />
+            <condition attribute="ovs_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="ovs_file_content_txt" />
+          <attribute name="ovs_file_name_nm" />
+          <attribute name="ovs_organization_id" />
+          <attribute name="createdon" />
+          <attribute name="modifiedon" />
+          <attribute name="ovs_language_cd" />
+          <attribute name="ovs_name" />
+          <attribute name="ovs_sdsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Safety Data Sheets" languagecode="1033" />
+      <LocalizedName description="Recherche rapide des fiches de données de sécurité active" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
