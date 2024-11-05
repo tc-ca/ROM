@@ -47,6 +47,9 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PreMergeOperation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="728594c0-4210-4491-a174-c282d2dc575f" Name="TC.PowerApps.Plugins.Entities.Account.Account_PreMergeOperation">
       <FriendlyName>dee4cec1-20db-43e7-8218-01c053dddb9e</FriendlyName>
     </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdate_Name_ConcatenatePreviouslyKnownAs, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="3e2e5211-d61a-4591-8737-6a76c9a45503" Name="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdate_Name_ConcatenatePreviouslyKnownAs">
+      <FriendlyName>a22a32ab-c966-4772-824a-d302c55aae96</FriendlyName>
+    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdateSiteAddress, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="f0bbe306-b66e-4a8d-88e4-21313cb7ac64" Name="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdateSiteAddress">
       <FriendlyName>2a20bb00-20d7-4fe3-923a-18465b36edd4</FriendlyName>
     </PluginType>
