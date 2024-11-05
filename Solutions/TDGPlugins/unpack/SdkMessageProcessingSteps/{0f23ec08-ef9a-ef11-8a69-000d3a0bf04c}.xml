@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="TC.PowerApps.Plugins.Entities.Account.Account_PreUpdate_Name_ConcatenatePreviouslyKnownAs: Update of account" SdkMessageProcessingStepId="{0f23ec08-ef9a-ef11-8a69-000d3a0bf04c}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>TC.PowerApps.Plugins.Entities.Account.Account_PreUpdate_Name_ConcatenatePreviouslyKnownAs, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7</PluginTypeName>
+  <PluginTypeId>3e2e5211-d61a-4591-8737-6a76c9a45503</PluginTypeId>
+  <PrimaryEntity>account</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>TC.PowerApps.Plugins.Entities.Account.Account_PreUpdate_Name_ConcatenatePreviouslyKnownAs: Update of account</Description>
+  <FilteringAttributes>name</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>10</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="preImage">
+      <SdkMessageProcessingStepImageId>{84b9cf19-ef9a-ef11-8a69-0022483db891}</SdkMessageProcessingStepImageId>
+      <Attributes></Attributes>
+      <EntityAlias>preImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

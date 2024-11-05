@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Main solution for TDG Inspection Related Plugins&#xA;1.0.0.1 - WO Pre Create and Pre Update were modified." languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.137</Version>
+    <Version>1.2.0.138</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -86,6 +86,7 @@
       <RootComponent type="92" id="{0a0fb9fa-8ebc-ee11-9078-002248b0ab18}" behavior="0" />
       <RootComponent type="92" id="{0aa9f2c2-9260-ef11-bfe4-0022483bb3a9}" behavior="0" />
       <RootComponent type="92" id="{0ae13e35-a0d5-ee11-904c-002248b1f200}" behavior="0" />
+      <RootComponent type="92" id="{0f23ec08-ef9a-ef11-8a69-000d3a0bf04c}" behavior="0" />
       <RootComponent type="92" id="{10f3d41c-90bc-ee11-9078-6045bd60dfd7}" behavior="0" />
       <RootComponent type="92" id="{120a05c2-57f8-ee11-a1fe-002248af8802}" behavior="0" />
       <RootComponent type="92" id="{1493f07b-f443-ec11-8c62-0022483be646}" behavior="0" />
