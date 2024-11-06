@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c0da77e9-2f03-eb11-a813-000d3af3ac0d}</formid>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{ba34e085-1c8d-4242-9308-3c43eaa5dacf}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+            <label description="Onglet" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{355fd7f0-ec12-4850-b376-030246f8a171}">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                    <label description="Détails" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{673073c2-2fcc-4a1d-8264-0692457ee9c7}" locklevel="0" labelid="{738399eb-b3b6-4a38-865d-c78b7310eb69}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                          <label description="Prénom" languagecode="1036" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{184a8d5f-b658-45ff-a873-422d08baba5f}" locklevel="0" labelid="{8bdf8cf8-c9bd-46d2-b51f-eebd7a1b57e4}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                          <label description="Nom de famille" languagecode="1036" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7471c0b-c65b-4854-babb-5bb125780af3}" locklevel="0" labelid="{3b116269-3dd6-4424-a125-247ff599bd7e}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                          <label description="Courriel" languagecode="1036" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f10eb2b6-cd71-4aca-b23e-ce1fe952b5d6}" locklevel="0" labelid="{a6e4fd14-6b38-4ff6-9be5-c77f13058a9c}">
+                        <labels>
+                          <label description="Business Phone" languagecode="1033" />
+                          <label description="Téléphone au travail" languagecode="1036" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e405246d-63ba-4a81-accb-173304441789}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                          <label description="Téléphone mobile" languagecode="1036" />
+                        </labels>
+                        <control id="mobilephone" classid="{8C10015A-B339-4982-9474-A95FE05631A5}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e106ff98-a02f-464e-9d6a-76881ac8b671}" locklevel="0" labelid="{6c939a9d-f607-4a3a-925f-49db63ece296}">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" />
+                          <label description="Titre" languagecode="1036" />
+                        </labels>
+                        <control id="jobtitle" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{075f96f3-a056-4851-87a4-c9c2272eed65}" locklevel="0" labelid="{c7be19e2-bad1-4d30-a734-4f5c2b8a1254}">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                          <label description="Nom de la société" languagecode="1036" />
+                        </labels>
+                        <control id="parentcustomerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcustomerid" disabled="false" uniqueid="{6d774195-eb54-62ab-aaea-140dbe90610d}">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{921b729d-44b5-4154-aca6-f82a6650bea0}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{5cf46b24-77f0-4834-a986-ff5f44ea6b13}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{6b3217ff-f60f-4516-b5f9-d31965b9961b}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{ea0004f7-d1c3-46a6-879b-fed1247e4399}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{753a9552-6872-a124-0e95-4bc304b5db2e}" />
+        <Library name="qm_ContactQuickCreate_TC.js" libraryUniqueId="{c097d8dd-7988-6205-d057-212eaae01d2a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Contact_QC_TC.OnLoad" libraryName="qm_ContactQuickCreate_TC.js" handlerUniqueId="{400ce965-d8e0-421d-b4d7-24530de737d4}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1" FallbackForm="true"></DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Contact Quick Create - TC" languagecode="1033" />
+      <LocalizedName description="Création rapide Contact - TC" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="TC" languagecode="1033" />
+      <Description description="TC" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

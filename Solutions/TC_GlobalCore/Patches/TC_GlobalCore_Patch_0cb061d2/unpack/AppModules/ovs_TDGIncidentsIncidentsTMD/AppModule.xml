@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ovs_TDGIncidentsIncidentsTMD</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="59" id="{88de94cc-8b5e-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="1" schemaName="ovs_incident_report" />
+    <AppModuleComponent type="1" schemaName="ovs_organization_contact" />
+    <AppModuleComponent type="1" schemaName="ovs_incident" />
+    <AppModuleComponent type="1" schemaName="ovs_invitation" />
+    <AppModuleComponent type="1" schemaName="ovs_supportrequest" />
+    <AppModuleComponent type="1" schemaName="adx_invitation" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{8e8ef593-361c-ef11-840a-000d3a0c4626}" />
+    <AppModuleComponent type="60" id="{e038b892-2d1d-ef11-840a-000d3a0c4626}" />
+    <AppModuleComponent type="60" id="{c18e41da-404f-ef11-accd-000d3a843b46}" />
+    <AppModuleComponent type="60" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+    <AppModuleComponent type="60" id="{6c911b68-d5ab-48b1-ade7-3ef39e39dd97}" />
+    <AppModuleComponent type="60" id="{c29522e7-6f88-4e01-94fc-52afb598ffb6}" />
+    <AppModuleComponent type="60" id="{b8315c28-e2b0-4d15-aec8-5fa434056f2d}" />
+    <AppModuleComponent type="60" id="{6cfff89f-351c-ef11-840a-6045bd614ecd}" />
+    <AppModuleComponent type="60" id="{9f0eda25-2c1d-ef11-840a-6045bd614ecd}" />
+    <AppModuleComponent type="60" id="{a58c2822-51b7-4919-b85c-d94204f76f09}" />
+    <AppModuleComponent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{e7ba8bd8-440a-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="26" id="{fdbc939a-2403-eb11-a813-000d3af3ac0d}" />
+    <AppModuleComponent type="26" id="{400d5f47-3e4f-ef11-accd-0022483bb3a9}" />
+    <AppModuleComponent type="26" id="{a8d4d8d3-71db-eb11-bacb-0022483c561b}" />
+    <AppModuleComponent type="26" id="{e31dea5a-1250-ef11-accd-0022483c7e68}" />
+    <AppModuleComponent type="26" id="{631f1f30-1bff-ed11-8f6d-0022483d0343}" />
+    <AppModuleComponent type="26" id="{74bbeebe-f9fe-ed11-8f6d-0022483e130e}" />
+    <AppModuleComponent type="26" id="{fefc25ee-b554-40a7-a044-0815caae218a}" />
+    <AppModuleComponent type="26" id="{301e7af2-7676-4e90-90dd-100be894a4b7}" />
+    <AppModuleComponent type="26" id="{a13681d9-1251-432e-b952-51e8ea725865}" />
+    <AppModuleComponent type="26" id="{4cd8a034-b1e4-4225-9637-808f143a1bb7}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{6a94cfdf-2549-4143-91aa-a68ac73b4ab5}" />
+    <AppModuleComponent type="26" id="{8a2044ca-88c7-47b0-9c0c-cae30c745d54}" />
+    <AppModuleComponent type="26" id="{716d0412-9552-4b98-b77d-d37df4f62a6c}" />
+    <AppModuleComponent type="26" id="{ae9d977e-ae60-424a-8718-dacd211e93b9}" />
+    <AppModuleComponent type="26" id="{1dc074b9-e8e4-470c-9a17-ff58d823a630}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{dcd94023-b82c-ef11-8e50-000d3a0c4626}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="TDG Incidents / Incidents TMD" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="DGAIS app" languagecode="1033" />
+  </Descriptions>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>
