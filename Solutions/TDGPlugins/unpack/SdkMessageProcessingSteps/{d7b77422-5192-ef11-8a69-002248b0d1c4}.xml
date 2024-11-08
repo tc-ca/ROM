@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="TC.PowerApps.Plugins.Entities.Account.Account_Site_Post_Modes_Update: Update of account" SdkMessageProcessingStepId="{d7b77422-5192-ef11-8a69-002248b0d1c4}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>TC.PowerApps.Plugins.Entities.Account.Account_Site_Post_Modes_Update, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7</PluginTypeName>
+  <PluginTypeId>66e2ac91-8720-4b83-81f4-c3bbb24d9c1b</PluginTypeId>
+  <PrimaryEntity>account</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>TC.PowerApps.Plugins.Entities.Account.Account_Site_Post_Modes_Update: Update of account</Description>
+  <FilteringAttributes>ovs_air,ovs_marine,ovs_address1_province,ovs_rail,ovs_road,address1_stateorprovince</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{0935cd9a-5192-ef11-8a69-002248b0d1c4}</SdkMessageProcessingStepImageId>
+      <Attributes>ovs_air,cid_handlingsitetype,cid_importingsitetype,ovs_marine,cid_offeringfortransportsitetype,ovs_address1_province,ovs_rail,customertypecode,ovs_road,address1_stateorprovince,cid_transportingsitetype</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

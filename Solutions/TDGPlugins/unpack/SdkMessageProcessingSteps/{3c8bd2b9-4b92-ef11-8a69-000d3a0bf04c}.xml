@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation: Update of account" SdkMessageProcessingStepId="{3c8bd2b9-4b92-ef11-8a69-000d3a0bf04c}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7</PluginTypeName>
+  <PluginTypeId>ad5e344f-f483-448d-b301-4aadfc27bc10</PluginTypeId>
+  <PrimaryEntity>account</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation: Update of account</Description>
+  <FilteringAttributes>cid_handlingsitetype,cid_importingsitetype,cid_offeringfortransportsitetype,cid_transportingsitetype</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{88734a3b-4d92-ef11-8a69-000d3a0bf04c}</SdkMessageProcessingStepImageId>
+      <Attributes>ovs_air,cid_handlingsitetype,cid_importingsitetype,ovs_marine,cid_offeringfortransportsitetype,ovs_address1_province,ovs_rail,customertypecode,ovs_road,address1_stateorprovince,cid_transportingsitetype</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{d2c7a51b-4c92-ef11-8a69-002248b0d1c4}</SdkMessageProcessingStepImageId>
+      <Attributes>cid_handlingsitetype,cid_importingsitetype,cid_offeringfortransportsitetype,cid_transportingsitetype</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>
