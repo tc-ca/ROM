@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{036381a1-e3e9-ee11-a203-002248adb34a}</WebResourceId>
+  <Name>ovs_safetydatasheetbuttons</Name>
+  <DisplayName>CRS Safety Data Sheet Buttons</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.160.36.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ovs_safetydatasheetbuttons036381A1-E3E9-EE11-A203-002248ADB34A</FileName>
+</WebResource>

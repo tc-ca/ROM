@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f9813d7a-892a-476d-b4d9-30abdf8de48e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{ca08cc53-f115-467b-825b-2fd987d21968}" IsUserDefined="1" name="{ca08cc53-f115-467b-825b-2fd987d21968}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{6c238182-d91b-4796-a39a-914618f719b3}" height="auto" name="{6c238182-d91b-4796-a39a-914618f719b3}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Support Request Meta-data" languagecode="1033" />
+                    <label description="Métadonnées de la demande d'assistance" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{68dfde64-fd60-47cf-a6fb-893f4eef23fa}" colspan="1" rowspan="1" showlabel="false" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{e44bbc5c-6652-2a07-bc51-035b61cbb350}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{49221250-1da4-4c80-a30e-63a4e9102861}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Support Request Outcome" languagecode="1033" />
+                          <label description="Résultats des demandes d'assistance" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_support_request_outcome" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_support_request_outcome" disabled="false" uniqueid="{95a054e5-c67e-b950-dae5-cab65438cc69}">
+                          <parameters>
+                            <DependentAttributeName>ovs_supportrequest.ovs_requesttype</DependentAttributeName>
+                            <DependentAttributeType>ovs_supportrequesttype</DependentAttributeType>
+                            <FilterRelationshipName>ovs_ovs_support_request_outcome_support_reque</FilterRelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65c537d3-4f65-4f3c-976f-db7450d18bc4}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Créé le" languagecode="1036" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" uniqueid="{d83bb2b6-b7a8-68b4-541e-37eedd649d01}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5da79a25-65c4-c408-7a1e-1e5a0d5b5175}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Closed Date" languagecode="1033" />
+                          <label description="Date de fermeture" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_closeddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ovs_closeddate" disabled="true" uniqueid="{a4d3b9b9-43cc-9c2d-c753-e2bdb6d0aaec}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{ca08cc53-f115-467b-825b-2fd987d21968}_section_4" showlabel="true" showbar="false" locklevel="0" id="{33286594-e5b1-6758-b625-9a861696bd49}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="User Information" languagecode="1033" />
+                    <label description="Informations de l'utilisateur" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6122624f-845c-4bcb-bdfc-11d01265cf99}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Created By External User" languagecode="1033" />
+                          <label description="Créé par un utilisateur externe" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_createdbyexternaluser" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_createdbyexternaluser" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f41a3207-30e9-4cdf-9d18-24fdce841881}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Preferred method of contact" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_preferredcontactmethod" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_preferredcontactmethod" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6bd328d-22a4-4cf5-a49e-d2844d6eed5f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact Email " languagecode="1033" />
+                          <label description="Courriel" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_contactemail" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_contactemail" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c01f1666-6300-48ec-9d78-8d0ad5e58ce5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact Phone Number" languagecode="1033" />
+                          <label description="Numéro de téléphone" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_contactphonenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_contactphonenumber" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{708b9261-a327-2799-5ecb-e5e741807756}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                          <label description="Créé par un utilisateur externe" languagecode="1036" />
+                        </labels>
+                        <control id="form_contact_qv" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_createdbyexternaluser" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;3d47917b-08fd-4df4-a600-1e212bc206c6&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3683f64-4f77-4f61-9af0-a0dc877bed1d}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Team Memo" languagecode="1033" />
+                          <label description="Mémo d'équipe" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_teammemo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_teammemo" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{ca08cc53-f115-467b-825b-2fd987d21968}_section_3" showlabel="true" showbar="false" locklevel="0" id="{b0cb0d8d-788a-b070-1046-0841d274765c}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Logic Check" languagecode="1033" />
+                    <label description="Vérification logique" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{41b60636-de69-de90-6a0e-7569146890dc}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="form_account_qv_1" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_company" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;86aebd38-52c5-4d4d-8f7d-9285f0783db4&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{14620682-3821-c150-aba8-64c232a0dc30}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="form_account_qv_2" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_company" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;50353244-df80-45fc-b9ef-46b29b42b4ce&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c530fee-513e-4862-8c6b-9d5fa481cadd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_company" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_company" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{276244ff-b549-4d80-b2e0-b294b8093c5b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d3e1bdc9-a53d-dceb-b92e-44b2e0b308e5}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Related Site" languagecode="1033" />
+                          <label description="Site associé" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_site" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_site" disabled="false" uniqueid="{b28b2a20-36da-6ba1-43ba-530a4547162a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{ca08cc53-f115-467b-825b-2fd987d21968}_section_2" showlabel="true" showbar="false" locklevel="0" id="{76ead0e0-e6d3-1e3d-246b-84d3aec195c9}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Support Request Details" languagecode="1033" />
+                    <label description="Détails de la demande de soutien" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3594b4af-e626-4c2f-bb08-dbaa28f62342}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Service" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_service" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_service" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e35c51de-5594-442e-b79f-be63d2ee92fb}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Request Type" languagecode="1033" />
+                          <label description="Type de requête" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_requesttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_requesttype" disabled="false" uniqueid="{54ae5ecc-c894-305b-3bee-e9945acad7d3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{DAF40171-1972-4DC0-B43C-8DD1E4F6C7EB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c8af400-46cf-4ad8-9cb6-2fca8cd05e02}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                          <label description="Priorité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_priority" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_priority" disabled="false" uniqueid="{01e6dc3e-9d32-3e7d-a036-05e82d9a459d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ef8beff-dd2c-4002-802a-026d214406c8}" locklevel="0" colspan="1" rowspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Request Details" languagecode="1033" />
+                          <label description="Détails de la requête" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_requestdetails" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_requestdetails" disabled="false" uniqueid="{7e1a47e6-a8d2-4fb5-9053-1004869f0db2}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{ca08cc53-f115-467b-825b-2fd987d21968}_section_5" showlabel="false" showbar="false" locklevel="0" id="{175d9790-0469-98c1-4125-71e3b91e2302}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Timeline" languagecode="1033" />
+                    <label description="Calendrier" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e1d6d213-a73b-0eb5-ac31-4944a37962ab}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{b0993d0b-e7c8-435d-9b76-4b44349cfcfc}" rowspan="15" colspan="1">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Texte de la note" languagecode="1036" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2070258a-ba3d-42e8-9d50-e76e0d2d5d74}" celllabelposition="Top" columns="1111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell locklevel="0" id="{fa71f487-3716-488f-9baf-472e4e1d15fa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cbd87ca0-3489-073d-b608-dc8dd4776321}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ad3297d6-3319-6617-5b5b-d46819174328}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{6cd03c00-41b5-6820-71dc-66820a448d42}" />
+            </cell>
+            <cell id="{905b12ad-c1a5-836c-9c2c-db6d9be67d3a}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Activity Status" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" uniqueid="{1887c773-3c83-d925-6832-9a3a98a78bb3}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4a3a94fc-9baa-42a3-a4d3-4c34e146193f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c742ecd8-b3c9-444a-a28a-f28afa73b4a6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{61c35eb4-f46e-4bee-9215-e3a5ef3f1e18}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{01c582d8-b892-4a69-9a28-fdf21e6f2426}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{7e1a47e6-a8d2-4fb5-9053-1004869f0db2}">
+          <customControl id="{E0DECE4B-6FC8-4A8F-A065-082708572369}">
+            <parameters>
+              <datafieldname>ovs_requestdetails</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>ovs_requestdetails</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>ovs_requestdetails</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value>ovs_requestdetails</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="ovs_Support_Request_JS" libraryUniqueId="{a92487bd-9306-3460-db07-835976d6ee32}" />
+      </formLibraries>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="setInUseLocDisplayName" libraryName="ovs_Support_Request_JS" handlerUniqueId="{634b9518-054d-4933-8d45-bc0170ade861}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="display_Legalname_CompanyLoolkup" libraryName="ovs_Support_Request_JS" handlerUniqueId="{13e6dc97-9a95-4567-a61b-2dfecc1fb092}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="display_SiteID" libraryName="ovs_Support_Request_JS" handlerUniqueId="{6605f39b-3390-4e8c-a2d7-04533799d4be}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Un formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

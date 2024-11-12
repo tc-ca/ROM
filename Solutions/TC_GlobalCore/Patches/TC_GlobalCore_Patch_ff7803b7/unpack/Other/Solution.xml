@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24104.176" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24104.176" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24104.00176">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_ff7803b7</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.166.16.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_supportrequest" behavior="1" />
+      <RootComponent type="61" schemaName="ovs_/RenderBlobFile.html" behavior="0" />
+      <RootComponent type="61" schemaName="ovs_safetydatasheetbuttons" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequest" displayName="Support Request" solution="Active" />
+        <Dependent type="1" schemaName="ovs_supportrequest" displayName="Support Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequesttype" displayName="Support Request Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_BillingAccount" displayName="msdyn_account_msdyn_agreement_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_ServiceAccount" displayName="msdyn_account_msdyn_agreement_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_payment_Account" displayName="msdyn_account_msdyn_payment_Account" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_BillingAccount" displayName="msdyn_account_msdyn_rma_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_ServiceAccount" displayName="msdyn_account_msdyn_rma_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rtv_Vendor" displayName="msdyn_account_msdyn_rtv_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_MOCRegistration_Site" displayName="ovs_MOCRegistration_Site" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_Company_account" displayName="ovs_ovs_supportrequest_Company_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_Site_account" displayName="ovs_ovs_supportrequest_Site_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_CreatedByExternalUser_" displayName="ovs_ovs_supportrequest_CreatedByExternalUser_" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.6)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package>msdynce_ServiceAnchor (9.0.24102.1002)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_service_ovs_SupportRequest" displayName="ovs_service_ovs_SupportRequest" parentSchemaName="ovs_service" parentDisplayName="Service" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_support_request_outcom" displayName="ovs_ovs_supportrequest_support_request_outcom" parentSchemaName="ovs_support_request_outcome" parentDisplayName="Support Request Outcome" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_support_request_outcome_support_reque" displayName="ovs_ovs_support_request_outcome_support_reque" parentSchemaName="ovs_supportrequesttype" parentDisplayName="Support Request Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_RequestType_ovs_suppor" displayName="ovs_ovs_supportrequest_RequestType_ovs_suppor" parentSchemaName="ovs_supportrequesttype" parentDisplayName="Support Request Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_handlingsitetype" displayName="Handle" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_importingsitetype" displayName="Import" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_offeringfortransportsitetype" displayName="Offer for Transport" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_transportingsitetype" displayName="Transport" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_accountnameenglish" displayName="Account Name (English)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_accountnamefrench" displayName="Account Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_address_type" displayName="Input Address Type" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdpopulationdensity" displayName="Population Density" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.24104.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_closeddate" displayName="Closed Date" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_company" displayName="Organization" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_contactemail" displayName="Contact Email " parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_contactphonenumber" displayName="Contact Phone Number" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_createdbyexternaluser" displayName="Created By External User" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_preferredcontactmethod" displayName="Preferred method of contact" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_priority" displayName="Priority" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_requestdetails" displayName="Request Details" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_requesttype" displayName="Request Type" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_service" displayName="Service" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_site" displayName="Site" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_support_request_outcome" displayName="Support Request Outcome" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Stakeholder Management User" solution="Active" id="{682094a5-178a-ee11-8179-000d3af35f84}" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Parent Lookup View" displayName="Parent Lookup View" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{80d24aa0-2b6c-ed11-81ac-0022483d0343}" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Operations" displayName="Active Operations" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{98c7fee1-1d9f-4226-89bb-26e6be7057f8}" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Associated Operations" displayName="Site Associated Operations" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{a6fbfbaa-153c-ec11-8c62-0022483d71b4}" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}">
+          <package>msdynce_AppCommonAnchor (9.0.24102.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Support Request Type Lookup View" displayName="Support Request Type Lookup View" parentSchemaName="ovs_supportrequesttype" parentDisplayName="Support Request Type" solution="Active" id="{daf40171-1972-4dc0-b43c-8dd1e4f6c7eb}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CID - Contact Quick View" parentDisplayName="Contact" solution="Active" id="{3d47917b-08fd-4df4-a600-1e212bc206c6}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CID - Quick View 2" parentDisplayName="Account" solution="Active" id="{50353244-df80-45fc-b9ef-46b29b42b4ce}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CID - Quick View 1" parentDisplayName="Account" solution="Active" id="{86aebd38-52c5-4d4d-8f7d-9285f0783db4}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Account/Account.Library.js" displayName="msdyn_/Account/Account.Library.js" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Utils/FieldServiceTrial.js" displayName="msdyn_/Utils/FieldServiceTrial.js" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_CRS_account_site.js" displayName="ovs_CRS_account_site.js" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_Support_Request_JS" displayName="ovs_Support_Request_JS" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="fdn_Canadapost.addressComplete" displayName="fdn_Canadapost.addressComplete" solution="CanadaPostAddressComplete (6.0)" />
+        <Dependent type="60" displayName="CRS Site Profile" parentDisplayName="Account" id="{a337ae25-a663-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RichTextEditor.RichTextEditorControl" displayName="MscrmControls.RichTextEditor.RichTextEditorControl" solution="msdyn_RichTextEditor (1.0.0.4125)">
+          <package>msdyn_TimelineExtended (1.0.0.1558)</package>
+          <package>msdynce_EnableUCIByDefault (9.0.1.1996)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Support Request" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

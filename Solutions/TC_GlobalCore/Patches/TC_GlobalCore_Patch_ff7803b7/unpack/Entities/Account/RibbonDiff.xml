@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="cid.Mscrm.SubGrid.account.AddExistingStandard.CustomAction" Location="Mscrm.SubGrid.account.MainTab.Management.Controls._children" Sequence="30">
+      <CommandUIDefinition>
+        <Button Alt="$Resources(EntityDisplayName):Ribbon.SubGrid.AddExisting" Command="Mscrm.AddExistingRecordFromSubGridStandard" Id="Mscrm.SubGrid.account.AddExistingStandard" Image32by32="/_imgs/ribbon/AddExistingStandard_32.png" Image16by16="/_imgs/ribbon/AddExistingStandard_16.png" LabelText="$LocLabels:Mscrm.SubGrid.account.AddExistingStandard.LabelText" Sequence="30" TemplateAlias="o1" ToolTipTitle="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddExistingStandard_ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddExistingStandard_ToolTipDescription" ModernImage="AddExisting" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button11.Button.Mscrm.HomepageGrid.account.Send.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="36">
+      <CommandUIDefinition>
+        <SplitButton Command="Mscrm.SendShortcutSelected.AlwaysEnabled" Id="ovs.account.Button11.Button.Mscrm.HomepageGrid.account.Send" Image32by32="/_imgs/ribbon/SendShortcut_32.png" Image16by16="/_imgs/ribbon/EmailLink_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" Sequence="36" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" ToolTipDescription="$Resources:Mscrm_HomepageGrid_Other_MainTab_ExportData_Send_ToolTipDescription" ModernImage="EmailLink">
+          <Menu Id="ovs.account.Button11.Button.Mscrm.HomepageGrid.account.Send.Menu">
+            <MenuSection Id="ovs.account.Section16.Section" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ovs.account.Section16.Section.Controls">
+                <Button Command="Mscrm.SendShortcutSelected" Id="ovs.account.Button12.Button.Mscrm.HomepageGrid.account.Send.Selected" Image32by32="/_imgs/ribbon/SendShortcut_32.png" Image16by16="/_imgs/ribbon/EmailLink_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Selected" Sequence="8" TemplateAlias="o3" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Selected" ToolTipDescription="$Resources:Ribbon.Tooltip.SendShortcut" ModernImage="EmailLink" />
+                <Button Command="Mscrm.SendShortcutView" Id="ovs.account.Button17.Button.Mscrm.HomepageGrid.account.Send.View" Image32by32="/_imgs/ribbon/SendView_32.png" Image16by16="/_imgs/ribbon/SendView_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.View" Sequence="10" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.View" ToolTipDescription="$Resources:Ribbon.Tooltip.SendShortcut_View" ModernImage="EmailLink" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button19.Button.Mscrm.HomepageGrid.account.DeleteMenu.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="24">
+      <CommandUIDefinition>
+        <SplitButton Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.HomepageGrid.DeleteSplitButtonCommand" Id="ovs.account.Button19.Button.Mscrm.HomepageGrid.account.DeleteMenu" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/Delete_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="24" TemplateAlias="o1" ToolTipTitle="$Resources:Mscrm_HomepageGrid_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.HomepageGrid.Tooltip.Delete" ModernImage="Remove">
+          <Menu Id="ovs.account.Button19.Button.Mscrm.HomepageGrid.account.DeleteMenu.Menu">
+            <MenuSection Id="ovs.account.Section20.Section" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ovs.account.Section20.Section.Controls">
+                <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.DeleteSelectedRecord" Id="ovs.account.Button21.Button.Mscrm.HomepageGrid.account.Delete" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/Delete_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="10" TemplateAlias="o2" ToolTipTitle="$Resources:Mscrm_HomepageGrid_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.HomepageGrid.Tooltip.Delete" ModernImage="Remove" />
+                <Button Command="Mscrm.HomepageGrid.BulkDelete" Id="ovs.account.Button22.Button.Mscrm.HomepageGrid.account.BulkDelete" Image32by32="/_imgs/ribbon/BulkDeleteWizard_32.png" Image16by16="/_imgs/ribbon/BulkDelete_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.BulkDelete" Sequence="15" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Management.BulkDelete" ToolTipDescription="$Resources:Ribbon.HomepageGrid.MainTab.Management.BulkDelete.TooltipDescription" />
+              </Controls>
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button2.Button.Mscrm.HomepageGrid.account.RefreshModernButton.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="23">
+      <CommandUIDefinition>
+        <Button Command="Mscrm.Modern.refreshCommand" Id="ovs.account.Button2.Button.Mscrm.HomepageGrid.account.RefreshModernButton" LabelText="$LocLabels:ovs.account.Button2.Button.Mscrm.HomepageGrid.account.RefreshModernButton.LabelText" Sequence="23" TemplateAlias="o1" ToolTipTitle="$Resources:MobileClient.Commands.Refresh" ModernImage="Refresh" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button23.Button.Mscrm.HomepageGrid.account.Edit.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="10">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Edit" Command="Mscrm.EditSelectedRecord" Id="ovs.account.Button23.Button.Mscrm.HomepageGrid.account.Edit" Image32by32="/_imgs/ribbon/edit32.png" Image16by16="/_imgs/ribbon/Edit_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Edit" Sequence="10" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Management.Edit" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.Edit" ModernImage="Edit" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button24.Button.Mscrm.Form.account.RefreshModernButton.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="49">
+      <CommandUIDefinition>
+        <Button Command="Mscrm.Modern.refreshCommand" Id="ovs.account.Button24.Button.Mscrm.Form.account.RefreshModernButton" LabelText="$Resources:MobileClient.Commands.Refresh" Sequence="49" TemplateAlias="o1" ToolTipTitle="$Resources:MobileClient.Commands.Refresh" ModernImage="Refresh" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button25.Button.Mscrm.Form.account.Deactivate.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="51">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" Command="Mscrm.Form.Deactivate" Id="ovs.account.Button25.Button.Mscrm.Form.account.Deactivate" Image32by32="/_imgs/ribbon/Deactivate_32.png" Image16by16="/_imgs/ribbon/Deactivate_16.png" LabelText="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" Sequence="51" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Deactivate" ModernImage="DeActivate" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button26.Button.Mscrm.Form.account.Assign.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="62">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Assign" Command="Mscrm.AssignPrimaryRecord" Id="ovs.account.Button26.Button.Mscrm.Form.account.Assign" Image32by32="/_imgs/ribbon/Assign_32.png" Image16by16="/_imgs/ribbon/Assign_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Assign" Sequence="62" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Assign" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Assign" ModernImage="Assign" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button27.Button.Mscrm.Form.account.SendSelected.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="64">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" Command="Mscrm.SendShortcutPrimary" Id="ovs.account.Button27.Button.Mscrm.Form.account.SendSelected" Image32by32="/_imgs/ribbon/SendShortcut_32.png" Image16by16="/_imgs/ribbon/SendShortcut_16.png" LabelText="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" Sequence="64" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Record.Shortcut.Send" ToolTipDescription="$Resources:Ribbon.Tooltip.SendShortcut" ModernImage="EmailLink" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button28.Button.Mscrm.Form.account.Permissions.Sharing.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="65">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Sharing" Command="Mscrm.SharePrimaryRecordRefresh" Id="ovs.account.Button28.Button.Mscrm.Form.account.Permissions.Sharing" Image32by32="/_imgs/ribbon/Sharing_32.png" Image16by16="/_imgs/ribbon/Sharing_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Sharing" Sequence="65" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Sharing" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Share" ModernImage="Share" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="66">
+      <CommandUIDefinition>
+        <Button Command="Mscrm.Form.FollowCommand" Id="ovs.account.Button29.Button.Mscrm.Form.account.FollowButton" Image32by32="/_imgs/ribbon/Entity32_8003.png" Image16by16="/_imgs/ribbon/Entity16_8003.png" LabelText="$LocLabels:ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.LabelText" Sequence="66" TemplateAlias="o1" ToolTipTitle="$LocLabels:ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.ToolTipDescription" ModernImage="RatingEmpty" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button30.Button.AccessChecker.OpenDialog.account.Button.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Command="AccessChecker.OpenDialogCommand" Id="ovs.account.Button30.Button.AccessChecker.OpenDialog.account.Button" Sequence="63" TemplateAlias="o1" ModernImage="$webresource:accessChecker_icon" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="69">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.Alt" Command="LinkedInExtensions.ViewOrgChart" Id="ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart" LabelText="$LocLabels:ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.LabelText" Sequence="69" TemplateAlias="o1" ToolTipTitle="$LocLabels:ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.ToolTipDescription" ModernImage="Drilldown" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button32.Button.Mscrm.Form.account.AddToList.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="68">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.account.Button32.Button.Mscrm.Form.account.AddToList.Alt" Command="Mscrm.AddPrimaryToMarketingList" Id="ovs.account.Button32.Button.Mscrm.Form.account.AddToList" Image32by32="$webresource:Marketing/_images/ribbon/AddToMarketingList_32.png" Image16by16="$webresource:Marketing/_images/ribbon/AddToMarketingList_16.png" LabelText="$LocLabels:ovs.account.Button32.Button.Mscrm.Form.account.AddToList.LabelText" Sequence="68" TemplateAlias="o1" ToolTipTitle="$LocLabels:ovs.account.Button32.Button.Mscrm.Form.account.AddToList.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.account.Button32.Button.Mscrm.Form.account.AddToList.ToolTipDescription" ModernImage="BulletListAdd" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button33.Button.Mscrm.Form.account.Delete.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="67">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.DeletePrimaryRecord" Id="ovs.account.Button33.Button.Mscrm.Form.account.Delete" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/delete16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="67" TemplateAlias="o1" ToolTipTitle="$Resources:Mscrm_Form_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Delete" ModernImage="Remove" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.CustomAction" Location="Mscrm.SubGrid.account.MainTab.Management.Controls._children" Sequence="0">
+      <CommandUIDefinition>
+        <Button Alt="$Resources(EntityDisplayName):Ribbon.SubGrid.AddNew" Command="Mscrm.AddNewRecordFromSubGridStandard" Id="ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.LabelText" Sequence="0" TemplateAlias="o1" ToolTipTitle="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipDescription" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button37.Button.Form.account.CustomDeactivate.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="50">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" Command="ovs.account.Command.Form.Deactivate" Id="ovs.account.Button37.Button.Form.account.CustomDeactivate" Image32by32="/_imgs/ribbon/Deactivate_32.png" Image16by16="/_imgs/ribbon/Deactivate_16.png" LabelText="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" Sequence="50" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" ToolTipDescription="$LocLabels:ovs.account.Button37.Button.Form.account.CustomDeactivate.ToolTipDescription" ModernImage="DeActivate" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button4.Button.Mscrm.HomepageGrid.account.Deactivate.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="28">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" Command="Mscrm.HomepageGrid.Deactivate" Id="ovs.account.Button4.Button.Mscrm.HomepageGrid.account.Deactivate" Image32by32="/_imgs/ribbon/Deactivate_32.png" Image16by16="/_imgs/ribbon/Deactivate_16.png" LabelText="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" Sequence="28" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.account.Record.Status.Deactivate" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Deactivate" ModernImage="DeActivate" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button6.Button.Mscrm.HomepageGrid.account.Sharing.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="33">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Sharing" Command="Mscrm.ShareSelectedRecord" Id="ovs.account.Button6.Button.Mscrm.HomepageGrid.account.Sharing" Image32by32="/_imgs/ribbon/Sharing_32.png" Image16by16="/_imgs/ribbon/Share_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Sharing" Sequence="33" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Sharing" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Share" ModernImage="Share" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="40">
+      <CommandUIDefinition>
+        <Button Command="Mscrm.HomepageGrid.FollowCommand" Id="ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton" Image32by32="/_imgs/ribbon/Entity32_8003.png" Image16by16="/_imgs/ribbon/Entity16_8003.png" LabelText="$LocLabels:ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.LabelText" Sequence="40" TemplateAlias="o2" ToolTipTitle="$LocLabels:ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.ToolTipDescription" ModernImage="RatingEmpty" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cid.ovs.account.Button9.Button.Mscrm.HomepageGrid.account.Assign.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Assign" Command="Mscrm.AssignSelectedRecord" Id="ovs.account.Button9.Button.Mscrm.HomepageGrid.account.Assign" Image32by32="/_imgs/ribbon/Assign_32.png" Image16by16="/_imgs/ribbon/Assign_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Assign" Sequence="45" TemplateAlias="o2" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.Actions.Assign" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Assign" ModernImage="Assign" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="fdr.Mscrm.HomepageGrid.account.FollowButton.Hide" Location="Mscrm.HomepageGrid.account.FollowButton" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.AddToList.Hide" Location="Mscrm.Form.account.AddToList" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.Assign.Hide" Location="Mscrm.Form.account.Assign" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.Deactivate.Hide" Location="Mscrm.Form.account.Deactivate" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.Delete.Hide" Location="Mscrm.Form.account.Delete" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.FollowButton.Hide" Location="Mscrm.Form.account.FollowButton" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.Permissions.Sharing.Hide" Location="Mscrm.Form.account.Permissions.Sharing" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.RefreshModernButton.Hide" Location="Mscrm.Form.account.RefreshModernButton" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.SendSelected.Hide" Location="Mscrm.Form.account.SendSelected" />
+    <HideCustomAction HideActionId="ovs.Mscrm.Form.account.ViewOrgChart.Hide" Location="Mscrm.Form.account.ViewOrgChart" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.Assign.Hide" Location="Mscrm.HomepageGrid.account.Assign" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.Deactivate.Hide" Location="Mscrm.HomepageGrid.account.Deactivate" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.DeleteMenu.Hide" Location="Mscrm.HomepageGrid.account.DeleteMenu" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.Edit.Hide" Location="Mscrm.HomepageGrid.account.Edit" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.RefreshModernButton.Hide" Location="Mscrm.HomepageGrid.account.RefreshModernButton" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.Send.Hide" Location="Mscrm.HomepageGrid.account.Send" />
+    <HideCustomAction HideActionId="ovs.Mscrm.HomepageGrid.account.Sharing.Hide" Location="Mscrm.HomepageGrid.account.Sharing" />
+    <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.account.AddNewStandard.Hide" Location="Mscrm.SubGrid.account.AddNewStandard" />
+    <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.account.Deactivate.Hide" Location="Mscrm.SubGrid.account.Deactivate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.AddNewRecordFromSubGridStandard">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.account.DisplayRule0.HideAddNewSubGridStandardWhenOnAccount" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Open.addNewFromSubGridStandard" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryControl" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.Form.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.CanWritePrimary" />
+        <EnableRule Id="ovs.account.EnableRule.HideOOBDeactivationButton" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWritePrimary" />
+        <DisplayRule Id="Mscrm.PrimaryIsActive" />
+        <DisplayRule Id="Mscrm.PrimaryEntityHasStatecode" />
+        <DisplayRule Id="Mscrm.PrimaryIsNotActivity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Mscrm.CommandBarActions.changeState" Library="/_static/_common/scripts/CommandBarActions.js">
+          <StringParameter Value="deactivate" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.HomepageGrid.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+        <EnableRule Id="ovs.account.EnableRule.HideOOBDeactivationButton" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWriteSelected" />
+        <DisplayRule Id="Mscrm.SelectedEntityHasStatecode" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Deactivate.deactivateRecords" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.account.Button41.Button.ovs.account.Button4.Button.Mscrm.HomepageGrid.account.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+        <EnableRule Id="ovs.account.EnableRule.Custom_Security Role_TDG_QA" />
+        <EnableRule Id="ovs.account.EnableRule.HomePageGreed.IsActiveWO" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWriteSelected" />
+        <DisplayRule Id="Mscrm.SelectedEntityHasStatecode" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Deactivate.deactivateRecords" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.account.Command.Form.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.CanWritePrimary" />
+        <EnableRule Id="ovs.account.EnableRule.Custom_Security Role_TDG_QA" />
+        <EnableRule Id="ovs.account.EnableRule.IsActiveWO" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWritePrimary" />
+        <DisplayRule Id="Mscrm.PrimaryIsActive" />
+        <DisplayRule Id="Mscrm.PrimaryEntityHasStatecode" />
+        <DisplayRule Id="Mscrm.PrimaryIsNotActivity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="AccountRibbon.overridedeactivatebtn" Library="$webresource:ovs_AccountTDG_Ribbons.js">
+          <StringParameter Value="deactivate" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="Mscrm.CanWritePrimary">
+        <EntityPrivilegeRule PrivilegeType="Write" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.CanWriteSelected">
+        <EntityPrivilegeRule PrivilegeType="Write" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.PrimaryEntityHasStatecode">
+        <EntityPropertyRule AppliesTo="PrimaryEntity" PropertyName="HasStateCode" PropertyValue="true" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.PrimaryIsActive">
+        <FormStateRule State="Existing" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.PrimaryIsNotActivity">
+        <EntityPropertyRule AppliesTo="PrimaryEntity" PropertyName="IsActivity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.SelectedEntityHasStatecode">
+        <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="HasStateCode" PropertyValue="true" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.account.DisplayRule0.HideAddNewSubGridStandardWhenOnAccount">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="true" InvertResult="false" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="Mscrm.AppendToPrimary">
+        <RecordPrivilegeRule PrivilegeType="AppendTo" AppliesTo="PrimaryEntity" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.CanWritePrimary">
+        <RecordPrivilegeRule PrivilegeType="Write" AppliesTo="PrimaryEntity" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.EntityFormIsEnabled">
+        <FormStateRule State="Disabled" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline">
+        <CustomRule FunctionName="XrmCore.Rules.Online.IsEntityAvailableForUserInMocaOffline" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.SelectionCountAtLeastOne">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.VisualizationPaneNotMaximized">
+        <OrRule>
+          <Or>
+            <CommandClientTypeRule Type="Modern" />
+          </Or>
+          <Or>
+            <CustomRule FunctionName="Mscrm.GridCommandActions.disableButtonsWhenChartMaximized" Library="/_static/_common/scripts/CommandBarActions.js">
+              <CrmParameter Value="SelectedControl" />
+            </CustomRule>
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="ovs.account.EnableRule.Custom_Security Role_TDG_QA">
+        <FormStateRule State="Existing" Default="false" />
+        <CustomRule FunctionName="AccountRibbon.isTDG_QA" Library="$webresource:ovs_AccountTDG_Ribbons.js" Default="false">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ovs.account.EnableRule.HideOOBDeactivationButton">
+        <CustomRule FunctionName="HideOOBDeactivationButton" Library="$webresource:ovs_AccountTDG_Ribbons.js" Default="false">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ovs.account.EnableRule.HomePageGreed.IsActiveWO">
+        <FormStateRule State="Existing" Default="false" />
+        <CustomRule FunctionName="AccountRibbon.isActiveWorkOrder" Library="$webresource:ovs_AccountTDG_Ribbons.js" Default="true" InvertResult="false">
+          <CrmParameter Value="SelectedControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ovs.account.EnableRule.IsActiveWO">
+        <FormStateRule State="Existing" Default="false" />
+        <CustomRule FunctionName="AccountRibbon.isActiveWorkOrder" Library="$webresource:ovs_AccountTDG_Ribbons.js" Default="false">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="FieldService.HomepageGrid.account.MainTab.HomeLocationGroup.DescriptionText">
+      <Titles>
+        <Title languagecode="1033" description="Home Location Group" />
+        <Title languagecode="1025" description="مجموعة الموقع الرئيسي" />
+        <Title languagecode="1026" description="Група по начално местоположение" />
+        <Title languagecode="1027" description="Grup d'ubicacions d'inici" />
+        <Title languagecode="1029" description="Skupina domovských poloh" />
+        <Title languagecode="1030" description="Privat placeringsgruppe" />
+        <Title languagecode="1031" description="Wohnortgruppe" />
+        <Title languagecode="1032" description="Οικιακή ομάδα θέσεων" />
+        <Title languagecode="3082" description="Grupo de ubicaciones principales" />
+        <Title languagecode="1061" description="Algasukoharühm" />
+        <Title languagecode="1069" description="Etxeko kokaleku multzoa" />
+        <Title languagecode="1035" description="Kodin sijaintiryhmä" />
+        <Title languagecode="1036" description="Groupe d’emplacement d’accueil" />
+        <Title languagecode="1110" description="Grupo de localizacións de inicio" />
+        <Title languagecode="1037" description="קבוצת מיקומי בית" />
+        <Title languagecode="1081" description="गृह स्थान समूह" />
+        <Title languagecode="1050" description="Početna grupa mjesta" />
+        <Title languagecode="1038" description="Lakóhelycsoport" />
+        <Title languagecode="1057" description="Grup Lokasi Rumah" />
+        <Title languagecode="1040" description="Gruppo di località home" />
+        <Title languagecode="1041" description="ホーム場所グループ" />
+        <Title languagecode="1087" description="Бастапқы орын тобы" />
+        <Title languagecode="1042" description="홈 위치 그룹" />
+        <Title languagecode="1063" description="Pagrindinių vietų grupė" />
+        <Title languagecode="1062" description="Mītnes atrašanās vietas grupa" />
+        <Title languagecode="1086" description="Kumpulan Lokasi Utama" />
+        <Title languagecode="1044" description="Hjemmestedsgruppe" />
+        <Title languagecode="1043" description="Thuislocatiegroep" />
+        <Title languagecode="1045" description="Grupa lokalizacji głównych" />
+        <Title languagecode="1046" description="Grupo do Local de Residência" />
+        <Title languagecode="2070" description="Grupo de Localizações Principais" />
+        <Title languagecode="1048" description="Grup de locații pornire" />
+        <Title languagecode="1049" description="Группа домашнего расположения" />
+        <Title languagecode="1051" description="Skupina domácich umiestnení" />
+        <Title languagecode="1060" description="Skupina domačih lokacij" />
+        <Title languagecode="3098" description="Основна група локација" />
+        <Title languagecode="2074" description="Osnovna grupa lokacija" />
+        <Title languagecode="1053" description="Hemplatsgrupp" />
+        <Title languagecode="1054" description="กลุ่มตำแหน่งที่ตั้งที่บ้าน" />
+        <Title languagecode="1055" description="Ev Konumu Grubu" />
+        <Title languagecode="1058" description="Домашня група розташувань" />
+        <Title languagecode="1066" description="Nhóm Vị trí Trang chủ" />
+        <Title languagecode="2052" description="起始位置组" />
+        <Title languagecode="3076" description="住家地點群組" />
+        <Title languagecode="1028" description="住家地點群組" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldService.HomepageGrid.account.MainTab.HomeLocationGroup.DescriptionText">
+      <Titles>
+        <Title languagecode="1033" description="Home Location Group" />
+        <Title languagecode="1025" description="مجموعة الموقع الرئيسي" />
+        <Title languagecode="1026" description="Група по начално местоположение" />
+        <Title languagecode="1027" description="Grup d'ubicacions d'inici" />
+        <Title languagecode="1029" description="Skupina domovských poloh" />
+        <Title languagecode="1030" description="Privat placeringsgruppe" />
+        <Title languagecode="1031" description="Wohnortgruppe" />
+        <Title languagecode="1032" description="Οικιακή ομάδα θέσεων" />
+        <Title languagecode="3082" description="Grupo de ubicaciones principales" />
+        <Title languagecode="1061" description="Algasukoharühm" />
+        <Title languagecode="1069" description="Etxeko kokaleku multzoa" />
+        <Title languagecode="1035" description="Kodin sijaintiryhmä" />
+        <Title languagecode="1036" description="Groupe d’emplacement d’accueil" />
+        <Title languagecode="1110" description="Grupo de localizacións de inicio" />
+        <Title languagecode="1037" description="קבוצת מיקומי בית" />
+        <Title languagecode="1081" description="गृह स्थान समूह" />
+        <Title languagecode="1050" description="Početna grupa mjesta" />
+        <Title languagecode="1038" description="Lakóhelycsoport" />
+        <Title languagecode="1057" description="Grup Lokasi Rumah" />
+        <Title languagecode="1040" description="Gruppo di località home" />
+        <Title languagecode="1041" description="ホーム場所グループ" />
+        <Title languagecode="1087" description="Бастапқы орын тобы" />
+        <Title languagecode="1042" description="홈 위치 그룹" />
+        <Title languagecode="1063" description="Pagrindinių vietų grupė" />
+        <Title languagecode="1062" description="Mītnes atrašanās vietas grupa" />
+        <Title languagecode="1086" description="Kumpulan Lokasi Utama" />
+        <Title languagecode="1044" description="Hjemmestedsgruppe" />
+        <Title languagecode="1043" description="Thuislocatiegroep" />
+        <Title languagecode="1045" description="Grupa lokalizacji głównych" />
+        <Title languagecode="1046" description="Grupo do Local de Residência" />
+        <Title languagecode="2070" description="Grupo de Localizações Principais" />
+        <Title languagecode="1048" description="Grup de locații pornire" />
+        <Title languagecode="1049" description="Группа домашнего расположения" />
+        <Title languagecode="1051" description="Skupina domácich umiestnení" />
+        <Title languagecode="1060" description="Skupina domačih lokacij" />
+        <Title languagecode="3098" description="Основна група локација" />
+        <Title languagecode="2074" description="Osnovna grupa lokacija" />
+        <Title languagecode="1053" description="Hemplatsgrupp" />
+        <Title languagecode="1054" description="กลุ่มตำแหน่งที่ตั้งที่บ้าน" />
+        <Title languagecode="1055" description="Ev Konumu Grubu" />
+        <Title languagecode="1058" description="Домашня група розташувань" />
+        <Title languagecode="1066" description="Nhóm Vị trí Trang chủ" />
+        <Title languagecode="2052" description="起始位置组" />
+        <Title languagecode="3076" description="住家地點群組" />
+        <Title languagecode="1028" description="住家地點群組" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldServiceFieldService.Form.account.MainTab.LocationGroup.B_buttonGeoCode.Description">
+      <Titles>
+        <Title languagecode="1033" description="Get Geo Codes (Latitude and Longitude) for address" />
+        <Title languagecode="1025" description="الحصول على الرموز الجغرافية (خط العرض وخط الطول) للعنوان" />
+        <Title languagecode="1026" description="Получаване на геокодове (географска ширина и географска дължина) за адрес" />
+        <Title languagecode="1027" description="Obtén codis geogràfics (latitud i longitud) de l'adreça" />
+        <Title languagecode="1029" description="Získá geokódy (zeměpisnou šířku a délku) pro adresu." />
+        <Title languagecode="1030" description="Hent geokoder (breddegrad og længdegrad) til adresse" />
+        <Title languagecode="1031" description="Geocodes (Breiten- und Längengrad) für Adresse abrufen" />
+        <Title languagecode="1032" description="Λήψη γεωγραφικών κωδικών (Γεωγραφικό πλάτος και Γεωγραφικό μήκος) για τη διεύθυνση" />
+        <Title languagecode="3082" description="Obtener códigos geográficos (latitud y longitud) de dirección" />
+        <Title languagecode="1061" description="Aadressi geokoodide (laius- ja pikkuskraadi) hankimine" />
+        <Title languagecode="1069" description="Lortu helbidearen kode geografikoak (latitudea eta longitudea)" />
+        <Title languagecode="1035" description="Hae maantieteelliset koodit (leveys- ja pituusaste)" />
+        <Title languagecode="1036" description="Obtenir les codes géographiques (latitude et longitude) pour l’adresse" />
+        <Title languagecode="1110" description="Obter códigos xeográficos (latitude e lonxitude) para o enderezo" />
+        <Title languagecode="1037" description="קבל קודים גיאוגרפיים (קו רוחב וקו אורך) עבור הכתובת" />
+        <Title languagecode="1081" description="पते के लिए जियो कोड (अक्षांश और देशांतर) प्राप्त करें" />
+        <Title languagecode="1050" description="Preuzmite geografske kodove (zemljopisna dužina i širina) za adresu" />
+        <Title languagecode="1038" description="A cím földrajzi koordinátáinak (szélesség, hosszúság) meghatározása" />
+        <Title languagecode="1057" description="Dapatkan Kode Geografis (Garis Lintang dan Garis Bujur) untuk alamat" />
+        <Title languagecode="1040" description="Codici geografici (latitudine e longitudine) per l'indirizzo" />
+        <Title languagecode="1041" description="住所のジオコード (緯度と経度) の取得" />
+        <Title languagecode="1087" description="Мекенжайларға гео кодтарды (ендік пен бойлық) алу" />
+        <Title languagecode="1042" description="주소의 지역 코드(위도 및 경도) 가져오기" />
+        <Title languagecode="1063" description="Gauti adreso geokodus (platumą ir ilgumą)" />
+        <Title languagecode="1062" description="Iegūt adreses ǵeokodus (koordinātas)" />
+        <Title languagecode="1086" description="Dapatkan Kod Geo (Latitud dan Longitud) bagi alamat" />
+        <Title languagecode="1044" description="Hent geokoder (breddegrad og lengdegrad) for adresse" />
+        <Title languagecode="1043" description="Geocodes (breedte- en lengtegraad) ophalen voor adres" />
+        <Title languagecode="1045" description="Pobieranie geokodów (długości i szerokości geograficznej) dla adresu" />
+        <Title languagecode="1046" description="Obter Geocódigos (latitude e longitude) do endereço" />
+        <Title languagecode="2070" description="Obter Códigos Geográficos (Latitude e Longitude) para o endereço" />
+        <Title languagecode="1048" description="Obțineți Coduri geografice (latitudine și longitudine) pentru adresă" />
+        <Title languagecode="1049" description="Получить геокоды (широта и долгота) для адреса" />
+        <Title languagecode="1051" description="Získať geografické kódy (zemepisná šírka a zemepisná dĺžka) pre adresu" />
+        <Title languagecode="1060" description="Geokodiranje naslova (pridobivanje zemljepisne širine in dolžine)" />
+        <Title languagecode="3098" description="Преузмите географске кодове (географска ширина и географска дужина) за адресу" />
+        <Title languagecode="2074" description="Preuzmite geografske kodove (geografska širina i geografska dužina) za adresu" />
+        <Title languagecode="1053" description="Hämta geokoder (latitud och longitud) för adressen" />
+        <Title languagecode="1054" description="รับรหัสพิกัด (ละติจูดและลองจิจูด) ของที่อยู่" />
+        <Title languagecode="1055" description="Adres için Coğrafi Kodları (Enlem ve Boylam) alın" />
+        <Title languagecode="1058" description="Отримати геокоди (довгота й широта) для адреси" />
+        <Title languagecode="1066" description="Nhận Mã Địa lý (Vĩ độ và Kinh độ) cho địa chỉ này" />
+        <Title languagecode="2052" description="获取地址的地理代码(纬度和经度)" />
+        <Title languagecode="3076" description="取得地址的地理編碼 (緯度和經度)" />
+        <Title languagecode="1028" description="取得地址的地理編碼 (緯度和經度)" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldServiceFieldService.Form.account.MainTab.LocationGroup.B_buttonGeoCode.Description">
+      <Titles>
+        <Title languagecode="1033" description="Get Geo Codes (Latitude and Longitude) for address" />
+        <Title languagecode="1025" description="الحصول على الرموز الجغرافية (خط العرض وخط الطول) للعنوان" />
+        <Title languagecode="1026" description="Получаване на геокодове (географска ширина и географска дължина) за адрес" />
+        <Title languagecode="1027" description="Obtén codis geogràfics (latitud i longitud) de l'adreça" />
+        <Title languagecode="1029" description="Získá geokódy (zeměpisnou šířku a délku) pro adresu." />
+        <Title languagecode="1030" description="Hent geokoder (breddegrad og længdegrad) til adresse" />
+        <Title languagecode="1031" description="Geocodes (Breiten- und Längengrad) für Adresse abrufen" />
+        <Title languagecode="1032" description="Λήψη γεωγραφικών κωδικών (Γεωγραφικό πλάτος και Γεωγραφικό μήκος) για τη διεύθυνση" />
+        <Title languagecode="3082" description="Obtener códigos geográficos (latitud y longitud) de dirección" />
+        <Title languagecode="1061" description="Aadressi geokoodide (laius- ja pikkuskraadi) hankimine" />
+        <Title languagecode="1069" description="Lortu helbidearen kode geografikoak (latitudea eta longitudea)" />
+        <Title languagecode="1035" description="Hae maantieteelliset koodit (leveys- ja pituusaste)" />
+        <Title languagecode="1036" description="Obtenir les codes géographiques (latitude et longitude) pour l’adresse" />
+        <Title languagecode="1110" description="Obter códigos xeográficos (latitude e lonxitude) para o enderezo" />
+        <Title languagecode="1037" description="קבל קודים גיאוגרפיים (קו רוחב וקו אורך) עבור הכתובת" />
+        <Title languagecode="1081" description="पते के लिए जियो कोड (अक्षांश और देशांतर) प्राप्त करें" />
+        <Title languagecode="1050" description="Preuzmite geografske kodove (zemljopisna dužina i širina) za adresu" />
+        <Title languagecode="1038" description="A cím földrajzi koordinátáinak (szélesség, hosszúság) meghatározása" />
+        <Title languagecode="1057" description="Dapatkan Kode Geografis (Garis Lintang dan Garis Bujur) untuk alamat" />
+        <Title languagecode="1040" description="Codici geografici (latitudine e longitudine) per l'indirizzo" />
+        <Title languagecode="1041" description="住所のジオコード (緯度と経度) の取得" />
+        <Title languagecode="1087" description="Мекенжайларға гео кодтарды (ендік пен бойлық) алу" />
+        <Title languagecode="1042" description="주소의 지역 코드(위도 및 경도) 가져오기" />
+        <Title languagecode="1063" description="Gauti adreso geokodus (platumą ir ilgumą)" />
+        <Title languagecode="1062" description="Iegūt adreses ǵeokodus (koordinātas)" />
+        <Title languagecode="1086" description="Dapatkan Kod Geo (Latitud dan Longitud) bagi alamat" />
+        <Title languagecode="1044" description="Hent geokoder (breddegrad og lengdegrad) for adresse" />
+        <Title languagecode="1043" description="Geocodes (breedte- en lengtegraad) ophalen voor adres" />
+        <Title languagecode="1045" description="Pobieranie geokodów (długości i szerokości geograficznej) dla adresu" />
+        <Title languagecode="1046" description="Obter Geocódigos (latitude e longitude) do endereço" />
+        <Title languagecode="2070" description="Obter Códigos Geográficos (Latitude e Longitude) para o endereço" />
+        <Title languagecode="1048" description="Obțineți Coduri geografice (latitudine și longitudine) pentru adresă" />
+        <Title languagecode="1049" description="Получить геокоды (широта и долгота) для адреса" />
+        <Title languagecode="1051" description="Získať geografické kódy (zemepisná šírka a zemepisná dĺžka) pre adresu" />
+        <Title languagecode="1060" description="Geokodiranje naslova (pridobivanje zemljepisne širine in dolžine)" />
+        <Title languagecode="3098" description="Преузмите географске кодове (географска ширина и географска дужина) за адресу" />
+        <Title languagecode="2074" description="Preuzmite geografske kodove (geografska širina i geografska dužina) za adresu" />
+        <Title languagecode="1053" description="Hämta geokoder (latitud och longitud) för adressen" />
+        <Title languagecode="1054" description="รับรหัสพิกัด (ละติจูดและลองจิจูด) ของที่อยู่" />
+        <Title languagecode="1055" description="Adres için Coğrafi Kodları (Enlem ve Boylam) alın" />
+        <Title languagecode="1058" description="Отримати геокоди (довгота й широта) для адреси" />
+        <Title languagecode="1066" description="Nhận Mã Địa lý (Vĩ độ và Kinh độ) cho địa chỉ này" />
+        <Title languagecode="2052" description="获取地址的地理代码(纬度和经度)" />
+        <Title languagecode="3076" description="取得地址的地理編碼 (緯度和經度)" />
+        <Title languagecode="1028" description="取得地址的地理編碼 (緯度和經度)" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldServiceFieldService.Form.account.MainTab.LocationGroup.B_buttonGeoCode.LabelText">
+      <Titles>
+        <Title languagecode="1033" description="Geo Code" />
+        <Title languagecode="1025" description="الرمز الجغرافي" />
+        <Title languagecode="1026" description="Геокод" />
+        <Title languagecode="1027" description="Codi geogràfic" />
+        <Title languagecode="1029" description="Geokódovat" />
+        <Title languagecode="1030" description="Geokode" />
+        <Title languagecode="1031" description="Geocode" />
+        <Title languagecode="1032" description="Γεωγραφικός κωδικός" />
+        <Title languagecode="3082" description="Código geográfico" />
+        <Title languagecode="1061" description="Geokood" />
+        <Title languagecode="1069" description="Kode geografikoa" />
+        <Title languagecode="1035" description="Maantieteellinen koodi" />
+        <Title languagecode="1036" description="Code géographique" />
+        <Title languagecode="1110" description="Xeocodificación" />
+        <Title languagecode="1037" description="קוד גיאוגרפי" />
+        <Title languagecode="1081" description="जियो कोड" />
+        <Title languagecode="1050" description="Geografski kod" />
+        <Title languagecode="1038" description="Geokódolás" />
+        <Title languagecode="1057" description="Kode Geografis" />
+        <Title languagecode="1040" description="Codice geografico" />
+        <Title languagecode="1041" description="ジオコード" />
+        <Title languagecode="1087" description="Гео код" />
+        <Title languagecode="1042" description="지역 코드" />
+        <Title languagecode="1063" description="Geokodas" />
+        <Title languagecode="1062" description="Ģeogrāfiskais kods" />
+        <Title languagecode="1086" description="Geo Kod" />
+        <Title languagecode="1044" description="Geokode" />
+        <Title languagecode="1043" description="Geocode" />
+        <Title languagecode="1045" description="Geokodowanie" />
+        <Title languagecode="1046" description="Geocódigo" />
+        <Title languagecode="2070" description="Código Geográfico" />
+        <Title languagecode="1048" description="Geocodare" />
+        <Title languagecode="1049" description="Геокод" />
+        <Title languagecode="1051" description="Geografický kód" />
+        <Title languagecode="1060" description="Geokodiranje" />
+        <Title languagecode="3098" description="Географско кодирање" />
+        <Title languagecode="2074" description="Geografsko kodiranje" />
+        <Title languagecode="1053" description="Geokod" />
+        <Title languagecode="1054" description="รหัสพิกัด" />
+        <Title languagecode="1055" description="Coğrafi Kod" />
+        <Title languagecode="1058" description="Геокод" />
+        <Title languagecode="1066" description="Mã Địa lý" />
+        <Title languagecode="2052" description="地理编码" />
+        <Title languagecode="3076" description="地理編碼" />
+        <Title languagecode="1028" description="地理編碼" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldServiceFieldService.Form.account.MainTab.LocationGroup.B_buttonGeoCode.LabelText">
+      <Titles>
+        <Title languagecode="1033" description="Geo Code" />
+        <Title languagecode="1025" description="الرمز الجغرافي" />
+        <Title languagecode="1026" description="Геокод" />
+        <Title languagecode="1027" description="Codi geogràfic" />
+        <Title languagecode="1029" description="Geokódovat" />
+        <Title languagecode="1030" description="Geokode" />
+        <Title languagecode="1031" description="Geocode" />
+        <Title languagecode="1032" description="Γεωγραφικός κωδικός" />
+        <Title languagecode="3082" description="Código geográfico" />
+        <Title languagecode="1061" description="Geokood" />
+        <Title languagecode="1069" description="Kode geografikoa" />
+        <Title languagecode="1035" description="Maantieteellinen koodi" />
+        <Title languagecode="1036" description="Code géographique" />
+        <Title languagecode="1110" description="Xeocodificación" />
+        <Title languagecode="1037" description="קוד גיאוגרפי" />
+        <Title languagecode="1081" description="जियो कोड" />
+        <Title languagecode="1050" description="Geografski kod" />
+        <Title languagecode="1038" description="Geokódolás" />
+        <Title languagecode="1057" description="Kode Geografis" />
+        <Title languagecode="1040" description="Codice geografico" />
+        <Title languagecode="1041" description="ジオコード" />
+        <Title languagecode="1087" description="Гео код" />
+        <Title languagecode="1042" description="지역 코드" />
+        <Title languagecode="1063" description="Geokodas" />
+        <Title languagecode="1062" description="Ģeogrāfiskais kods" />
+        <Title languagecode="1086" description="Geo Kod" />
+        <Title languagecode="1044" description="Geokode" />
+        <Title languagecode="1043" description="Geocode" />
+        <Title languagecode="1045" description="Geokodowanie" />
+        <Title languagecode="1046" description="Geocódigo" />
+        <Title languagecode="2070" description="Código Geográfico" />
+        <Title languagecode="1048" description="Geocodare" />
+        <Title languagecode="1049" description="Геокод" />
+        <Title languagecode="1051" description="Geografický kód" />
+        <Title languagecode="1060" description="Geokodiranje" />
+        <Title languagecode="3098" description="Географско кодирање" />
+        <Title languagecode="2074" description="Geografsko kodiranje" />
+        <Title languagecode="1053" description="Geokod" />
+        <Title languagecode="1054" description="รหัสพิกัด" />
+        <Title languagecode="1055" description="Coğrafi Kod" />
+        <Title languagecode="1058" description="Геокод" />
+        <Title languagecode="1066" description="Mã Địa lý" />
+        <Title languagecode="2052" description="地理编码" />
+        <Title languagecode="3076" description="地理編碼" />
+        <Title languagecode="1028" description="地理編碼" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldServiceFieldService.HomepageGrid.account.MainTab.HomeLocationGroup.B_buttonGeoCodeM.LabelText">
+      <Titles>
+        <Title languagecode="1033" description="Geo Code" />
+        <Title languagecode="1025" description="الرمز الجغرافي" />
+        <Title languagecode="1026" description="Геокод" />
+        <Title languagecode="1027" description="Codi geogràfic" />
+        <Title languagecode="1029" description="Geokódovat" />
+        <Title languagecode="1030" description="Geokode" />
+        <Title languagecode="1031" description="Geocode" />
+        <Title languagecode="1032" description="Γεωγραφικός κωδικός" />
+        <Title languagecode="3082" description="Código geográfico" />
+        <Title languagecode="1061" description="Geokood" />
+        <Title languagecode="1069" description="Kode geografikoa" />
+        <Title languagecode="1035" description="Maantieteellinen koodi" />
+        <Title languagecode="1036" description="Code géographique" />
+        <Title languagecode="1110" description="Xeocodificación" />
+        <Title languagecode="1037" description="קוד גיאוגרפי" />
+        <Title languagecode="1081" description="जियो कोड" />
+        <Title languagecode="1050" description="Geografski kod" />
+        <Title languagecode="1038" description="Geokódolás" />
+        <Title languagecode="1057" description="Kode Geografis" />
+        <Title languagecode="1040" description="Codice geografico" />
+        <Title languagecode="1041" description="ジオコード" />
+        <Title languagecode="1087" description="Гео код" />
+        <Title languagecode="1042" description="지역 코드" />
+        <Title languagecode="1063" description="Geokodas" />
+        <Title languagecode="1062" description="Ģeogrāfiskais kods" />
+        <Title languagecode="1086" description="Geo Kod" />
+        <Title languagecode="1044" description="Geokode" />
+        <Title languagecode="1043" description="Geocode" />
+        <Title languagecode="1045" description="Geokodowanie" />
+        <Title languagecode="1046" description="Geocódigo" />
+        <Title languagecode="2070" description="Código Geográfico" />
+        <Title languagecode="1048" description="Geocodare" />
+        <Title languagecode="1049" description="Геокод" />
+        <Title languagecode="1051" description="Geografický kód" />
+        <Title languagecode="1060" description="Geokodiranje" />
+        <Title languagecode="3098" description="Географско кодирање" />
+        <Title languagecode="2074" description="Geografsko kodiranje" />
+        <Title languagecode="1053" description="Geokod" />
+        <Title languagecode="1054" description="รหัสพิกัด" />
+        <Title languagecode="1055" description="Coğrafi Kod" />
+        <Title languagecode="1058" description="Геокод" />
+        <Title languagecode="1066" description="Mã Địa lý" />
+        <Title languagecode="2052" description="地理编码" />
+        <Title languagecode="3076" description="地理編碼" />
+        <Title languagecode="1028" description="地理編碼" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldServiceFieldService.HomepageGrid.account.MainTab.HomeLocationGroup.B_buttonGeoCodeM.LabelText">
+      <Titles>
+        <Title languagecode="1033" description="Geo Code" />
+        <Title languagecode="1025" description="الرمز الجغرافي" />
+        <Title languagecode="1026" description="Геокод" />
+        <Title languagecode="1027" description="Codi geogràfic" />
+        <Title languagecode="1029" description="Geokódovat" />
+        <Title languagecode="1030" description="Geokode" />
+        <Title languagecode="1031" description="Geocode" />
+        <Title languagecode="1032" description="Γεωγραφικός κωδικός" />
+        <Title languagecode="3082" description="Código geográfico" />
+        <Title languagecode="1061" description="Geokood" />
+        <Title languagecode="1069" description="Kode geografikoa" />
+        <Title languagecode="1035" description="Maantieteellinen koodi" />
+        <Title languagecode="1036" description="Code géographique" />
+        <Title languagecode="1110" description="Xeocodificación" />
+        <Title languagecode="1037" description="קוד גיאוגרפי" />
+        <Title languagecode="1081" description="जियो कोड" />
+        <Title languagecode="1050" description="Geografski kod" />
+        <Title languagecode="1038" description="Geokódolás" />
+        <Title languagecode="1057" description="Kode Geografis" />
+        <Title languagecode="1040" description="Codice geografico" />
+        <Title languagecode="1041" description="ジオコード" />
+        <Title languagecode="1087" description="Гео код" />
+        <Title languagecode="1042" description="지역 코드" />
+        <Title languagecode="1063" description="Geokodas" />
+        <Title languagecode="1062" description="Ģeogrāfiskais kods" />
+        <Title languagecode="1086" description="Geo Kod" />
+        <Title languagecode="1044" description="Geokode" />
+        <Title languagecode="1043" description="Geocode" />
+        <Title languagecode="1045" description="Geokodowanie" />
+        <Title languagecode="1046" description="Geocódigo" />
+        <Title languagecode="2070" description="Código Geográfico" />
+        <Title languagecode="1048" description="Geocodare" />
+        <Title languagecode="1049" description="Геокод" />
+        <Title languagecode="1051" description="Geografický kód" />
+        <Title languagecode="1060" description="Geokodiranje" />
+        <Title languagecode="3098" description="Географско кодирање" />
+        <Title languagecode="2074" description="Geografsko kodiranje" />
+        <Title languagecode="1053" description="Geokod" />
+        <Title languagecode="1054" description="รหัสพิกัด" />
+        <Title languagecode="1055" description="Coğrafi Kod" />
+        <Title languagecode="1058" description="Геокод" />
+        <Title languagecode="1066" description="Mã Địa lý" />
+        <Title languagecode="2052" description="地理编码" />
+        <Title languagecode="3076" description="地理編碼" />
+        <Title languagecode="1028" description="地理編碼" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.account.AddExistingStandard.LabelText">
+      <Titles>
+        <Title description="Add Existing Site" languagecode="1033" />
+        <Title description="Ajouter un site existant" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button2.Button.Mscrm.HomepageGrid.account.RefreshModernButton.LabelText">
+      <Titles>
+        <Title description="Refresh" languagecode="1033" />
+        <Title description="Actualiser" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.LabelText">
+      <Titles>
+        <Title description="Follow" languagecode="1033" />
+        <Title description="Suivre" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.ToolTipDescription">
+      <Titles>
+        <Title description="Click to follow this record." languagecode="1033" />
+        <Title description="Cliquez pour suivre cet enregistrement." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button29.Button.Mscrm.Form.account.FollowButton.ToolTipTitle">
+      <Titles>
+        <Title description="Follow" languagecode="1033" />
+        <Title description="Suivre" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.Alt">
+      <Titles>
+        <Title description="Open Org Chart" languagecode="1033" />
+        <Title description="Ouvrir le graphique de l’organisation" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.LabelText">
+      <Titles>
+        <Title description="Open Org Chart" languagecode="1033" />
+        <Title description="Ouvrir le graphique de l’organisation" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.ToolTipDescription">
+      <Titles>
+        <Title description="View and edit the relationship hierarchy for this account" languagecode="1033" />
+        <Title description="Afficher et modifier la hiérarchie des relations pour ce compte" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button31.Button.Mscrm.Form.account.ViewOrgChart.ToolTipTitle">
+      <Titles>
+        <Title description="Open Org Chart" languagecode="1033" />
+        <Title description="Ouvrir le graphique de l’organisation" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button32.Button.Mscrm.Form.account.AddToList.Alt">
+      <Titles>
+        <Title description="Add to Marketing List" languagecode="1033" />
+        <Title description="Ajouter à la liste de marketing" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button32.Button.Mscrm.Form.account.AddToList.LabelText">
+      <Titles>
+        <Title description="Add to Marketing List" languagecode="1033" />
+        <Title description="Ajouter à la liste de marketing" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button32.Button.Mscrm.Form.account.AddToList.ToolTipDescription">
+      <Titles>
+        <Title description="Add this {0} to a new or existing marketing list." languagecode="1033" />
+        <Title description="Ajouter ce {0} à une liste de marketing nouvelle ou existante." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button32.Button.Mscrm.Form.account.AddToList.ToolTipTitle">
+      <Titles>
+        <Title description="Add to Marketing List" languagecode="1033" />
+        <Title description="Ajouter à la liste de marketing" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.LabelText">
+      <Titles>
+        <Title description="New Site" languagecode="1033" />
+        <Title description="Nouveau Site" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button37.Button.Form.account.CustomDeactivate.ToolTipDescription">
+      <Titles>
+        <Title description="Deactivate these {0}. &lt;br&gt;&lt;br&gt;You can reactivate these {0} from the Inactive {0} View." languagecode="1033" />
+        <Title description="Deactivate these {0}. &lt;br&gt;&lt;br&gt;You can reactivate these {0} from the Inactive {0} View." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.LabelText">
+      <Titles>
+        <Title description="Follow" languagecode="1033" />
+        <Title description="Suivre" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.ToolTipDescription">
+      <Titles>
+        <Title description="Click to follow the selected records." languagecode="1033" />
+        <Title description="Cliquez pour suivre les enregistrements sélectionnés." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.account.Button8.Button.Mscrm.HomepageGrid.account.FollowButton.ToolTipTitle">
+      <Titles>
+        <Title description="Follow" languagecode="1033" />
+        <Title description="Suivre" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.Account.CreateOpportunityForMembers">
+      <Titles>
+        <Title description="Create Opportunities" languagecode="1033" />
+        <Title description="إنشاء فرص مبيعات محتملة" languagecode="1025" />
+        <Title description="Създаване на възможности" languagecode="1026" />
+        <Title description="Crea les oportunitats" languagecode="1027" />
+        <Title description="Vytvořit příležitosti" languagecode="1029" />
+        <Title description="Opret salgsmuligheder" languagecode="1030" />
+        <Title description="Verkaufschancen erstellen" languagecode="1031" />
+        <Title description="Δημιουργία ευκαιριών" languagecode="1032" />
+        <Title description="Crear oportunidades" languagecode="3082" />
+        <Title description="Müügivõimaluste loomine" languagecode="1061" />
+        <Title description="Sortu abaguneak" languagecode="1069" />
+        <Title description="Luo mahdollisuuksia" languagecode="1035" />
+        <Title description="Créer des occasions" languagecode="1036" />
+        <Title description="Crear oportunidades" languagecode="1110" />
+        <Title description="צור הזדמנויות" languagecode="1037" />
+        <Title description="अवसर बनाएँ" languagecode="1081" />
+        <Title description="Stvori prilike" languagecode="1050" />
+        <Title description="Lehetőségek létrehozása" languagecode="1038" />
+        <Title description="Buat Peluang" languagecode="1057" />
+        <Title description="Crea opportunità" languagecode="1040" />
+        <Title description="営業案件の作成" languagecode="1041" />
+        <Title description="Мүмкіндіктер жасау" languagecode="1087" />
+        <Title description="영업 기회 만들기" languagecode="1042" />
+        <Title description="Kurti galimybes" languagecode="1063" />
+        <Title description="Izveidot iespējas" languagecode="1062" />
+        <Title description="Cipta Peluang" languagecode="1086" />
+        <Title description="Opprett salgsmuligheter" languagecode="1044" />
+        <Title description="Verkoopkansen maken" languagecode="1043" />
+        <Title description="Utwórz szanse sprzedaży" languagecode="1045" />
+        <Title description="Criar Oportunidades" languagecode="1046" />
+        <Title description="Criar Oportunidades" languagecode="2070" />
+        <Title description="Creați oportunități" languagecode="1048" />
+        <Title description="Создать возможные сделки" languagecode="1049" />
+        <Title description="Vytvoriť príležitosti" languagecode="1051" />
+        <Title description="Ustvarjanje priložnosti" languagecode="1060" />
+        <Title description="Креирај могућности за пословање" languagecode="3098" />
+        <Title description="Креирај могућности за пословање" languagecode="10266" />
+        <Title description="Kreiraj mogućnosti za poslovanje" languagecode="2074" />
+        <Title description="Kreiraj mogućnosti za poslovanje" languagecode="9242" />
+        <Title description="Skapa affärsmöjligheter" languagecode="1053" />
+        <Title description="สร้างโอกาสทางการขาย" languagecode="1054" />
+        <Title description="Fırsat Oluştur" languagecode="1055" />
+        <Title description="Створити потенційні угоди" languagecode="1058" />
+        <Title description="Tạo Cơ hội" languagecode="1066" />
+        <Title description="创建商机" languagecode="2052" />
+        <Title description="建立商機" languagecode="3076" />
+        <Title description="建立商機" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.Account.CreateOpportunityForMembers">
+      <Titles>
+        <Title description="Create Opportunities" languagecode="1033" />
+        <Title description="إنشاء فرص مبيعات محتملة" languagecode="1025" />
+        <Title description="Създаване на възможности" languagecode="1026" />
+        <Title description="Crea les oportunitats" languagecode="1027" />
+        <Title description="Vytvořit příležitosti" languagecode="1029" />
+        <Title description="Opret salgsmuligheder" languagecode="1030" />
+        <Title description="Verkaufschancen erstellen" languagecode="1031" />
+        <Title description="Δημιουργία ευκαιριών" languagecode="1032" />
+        <Title description="Crear oportunidades" languagecode="3082" />
+        <Title description="Müügivõimaluste loomine" languagecode="1061" />
+        <Title description="Sortu abaguneak" languagecode="1069" />
+        <Title description="Luo mahdollisuuksia" languagecode="1035" />
+        <Title description="Créer des occasions" languagecode="1036" />
+        <Title description="Crear oportunidades" languagecode="1110" />
+        <Title description="צור הזדמנויות" languagecode="1037" />
+        <Title description="अवसर बनाएँ" languagecode="1081" />
+        <Title description="Stvori prilike" languagecode="1050" />
+        <Title description="Lehetőségek létrehozása" languagecode="1038" />
+        <Title description="Buat Peluang" languagecode="1057" />
+        <Title description="Crea opportunità" languagecode="1040" />
+        <Title description="営業案件の作成" languagecode="1041" />
+        <Title description="Мүмкіндіктер жасау" languagecode="1087" />
+        <Title description="영업 기회 만들기" languagecode="1042" />
+        <Title description="Kurti galimybes" languagecode="1063" />
+        <Title description="Izveidot iespējas" languagecode="1062" />
+        <Title description="Cipta Peluang" languagecode="1086" />
+        <Title description="Opprett salgsmuligheter" languagecode="1044" />
+        <Title description="Verkoopkansen maken" languagecode="1043" />
+        <Title description="Utwórz szanse sprzedaży" languagecode="1045" />
+        <Title description="Criar Oportunidades" languagecode="1046" />
+        <Title description="Criar Oportunidades" languagecode="2070" />
+        <Title description="Creați oportunități" languagecode="1048" />
+        <Title description="Создать возможные сделки" languagecode="1049" />
+        <Title description="Vytvoriť príležitosti" languagecode="1051" />
+        <Title description="Ustvarjanje priložnosti" languagecode="1060" />
+        <Title description="Креирај могућности за пословање" languagecode="3098" />
+        <Title description="Креирај могућности за пословање" languagecode="10266" />
+        <Title description="Kreiraj mogućnosti za poslovanje" languagecode="2074" />
+        <Title description="Kreiraj mogućnosti za poslovanje" languagecode="9242" />
+        <Title description="Skapa affärsmöjligheter" languagecode="1053" />
+        <Title description="สร้างโอกาสทางการขาย" languagecode="1054" />
+        <Title description="Fırsat Oluştur" languagecode="1055" />
+        <Title description="Створити потенційні угоди" languagecode="1058" />
+        <Title description="Tạo Cơ hội" languagecode="1066" />
+        <Title description="创建商机" languagecode="2052" />
+        <Title description="建立商機" languagecode="3076" />
+        <Title description="建立商機" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.Account.CreateOpportunityForMembers.ToolTip">
+      <Titles>
+        <Title description="Create an opportunity for a marketing list member." languagecode="1033" />
+        <Title description="إنشاء فرصة مبيعات محتملة لعضو قائمة تسويق." languagecode="1025" />
+        <Title description="Създаване на възможност за член от маркетингов списък." languagecode="1026" />
+        <Title description="Crea una oportunitat per a un membre de la llista de màrqueting." languagecode="1027" />
+        <Title description="Vytvoří příležitost pro člena marketingového seznamu." languagecode="1029" />
+        <Title description="Opret en salgsmulighed for et medlem af en marketingliste." languagecode="1030" />
+        <Title description="Dient zum Erstellen einer Verkaufschance für ein Marketinglistenmitglied." languagecode="1031" />
+        <Title description="Δημιουργήστε μια ευκαιρία για ένα μέλος λίστας μάρκετινγκ." languagecode="1032" />
+        <Title description="Crea una oportunidad para un miembro de la lista de marketing." languagecode="3082" />
+        <Title description="Saate turundusloendi liikme jaoks luua müügivõimaluse." languagecode="1061" />
+        <Title description="Sortu marketin-zerrendako kide baten abagune bat." languagecode="1069" />
+        <Title description="Luo mahdollisuus markkinointiluettelon jäsenelle." languagecode="1035" />
+        <Title description="Créer une occasion pour un membre de la liste de marketing." languagecode="1036" />
+        <Title description="Crear unha oportunidade a partir dun membro da lista de márketing." languagecode="1110" />
+        <Title description="צור הזדמנות עבור חבר ברשימת שיווק." languagecode="1037" />
+        <Title description="मार्केटिंग सूची सदस्य के लिए एक अवसर बनाएँ." languagecode="1081" />
+        <Title description="Stvorite priliku za člana popisa zainteresiranih." languagecode="1050" />
+        <Title description="Lehetőség létrehozása marketinglista tagjára vonatkozóan." languagecode="1038" />
+        <Title description="Buat peluang untuk anggota daftar pemasaran." languagecode="1057" />
+        <Title description="Crea un'opportunità per un membro di elenco marketing." languagecode="1040" />
+        <Title description="マーケティング リスト メンバーに対して営業案件を作成します。" languagecode="1041" />
+        <Title description="Маркетингтік тізім мүшесіне мүмкіндік жасаңыз." languagecode="1087" />
+        <Title description="마케팅 목록 구성원에 대한 영업 기회를 만듭니다." languagecode="1042" />
+        <Title description="Kurti rinkodaros tikslinio sąrašo nario galimybę." languagecode="1063" />
+        <Title description="Izveidot iespēju mārketinga adresātu saraksta dalībniekam." languagecode="1062" />
+        <Title description="Cipta peluang untuk ahli senarai pemasaran." languagecode="1086" />
+        <Title description="Opprett en salgsmulighet for et markedsføringslistemedlem." languagecode="1044" />
+        <Title description="Maak een verkoopkans voor een marketinglijstlid." languagecode="1043" />
+        <Title description="Utwórz szansę sprzedaży dla członka listy marketingowej." languagecode="1045" />
+        <Title description="Criar uma oportunidade para um membro da lista de marketing." languagecode="1046" />
+        <Title description="Criar uma oportunidade para um membro de lista de marketing." languagecode="2070" />
+        <Title description="Creați o oportunitate pentru un membru al listei marketing." languagecode="1048" />
+        <Title description="Создание возможной сделки для участника маркетингового списка." languagecode="1049" />
+        <Title description="Vytvorí príležitosť pre člena marketingového zoznamu." languagecode="1051" />
+        <Title description="Ustvarite priložnost za člana seznama za trženje." languagecode="1060" />
+        <Title description="Креирајте могућност за пословање за члана маркетиншког списка." languagecode="3098" />
+        <Title description="Креирајте могућност за пословање за члана маркетиншког списка." languagecode="10266" />
+        <Title description="Kreirajte mogućnost za poslovanje za člana marketinškog spiska." languagecode="2074" />
+        <Title description="Kreirajte mogućnost za poslovanje za člana marketinškog spiska." languagecode="9242" />
+        <Title description="Skapa en affärsmöjlighet för en medlem av en marknadsföringslista." languagecode="1053" />
+        <Title description="สร้างโอกาสทางการขายสำหรับสมาชิกในรายชื่อเพื่อทำการตลาด" languagecode="1054" />
+        <Title description="Pazarlama listesi üyesi için bir fırsat oluşturun." languagecode="1055" />
+        <Title description="Створити потенційну угоду для учасника в маркетинговому списку." languagecode="1058" />
+        <Title description="Tạo cơ hội cho thành viên thuộc danh sách khách hàng tiếp thị." languagecode="1066" />
+        <Title description="为市场营销列表成员创建商机。" languagecode="2052" />
+        <Title description="建立行銷名單成員的商機。" languagecode="3076" />
+        <Title description="建立行銷名單成員的商機。" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.Account.CreateOpportunityForMembers.ToolTip">
+      <Titles>
+        <Title description="Create an opportunity for a marketing list member." languagecode="1033" />
+        <Title description="إنشاء فرصة مبيعات محتملة لعضو قائمة تسويق." languagecode="1025" />
+        <Title description="Създаване на възможност за член от маркетингов списък." languagecode="1026" />
+        <Title description="Crea una oportunitat per a un membre de la llista de màrqueting." languagecode="1027" />
+        <Title description="Vytvoří příležitost pro člena marketingového seznamu." languagecode="1029" />
+        <Title description="Opret en salgsmulighed for et medlem af en marketingliste." languagecode="1030" />
+        <Title description="Dient zum Erstellen einer Verkaufschance für ein Marketinglistenmitglied." languagecode="1031" />
+        <Title description="Δημιουργήστε μια ευκαιρία για ένα μέλος λίστας μάρκετινγκ." languagecode="1032" />
+        <Title description="Crea una oportunidad para un miembro de la lista de marketing." languagecode="3082" />
+        <Title description="Saate turundusloendi liikme jaoks luua müügivõimaluse." languagecode="1061" />
+        <Title description="Sortu marketin-zerrendako kide baten abagune bat." languagecode="1069" />
+        <Title description="Luo mahdollisuus markkinointiluettelon jäsenelle." languagecode="1035" />
+        <Title description="Créer une occasion pour un membre de la liste de marketing." languagecode="1036" />
+        <Title description="Crear unha oportunidade a partir dun membro da lista de márketing." languagecode="1110" />
+        <Title description="צור הזדמנות עבור חבר ברשימת שיווק." languagecode="1037" />
+        <Title description="मार्केटिंग सूची सदस्य के लिए एक अवसर बनाएँ." languagecode="1081" />
+        <Title description="Stvorite priliku za člana popisa zainteresiranih." languagecode="1050" />
+        <Title description="Lehetőség létrehozása marketinglista tagjára vonatkozóan." languagecode="1038" />
+        <Title description="Buat peluang untuk anggota daftar pemasaran." languagecode="1057" />
+        <Title description="Crea un'opportunità per un membro di elenco marketing." languagecode="1040" />
+        <Title description="マーケティング リスト メンバーに対して営業案件を作成します。" languagecode="1041" />
+        <Title description="Маркетингтік тізім мүшесіне мүмкіндік жасаңыз." languagecode="1087" />
+        <Title description="마케팅 목록 구성원에 대한 영업 기회를 만듭니다." languagecode="1042" />
+        <Title description="Kurti rinkodaros tikslinio sąrašo nario galimybę." languagecode="1063" />
+        <Title description="Izveidot iespēju mārketinga adresātu saraksta dalībniekam." languagecode="1062" />
+        <Title description="Cipta peluang untuk ahli senarai pemasaran." languagecode="1086" />
+        <Title description="Opprett en salgsmulighet for et markedsføringslistemedlem." languagecode="1044" />
+        <Title description="Maak een verkoopkans voor een marketinglijstlid." languagecode="1043" />
+        <Title description="Utwórz szansę sprzedaży dla członka listy marketingowej." languagecode="1045" />
+        <Title description="Criar uma oportunidade para um membro da lista de marketing." languagecode="1046" />
+        <Title description="Criar uma oportunidade para um membro de lista de marketing." languagecode="2070" />
+        <Title description="Creați o oportunitate pentru un membru al listei marketing." languagecode="1048" />
+        <Title description="Создание возможной сделки для участника маркетингового списка." languagecode="1049" />
+        <Title description="Vytvorí príležitosť pre člena marketingového zoznamu." languagecode="1051" />
+        <Title description="Ustvarite priložnost za člana seznama za trženje." languagecode="1060" />
+        <Title description="Креирајте могућност за пословање за члана маркетиншког списка." languagecode="3098" />
+        <Title description="Креирајте могућност за пословање за члана маркетиншког списка." languagecode="10266" />
+        <Title description="Kreirajte mogućnost za poslovanje za člana marketinškog spiska." languagecode="2074" />
+        <Title description="Kreirajte mogućnost za poslovanje za člana marketinškog spiska." languagecode="9242" />
+        <Title description="Skapa en affärsmöjlighet för en medlem av en marknadsföringslista." languagecode="1053" />
+        <Title description="สร้างโอกาสทางการขายสำหรับสมาชิกในรายชื่อเพื่อทำการตลาด" languagecode="1054" />
+        <Title description="Pazarlama listesi üyesi için bir fırsat oluşturun." languagecode="1055" />
+        <Title description="Створити потенційну угоду для учасника в маркетинговому списку." languagecode="1058" />
+        <Title description="Tạo cơ hội cho thành viên thuộc danh sách khách hàng tiếp thị." languagecode="1066" />
+        <Title description="为市场营销列表成员创建商机。" languagecode="2052" />
+        <Title description="建立行銷名單成員的商機。" languagecode="3076" />
+        <Title description="建立行銷名單成員的商機。" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

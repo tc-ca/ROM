@@ -1,0 +1,164 @@
+﻿///<reference path="../Utilities/GlobalHelper.js"/>
+
+var SafetySheetsRibbon = (function (window, document) {
+
+
+
+	function callFlow(flowURL, filePath) {
+		let body = { "FilePath": filePath };
+
+		let req = new XMLHttpRequest();
+		req.open("POST", flowURL, false);
+		req.setRequestHeader("Content-Type", "application/json");
+		req.onreadystatechange = function () {
+			if (this.readyState === 4) {
+				req.onreadystatechange = null;
+				if (this.status === 200) {
+					let resultJson = this.response;
+					//Allow for borders.
+					var _left = (screen.width / 2) - (410);
+					var _top = (screen.height / 2) - (300);
+
+					var popUp = window.open("https://docs.google.com/gview?url=" + encodeURIComponent(this.response), "Document Preview", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=no,width=800,height=600");
+					popUp.moveBy((screen.width / 4), (screen.height / 4));
+					if (window.focus) { popUp.focus(); }
+				}
+				else {
+					console.log(this.statusText);
+				}
+			}
+		};
+		req.send(JSON.stringify(body));
+	}
+
+	function PDF_ViewButton_OnClick(primaryControl, variable) {
+		//debugger;
+
+		var recordId;
+		if (variable)
+			recordId = variable[0].Id;
+		else
+			recordId = primaryControl.data.entity.getId();
+
+		if (recordId == null) {
+
+			Xrm.Navigation.openErrorDialog({ message: "Selected ID is empty or in incorrect format. Please contact support" });
+			return;
+		}
+		else
+			recordId = recordId.replace(/[{}]/g, '');
+
+
+		Xrm.WebApi.retrieveRecord("ovs_sds", recordId, "?$select=ovs_container_name_nm,ovs_file_path_txt,ovs_file_name_nm").then(
+			function success(result) {
+				console.log(result);
+				// Columns
+				var ovs_sdsid = result["ovs_sdsid"]; // Guid
+				var ovs_container_name_nm = result["ovs_container_name_nm"]; // Text
+				var ovs_file_path_txt = result["ovs_file_path_txt"]; // Text
+				var ovs_file_name_nm = result["ovs_file_name_nm"] == null ? ovs_file_path_txt : result["ovs_file_name_nm"];
+
+				if (ovs_file_path_txt == null) {
+					Xrm.Navigation.openErrorDialog({ message: "File path is empty. Please contact support" });
+					return;
+				}
+
+				if (ovs_container_name_nm == null) {
+					Xrm.Navigation.openErrorDialog({ message: "Container name is empty. Please contact support" });
+					return;
+				}
+
+				//comment/uncomment for blob reader
+				openBlobReader(ovs_file_path_txt, ovs_container_name_nm, ovs_file_name_nm);
+
+			//	//comment/uncomment for flow execution 
+			//	Xrm.WebApi.retrieveMultipleRecords("qm_environmentsettings", "?$select=qm_value&$filter=qm_name eq 'CRS_SDS_Flow_BlobStorageLocationSASTokenGenerator'").then(
+			//		function success(results) {
+			//			console.log(results);
+			//			var documentSASURL = null;
+			//			if (results.entities.length > 0) {
+			//				var result = results.entities[0];
+			//				// Columns
+			//				var qm_environmentsettingsid = result["qm_environmentsettingsid"]; // Guid
+			//				documentSASURL = result["qm_value"]; // Multiline Text
+
+			//				callFlow(documentSASURL, ovs_file_path_txt);
+			//			} else {
+			//				Xrm.Navigation.openErrorDialog({ message: "Environment Settings to call blob cannot be found. Please contact support" });
+
+			//			}
+			//		},
+			//		function (error) {
+			//			console.log(error.message);
+			//			var alertStrings = { confirmButtonLabel: "Cancel", text: "The document was not found.", title: "Document not found" };
+			//			var alertOptions = { height: 150, width: 500 };
+			//			Xrm.Navigation.openAlertDialog(alertStrings, alertOptions);
+			//		}
+			//	);
+			},
+			function (error) {
+				console.log(error.message);
+				var alertStrings = { confirmButtonLabel: "Cancel", text: "The document was not found.", title: "Document not found" };
+				var alertOptions = { height: 150, width: 500 };
+				Xrm.Navigation.openAlertDialog(alertStrings, alertOptions);
+			}
+		);
+	}
+
+	function openBlobReader(filePath, containerName, fileName) {
+
+		//open blob file in web resource
+		var formParameters = {};
+		formParameters["filePath"] = filePath;
+		formParameters["containerName"] = containerName;
+		formParameters["sas_variable_name"] = "ovs_SDS_BlobSAS";
+		formParameters["storageAccount_var_name"] = "ovs_SDS_BlobAccountName";
+
+
+
+		var pageInput = {
+			pageType: "webresource",
+			webresourceName: "ovs_/RenderBlobFile.html",
+			data: JSON.stringify(formParameters)
+		};
+
+		var navigationOptions = {
+			target: 2,
+			height: { value: 90, unit: "%" },
+			width: { value: 80, unit: "%" },
+			position: 1,
+			title: fileName,
+		};
+
+
+		Xrm.Navigation.navigateTo(
+			pageInput,
+			navigationOptions).then(
+				function (result) {
+
+					URL.revokeObjectURL()
+					return;
+				},
+				function error() {
+
+					Xrm.Navigation.openErrorDialog({ message: error.message });
+					URL.revokeObjectURL()
+					return;
+				}
+		);
+
+	}
+
+    //********************public methods***************
+    return {
+        
+		PDF_ViewButton_OnClick: PDF_ViewButton_OnClick
+    };
+})(window, document);
+
+
+
+
+
+
+
