@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24091.178" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24091.178" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24092.00162">
+<ImportExportXml version="9.2.24104.176" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24104.176" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24104.00176">
   <SolutionManifest>
     <UniqueName>TDGFlow</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Upgrade of TDG.Flow" languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.51</Version>
+    <Version>1.2.0.52</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -104,43 +104,63 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="appnotification" displayName="Notification" solution="AppNotifications (10.0.0.16)" />
+        <Required type="1" schemaName="appnotification" displayName="Notification" solution="AppNotifications (10.0.0.16)">
+          <package>msft_PowerAppsUnifiedClientInfraExtensions (1.0.0.62)</package>
+        </Required>
         <Dependent type="29" displayName="TDG CRS Approval and Declined Addtional Info Letter" id="{5900bd50-83fe-ee11-9f89-002248b0d3d6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Notice of Direction not to import" id="{219752a9-98af-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Send a notification when Safety Action is about to Expire" id="{34b2de66-6df7-ee11-a1fe-000d3aff36a8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Send a notification after COC Due Date" id="{41e813e2-fff7-ee11-a1fe-002248af8802}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Notice of Infraction - Enforcement Action" id="{92f2ceb1-6caf-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Set new Bookable Resource Category to Inspector" id="{b81b36bc-63af-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Notice of Direction not to import" id="{219752a9-98af-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Notice of Infraction - Enforcement Action" id="{92f2ceb1-6caf-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Set new Bookable Resource Category to Inspector" id="{b81b36bc-63af-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="29" displayName="TDG Inspections - Set new Bookable Resource Category to Inspector" id="{b81b36bc-63af-eb11-8236-000d3ae91ce1}" />
       </MissingDependency>
       <MissingDependency>

@@ -203,7 +203,8 @@
                       "metadata": {
                         "01QZYBJ7DPF6R4LYOUMRCLIDGUB6OMSD34": "/Inspection Report Templates/Notice of Infraction Revised Location.docx",
                         "operationMetadataId": "a28d7b54-f4a8-4fa5-995d-d128e50b2333",
-                        "01QZYBJ7HRYRC7DLMMM5G2P4IAQ3N5DXDV": "/CRS Templates/Approval Letter/Final EN FR - Reg Conf letter.docx"
+                        "01QZYBJ7HRYRC7DLMMM5G2P4IAQ3N5DXDV": "/CRS Templates/Approval Letter/Final EN FR - Reg Conf letter.docx",
+                        "01QZYBJ7EVPVJFQOOQL5G3IUFS242Y3UTA": "/CRS Templates/Approval Letter - Dev/Final EN FR - Reg Conf letter.docx"
                       },
                       "type": "OpenApiConnection",
                       "inputs": {
@@ -215,17 +216,15 @@
                         "parameters": {
                           "source": "sites/034gc.sharepoint.com,140da73b-4423-4443-a812-e623d6d857c4,f2a2589e-2eec-4642-9280-443640f88211",
                           "drive": "b!O6cNFCNEQ0SoEuYj1thXxJ5YovLsLkJGkoBENkD4ghHOwr7dpePzS7BlI7DR0NOV",
-                          "file": "01QZYBJ7HRYRC7DLMMM5G2P4IAQ3N5DXDV",
+                          "file": "01QZYBJ7EVPVJFQOOQL5G3IUFS242Y3UTA",
                           "dynamicFileSchema/6943891": "@variables('OrganizationName')",
                           "dynamicFileSchema/84115955": "@variables('OrganizationName')",
                           "dynamicFileSchema/158896675": "@items('Apply_to_each')?['Account.address1_city']",
-                          "dynamicFileSchema/213310651": "@items('Apply_to_each')?['Account.address1_line1']",
+                          "dynamicFileSchema/213310651": "@variables('Street Composed')",
                           "dynamicFileSchema/338659645": "@items('Apply_to_each')?['ovs_registration_number_num']",
                           "dynamicFileSchema/397254775": "@items('Apply_to_each')?['Account.address1_stateorprovince']",
                           "dynamicFileSchema/519832030": "@variables('OrganizationName')",
                           "dynamicFileSchema/-1797439095": "@variables('System Date')",
-                          "dynamicFileSchema/-23793005": "@items('Apply_to_each')?['Account.address1_line2']",
-                          "dynamicFileSchema/-986787481": "@items('Apply_to_each')?['Account.address1_line3']",
                           "dynamicFileSchema/-579521286": "@items('Apply_to_each')?['Account.address1_postalcode']"
                         },
                         "authentication": "@parameters('$authentication')"
@@ -279,7 +278,7 @@
                         },
                         "parameters": {
                           "entityName": "emails",
-                          "item/activitypointer_activity_parties": "@variables('Primary Contacts')",
+                          "item/activitypointer_activity_parties": "@variables('To Recipients')",
                           "item/description": "<p>@{variables('OrganizationName')}, a decision has been made regarding your registration request.</p>\n<p>Your registration has been approved. Please print this approval letter for your files.</p>\n<p>You may log in to TDG Online portal @{variables('Portal URL')} to see your status.</p>\n<p>&nbsp;</p>\n<p>CANUTEC Registration Team</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>@{variables('OrganizationName')}, une décision a été prise concernant votre demande d'inscription.</p>\n<p>Votre inscription a été approuvée. Veuillez imprimer cette lettre d'approbation pour vos dossiers.</p>\n<p>Vous pouvez vous connecter au portail TMD En ligne @{variables('Portal URL')} pour voir votre statut.</p>\n<p>&nbsp;</p>\n<p>L'équipe d'inscription CANUTEC<br>&nbsp;</p>",
                           "item/regardingobjectid_ovs_submission_email@odata.bind": "\\ovs_submissions\\@{triggerOutputs()?['body/ovs_submissionid']}",
                           "item/subject": "Decision Made Regarding Registration Request – Approved  / Décision prise quant à votre demande d’inscription - approuvée"
@@ -552,7 +551,7 @@
                 "Condition_if_Primary_contact_is_empty": {
                   "actions": {},
                   "runAfter": {
-                    "Set_variable_3": [
+                    "Append_Street3": [
                       "Succeeded"
                     ]
                   },
@@ -610,6 +609,51 @@
                   "inputs": {
                     "name": "Portal URL",
                     "value": " <a href=\"@{parameters('TDGOnlineportal (ovs_TDGOnlineportal)')}\">@{parameters('TDGOnlineportal (ovs_TDGOnlineportal)')}</a>"
+                  }
+                },
+                "Set_variable_-_Street_Composed": {
+                  "runAfter": {
+                    "Set_variable_3": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "ec4792a6-09a0-4877-bb47-3f34e69c403c"
+                  },
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "Street Composed",
+                    "value": "@{items('Apply_to_each')?['Account.address1_line1']}"
+                  }
+                },
+                "Append_Street2": {
+                  "runAfter": {
+                    "Set_variable_-_Street_Composed": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "e90aeda7-366d-4974-ae2f-36e333ee08dd"
+                  },
+                  "type": "AppendToStringVariable",
+                  "inputs": {
+                    "name": "Street Composed",
+                    "value": ", @{items('Apply_to_each')?['Account.address1_line2']}"
+                  }
+                },
+                "Append_Street3": {
+                  "runAfter": {
+                    "Append_Street2": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "823e8b6a-12fe-4397-a371-9215a80b02ff"
+                  },
+                  "type": "AppendToStringVariable",
+                  "inputs": {
+                    "name": "Street Composed",
+                    "value": ", @{items('Apply_to_each')?['Account.address1_line3']}"
                   }
                 }
               },
@@ -817,135 +861,6 @@
             "Apply_to_each_Connection": {
               "foreach": "@outputs('List_rows_Connection_Contacts')?['body/value']",
               "actions": {
-                "Condition_is_Primary_Contact": {
-                  "actions": {
-                    "Set_variable_Primary_Contact": {
-                      "runAfter": {},
-                      "metadata": {
-                        "operationMetadataId": "1763eadf-f61a-4aaa-8669-13193902b9d5"
-                      },
-                      "type": "SetVariable",
-                      "inputs": {
-                        "name": "Primary Contact",
-                        "value": "/contacts(@{items('Apply_to_each_Connection')?['Contact.contactid']})"
-                      }
-                    },
-                    "Append_to_array_variable_To_Recipients": {
-                      "runAfter": {
-                        "Set_variable_Primary_Contact": [
-                          "Succeeded"
-                        ]
-                      },
-                      "metadata": {
-                        "operationMetadataId": "c5a971ed-4faa-4d0c-8c37-544344e4c4fd"
-                      },
-                      "type": "AppendToArrayVariable",
-                      "inputs": {
-                        "name": "To Recipients",
-                        "value": {
-                          "participationtypemask": 2,
-                          "partyid@odata.bind": "@{variables('Primary Contact')}"
-                        }
-                      }
-                    },
-                    "Set_variable_Primary_Contact_Name": {
-                      "runAfter": {
-                        "Append_to_array_variable_Primary_Contacts": [
-                          "Succeeded"
-                        ]
-                      },
-                      "metadata": {
-                        "operationMetadataId": "06f8a924-a716-4a7f-90da-8dae047ce24e"
-                      },
-                      "type": "SetVariable",
-                      "inputs": {
-                        "name": "Primary Contact Name",
-                        "value": "@{items('Apply_to_each_Connection')?['Contact.fullname']}"
-                      }
-                    },
-                    "Append_to_array_variable_Primary_Contacts": {
-                      "runAfter": {
-                        "Append_to_array_variable_To_Recipients": [
-                          "Succeeded"
-                        ]
-                      },
-                      "metadata": {
-                        "operationMetadataId": "c5a971ed-4faa-4d0c-8c37-544344e4c4fd"
-                      },
-                      "type": "AppendToArrayVariable",
-                      "inputs": {
-                        "name": "Primary Contacts",
-                        "value": {
-                          "participationtypemask": 2,
-                          "partyid@odata.bind": "@{variables('Primary Contact')}"
-                        }
-                      }
-                    }
-                  },
-                  "runAfter": {
-                    "Set_variable_2": [
-                      "Succeeded"
-                    ]
-                  },
-                  "else": {
-                    "actions": {
-                      "Set_variable_Primary_Contact_2": {
-                        "runAfter": {},
-                        "metadata": {
-                          "operationMetadataId": "1763eadf-f61a-4aaa-8669-13193902b9d5"
-                        },
-                        "type": "SetVariable",
-                        "inputs": {
-                          "name": "Contacts",
-                          "value": "/contacts(@{items('Apply_to_each_Connection')?['Contact.contactid']})"
-                        }
-                      },
-                      "Append_to_array_variable_4": {
-                        "runAfter": {
-                          "Set_variable_Primary_Contact_2": [
-                            "Succeeded"
-                          ]
-                        },
-                        "metadata": {
-                          "operationMetadataId": "78209b86-9882-44ac-b2ce-b2bc8706c23c"
-                        },
-                        "type": "AppendToArrayVariable",
-                        "inputs": {
-                          "name": "To Recipients",
-                          "value": {
-                            "participationtypemask": 2,
-                            "partyid@odata.bind": "@{variables('Contacts')}"
-                          }
-                        }
-                      },
-                      "Set_variable_4": {
-                        "runAfter": {
-                          "Append_to_array_variable_4": [
-                            "Succeeded"
-                          ]
-                        },
-                        "metadata": {
-                          "operationMetadataId": "0200b8da-6d89-45ac-8cfe-82795a5b1880"
-                        },
-                        "type": "SetVariable",
-                        "inputs": {
-                          "name": "Contact Name",
-                          "value": "@{items('Apply_to_each_Connection')?['Contact.fullname']}"
-                        }
-                      }
-                    }
-                  },
-                  "expression": {
-                    "contains": [
-                      "@variables('ContactRole')",
-                      "Primary"
-                    ]
-                  },
-                  "metadata": {
-                    "operationMetadataId": "6a6ca3ab-91fc-4304-9890-a228a2ceee12"
-                  },
-                  "type": "If"
-                },
                 "Set_variable_2": {
                   "runAfter": {},
                   "metadata": {
@@ -955,6 +870,39 @@
                   "inputs": {
                     "name": "ContactRole",
                     "value": "@{items('Apply_to_each_Connection')?['Role.ovs_name']}"
+                  }
+                },
+                "Append_to_array_variable_4": {
+                  "runAfter": {
+                    "Set_variable_4": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "78209b86-9882-44ac-b2ce-b2bc8706c23c"
+                  },
+                  "type": "AppendToArrayVariable",
+                  "inputs": {
+                    "name": "To Recipients",
+                    "value": {
+                      "participationtypemask": 2,
+                      "partyid@odata.bind": "contacts(@{variables('Contacts')})"
+                    }
+                  }
+                },
+                "Set_variable_4": {
+                  "runAfter": {
+                    "Set_variable_2": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "6fa9b813-0e57-4133-9672-6d9a5f17141d"
+                  },
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "Contacts",
+                    "value": "@{items('Apply_to_each_Connection')?['Contact.contactid']}"
                   }
                 }
               },
@@ -1259,7 +1207,7 @@
         },
         "Append_to_array_variable_Send_Email_Queue": {
           "runAfter": {
-            "Set_variable": [
+            "Initialize_variable_-_Street_Composed": [
               "Succeeded"
             ]
           },
@@ -1330,6 +1278,25 @@
               "participationtypemask": 1,
               "partyid@odata.bind": "@{variables('Sender Email')}"
             }
+          }
+        },
+        "Initialize_variable_-_Street_Composed": {
+          "runAfter": {
+            "Set_variable": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ab11166a-f1e5-4f41-a38c-d784ee2b1b23"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Street Composed",
+                "type": "string"
+              }
+            ]
           }
         }
       }
