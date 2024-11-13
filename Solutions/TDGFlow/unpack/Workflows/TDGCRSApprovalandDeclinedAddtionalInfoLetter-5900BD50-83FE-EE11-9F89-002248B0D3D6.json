@@ -551,7 +551,7 @@
                 "Condition_if_Primary_contact_is_empty": {
                   "actions": {},
                   "runAfter": {
-                    "Append_Street3": [
+                    "Condition_2": [
                       "Succeeded"
                     ]
                   },
@@ -626,35 +626,69 @@
                     "value": "@{items('Apply_to_each')?['Account.address1_line1']}"
                   }
                 },
-                "Append_Street2": {
+                "Condition": {
+                  "actions": {
+                    "Append_Street2": {
+                      "runAfter": {},
+                      "metadata": {
+                        "operationMetadataId": "e90aeda7-366d-4974-ae2f-36e333ee08dd"
+                      },
+                      "type": "AppendToStringVariable",
+                      "inputs": {
+                        "name": "Street Composed",
+                        "value": ", @{items('Apply_to_each')?['Account.address1_line2']}"
+                      }
+                    }
+                  },
                   "runAfter": {
                     "Set_variable_-_Street_Composed": [
                       "Succeeded"
                     ]
                   },
-                  "metadata": {
-                    "operationMetadataId": "e90aeda7-366d-4974-ae2f-36e333ee08dd"
+                  "expression": {
+                    "not": {
+                      "equals": [
+                        "@empty(items('Apply_to_each')?['Account.address1_line2'])",
+                        "@true"
+                      ]
+                    }
                   },
-                  "type": "AppendToStringVariable",
-                  "inputs": {
-                    "name": "Street Composed",
-                    "value": ", @{items('Apply_to_each')?['Account.address1_line2']}"
-                  }
+                  "metadata": {
+                    "operationMetadataId": "0b698983-eb94-468f-a371-dcb8e929803d"
+                  },
+                  "type": "If"
                 },
-                "Append_Street3": {
+                "Condition_2": {
+                  "actions": {
+                    "Append_Street3": {
+                      "runAfter": {},
+                      "metadata": {
+                        "operationMetadataId": "823e8b6a-12fe-4397-a371-9215a80b02ff"
+                      },
+                      "type": "AppendToStringVariable",
+                      "inputs": {
+                        "name": "Street Composed",
+                        "value": ", @{items('Apply_to_each')?['Account.address1_line3']}"
+                      }
+                    }
+                  },
                   "runAfter": {
-                    "Append_Street2": [
+                    "Condition": [
                       "Succeeded"
                     ]
                   },
-                  "metadata": {
-                    "operationMetadataId": "823e8b6a-12fe-4397-a371-9215a80b02ff"
+                  "expression": {
+                    "not": {
+                      "equals": [
+                        "@empty(items('Apply_to_each')?['Account.address1_line3'])",
+                        "@true"
+                      ]
+                    }
                   },
-                  "type": "AppendToStringVariable",
-                  "inputs": {
-                    "name": "Street Composed",
-                    "value": ", @{items('Apply_to_each')?['Account.address1_line3']}"
-                  }
+                  "metadata": {
+                    "operationMetadataId": "cfc9ce8d-006d-480d-b227-4a9b882f7c3c"
+                  },
+                  "type": "If"
                 }
               },
               "runAfter": {
