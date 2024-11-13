@@ -1,0 +1,217 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="../qm_/Scripts/jquery_3.1.1.min.js"></script>
+    <script src="../ClientGlobalContext.js.aspx"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+</head>
+<body>
+
+    <iframe id="frameMain" height="100%" width="100%"></iframe>
+
+    <script>
+
+
+        //sdk function modified
+        function getDataParam() {
+
+            var vals = new Array();
+            if (location.search != "") {
+                vals = location.search.substr(1).split("&");
+                for (var i in vals) {
+                    vals[i] = vals[i].replace(/\+/g, " ").split("=");
+                }
+                //look for the parameter named 'data'
+                var dataObj = null;
+                for (var i in vals) {
+                    if (vals[i][0].toLowerCase() == "data") {
+                        dataObj = parseDataValue(vals[i][1]);
+                        found = true;
+                        break;
+                    } else {
+
+                        //notify user - params weren't found
+                        Xrm.Navigation.openErrorDialog({ message: "Specifications couls not be fetched due to the parameters error" });
+                        return null;
+                    }
+                }
+
+                if (dataObj != null) return dataObj;
+                else {
+
+                    //notify user - params couldn't be parsed
+                    Xrm.Navigation.openErrorDialog({ message: "Specifications couls not be fetched due to the parameters parsing error" });
+                    return null;
+                }
+            }
+            else {
+                //notify user - params are missing
+                return null;
+                Xrm.Navigation.openErrorDialog({ message: "Specifications couls not be fetched due to absence of required parameters" });
+            }
+        }
+
+        //sdk function modified
+        function parseDataValue(datavalue) {
+
+            if (datavalue != "") {
+                var vals = new Array();
+
+                vals = decodeURIComponent(datavalue).split("&");
+                for (var i in vals) {
+                    vals[i] = vals[i].replace(/\+/g, " ").split("=");
+                }
+
+                return JSON.parse(vals[0][0]);
+            }
+            return null;
+        }
+
+        function getBlobFile(filePath, containerName, sas_variable_name, storageAccount_var_name) {
+
+            var ovs_BlobDownloadFile = {
+                filePath: encodeURIComponent(filePath),
+                containerName: containerName,
+                sas_variable_name: sas_variable_name,
+                storageAccount_var_name: storageAccount_var_name,
+
+                getMetadata: function () {
+                    return {
+                        boundParameter: null,
+                        parameterTypes: {
+                            "filePath": {
+                                "typeName": "Edm.String",
+                                "structuralProperty": 1
+                            },
+                            "containerName": {
+                                "typeName": "Edm.String",
+                                "structuralProperty": 1
+                            },
+                            "sas_variable_name": {
+                                "typeName": "Edm.String",
+                                "structuralProperty": 1
+                            },"storageAccount_var_name": {
+                                "typeName": "Edm.String",
+                                "structuralProperty": 1
+                            }
+                        },
+                        operationType: 0,
+                        operationName: "ovs_BlobDownloadFile"
+                    };
+                }
+            };
+
+            Xrm.WebApi.online.execute(ovs_BlobDownloadFile).then(
+                function success(result) {
+
+                    if (result.ok) {
+                        result.text().then(function (i) {
+                            var data = JSON.parse(i);
+                            if (data != null || typeof data !== 'undefined') {
+
+                                if ((data.fileBody != null
+                                    && typeof data.fileBody !== 'undefined')
+                                    && (data.mimeType != null
+                                        && typeof data.mimeType !== 'undefined')) {
+                                    debugger;
+                                    console.log("mime_Type : " + data.mimeType);
+                                    if (data.mimeType == "application/pdf" || data.mimeType == "application/msword") {
+                                        debugger;
+                                        var binaryData = atob(data.fileBody);
+                                        // Create a Uint8Array from the binary data
+                                        var uint8Array = new Uint8Array(binaryData.length);
+                                        for (var i = 0; i < binaryData.length; i++) {
+                                            uint8Array[i] = binaryData.charCodeAt(i);
+                                        }
+
+                                        // Create a Blob from the Uint8Array
+                                        var blob = new Blob([uint8Array], { type: 'application/pdf' });
+
+                                        // Create an object URL for the blob
+                                        var objectURL = URL.createObjectURL(blob);
+
+                                        $('#frameMain').attr("src", objectURL);
+                                    }
+                                    else if (data.mimeType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+                                    {
+                                        debugger;
+                                        var binaryData = atob(data.fileBody);
+                                        // Create a Uint8Array from the binary data
+                                        var uint8Array = new Uint8Array(binaryData.length);
+                                        for (var i = 0; i < binaryData.length; i++) {
+                                            uint8Array[i] = binaryData.charCodeAt(i);
+                                        }
+                                       
+                                        // Create a Blob from the Uint8Array
+                                        var blob = new Blob([uint8Array], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
+                                     
+                                        debugger;
+
+                                        new Response(blob).arrayBuffer().then((arrayBuffer) => {
+                                            mammoth.convertToHtml({ arrayBuffer: arrayBuffer })
+                                                .then(function (result) {
+                                                    if (result.value != null) {
+                                                        var MainFrame = $("#frameMain").contents().find('body');
+                                                        
+                                                        MainFrame.html(result.value);
+                                                    }
+                                                })
+                                                .catch(function (err) {
+                                                    console.log(err);
+                                                });
+                                        });
+                                       
+
+                                    }
+                                    else $('#frameMain').attr("src", "data:" + data.mimeType + ";base64," + data.fileBody);
+                                }
+                                else if ((data.fileBody != null
+                                    && typeof data.fileBody !== 'undefined')) {
+
+                                    Xrm.Navigation.openErrorDialog({ message: "Error:" + data.fileBody + "; Please contact support." });
+                                    window.close();
+                                }
+
+                                else {
+
+                                    Xrm.Navigation.openErrorDialog({ message: "Responce is missing necessary information. Please contact support." });
+                                    window.close();
+                                }
+                            }
+                        }, function (error) {
+
+                            console.log("geting results with ovs_BlobDownloadFile error: " + error.message);
+                            Xrm.Navigation.openErrorDialog({ message: "No date could be found. Please contact support. Error: " + error.message });
+                            window.close();
+                        });
+
+                    }
+
+                },
+                function (error) {
+                    console.log("ovs_BlobDownloadFile error: " + error.message);
+                    Xrm.Navigation.openErrorDialog({ message: "Something went wrong while blob file fetching. Error: " + error.message });
+                    window.close();
+                }
+            );
+
+        }
+
+        $(document).ready(function () {
+
+            //get file name amd path
+            var paramsObj = getDataParam();
+            debugger;
+            if (paramsObj != null) getBlobFile(paramsObj.filePath, paramsObj.containerName, paramsObj.sas_variable_name, paramsObj.storageAccount_var_name);
+            else Xrm.Navigation.openErrorDialog({ message: "Blob call went south. Please contact support" });
+
+        });
+
+
+    </script>
+
+
+</body>
+</html>

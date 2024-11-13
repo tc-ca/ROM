@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ovs_emergencypersonnel" localizedName="Emergency Personnel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Emergency Personnel" languagecode="1033" />
+    <displayname description="Personnel d'urgence" languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" ExternalValue="">
+      <labels>
+        <label description="Police Department" languagecode="1033" />
+        <label description="DÉPARTEMENT DE POLICE" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" ExternalValue="">
+      <labels>
+        <label description="Fire Department" languagecode="1033" />
+        <label description="SERVICE DES INCENDIES" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" ExternalValue="">
+      <labels>
+        <label description="Environment Canada" languagecode="1033" />
+        <label description="Environnement Canada" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" ExternalValue="">
+      <labels>
+        <label description="Ambulance" languagecode="1033" />
+        <label description="Ambulance" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" ExternalValue="">
+      <labels>
+        <label description="Company Personnel" languagecode="1033" />
+        <label description="PERSONNEL DE L'ENTREPRISE" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="">
+      <labels>
+        <label description="Provincial Ministry of Environment" languagecode="1033" />
+        <label description="MINISTÈRE PROVINCIAL DE L'ENVIRONNEMENT" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="7" ExternalValue="">
+      <labels>
+        <label description="Remedial Measures Specialists" languagecode="1033" />
+        <label description=" SPÉCIALISTES DES MESURES CORRECTIVES" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="8" ExternalValue="">
+      <labels>
+        <label description="Canadian Coast Guard" languagecode="1033" />
+        <label description="GARDE CÔTIÈRE CANADIENNE" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="9" ExternalValue="">
+      <labels>
+        <label description="Aviation Emergency Response Personnel" languagecode="1033" />
+        <label description="Personnel d'intervention d'urgence de l'aviation" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="10" ExternalValue="">
+      <labels>
+        <label description="Ports Canada" languagecode="1033" />
+        <label description=" Ports Canada" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="11" ExternalValue="">
+      <labels>
+        <label description="Transportation Safety Board" languagecode="1033" />
+        <label description="Bureau de la sécurité des transports du Canada" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="12" ExternalValue="">
+      <labels>
+        <label description="Canadian Nuclear Safety Commission" languagecode="1033" />
+        <label description="COMMISSION CANADIENNE DE SÉCURITÉ NUCLÉAIRE" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="13" ExternalValue="">
+      <labels>
+        <label description="Provincial Ministry of Transport" languagecode="1033" />
+        <label description="MINISTÈRE PROVINCIAL DES TRANSPORTS" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="14" ExternalValue="">
+      <labels>
+        <label description="Employment and Social Development Canada" languagecode="1033" />
+        <label description="EMPLOI ET DÉVELOPPEMENT SOCIAL CANADA" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="15" ExternalValue="">
+      <labels>
+        <label description="Transport Emergency Assistance Program" languagecode="1033" />
+        <label description="PROGRAMME D'ASSISTANCE D'URGENCE DE TRANSPORT" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="16" ExternalValue="">
+      <labels>
+        <label description="Alberta Environmental Assistance Program" languagecode="1033" />
+        <label description="PROGRAMME D'ASSISTANCE EN URGENCES ENVIRONNEMENTALES ALBERTA" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="17" ExternalValue="">
+      <labels>
+        <label description="British Columbia Waste Management" languagecode="1033" />
+        <label description="GESTION DES DÉCHETS EN COLOMBIE-BRITANNIQUE" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="19" ExternalValue="">
+      <labels>
+        <label description="LPG ER" languagecode="1033" />
+        <label description="LPG ER" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="20" ExternalValue="">
+      <labels>
+        <label description="Hazmat Team" languagecode="1033" />
+        <label description="ÉQUIPE DE HAZMAT" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="21" ExternalValue="">
+      <labels>
+        <label description="Emergency Response Personnel or Other Environment Services" languagecode="1033" />
+        <label description="Personnel d'intervention d'urgence ou autres services environnementaux" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>
