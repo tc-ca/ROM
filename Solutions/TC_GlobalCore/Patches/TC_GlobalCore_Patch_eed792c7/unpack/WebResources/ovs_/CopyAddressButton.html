@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="../qm_/Bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="../ClientGlobalContext.js.aspx"></script>
+    <script src="../qm_/Scripts/jquery_3.1.1.min.js"></script>
+    <script src="../qm_/Bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <p id="textMessage" class="bg-warning"></p>
+        <button type="submit" id="btnCopy" class="btn btn-primary btn-xs" autocomplete="off">Copy Site address</button>
+    </div>
+
+    <script>
+
+        var globalContext = Xrm.Utility.getGlobalContext();
+        var clientUrl = globalContext.getClientUrl();
+        var formContext;
+        var Xrm;
+        var LCID = 1033;
+
+        function GetLookupAttrId(formContext, attr) {
+            var lu = formContext.getAttribute(attr);
+            if (lu != null) {
+                if (lu.getValue() != null && lu.getValue().length > 0) {
+                    var luValue = lu.getValue();
+                    if (luValue != null) {
+                        return luValue[0].id;
+                    }
+                }
+                else {
+                    return null;
+                }
+            }
+            return null;
+        }
+
+        function SetLookup(formContext, attr, entityType, id, name) {
+
+            if (id == null || id == "undefined") formContext.getAttribute(attr).setValue(id);
+            else {
+                var setLookupValue = new Array();
+                setLookupValue[0] = new Object();
+                setLookupValue[0].id = id;
+                setLookupValue[0].entityType = entityType;
+                if (name) setLookupValue[0].name = name;
+                formContext.getAttribute(attr).setValue(setLookupValue);
+            }
+            formContext.getAttribute(attr).setSubmitMode("always");
+        }
+
+        function SetValue(formContext, attr, val) {
+            formContext.getAttribute(attr).setValue(val);
+            formContext.getAttribute(attr).setSubmitMode("always");
+        }
+
+        function getAddress(siteID) {
+
+            Xrm.WebApi.online.retrieveRecord("account", siteID, "?$select=address1_city,address1_country,address1_latitude,address1_line1,address1_line2,address1_line3,address1_longitude,address1_postalcode,address1_stateorprovince,ovs_address_type,ovs_lld_quarter,ovs_lld_range,ovs_lld_section,ovs_lld_township,_territoryid_value").then(
+                function success(result) {
+
+                    ////ovs_address_type_cd
+                    //var ovs_address_type = result["ovs_address_type"];
+                    //var ovs_address_type_formatted = result["ovs_address_type@OData.Community.Display.V1.FormattedValue"];
+                    //SetValue(formContext, "ovs_address_type_cd", ovs_address_type);
+
+                    //ovs_city_txt
+                    var address1_city = result["address1_city"];
+                    SetValue(formContext, "ovs_city_txt", address1_city);
+                    //ovs_country_txt
+                    var address1_country = result["address1_country"];
+                    SetValue(formContext, "ovs_country_txt", address1_country);
+                    //ovs_street1_txt
+                    var address1_line1 = result["address1_line1"];
+                    SetValue(formContext, "ovs_street1_txt", address1_line1);
+                    //ovs_street2_txt
+                    var address1_line2 = result["address1_line2"];
+                    SetValue(formContext, "ovs_street2_txt", address1_line2);
+                    //ovs_street3_txt
+                    var address1_line3 = result["address1_line3"];
+                    SetValue(formContext, "ovs_street3_txt", address1_line3);
+                    //ovs_zip_postalcode_txt
+                    var address1_postalcode = result["address1_postalcode"];
+                    formContext.getAttribute("ovs_zip_postalcode_txt").setValue(address1_postalcode);
+                    SetValue(formContext, "ovs_zip_postalcode_txt", address1_postalcode);
+                    //ovs_state_province_txt
+                    var address1_stateorprovince = result["address1_stateorprovince"];
+                    formContext.getAttribute("ovs_state_province_txt").setValue(address1_stateorprovince);
+                    SetValue(formContext, "ovs_state_province_txt", address1_stateorprovince);
+
+                    //ovs_region_id 
+                    var _territoryid_value = result["_territoryid_value"];
+                    var _territoryid_value_formatted = result["_territoryid_value@OData.Community.Display.V1.FormattedValue"];
+                    var _territoryid_value_lookuplogicalname = result["_territoryid_value@Microsoft.Dynamics.CRM.lookuplogicalname"];
+                    SetLookup(formContext, "ovs_region_id", _territoryid_value_lookuplogicalname, _territoryid_value, _territoryid_value_formatted)
+
+                    //ovs_latitude_nbr
+                    var address1_latitude = result["address1_latitude"];
+                    var address1_latitude_formatted = result["address1_latitude@OData.Community.Display.V1.FormattedValue"];
+                    SetValue(formContext, "ovs_latitude_nbr", address1_latitude);
+
+                    //ovs_longitude_nbr
+                    var address1_longitude = result["address1_longitude"];
+                    var address1_longitude_formatted = result["address1_longitude@OData.Community.Display.V1.FormattedValue"];
+                    SetValue(formContext, "ovs_longitude_nbr", address1_longitude);
+
+                    //ovs_quarter_lsd_cd
+                    var ovs_lld_quarter = result["ovs_lld_quarter"];
+                    var ovs_lld_quarter_formatted = result["ovs_lld_quarter@OData.Community.Display.V1.FormattedValue"];
+                    SetValue(formContext, "ovs_quarter_lsd_cd", ovs_lld_quarter);
+                    //ovs_range_cd
+                    var ovs_lld_range = result["ovs_lld_range"];
+                    var ovs_lld_range_formatted = result["ovs_lld_range@OData.Community.Display.V1.FormattedValue"];
+                    SetValue(formContext, "ovs_range_cd", ovs_lld_range);
+                    //ovs_section_cd   
+                    var ovs_lld_section = result["ovs_lld_section"];
+                    var ovs_lld_section_formatted = result["ovs_lld_section@OData.Community.Display.V1.FormattedValue"];
+                    SetValue(formContext, "ovs_section_cd", ovs_lld_section);
+                    //ovs_township_cd
+                    var ovs_lld_township = result["ovs_lld_township"];
+                    var ovs_lld_township_formatted = result["ovs_lld_township@OData.Community.Display.V1.FormattedValue"];
+                    SetValue(formContext, "ovs_township_cd", ovs_lld_township);
+
+                    ////initiateAddess Type change
+                    //var addressType = formContext.getAttribute("ovs_address_type_cd");
+                    //addressType.fireOnChange();
+                },
+                function (error) {
+
+                    Xrm.Navigation.openErrorDialog({ message: "Failed to fetch Site details. Please contact support. Error details:" + error.message });
+                }
+            );
+
+        }
+
+        function copyAddress(siteID) {
+
+            var confirmed = false;
+            var confirmStrings = { text: "The existing address will be overriden. Continue with copy?", title: "Confirmation Dialog", cancelButtonLabel: "Cancel", confirmButtonLabel: "Copy", subtitle: "FR:Confirmation Dialog" };
+            var confirmOptions = { height: 200, width: 450 };
+            Xrm.Navigation.openConfirmDialog(confirmStrings, confirmOptions).then(function (success) {
+
+                if (success.confirmed) { getAddress(siteID); }
+                else { confirmed = success.confirmed; }
+            });
+
+        }
+
+        function setClientApiContext(_xrm, _formContext) {
+
+            Xrm = _xrm;
+            formContext = _formContext;
+
+            $('#textMessage').text("Please use the button to copy the Site Address into Incident Location. The existing address will be overriden.");
+
+
+            $('#btnCopy').on('click', function () {
+
+                //get site id
+                var siteID = GetLookupAttrId(formContext, "ovs_site_id");
+                if (siteID != null) copyAddress(siteID.replace('{', '').replace('}',''));
+                else Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "OK", text: "Please choose Site first" });
+            });
+
+        }
+
+        $(document).ready(function () {
+
+
+        });
+
+    </script>
+</body>
+</html>
