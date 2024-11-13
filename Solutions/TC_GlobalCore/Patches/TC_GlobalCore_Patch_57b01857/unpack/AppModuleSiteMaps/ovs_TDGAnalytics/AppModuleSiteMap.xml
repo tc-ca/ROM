@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ovs_TDGAnalytics</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Planning" />
+      </Titles>
+      <Group Id="OversightPlanning_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Oversight Planning" />
+        </Titles>
+        <SubArea Id="New_SubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="msdyn_workorder" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Ordres de travail" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_907ba64f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="bookableresource" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Inspectors" />
+            <Title LCID="1036" Title="Inspecteurs" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_267621e8" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Comptes" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_940bbba5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Contacts" />
+            <Title LCID="1036" Title="Contacts" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_fcfb141d" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="5f5ffe7a-71e3-eb11-bacb-0022483c5e2f" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Dashboards" />
+            <Title LCID="1036" Title="Tableau de bord" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="New_66ec3dae" ResourceId="SitemapDesigner.NewSubArea" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_workorderservicetask&amp;viewid=2B492E52-CBB9-EC11-983F-0022483D62F4" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Time Tracking Data" />
+            <Title LCID="1036" Title="Données de suivi du temps" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_06513d82" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="qm_cepdata" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="CEP Data" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_9e82f01a" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_operationunnumber" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2abaca4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_siteclass" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="DG Classes" />
+            <Title LCID="1036" Title="Classes de MD" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_76976295" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="NOP" />
+          <Title LCID="1036" Title="PNS" />
+        </Titles>
+        <SubArea Id="NewSubArea_bafe6fb2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cdnop" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Les PNS" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_7b6b8c9e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cdregionalnop" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Les PNS régional" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_ed1f6489" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_mocregistration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Operations" />
+            <Title LCID="1036" Title="Les Opérations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_d4cb902e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_workordercandidate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Candidat à l’ordre de travail" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_2a41f18c" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Activities" />
+        </Titles>
+        <SubArea Id="NewSubArea_d6d2b63e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_tdginspectionreport" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Inspection Reports" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_1537214d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cysafetyassessment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="SEAT" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_32582451" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cyaction" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Enforcement &amp; Safety Actions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_c7d406b7" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_confirmationofcompliance" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_c87e769c" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cancellationrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_84e036da" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_followuprequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Follow-Up Inspection Requests" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_d3c71f98" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Engineer Services" />
+        </Titles>
+        <SubArea Id="NewSubArea_30db722b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_servicerequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_89a4602d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_design" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_4126434f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_registeredmark" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_68e9d4fa" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="CRS Services" />
+        </Titles>
+        <SubArea Id="NewSubArea_3b69ad57" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_8b208f9a" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Support" />
+        </Titles>
+        <SubArea Id="NewSubArea_8badaa8d" ResourceId="SitemapDesigner.NewSubArea" Url="$webresource:qm_/CustomerServiceCall.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Support Request" />
+            <Title LCID="1036" Title="Demande de support" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="TDG Analytics / Analytique TMD" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>
