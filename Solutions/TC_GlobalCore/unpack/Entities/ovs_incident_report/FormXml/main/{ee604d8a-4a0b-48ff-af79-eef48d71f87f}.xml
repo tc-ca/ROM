@@ -10,7 +10,7 @@
         <tab verticallayout="true" id="{4671f530-1c23-492d-860e-e6ebd9acfd01}" IsUserDefined="1" name="General Info">
           <labels>
             <label description="General" languagecode="1033" />
-            <label description="Général" languagecode="1036" />
+            <label description="Détails" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -18,7 +18,7 @@
                 <section showlabel="false" showbar="false" IsUserDefined="0" id="{22f9e773-73a2-4158-85da-77f3d455ccbd}" visible="false" name="General Info">
                   <labels>
                     <label description="General" languagecode="1033" />
-                    <label description="Général" languagecode="1036" />
+                    <label description="Détails" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -70,7 +70,7 @@
                     <row>
                       <cell id="{c12653da-2022-4d74-b2d5-b2687aabcee2}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Canutec Reference Number" languagecode="1033" />
+                          <label description="CANUTEC Reference Number" languagecode="1033" />
                           <label description="NUMERO DE REFERENCE CANUTEC" languagecode="1036" />
                         </labels>
                         <control id="ovs_canutec_reference_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_canutec_reference_number_txt" disabled="false" />
@@ -86,7 +86,7 @@
                     <row>
                       <cell id="{7c387f0a-d796-402a-9b1c-c18521b32141}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Canutec" languagecode="1033" />
+                          <label description="CANUTEC" languagecode="1033" />
                           <label description="CANUTEC" languagecode="1036" />
                         </labels>
                         <control id="ovs_date_canutec_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_canutec_dte" disabled="false" />
@@ -100,12 +100,28 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{cadaa661-d551-4e8f-9bae-a0387924bc25}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{6cda18ff-b364-48af-88cc-5cacc5a792ae}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Release Type" languagecode="1033" />
-                          <label description="Type de rejet" languagecode="1036" />
+                          <label description="Source" languagecode="1033" />
+                          <label description="Source" languagecode="1036" />
                         </labels>
-                        <control id="ovs_release_type_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_release_type_cds" disabled="false" />
+                        <control id="ovs_source_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_source_cd" disabled="false" />
+                      </cell>
+                      <cell id="{933e426d-0b0c-4be5-b284-5e787feeb05d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Incident Severity" languagecode="1033" />
+                          <label description="Gravité de l'incident" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_incident_severity_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_incident_severity_cd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd8869a3-7eff-43fe-8384-0fd537777941}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Other Source" languagecode="1033" />
+                          <label description="Autre source" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_other_source_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_other_source_txt" disabled="false" />
                       </cell>
                       <cell id="{26c6f320-75a1-4aa1-97d4-e9683713fd70}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -116,12 +132,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b4063e83-2dbb-430f-b819-8340c419ea18}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{80cae8a3-3cb5-4886-ba72-71c0a8cff37d}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Release Type Other" languagecode="1033" />
-                          <label description="Autre nature du rejet" languagecode="1036" />
+                          <label description="Initial 30-Day Follow-Up Receipt Date" languagecode="1033" />
+                          <label description="Date de réception du Rapport de suivi dans les 30 jours" languagecode="1036" />
                         </labels>
-                        <control id="ovs_release_type_other_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_release_type_other_txt" disabled="false" />
+                        <control id="ovs_initial_30day_follow_up_receipt_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_initial_30day_follow_up_receipt_date_dte" disabled="false" />
                       </cell>
                       <cell id="{b1dd9404-89f1-4ba6-8e60-2026a307ec06}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -132,12 +148,18 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3571a6fa-dd4a-4a71-9ea9-1e2dec22610e}" locklevel="0" colspan="1" rowspan="3">
+                      <cell id="{f208b004-91e2-4584-b5a9-ce3943003185}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Incident Summary" languagecode="1033" />
-                          <label description="Sommaire de l'incident" languagecode="1036" />
+                          <label description="Filing Organization" languagecode="1033" />
+                          <label description="Organisation déposant le rapport" languagecode="1036" />
                         </labels>
-                        <control id="ovs_summary_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_summary_txt" disabled="false" />
+                        <control id="ovs_account_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_account_id" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{8965DC8D-460A-EB11-A813-000D3AF3A7A7}</DefaultViewId>
+                            <AvailableViewIds>{9B760BD0-0437-EE11-BDF4-0022483D0343},{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{71537AB2-06CD-EE11-9079-0022483CCEB8},{4296FF9A-5870-EF11-A671-0022483BB3A9},{61273827-328E-E011-95AE-00155D9CFA03},{61273827-328E-E011-95AE-00155D9CFA02},{15C63745-0A6E-4322-8416-A62C84D90279},{CFBCD7AF-AEE5-4E45-8ECC-C040D4020581},{49FB9771-09E1-4E70-B193-198752493577},{00000000-0000-0000-00AA-000010001002},{82CC4863-AA98-EB11-B1AC-000D3AE93A4F},{65FFAF9A-E8C5-432D-860B-32F841B00D87},{2225CDFB-321F-EE11-9966-0022483D0343},{E7292E30-4FD2-EE11-904D-0022483CC3B7},{74BBEEBE-F9FE-ED11-8F6D-0022483E130E},{631F1F30-1BFF-ED11-8F6D-0022483D0343},{A0BE1CB3-8525-EC11-B6E6-0022483CB5CD},{6E812D65-8725-EC11-B6E6-0022483CB5CD},{27025EBD-1817-ED11-B83F-000D3A84CFDD},{28D5AB71-642A-EE11-BDF4-0022483D0C87},{153AA606-2043-ED11-BBA3-0022483D0343},{40662D0E-D694-EC11-B3FE-000D3A0C829E},{84F03662-9E28-EC11-B6E6-0022483CB5CD},{EFE63E51-3040-ED11-BBA2-0022483D0343},{C8DB5060-4A4D-EC11-8F8E-000D3AE9A753},{D540E97A-C892-EC11-B3FE-000D3A0C187C},{048F4D4F-C892-EC11-B3FE-000D3A0C187C},{3FFFABCB-74C0-EC11-983E-0022483DB9D8},{E2298C2D-12C1-EE11-9078-0022483CCEB8},{8965DC8D-460A-EB11-A813-000D3AF3A7A7},{37150390-5002-EF11-9F89-002248B0D3D6},{7DE498C2-508F-49A4-B2E8-D550D5B1B9EE},{E3847669-10FF-ED11-8F6D-0022483D0343},{ABA6669F-1CFF-ED11-8F6D-0022483D0343},{00000000-0000-0000-00AA-000010001031},{92F36027-A3E0-EE11-904C-000D3AE9455D},{00000000-0000-0000-00AA-000010001001},{4BFEA08C-9A4D-E611-80FC-0024E84720C6},{D234426E-1F37-4944-9255-50E19B541C4C},{AA2BA086-5AD4-EB11-BACC-000D3AF3999C},{2253BE98-5AD4-EB11-BACC-000D3AF38CD4},{FDBC939A-2403-EB11-A813-000D3AF3AC0D},{80D24AA0-2B6C-ED11-81AC-0022483D0343},{D15E48F6-E8FE-E811-8165-000D3AF92C6E},{0F928982-20D3-E811-815B-000D3AFD1036},{7B62C6EE-865B-EB11-A812-000D3A84DB40},{FF211CB9-117A-EC11-8D20-000D3AFF1221},{7C363E5F-5BD4-EB11-BACC-000D3AF3999C},{E7BA8BD8-440A-EB11-A813-000D3AF3A7A7},{906591F6-654C-EC11-8F8E-000D3AE8E96E},{A5A9B46C-475D-EE11-8DF0-0022483E130E},{7FA4B59F-485D-EE11-8DF0-0022483D0C87},{57962920-5929-EB11-A813-000D3AF3A7A7}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
                       </cell>
                       <cell id="{3ac6b2f2-d54e-47a8-8129-fd65e8961bf2}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -148,14 +170,58 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{99baf3fc-4039-4e58-a877-057ead21a316}" showlabel="false">
+                      <cell id="{cadaa661-d551-4e8f-9bae-a0387924bc25}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Release Type" languagecode="1033" />
+                          <label description="Type de rejet" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_release_type_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_release_type_cds" disabled="false" />
+                      </cell>
+                      <cell id="{d1033e85-648b-4921-b940-83c7e147692d}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Créé le" languagecode="1036" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4063e83-2dbb-430f-b819-8340c419ea18}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Release Type Other" languagecode="1033" />
+                          <label description="Autre type de rejet" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_release_type_other_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_release_type_other_txt" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e8527f44-587c-4646-8723-3923c09dd3b9}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{b9626367-32d7-4816-a622-89133a59fdc7}" showlabel="false">
+                      <cell id="{3571a6fa-dd4a-4a71-9ea9-1e2dec22610e}" locklevel="0" colspan="1" rowspan="3">
+                        <labels>
+                          <label description="Incident Summary" languagecode="1033" />
+                          <label description="Résumé de l'incident" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_summary_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_summary_txt" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{fcabe9a9-645e-43d4-a453-6b6ffc6880e3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{92a7a6fd-cc08-4b00-a05d-0858b1897522}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{61ef706a-480b-41a1-ad54-7aafccb4ead8}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -166,6 +232,7 @@
                 <section name="General Info_section_4" id="0175beb8-340e-4fcc-9b5a-05750f9427ab" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
                   <labels>
                     <label description="Roles of Organizations Involved" languagecode="1033" />
+                    <label description="Rôles des organisations impliquées" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -180,7 +247,7 @@
                         <labels>
                           <label description="Incident Organizations" languagecode="1033" />
                         </labels>
-                        <control indicationOfSubgrid="true" id="Participants" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{d97f7e5f-43ca-414f-a680-6685e689fec6}">
+                        <control indicationOfSubgrid="true" id="Participants" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
                           <parameters>
                             <TargetEntityType>ovs_incident_organization</TargetEntityType>
                             <ViewId>{D103A530-2828-EF11-840B-6045BD61F005}</ViewId>
@@ -215,25 +282,22 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{cd59bc63-ad0a-4057-bbaf-0a7809288815}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell id="{38c9db68-65a1-4376-ba41-7ad15172f87d}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{33c9a30f-62b2-4ed6-bd44-18f39aeae5a6}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Did the incident result in an evacuation?" languagecode="1033" />
-                          <label description="Evacuation Due Incident" languagecode="1036" />
+                          <label description="L'incident a-t-il nécessité une évacuation ?" languagecode="1036" />
                         </labels>
                         <control id="ovs_evacuation_due_incident_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_evacuation_due_incident_ind" disabled="false" uniqueid="{96c44887-b4d4-4fcb-b02b-4c73f41a81aa}" />
                       </cell>
+                      <cell id="{47a895ba-aea1-4908-90ab-8e7575fad1e1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Did the incident result in a Shelter in Place order?" languagecode="1033" />
+                          <label description="L'incident a-t-il donné lieu à une ordonnance de mise à l'abri" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_shelter_in_place_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_shelter_in_place_ind" disabled="false" uniqueid="{bfb4311c-7434-4cf7-9f8e-b09b6c1d3f2c}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{4d7701cc-8a60-44b7-a877-2a15f7232419}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Evacuation Profile" languagecode="1033" />
@@ -243,19 +307,42 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{933e426d-0b0c-4be5-b284-5e787feeb05d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Incident Severity" languagecode="1033" />
-                          <label description="Gravité de l'incident" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_incident_severity_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_incident_severity_cd" disabled="false" />
-                      </cell>
                       <cell id="{09e43393-a856-4e79-98d0-640dbde82a94}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Evacuation Count" languagecode="1033" />
-                          <label description="Nombre de personnes évacuées" languagecode="1036" />
+                          <label description="Nombre d'évacués" languagecode="1036" />
                         </labels>
                         <control id="ovs_evacuation_count_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_evacuation_count_num" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de8bfaf8-416a-4bb2-b6b3-ff3992d7c7a4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Duration of the evacuation order (Hours)" languagecode="1033" />
+                          <label description="Durée de l'ordre d'évacuation (heures)" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_duration_evacuation_nbr" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="ovs_duration_evacuation_nbr" disabled="false" />
+                      </cell>
+                      <cell id="{70f51978-44a5-4711-b5ef-54c88b972ba4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Number of people​ who sheltered in place" languagecode="1033" />
+                          <label description="Nombre de personnes mises à l'abri" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_number_of_sheltered_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_number_of_sheltered_num" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{096fd7d1-5522-4de3-a396-4d798eb021ad}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{a77d44e9-f33d-4824-a6e1-3fdbe3b00a1d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Duration of the Shelter in place order (Hours)" languagecode="1033" />
+                          <label description="Durée de l'ordonnance de mise à l'abri (heures)" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_duration_shelter_nbr" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="ovs_duration_shelter_nbr" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -315,8 +402,8 @@
                       </cell>
                       <cell id="{f1e7341c-c607-4914-b4be-a5c5974b059f}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Property and Infrastructure Damage Costs" languagecode="1033" />
-                          <label description="Coûts des dommages matériels et aux infrastructures" languagecode="1036" />
+                          <label description="Property and Infrastructure Damage Cost" languagecode="1033" />
+                          <label description="Coût des dommages matériels et aux infrastructures" languagecode="1036" />
                         </labels>
                         <control id="ovs_cost_of_damages_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_damages_num" disabled="false" uniqueid="{81312518-1a11-78ad-d6dc-8db5bce05364}" />
                       </cell>
@@ -330,7 +417,7 @@
                       <cell id="{8a43d8d3-5362-434d-8a87-223fe92ebcc7}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Cost of Remediation" languagecode="1033" />
-                          <label description="Dommages à la propriété." languagecode="1036" />
+                          <label description="Coût d'assainissement" languagecode="1036" />
                         </labels>
                         <control id="ovs_cost_of_remediation_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_remediation_num" disabled="false" />
                       </cell>
@@ -344,7 +431,7 @@
                       <cell id="{0d1413ff-f431-48c7-9694-ac35b5cacb20}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Cost of Dangerous Goods" languagecode="1033" />
-                          <label description=" Perte matérielle de marchandises dangereuses." languagecode="1036" />
+                          <label description="Coût des marchandises dangereuses" languagecode="1036" />
                         </labels>
                         <control id="ovs_cost_of_dangerous_goods_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_dangerous_goods_num" disabled="false" />
                       </cell>
@@ -358,7 +445,7 @@
                       <cell id="{38edb4e8-6918-4d10-9e34-3e3c3bc9c8bf}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Dangerous Goods Cleanup Cost" languagecode="1033" />
-                          <label description="Coût de nettoyage" languagecode="1036" />
+                          <label description="Coût du nettoyage des marchandises dangereuses" languagecode="1036" />
                         </labels>
                         <control id="ovs_dangerous_goods_cleanup_cost_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_dangerous_goods_cleanup_cost_num" disabled="false" />
                       </cell>
@@ -371,7 +458,7 @@
                       </cell>
                       <cell id="{c943c15d-94b2-4631-8581-277c6625dc4f}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Event Cleanup Costs" languagecode="1033" />
+                          <label description="Event Cleanup Cost" languagecode="1033" />
                           <label description="Coût de nettoyage de l'événement" languagecode="1036" />
                         </labels>
                         <control id="ovs_event_cleanup_costs_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_event_cleanup_costs_num" disabled="false" />
@@ -422,13 +509,6 @@
                         </labels>
                         <control id="ovs_closure_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_closure_ind" disabled="false" uniqueid="{961eaf92-27be-4ef7-9e52-7f9ca221030c}" />
                       </cell>
-                      <cell id="{ab1bcd07-89fc-4afb-b016-23a037f904c7}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Duration (Hours)" languagecode="1033" />
-                          <label description="Durée (heures)" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_duration_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_duration_num" disabled="false" />
-                      </cell>
                     </row>
                     <row>
                       <cell id="{9b8dbe4c-3662-435a-af3e-cfe08fe04c2a}" locklevel="0" colspan="1" rowspan="1">
@@ -438,12 +518,12 @@
                         </labels>
                         <control id="ovs_closure_type_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_closure_type_cds" disabled="false" />
                       </cell>
-                      <cell id="{650a52fc-bccd-4a5a-90ac-55a4d4b3e313}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{f6e2d0cd-4788-4cf7-8ac1-79454ba3d541}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Other Closure Type" languagecode="1033" />
-                          <label description="Autre type de fermeture" languagecode="1036" />
+                          <label description="Duration of Closure" languagecode="1033" />
+                          <label description="Durée de la fermeture" languagecode="1036" />
                         </labels>
-                        <control id="ovs_closure_type_other_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_closure_type_other_txt" disabled="false" />
+                        <control id="ovs_duration_closure_num" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="ovs_duration_closure_num" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -451,6 +531,7 @@
                 <section name="tab_consequences_section_erp" id="c0d756e7-1637-41d8-9382-fa94ca1f970e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
                   <labels>
                     <label description="Emergency Response Personnel" languagecode="1033" />
+                    <label description="Personnel d'intervention d'urgence" languagecode="1036" />
                   </labels>
                   <rows>
                     <row />
@@ -458,7 +539,7 @@
                       <cell id="{e95f36e5-0dde-4a03-a7bd-39caa61cc320}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Emergency Response Personnel" languagecode="1033" />
-                          <label description="Emergency Response Personnel" languagecode="1036" />
+                          <label description="Personnel d'intervention d'urgence" languagecode="1036" />
                         </labels>
                         <control id="ovs_emergency_response_personnel_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_emergency_response_personnel_cds" disabled="false" />
                       </cell>
@@ -489,41 +570,6 @@
                   </labels>
                   <rows>
                     <row />
-                    <row>
-                      <cell id="{e7b03f34-5615-43c5-a083-560a561927e2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Address is not determent" languagecode="1033" />
-                          <label description="Address is not determent" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_address_not_determent_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_address_not_determent_ind" disabled="false" uniqueid="{cfa29311-230d-43a0-8125-d4550616a2ca}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{5b2598d7-d304-402a-a68b-59ac6de8cebf}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Address Description" languagecode="1033" />
-                          <label description="Address Description" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_address_description_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_address_description_txt" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_location_section_populated" id="47e3090c-f169-49ed-ac6d-93a82a95599f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
-                  <labels>
-                    <label description="Auto Address" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{f1c0216c-9839-482e-b710-7821b6d49b5c}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Input Address Type" languagecode="1033" />
-                          <label description="Input du type d'addresse " languagecode="1036" />
-                        </labels>
-                        <control id="ovs_address_type_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_address_type_cd" disabled="false" />
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{22c04cf5-f58b-47b7-9abe-0371098700d9}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -597,21 +643,21 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{30e1a45c-cf91-479f-8a3d-707f1a84b59e}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{200bb69d-a3d9-42d3-b25f-5483c7947735}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Latitude" languagecode="1033" />
                           <label description="Latitude" languagecode="1036" />
                         </labels>
-                        <control id="ovs_latitude_num" classid="{0D2C745A-E5A8-4C8F-BA63-C6D3BB604660}" datafieldname="ovs_latitude_num" disabled="false" />
+                        <control id="ovs_latitude_nbr" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_latitude_nbr" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{fa4f6fe4-acc5-49f8-be11-7f172ce54e86}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{54c12d22-7ed8-4146-8ef2-663ddcf9e10c}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Longitude" languagecode="1033" />
                           <label description="Longitude" languagecode="1036" />
                         </labels>
-                        <control id="ovs_longitude_num" classid="{0D2C745A-E5A8-4C8F-BA63-C6D3BB604660}" datafieldname="ovs_longitude_num" disabled="false" />
+                        <control id="ovs_longitude_nbr" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_longitude_nbr" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -650,75 +696,22 @@
                         <control id="ovs_range_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_range_cd" disabled="false" />
                       </cell>
                     </row>
-                  </rows>
-                </section>
-                <section name="tab_location_section_addressManual" id="bfcdaa99-df8d-483f-b596-c87dc91f557c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
-                  <labels>
-                    <label description="Manual Address" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row />
                     <row>
-                      <cell id="{a87ee9fa-3dcb-4d44-bc66-56aa9c6c8da1}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{66bd2b73-0a1e-42bf-b7e9-fd590a83af66}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Street 1" languagecode="1033" />
-                          <label description="Rue 1" languagecode="1036" />
+                          <label description="Meridian" languagecode="1033" />
+                          <label description="Méridien" languagecode="1036" />
                         </labels>
-                        <control id="ovs_street1_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_street1_txt" disabled="false" />
+                        <control id="ovs_meridian_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_meridian_cd" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1119aed0-2e0c-4ff8-850b-a33db8773fa2}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{5b2598d7-d304-402a-a68b-59ac6de8cebf}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Street 2" languagecode="1033" />
-                          <label description="Rue 2" languagecode="1036" />
+                          <label description="Address Description" languagecode="1033" />
+                          <label description="Description de l'adresse" languagecode="1036" />
                         </labels>
-                        <control id="ovs_street2_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_street2_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{c6f7959c-1b9b-4236-a41f-058a8102fe03}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Street 3" languagecode="1033" />
-                          <label description="Rue 3" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_street3_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_street3_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{e2845a76-603c-4b26-b280-576803fce27d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="City" languagecode="1033" />
-                          <label description="Ville" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_city_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_city_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{1968662e-da71-4bc0-8b29-e3481b5a4474}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="State/Province​/Territory" languagecode="1033" />
-                          <label description="État / Province / Territoire+E3353" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_state_province_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_state_province_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{30c028d4-a632-4666-a015-e15072a8dbd2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="ZIP/Postal Code" languagecode="1033" />
-                          <label description="Code postal / Code ZIP" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_zip_postalcode_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_zip_postalcode_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{168598a9-097c-493b-b1ec-c5ccf8011916}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Country" languagecode="1033" />
-                          <label description="Pays" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_country_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_country_txt" disabled="false" />
+                        <control id="ovs_address_description_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_address_description_txt" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -727,7 +720,7 @@
             </column>
             <column width="50%">
               <sections>
-                <section name="tab_location_section_site" id="9554cec5-e469-434b-be39-71c0c918f427" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                <section name="tab_location_section_site" id="9554cec5-e469-434b-be39-71c0c918f427" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="true">
                   <labels>
                     <label description="Site" languagecode="1033" />
                   </labels>
@@ -753,7 +746,7 @@
                         <labels>
                           <label description="DGAIS Copy Address Button html" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_new_1" classid="{9FDF5F91-88B1-47F4-AD53-C11EFC01A01D}">
+                        <control id="WebResource_CopyButton" classid="{9FDF5F91-88B1-47F4-AD53-C11EFC01A01D}">
                           <parameters>
                             <Url>ovs_/CopyAddressButton.html</Url>
                             <PassParameters>false</PassParameters>
@@ -854,10 +847,17 @@
             </cell>
             <cell id="{a20dc60b-b85b-49b1-a3ee-037759b6f6fb}" locklevel="0" colspan="1" rowspan="1">
               <labels>
-                <label description="Primary" languagecode="1033" />
-                <label description="Principal " languagecode="1036" />
+                <label description="Primary Report" languagecode="1033" />
+                <label description="Rapport principal" languagecode="1036" />
               </labels>
               <control id="header_ovs_primary_report_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_primary_report_ind" disabled="true" />
+            </cell>
+            <cell id="{af2eb637-8250-48df-8af7-6380f6edd0c5}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Analyst Report" languagecode="1033" />
+                <label description="Rapport d'analyste" languagecode="1036" />
+              </labels>
+              <control id="header_ovs_analyst_report_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_analyst_report_ind" disabled="true" />
             </cell>
             <cell id="{e0fdb1f3-d422-47a5-9de3-7cefb57350a1}" locklevel="0" colspan="1" rowspan="1">
               <labels>
@@ -910,71 +910,6 @@
           <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
             <parameters>
               <value type="TwoOptions">ovs_evacuation_due_incident_ind</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{d97f7e5f-43ca-414f-a680-6685e689fec6}">
-          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
-            <parameters />
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{D103A530-2828-EF11-840B-6045BD61F005}</ViewId>
-                <TargetEntityType>ovs_incident_organization</TargetEntityType>
-                <IsUserView>false</IsUserView>
-                <EnableViewPicker>false</EnableViewPicker>
-                <RelationshipName>ovs_incident_report_incident_organization</RelationshipName>
-                <FilteredViewIds>{20ED5633-C649-4BC6-8BC2-88884D52FD3B}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
-              <EnableEditing type="Enum" static="true">yes</EnableEditing>
-              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
-              <ListLayoutDirection type="Enum" static="true">Horizontal</ListLayoutDirection>
-              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
-              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
-              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
-              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{D103A530-2828-EF11-840B-6045BD61F005}</ViewId>
-                <TargetEntityType>ovs_incident_organization</TargetEntityType>
-                <IsUserView>false</IsUserView>
-                <EnableViewPicker>false</EnableViewPicker>
-                <RelationshipName>ovs_incident_report_incident_organization</RelationshipName>
-                <FilteredViewIds>{20ED5633-C649-4BC6-8BC2-88884D52FD3B}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
-              <EnableEditing type="Enum" static="true">yes</EnableEditing>
-              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
-              <ListLayoutDirection type="Enum" static="true">Horizontal</ListLayoutDirection>
-              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
-              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
-              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
-              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
-            <parameters>
-              <data-set name="Grid">
-                <ViewId>{D103A530-2828-EF11-840B-6045BD61F005}</ViewId>
-                <TargetEntityType>ovs_incident_organization</TargetEntityType>
-                <IsUserView>false</IsUserView>
-                <EnableViewPicker>false</EnableViewPicker>
-                <RelationshipName>ovs_incident_report_incident_organization</RelationshipName>
-                <FilteredViewIds>{20ED5633-C649-4BC6-8BC2-88884D52FD3B}</FilteredViewIds>
-              </data-set>
-              <EnableGroupBy type="Enum" static="true">no</EnableGroupBy>
-              <EnableEditing type="Enum" static="true">yes</EnableEditing>
-              <ReflowBehavior type="Enum" static="true">GridOnly</ReflowBehavior>
-              <ListLayoutDirection type="Enum" static="true">Horizontal</ListLayoutDirection>
-              <EnableSubGridAutoCollapse type="Enum" static="true">false</EnableSubGridAutoCollapse>
-              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
-              <HideNestedGridColumnHeader type="Enum" static="true">no</HideNestedGridColumnHeader>
-              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
             </parameters>
           </customControl>
         </controlDescription>
@@ -1046,28 +981,6 @@
             </parameters>
           </customControl>
         </controlDescription>
-        <controlDescription forControl="{cfa29311-230d-43a0-8125-d4550616a2ca}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>ovs_address_not_determent_ind</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_address_not_determent_ind</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_address_not_determent_ind</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_address_not_determent_ind</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
         <controlDescription forControl="{961eaf92-27be-4ef7-9e52-7f9ca221030c}">
           <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
             <parameters>
@@ -1109,6 +1022,28 @@
           <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
             <parameters>
               <value type="TwoOptions">ovs_in_transit_ind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{bfb4311c-7434-4cf7-9f8e-b09b6c1d3f2c}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ovs_shelter_in_place_ind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ovs_shelter_in_place_ind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ovs_shelter_in_place_ind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ovs_shelter_in_place_ind</value>
             </parameters>
           </customControl>
         </controlDescription>

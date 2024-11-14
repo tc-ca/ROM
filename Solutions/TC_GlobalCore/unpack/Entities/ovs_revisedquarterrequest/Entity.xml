@@ -727,8 +727,8 @@
           <MaxLength>200</MaxLength>
           <Length>400</Length>
           <displaynames>
-            <displayname description="Exchange Item ID" languagecode="1033" />
             <displayname description="ID d'élément Échange" languagecode="1036" />
+            <displayname description="Exchange Item ID" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="The message id of activity which is returned from Exchange Server." languagecode="1033" />
@@ -2032,8 +2032,8 @@
               </option>
               <option value="2">
                 <labels>
-                  <label description="High" languagecode="1033" />
                   <label description="Élevée" languagecode="1036" />
+                  <label description="High" languagecode="1033" />
                 </labels>
               </option>
             </options>

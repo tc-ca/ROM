@@ -727,8 +727,8 @@
           <MaxLength>200</MaxLength>
           <Length>400</Length>
           <displaynames>
-            <displayname description="Exchange Item ID" languagecode="1033" />
             <displayname description="ID d'élément échange" languagecode="1036" />
+            <displayname description="Exchange Item ID" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="The message id of activity which is returned from Exchange Server." languagecode="1033" />
@@ -769,8 +769,8 @@
           <MaxLength>1250</MaxLength>
           <Length>2500</Length>
           <displaynames>
-            <displayname description="Exchange WebLink" languagecode="1033" />
             <displayname description="Échange WebLink " languagecode="1036" />
+            <displayname description="Exchange WebLink" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="Shows the web link of Activity of type email." languagecode="1033" />

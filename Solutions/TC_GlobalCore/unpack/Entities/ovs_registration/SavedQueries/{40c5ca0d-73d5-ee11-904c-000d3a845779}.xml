@@ -17,7 +17,6 @@
           <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_city" width="150" />
           <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_stateorprovince" width="208" />
           <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_postalcode" width="218" />
-          <cell name="a_1a1607601a174eb599388d6cc57bc539.ovs_naicscode" width="201" />
           <cell name="statecode" width="100" />
         </row>
       </grid>
@@ -33,7 +32,6 @@
             <attribute name="address1_city" />
             <attribute name="address1_stateorprovince" />
             <attribute name="address1_postalcode" />
-            <attribute name="ovs_naicscode" />
             <attribute name="address1_line1" />
           </link-entity>
           <attribute name="statecode" />

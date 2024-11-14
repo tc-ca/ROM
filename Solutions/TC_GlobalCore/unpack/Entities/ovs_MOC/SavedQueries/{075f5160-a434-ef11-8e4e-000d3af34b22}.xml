@@ -11,10 +11,7 @@
       <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
         <row name="result" id="ovs_mocid">
           <cell name="ovs_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="ovs_erap_number_txt" width="100" />
           <cell name="ovs_release_ind" width="100" />
-          <cell name="ovs_un_number_id" width="100" />
-          <cell name="ovs_means_of_containment_form_cd" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -27,10 +24,7 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="ovs_un_number_id" />
           <attribute name="ovs_release_ind" />
-          <attribute name="ovs_means_of_containment_form_cd" />
-          <attribute name="ovs_erap_number_txt" />
           <attribute name="ovs_mocid" />
         </entity>
       </fetch>

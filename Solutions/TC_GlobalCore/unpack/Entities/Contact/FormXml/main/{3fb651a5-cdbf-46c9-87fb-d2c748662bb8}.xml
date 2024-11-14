@@ -9,15 +9,12 @@
       <tabs>
         <tab name="general" verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" labelid="{de42e045-5080-4e01-b6cc-6ff5bec7c75e}" ordinalvalue="0">
           <labels>
-            <label description="Généralités" languagecode="1036" solutionaction="Added" />
+            <label description="Généralités" languagecode="1036" solutionaction="Modified" />
           </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section name="name" showlabel="false" showbar="false" id="{90b0776f-2977-4695-9cd4-73bb6c820f88}" IsUserDefined="0" labelid="{9dd78db7-5a75-4bae-91ef-043ba9760dc9}" ordinalvalue="0">
-                  <labels>
-                    <label description="Nom" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{90317617-38db-4734-aef8-4bb4e8cb9012}" labelid="{e6b842f6-eada-4823-91b9-8d2a225a531e}" ordinalvalue="10000">
@@ -120,95 +117,66 @@
                   </rows>
                 </section>
                 <section name="address" showlabel="true" showbar="true" id="{f2f6f734-1790-402f-8e2a-1eaecbceb9e3}" IsUserDefined="0" labelid="{607d453f-79b0-4905-8073-88235e469d83}" ordinalvalue="1">
-                  <labels>
-                    <label description="Adresse" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{e295725e-7f59-45a6-8a51-cd43bdac0784}" labelid="{64a91161-4a09-4d54-a9b6-e1dabcea00de}" ordinalvalue="10000">
                         <labels>
-                          <label description="Type d’adresse" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
-                      <cell id="{1eb0adf5-95f7-4881-b41b-0885c0d30d76}" labelid="{423a19ba-33d1-4c60-9cf8-c7879017f854}" ordinalvalue="20001">
-                        <labels>
-                          <label description="Ville" languagecode="1036" solutionaction="Added" />
+                          <label description="Type d’adresse" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                     <row>
                       <cell id="{facc3b67-af55-4962-8072-d97c1a955db6}" labelid="{5509c9ed-7168-4986-bc82-88192470200c}" ordinalvalue="10002">
                         <labels>
-                          <label description="Nom" languagecode="1036" solutionaction="Added" />
+                          <label description="Nom" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                       <cell id="{f36d99a5-849a-452e-b37a-6349fad82853}" labelid="{cdf706a4-80f8-4959-acb2-087de03e6920}" ordinalvalue="20003">
                         <labels>
-                          <label description="État/province" languagecode="1036" solutionaction="Added" />
+                          <label description="État/province" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f16a045d-c30d-4189-ac3d-b5e8172e47da}" labelid="{65328776-d0e8-47b3-aa19-9f06e00ff556}" ordinalvalue="10004">
-                        <labels>
-                          <label description="Rue" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
                       <cell id="{10aea51b-0d20-4c65-adef-295b30446be4}" labelid="{b926306c-1390-4840-bc61-e50662ed6f7c}" ordinalvalue="20005">
                         <labels>
-                          <label description="Code Postal/ZIP" languagecode="1036" solutionaction="Added" />
+                          <label description="Code Postal/ZIP" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{ad2b2774-d7bd-4d74-b79e-61af77b32dff}" labelid="{18266c49-b920-4144-8689-7b7e171b543b}" ordinalvalue="10006">
-                        <labels>
-                          <label description="Rue 2" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
                       <cell id="{a109b15d-d168-4341-93bd-c9e10e31f09e}" labelid="{cd9db378-ba9f-4252-a92f-cd83a8a6cf3a}" ordinalvalue="20007">
                         <labels>
-                          <label description="Pays/Région" languagecode="1036" solutionaction="Added" />
+                          <label description="Pays/Région" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                     <row>
                       <cell id="{8dd7a155-244b-4f29-92bd-49998eb038d7}" labelid="{5ec8b322-e765-4ac6-8b6e-ce2012c3d84f}" ordinalvalue="10008">
                         <labels>
-                          <label description="Rue 3" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
-                      <cell id="{10de592f-5f18-4f33-871c-08d978f8dfa5}" labelid="{241630c0-6240-48c1-b858-3b6bb7ab7d2b}" ordinalvalue="20009">
-                        <labels>
-                          <label description="Téléphone" languagecode="1036" solutionaction="Added" />
+                          <label description="Rue 3" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                   </rows>
                 </section>
                 <section name="shipping information" showlabel="false" showbar="true" id="{43e56c39-59b7-4218-ad70-ed0db70d33ac}" IsUserDefined="0" labelid="{44854063-56a0-4cf3-af72-d60c9bb4780d}" ordinalvalue="2">
-                  <labels>
-                    <label description="Informations sur la livraison" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{0b16fa92-f800-49a7-9838-5468ab0c05f1}" labelid="{625621fb-6af5-44c2-bc09-2f26d1b8e598}" ordinalvalue="10000">
                         <labels>
-                          <label description="Adresse 1 : Conditions de transport" languagecode="1036" solutionaction="Added" />
+                          <label description="Adresse 1 : Conditions de transport" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                       <cell id="{179d22db-c87b-49c9-9019-070baf408233}" labelid="{dff6aa38-11d2-4c2d-bef0-14ed2c0c2d87}" ordinalvalue="20001">
                         <labels>
-                          <label description="Méthode d’expédition" languagecode="1036" solutionaction="Added" />
+                          <label description="Méthode d’expédition" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                   </rows>
                 </section>
                 <section name="description" showlabel="true" showbar="true" id="{e165b345-b7ce-4c73-a508-0f42cbf6dd53}" IsUserDefined="0" height="auto" labelid="{548eb5c1-66d0-412c-b67f-ad69a8310ae7}" ordinalvalue="3">
-                  <labels>
-                    <label description="Description" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{c0a08372-d225-411f-87e4-14554329507a}" labelid="{284238f4-a618-4c2d-b194-a12c19c11e14}" ordinalvalue="10000">
@@ -225,16 +193,10 @@
           </columns>
         </tab>
         <tab name="details" id="{cafbf41a-42bf-4665-8562-1e37017eba69}" IsUserDefined="0" labelid="{5601fb47-ac1c-4f7a-a5a9-728c4e55f02c}" ordinalvalue="1">
-          <labels>
-            <label description="Détails" languagecode="1036" solutionaction="Added" />
-          </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section name="professional information" showlabel="true" showbar="true" id="{a778d498-3bf2-4c33-85e2-7730d8ae126b}" IsUserDefined="0" labelid="{672bad16-e299-4051-923e-295392df7ce3}" ordinalvalue="0">
-                  <labels>
-                    <label description="Informations professionnelles" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{c21cf98d-7d3a-4e4c-815c-5fd6de4b89d7}" labelid="{360bf5f7-aafd-4883-9efa-a322026b0e94}" ordinalvalue="10000">
@@ -281,9 +243,6 @@
                   </rows>
                 </section>
                 <section name="personal information" showlabel="true" showbar="true" id="{518cc50e-1350-4b4b-a056-fc3c0e7d36d7}" IsUserDefined="0" labelid="{6546f313-8469-4953-92c3-893455640cad}" ordinalvalue="1">
-                  <labels>
-                    <label description="Informations personnelles" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{9748b178-14ab-49af-8985-c02de8892720}" labelid="{7ff16c42-574c-457c-b23e-0fbf3871304a}" ordinalvalue="10000">
@@ -329,20 +288,17 @@
         </tab>
         <tab name="web authentication" id="{60236330-7d03-8659-aa6c-da1ecc4b8b40}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="2">
           <labels>
-            <label description="Autentification Web" languagecode="1036" solutionaction="Added" />
+            <label description="Autentification Web" languagecode="1036" solutionaction="Modified" />
           </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section name="{f0ef7388-9001-dd11-86da-0003ff48c0db}_section_4" showlabel="true" showbar="true" locklevel="0" id="{6c59b738-b748-5d0c-1952-3c44c80b2c54}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="140" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
-                  <labels>
-                    <label description="Identité locale" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{62e25ccc-e9c7-eb82-13d0-2b9a2e75eaa5}" showlabel="true" locklevel="0" ordinalvalue="10000">
                         <labels>
-                          <label description="User Name" languagecode="1036" solutionaction="Added" />
+                          <label description="User Name" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                       <cell id="{23a6d152-5e98-3932-2916-59c232ae7eed}" showlabel="true" locklevel="0" ordinalvalue="20001">
@@ -427,9 +383,6 @@
                   </rows>
                 </section>
                 <section name="{f0ef7388-9001-dd11-86da-0003ff48c0db}_section_5" showlabel="true" showbar="true" locklevel="0" id="{2a60636e-3660-26b7-7b33-390adb4247d3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
-                  <labels>
-                    <label description="Identités externes" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{9dd453ac-0d57-058c-e345-579205905127}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
@@ -451,16 +404,10 @@
           </columns>
         </tab>
         <tab name="notes and activities" id="{A6C643C6-E98F-4738-812F-0B7F7FFC80F7}" IsUserDefined="0" expanded="false" labelid="{bdd8195f-8781-4589-a337-f7beae49fbbb}" ordinalvalue="3">
-          <labels>
-            <label description="Notes et activités" languagecode="1036" solutionaction="Added" />
-          </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section name="activities" showlabel="true" showbar="true" id="{f5e95813-3c0a-4385-b2a8-5d88c9edfaf9}" IsUserDefined="0" height="auto" labelid="{598c90d4-7a0b-4edd-b985-aea3da7c00d6}" ordinalvalue="0">
-                  <labels>
-                    <label description="Activités" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{98af12b2-d2af-46c6-9bdf-9bc25684abd4}" showlabel="false" colspan="2" auto="true" rowspan="7" labelid="{83ad3b1d-7df2-4171-a28a-cadcc0fedac0}" ordinalvalue="10000">
@@ -474,13 +421,13 @@
                 </section>
                 <section name="notes" showlabel="true" showbar="true" id="{B798FA27-F9FC-4580-988C-0BA75C444488}" IsUserDefined="0" height="auto" labelid="{cd57d139-9408-4526-9323-0a19f5922836}" ordinalvalue="1">
                   <labels>
-                    <label description="Notes" languagecode="1036" solutionaction="Added" />
+                    <label description="Notes" languagecode="1036" solutionaction="Modified" />
                   </labels>
                   <rows>
                     <row>
                       <cell colspan="2" showlabel="false" rowspan="5" auto="false" id="{a9d8114e-4852-4462-84a3-f4b398a4fe71}" labelid="{16084afb-39e9-4499-a23d-377067d14db2}" ordinalvalue="10000">
                         <labels>
-                          <label description="Texte de la note" languagecode="1036" solutionaction="Added" />
+                          <label description="Texte de la note" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
@@ -491,15 +438,12 @@
           </columns>
         </tab>
         <tab name="administration" id="{0dd7233e-247b-4eef-a71b-0185da6d16ad}" IsUserDefined="0" labelid="{4f9b5955-5a8a-4646-bd32-2f1e6d843637}" ordinalvalue="4">
-          <labels>
-            <label description="Préférences" languagecode="1036" solutionaction="Added" />
-          </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section name="internal information" showlabel="false" showbar="false" id="{c3e86ffb-2b8b-4c56-877f-67bdaa5a7363}" IsUserDefined="0" labelid="{e2b305bf-7465-45fc-9ccd-50637eb7ffc0}" ordinalvalue="0">
                   <labels>
-                    <label description="Information interne" languagecode="1036" solutionaction="Added" />
+                    <label description="Information interne" languagecode="1036" solutionaction="Modified" />
                   </labels>
                   <rows>
                     <row>
@@ -513,9 +457,6 @@
                   </rows>
                 </section>
                 <section name="billing information" showlabel="true" showbar="true" id="{0738bc1c-9226-486d-9258-9b6fc75cbaa7}" IsUserDefined="0" labelid="{2b44a3ee-e962-4689-8470-4ef5419b4459}" ordinalvalue="1">
-                  <labels>
-                    <label description="Informations de facturation" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{d9a0c6e4-2016-48cd-b0c1-a6a03e9d47c6}" labelid="{c01954f4-da0e-4361-9ae0-5f4c94e41518}" ordinalvalue="10000">
@@ -540,7 +481,7 @@
                       </cell>
                       <cell id="{bc9c8be1-08bc-47ad-8868-1e212574acbd}" labelid="{66c855b5-c6bb-4d85-b181-9e114a17937b}" ordinalvalue="20003">
                         <labels>
-                          <label description="Liste des prix" languagecode="1036" solutionaction="Added" />
+                          <label description="Liste des prix" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
@@ -555,45 +496,23 @@
                   </rows>
                 </section>
                 <section name="contact methods" showlabel="true" showbar="true" id="{fa46a68d-a6b2-4cc1-9d00-4abd1d46c8f4}" IsUserDefined="0" labelid="{ea49d8f7-9b11-4ba7-85f7-75aff65055df}" ordinalvalue="2">
-                  <labels>
-                    <label description="Modes de communication" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
-                      <cell id="{18a3ffc9-8174-48a3-9317-78d287ffccbd}" labelid="{53ef6ece-8514-4c83-9c94-12e6aee1b9b3}" ordinalvalue="10000">
-                        <labels>
-                          <label description="Mode de communication" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
                       <cell id="{e19e07c7-983c-4abe-bae3-8f6428411493}" labelid="{fa51d519-7565-4f10-8dcd-abfdc2f65d42}" ordinalvalue="20001">
                         <labels>
-                          <label description="Courriel de masse" languagecode="1036" solutionaction="Added" />
+                          <label description="Courriel de masse" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
                     <row>
                       <cell id="{b2bbf0b6-c969-4b89-8e50-786f268ff3b9}" labelid="{6f125def-6c25-4771-97f0-048f36869fb0}" ordinalvalue="10002">
                         <labels>
-                          <label description="Courriel" languagecode="1036" solutionaction="Added" />
+                          <label description="Courriel" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                       <cell id="{38287f59-6d80-4089-8537-ca504c5019a9}" labelid="{25efc701-3585-459f-99f4-da314e6d4375}" ordinalvalue="20003">
                         <labels>
-                          <label description="Télécopieur" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{c2f59461-c812-4b37-9fa8-45cfb6e3e2bb}" labelid="{e02df89a-53cf-4d59-b4d8-9c5ae9ed72de}" ordinalvalue="10004">
-                        <labels>
-                          <label description="Téléphone" languagecode="1036" solutionaction="Added" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{acf821a9-3afe-46bf-921e-1250ee3bb926}" labelid="{c78627f3-1d2a-45f4-9c60-e983461160b7}" ordinalvalue="10006">
-                        <labels>
-                          <label description="Courrier" languagecode="1036" solutionaction="Added" />
+                          <label description="Télécopieur" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
@@ -716,11 +635,11 @@
     </form>
     <LocalizedNames>
       <LocalizedName description="Portal Contact" languagecode="1033" />
-      <LocalizedName description="Portail pour les coordonnées" languagecode="1036" />
+      <LocalizedName description="Portal Contact" languagecode="1036" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />
-      <Description description="Un formulaire pour cette entité." languagecode="1036" />
+      <Description description="Formulaire pour cette entité." languagecode="1036" />
     </Descriptions>
   </systemform>
 </forms>

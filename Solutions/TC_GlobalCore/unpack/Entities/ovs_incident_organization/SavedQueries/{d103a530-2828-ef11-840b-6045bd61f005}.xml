@@ -10,8 +10,8 @@
     <layoutxml>
       <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
         <row name="result" id="ovs_incident_organizationid">
-          <cell name="ovs_participant_id" width="250" />
-          <cell name="ovs_participant_role_cds" width="165" />
+          <cell name="ovs_name" width="150" />
+          <cell name="ovs_role_of_the_organization_cd" width="179" />
           <cell name="ovs_responsible_report_ind" width="165" />
           <cell name="ovs_report_submitted_ind" width="165" />
         </row>
@@ -25,10 +25,10 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="ovs_participant_id" />
           <attribute name="ovs_responsible_report_ind" />
-          <attribute name="ovs_participant_role_cds" />
           <attribute name="ovs_report_submitted_ind" />
+          <attribute name="ovs_name" />
+          <attribute name="ovs_role_of_the_organization_cd" />
         </entity>
       </fetch>
     </fetchxml>

@@ -45,6 +45,7 @@
             <Title LCID="1033" Title="Sites" />
           </Titles>
         </SubArea>
+        <SubArea Id="NewSubArea_0c00c5b5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_organization_naics_code" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
       <Group Id="NewGroup_8fea1f63" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>

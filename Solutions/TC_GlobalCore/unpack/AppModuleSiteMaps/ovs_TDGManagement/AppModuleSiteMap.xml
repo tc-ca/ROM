@@ -130,6 +130,12 @@
           </Titles>
         </SubArea>
       </Group>
+      <Group Id="NewGroup_fa74c0d4" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="CRS Services" />
+        </Titles>
+        <SubArea Id="NewSubArea_34fb9e06" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
       <Group Id="NewGroup_f1c727e7" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Support" />

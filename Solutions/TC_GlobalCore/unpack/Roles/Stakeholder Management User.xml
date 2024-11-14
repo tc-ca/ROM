@@ -38,6 +38,7 @@
     <RolePrivilege name="prvAppendovs_operationclass" level="Global" />
     <RolePrivilege name="prvAppendovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvAppendovs_organization_contact" level="Global" />
+    <RolePrivilege name="prvAppendovs_organization_contact_role" level="Global" />
     <RolePrivilege name="prvAppendovs_organization_manufacturer" level="Global" />
     <RolePrivilege name="prvAppendovs_organization_naics_code" level="Global" />
     <RolePrivilege name="prvAppendovs_registration" level="Global" />
@@ -46,6 +47,9 @@
     <RolePrivilege name="prvAppendovs_SiteClass" level="Global" />
     <RolePrivilege name="prvAppendovs_SiteType" level="Deep" />
     <RolePrivilege name="prvAppendovs_submission" level="Global" />
+    <RolePrivilege name="prvAppendovs_support_request_outcome" level="Global" />
+    <RolePrivilege name="prvAppendovs_SupportRequest" level="Global" />
+    <RolePrivilege name="prvAppendovs_SupportRequestType" level="Global" />
     <RolePrivilege name="prvAppendPostFollow" level="Global" />
     <RolePrivilege name="prvAppendRatingModel" level="Basic" />
     <RolePrivilege name="prvAppendRatingValue" level="Basic" />
@@ -92,6 +96,7 @@
     <RolePrivilege name="prvAppendToovs_operationclass" level="Global" />
     <RolePrivilege name="prvAppendToovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvAppendToovs_organization_contact" level="Global" />
+    <RolePrivilege name="prvAppendToovs_organization_contact_role" level="Global" />
     <RolePrivilege name="prvAppendToovs_organization_manufacturer" level="Global" />
     <RolePrivilege name="prvAppendToovs_organization_naics_code" level="Global" />
     <RolePrivilege name="prvAppendToovs_registration" level="Global" />
@@ -100,6 +105,9 @@
     <RolePrivilege name="prvAppendToovs_SiteClass" level="Global" />
     <RolePrivilege name="prvAppendToovs_SiteType" level="Deep" />
     <RolePrivilege name="prvAppendToovs_submission" level="Global" />
+    <RolePrivilege name="prvAppendToovs_support_request_outcome" level="Global" />
+    <RolePrivilege name="prvAppendToovs_SupportRequest" level="Global" />
+    <RolePrivilege name="prvAppendToovs_SupportRequestType" level="Global" />
     <RolePrivilege name="prvAppendToProduct" level="Global" />
     <RolePrivilege name="prvAppendToQueue" level="Local" />
     <RolePrivilege name="prvAppendToRatingModel" level="Basic" />
@@ -137,6 +145,7 @@
     <RolePrivilege name="prvAssignovs_registration_contact" level="Global" />
     <RolePrivilege name="prvAssignovs_sds" level="Global" />
     <RolePrivilege name="prvAssignovs_submission" level="Global" />
+    <RolePrivilege name="prvAssignovs_SupportRequest" level="Global" />
     <RolePrivilege name="prvAssignSyncError" level="Basic" />
     <RolePrivilege name="prvAssignTerritory" level="Local" />
     <RolePrivilege name="prvAssignUserQuery" level="Basic" />
@@ -170,6 +179,7 @@
     <RolePrivilege name="prvCreateovs_sds" level="Global" />
     <RolePrivilege name="prvCreateovs_SiteClass" level="Global" />
     <RolePrivilege name="prvCreateovs_submission" level="Global" />
+    <RolePrivilege name="prvCreateovs_SupportRequest" level="Global" />
     <RolePrivilege name="prvCreateOwnCalendar" level="Global" />
     <RolePrivilege name="prvCreatePost" level="Global" />
     <RolePrivilege name="prvCreatePostFollow" level="Global" />
@@ -195,6 +205,7 @@
     <RolePrivilege name="prvDeleteovs_registration" level="Global" />
     <RolePrivilege name="prvDeleteovs_sds" level="Global" />
     <RolePrivilege name="prvDeleteovs_submission" level="Global" />
+    <RolePrivilege name="prvDeleteovs_SupportRequest" level="Global" />
     <RolePrivilege name="prvDeletePostFollow" level="Global" />
     <RolePrivilege name="prvDeleteSyncError" level="Basic" />
     <RolePrivilege name="prvDeleteUserQuery" level="Basic" />
@@ -282,6 +293,7 @@
     <RolePrivilege name="prvReadovs_operationclass" level="Global" />
     <RolePrivilege name="prvReadovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvReadovs_organization_contact" level="Global" />
+    <RolePrivilege name="prvReadovs_organization_contact_role" level="Global" />
     <RolePrivilege name="prvReadovs_organization_manufacturer" level="Global" />
     <RolePrivilege name="prvReadovs_organization_naics_code" level="Global" />
     <RolePrivilege name="prvReadovs_registration" level="Global" />
@@ -362,6 +374,7 @@
     <RolePrivilege name="prvShareovs_registration_contact" level="Global" />
     <RolePrivilege name="prvShareovs_sds" level="Global" />
     <RolePrivilege name="prvShareovs_submission" level="Global" />
+    <RolePrivilege name="prvShareovs_SupportRequest" level="Global" />
     <RolePrivilege name="prvShareSyncError" level="Basic" />
     <RolePrivilege name="prvShareUserQuery" level="Basic" />
     <RolePrivilege name="prvSyncToOutlook" level="Global" />
@@ -398,6 +411,7 @@
     <RolePrivilege name="prvWriteovs_sds" level="Global" />
     <RolePrivilege name="prvWriteovs_SiteClass" level="Global" />
     <RolePrivilege name="prvWriteovs_submission" level="Global" />
+    <RolePrivilege name="prvWriteovs_SupportRequest" level="Global" />
     <RolePrivilege name="prvWriteOwnCalendar" level="Global" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
     <RolePrivilege name="prvWriteSLAKPIInstance" level="Basic" />

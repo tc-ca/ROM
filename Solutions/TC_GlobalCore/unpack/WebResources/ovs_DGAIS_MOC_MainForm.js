@@ -29,46 +29,7 @@ var DGAIS_MOC_MainForm = (function (window, document) {
     vehType[9] = vehType[10] = [27, 31];//barge, unknown    
     vehType[11] = vehType[12] = vehType[13] = [28, 29, 30, 31];//airplane, helicopter, unknown
 
-    //TO DO: Location section  tab_specs_location
 
-    var specs2Forms = {
-
-        "180f07ea-f4dc-ec11-bb3c-000d3a848097": "",
-        "7ec1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_C_S_T",
-        "82c1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_HT",
-        "8ac1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_SC",
-        "8cc1942e-bbc0-ec11-983f-0022483da58f": "",
-        "8ec1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_IBC_LP",
-        "90c1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_IBC_LP",
-        "94c1942e-bbc0-ec11-983f-0022483da58f": "",
-        "703f6983-8edb-ec11-bb3c-000d3a848097": "",
-        "abb98cb7-67dc-ec11-bb3c-000d3a848097": "",
-        "3ad54314-68dc-ec11-bb3c-000d3a848097": "",
-        "c3fb8486-68dc-ec11-bb3c-000d3a848097": "tab_specs_PT",
-        "21dda322-6bdc-ec11-bb3c-000d3a848097": "",
-        "602194da-f3dc-ec11-bb3c-000d3a848097": "",
-        "6028857c-f5dc-ec11-bb3c-000d3a848097": "tab_specs_C_S_T",
-        "7722eb41-ffdc-ec11-bb3c-000d3a848097": "",
-        "80c1942e-bbc0-ec11-983f-0022483da58f": "",
-        "84c1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_TankCars",
-        "86c1942e-bbc0-ec11-983f-0022483da58f": "",
-        "92c1942e-bbc0-ec11-983f-0022483da58f": "tab_specs_AC_GC",
-        "96c1942e-bbc0-ec11-983f-0022483da58f": "",
-        "b4398281-7f7a-ee11-8179-0022483cb0d4": "",
-
-    };
-
-    var MOC_List2Forms = {
-        "1": "tab_specs_AC_GC",
-        "2": "tab_specs_TankCars",
-        "3": "tab_specs_TC",
-        "4": "tab_specs_HT",
-        "5": "tab_specs_TCPT_NT",
-        "6": "tab_specs_IBC_LP",
-        "7": "tab_specs_PT",
-        "8": "tab_specs_C_S_T",
-        "9": "tab_specs_SC"
-    };
 
     //********************private methods*******************
 
@@ -95,111 +56,6 @@ var DGAIS_MOC_MainForm = (function (window, document) {
                 Xrm.Navigation.openErrorDialog({ message: error.message });
             }
         );
-    }
-
-    function sectionManager(formContext, sectionToDisplay) {
-
-        var tabObj = formContext.ui.tabs.get("tab_specs");
-        tabObj.sections.forEach(function (sectionObj) {
-
-            var sectionName = sectionObj.getName();
-            processSectionControls(tabObj, sectionName, sectionName == sectionToDisplay).then(
-                function (success) {
-
-                },
-                function (error) {
-
-                    console.log("processSectionControls error: " + error.message);
-                    Xrm.Navigation.openErrorDialog({ message: "Cannot process Specs tab sections" + sectionName + ". Please contact support. Error: " + error.message });
-                }
-            );
-
-        });
-
-    }
-
-    async function processSectionControls(tabObj, sectionName, isVisible) {
-
-        var sectionObj = tabObj.sections.get(sectionName);
-        //get list of controls
-        var controls = sectionObj.controls;
-        //interate through controls and clean the attributes with glHelper.SetValue
-        controls.forEach(function (ctrl) {
-
-            var attr = ctrl.getAttribute();
-            if (!isVisible) {
-                attr.setValue(null);
-                attr.setSubmitMode("always");
-            }
-            ctrl.setVisible(isVisible);
-        });
-        sectionObj.setVisible(isVisible);
-
-
-        return true;
-    }    
-
-    function getRegTypeId(formContext, specid, specname) {
-
-        var fetchData = {
-            "fdr_specificationid": specid,
-            "fdr_name": specname
-        };
-        var fetchXml = [
-            "<fetch distinct='true'>",
-            "  <entity name='fdr_containertype'>",
-            "    <attribute name='fdr_containertypeid'/>",
-            "    <link-entity name='qm_tylegislationsource' from='qm_tylegislationsourceid' to='fdr_standard' link-type='inner' alias='LS'>",
-            "      <link-entity name='fdr_specification' from='fdr_legislationsource' to='qm_tylegislationsourceid' link-type='inner' alias='Spec'>",
-            "        <filter>",
-            "          <condition attribute='fdr_specificationid' operator='eq' value='", fetchData.fdr_specificationid, "' uiname='", fetchData.fdr_name, "' uitype='fdr_specification'/>",
-            "        </filter>",
-            "      </link-entity>",
-            "    </link-entity>",
-            "  </entity>",
-            "</fetch>"
-        ].join("");
-
-        var encodedFetchXML = encodeURIComponent(fetchXml);
-        //do sync
-        var req = new XMLHttpRequest();
-        req.open("GET", clientUrl + "/api/data/v9.2/fdr_containertypes?fetchXml=" + encodedFetchXML, false);
-        req.setRequestHeader("OData-MaxVersion", "4.0");
-        req.setRequestHeader("OData-Version", "4.0");
-        req.setRequestHeader("Accept", "application/json");
-
-        req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
-        req.onreadystatechange = function () {
-            if (this.readyState === 4) {
-                req.onreadystatechange = null;
-                if (this.status === 200) {
-
-                    var results = JSON.parse(this.response);
-                    if (results.value != null && results.value != undefined && results.value.length > 0) {
-                        if (results.value.length == 1) {
-                            regTypeId = results.value[0]["fdr_containertypeid"];
-                            return;
-                        }
-                        //more than one
-                        else {
-                            console.log("More than one Registration Type found");
-                            Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "OK", text: "Data issue.More than one Registration Type found." });
-                        }
-                    }
-                    //not found
-                    else {
-                        console.log("Cannot find related Registration Type");
-                        Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "OK", text: "Data issue.Cannot find related Registration Type." });
-                    }
-
-                } else {
-                    console.log("Something went wrong " + this.statusText);
-                    Xrm.Navigation.openErrorDialog({ message: "Something went wrong " + this.statusText });
-                }               
-            }
-        };
-        req.send();
-
     }
 
     //********************private methods end***************
@@ -249,10 +105,6 @@ var DGAIS_MOC_MainForm = (function (window, document) {
             damageLocation.removeOnChange(DGAIS_MOC_MainForm.DamageLocation_OnChange);
             damageLocation.addOnChange(DGAIS_MOC_MainForm.DamageLocation_OnChange);
 
-            var damageLocation = formContext.getAttribute("ovs_damage_location_cds");
-            damageLocation.removeOnChange(DGAIS_MOC_MainForm.DamageLocation_OnChange);
-            damageLocation.addOnChange(DGAIS_MOC_MainForm.DamageLocation_OnChange);
-
             var vType = formContext.getAttribute("ovs_vehicle_type_cd");
             vType.removeOnChange(DGAIS_MOC_MainForm.VehicleType_OnChange);
             vType.addOnChange(DGAIS_MOC_MainForm.VehicleType_OnChange);
@@ -261,17 +113,6 @@ var DGAIS_MOC_MainForm = (function (window, document) {
             isCanadianMOC.removeOnChange(DGAIS_MOC_MainForm.WasCanMOC_OnChange);
             isCanadianMOC.addOnChange(DGAIS_MOC_MainForm.WasCanMOC_OnChange);
 
-            var specs = formContext.getAttribute("ovs_specification_id");
-            specs.removeOnChange(DGAIS_MOC_MainForm.Specs_OnChange);
-            specs.addOnChange(DGAIS_MOC_MainForm.Specs_OnChange);
-
-            var country = formContext.getAttribute("ovs_country_cd");
-            country.removeOnChange(DGAIS_MOC_MainForm.Country_OnChange);
-            country.addOnChange(DGAIS_MOC_MainForm.Country_OnChange);
-
-            var MOC_list = formContext.getAttribute("ovs_moc_form_cd");
-            MOC_list.removeOnChange(DGAIS_MOC_MainForm.MOC_List_OnChange);
-            MOC_list.addOnChange(DGAIS_MOC_MainForm.MOC_List_OnChange);
 
             
             if (formType == glHelper.FORMTYPE_CREATE) {
@@ -284,7 +125,6 @@ var DGAIS_MOC_MainForm = (function (window, document) {
                 damageType.fireOnChange();
                 damageLocation.fireOnChange();
                 vType.fireOnChange();
-                country.fireOnChange();
                 isCanadianMOC.fireOnChange();
             }
         },
@@ -392,63 +232,6 @@ var DGAIS_MOC_MainForm = (function (window, document) {
 
         },
 
-        Specs_OnChange: function (executionContext) {
-
-
-            //TO DO: Location section  tab_specs_location
-            var formContext = executionContext.getFormContext();
-
-            var sectionToDisplay;
-            //get spec id
-            var ovs_specification_id = glHelper.GetLookupAttrId(formContext, "ovs_specification_id");
-            var ovs_specification_fdr_name = glHelper.GetLookupName(formContext, "ovs_specification_id");
-
-            if (ovs_specification_id == null) sectionToDisplay = ""; //clean and hide all
-            else {
-
-                //get regTypeId
-                getRegTypeId(formContext, ovs_specification_id.replace('{', '').replace('}', ''), ovs_specification_fdr_name);
-
-                //use mapping to get section name (form name)
-                sectionToDisplay = specs2Forms[regTypeId];// "section name from mapping or empty";
-            }
-
-            //get form with mapping and enble the section.
-            //clean other section
-            //if lookup isn't maped or lookup is maped to "undefined" - notification
-            sectionManager(formContext, sectionToDisplay);
-        },
-
-        Country_OnChange: function (executionContext) {
-
-            var formContext = executionContext.getFormContext();
-            var country = glHelper.GetOptionsetValue(formContext, "ovs_country_cd");
-
-            //ovs_province_territory_cd
-            //ovs_state_cd
-
-            glHelper.SetControlVisibility(formContext, "ovs_province_territory_cd", country == 1);
-            if (country == 1) glHelper.SetValue(formContext, "ovs_state_cd", null);
-            glHelper.SetControlVisibility(formContext, "ovs_state_cd", country == 2);
-            if (country == 1) glHelper.SetValue(formContext, "ovs_province_territory_cd", null);
-
-            //clean
-            if (country == "" || country > 2) {
-
-                glHelper.SetValue(formContext, "ovs_province_territory_cd", null);
-                glHelper.SetValue(formContext, "ovs_state_cd", null);
-            }
-        },
-
-        MOC_List_OnChange: function (executionContext) {
-
-            var formContext = executionContext.getFormContext();
-            var listN = glHelper.GetOptionsetValue(formContext, "ovs_moc_form_cd");
-            //empty
-            if (listN === "") return;
-
-            sectionManager(formContext, MOC_List2Forms[listN]);
-        },
     };
     //********************public methods end***************
 })(window, document);

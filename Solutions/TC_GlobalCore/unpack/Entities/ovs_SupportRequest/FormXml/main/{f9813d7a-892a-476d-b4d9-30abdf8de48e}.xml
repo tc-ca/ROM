@@ -126,6 +126,15 @@
                         </control>
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{b3683f64-4f77-4f61-9af0-a0dc877bed1d}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Team Memo" languagecode="1033" />
+                          <label description="Mémo d'équipe" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_teammemo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_teammemo" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -403,18 +412,18 @@
       <formLibraries>
         <Library name="ovs_Support_Request_JS" libraryUniqueId="{a92487bd-9306-3460-db07-835976d6ee32}" />
       </formLibraries>
-      <events>
-        <event name="onload" application="false" active="false">
-          <Handlers>
-            <Handler functionName="setInUseLocDisplayName" libraryName="ovs_Support_Request_JS" handlerUniqueId="{0c836938-aa78-c0d0-b91c-6d51a511d092}" enabled="true" parameters="" passExecutionContext="true" />
-            <Handler functionName="display_Legalname_CompanyLoolkup" libraryName="ovs_Support_Request_JS" handlerUniqueId="{0cc15a89-743c-2240-6ebe-a89a62c906cc}" enabled="true" parameters="" passExecutionContext="true" />
-            <Handler functionName="display_SiteID" libraryName="ovs_Support_Request_JS" handlerUniqueId="{0e759333-12e7-4919-54a6-0a1939b89627}" enabled="true" parameters="" passExecutionContext="true" />
-          </Handlers>
-        </event>
-      </events>
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="setInUseLocDisplayName" libraryName="ovs_Support_Request_JS" handlerUniqueId="{634b9518-054d-4933-8d45-bc0170ade861}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="display_Legalname_CompanyLoolkup" libraryName="ovs_Support_Request_JS" handlerUniqueId="{13e6dc97-9a95-4567-a61b-2dfecc1fb092}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="display_SiteID" libraryName="ovs_Support_Request_JS" handlerUniqueId="{6605f39b-3390-4e8c-a2d7-04533799d4be}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

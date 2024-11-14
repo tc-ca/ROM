@@ -8,6 +8,10 @@
     <form headerdensity="HighWithControls" solutionaction="Modified">
       <tabs>
         <tab verticallayout="true" id="{b8e326ee-5c21-4a18-ba55-e3b56966c249}" IsUserDefined="1" locklevel="0" showlabel="true" expanded="true" name="{b8e326ee-5c21-4a18-ba55-e3b56966c249}" labelid="{b756bd03-60c5-475e-b9ba-b79fbddd3ad3}" ordinalvalue="0">
+          <labels>
+            <label description="General" languagecode="1033" solutionaction="Modified" />
+            <label description="Général" languagecode="1036" solutionaction="Modified" />
+          </labels>
           <columns>
             <column width="34%" id="0">
               <sections>

@@ -10,8 +10,10 @@
     <layoutxml>
       <grid name="ovs_registration_functions" jump="ovs_name_txt" select="1" icon="1" preview="1">
         <row name="ovs_registration_function" id="ovs_registration_functionid">
-          <cell name="ovs_name_txt" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="ovs_name_txt" width="133" />
+          <cell name="statecode" width="100" />
+          <cell name="ovs_limitations_txt" width="300" />
+          <cell name="ovs_specifications_txt" width="300" />
         </row>
       </grid>
     </layoutxml>
@@ -21,11 +23,13 @@
         <entity name="ovs_registration_function">
           <attribute name="ovs_registration_functionid" />
           <attribute name="ovs_name_txt" />
-          <attribute name="createdon" />
           <order attribute="ovs_name_txt" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="statecode" />
+          <attribute name="ovs_limitations_txt" />
+          <attribute name="ovs_specifications_txt" />
         </entity>
       </fetch>
     </fetchxml>

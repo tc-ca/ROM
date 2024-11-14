@@ -123,6 +123,12 @@
         <SubArea Id="NewSubArea_89a4602d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_design" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_4126434f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_registeredmark" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
+      <Group Id="NewGroup_68e9d4fa" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="CRS Services" />
+        </Titles>
+        <SubArea Id="NewSubArea_3b69ad57" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
       <Group Id="NewGroup_8b208f9a" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Support" />

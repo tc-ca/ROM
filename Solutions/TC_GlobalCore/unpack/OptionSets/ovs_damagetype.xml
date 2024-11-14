@@ -121,6 +121,15 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
+    <option value="14">
+      <labels>
+        <label description="Punctured by External Force" languagecode="1033" />
+        <label description="Percé par une force externe" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
     <option value="13" ExternalValue="">
       <labels>
         <label description="Unknown" languagecode="1033" />

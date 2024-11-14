@@ -23,6 +23,7 @@
     <RolePrivilege name="prvAppendContact" level="Global" />
     <RolePrivilege name="prvAppendEmailTemplate" level="Basic" />
     <RolePrivilege name="prvAppendfdr_ContainerType" level="Global" />
+    <RolePrivilege name="prvAppendfdr_specification" level="Global" />
     <RolePrivilege name="prvAppendIncident" level="Global" />
     <RolePrivilege name="prvAppendLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_workorder" level="Basic" />
@@ -32,9 +33,11 @@
     <RolePrivilege name="prvAppendovs_Incident" level="Local" />
     <RolePrivilege name="prvAppendovs_incident_injury" level="Local" />
     <RolePrivilege name="prvAppendovs_incident_organization" level="Local" />
+    <RolePrivilege name="prvAppendovs_incident_report" level="Local" />
     <RolePrivilege name="prvAppendovs_invitation" level="Deep" />
     <RolePrivilege name="prvAppendovs_lob" level="Global" />
     <RolePrivilege name="prvAppendovs_MOC" level="Global" />
+    <RolePrivilege name="prvAppendovs_MOC_DangerousGood" level="Local" />
     <RolePrivilege name="prvAppendovs_moctype" level="Global" />
     <RolePrivilege name="prvAppendovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvAppendovs_organization_contact" level="Global" />
@@ -74,6 +77,7 @@
     <RolePrivilege name="prvAppendToEmailTemplate" level="Basic" />
     <RolePrivilege name="prvAppendToEquipment" level="Local" />
     <RolePrivilege name="prvAppendTofdr_ContainerType" level="Global" />
+    <RolePrivilege name="prvAppendTofdr_specification" level="Global" />
     <RolePrivilege name="prvAppendToIncident" level="Global" />
     <RolePrivilege name="prvAppendToLanguageLocale" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_workorder" level="Basic" />
@@ -84,9 +88,11 @@
     <RolePrivilege name="prvAppendToovs_Incident" level="Local" />
     <RolePrivilege name="prvAppendToovs_incident_injury" level="Local" />
     <RolePrivilege name="prvAppendToovs_incident_organization" level="Local" />
+    <RolePrivilege name="prvAppendToovs_incident_report" level="Local" />
     <RolePrivilege name="prvAppendToovs_invitation" level="Deep" />
     <RolePrivilege name="prvAppendToovs_lob" level="Global" />
     <RolePrivilege name="prvAppendToovs_MOC" level="Global" />
+    <RolePrivilege name="prvAppendToovs_MOC_DangerousGood" level="Local" />
     <RolePrivilege name="prvAppendToovs_moctype" level="Global" />
     <RolePrivilege name="prvAppendToovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvAppendToovs_organization_contact" level="Global" />
@@ -155,8 +161,10 @@
     <RolePrivilege name="prvCreateovs_Incident" level="Local" />
     <RolePrivilege name="prvCreateovs_incident_injury" level="Local" />
     <RolePrivilege name="prvCreateovs_incident_organization" level="Local" />
+    <RolePrivilege name="prvCreateovs_incident_report" level="Local" />
     <RolePrivilege name="prvCreateovs_invitation" level="Deep" />
     <RolePrivilege name="prvCreateovs_MOC" level="Local" />
+    <RolePrivilege name="prvCreateovs_MOC_DangerousGood" level="Local" />
     <RolePrivilege name="prvCreateovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvCreateovs_organization_contact" level="Global" />
     <RolePrivilege name="prvCreateovs_organization_manufacturer" level="Global" />
@@ -245,6 +253,7 @@
     <RolePrivilege name="prvReadfdr_ServiceRequest" level="Global" />
     <RolePrivilege name="prvReadfdr_ServiceRequestPerformance" level="Global" />
     <RolePrivilege name="prvReadfdr_ServiceRequestServiceTask" level="Global" />
+    <RolePrivilege name="prvReadfdr_specification" level="Global" />
     <RolePrivilege name="prvReadFeedback" level="Global" />
     <RolePrivilege name="prvReadHierarchyRule" level="Global" />
     <RolePrivilege name="prvReadIncident" level="Global" />
@@ -271,9 +280,11 @@
     <RolePrivilege name="prvReadovs_Incident" level="Global" />
     <RolePrivilege name="prvReadovs_incident_injury" level="Global" />
     <RolePrivilege name="prvReadovs_incident_organization" level="Global" />
+    <RolePrivilege name="prvReadovs_incident_report" level="Global" />
     <RolePrivilege name="prvReadovs_invitation" level="Deep" />
     <RolePrivilege name="prvReadovs_lob" level="Global" />
     <RolePrivilege name="prvReadovs_MOC" level="Global" />
+    <RolePrivilege name="prvReadovs_MOC_DangerousGood" level="Global" />
     <RolePrivilege name="prvReadovs_moctype" level="Global" />
     <RolePrivilege name="prvReadovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvReadovs_organization_contact" level="Global" />
@@ -380,8 +391,10 @@
     <RolePrivilege name="prvWriteovs_Incident" level="Local" />
     <RolePrivilege name="prvWriteovs_incident_injury" level="Local" />
     <RolePrivilege name="prvWriteovs_incident_organization" level="Local" />
+    <RolePrivilege name="prvWriteovs_incident_report" level="Local" />
     <RolePrivilege name="prvWriteovs_invitation" level="Deep" />
     <RolePrivilege name="prvWriteovs_MOC" level="Local" />
+    <RolePrivilege name="prvWriteovs_MOC_DangerousGood" level="Local" />
     <RolePrivilege name="prvWriteovs_OperationUNNumber" level="Global" />
     <RolePrivilege name="prvWriteovs_organization_contact" level="Global" />
     <RolePrivilege name="prvWriteovs_organization_manufacturer" level="Global" />

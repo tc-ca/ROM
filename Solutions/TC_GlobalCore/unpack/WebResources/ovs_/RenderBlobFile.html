@@ -5,6 +5,7 @@
 
     <script src="../qm_/Scripts/jquery_3.1.1.min.js"></script>
     <script src="../ClientGlobalContext.js.aspx"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
 </head>
 <body>
 
@@ -71,7 +72,7 @@
         function getBlobFile(filePath, containerName, sas_variable_name, storageAccount_var_name) {
 
             var ovs_BlobDownloadFile = {
-                filePath: filePath,
+                filePath: encodeURIComponent(filePath),
                 containerName: containerName,
                 sas_variable_name: sas_variable_name,
                 storageAccount_var_name: storageAccount_var_name,
@@ -114,9 +115,10 @@
                                     && typeof data.fileBody !== 'undefined')
                                     && (data.mimeType != null
                                         && typeof data.mimeType !== 'undefined')) {
-
-                                    if (data.mimeType == "application/pdf") {
-
+                                    debugger;
+                                    console.log("mime_Type : " + data.mimeType);
+                                    if (data.mimeType == "application/pdf" || data.mimeType == "application/msword") {
+                                        debugger;
                                         var binaryData = atob(data.fileBody);
                                         // Create a Uint8Array from the binary data
                                         var uint8Array = new Uint8Array(binaryData.length);
@@ -131,6 +133,37 @@
                                         var objectURL = URL.createObjectURL(blob);
 
                                         $('#frameMain').attr("src", objectURL);
+                                    }
+                                    else if (data.mimeType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+                                    {
+                                        debugger;
+                                        var binaryData = atob(data.fileBody);
+                                        // Create a Uint8Array from the binary data
+                                        var uint8Array = new Uint8Array(binaryData.length);
+                                        for (var i = 0; i < binaryData.length; i++) {
+                                            uint8Array[i] = binaryData.charCodeAt(i);
+                                        }
+                                       
+                                        // Create a Blob from the Uint8Array
+                                        var blob = new Blob([uint8Array], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
+                                     
+                                        debugger;
+
+                                        new Response(blob).arrayBuffer().then((arrayBuffer) => {
+                                            mammoth.convertToHtml({ arrayBuffer: arrayBuffer })
+                                                .then(function (result) {
+                                                    if (result.value != null) {
+                                                        var MainFrame = $("#frameMain").contents().find('body');
+                                                        
+                                                        MainFrame.html(result.value);
+                                                    }
+                                                })
+                                                .catch(function (err) {
+                                                    console.log(err);
+                                                });
+                                        });
+                                       
+
                                     }
                                     else $('#frameMain').attr("src", "data:" + data.mimeType + ";base64," + data.fileBody);
                                 }
@@ -170,6 +203,7 @@
 
             //get file name amd path
             var paramsObj = getDataParam();
+            debugger;
             if (paramsObj != null) getBlobFile(paramsObj.filePath, paramsObj.containerName, paramsObj.sas_variable_name, paramsObj.storageAccount_var_name);
             else Xrm.Navigation.openErrorDialog({ message: "Blob call went south. Please contact support" });
 

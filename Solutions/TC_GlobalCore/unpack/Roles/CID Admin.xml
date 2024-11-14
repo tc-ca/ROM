@@ -366,7 +366,6 @@
     <RolePrivilege name="prvReadEntityKey" level="Global" />
     <RolePrivilege name="prvReadEntityMap" level="Global" />
     <RolePrivilege name="prvReadEnvironmentVariableDefinition" level="Global" />
-    <RolePrivilege name="prvReadEnvironmentVariableValue" level="Global" />
     <RolePrivilege name="prvReadExchangeSyncIdMapping" level="Basic" />
     <RolePrivilege name="prvReadExpanderEvent" level="Global" />
     <RolePrivilege name="prvReadExpiredProcess" level="Global" />

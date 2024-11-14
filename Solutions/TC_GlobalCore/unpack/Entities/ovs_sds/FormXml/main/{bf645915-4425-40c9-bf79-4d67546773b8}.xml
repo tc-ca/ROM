@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="HighWithControls">
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
       <tabs>
         <tab verticallayout="true" id="{efdfa0af-68c1-4a1e-8699-c68ca89e7361}" IsUserDefined="1">
           <labels>
@@ -21,12 +21,12 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell locklevel="0" id="{ad564e98-fd24-400a-95de-e24b6c9211ff}">
+                      <cell locklevel="0" id="{ad564e98-fd24-400a-95de-e24b6c9211ff}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell locklevel="0" id="{99612b94-b153-450d-8cda-e79dcab59839}">
+                      <cell locklevel="0" id="{99612b94-b153-450d-8cda-e79dcab59839}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -64,27 +64,25 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e6e2e831-4719-43d7-a022-806f852484dd}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Created On" languagecode="1033" />
-                          <label description="Créé le" languagecode="1036" />
-                        </labels>
-                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
-                      </cell>
-                      <cell id="{e857d153-96e5-4da3-9192-d45659c67adb}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Modified On" languagecode="1033" />
-                          <label description="Modifié le" languagecode="1036" />
-                        </labels>
-                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{55d65828-8617-4226-ae47-6a86369860e9}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="File Path" languagecode="1033" />
                         </labels>
                         <control id="ovs_file_path_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_file_path_txt" disabled="true" />
+                      </cell>
+                      <cell locklevel="0" id="{21605abf-ddfb-4b22-8a17-756c30028c39}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9668160b-ec83-4e02-8d24-9fdd0bd0006f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                          <label description="Modifié le" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
                       </cell>
                       <cell id="{e228f4a9-49e9-4407-8956-0b27f711f768}" locklevel="0" colspan="1" rowspan="1" visible="true">
                         <labels>
@@ -95,12 +93,18 @@
                     </row>
                   </rows>
                 </section>
-                <section name="null_section_6" id="0a08d412-6307-44d3-93d4-527a213ffba4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="null_section_6" id="0a08d412-6307-44d3-93d4-527a213ffba4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
                   <labels>
                     <label description="FILE CONTENT" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{90a31fd6-622f-43a9-a6aa-67b9eb210631}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell id="{3ded73be-a1ab-4ed2-a16c-1b534acdf7af}" locklevel="0" colspan="1" rowspan="40" auto="true" showlabel="false">
                         <labels>
@@ -147,7 +151,7 @@
                     <row />
                     <row />
                     <row />
-                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
               </sections>
@@ -159,7 +163,13 @@
                     <label description="ORGANIZATION INFORMATION" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{89b95cb8-2206-465f-ac45-42e382a71a27}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell id="{bc15d461-e1ee-498e-a697-c000f9a43215}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -192,7 +202,13 @@
                     <label description="INFORMATIONS SUR LE CONTACT" languagecode="1036" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{a381d26a-25c2-45cc-ac2e-3c1f5b99dad2}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell id="{c30bff66-33ca-4c66-8aec-61debcbedbb0}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -405,6 +421,36 @@
           </row>
         </rows>
       </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>

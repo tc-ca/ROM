@@ -10,8 +10,12 @@
     <layoutxml>
       <grid name="ovs_registrations" jump="ovs_name" select="1" icon="1" preview="0">
         <row name="ovs_registration" id="ovs_registrationid">
-          <cell name="ovs_name" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="ovs_name" width="158" />
+          <cell name="ovs_moc_registration_name_txt" width="163" />
+          <cell name="ovs_organization_id" width="113" />
+          <cell name="statuscode" width="119" />
+          <cell name="statecode" width="100" />
+          <cell name="ovs_site_id" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,10 +25,12 @@
         <entity name="ovs_registration">
           <attribute name="ovs_registrationid" />
           <attribute name="ovs_name" />
-          <attribute name="createdon" />
-          <filter type="and">
-            <condition attribute="statecode" operator="eq" value="0" />
-          </filter>
+          <order attribute="ovs_name" descending="false" />
+          <attribute name="ovs_moc_registration_name_txt" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="ovs_organization_id" />
+          <attribute name="ovs_site_id" />
         </entity>
       </fetch>
     </fetchxml>

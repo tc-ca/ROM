@@ -59,7 +59,8 @@
                     <row>
                       <cell id="{16ff4527-7691-4ca0-91c0-4c4e77afd1ec}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Organization Name" languagecode="1033" />
+                          <label description="Nom de l'organisation" languagecode="1036" />
                         </labels>
                         <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" disabled="false" />
                       </cell>

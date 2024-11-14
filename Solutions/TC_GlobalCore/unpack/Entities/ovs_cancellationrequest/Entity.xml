@@ -2143,8 +2143,8 @@
               </option>
               <option value="2">
                 <labels>
-                  <label description="High" languagecode="1033" />
                   <label description="Élevée" languagecode="1036" />
+                  <label description="High" languagecode="1033" />
                 </labels>
               </option>
             </options>

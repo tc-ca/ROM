@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="HighWithControls">
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
       <tabs>
         <tab verticallayout="true" id="{d179478b-862d-4e5b-a5e2-e85fddb5e2c6}" IsUserDefined="1" name="General">
           <labels>
@@ -54,6 +54,39 @@
                         <control id="ovs_ec_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_ec_number_txt" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{d1f21802-1009-4bb3-b76c-42db8fba1b45}" locklevel="0" colspan="1" rowspan="1" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Registration Id" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_registration_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_registration_id" disabled="false" uniqueid="{63914b31-4190-75ac-25e5-8cac2a69dad8}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9955EE3B-C6E2-4531-8227-F8B88E81220C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b44ef204-fcf3-4e25-bc3c-df13c2e63427}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Specifications" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_specifications_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_specifications_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43551644-33be-4fa1-b568-1937bcfc064d}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Limitations" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_limitations_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_limitations_txt" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="section_Specs" id="1932d428-a3db-457e-b999-a5da2d466c69" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
@@ -61,14 +94,20 @@
                     <label description="SPECS" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{2991705b-5dfe-4dbd-98ad-c8b2603dea1a}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell locklevel="0" id="{047ce48d-d351-4afa-a7a0-b4fca99ddd04}" rowspan="4" colspan="1" auto="false" showlabel="false">
                         <labels>
                           <label description="Specification" languagecode="1033" />
                           <label description="Spécifications" languagecode="1036" />
                         </labels>
-                        <control indicationOfSubgrid="true" id="Subgrid_specification" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                        <control indicationOfSubgrid="true" id="Subgrid_specification" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" uniqueid="{77a3e564-4551-2b30-b57e-575548537bbb}">
                           <parameters>
                             <RecordsPerPage>4</RecordsPerPage>
                             <AutoExpand>Fixed</AutoExpand>
@@ -80,6 +119,11 @@
                             <ViewId>{35D144B9-126A-EF11-A671-000D3A843B46}</ViewId>
                             <ViewIds>{A98731E3-2465-4443-8F21-0FBF658A726E},{35D144B9-126A-EF11-A671-000D3A843B46}</ViewIds>
                             <RelationshipName>ovs_ovs_registration_function_fdr_specification</RelationshipName>
+                            <HeaderColorCode />
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
                           </parameters>
                         </control>
                       </cell>
@@ -94,7 +138,13 @@
                     <label description="FUNCTION LIMITATIONS" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{daf02354-83e9-46d1-a69d-b8817b91d93f}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell locklevel="0" id="{1932afb1-d83d-47f6-8a96-435bf1f455a4}" rowspan="4" colspan="1" auto="false" showlabel="false">
                         <labels>
@@ -112,7 +162,7 @@
                             <TargetEntityType>fdr_functionlimitation</TargetEntityType>
                             <ViewId>{D4F27D6E-386A-EF11-A671-0022483C7E68}</ViewId>
                             <ViewIds>{EC26A4F7-2290-4D5A-BA46-3C2799867B33},{D4F27D6E-386A-EF11-A671-0022483C7E68}</ViewIds>
-                            <RelationshipName />
+                            <RelationshipName>ovs_ovs_registration_function_fdr_functionlimitation</RelationshipName>
                           </parameters>
                         </control>
                       </cell>
@@ -127,7 +177,13 @@
                     <label description="REQUIRED CERTIFICATIONS" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{bebe8151-48c2-4b94-abf6-9207147b6961}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell locklevel="0" id="{74eb0fb2-d53e-407f-bfa8-84f9f23b33bc}" rowspan="4" colspan="1" auto="false" showlabel="false">
                         <labels>
@@ -202,6 +258,50 @@
           </row>
         </rows>
       </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{0c579cc9-8759-4ba0-9581-0aa1e13cc2d4}" />
+        <Library name="ovs_GenericHelper_Ribbon.js" libraryUniqueId="{b71d4504-9820-e571-b8b2-9041ba8a3b46}" />
+        <Library name="ovs_Specs2Reg_Functions.js" libraryUniqueId="{83a673d0-5b82-1424-c1e3-d4052cb3a972}" />
+        <Library name="ovs_Registration_Function_Main.js" libraryUniqueId="{6905229c-9008-e352-12e4-a3827bb788e3}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="RegFunctions_FDR_main.OnLoad" libraryName="ovs_Registration_Function_Main.js" handlerUniqueId="{41746633-969a-5c15-1a88-039304ee7203}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>

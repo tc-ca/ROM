@@ -16,6 +16,7 @@
           <cell name="a_929c47851fe14ebabbe6a37bc2d109bc.mobilephone" width="100" />
           <cell name="a_929c47851fe14ebabbe6a37bc2d109bc.jobtitle" width="100" />
           <cell name="a_929c47851fe14ebabbe6a37bc2d109bc.cid_contacttype" width="100" />
+          <cell name="ovs_previously_known_as" width="164" />
         </row>
       </grid>
     </layoutxml>
@@ -36,6 +37,7 @@
             <attribute name="jobtitle" />
             <attribute name="cid_contacttype" />
           </link-entity>
+          <attribute name="ovs_previously_known_as" />
         </entity>
       </fetch>
     </fetchxml>

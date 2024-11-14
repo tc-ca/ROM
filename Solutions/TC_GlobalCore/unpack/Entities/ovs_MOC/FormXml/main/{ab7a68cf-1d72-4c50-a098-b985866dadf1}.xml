@@ -15,19 +15,17 @@
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b94ab44d-f1a3-4d5d-97db-65e854f078d9}" name="General" visible="true" columns="11">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b94ab44d-f1a3-4d5d-97db-65e854f078d9}" name="General" visible="true" columns="111">
                   <labels>
                     <label description="General" languagecode="1033" />
                     <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{562d26bf-3ba6-4aa4-9fb7-4e57fd114c09}" locklevel="0" colspan="1" rowspan="1">
+                      <cell locklevel="0" id="{c06af21a-8051-4607-824c-fb26e5cf78e2}">
                         <labels>
-                          <label description="Units" languagecode="1033" />
-                          <label description="Unit " languagecode="1036" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="ovs_units" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_units" disabled="false" />
                       </cell>
                       <cell id="{c4ba5f4f-c4a3-4647-aec3-2649602e7b6e}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -36,21 +34,12 @@
                         </labels>
                         <control id="ovs_release_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_release_ind" disabled="false" uniqueid="{242ccd93-1c01-4fd7-933d-8bc4f6be8916}" />
                       </cell>
-                    </row>
-                    <row>
-                      <cell id="{3ce5dce7-bb3c-4622-b421-3a7ac77081a5}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{bda3ccf6-6a33-4663-a332-c9d96df1bde1}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Means of Containment form" languagecode="1033" />
-                          <label description="Contenant" languagecode="1036" />
+                          <label description="Number of Packages" languagecode="1033" />
+                          <label description="Nombre d'emballages" languagecode="1036" />
                         </labels>
-                        <control id="ovs_means_of_containment_form_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_means_of_containment_form_cd" disabled="false" />
-                      </cell>
-                      <cell id="{5dfcb59c-255b-4a9e-959d-1262ffd451d2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Release Location" languagecode="1033" />
-                          <label description="Localisation du rejet" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_release_location_mcd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_release_location_mcd" disabled="false" />
+                        <control id="ovs_packages_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_packages_num" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -61,6 +50,41 @@
                         </labels>
                         <control id="ovs_reportable_moc_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_reportable_moc_ind" disabled="false" />
                       </cell>
+                      <cell locklevel="0" id="{e1c80936-5bd0-496a-9ce4-308473cafe60}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{52b2f22d-b3bf-45ed-8964-f41d8a2e8261}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Number of packages that​ sustained a release" languagecode="1033" />
+                          <label description="Nombre d'emballages ayant subi un rejet" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_packages_released_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_packages_released_num" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0f13bacd-90ef-48e6-b71b-ba6fec5b7e3c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="MOC Capacity" languagecode="1033" />
+                          <label description="Capacité du contenant" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_moc_capacity_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_moc_capacity_cd" disabled="false" />
+                      </cell>
+                      <cell id="{5dfcb59c-255b-4a9e-959d-1262ffd451d2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Release Location" languagecode="1033" />
+                          <label description="Localisation du rejet" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_release_location_mcd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_release_location_mcd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{fa859b6c-2462-4264-ad03-e14e08b22619}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
                       <cell id="{d6a4479e-7e1f-490d-bacb-e74fbe9d193e}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Other Release Location" languagecode="1033" />
@@ -68,56 +92,10 @@
                         </labels>
                         <control id="ovs_release_location_other_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_release_location_other_txt" disabled="false" />
                       </cell>
-                    </row>
-                    <row>
-                      <cell id="{c7d474f0-bdd3-4e84-8d88-e79731a3605b}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Transported Quantity" languagecode="1033" />
-                          <label description="Quantité Transportée" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_transported_quantity_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_transported_quantity_num" disabled="false" />
-                      </cell>
-                      <cell id="{d7be8368-bec7-4d38-9ffc-2f54969599f6}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Released Quantity" languagecode="1033" />
-                          <label description="Quantité rejetée" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_released_quantity_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_released_quantity_num" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell locklevel="0" id="{9b597a2d-3de0-48a2-8dbb-44f1b80b0a14}">
+                      <cell locklevel="0" id="{4826b33e-6b46-4b4d-99b5-332e7c2bddaf}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
-                      </cell>
-                      <cell id="{430bb291-87bc-43cc-852a-aea0f904c3e9}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="UN Number" languagecode="1033" />
-                          <label description="numéro UN" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_un_number_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_un_number_id" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b1f3d6ee-e3f8-4734-8fee-f9edf37ee25c}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="ERAP Number" languagecode="1033" />
-                          <label description="Numéro du PIU" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_erap_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_erap_number_txt" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{abd01f9c-efcb-4af2-8387-ee89ad230ad7}" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="New QV control 1722267876834" languagecode="1033" />
-                          <label description="numéro UN" languagecode="1036" />
-                        </labels>
-                        <control id="QuickviewControl1722267876834" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_un_number_id">
-                          <parameters>
-                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
-                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="tdg_unnumber"&gt;c8784081-f353-ef11-bfe3-0022483bb3a9&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
-                          </parameters>
-                        </control>
                       </cell>
                     </row>
                     <row>
@@ -128,7 +106,12 @@
                         </labels>
                         <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" />
                       </cell>
-                      <cell locklevel="0" id="{92bdd4fc-22d9-490d-8015-3b99e6f8409f}">
+                      <cell locklevel="0" id="{d8e9a2a7-633a-432b-b527-997cc6103f42}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{9d0432fa-97c7-4e13-8383-4545783a68ef}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -147,7 +130,44 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
+                      <cell locklevel="0" id="{85912d26-fd6a-44ca-82aa-5c7c249e22a0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
                     </row>
+                  </rows>
+                </section>
+                <section name="general_section_dg" id="0159298b-0606-456a-b99f-42bfb40c6cf3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="MOC Dangerous Goods" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{7626880a-63d1-48ff-a3a5-9500d3ac568c}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="MOC Dangerous Goods" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="grid_dg" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>ovs_moc_dangerousgood</TargetEntityType>
+                            <ViewId>{218E3FAC-6A95-EF11-8A68-002248B24508}</ViewId>
+                            <ViewIds>{9739ACD7-5F54-4E1D-9702-812C32550BA5},{218E3FAC-6A95-EF11-8A68-002248B24508}</ViewIds>
+                            <RelationshipName>ovs_MOC_DangerousGood</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
                 <section name="general_section_5" id="3a53bb36-921a-4eb9-aa79-db1fd6675790" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
@@ -293,602 +313,6 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_specs" id="f349c1d1-4a3e-476d-8ee0-e470f27098fc" IsUserDefined="0" locklevel="0" showlabel="true">
-          <labels>
-            <label description="Specs" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section name="tab_specs_AC_GC" id="c339b232-e4dc-4084-ae04-31c6d64a5f3d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Aerosol Containers and Gas Cartridges" languagecode="1033" />
-                    <label description="Les contenants aerosol et les cartouches de gaz" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                  </rows>
-                </section>
-                <section name="tab_specs_TCPT_NT" id="a066e663-c415-4792-803c-4f05e0bb55a1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="TC Portable Tanks and Nurse Tanks" languagecode="1033" />
-                    <label description="Les citernes amovibles TC et les reservoirs ravitailleurs" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{791c520e-b5f1-44b9-b4d8-b88f74962986}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{8359f155-f5d2-4568-a39b-597022d0ecde}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Certification Date" languagecode="1033" />
-                          <label description="Date de certification" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_certification_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_certification_date_dte" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{9556e219-032f-4066-a60d-c3f9e3983fd1}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell locklevel="0" id="{7332e339-2a07-4772-849c-ca75b27009cd}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell id="{ebd0e487-5fb6-48f3-9964-73a73ec7524a}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date of Modification" languagecode="1033" />
-                          <label description="Date de modification" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_of_modification_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_of_modification_dte" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_PT" id="455df624-71c4-4418-b550-e73672f8e05e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Portable Tanks" languagecode="1033" />
-                    <label description="Les citernes mobiles" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{09eb0925-0586-493d-8ca9-8a715abc00b6}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{356fe83c-5143-4879-af11-4ad684ef3d63}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="DOT Special Permit Number(DOT SP)" languagecode="1033" />
-                          <label description="Numéro de permis spécial du DOT" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_dot_special_permit_number_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_dot_special_permit_number_num" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{050c05ab-55c4-4c6b-91e3-a0dd8a5890c2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="DOT Exemption Number (DOT-E)" languagecode="1033" />
-                          <label description="Numéro d'exemption DOT" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_dot_exemption_number_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_dot_exemption_number_num" disabled="false" />
-                      </cell>
-                      <cell id="{dace77e4-d774-4887-8caa-8277925bebdd}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date Manufactured" languagecode="1033" />
-                          <label description="Date de fabrication" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_manufactured_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_manufactured_dte" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{03f5ae2d-e78c-4748-a79d-0998f083e4fc}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="TC Equivalency Certificate Number" languagecode="1033" />
-                          <label description="Numéro du certificat d'équivalence de TC" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tc_equivalency_certificate_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tc_equivalency_certificate_number_txt" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{bde28cbe-c698-4c01-b24b-02481106bd93}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{6c5fee2a-8abb-4d6d-93e4-9c53d12fb9bc}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Test Date" languagecode="1033" />
-                          <label description="Date du test" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_test_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_test_date_dte" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{dc224df5-7550-4f17-b369-0f2ee1988a24}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_SC" id="068080fc-102f-4c7b-ba5a-5efd6ac53866" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Small Containers" languagecode="1033" />
-                    <label description="Les petits contenants" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{5f2a2bb4-6370-499c-b742-ef337fe0ca6d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{fcd90829-fdac-404f-b656-dc39c9c6605a}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date Manufactured" languagecode="1033" />
-                          <label description="Date de fabrication" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_manufactured_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_manufactured_dte" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_IBC_LP" id="224c9b32-bf4b-47c2-a1bc-85c4425cb3f0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Intermediate Bulk Containers(IBC) and Large Packaging(LP)" languagecode="1033" />
-                    <label description="Les grands recipients pour vrac (grv) et les grands emballages" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{801a16ba-2b2a-4a53-b696-2bd20faf4f31}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{8802d981-bff6-4239-bdc5-9424c46831b3}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Test Date" languagecode="1033" />
-                          <label description="Date du test" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_test_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_test_date_dte" disabled="false" />
-                      </cell>
-                      <cell id="{8ed05a40-a4a5-4fd3-98e1-eedfe4ff5700}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date Manufactured" languagecode="1033" />
-                          <label description="Date de fabrication" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_manufactured_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_manufactured_dte" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_TC" id="adb48fb0-c112-4e18-ab2e-6a20f2363d1f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Ton Containers" languagecode="1033" />
-                    <label description="Les contenants d'une tonne" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{668cff33-4205-43b5-b648-f6da99cc7672}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{a8ac4021-bf62-475b-a24c-d38b3027ca03}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="DOT Special Permit Number(DOT SP)" languagecode="1033" />
-                          <label description="Numéro de permis spécial du DOT" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_dot_special_permit_number_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_dot_special_permit_number_num" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{866f564f-4615-4bd2-8a9a-98c8091ef9b3}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="DOT Exemption Number (DOT-E)" languagecode="1033" />
-                          <label description="Numéro d'exemption DOT" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_dot_exemption_number_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_dot_exemption_number_num" disabled="false" />
-                      </cell>
-                      <cell id="{9fe3ac47-0690-41a6-8128-e3acb17c9d22}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date Manufactured" languagecode="1033" />
-                          <label description="Date de fabrication" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_manufactured_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_manufactured_dte" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{29d60758-90e9-4266-add1-689106740262}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="TC Equivalency Certificate Number" languagecode="1033" />
-                          <label description="Numéro du certificat d'équivalence de TC" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tc_equivalency_certificate_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tc_equivalency_certificate_number_txt" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{c575ff74-5b8a-4595-93a7-9c0c099d77be}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{fbddf2f0-ba1b-48d5-818b-94c32f4ceb8f}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Container Qualification Date" languagecode="1033" />
-                          <label description="Date de qualification du contenant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_container_qualification_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_container_qualification_date_dte" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{ef948ebc-111b-4178-9e03-bb4f1d2b011e}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_HT" id="1f291a64-15b5-4920-9ac0-eda7385054a0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Highway Tanks" languagecode="1033" />
-                    <label description="Les citernes routieres" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{2eb88428-b012-4403-bd0a-775b4fb2e407}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Manufacturer" languagecode="1033" />
-                          <label description="Fabricant de la citerne" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{e2974a7e-e8c5-4308-a238-e8b8c4b3e54f}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Assembler" languagecode="1033" />
-                          <label description="Assembleur de la citerne" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_assembler_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_assembler_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b59b2fe9-38ef-421a-9a13-6d691ab2ae7c}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{fa825c03-e6bb-4cb7-9be6-edb2ec87a84d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Modifier" languagecode="1033" />
-                          <label description="Modificateur de la citerne" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_modifier_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_modifier_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{834dca91-b7d7-40fb-86de-32639ef35b3b}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Transport Canada Registration Number(TCRN); or Manufacturer Design Identification Number(MIDIN)" languagecode="1033" />
-                          <label description="Numéro d'enregistrement de Transports Canada (NETC) ou numéro d'identification de la conception du fabriquant (NICF)" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_transport_canada_registration_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_transport_canada_registration_number_txt" disabled="false" />
-                      </cell>
-                      <cell id="{962abd07-54fa-4c1a-90a6-0e606e38e258}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Maximum Allowable Working Pressure(MAWTP) or Design Pressure" languagecode="1033" />
-                          <label description="Pression maximale de service admissible (PMSA) ou pression de calcul" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_maximum_allowable_working_pressure_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_maximum_allowable_working_pressure_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b9eae702-618d-41c6-99cb-2a559e02b174}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Capacity of Each Compartment" languagecode="1033" />
-                          <label description="Capacité de la citerne de chaque compartiment" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_capacity_of_each_compartment_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_capacity_of_each_compartment_txt" disabled="false" />
-                      </cell>
-                      <cell id="{88f55cc2-1a02-4bd1-8936-41fe48708cf2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Serial Number" languagecode="1033" />
-                          <label description="Numéro de série de la citerne" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_serial_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_serial_number_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{cd47e623-7cfa-4790-afb8-e959f9f0fb43}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Test/Inspection Markings" languagecode="1033" />
-                          <label description="Marquages relatifs aux essais et aux inspections" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_test_inspection_markings_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_test_inspection_markings_txt" disabled="false" />
-                      </cell>
-                      <cell id="{a7e4ea44-02af-4b2c-9359-5c720d29eb0f}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Vehicle Configuration" languagecode="1033" />
-                          <label description="Configuration du véhicule-citerne" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_vehicle_configuration_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_vehicle_configuration_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{7d1f9dab-fbaf-48b7-8b86-7f3f89562537}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date of Modification" languagecode="1033" />
-                          <label description="Date de modification" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_of_modification_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_of_modification_dte" disabled="false" />
-                      </cell>
-                      <cell id="{7dd5c975-99c1-4aab-9de6-af89b833878d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Certification Date" languagecode="1033" />
-                          <label description="Date de certification" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_certification_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_certification_date_dte" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_C_S_T" id="a93a95ee-1118-44ef-a1e5-28c72aee876b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Cylinders, Spheres and Tubes" languagecode="1033" />
-                    <label description="Bouteilles à gaz et tubes" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{55bb3a0d-7541-4791-9580-76b106bd67fd}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="TC Equivalency Certificate Number" languagecode="1033" />
-                          <label description="Numéro du certificat d'équivalence de TC" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tc_equivalency_certificate_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tc_equivalency_certificate_number_txt" disabled="false" />
-                      </cell>
-                      <cell id="{2edae184-dc0b-45c5-866f-e2c541fddb3d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Test Date" languagecode="1033" />
-                          <label description="Date du test" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_test_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_test_date_dte" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_TankCars" id="720ba099-c05c-4a15-9ff5-ef31002ce6d0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Tank Cars" languagecode="1033" />
-                    <label description="Les wagons-citernes" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{f3b3a383-153c-4d7a-b236-5362af451062}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Car Manufacturer" languagecode="1033" />
-                          <label description="Fabricant du wagon-citerne" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_car_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tank_car_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{c33797f8-795e-46da-89a0-0df37387f56c}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturing Facility Location" languagecode="1033" />
-                          <label description=" Lieu de l'installation du fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturing_facility_location_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturing_facility_location_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{5335473e-50b9-4531-a751-5cab757c6b42}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Manufacturer" languagecode="1033" />
-                          <label description="Fabricant" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_manufacturer_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_manufacturer_txt" disabled="false" />
-                      </cell>
-                      <cell id="{50b64f27-8486-4324-ad52-5d99001e887b}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tare Weight" languagecode="1033" />
-                          <label description="Masse à vide" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tare_weight_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tare_weight_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{cefff06a-55bc-4543-90e6-e449dd199684}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Capacity" languagecode="1033" />
-                          <label description="Capacité" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_capacity_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_capacity_txt" disabled="false" />
-                      </cell>
-                      <cell id="{c0d0a1ea-0003-4554-8308-d648610dfa6b}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Load Limit" languagecode="1033" />
-                          <label description="Charge maximale" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_load_limit_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_load_limit_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{cad7d640-8283-4fba-b6ba-ec9c0726d215}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Pressure Relief Device Type and Setting" languagecode="1033" />
-                          <label description="Type de dispositif de décharge de pression et réglage" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_pressure_relief_device_typeandsetting_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_pressure_relief_device_typeandsetting_txt" disabled="false" />
-                      </cell>
-                      <cell id="{0f09fb22-f1bf-47fe-b9f9-a8bc1f8f2d36}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="AAR Certificate of Construction Number" languagecode="1033" />
-                          <label description="Numéro de certificat de construction de l'AAR" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_aar_certificateof_construction_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_aar_certificateof_construction_number_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{dbd21254-3e20-4e54-809d-e6a0362b94bc}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Underframe/Stub Sill Type" languagecode="1033" />
-                          <label description="Type de sous-châssis/longrine centrale tronquée" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_underframe_stub_sill_type_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_underframe_stub_sill_type_txt" disabled="false" />
-                      </cell>
-                      <cell id="{690be331-7293-4fed-b352-78c0c147d162}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="DOT Exemption Number (DOT-E)" languagecode="1033" />
-                          <label description="Numéro d'exemption DOT" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_dot_exemption_number_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_dot_exemption_number_num" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{ab76fdb3-6425-457d-bf40-9c437bc57cb2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="TC Equivalency Certificate Number" languagecode="1033" />
-                          <label description="Numéro du certificat d'équivalence de TC" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tc_equivalency_certificate_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tc_equivalency_certificate_number_txt" disabled="false" />
-                      </cell>
-                      <cell id="{26c6f33b-5aca-4591-8c98-e8de9975bbbc}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="TC Equivalence Certificate(Permit) Number" languagecode="1033" />
-                          <label description="Numéro de certificat d'équivalence (permis) de TC Numéro SR" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tcequivalence_certificatepermitnumber_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_tcequivalence_certificatepermitnumber_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{38745683-3053-42d8-bcbe-22efcb979770}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="DOT Special Permit Number(DOT SP)" languagecode="1033" />
-                          <label description="Numéro de permis spécial du DOT" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_dot_special_permit_number_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_dot_special_permit_number_num" disabled="false" />
-                      </cell>
-                      <cell id="{97e7e5a6-2d56-470b-8893-89252f83d0a5}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Tank Qualification Date" languagecode="1033" />
-                          <label description="Date de qualification du réservoir" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_tank_qualification_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_tank_qualification_date_dte" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{eef4995f-8565-4975-8bce-3d06b27e149b}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Date Manufactured" languagecode="1033" />
-                          <label description="Date de fabrication" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_date_manufactured_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_date_manufactured_dte" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{e0c986fe-723b-408b-a86f-052ebc7929d4}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{2a2b1776-4bd9-4a6f-87cd-c904b5e005a4}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Service Equipment Qualification Date" languagecode="1033" />
-                          <label description="Date de qualification de l’équipement de service" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_service_equipment_qualification_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_service_equipment_qualification_date_dte" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{98721f0c-d18c-4336-a29d-213ce67097aa}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="tab_specs_location" id="3a81c628-fbc2-4ef3-b7ea-b41de8be242f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
-                  <labels>
-                    <label description="Location" languagecode="1033" />
-                    <label description="Localisation" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row />
-                    <row>
-                      <cell id="{84d3cc3d-5634-4e8f-849d-669a0e15a648}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Country" languagecode="1033" />
-                          <label description="Pays" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_country_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_country_cd" disabled="false" />
-                      </cell>
-                      <cell id="{1f3bdb9e-cd65-479a-a5fe-fe393ca05f28}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="City" languagecode="1033" />
-                          <label description="Ville" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_city_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_city_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{8c3e7a27-260e-4b49-9de3-9ffa303f776d}" locklevel="0" colspan="1" rowspan="1" visible="false">
-                        <labels>
-                          <label description="Province / Territory" languagecode="1033" />
-                          <label description="Province / Territoire" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_province_territory_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_province_territory_cd" disabled="false" />
-                      </cell>
-                      <cell id="{8ab60a68-70fd-413c-a96f-7abb20038af3}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Postal Code/Zip Code" languagecode="1033" />
-                          <label description="Postal Code/Zip Code" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_postalcode_zipcode_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_postalcode_zipcode_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{1e17ed57-6b47-4786-be6d-ce1cc272f98a}" locklevel="0" colspan="1" rowspan="1" visible="false">
-                        <labels>
-                          <label description="State" languagecode="1033" />
-                          <label description="État" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_state_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_state_cd" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{b6be1648-08d6-4224-a7c7-9def371f8b75}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
       </tabs>
       <header id="{50c067a5-582d-4cc1-be5a-41cc0af7ef91}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
@@ -911,6 +335,7 @@
             <cell id="{14851455-9679-4c3e-aa3b-f60abf3a84f6}" locklevel="0" colspan="1" rowspan="1">
               <labels>
                 <label description="Incident Report" languagecode="1033" />
+                <label description="Incident Report" languagecode="1036" />
               </labels>
               <control id="header_ovs_incident_report_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_incident_report_id" disabled="true" />
             </cell>

@@ -166,15 +166,6 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="18" ExternalValue="">
-      <labels>
-        <label description="Company Personnel" languagecode="1033" />
-        <label description="PERSONNEL DE L'ENTREPRISE" languagecode="1036" />
-      </labels>
-      <Descriptions>
-        <Description description="" languagecode="1033" />
-      </Descriptions>
-    </option>
     <option value="19" ExternalValue="">
       <labels>
         <label description="LPG ER" languagecode="1033" />

@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3e11afda-dd6e-ef11-a671-0022483bb3a9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{0b52e8b7-4c54-45b9-8320-a991567a9562}" IsUserDefined="1" labelid="{671df90e-fbff-4b74-8387-45c70787d104}" name="tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ca013b40-edb2-4890-9c35-3fc563cc0710}" name="tab_General" labelid="{f9798249-25ad-4059-b85a-cc452ee896eb}" columns="1">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7a3c1be2-3b75-413d-85bc-c9581afa301c}" showlabel="true" locklevel="0" visible="false" labelid="{9ae21d46-2a2e-4f79-a8f6-0b590454b8ed}">
+                        <labels>
+                          <label description="Operation ID" languagecode="1033" />
+                          <label description="ID de l'opération" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" uniqueid="{7d9d8c7c-a494-6be0-8c58-e8e804e0b494}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c93b371e-cc1c-46d0-aabf-f37316968f16}" locklevel="0" colspan="1" rowspan="1" showlabel="true" labelid="{ed6b5235-4f11-4465-9ccc-f304655a3f09}" visible="false">
+                        <labels>
+                          <label description="Operation Type" languagecode="1033" />
+                          <label description="Type d'opération" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_operationtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_operationtype" disabled="true" uniqueid="{d2059b79-807e-7732-da4e-29a74a6d0aca}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a7305d5-7975-109d-e83a-24c66c488739}" showlabel="true" locklevel="0" labelid="{82ed3356-1eae-4b45-974c-2ef030429943}">
+                        <labels>
+                          <label description="Registration Type" languagecode="1033" />
+                          <label description="Type d'inscription" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_registrationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_registrationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{513beecd-cebd-4d00-8542-e76d7178f512}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{c6c66f2f-244a-40c2-bffa-0d7b26849c80}">
+                        <labels>
+                          <label description="IIS Created Date" languagecode="1033" />
+                          <label description="Date de création dans SII" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_iiscreateddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_iiscreateddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d454819b-04ab-0764-ce84-c3105417a400}" showlabel="true" locklevel="0" labelid="{68774e0f-3580-48d7-a866-bac083bd771f}">
+                        <labels>
+                          <label description="MOC Registration ID" languagecode="1033" />
+                          <label description="ID d’inscription - contenant" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_mocregistrationname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_mocregistrationname" disabled="true" uniqueid="{57258723-5d24-2c9e-2856-20cc2631c663}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c47fdd8-5e27-4b18-8659-98d73ab671bb}" locklevel="0" labelid="{c583e1bf-146f-4131-8a02-862f873daa24}" visible="false">
+                        <labels>
+                          <label description="MOC Registration Expiry" languagecode="1033" />
+                          <label description="Expiration de l’inscription - contenant" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_registrationexpiry" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_registrationexpiry" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e64a7066-81ec-ea9d-1c34-ddb5a60a4db7}" showlabel="true" locklevel="0" colspan="1" rowspan="1" labelid="{46fc695d-94f7-4671-b0a2-27ea418d5efa}">
+                        <labels>
+                          <label description="Line Of Business" languagecode="1033" />
+                          <label description="Secteur d’activité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusiness" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39d10d06-7c90-b209-0cad-bc59a3dd1350}" showlabel="true" locklevel="0" labelid="{06f9ebdb-6e93-4ec9-9126-bd0466afde9b}">
+                        <labels>
+                          <label description="Risk Score" languagecode="1033" />
+                          <label description="Score de risque" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdriskscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="ovs_cdriskscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{415ba5d5-d28a-d4ac-bd10-de38ba4e4927}" showlabel="true" locklevel="0" labelid="{917e07f4-de68-47e1-9e17-21086fc08f30}">
+                        <labels>
+                          <label description="Priority Score" languagecode="1033" />
+                          <label description="Score de priorité‎" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdpriorityscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="ovs_cdpriorityscore" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81c107ca-aa43-13ee-9556-9eb6aa4877b0}" showlabel="true" locklevel="0" labelid="{b8f9bcaa-5688-49ea-8814-a709d1148107}">
+                        <labels>
+                          <label description="Risk Category" languagecode="1033" />
+                          <label description="Catégorie de risque" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdriskcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ovs_cdriskcategory" disabled="true" uniqueid="{4a04a465-d6ba-619c-63e2-7719a752b481}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81d279c5-b240-4151-aa0d-dbd0d625fdf8}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{9b8df1f4-6111-4952-80bd-942e41bb123b}">
+                        <labels>
+                          <label description="MOC Registration ID from FDR" languagecode="1033" />
+                          <label description="ID d'inscription MOC" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_ovs_mocregistrationname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_ovs_mocregistrationname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_general_section_4" id="6bf3398c-3d8b-4a16-815d-dad799ca5360" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{99b301ca-ae0f-4fab-aae2-7cfdc7e398ab}">
+                  <labels>
+                    <label description="Contacts" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{793b8eaf-06a7-425e-85bc-7781fbdc44a8}" rowspan="4" colspan="1" auto="false" labelid="{df04a1ea-6b86-4fe9-806b-24cdeb929cba}">
+                        <labels>
+                          <label description="Contacts" languagecode="1033" />
+                          <label description="Personnes-ressources" languagecode="1036" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_Contacts" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>8</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>connection</TargetEntityType>
+                            <ViewId>{BF1EDD07-888B-ED11-81AC-0022483E130E}</ViewId>
+                            <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F},{BF1EDD07-888B-ED11-81AC-0022483E130E}</ViewIds>
+                            <RelationshipName>ovs_mocregistration_connections1</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="_section_692" id="35ba3bc0-30a2-4cfc-ac06-c1ef0d42d2df" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{66ed979e-ea0d-4f6a-a4d2-abfd4ce2ae49}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{5ec36b47-a996-4ca1-9710-e5ae3d2fefec}" rowspan="15" colspan="1" labelid="{6cd5b82b-42f4-4c48-ba46-b517518b6648}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false">
+                          <parameters>
+                            <UClientActivities>appointment,email,phonecall,task</UClientActivities>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <UClientActivityCardMap>appointment:4201:,campaignactivity:4402:,campaignresponse:4401:,email:4202:,fax:4204:,incidentresolution:4206:,letter:4207:,opportunityclose:4208:,orderclose:4209:,phonecall:4210:,quoteclose:4211:,recurringappointmentmaster:4251:,serviceappointment:4214:,socialactivity:4216:,task:4212:,adx_alertsubscription:10662:,adx_inviteredemption:10665:,adx_portalcomment:10714:,cid_activityreviewlog:10747:,msdyn_bookingalert:10378:,msdyn_ocliveworkitem:10955:,msdyn_ocsession:10972:,msfp_alert:10261:,msfp_surveyinvite:10271:,msfp_surveyresponse:10273:,ovs_cancellationrequest:10555:,ovs_confirmationofcompliance:10558:,ovs_cyaction:10559:,ovs_followuprequest:10563:,ovs_revisedquarterrequest:10576:,</UClientActivityCardMap>
+                            <UClientActivitiesConfigurationJSON>{"ovs_revisedquarterrequest":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_followuprequest":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_cyaction":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_confirmationofcompliance":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_cancellationrequest":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msfp_surveyresponse":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"msfp_surveyinvite":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"msfp_alert":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msdyn_ocsession":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msdyn_ocliveworkitem":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"msdyn_bookingalert":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"cid_activityreviewlog":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"adx_portalcomment":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"adx_inviteredemption":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"adx_alertsubscription":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"socialactivity":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"quoteclose":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"orderclose":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"opportunityclose":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"letter":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"incidentresolution":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"fax":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"campaignactivity":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"recurringappointmentmaster":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"}}</UClientActivitiesConfigurationJSON>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{aa61e692-e804-13ce-eac5-7c46d4113179}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{ff9219f1-1b14-47b4-be64-b1567c80a33d}">
+          <labels>
+            <label description="NOP Profile" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{12b5a511-98ed-12e1-3267-471a17894377}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{aee2992a-23b4-4d41-91cb-fb746bea75ef}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aa7c189d-41d6-8ca4-8c38-80c5d821035d}" showlabel="true" locklevel="0" labelid="{a2f21c83-8f4f-4a57-901e-15beec50e136}">
+                        <labels>
+                          <label description="Hub" languagecode="1033" />
+                          <label description="Concentrateur" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_hubind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_hubind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{157c2a7e-1224-580a-8067-ba717dacbd62}" showlabel="true" locklevel="0" labelid="{73141173-2ee3-41c9-8258-6d79833209b7}">
+                        <labels>
+                          <label description="Targeted" languagecode="1033" />
+                          <label description="Ciblé" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_targetedind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_targetedind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{286399ce-d2ab-51ad-3ac0-15ae71a9a589}" showlabel="true" locklevel="0" labelid="{c6b978f4-57e2-4309-bb90-a90881cfa91e}">
+                        <labels>
+                          <label description="Accident" languagecode="1033" />
+                          <label description="Accident" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_accidentind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_accidentind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bb31472-0b34-5ab5-5792-dbd6a34810ad}" showlabel="true" locklevel="0" labelid="{919ad811-022c-4c4b-ab9d-6ff8947b70cb}">
+                        <labels>
+                          <label description="CEP" languagecode="1033" />
+                          <label description="PEC" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a403a45-dbd0-4ed9-e7e9-1cdabdde849d}" showlabel="true" locklevel="0" labelid="{7f9442c8-dec3-4ca9-8ee5-9df897716184}">
+                        <labels>
+                          <label description="Follow-UP" languagecode="1033" />
+                          <label description="Suivi" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_followupind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_followupind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1de823c-eaca-a11d-c87e-138a1c59ee1a}" showlabel="true" locklevel="0" labelid="{deef810a-d7bb-4555-b135-14c89fee886c}">
+                        <labels>
+                          <label description="Authorized Location" languagecode="1033" />
+                          <label description="Lieu autorisé" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_authorizedlocation" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="fdr_authorizedlocation" disabled="true" uniqueid="{9ab13b94-d354-472a-d530-8377739b3ad8}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="b283af79-9ada-4914-ad65-c432caadce71" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{70d35cf7-9157-4ff7-b8ab-b847ea6ba5cc}">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" id="c0bc6f88-b2d2-4c43-97f3-ccac576db679" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{2f61a2b7-a9f2-4c9e-a92b-a75aebe602ed}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{53c5b05e-0431-1647-a87b-ba3d130e0186}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{cd8cbda0-c66a-43e1-b880-38945ce72419}">
+                        <labels>
+                          <label description="Attach2Dynamics" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_Attach2Dynamics" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>ikl_/Attach2Dynamics/Library/index.html</Url>
+                            <PassParameters>true</PassParameters>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{AF16C0DE-3904-E911-80D1-00155D060713}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_MOC_Registration" id="cb00e0f7-ba98-49fc-be01-29616c9c887a" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="MOC Registration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" id="ca6ddb14-0663-4251-920e-7d44634ece0c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{798fde0a-e9e4-41dd-8d4a-fef67ca9b78b}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1725909653242" languagecode="1033" />
+                          <label description="Connexions" languagecode="1036" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>ovs_registration</TargetEntityType>
+                            <ViewId>{532D1A63-A56B-EF11-A671-0022483BB3A9}</ViewId>
+                            <ViewIds>{BFF66839-6D76-45EE-8B5B-0B85C974C433},{532D1A63-A56B-EF11-A671-0022483BB3A9},{6F923040-A16B-EF11-A671-0022483BB3A9},{72634BC6-A56B-EF11-A670-002248B2102E}</ViewIds>
+                            <RelationshipName>ovs_registration_mocregistration</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_sr" id="ea9d008b-dee2-467c-939f-b3a651043462" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{016bd2f2-b09b-4ecd-b163-ae3f3f28c984}" visible="true">
+          <labels>
+            <label description="Service Requests" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" id="add751e0-a481-4ab8-ba93-0dc3473bfd9e" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{5f030441-6c03-4912-8d18-4cf0ef886dcd}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{a3aa5c5c-6be6-4258-be00-85a3cf628f9c}" rowspan="4" colspan="1" auto="false" showlabel="false" labelid="{d8ce1145-4a59-4c6f-94b4-543b84eeb361}">
+                        <labels>
+                          <label description="New SG control 1660310985698" languagecode="1033" />
+                          <label description="Nouveau contrôle SG 1660310985698" languagecode="1036" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_sr" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <TargetEntityType>fdr_servicerequest</TargetEntityType>
+                            <ViewId>{7D4F25CD-401A-ED11-B83E-000D3A0C8551}</ViewId>
+                            <ViewIds>{0FBA53A8-BEAF-461F-ABE1-6132A3FBDEE2},{7D4F25CD-401A-ED11-B83E-000D3A0C8551}</ViewIds>
+                            <RelationshipName>fdr_ServiceRequest_Operation_ovs_MOCRegis</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{20384781-d055-490c-8deb-ed175a012815}" celllabelposition="Top" columns="1111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0ec1cc72-04a7-9027-1eb6-308330837a50}" showlabel="true" locklevel="0" labelid="{1fa8cee5-5120-4339-a283-4cc52dac400e}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{7602c771-87c0-006c-a3e1-b4ee3cbe67a3}" showlabel="true" locklevel="0" labelid="{aa7b86d2-bf9d-4b86-b737-58bc50dfb2e3}">
+              <labels>
+                <label description="Site" languagecode="1033" />
+                <label description="Site" languagecode="1036" />
+              </labels>
+              <control id="header_ovs_siteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_siteid" disabled="false" uniqueid="{70c36607-993d-3150-9cdb-06852d5267e7}" />
+            </cell>
+            <cell id="{e683ae54-b6ab-970b-a53b-69926bb63a12}" showlabel="true" locklevel="0" labelid="{ccf4e8f8-a5ba-4b4f-bfa3-b02790a5ac8c}">
+              <labels>
+                <label description="Operation Status" languagecode="1033" />
+                <label description="Statut de l'opération" languagecode="1036" />
+              </labels>
+              <control id="header_fdr_operationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fdr_operationstatus" disabled="false" uniqueid="{b905c652-e7a2-7546-ce5b-da676e127a73}" />
+            </cell>
+            <cell id="{433c110c-7318-5a59-37ce-3c92d2756350}" showlabel="true" locklevel="0" labelid="{a2b6ddf7-87c2-4bff-87c1-34372c791901}">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{346409d5-19da-4b95-b087-505cec1cf3d2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{15a52b86-0c43-4da5-93b0-ff2daf7b11ce}" showlabel="false" labelid="{8475081d-0d92-43ae-85ca-4ba5f938ac0a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cae61cf9-8efb-4c15-a5c0-e02aa8df2223}" showlabel="false" labelid="{8be2568a-ca0f-441a-ba60-7e7d1298033b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bca04bc8-2391-4311-9f1b-ecad12d9bde9}" showlabel="false" labelid="{fb98f1ee-1de8-423a-a4f8-d77025053457}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="ovs_OperationUNNumber_OperationUNNumber_o" Sequence="10001" Area="Info" Id="nav_ovs_OperationUNNumber_OperationUNNumber_o">
+            <Titles>
+              <Title LCID="1033" Text="Operation UN Numbers" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_ovs_mocregistration_ovs_operationclass_OperationClass" Sequence="10002" Area="Info" Id="nav_ovs_ovs_mocregistration_ovs_operationclass_OperationClass">
+            <Titles>
+              <Title LCID="1033" Text="Operation Classes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" Sequence="10003" Area="Info" Id="nav_ovs_ovs_mocregistration_ovs_workordercandidate_operationid">
+            <Titles>
+              <Title LCID="1033" Text="Work Order Candidates" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="fdr_ServiceRequest_Operation_ovs_MOCRegis" Sequence="10004" Area="Info" Id="nav_fdr_ServiceRequest_Operation_ovs_MOCRegis">
+            <Titles>
+              <Title LCID="1033" Text="Service Requests" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="fdr_ovs_mocregistration_fdr_condition_authorizedlocation" Sequence="10005" Area="Info" Id="nav_fdr_ovs_mocregistration_fdr_condition_authorizedlocation">
+            <Titles>
+              <Title LCID="1033" Text="Conditions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_ovs_mocregistration_cepsampling_replaceme" Sequence="10006" Area="Info" Id="nav_ovs_ovs_mocregistration_cepsampling_replaceme">
+            <Titles>
+              <Title LCID="1033" Text="Operations" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="fdr_fdr_design_DesignReviewAgency_ovs_mocregi" Sequence="10007" Area="Info" Id="nav_fdr_fdr_design_DesignReviewAgency_ovs_mocregi">
+            <Titles>
+              <Title LCID="1033" Text="Designs" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_MOCRegistration_ovs_aircrafttype" Sequence="10008" Area="Info" Id="nav_ovs_MOCRegistration_ovs_aircrafttype">
+            <Titles>
+              <Title LCID="1033" Text="Aircraft Types" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_MOCRegistration_ovs_airoperatorfunction" Sequence="10009" Area="Info" Id="nav_ovs_MOCRegistration_ovs_airoperatorfunction">
+            <Titles>
+              <Title LCID="1033" Text="Air Operator Functions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_MOCRegistration_ovs_airOperatortype" Sequence="10010" Area="Info" Id="nav_ovs_MOCRegistration_ovs_airOperatortype">
+            <Titles>
+              <Title LCID="1033" Text="Air Operator Types" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_mocregistration_ovs_moctype" Sequence="10011" Area="Info" Id="nav_ovs_mocregistration_ovs_moctype">
+            <Titles>
+              <Title LCID="1033" Text="MOC Types" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_mocregistration_ovs_modes" Sequence="10012" Area="Info" Id="nav_ovs_mocregistration_ovs_modes">
+            <Titles>
+              <Title LCID="1033" Text="CID_ModesOperations" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="ovs_operation_fiscalyear_where_cepselecected" Sequence="10013" Area="Info" Id="nav_ovs_operation_fiscalyear_where_cepselecected">
+            <Titles>
+              <Title LCID="1033" Text="TCFiscalYears" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="5" FallbackForm="false">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FDR_R - Operation Form Admin" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity for the new MOC registration process" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

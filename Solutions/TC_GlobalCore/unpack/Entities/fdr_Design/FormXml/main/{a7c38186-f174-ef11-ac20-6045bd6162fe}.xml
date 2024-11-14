@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a7c38186-f174-ef11-ac20-6045bd6162fe}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{f07cee3b-5491-472c-bcb2-51dad2da384d}" IsUserDefined="1" name="General" labelid="{480014f3-94a4-41f0-aefb-c4333e9b7ee2}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3f6f85a8-fa88-4dee-a6b3-e977ceaea7ab}" columns="11" name="general" celllabelposition="Top" labelid="{fe4adfdd-b1cc-4c8e-8044-6bffa1147cd5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8e498a1-434a-4ac7-81fc-9d59c65cf9d5}" locklevel="0" colspan="1" rowspan="1" labelid="{f170a41a-e5c3-4e24-af76-ab422212b61e}">
+                        <labels>
+                          <label description="Design Type" languagecode="1033" />
+                          <label description="Type de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_designtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="fdr_designtype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{2b62f234-72ed-4182-b788-f95f094db0ad}" labelid="{984f6164-9e8b-401f-b556-93375ac8639c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31272e57-b2f7-4b8c-9877-011d7a22434e}" locklevel="0" colspan="1" rowspan="1" visible="true" labelid="{f141a105-85a5-47bb-85c3-bd39cd799b01}">
+                        <labels>
+                          <label description="Parent Design" languagecode="1033" />
+                          <label description="Modele Type" languagecode="1036" />
+                        </labels>
+                        <control id="header_fdr_parentdesign" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_parentdesign" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{1f9cb698-eff1-48c6-83fa-c0c47c8a970b}" labelid="{3b71ab40-9e8f-462b-85f5-2eaf5962da61}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a1f823ab-7153-4d7f-841f-c6d52e31a4c8}" colspan="1" rowspan="1" labelid="{49996c6d-536c-4821-b081-50de769d8399}">
+                        <labels>
+                          <label description="Parent Design Registration Number" languagecode="1033" />
+                          <label description="Modele Type" languagecode="1036" />
+                        </labels>
+                        <control id="parent_reqNumber_view" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_parentdesign">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="fdr_design"&gt;58394379-fa9e-4036-8287-d35f445acd10&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell locklevel="0" id="{7412477c-ca4e-493e-b3e8-1c00fc78a3e5}" labelid="{6d4b34a8-a05b-4a55-9c71-7ff32afcb884}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1f6ee8ef-10e1-47a7-9425-35b554deb5f5}" locklevel="0" colspan="1" rowspan="1" labelid="{50acfe97-1dd8-4bba-9c8e-54364aa00811}">
+                        <labels>
+                          <label description="Design Marking Requirement" languagecode="1033" />
+                          <label description="Exigence de marquage de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_designmarkingrequirement" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_designmarkingrequirement" disabled="false">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{858176D4-DB44-4AA4-954E-FFB06D9B0CEC}</DefaultViewId>
+                            <AvailableViewIds>{788260A0-FA7F-46E5-A64B-5D22389B66AB},{858176D4-DB44-4AA4-954E-FFB06D9B0CEC},{93417372-B5C9-4014-8B84-03BD05D28E1E}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell locklevel="0" id="{daa88f27-a5ac-4460-8ed4-816190483534}" labelid="{fac4b5f2-fb46-4b45-b2d9-1c2441d7ba90}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8880a239-0634-4831-b8a4-2e65e40cc496}" labelid="{ecfa28b4-b09f-4cc2-8a80-d1145d505471}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_name" />
+                      </cell>
+                      <cell id="{dc1cecfd-3d12-4ba0-a72f-7cbcd1b5781e}" locklevel="0" colspan="1" rowspan="8" auto="false" labelid="{caa4d65b-c02c-45d1-8bca-d11c9cf003ae}">
+                        <labels>
+                          <label description="English Description" languagecode="1033" />
+                          <label description="Description" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="fdr_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b1131e3-3d04-447c-ba09-8c3af58e9b36}" locklevel="0" colspan="1" rowspan="1" labelid="{e03a3e00-9dbb-4abc-ae5e-84dd8ea1060d}">
+                        <labels>
+                          <label description="Registration Date" languagecode="1033" />
+                          <label description="Date d’inscription" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_registrationdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_registrationdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{380d2433-c4fb-45d2-9e6e-e5ad4d8f49eb}" locklevel="0" colspan="1" rowspan="1" labelid="{855296cc-3430-43c9-9ebb-6e9b878280c5}">
+                        <labels>
+                          <label description="EC Number" languagecode="1033" />
+                          <label description="Numéro de CÉ" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_certificatenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_certificatenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03bc263d-6330-4af1-8aae-548f339e0bd1}" locklevel="0" colspan="1" rowspan="1" labelid="{a66d0b30-5ea9-4a5e-b3ed-c19c9a6e3cb0}">
+                        <labels>
+                          <label description="EC Expiry Date" languagecode="1033" />
+                          <label description="Date d’expiration CÉ" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_certificateexpirydate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_certificateexpirydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a133e615-f412-4efc-a91b-2086073a91e8}" locklevel="0" colspan="1" rowspan="1" labelid="{e1402737-8e8c-40a2-bfdd-b9ec5c49773f}">
+                        <labels>
+                          <label description="Design Registration Number" languagecode="1033" />
+                          <label description="Numéro de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_designregistrationnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_designregistrationnumber" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62bee56c-24ac-469c-83c5-25e5de0b3b62}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registration" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_registrationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_registrationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2370464-35d9-4ffc-bc97-4500b5df166e}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{ad1f6080-07b3-43b7-899d-053f084ec917}">
+                        <labels>
+                          <label description="Initial Reg Type Id" languagecode="1033" />
+                          <label description="Initial Reg Type Id" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_initialregtypeid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_initialregtypeid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{c5c62a10-6cba-4f01-af5a-979a25b9e96e}" labelid="{dff105ea-a71d-4b4e-bfa4-4157cc0c7431}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05f1f94b-69a4-442b-a4ed-d186d34c5e8e}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{481b9c32-74bc-42b7-af79-8f6760374c2e}">
+                        <labels>
+                          <label description="Initial SRFunction ID" languagecode="1033" />
+                          <label description="Initial SRFunction ID" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_initialsrfunctionid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_initialsrfunctionid" disabled="false" />
+                      </cell>
+                      <cell id="{e7f14ef8-b493-4aa2-aaa3-b72cf6e8284a}" locklevel="0" colspan="1" rowspan="8" labelid="{bf2423a8-9297-439e-afed-f0dd4bc25df8}">
+                        <labels>
+                          <label description="French Description" languagecode="1033" />
+                        </labels>
+                        <control id="fdr_descriptionfr" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="fdr_descriptionfr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{d4746522-6951-4d7d-830a-e7210c688d86}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{a1404698-ca05-4e31-b729-82b89f80cf48}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{3fe1b58c-f712-43ef-8fb6-0990840698dd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{845bce8c-6230-4789-805a-cb1e3b3df602}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{7933485e-22dd-4c8e-9201-209b1c57476f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{1cc7a958-1938-4ba1-9df4-845513dbad78}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{8e9b825c-8dad-4015-8043-ee7c3244f5dd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ed68b0c-bb42-4935-885a-66697a6ace75}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{6e6e7eea-cbe6-4038-a9f1-d87d9aad8d0b}">
+                        <labels>
+                          <label description="Operation" languagecode="1033" />
+                          <label description="Operation" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_ovs_mocregistration" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_ovs_mocregistration" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{dbec8620-1ae9-432b-b69c-94c8922e5055}" labelid="{d87a8e44-b603-4df7-a8eb-a14f6b83ec04}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="section_designRequirement" id="c639a251-4bd1-46e4-9fcf-f528b06df7e5" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{181c6d53-e406-47fc-b773-0dbefc53d118}">
+                  <labels>
+                    <label description="Design Requirements" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{79f207b3-2598-48c0-90bc-3a374d3cab61}" userspacer="true" showlabel="false" colspan="1" rowspan="1" labelid="{1bbd202b-6b16-4a6a-813b-61377e153fe7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{4f6f6781-3b0c-4cc3-8083-e361d94e154d}" colspan="1" rowspan="1" labelid="{662179e8-60ce-4596-8d45-c8a8bb952cf1}">
+                        <labels>
+                          <label description="New QV control 1656006688639" languagecode="1033" />
+                          <label description="Exigence de marquage de conception" languagecode="1036" />
+                        </labels>
+                        <control id="QVC_DMR" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_designmarkingrequirement">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="fdr_designmarkingrequirement"&gt;763a1be5-6911-4ae6-b47c-e62f31b2135d&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5bed79ff-23d2-48a9-91d2-ec2d276c8403}" locklevel="0" colspan="1" rowspan="1" labelid="{dc83dd89-d0cb-4d4e-b815-2ccf58f996a3}">
+                        <labels>
+                          <label description="Option" languagecode="1033" />
+                          <label description="Option" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_option" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="fdr_option" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4c99555a-286e-4a24-a68a-ea8e0d364d44}" showlabel="false" labelid="{aafbcb67-fe98-474c-924b-c6683ca02357}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7fab560b-4ceb-4475-8b0f-8ee9e7cc9a56}" locklevel="0" colspan="1" rowspan="1" labelid="{5b6316a9-14fe-4de1-ad76-39427f6d2468}">
+                        <labels>
+                          <label description="Packing Group Marking" languagecode="1033" />
+                          <label description="Marquage du groupe d'emballage" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_packinggroupmarking" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="fdr_packinggroupmarking" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{0e66df82-0c8f-463f-a74e-894f9872a9aa}" showlabel="false" labelid="{b79f81c9-157a-4b88-9dc5-c70a7ba889cc}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{130874ac-90b3-4fc7-8a90-573932922c1c}" locklevel="0" colspan="1" rowspan="1" labelid="{031e3fdc-b1bb-4e89-8fcb-f99d0fa22842}">
+                        <labels>
+                          <label description="Gross Mass / Relative Density" languagecode="1033" />
+                          <label description="Gross Mass / Relative Density" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_grossmassrelativedensity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_grossmassrelativedensity" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{555d3871-66b3-4008-85ad-8e98ee98d4b8}" showlabel="false" labelid="{edc4bb6e-d42e-40ca-b9a7-12850de0b4c3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b7536e5-22ce-41cb-a878-497dcd7becc8}" locklevel="0" colspan="1" rowspan="1" labelid="{88117367-299d-48a9-bbb0-f77fc6fe5930}">
+                        <labels>
+                          <label description="Packaging Type" languagecode="1033" />
+                          <label description="Type de contenant" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_packagingtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="fdr_packagingtype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{f82ac058-b98d-4038-99e5-ab01e4587448}" showlabel="false" labelid="{4284f8b5-3849-410b-b7e1-72980ebd573e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0390e055-f5b2-4cf3-82de-0e76b3fda2e3}" locklevel="0" colspan="1" rowspan="1" labelid="{c2241d1c-db52-421d-b5a5-3fccde7c0b91}">
+                        <labels>
+                          <label description="Packaging Content" languagecode="1033" />
+                          <label description="Contenu de l'emballage" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_packagingcontent" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="fdr_packagingcontent" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{ed5990c8-2f7e-45f2-a27b-7a895f6108be}" showlabel="false" labelid="{11af16c4-8a03-4e9c-8b58-b90690255702}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a1b59e7-632d-448d-91da-db7f3b3ea9e9}" locklevel="0" colspan="1" rowspan="1" labelid="{b860fd91-393b-4669-9e72-15f860db3bbe}">
+                        <labels>
+                          <label description="S/Internal test pressure reqd." languagecode="1033" />
+                          <label description="S / pression d’essai interne" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_sinternaltestpressurereqd" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_sinternaltestpressurereqd" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{f5fe80e7-8663-47ce-8f61-2633db190ffd}" showlabel="false" labelid="{5491fc5f-c8d0-41e6-97cd-6643f93c6017}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38702300-73f4-40de-b738-d6d72f045fd4}" locklevel="0" colspan="1" rowspan="1" labelid="{66066200-14ce-4bbc-8f88-0e5de697058e}">
+                        <labels>
+                          <label description="Internal Test Pressure" languagecode="1033" />
+                          <label description="Pression d'essai interne" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_internaltestpressure" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_internaltestpressure" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{851d5284-b0d3-489a-b252-b90b97e1f18a}" showlabel="false" labelid="{4649670c-ccb9-4796-9fc1-fac71158c94f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b60f4976-7ecf-428a-a98a-783d95331818}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{530f91d2-1bb8-42f1-a1b8-ec84217f69a0}">
+                        <labels>
+                          <label description="Registered Mark" languagecode="1033" />
+                          <label description="Marque enregistrée" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_registeredmark" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_registeredmark" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{1394801d-f444-44ae-9f38-97e48b6367fd}" showlabel="false" labelid="{ab72a3ac-c1f3-4f32-a3d3-8c635238d31f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bd2ab89-8fae-43ea-a6a2-281f64ea3f47}" locklevel="0" colspan="1" rowspan="1" labelid="{1f0f96ee-6b24-415b-a008-2a7108be23ab}">
+                        <labels>
+                          <label description="NRCAN Authorization" languagecode="1033" />
+                          <label description="Autorisation de RNCan" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_nrcanauthorization" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_nrcanauthorization" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{b30ce384-e973-4f03-8029-33f701f62d0a}" showlabel="false" labelid="{cb447493-aa87-4497-aa2d-1a8ddfcbf39d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e135c7a6-41f6-4bd7-b878-b056c66e3db6}" locklevel="0" colspan="1" rowspan="1" labelid="{6561f2de-ad65-435f-9b25-94207d60fcbd}">
+                        <labels>
+                          <label description="Maximum Permitted Stacking Load" languagecode="1033" />
+                          <label description="Charge de gerbage maximale admissible" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maximumpermittedstackingload" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_maximumpermittedstackingload" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{ce5d3582-f179-4fc8-8235-840536a49b56}" showlabel="false" labelid="{8fa0bda9-b0fa-41b2-82b9-fa85b9af1327}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cca83073-7218-4f26-86c1-782d9e2fd9dd}" locklevel="0" colspan="1" rowspan="1" labelid="{61947b62-bec2-46fa-bf98-5386b89b85a8}">
+                        <labels>
+                          <label description="Maximum Permissible Gross Mass / Load" languagecode="1033" />
+                          <label description="Masse/charge brute maximale admissible" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maximumpermissiblegrossmassload" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_maximumpermissiblegrossmassload" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{bd1d5659-e9bf-4e84-afd9-435bb094adf4}" showlabel="false" labelid="{5c1e7497-91a5-4fec-ab58-1af23741f3aa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{675a525e-af03-4b60-af1e-01620989028d}" locklevel="0" colspan="1" rowspan="1" labelid="{bfdb06d9-d651-4ab5-9738-1297a3767e50}">
+                        <labels>
+                          <label description="Maximum Capacity" languagecode="1033" />
+                          <label description="Contenance maximale" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maximumcapacity" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_maximumcapacity" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{28ba9eca-731a-456c-b5e4-646dd7898e1f}" showlabel="false" labelid="{75fd5575-82f0-4533-83e2-6a31b55ce076}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa9edf90-68d0-4ab6-8146-7a77623179ae}" locklevel="0" colspan="1" rowspan="1" labelid="{67df68f3-9c86-4322-b2e4-822637021450}">
+                        <labels>
+                          <label description="Tare Mass" languagecode="1033" />
+                          <label description="Masse de la tare" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_taremass" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_taremass" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{130beb0f-5378-4309-8600-8a768c87b1c8}" showlabel="false" labelid="{d421503a-42fc-427a-a335-05554d837905}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4abcf5f9-c66f-4350-98c9-f0c30c8156cb}" locklevel="0" colspan="1" rowspan="1" labelid="{f8a2014c-22af-4892-998b-3fac0388d4eb}">
+                        <labels>
+                          <label description="Test Pressure" languagecode="1033" />
+                          <label description="Pression d'épreuve" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_testpressure" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_testpressure" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{3da3c551-ee30-4778-a999-3b9d40d2e4d0}" showlabel="false" labelid="{e89b70d5-d07a-4db2-a907-785514c50155}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f017d841-1ba2-44ea-967f-ee8faba3f2e2}" locklevel="0" colspan="1" rowspan="1" labelid="{f1728eb2-4745-4f53-8acb-8855012f602f}">
+                        <labels>
+                          <label description="Maximum Loading / Discharge Pressure" languagecode="1033" />
+                          <label description="Pression de remplissage/vidage maximale" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maximumloadingdischargepressure" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_maximumloadingdischargepressure" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{330f6572-2bda-4c5a-9030-7c566620f63c}" showlabel="false" labelid="{db83741d-d38f-4ed7-90de-8d7636da0dd6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48a130ce-2f60-45d7-a3cb-9d0c6d28987d}" locklevel="0" colspan="1" rowspan="1" labelid="{ef3d5931-ffca-416e-b47f-df79d456fc92}">
+                        <labels>
+                          <label description="Body Material" languagecode="1033" />
+                          <label description="Matériau de corps" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_bodymaterial" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_bodymaterial" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{c3297f6b-2a5c-42d8-95f1-837927e409bb}" showlabel="false" labelid="{4859ab3c-7dbc-4b1e-bc16-df84735194d6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6172c822-04ec-40de-b3b0-88a4598feb5e}" locklevel="0" colspan="1" rowspan="1" labelid="{0bcfa858-83bd-4def-9baf-d895893672a5}">
+                        <labels>
+                          <label description="Minimum thickness of primary containment" languagecode="1033" />
+                          <label description="Épaisseur minimale du confinement primaire" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_minimumthickness" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_minimumthickness" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{f493638d-be0e-4509-8c56-bd57578a7013}" showlabel="false" labelid="{7f2d0bcb-57c5-4b48-af5d-f58dcc2a2a02}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f5a53be-2f47-413d-bcaf-60cfbd2d63d1}" locklevel="0" colspan="1" rowspan="1" labelid="{51f5d394-13a0-494d-9b78-29e2d8d656db}">
+                        <labels>
+                          <label description="Minimum thickness of secondary containment" languagecode="1033" />
+                          <label description="Épaisseur minimale du confinement secondaire" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_minimumthicknessofsecondarycontainment" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_minimumthicknessofsecondarycontainment" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{b8c5c769-23b5-4d41-a813-b04d3ebfdc8b}" showlabel="false" labelid="{f9a88cde-10ac-4b5d-a39c-f8c28d4239b7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb44a10e-6c87-458b-b177-a5791f11f0fa}" locklevel="0" colspan="1" rowspan="1" labelid="{24af15d0-c09e-4a45-ae4f-f4edad15dc5e}">
+                        <labels>
+                          <label description="Top Thickness" languagecode="1033" />
+                          <label description="Épaisseur du dessus" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_topthickness" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_topthickness" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{8f1a3291-808d-4e2a-a235-74f73cec05ad}" showlabel="false" labelid="{56c91705-033b-462b-a3d4-058f2956ffc7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b90503a-d120-487e-95a1-bc1b08ea0cd2}" locklevel="0" colspan="1" rowspan="1" labelid="{fbad7234-91f1-4ad1-ae8a-f186302cf8dd}">
+                        <labels>
+                          <label description="Side Thickness" languagecode="1033" />
+                          <label description="Épaisseur du corps" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_sidethickness" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_sidethickness" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{a718ad65-22ca-4e31-bb23-68a1aafe5586}" showlabel="false" labelid="{1a8b800d-a2ea-4f89-990f-f6f3540deb93}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cac6053f-0f07-405a-9a87-5dae48390dba}" locklevel="0" colspan="1" rowspan="1" labelid="{9266f73d-235d-4d44-97c6-5bfc987eba74}">
+                        <labels>
+                          <label description="Bottom Thickness" languagecode="1033" />
+                          <label description="Épaisseur du fond" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_bottomthickness" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_bottomthickness" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{f1b57f38-0cf8-4ef1-a69c-8d47d8d784b3}" showlabel="false" labelid="{cdcd3d11-8d8f-4bc6-9a94-ff4a84b6b748}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{141d3fe0-2109-4b31-9795-c3377081c213}" locklevel="0" colspan="1" rowspan="1" labelid="{9fee4f6f-f175-4f67-90a3-1680c91ef0ae}">
+                        <labels>
+                          <label description="Maximum Allowable Working Pressure" languagecode="1033" />
+                          <label description="Pression maximale de service admissible" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maximumallowableworkingpressure" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="fdr_maximumallowableworkingpressure" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{85bd22ba-73ff-48fa-949a-f9bfea522d20}" showlabel="false" labelid="{c591070f-bbd1-4e6b-8766-fd0bc4d687d4}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f68290b9-3b77-4ac5-847a-f60509f309bf}" locklevel="0" colspan="1" rowspan="1" labelid="{8b48fcfd-85a6-41a5-8321-10823764ad40}">
+                        <labels>
+                          <label description="Main Container Drawing" languagecode="1033" />
+                          <label description="dessin du contenant principal" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maincontainerdrawing" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_maincontainerdrawing" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{29914bb3-80f7-4d69-9e27-44229f2d8543}" labelid="{e692730a-a0ec-4d13-9f4f-2a1e0ea5c2fe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47127ecf-dc46-4374-9762-a7ddc7ac99f6}" locklevel="0" colspan="1" rowspan="1" labelid="{c5197dcf-2594-4afd-beb3-6917939a6ca2}">
+                        <labels>
+                          <label description="Main Container Drawing Revision" languagecode="1033" />
+                          <label description="Révision du dessin du contenant principal" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maincontainerdrawingrevision" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="fdr_maincontainerdrawingrevision" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{b8ca0181-c1c5-4a40-9cb6-97a2cb239b47}" labelid="{2e4d9a77-7390-43e7-9e39-1a69541757e8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{99c784f2-ce1b-41ee-b997-fad35443dec9}" locklevel="0" colspan="1" rowspan="1" labelid="{8bced2bf-a482-4e67-93d0-99deb0396ef4}">
+                        <labels>
+                          <label description="Main Container Drawing Date" languagecode="1033" />
+                          <label description="Date du dessin du contenant principal" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maincontainerdrawingdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_maincontainerdrawingdate" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4ee81ad8-4018-4e81-acf1-d2a1c6eb124d}" labelid="{f1528d12-48fb-44bb-ae33-ad608c88177b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37c179c8-dac6-4b09-b77c-c2655ed49c12}" locklevel="0" colspan="1" rowspan="1" labelid="{990d1d8f-32e9-4b9d-8e5f-c9fe47ad9a50}">
+                        <labels>
+                          <label description="Tank Assembly Drawing" languagecode="1033" />
+                          <label description="dessin de l'assemblage" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_tankassemblydrawing" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_tankassemblydrawing" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{f00dd859-77cd-4b28-aebb-66f02b85c1fb}" labelid="{e5816e45-7000-430b-94d2-8d8438c1c39c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0f9298be-74ab-45bf-ae34-a1982145486f}" locklevel="0" colspan="1" rowspan="1" labelid="{7393bb25-12e2-417c-b3d8-64c0060f4da3}">
+                        <labels>
+                          <label description="Tank Assembly Drawing Revision" languagecode="1033" />
+                          <label description="Révision du dessin de l'assemblage" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_tankassemblydrawingrevision" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="fdr_tankassemblydrawingrevision" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{ee3f545e-ebe9-48a2-a555-054b9a9b1edd}" labelid="{789a5150-8219-4ce9-b19c-a2c760554bcc}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06df5416-f966-4820-81d6-94df562baff0}" locklevel="0" colspan="1" rowspan="1" labelid="{c2add2c7-2d06-4bf5-a2df-04cda2560f56}">
+                        <labels>
+                          <label description="Tank Assembly Drawing Date" languagecode="1033" />
+                          <label description="date du dessin de l'assemblage" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_tankassemblydrawingdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_tankassemblydrawingdate" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{0e4b94c5-1853-488d-92ad-1bbff901056a}" labelid="{b663525c-faba-4120-91c2-4998550b1e0c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bb9377c7-76c5-45c8-ad6a-7bd264e4b1c7}" locklevel="0" colspan="1" rowspan="1" labelid="{76f2bbba-5f6a-421b-b7ef-8c656e178511}">
+                        <labels>
+                          <label description="Piping Arrangement Drawing" languagecode="1033" />
+                          <label description="dessin de disposition de la tuyauterie" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_pipingarrangementdrawing" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_pipingarrangementdrawing" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{86b44ff8-aafe-4959-9312-e29f3cf315dd}" labelid="{18624878-44e7-40d7-a0a4-83d597823c9e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{965e9797-99e7-4ab3-b9b0-f75f7e06b8d9}" locklevel="0" colspan="1" rowspan="1" labelid="{3d84fab8-f8ff-473b-ac29-0e7be9526ebe}">
+                        <labels>
+                          <label description="Piping Arrangement Drawing Revision" languagecode="1033" />
+                          <label description="Révision du dessin de disposition de la tuyauterie" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_pipingarrangementdrawingrevision" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="fdr_pipingarrangementdrawingrevision" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{7bd9b2b2-0aa3-4e24-acfd-c8815e9c9a65}" labelid="{987a54cd-6bb4-48d1-acc3-9a999b92f770}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1443eb4-8b9d-40fc-ae25-3f4ac91e9202}" locklevel="0" colspan="1" rowspan="1" labelid="{44d04790-4440-48aa-8173-3d9a55d5f6a9}">
+                        <labels>
+                          <label description="Piping Arrangement Drawing Date" languagecode="1033" />
+                          <label description="date du dessin de disposition de la tuyauterie" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_pipingarrangementdrawingdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_pipingarrangementdrawingdate" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{b2b6fd8d-2ba8-4624-bded-b3f104879462}" labelid="{c1a42e1a-f3f3-4ee6-bcd8-1921bf247385}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14b6a367-65ac-45d9-9f9b-f19ee07cacd5}" locklevel="0" colspan="1" rowspan="1" labelid="{4bcf5b9c-e943-497a-905e-46ad14c2b638}">
+                        <labels>
+                          <label description="Design Review Agency Report Number" languagecode="1033" />
+                          <label description="Numéro du rapport de l'organisme de revue de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_designreviewagencyreportnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_designreviewagencyreportnumber" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{177b696a-bd82-4fa9-95cd-6403ad8ab211}" labelid="{20a006a6-94bb-4786-8faa-c9c040947edf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b621e793-f045-42e3-b450-a76976625071}" locklevel="0" colspan="1" rowspan="1" labelid="{42b81a48-aa88-46ba-8912-78b421a5ce04}">
+                        <labels>
+                          <label description="Design Review Agency Report Date" languagecode="1033" />
+                          <label description="Date du rapport de l'organisme de revue de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_designreviewagencyreportdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_designreviewagencyreportdate" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{d5cacf69-10dd-429d-90e1-1b5867b571cd}" labelid="{6b360a30-ccd7-49f6-9337-074c3285dfca}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="section_TCRN" id="aac7ca5b-f0d5-4c89-b1f8-e8f9138d972b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{558f0794-27e3-42e4-85bb-e62cad567a80}">
+                  <labels>
+                    <label description="TCRN" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9d66bd75-b147-4c3c-ba03-b5d8ce09c68d}" locklevel="0" colspan="1" rowspan="1" labelid="{acb84b60-7cf2-40fd-8378-a61f69163ab4}">
+                        <labels>
+                          <label description="Design Review Agency" languagecode="1033" />
+                          <label description="Organisme de revue de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_designreviewagency" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_designreviewagency" disabled="false" />
+                      </cell>
+                      <cell id="{cac1afaa-05fd-449c-a803-c906ffd40e5c}" locklevel="0" colspan="1" rowspan="1" labelid="{dce12487-d27c-42a5-8463-ae601b8a7a10}">
+                        <labels>
+                          <label description="TCRN" languagecode="1033" />
+                          <label description="NETC" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_tcrn" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_tcrn" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Documents" id="43c6fcaf-dba6-4289-ad6f-f0ebdaa2e7cd" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{81ae6d42-2e3e-49e3-99ea-4d82eb4ea0bc}">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Section_Document" id="3b48b12a-5d0c-4243-be12-e979cef74719" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{531ca8a8-db5a-445a-aa26-fd4f65de992c}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell rowspan="13" id="{b6df965b-2103-4335-a276-d488f8d89ca5}" showlabel="false" colspan="1" labelid="{b95a4650-0fdc-49b4-8f56-f7858722f7ef}">
+                        <labels>
+                          <label description="Attach2Dynamics" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_Attach2Dynamics" classid="{9FDF5F91-88B1-47F4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>ikl_/Attach2Dynamics/Library/index.html</Url>
+                            <PassParameters>true</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <WebResourceId>{af16c0de-3904-e911-80d1-00155d060713}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false" active="false" />
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_RecordLog" id="16dff7d9-1a2b-40c7-8167-cc4e734c0319" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{335df904-2e82-413d-bc57-4bff77e9e004}">
+          <labels>
+            <label description="Record Log" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_RecordLog_section" id="d74fc65a-3107-4ce0-b340-7b9c21ef2260" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{e6cd214f-569c-40c4-b37f-5afed820619b}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{761496d9-d293-4aa8-ac26-c3d79b321b14}" locklevel="0" colspan="1" rowspan="1" labelid="{758ef1c2-6e42-4b06-8d49-f86eb16a1f98}">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                          <label description="Créé par" languagecode="1036" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                      <cell id="{b48931e3-8c41-416b-9d15-626c59010cb2}" locklevel="0" colspan="1" rowspan="1" labelid="{87769fa6-921f-4ded-a3b5-5a6fba1c3000}">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Créé le" languagecode="1036" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b793c23e-6dff-425d-9483-7450a0d46338}" locklevel="0" colspan="1" rowspan="1" labelid="{294c0fb2-f7a4-43d0-80ea-ecd67ebb0072}">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                          <label description="Modifié par" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell id="{d58ba4f5-2a43-4308-91c9-b1b495bbd49a}" locklevel="0" colspan="1" rowspan="1" labelid="{b49282bb-4e53-46db-befe-8d206152ec87}">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                          <label description="Modifié le" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b8f9f126-e734-40f1-8cce-673b2c95a351}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fc93bddc-3b51-4a08-ae7e-b42cfa93426b}" showlabel="false" labelid="{f69b6090-eec8-4a54-9156-e9351cdd2213}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fa33a326-210a-4861-b4aa-be5d3d1d724f}" showlabel="false" labelid="{dc2adcd0-aa5b-41c5-ac43-b35224c31a71}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8a8e26d6-3b4f-4c71-9ecd-c08f6704eb19}" showlabel="false" labelid="{b14c907d-9edc-4120-92a6-92da9287f19c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{cfb4ca1e-bb91-4316-9df9-6cb3e09bb2ba}" showlabel="false" labelid="{5a7c6277-6aca-401f-a565-494f48a9309f}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{abaa6b35-7b58-8461-a6ad-174ceb6062cd}" showlabel="false" labelid="{01737789-57f1-4f58-bbc1-494f4d5ae3b8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{797eaa45-ab79-4c9c-8c08-e1074cd8307b}" locklevel="0" colspan="1" rowspan="1" labelid="{c857f19e-ac5c-4da4-9d5a-0ef6cf23d798}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{c6c2b081-7835-4ef2-8b35-f248017ea3b8}" locklevel="0" colspan="1" rowspan="1" labelid="{83079489-9000-4689-a479-836ae8e901bc}">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{bd8bbea4-7357-47dc-8311-8fa1ac35fbf8}" locklevel="0" colspan="1" rowspan="1" labelid="{d2d8dda7-53cc-4768-b7c4-39d35b2ad93c}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f2d49ebe-1ea4-48fd-9dab-f8f2c3db903c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3bc8acf0-1381-44d0-a64b-20e5d57f65a4}" showlabel="false" labelid="{cf2f9e16-d807-461d-948d-6f882eb92d98}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c4e136f0-5115-4641-8769-7647deb7ac30}" showlabel="false" labelid="{f69f77a2-7e06-4232-9837-63e2e584f5b0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{121bcbad-19f6-4c23-b041-6e69ce12edbd}" showlabel="false" labelid="{99408f05-e88b-409e-aa83-b7d662419bed}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{503fc3ea-91d8-4eed-8fb5-9208f9ff0c9c}" />
+        <Library name="ovs_design_main.js" libraryUniqueId="{9a79f2f3-563f-45ec-9e30-f9f8da156e29}" />
+      </formLibraries>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534F-A13C-4545-8C9C-762C77C766E7}" />
+        <Role Id="{CA2BFA94-9106-4895-8597-772C87E06A60}" />
+        <Role Id="{9987184C-B38F-4ABB-B80D-7CE5AE5F00FD}" />
+        <Role Id="{A8803B62-5FB9-4917-B1B4-8030EC2AEE5C}" />
+        <Role Id="{B0A7F14C-6015-4C66-B246-9BC6163071BF}" />
+        <Role Id="{4E56F67C-CDFC-4CAA-A053-A606AC80419B}" />
+        <Role Id="{7B20CB4C-A59F-43BD-92EA-BE907322D4B7}" />
+        <Role Id="{93642FD5-C88E-4F57-B796-DE105C687A36}" />
+      </DisplayConditions>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Design_main.OnLoad" libraryName="ovs_design_main.js" handlerUniqueId="{66073843-2dd8-44a4-abf4-716496068aa5}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FDR : Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

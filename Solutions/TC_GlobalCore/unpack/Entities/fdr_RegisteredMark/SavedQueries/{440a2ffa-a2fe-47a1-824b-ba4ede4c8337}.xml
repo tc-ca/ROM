@@ -10,6 +10,8 @@
     <layoutxml>
       <grid name="fdr_registeredmarks" jump="fdr_name" select="1" icon="1" preview="1">
         <row name="fdr_registeredmark" id="fdr_registeredmarkid">
+          <cell name="ovs_registration_id" width="109" />
+          <cell name="fdr_name" width="100" />
           <cell name="fdr_marktype" width="100" />
           <cell name="fdr_marktext" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="createdon" width="125" />
@@ -28,6 +30,8 @@
           <attribute name="fdr_marktype" />
           <attribute name="fdr_marktext" />
           <attribute name="fdr_registeredmarkid" />
+          <attribute name="fdr_name" />
+          <attribute name="ovs_registration_id" />
         </entity>
       </fetch>
     </fetchxml>

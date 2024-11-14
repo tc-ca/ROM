@@ -10,7 +10,8 @@
     <layoutxml>
       <grid name="resultset" jump="fdr_name" select="1" icon="1" preview="1">
         <row name="result" id="fdr_registeredmarkid">
-          <cell name="fdr_servicerequest" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ovs_registration_id" width="109" />
+          <cell name="fdr_name" width="100" />
           <cell name="fdr_marktype" width="100" />
           <cell name="fdr_marktext" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="statecode" width="100" />
@@ -24,13 +25,13 @@
       <fetch version="1.0" mapping="logical">
         <entity name="fdr_registeredmark">
           <attribute name="createdon" />
-          <order attribute="fdr_servicerequest" descending="false" />
           <attribute name="statecode" />
           <attribute name="modifiedon" />
           <attribute name="fdr_marktype" />
           <attribute name="fdr_marktext" />
-          <attribute name="fdr_servicerequest" />
           <attribute name="fdr_registeredmarkid" />
+          <attribute name="ovs_registration_id" />
+          <attribute name="fdr_name" />
         </entity>
       </fetch>
     </fetchxml>

@@ -1,14 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CustomActions />
+  <CustomActions>
+    <CustomAction Id="ovs.ovs_incident.Button.Form.CalculateScope.CustomAction" Location="Mscrm.Form.ovs_incident.MainTab.Save.Controls._children" Sequence="38">
+      <CommandUIDefinition>
+        <Button Command="ovs.ovs_incident.Command.Form.CalculateScope" Id="ovs.ovs_incident.Button.Form.CalculateScope" LabelText="$LocLabels:ovs.ovs_incident.Button.Form.CalculateScope.LabelText" Sequence="38" TemplateAlias="o1" ToolTipDescription="$LocLabels:ovs.ovs_incident.Button.Form.CalculateScope.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ovs.ovs_incident.Button.HomeGrid.CalculateScope.CustomAction" Location="Mscrm.HomepageGrid.ovs_incident.MainTab.Management.Controls._children" Sequence="6">
+      <CommandUIDefinition>
+        <Button Command="ovs.ovs_incident.Command.HomeGrid.CalculateScope" Id="ovs.ovs_incident.Button.HomeGrid.CalculateScope" LabelText="$LocLabels:ovs.ovs_incident.Button.HomeGrid.CalculateScope.LabelText" Sequence="6" TemplateAlias="o1" ToolTipDescription="$LocLabels:ovs.ovs_incident.Button.HomeGrid.CalculateScope.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>
-  <CommandDefinitions />
+  <CommandDefinitions>
+    <CommandDefinition Id="ovs.ovs_incident.Command.Form.CalculateScope">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_incident.EnableRule.ExistingForm" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Incident_Ribbon.calculateScope_IncidentForm" Library="$webresource:ovs_incident_ribbon.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.ovs_incident.Command.HomeGrid.CalculateScope">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_incident.EnableRule.SingleSelection" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Incident_Ribbon.calculateScope_IncidentGrid" Library="$webresource:ovs_incident_ribbon.js">
+          <CrmParameter Value="FirstSelectedItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
   <RuleDefinitions>
     <TabDisplayRules />
     <DisplayRules />
-    <EnableRules />
+    <EnableRules>
+      <EnableRule Id="ovs.ovs_incident.EnableRule.ExistingForm">
+        <FormStateRule State="Existing" />
+      </EnableRule>
+      <EnableRule Id="ovs.ovs_incident.EnableRule.SingleSelection">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Maximum="1" />
+      </EnableRule>
+    </EnableRules>
   </RuleDefinitions>
-  <LocLabels />
+  <LocLabels>
+    <LocLabel Id="ovs.ovs_incident.Button.Form.CalculateScope.LabelText">
+      <Titles>
+        <Title description="Calculate Scope" languagecode="1033" />
+        <Title description="Calculate Scope" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident.Button.Form.CalculateScope.ToolTipDescription">
+      <Titles>
+        <Title description="Calculates scope of the Incident" languagecode="1033" />
+        <Title description="Calculates scope of the Incident" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident.Button.HomeGrid.CalculateScope.LabelText">
+      <Titles>
+        <Title description="Calculate Scope" languagecode="1033" />
+        <Title description="Calculate Scope" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident.Button.HomeGrid.CalculateScope.ToolTipDescription">
+      <Titles>
+        <Title description="Calculates scope of selected Incident" languagecode="1033" />
+        <Title description="Calculates scope of selected Incident" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
 </RibbonDiffXml>

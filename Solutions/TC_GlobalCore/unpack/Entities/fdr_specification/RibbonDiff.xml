@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CustomActions>
-    <CustomAction Id="fdr.fdr_specification.Button.AddExistingAssoc.CustomAction" Location="Mscrm.SubGrid.fdr_specification.MainTab.Management.Controls._children" Sequence="45">
+    <CustomAction Id="ovs.fdr.fdr_specification.Button.AddExistingAssoc.CustomAction" Location="Mscrm.SubGrid.fdr_specification.MainTab.Management.Controls._children" Sequence="45">
       <CommandUIDefinition>
         <Button Alt="$LocLabels:fdr.fdr_specification.Button.AddExistingAssoc.Alt" Command="fdr.fdr_specification.Custom_AddExistingRecordFromSubGridAssociated" Id="fdr.fdr_specification.Button.AddExistingAssoc" Image32by32="/_imgs/ribbon/AddExistingStandard_32.png" Image16by16="/_imgs/ribbon/AddExistingStandard_16.png" LabelText="$LocLabels:fdr.fdr_specification.Button.AddExistingAssoc.LabelText" Sequence="45" TemplateAlias="o1" ToolTipTitle="$LocLabels:fdr.fdr_specification.Button.AddExistingAssoc.ToolTipTitle" ToolTipDescription="$LocLabels:fdr.fdr_specification.Button.AddExistingAssoc.ToolTipDescription" ModernImage="AddExisting" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ovs.fdr_specification.functions.AddExistingAssoc.CustomAction" Location="Mscrm.SubGrid.fdr_specification.MainTab.Management.Controls._children" Sequence="48">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.fdr_specification.functions.AddExistingAssoc.Alt" Command="ovs.fdr_specification.FilteredAddExisting.Command" Id="ovs.fdr_specification.functions.AddExistingAssoc" Image32by32="/_imgs/ribbon/AddExistingStandard_32.png" Image16by16="/_imgs/ribbon/AddExistingStandard_16.png" LabelText="$LocLabels:ovs.fdr_specification.functions.AddExistingAssoc.LabelText" Sequence="48" TemplateAlias="o1" ToolTipTitle="$LocLabels:ovs.fdr_specification.functions.AddExistingAssoc.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.fdr_specification.functions.AddExistingAssoc.ToolTipDescription" ModernImage="AddExisting" />
       </CommandUIDefinition>
     </CustomAction>
   </CustomActions>
@@ -49,6 +54,7 @@
         <DisplayRule Id="Mscrm.AppendSelected" />
         <DisplayRule Id="Mscrm.AppendToSelected" />
         <DisplayRule Id="fdr.fdr_specification.HideAddExisting_4_ServiceRequestFunction" />
+        <DisplayRule Id="ovs.fdr_specification.HideAddExisting.For_ovs_registration_function" />
       </DisplayRules>
       <Actions>
         <JavaScriptFunction FunctionName="XrmCore.Commands.AddFromSubGrid.addExistingFromSubGridAssociated" Library="$webresource:Main_system_library.js">
@@ -57,10 +63,42 @@
         </JavaScriptFunction>
       </Actions>
     </CommandDefinition>
+    <CommandDefinition Id="ovs.fdr_specification.FilteredAddExisting.Command">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="fdr.fdr_specification.EnableRule.HideAddExisting_4_ServiceRequestFunction" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.AddExisting" />
+        <DisplayRule Id="Mscrm.ShowForManyToManyGrids" />
+        <DisplayRule Id="Mscrm.AppendToPrimary" />
+        <DisplayRule Id="Mscrm.AppendPrimary" />
+        <DisplayRule Id="Mscrm.AppendSelected" />
+        <DisplayRule Id="Mscrm.AppendToSelected" />
+        <DisplayRule Id="fdr.fdr_specification.HideAddExisting_4_ServiceRequestFunction" />
+        <DisplayRule Id="ovs.fdr_specification.Hide.FilteredAddExisting" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Specs2RegFun_Ribbon.filter_AddExisting" Library="$webresource:ovs_Specs2Reg_Functions.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
   </CommandDefinitions>
   <RuleDefinitions>
     <TabDisplayRules />
-    <DisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="ovs.fdr_specification.Hide.FilteredAddExisting">
+        <EntityRule EntityName="ovs_registration_function" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="false" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.fdr_specification.HideAddExisting.For_ovs_registration_function">
+        <EntityRule EntityName="ovs_registration_function" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
     <EnableRules>
       <EnableRule Id="fdr.fdr_specification.EnableRule.HideAddExisting_4_ServiceRequestFunction">
         <EntityRule EntityName="fdr_servicerequestfunction" AppliesTo="PrimaryEntity" Default="false" InvertResult="true" />
@@ -92,6 +130,26 @@
       <Titles>
         <Title description="Add Existing {0}" languagecode="1033" />
         <Title description="Ajout d'exigences {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.fdr_specification.functions.AddExistingAssoc.Alt">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.fdr_specification.functions.AddExistingAssoc.LabelText">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.fdr_specification.functions.AddExistingAssoc.ToolTipDescription">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.fdr_specification.functions.AddExistingAssoc.ToolTipTitle">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
       </Titles>
     </LocLabel>
   </LocLabels>

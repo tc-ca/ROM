@@ -8,7 +8,7 @@ var TDG_Incident_MainForm = (function (window, document) {
     var facilityTypeExcluded = new Array(1, 12, 15, 19, 22);
 
     var PostalAdressArray = new Array("ovs_street1_txt", "ovs_street2_txt", "ovs_street3_txt", "ovs_city_txt", "ovs_state_province_txt", "ovs_zip_postalcode_txt", "ovs_country_txt");
-    var LongLatArray = new Array("ovs_latitude_num", "ovs_longitude_num");
+    var LongLatArray = new Array("ovs_latitude_nbr", "ovs_longitude_nbr");
     var LLD_Array = new Array("ovs_quarter_lsd_cd", "ovs_range_cd", "ovs_section_cd", "ovs_township_cd");
 
 
@@ -28,6 +28,19 @@ var TDG_Incident_MainForm = (function (window, document) {
         glHelper.filterOptionSet(formContext, "ovs_facility_type_cd", facilityTypeExcluded, false);
     }
 
+    function seriousJeopardyBehavior(formContext) {
+
+        Xrm.WebApi.online.retrieveMultipleRecords("ovs_incident_report", "?$select=ovs_incident_reportid,ovs_mode_cd,ovs_primary_report_ind&$filter=ovs_mode_cd eq 4 and  _ovs_incident_id_value eq " + formContext.data.entity.getId().replace('{', '').replace('}', '') + " and  ovs_primary_report_ind eq true").then(
+            function success(results) {
+                glHelper.SetDisabled(formContext, "ovs_serious_jeopardy_ind", !(results.entities.length > 0));
+            },
+            function (error) {
+                glHelper.SetDisabled(formContext, "ovs_serious_jeopardy_ind", true);
+                Xrm.Navigation.openErrorDialog({ message: "Something went wrong checking Seriouse Jeopardy. Error: " + error.message });
+            }
+        );
+    }
+
     //********************private methods end***************
 
     //********************public methods***************
@@ -39,11 +52,6 @@ var TDG_Incident_MainForm = (function (window, document) {
             formType = glHelper.GetFormType(formContext);
 
             filterFacilityType(formContext);
-
-            var source = formContext.getAttribute("ovs_source_cds");
-            source.removeOnChange(TDG_Incident_MainForm.Source_OnChange);
-            source.addOnChange(TDG_Incident_MainForm.Source_OnChange);
-            source.fireOnChange();
 
             var phImpact = formContext.getAttribute("ovs_physical_impact_cds");
             phImpact.removeOnChange(TDG_Incident_MainForm.PhisicalImpact_OnChange);
@@ -61,7 +69,8 @@ var TDG_Incident_MainForm = (function (window, document) {
             var addressDetementFlag = formContext.getAttribute("ovs_address_not_determent_ind");
             addressDetementFlag.removeOnChange(TDG_Incident_MainForm.AddressDeterment_OnChange);
             addressDetementFlag.addOnChange(TDG_Incident_MainForm.AddressDeterment_OnChange);
-            addressDetementFlag.fireOnChange();            
+            addressDetementFlag.fireOnChange();
+
 
             //initiate Copy Address control
             var wrControl = formContext.getControl("WebResource_CopyButton");
@@ -73,14 +82,16 @@ var TDG_Incident_MainForm = (function (window, document) {
             }
             else {
 
+                seriousJeopardyBehavior(formContext);
+
+                var seriouseJeopardy = formContext.getAttribute("ovs_serious_jeopardy_ind");
+                seriouseJeopardy.removeOnChange(TDG_Incident_MainForm.Jeopardy_OnChange);
+                seriouseJeopardy.addOnChange(TDG_Incident_MainForm.Jeopardy_OnChange);
+
+                var exceptionExemtion = formContext.getAttribute("ovs_exemption_ind");
+                exceptionExemtion.removeOnChange(TDG_Incident_MainForm.Exemtion_OnChange);
+                exceptionExemtion.addOnChange(TDG_Incident_MainForm.Exemtion_OnChange);
             }
-        },
-
-        Source_OnChange: function (executionContext) {
-
-            var formContext = executionContext.getFormContext();
-
-            glHelper.openOtherFromChoice_s(formContext, "ovs_source_cds", "23", "ovs_other_source_txt");
         },
 
         PhisicalImpact_OnChange: function (executionContext) {
@@ -174,6 +185,18 @@ var TDG_Incident_MainForm = (function (window, document) {
                 addressType.fireOnChange();
             }
 
+        },
+
+        Jeopardy_OnChange: function (executionContext) {
+
+            var formContext = executionContext.getFormContext();
+            glHelper.DisplayFormNotificationModern(formContext, "Change of 'Serious Jeopardy' may affect 'Regulatory Scope' calculation. Please, recalculate the scope.", "WARNING", true, 50000);
+        },
+
+        Exemtion_OnChange: function (executionContext) {
+
+            var formContext = executionContext.getFormContext();
+            glHelper.DisplayFormNotificationModern(formContext, "Change of 'Exception/Exemption' may affect 'Reportable' status  calculation. Please, recalculate the scope.", "WARNING", true, 50000);
         },
 
     };

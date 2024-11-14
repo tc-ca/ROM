@@ -525,6 +525,7 @@
     <RolePrivilege name="prvReadovs_SiteType" level="Global" />
     <RolePrivilege name="prvReadovs_submission" level="Global" />
     <RolePrivilege name="prvReadovs_SupportRequest" level="Global" />
+    <RolePrivilege name="prvReadovs_SupportRequestType" level="Global" />
     <RolePrivilege name="prvReadovs_tdginspectionreport" level="Local" />
     <RolePrivilege name="prvReadovs_tyohsequipmenttype" level="Global" />
     <RolePrivilege name="prvReadovs_tyohsnote" level="Global" />

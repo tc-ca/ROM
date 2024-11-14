@@ -167,7 +167,7 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <Format></Format>
+          <Format>none</Format>
           <MinValue>-2147483648</MinValue>
           <MaxValue>2147483647</MaxValue>
           <displaynames>
@@ -379,9 +379,11 @@
           <OptionSetName>ovs_injurycause</OptionSetName>
           <displaynames>
             <displayname description="Cause" languagecode="1033" />
+            <displayname description="Cause" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_death_num">
@@ -419,10 +421,53 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="Death" languagecode="1033" />
-            <displayname description="Mort" languagecode="1036" />
+            <displayname description="Décès" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_dgais_legacy_seqno_s">
+          <Type>int</Type>
+          <Name>ovs_dgais_legacy_seqno_s</Name>
+          <LogicalName>ovs_dgais_legacy_seqno_s</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="DGAIS Legacy Incident Sequence Number" languagecode="1033" />
+            <displayname description="DGAIS Legacy Incident Sequence Number" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Maps to the SEQNO_S column in the legacy incident table in DGAIS " languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_incident_injuryId">
@@ -496,9 +541,11 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Incident Report" languagecode="1033" />
+            <displayname description="Incident Report" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_major_num">
@@ -536,9 +583,11 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="Major" languagecode="1033" />
+            <displayname description="Grave" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_minor_num">
@@ -580,6 +629,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_moderate_num">
@@ -617,10 +667,11 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="Moderate" languagecode="1033" />
-            <displayname description="Modérée" languagecode="1036" />
+            <displayname description="Modérée(s)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_Name">
@@ -662,6 +713,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="OwnerId">

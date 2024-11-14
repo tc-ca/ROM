@@ -51,6 +51,8 @@
     <RolePrivilege name="prvAppendMailbox" level="Basic" />
     <RolePrivilege name="prvAppendMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvAppendMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvAppendmsdyn_agentgroup" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_agentgroupmembership" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_conversationsummaryinteraction" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_copilotinteraction" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_copilottranscriptdata" level="Global" />
@@ -60,7 +62,19 @@
     <RolePrivilege name="prvAppendmsdyn_federatedarticle" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_federatedarticleincident" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_FunctionalLocation" level="Global" />
-    <RolePrivilege name="prvAppendmsdyn_intententity" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_Intent" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentattribute" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentattribute_entity" level="Basic" />
+    <RolePrivilege name="prvAppendmsdyn_intentattributeset" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentconfig" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intententity" level="Basic" />
+    <RolePrivilege name="prvAppendmsdyn_intentfamily" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentfeature_configuration" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentgroupcondition" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentharvesting_batchjobstatus" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentharvesting_provisioning_status" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentsolution_mappingconfiguration" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_intentsolutionmap" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_knowledgearticleimage" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_macrosession" level="Global" />
@@ -150,6 +164,8 @@
     <RolePrivilege name="prvAppendToLeadToOpportunitySalesProcess" level="Global" />
     <RolePrivilege name="prvAppendToList" level="Deep" />
     <RolePrivilege name="prvAppendToMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvAppendTomsdyn_agentgroup" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_agentgroupmembership" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_assetcategorytemplateassociation" level="Deep" />
     <RolePrivilege name="prvAppendTomsdyn_assettemplateassociation" level="Deep" />
     <RolePrivilege name="prvAppendTomsdyn_casefollowupandclosureconfiguration" level="Global" />
@@ -160,7 +176,18 @@
     <RolePrivilege name="prvAppendTomsdyn_federatedarticle" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_federatedarticleincident" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_FunctionalLocation" level="Deep" />
+    <RolePrivilege name="prvAppendTomsdyn_Intent" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentattribute" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentattributeset" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentconfig" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intententity" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_intentfamily" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentfeature_configuration" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentgroupcondition" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentharvesting_batchjobstatus" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentharvesting_provisioning_status" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentsolution_mappingconfiguration" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_intentsolutionmap" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_kmfederatedsearchconfig" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_knowledgearticleimage" level="Global" />
@@ -253,9 +280,22 @@
     <RolePrivilege name="prvAssignLead" level="Basic" />
     <RolePrivilege name="prvAssignList" level="Basic" />
     <RolePrivilege name="prvAssignMailMergeTemplate" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_agentgroup" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_agentgroupmembership" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_customerasset" level="Global" />
     <RolePrivilege name="prvAssignmsdyn_entityattachment" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_FunctionalLocation" level="Deep" />
+    <RolePrivilege name="prvAssignmsdyn_Intent" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentattribute" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentattributeset" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentconfig" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentfamily" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentfeature_configuration" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentgroupcondition" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentharvesting_batchjobstatus" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentharvesting_provisioning_status" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentsolution_mappingconfiguration" level="Basic" />
+    <RolePrivilege name="prvAssignmsdyn_intentsolutionmap" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_kbattachment" level="Deep" />
     <RolePrivilege name="prvAssignmsdyn_knowledgearticleimage" level="Deep" />
     <RolePrivilege name="prvAssignmsdyn_timetracker" level="Global" />
@@ -336,7 +376,8 @@
     <RolePrivilege name="prvCreatemsdyn_federatedarticle" level="Deep" />
     <RolePrivilege name="prvCreatemsdyn_federatedarticleincident" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_FunctionalLocation" level="Deep" />
-    <RolePrivilege name="prvCreatemsdyn_intententity" level="Global" />
+    <RolePrivilege name="prvCreatemsdyn_intentattribute_entity" level="Basic" />
+    <RolePrivilege name="prvCreatemsdyn_intententity" level="Basic" />
     <RolePrivilege name="prvCreatemsdyn_kalanguagesetting" level="Basic" />
     <RolePrivilege name="prvCreatemsdyn_kbattachment" level="Deep" />
     <RolePrivilege name="prvCreatemsdyn_knowledgearticleimage" level="Deep" />
@@ -520,7 +561,6 @@
     <RolePrivilege name="prvReadEntityKey" level="Global" />
     <RolePrivilege name="prvReadEntityMap" level="Global" />
     <RolePrivilege name="prvReadEnvironmentVariableDefinition" level="Global" />
-    <RolePrivilege name="prvReadEnvironmentVariableValue" level="Global" />
     <RolePrivilege name="prvReadEquipment" level="Global" />
     <RolePrivilege name="prvReadExchangeSyncIdMapping" level="Basic" />
     <RolePrivilege name="prvReadExpiredProcess" level="Global" />
@@ -549,6 +589,8 @@
     <RolePrivilege name="prvReadMetric" level="Global" />
     <RolePrivilege name="prvReadMobileOfflineProfile" level="Global" />
     <RolePrivilege name="prvReadmsdyn_adaptivecardconfiguration" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_agentgroup" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_agentgroupmembership" level="Global" />
     <RolePrivilege name="prvReadmsdyn_AIModel" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_AITemplate" level="Global" />
     <RolePrivilege name="prvReadmsdyn_appconfiguration" level="Global" />
@@ -581,12 +623,15 @@
     <RolePrivilege name="prvReadmsdyn_intentattribute" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentattribute_entity" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentattributeset" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_intentconfig" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intententity" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentfamily" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentfeature_configuration" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_intentgroupcondition" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentharvesting_batchjobstatus" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentharvesting_provisioning_status" level="Global" />
     <RolePrivilege name="prvReadmsdyn_intentsolution_mappingconfiguration" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_intentsolutionmap" level="Global" />
     <RolePrivilege name="prvReadmsdyn_kalanguagesetting" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvReadmsdyn_kbenrichment" level="Global" />
@@ -750,9 +795,22 @@
     <RolePrivilege name="prvShareLead" level="Global" />
     <RolePrivilege name="prvShareList" level="Deep" />
     <RolePrivilege name="prvShareMailMergeTemplate" level="Global" />
+    <RolePrivilege name="prvSharemsdyn_agentgroup" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_agentgroupmembership" level="Basic" />
     <RolePrivilege name="prvSharemsdyn_customerasset" level="Global" />
     <RolePrivilege name="prvSharemsdyn_entityattachment" level="Global" />
     <RolePrivilege name="prvSharemsdyn_FunctionalLocation" level="Deep" />
+    <RolePrivilege name="prvSharemsdyn_Intent" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentattribute" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentattributeset" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentconfig" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentfamily" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentfeature_configuration" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentgroupcondition" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentharvesting_batchjobstatus" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentharvesting_provisioning_status" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentsolution_mappingconfiguration" level="Basic" />
+    <RolePrivilege name="prvSharemsdyn_intentsolutionmap" level="Basic" />
     <RolePrivilege name="prvSharemsdyn_kbattachment" level="Global" />
     <RolePrivilege name="prvSharemsdyn_knowledgearticleimage" level="Global" />
     <RolePrivilege name="prvSharemsdyn_swarm" level="Global" />
@@ -839,6 +897,8 @@
     <RolePrivilege name="prvWritemsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvWritemsdyn_federatedarticleincident" level="Global" />
     <RolePrivilege name="prvWritemsdyn_FunctionalLocation" level="Deep" />
+    <RolePrivilege name="prvWritemsdyn_intentattribute_entity" level="Basic" />
+    <RolePrivilege name="prvWritemsdyn_intententity" level="Basic" />
     <RolePrivilege name="prvWritemsdyn_kalanguagesetting" level="Basic" />
     <RolePrivilege name="prvWritemsdyn_kbattachment" level="Deep" />
     <RolePrivilege name="prvWritemsdyn_kmpersonalizationsetting" level="Global" />

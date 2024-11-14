@@ -20,14 +20,19 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{77f5ab47-2d58-448b-8dae-af4baf42ea11}" locklevel="0" colspan="1" rowspan="1" labelid="{fd1c4f48-62d0-429e-ae69-2098310472bd}">
+                      <cell id="{77f5ab47-2d58-448b-8dae-af4baf42ea11}" locklevel="0" colspan="1" rowspan="1" labelid="{fd1c4f48-62d0-429e-ae69-2098310472bd}" showlabel="true">
                         <labels>
                           <label description="Manufacturer" languagecode="1033" />
                         </labels>
-                        <control id="ovs_manufacturer_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_manufacturer_id" disabled="false">
+                        <control id="ovs_manufacturer_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_manufacturer_id" disabled="false" uniqueid="{da547a79-a907-316c-2575-93e5bc5e640e}">
                           <parameters>
-                            <DefaultViewId>{A5A9B46C-475D-EE11-8DF0-0022483E130E}</DefaultViewId>
-                            <AvailableViewIds>{9B760BD0-0437-EE11-BDF4-0022483D0343},{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{71537AB2-06CD-EE11-9079-0022483CCEB8},{61273827-328E-E011-95AE-00155D9CFA03},{61273827-328E-E011-95AE-00155D9CFA02},{15C63745-0A6E-4322-8416-A62C84D90279},{CFBCD7AF-AEE5-4E45-8ECC-C040D4020581},{49FB9771-09E1-4E70-B193-198752493577},{00000000-0000-0000-00AA-000010001002},{82CC4863-AA98-EB11-B1AC-000D3AE93A4F},{65FFAF9A-E8C5-432D-860B-32F841B00D87},{2225CDFB-321F-EE11-9966-0022483D0343},{E7292E30-4FD2-EE11-904D-0022483CC3B7},{74BBEEBE-F9FE-ED11-8F6D-0022483E130E},{631F1F30-1BFF-ED11-8F6D-0022483D0343},{A0BE1CB3-8525-EC11-B6E6-0022483CB5CD},{6E812D65-8725-EC11-B6E6-0022483CB5CD},{27025EBD-1817-ED11-B83F-000D3A84CFDD},{28D5AB71-642A-EE11-BDF4-0022483D0C87},{153AA606-2043-ED11-BBA3-0022483D0343},{40662D0E-D694-EC11-B3FE-000D3A0C829E},{84F03662-9E28-EC11-B6E6-0022483CB5CD},{EFE63E51-3040-ED11-BBA2-0022483D0343},{C8DB5060-4A4D-EC11-8F8E-000D3AE9A753},{D540E97A-C892-EC11-B3FE-000D3A0C187C},{048F4D4F-C892-EC11-B3FE-000D3A0C187C},{3FFFABCB-74C0-EC11-983E-0022483DB9D8},{E2298C2D-12C1-EE11-9078-0022483CCEB8},{8965DC8D-460A-EB11-A813-000D3AF3A7A7},{37150390-5002-EF11-9F89-002248B0D3D6},{7DE498C2-508F-49A4-B2E8-D550D5B1B9EE},{E3847669-10FF-ED11-8F6D-0022483D0343},{ABA6669F-1CFF-ED11-8F6D-0022483D0343},{00000000-0000-0000-00AA-000010001031},{92F36027-A3E0-EE11-904C-000D3AE9455D},{00000000-0000-0000-00AA-000010001001},{4BFEA08C-9A4D-E611-80FC-0024E84720C6},{D234426E-1F37-4944-9255-50E19B541C4C},{AA2BA086-5AD4-EB11-BACC-000D3AF3999C},{2253BE98-5AD4-EB11-BACC-000D3AF38CD4},{FDBC939A-2403-EB11-A813-000D3AF3AC0D},{80D24AA0-2B6C-ED11-81AC-0022483D0343},{D15E48F6-E8FE-E811-8165-000D3AF92C6E},{0F928982-20D3-E811-815B-000D3AFD1036},{7B62C6EE-865B-EB11-A812-000D3A84DB40},{FF211CB9-117A-EC11-8D20-000D3AFF1221},{7C363E5F-5BD4-EB11-BACC-000D3AF3999C},{E7BA8BD8-440A-EB11-A813-000D3AF3A7A7},{906591F6-654C-EC11-8F8E-000D3AE8E96E},{A5A9B46C-475D-EE11-8DF0-0022483E130E},{7FA4B59F-485D-EE11-8DF0-0022483D0C87},{57962920-5929-EB11-A813-000D3AF3A7A7}</AvailableViewIds>
+                            <DefaultViewId>{54C1C797-F6A0-EF11-A72D-000D3AE8CE17}</DefaultViewId>
+                            <AvailableViewIds>{54C1C797-F6A0-EF11-A72D-000D3AE8CE17}</AvailableViewIds>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <AllowFilterOff>false</AllowFilterOff>
                           </parameters>
                         </control>
                       </cell>
@@ -95,6 +100,7 @@
           </Handlers>
         </event>
       </events>
+      <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />

@@ -13,8 +13,10 @@
     <AppModuleComponent type="59" id="{88de94cc-8b5e-df11-ae90-00155d2e3002}" />
     <AppModuleComponent type="1" schemaName="ovs_incident_report" />
     <AppModuleComponent type="1" schemaName="ovs_organization_contact" />
+    <AppModuleComponent type="1" schemaName="ovs_moc_dangerousgood" />
     <AppModuleComponent type="1" schemaName="ovs_incident" />
     <AppModuleComponent type="1" schemaName="ovs_invitation" />
+    <AppModuleComponent type="1" schemaName="ovs_moc" />
     <AppModuleComponent type="1" schemaName="ovs_supportrequest" />
     <AppModuleComponent type="1" schemaName="adx_invitation" />
     <AppModuleComponent type="1" schemaName="contact" />

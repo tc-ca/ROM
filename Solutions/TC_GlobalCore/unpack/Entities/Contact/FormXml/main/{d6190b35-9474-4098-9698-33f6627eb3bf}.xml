@@ -14,7 +14,7 @@
     </LocalizedNames>
     <Descriptions>
       <Description description="This form is used by the portal to invite other's to join the portal" languagecode="1033" />
-      <Description description="Ce formulaire est utilisé par le portail pour inviter d’autres personnes à rejoindre celui-ci" languagecode="1036" />
+      <Description description="Ce formulaire est utilisé par le portail pour inviter d'autres personnes à rejoindre celui-ci" languagecode="1036" />
     </Descriptions>
   </systemform>
 </forms>

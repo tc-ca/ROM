@@ -9,15 +9,12 @@
       <tabs>
         <tab verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" labelid="{c6194e8f-89f0-4a30-ba4f-8b426aa0efe5}" ordinalvalue="0">
           <labels>
-            <label description="Généralités" languagecode="1036" solutionaction="Added" />
+            <label description="Généralités" languagecode="1036" solutionaction="Modified" />
           </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section showlabel="false" showbar="false" id="{90b0776f-2977-4695-9cd4-73bb6c820f88}" IsUserDefined="0" labelid="{e1557df9-40e7-43f5-a558-500684ae6be4}" ordinalvalue="0">
-                  <labels>
-                    <label description="Nom" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{4fde05d9-89b1-4acf-a98f-13159f1bdcc8}" labelid="{92ff8449-ea96-4989-92cd-d44658db945a}" ordinalvalue="10000">
@@ -50,7 +47,7 @@
                     <row>
                       <cell id="{38d7b950-436b-412f-a71b-ae4187e60c14}" labelid="{34d49d8c-1b20-4179-991c-a1f6df67a67e}" ordinalvalue="10004">
                         <labels>
-                          <label description="Courriel" languagecode="1036" solutionaction="Added" />
+                          <label description="Courriel" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                       <cell id="{f3eec8ff-7b5a-43af-92c4-1a41adaf4b50}" labelid="{3ee1801b-a305-467a-9d9c-21b3598be090}" showlabel="true" locklevel="0" ordinalvalue="20005">
@@ -69,7 +66,7 @@
                       </cell>
                       <cell id="{d173e5b2-7472-0652-2dd4-e54522b6aeaa}" showlabel="true" locklevel="0" labelid="{6eede4f3-8abe-4cba-a6b5-7ba61162e7a6}" ordinalvalue="20007">
                         <labels>
-                          <label description="Titre" languagecode="1036" solutionaction="Added" />
+                          <label description="Titre" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
@@ -82,7 +79,7 @@
                       </cell>
                       <cell id="{5c4c8992-0d63-95ec-dace-59c0dccd76d5}" showlabel="true" locklevel="0" labelid="{20cf43cb-81ea-457c-805d-118aa3864817}" ordinalvalue="20009">
                         <labels>
-                          <label description="Page Web" languagecode="1036" solutionaction="Added" />
+                          <label description="Page Web" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                     </row>
@@ -129,15 +126,15 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="13" solutionaction="Modified" />
+      <DisplayConditions FallbackForm="false" Order="13" solutionaction="Modified" />
     </form>
     <LocalizedNames>
       <LocalizedName description="Profile Web Form - Japanese" languagecode="1033" />
-      <LocalizedName description="Formulaire Web pour un profil - Japonais" languagecode="1036" />
+      <LocalizedName description="Profile Web Form - Japanese" languagecode="1036" />
     </LocalizedNames>
     <Descriptions>
       <Description description="This form is used by the portal with Japanese localization for the user to update their contact info" languagecode="1033" />
-      <Description description="Ce formulaire est utilisé par le portail avec la localisation japonaise pour que l'utilisateur mette à jour ses coordonnées" languagecode="1036" />
+      <Description description="Ce formulaire est utilisé par le portail localisé en japonais pour que l'utilisateur mette à jour ses coordonnées" languagecode="1036" />
     </Descriptions>
   </systemform>
 </forms>

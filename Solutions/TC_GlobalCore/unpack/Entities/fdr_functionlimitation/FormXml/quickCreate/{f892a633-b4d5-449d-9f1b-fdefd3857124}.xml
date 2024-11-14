@@ -30,6 +30,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{27b65cb1-6318-447b-a87a-fa973581e09c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registration Function Id" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_registration_function_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_registration_function_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{7aedbce0-bbc0-a385-c6eb-48277c127da7}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Limitation" languagecode="1033" />
@@ -149,11 +157,13 @@
       <formLibraries>
         <Library name="qm_globalHelper.js" libraryUniqueId="{a802d9aa-81db-96a7-1ce5-7c44471b2b40}" />
         <Library name="fdr_functionlimitation_quickcreate" libraryUniqueId="{1dabe5e4-4627-2d31-c86c-a0be89330266}" />
+        <Library name="ovs_RegistrationFunctionLimitation_QuickCreate" libraryUniqueId="{50d534be-6d74-a8dd-e2d8-50531ae3c200}" />
       </formLibraries>
       <events>
         <event name="onload" application="false" active="false">
           <Handlers>
-            <Handler functionName="Function_Limitation_Main.OnLoad" libraryName="fdr_functionlimitation_quickcreate" handlerUniqueId="{6086bb4a-7b3b-c40a-e0e0-d05274659b94}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="Function_Limitation_Main.OnLoad" libraryName="ovs_RegistrationFunctionLimitation_QuickCreate" handlerUniqueId="{46bc0709-1ecd-e83b-5889-268575ce8c66}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="Function_Limitation_Main.OnLoad" libraryName="fdr_functionlimitation_quickcreate" handlerUniqueId="{6086bb4a-7b3b-c40a-e0e0-d05274659b94}" enabled="false" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>

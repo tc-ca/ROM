@@ -30,6 +30,7 @@
                       <cell id="{c82f695c-bb1f-44f2-9ea4-e910fd607f4c}" locklevel="0" colspan="1" rowspan="1" labelid="{1de8f72f-c636-4438-b627-95914f04b7e0}">
                         <labels>
                           <label description="Incident" languagecode="1033" />
+                          <label description="Incident" languagecode="1036" />
                         </labels>
                         <control id="ovs_incident_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_incident_id" disabled="true" />
                       </cell>
@@ -38,6 +39,7 @@
                       <cell id="{8bd047b3-5d7b-4fe8-9309-40c94df2c0e1}" locklevel="0" colspan="1" rowspan="1" labelid="{137fe22c-d951-4e8e-ab7a-36fb770324ff}">
                         <labels>
                           <label description="Participant" languagecode="1033" />
+                          <label description="Participant" languagecode="1036" />
                         </labels>
                         <control id="ovs_participant_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_participant_id" disabled="false" />
                       </cell>

@@ -26,6 +26,7 @@
           <attribute name="fdr_englishdescription" />
           <attribute name="fdr_frenchdescription" />
           <attribute name="fdr_specificationcategories" />
+          <order attribute="fdr_name" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

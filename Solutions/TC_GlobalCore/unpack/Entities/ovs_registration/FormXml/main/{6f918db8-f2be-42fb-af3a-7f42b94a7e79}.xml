@@ -29,11 +29,6 @@
                         </labels>
                         <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" disabled="true" uniqueid="{14dcb812-c134-5442-5a3c-d9635538ebd4}" />
                       </cell>
-                      <cell id="{8ddc9281-6bb1-4415-9b4a-6d75f9ecd8dd}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
                     </row>
                     <row>
                       <cell id="{e1444bb7-38c3-4593-8798-33a0fb716f50}" locklevel="0" colspan="1" rowspan="1">
@@ -422,7 +417,11 @@
       </events>
       <controlDescriptions />
       <DisplayConditions Order="0" FallbackForm="true">
-        <Everyone />
+        <Role Id="{17448407-4847-EE11-BE6F-0022483E130E}" />
+        <Role Id="{6B799C8F-DD4F-ED11-BBA3-0022483D0343}" />
+        <Role Id="{1808b939-dd07-4ca7-aa99-ddd2734378f1}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>

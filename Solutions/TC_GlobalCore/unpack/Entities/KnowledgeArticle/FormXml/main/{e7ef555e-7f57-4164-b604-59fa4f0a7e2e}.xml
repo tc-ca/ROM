@@ -17,6 +17,7 @@
                       <cell id="{db4c6695-5062-4bbf-8144-7a4a8864adc6}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10012">
                         <labels>
                           <label description="Agent Review Status" languagecode="1033" solutionaction="Modified" />
+                          <label description="Statut de révision par l’agent" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
                     </row>
@@ -24,6 +25,7 @@
                       <cell id="{aeb950c6-26ce-4734-ae89-cc246d0b60a6}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10013">
                         <labels>
                           <label description="Compliance State" languagecode="1033" solutionaction="Modified" />
+                          <label description="État de la conformité" languagecode="1036" solutionaction="Added" />
                         </labels>
                       </cell>
                     </row>

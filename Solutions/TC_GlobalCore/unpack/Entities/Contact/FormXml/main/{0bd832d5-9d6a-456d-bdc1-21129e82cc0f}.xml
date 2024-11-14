@@ -9,15 +9,12 @@
       <tabs>
         <tab verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" labelid="{1bd42238-ddcc-4029-9eff-256aa3c887c9}" ordinalvalue="0">
           <labels>
-            <label description="Généralités" languagecode="1036" solutionaction="Added" />
+            <label description="Généralités" languagecode="1036" solutionaction="Modified" />
           </labels>
           <columns>
             <column width="100%" id="0">
               <sections>
                 <section showlabel="false" showbar="false" id="{90b0776f-2977-4695-9cd4-73bb6c820f88}" IsUserDefined="0" labelid="{3127edf7-a176-4d80-b734-6be963ceafb4}" name="{90b0776f-2977-4695-9cd4-73bb6c820f88}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Modified">
-                  <labels>
-                    <label description="Nom" languagecode="1036" solutionaction="Added" />
-                  </labels>
                   <rows>
                     <row>
                       <cell id="{478c8803-2686-4d10-8cf0-e6e5b3b6007f}" labelid="{b73d114e-ac34-4ab0-9030-a7409986ab62}" ordinalvalue="10000">
@@ -36,7 +33,7 @@
                     <row>
                       <cell id="{38d7b950-436b-412f-a71b-ae4187e60c14}" labelid="{485eef8d-000d-488e-9c1c-0e98df04e5d1}" ordinalvalue="10002">
                         <labels>
-                          <label description="Courriel" languagecode="1036" solutionaction="Added" />
+                          <label description="Courriel" languagecode="1036" solutionaction="Modified" />
                         </labels>
                       </cell>
                       <cell id="{f3eec8ff-7b5a-43af-92c4-1a41adaf4b50}" labelid="{1409682e-cb37-4c1a-813b-59ce76da79c2}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Modified">
@@ -259,27 +256,9 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="7" solutionaction="Modified" />
+      <DisplayConditions FallbackForm="false" Order="7" solutionaction="Modified" />
       <header id="{bdde2067-8dbe-409c-a4a2-b2f2edb7a3d5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
-        <rows>
-          <row>
-            <cell id="{d72155cb-89e8-452b-b8ea-89f063d6030f}" ordinalvalue="10000">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{c6a3045d-845a-44bf-aee7-16533578be73}" ordinalvalue="20001">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-            <cell id="{1ca17b64-7811-4fcb-a567-b2dbce9b4ed2}" ordinalvalue="30002">
-              <labels>
-                <label description="" languagecode="1033" />
-              </labels>
-            </cell>
-          </row>
-        </rows>
+        <rows></rows>
       </header>
       <controlDescriptions solutionaction="Added">
         <controlDescription forControl="{CBCA8A88-614E-D062-86E2-376751DD63EB}">
@@ -311,7 +290,7 @@
     </form>
     <LocalizedNames>
       <LocalizedName description="Profile Web Form" languagecode="1033" />
-      <LocalizedName description="Formulaire Web pour le  profil" languagecode="1036" />
+      <LocalizedName description="Profile Web Form" languagecode="1036" />
     </LocalizedNames>
     <Descriptions>
       <Description description="This form is used by the portal for the user to update their contact info" languagecode="1033" />

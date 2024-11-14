@@ -22,8 +22,8 @@
                     <row>
                       <cell id="{1a86085b-ce40-4173-b085-fe7608592c31}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Input Address Type" languagecode="1033" />
-                          <label description="Entrer le type d’adresse" languagecode="1036" />
+                          <label description="Address Type" languagecode="1033" />
+                          <label description="Type d'adresse" languagecode="1036" />
                         </labels>
                         <control id="ovs_address_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_address_type" disabled="false" />
                       </cell>

@@ -38,7 +38,26 @@
                         </labels>
                         <control id="ovs_contact_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_contact_id" disabled="false" />
                       </cell>
-                      <cell id="{6dd81498-66d0-bc00-d549-8cad87271598}" showlabel="false">
+                      <cell id="{6a900a06-471e-aaa4-4043-9c5e5a106dc2}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{edabbd01-8d04-44a3-b0f5-946c708eb1a5}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1731078956972" languagecode="1033" />
+                          <label description="Contact" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1731078956972" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_contact_id">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;0796df41-e39d-ef11-8a69-6045bd5e3aab&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{5d2327b7-644e-5639-272e-6c27bd010a97}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -52,7 +71,21 @@
                         </labels>
                         <control id="ovs_job_title_nm" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_job_title_nm" disabled="false" />
                       </cell>
-                      <cell id="{6a900a06-471e-aaa4-4043-9c5e5a106dc2}" showlabel="false">
+                      <cell id="{921723b4-0d39-d685-25cc-4ddcdbebba90}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18807454-66f9-49f9-9ee4-7afb5c08833c}" locklevel="0" colspan="1" rowspan="1" visible="true">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                          <label description="Rôle" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_role_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_role_id" disabled="false" />
+                      </cell>
+                      <cell id="{b44435d2-64b4-7967-e852-1de53ac1d99a}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -66,7 +99,7 @@
                         </labels>
                         <control id="ovs_phonenumber_business_num" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_phonenumber_business_num" disabled="false" />
                       </cell>
-                      <cell id="{5d2327b7-644e-5639-272e-6c27bd010a97}" showlabel="false">
+                      <cell id="{3872ac6a-d9ab-9087-d150-4b8ce7b1834e}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -80,7 +113,7 @@
                         </labels>
                         <control id="ovs_phonenumber_mobile_num" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_phonenumber_mobile_num" disabled="false" />
                       </cell>
-                      <cell id="{921723b4-0d39-d685-25cc-4ddcdbebba90}" showlabel="false">
+                      <cell locklevel="0" id="{1f63f7f5-a3e0-4202-8c65-f6a9761fe72f}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -94,21 +127,7 @@
                         </labels>
                         <control id="ovs_email_address_business_txt" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="ovs_email_address_business_txt" disabled="false" />
                       </cell>
-                      <cell id="{b44435d2-64b4-7967-e852-1de53ac1d99a}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{18807454-66f9-49f9-9ee4-7afb5c08833c}" locklevel="0" colspan="1" rowspan="1" visible="false">
-                        <labels>
-                          <label description="Role" languagecode="1033" />
-                          <label description="Rôle" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_role_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_role_id" disabled="false" />
-                      </cell>
-                      <cell id="{57d68458-5d7b-7d9a-2a16-9423cd423675}" showlabel="false">
+                      <cell locklevel="0" id="{0d042c77-d814-4ba2-9f67-920f1f8bde8a}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -121,7 +140,7 @@
                         </labels>
                         <control id="ovs_invitation_accepted_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_invitation_accepted_ind" disabled="false" />
                       </cell>
-                      <cell id="{3872ac6a-d9ab-9087-d150-4b8ce7b1834e}" showlabel="false">
+                      <cell locklevel="0" id="{7a93bbaa-d22f-4191-8f68-8eae13453ff3}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -135,7 +154,7 @@
                         </labels>
                         <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" uniqueid="{711ac91b-c4aa-8101-5050-2b8b1d9b6169}" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{1f63f7f5-a3e0-4202-8c65-f6a9761fe72f}">
+                      <cell locklevel="0" id="{cd838240-280f-48b5-8b30-247001b0a75c}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -154,7 +173,7 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell locklevel="0" id="{0d042c77-d814-4ba2-9f67-920f1f8bde8a}">
+                      <cell locklevel="0" id="{0119ee24-3d6b-43b6-b8ca-9a9a7bf88f8a}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

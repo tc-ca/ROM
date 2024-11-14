@@ -207,6 +207,7 @@
     <RolePrivilege name="prvReadovs_submission" level="Global" />
     <RolePrivilege name="prvReadovs_support_request_outcome" level="Global" />
     <RolePrivilege name="prvReadovs_SupportRequest" level="Global" />
+    <RolePrivilege name="prvReadovs_SupportRequestType" level="Global" />
     <RolePrivilege name="prvReadovs_tdginspectionreport" level="Global" />
     <RolePrivilege name="prvReadovs_tyohsequipmenttype" level="Global" />
     <RolePrivilege name="prvReadovs_tyohsnote" level="Global" />

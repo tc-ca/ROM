@@ -52,6 +52,7 @@
     <AppModuleComponent type="1" schemaName="ovs_cdnop" />
     <AppModuleComponent type="1" schemaName="ovs_lob" />
     <AppModuleComponent type="1" schemaName="ovs_revisedquarterrequest" />
+    <AppModuleComponent type="1" schemaName="ovs_registration" />
     <AppModuleComponent type="1" schemaName="ovs_cyaction" />
     <AppModuleComponent type="1" schemaName="ovs_cancellationrequest" />
     <AppModuleComponent type="1" schemaName="tc_tcfiscalperiod" />
@@ -63,6 +64,7 @@
     <AppModuleComponent type="60" id="{8399e8c7-746d-eb11-a812-000d3a84129e}" />
     <AppModuleComponent type="60" id="{026925a2-097a-ec11-8d20-000d3a84a45c}" />
     <AppModuleComponent type="60" id="{799e79c9-87f4-eb11-94ef-000d3a84a4e1}" />
+    <AppModuleComponent type="60" id="{90a5e862-cda1-ef11-a72d-000d3ae8ce17}" />
     <AppModuleComponent type="60" id="{6768019c-3b8e-eb11-b1ac-000d3ae92dbf}" />
     <AppModuleComponent type="60" id="{906d0737-8ca7-eb11-9442-000d3ae99322}" />
     <AppModuleComponent type="60" id="{ec2f9560-2f03-eb11-a813-000d3af3a7a7}" />
@@ -121,6 +123,7 @@
     <AppModuleComponent type="26" id="{cd29c3b1-776d-eb11-a812-000d3a84129e}" />
     <AppModuleComponent type="26" id="{b5d1cbcd-806d-eb11-a812-000d3a84129e}" />
     <AppModuleComponent type="26" id="{011a0fd4-5f6a-eb11-a812-000d3a841b3b}" />
+    <AppModuleComponent type="26" id="{40c5ca0d-73d5-ee11-904c-000d3a845779}" />
     <AppModuleComponent type="26" id="{8907b66d-f15f-eb11-a812-000d3a84fd7b}" />
     <AppModuleComponent type="26" id="{ba8a6646-0c52-ec11-8f8e-000d3ae8eddc}" />
     <AppModuleComponent type="26" id="{df26b7fd-067b-eb11-a812-000d3af31cea}" />
@@ -144,7 +147,6 @@
     <AppModuleComponent type="26" id="{3e6a514c-8b94-40c5-ac8f-1e3158f1f15e}" />
     <AppModuleComponent type="26" id="{07b35bc7-8776-4f13-bc1b-204170d505f6}" />
     <AppModuleComponent type="26" id="{98c7fee1-1d9f-4226-89bb-26e6be7057f8}" />
-    <AppModuleComponent type="26" id="{9a88ea34-1797-4530-aa68-304290bb6199}" />
     <AppModuleComponent type="26" id="{7e35f6a5-af6d-40f3-b3aa-3369350f8c35}" />
     <AppModuleComponent type="26" id="{42a0f461-28d8-41a1-985b-39740ce5e539}" />
     <AppModuleComponent type="26" id="{c268b7f3-924c-40c4-981e-405e1894c00a}" />
@@ -159,12 +161,6 @@
     <AppModuleComponent type="26" id="{17786813-cdb4-48c7-936e-8c732f0dd498}" />
     <AppModuleComponent type="26" id="{25e8285a-0aab-46bf-9509-99a6585328f9}" />
     <AppModuleComponent type="26" id="{6e549e50-dce5-4f9a-8db2-a0d5e7b8eb4b}" />
-    <AppModuleComponent type="26" id="{4797655a-2612-4c5d-81be-a514900a38ea}" />
-    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
-    <AppModuleComponent type="26" id="{24e940e1-fece-4ef5-bc24-a80cad85ee43}" />
-    <AppModuleComponent type="26" id="{2ff0ad0b-e7bf-4df2-afb9-b06403787546}" />
-    <AppModuleComponent type="26" id="{757fdce2-55ab-489b-bacc-ccaff8838d2d}" />
-    <AppModuleComponent type="26" id="{80899826-b180-457d-a865-e2cfb15d893e}" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />

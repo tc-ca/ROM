@@ -272,7 +272,7 @@
     </form>
     <LocalizedNames>
       <LocalizedName description="ChangePassword" languagecode="1033" />
-      <LocalizedName description="Changer le mot de passe" languagecode="1036" />
+      <LocalizedName description="ChangePassword" languagecode="1036" />
     </LocalizedNames>
   </systemform>
 </forms>

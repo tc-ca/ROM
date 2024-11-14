@@ -12,6 +12,7 @@
         <row name="result" id="ovs_sdsid">
           <cell name="ovs_name" width="275" />
           <cell name="ovs_file_name_nm" width="246" />
+          <cell name="ovs_file_content_txt" width="300" />
           <cell name="ovs_organization_id" width="210" />
           <cell name="ovs_language_cd" width="130" />
           <cell name="ovs_nonregistered_manufacturer_ind" width="208" />
@@ -35,6 +36,7 @@
           <order attribute="modifiedon" descending="true" />
           <attribute name="ovs_language_cd" />
           <attribute name="ovs_nonregistered_manufacturer_ind" />
+          <attribute name="ovs_file_content_txt" />
         </entity>
       </fetch>
     </fetchxml>

@@ -12,6 +12,10 @@
         <row name="result" id="ovs_registration_functionid">
           <cell name="ovs_name_txt" width="300" />
           <cell name="createdon" width="125" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="119" />
+          <cell name="ovs_registration_id" width="124" />
+          <cell name="ovs_container_function_id" width="164" />
         </row>
       </grid>
     </layoutxml>
@@ -26,6 +30,10 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="ovs_registration_id" />
+          <attribute name="ovs_container_function_id" />
         </entity>
       </fetch>
     </fetchxml>

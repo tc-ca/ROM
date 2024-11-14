@@ -9,8 +9,8 @@
     <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
       <Group Id="New_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
-          <Title LCID="1033" Title="MOC Registration" />
           <Title LCID="1036" Title="Inscription de contenant" />
+          <Title LCID="1033" Title="MOC Registration" />
         </Titles>
         <SubArea Id="NewSubArea_2197fc8d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_servicerequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
@@ -44,7 +44,6 @@
             <Title LCID="1036" Title="Tableaux de bord" />
           </Titles>
         </SubArea>
-        <SubArea Id="subarea_a9512050" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration_function" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>

@@ -313,7 +313,7 @@
     <RolePrivilege name="prvCreatefdr_functionlimitation" level="Deep" />
     <RolePrivilege name="prvCreatefdr_RegisteredMark" level="Global" />
     <RolePrivilege name="prvCreatefdr_requestequivalencycertificate" level="Global" />
-    <RolePrivilege name="prvCreatefdr_ServiceRequest" level="Basic" />
+    <RolePrivilege name="prvCreatefdr_ServiceRequest" level="Global" />
     <RolePrivilege name="prvCreatefdr_ServiceRequestFunction" level="Basic" />
     <RolePrivilege name="prvCreatefdr_ServiceRequestPerformance" level="Basic" />
     <RolePrivilege name="prvCreatefdr_ServiceRequestServiceTask" level="Global" />

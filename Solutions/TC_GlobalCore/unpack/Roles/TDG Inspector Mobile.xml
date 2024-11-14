@@ -486,6 +486,7 @@
     <RolePrivilege name="prvReadovs_OversightType" level="Global" />
     <RolePrivilege name="prvReadovs_primaryclass" level="Global" />
     <RolePrivilege name="prvReadovs_Questionnaire" level="Global" />
+    <RolePrivilege name="prvReadovs_registration" level="Global" />
     <RolePrivilege name="prvReadovs_SiteClass" level="Global" />
     <RolePrivilege name="prvReadovs_SiteType" level="Global" />
     <RolePrivilege name="prvReadovs_tdginspectionreport" level="Local" />

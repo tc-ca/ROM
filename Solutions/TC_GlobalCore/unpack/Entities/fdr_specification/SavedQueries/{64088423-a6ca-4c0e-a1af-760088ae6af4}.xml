@@ -11,7 +11,11 @@
       <grid name="fdr_specifications" jump="fdr_name" select="1" icon="1" preview="0">
         <row name="fdr_specification" id="fdr_specificationid">
           <cell name="fdr_name" width="300" />
+          <cell name="fdr_englishdescription" width="152" />
+          <cell name="fdr_specificationcategories" width="178" />
+          <cell name="statecode" width="100" />
           <cell name="createdon" width="125" />
+          <cell name="modifiedon" width="113" />
         </row>
       </grid>
     </layoutxml>
@@ -25,6 +29,11 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="fdr_englishdescription" />
+          <attribute name="fdr_specificationcategories" />
+          <attribute name="statecode" />
+          <attribute name="modifiedon" />
+          <order attribute="fdr_name" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

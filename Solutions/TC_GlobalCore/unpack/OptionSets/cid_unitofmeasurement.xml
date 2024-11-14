@@ -95,8 +95,8 @@
     </option>
     <option value="100000004" ExternalValue="" Color="">
       <labels>
-        <label description="Tonnes" languagecode="1033" />
-        <label description="Tonnes" languagecode="1036" />
+        <label description="Metric Tonnes" languagecode="1033" />
+        <label description="Tonnes métriques" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -105,8 +105,8 @@
     </option>
     <option value="100000006" ExternalValue="" Color="">
       <labels>
-        <label description="Tons (2000 lbs)" languagecode="1033" />
-        <label description="Tonnes (2000 lb)" languagecode="1036" />
+        <label description="​Imperial Tons" languagecode="1033" />
+        <label description="Tonnes impériales" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

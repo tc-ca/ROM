@@ -10,7 +10,11 @@
     <layoutxml>
       <grid name="resultset" jump="cid_name" select="1" icon="1" preview="1">
         <row name="result" id="cid_companynaicscodeid">
-          <cell name="cid_name" width="300" />
+          <cell name="cid_company" width="113" />
+          <cell name="cid_naicscode" width="116" />
+          <cell name="a_6edd1e42e18e454ca32792cf1bd6af16.ovs_legalname" width="195" />
+          <cell name="a_6edd1e42e18e454ca32792cf1bd6af16.cid_cidcompanystatus" width="237" />
+          <cell name="a_6edd1e42e18e454ca32792cf1bd6af16.address1_composite" width="183" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -20,12 +24,17 @@
       <fetch version="1.0" mapping="logical">
         <entity name="cid_companynaicscode">
           <attribute name="cid_companynaicscodeid" />
-          <attribute name="cid_name" />
           <attribute name="createdon" />
-          <order attribute="cid_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="cid_naicscode" />
+          <attribute name="cid_company" />
+          <link-entity alias="a_6edd1e42e18e454ca32792cf1bd6af16" name="account" to="cid_company" from="accountid" link-type="outer" visible="false">
+            <attribute name="ovs_legalname" />
+            <attribute name="cid_cidcompanystatus" />
+            <attribute name="address1_composite" />
+          </link-entity>
         </entity>
       </fetch>
     </fetchxml>

@@ -1,7 +1,6 @@
 {
   "environmentvariablevalues": {
     "environmentvariablevalue": {
-      "@environmentvariablevalueid": "1e04f2e4-a319-ed11-b83e-000d3a0c8551",
       "iscustomizable": "1",
       "value": "{\"group\":{\"id\":\"fde342f8-b626-4abd-ad49-dd94eb6a5aa5\",\"name\":\"TC-TDG-CORE DEV\"},\"component\":{\"id\":\"b839b962-fd07-4452-9f98-8d605b9bb005\",\"name\":\"Enforcement Action (QA)\",\"type\":\"Report\",\"embedUrl\":\"https://app.powerbi.com/reportEmbed\"}}"
     }

@@ -5,11 +5,9 @@
     <entity Name="ovs_organization_naics_code">
       <LocalizedNames>
         <LocalizedName description="Organization NAICS Code" languagecode="1033" />
-        <LocalizedName description="Code du SCIAN de l’organisation" languagecode="1036" />
       </LocalizedNames>
       <LocalizedCollectionNames>
         <LocalizedCollectionName description="Organization NAICS Codes" languagecode="1033" />
-        <LocalizedCollectionName description="Code du SCIAN de l’organisation" languagecode="1036" />
       </LocalizedCollectionNames>
       <Descriptions>
         <Description description="NAICS Codes for a given organization" languagecode="1033" />
@@ -902,7 +900,7 @@
       <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
       <IsBPFEntity>0</IsBPFEntity>
       <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
-      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsAuditEnabled>1</IsAuditEnabled>
       <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
       <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
       <IsActivity>0</IsActivity>

@@ -11,9 +11,12 @@
       <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
         <row name="result" id="ovs_incident_reportid">
           <cell name="ovs_primary_report_ind" width="127" />
+          <cell name="ovs_analyst_report_ind" width="126" />
           <cell name="ovs_mode_cd" width="100" />
           <cell name="ovs_date_canutec_dte" width="100" />
           <cell name="ovs_canutec_reference_number_txt" width="196" />
+          <cell name="ovs_name" width="100" />
+          <cell name="createdon" width="105" />
         </row>
       </grid>
     </layoutxml>
@@ -29,6 +32,9 @@
           <attribute name="ovs_canutec_reference_number_txt" />
           <attribute name="ovs_primary_report_ind" />
           <attribute name="ovs_date_canutec_dte" />
+          <attribute name="ovs_analyst_report_ind" />
+          <attribute name="ovs_name" />
+          <attribute name="createdon" />
         </entity>
       </fetch>
     </fetchxml>

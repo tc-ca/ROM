@@ -233,6 +233,57 @@
                     </row>
                   </rows>
                 </section>
+                <section name="SUMMARY_TAB_section_TDG_Activities" id="f42d898a-93a1-4290-8db0-cf54e0366585" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="TDG Activities" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a8b53855-2206-4737-80cd-176e303328d5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Handle" languagecode="1033" />
+                          <label description="Manutention" languagecode="1036" />
+                        </labels>
+                        <control id="cid_handlingsitetype" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_handlingsitetype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{48f61c91-d41a-494b-9418-f17aa72b1c31}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9cd6224-0917-4014-8771-f55eddc76e76}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Offer for Transport" languagecode="1033" />
+                          <label description="Présentation au transport" languagecode="1036" />
+                        </labels>
+                        <control id="cid_offeringfortransportsitetype" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_offeringfortransportsitetype" disabled="false" />
+                      </cell>
+                      <cell id="{7f231121-5be2-40c5-8933-86f0f751d443}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Import" languagecode="1033" />
+                          <label description="Importation" languagecode="1036" />
+                        </labels>
+                        <control id="cid_importingsitetype" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_importingsitetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5a8f4b5-372b-4a66-a544-e536374ddef5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Transport" languagecode="1033" />
+                          <label description="Transport" languagecode="1036" />
+                        </labels>
+                        <control id="cid_transportingsitetype" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_transportingsitetype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e3222fa9-dd91-4972-b903-fde60dc6c2f6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section id="{e1c565b8-7db7-4a44-b4e7-281614ff849b}" name="MapSection" IsUserDefined="0" showlabel="false" labelid="{1c117f44-6784-4861-9aed-7bf57e832920}" showbar="false" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left">
                   <labels>
                     <label description="" languagecode="1033" />

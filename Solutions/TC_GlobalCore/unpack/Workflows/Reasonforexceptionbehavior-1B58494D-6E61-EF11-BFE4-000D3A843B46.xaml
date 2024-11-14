@@ -68,6 +68,9 @@
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
                       <mcwc:SetFieldRequiredLevel ControlId="ovs_exception_reason_txt" ControlType="standard" DisplayName="SetFieldRequiredLevelStep4" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ovs_incident" RequiredLevel="Required" />
                     </Sequence>
+                    <Sequence DisplayName="SetDisplayModeStep_SetFieldRequiredLevelStep4_6: unlockReportable">
+                      <mcwc:SetDisplayMode ControlId="ovs_reportable_ind" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ovs_incident" IsReadOnly="False" />
+                    </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>
               </mxswa:ActivityReference>
@@ -117,6 +120,9 @@
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
                       <mcwc:SetFieldRequiredLevel ControlId="ovs_exception_reason_txt" ControlType="standard" DisplayName="SetFieldRequiredLevelStep5" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ovs_incident" RequiredLevel="None" />
+                    </Sequence>
+                    <Sequence DisplayName="SetDisplayModeStep_SetFieldRequiredLevelStep5_7: lockReportable">
+                      <mcwc:SetDisplayMode ControlId="ovs_reportable_ind" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ovs_incident" IsReadOnly="True" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>

@@ -48,12 +48,12 @@
           <Format>textarea</Format>
           <MaxLength>8192</MaxLength>
           <displaynames>
-            <displayname description="Activity Additional Parameters" languagecode="1033" />
             <displayname description="Paramètres supplémentaires de l’activité" languagecode="1036" />
+            <displayname description="Activity Additional Parameters" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Additional information provided by the external application as JSON. For internal use only." languagecode="1033" />
             <Description description="Informations supplémentaires fournies par l’application externe au format JSON. Pour usage interne seulement." languagecode="1036" />
+            <Description description="Additional information provided by the external application as JSON. For internal use only." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ActivityId">
@@ -128,12 +128,12 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <OptionSetName>activitypointer_activitytypecode</OptionSetName>
           <displaynames>
-            <displayname description="Activity Type" languagecode="1033" />
             <displayname description="Type d’activité" languagecode="1036" />
+            <displayname description="Activity Type" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Type of activity." languagecode="1033" />
             <Description description="Type d’activité." languagecode="1036" />
+            <Description description="Type of activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ActualDurationMinutes">
@@ -174,8 +174,8 @@
             <displayname description="Durée réelle" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Actual duration of the activity in minutes." languagecode="1033" />
             <Description description="Durée réelle de l’activité en minutes." languagecode="1036" />
+            <Description description="Actual duration of the activity in minutes." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ActualEnd">
@@ -216,8 +216,8 @@
             <displayname description="Fin réelle" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Actual end time of the activity." languagecode="1033" />
             <Description description="Heure de fin réelle de l’activité." languagecode="1036" />
+            <Description description="Actual end time of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ActualStart">
@@ -258,8 +258,8 @@
             <displayname description="Début réel" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Actual start time of the activity." languagecode="1033" />
             <Description description="Heure de début réelle de l’activité." languagecode="1036" />
+            <Description description="Actual start time of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="BCC">
@@ -883,12 +883,12 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <OptionSetName>socialprofile_community</OptionSetName>
           <displaynames>
-            <displayname description="Social Channel" languagecode="1033" />
             <displayname description="Canal des réseaux sociaux" languagecode="1036" />
+            <displayname description="Social Channel" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only." languagecode="1033" />
             <Description description="Affiche l’origine du contact au sujet de l’activité sociale, comme Twitter ou Facebook. Ce champ est en lecture seule." languagecode="1036" />
+            <Description description="Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="CreatedBy">
@@ -972,8 +972,8 @@
             <displayname description="Date de création" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Date and time when the activity was created." languagecode="1033" />
             <Description description="Date et heure de la création de l’activité." languagecode="1036" />
+            <Description description="Date and time when the activity was created." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="CreatedOnBehalfBy">
@@ -1102,8 +1102,8 @@
             <displayname description="Date de dernière tentative de livraison" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Date and time when the delivery of the activity was last attempted." languagecode="1033" />
             <Description description="Date et heure de la dernière tentative de livraison de l’activité." languagecode="1036" />
+            <Description description="Date and time when the delivery of the activity was last attempted." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="DeliveryPriorityCode">
@@ -1143,8 +1143,8 @@
             <displayname description="Priorité de livraison" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Priority of delivery of the activity to the email server." languagecode="1033" />
             <Description description="Priorité de livraison de l’activité au serveur de messagerie." languagecode="1036" />
+            <Description description="Priority of delivery of the activity to the email server." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="Description">
@@ -1184,8 +1184,8 @@
             <displayname description="Description" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Description of the activity." languagecode="1033" />
             <Description description="Description de l’activité." languagecode="1036" />
+            <Description description="Description of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ExchangeItemId">
@@ -1222,12 +1222,12 @@
           <MaxLength>200</MaxLength>
           <Length>400</Length>
           <displaynames>
-            <displayname description="Exchange Item ID" languagecode="1033" />
             <displayname description="ID d’élément d’Exchange" languagecode="1036" />
+            <displayname description="Exchange Item ID" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="The message id of activity which is returned from Exchange Server." languagecode="1033" />
             <Description description="Message-ID d’activité qui est renvoyé par le serveur Exchange." languagecode="1036" />
+            <Description description="The message id of activity which is returned from Exchange Server." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ExchangeWebLink">
@@ -1264,12 +1264,12 @@
           <MaxLength>1250</MaxLength>
           <Length>2500</Length>
           <displaynames>
-            <displayname description="Exchange WebLink" languagecode="1033" />
             <displayname description="Hyperlien pour Exchange" languagecode="1036" />
+            <displayname description="Exchange WebLink" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Shows the web link of Activity of type email." languagecode="1033" />
             <Description description="Affiche l’hyperlien de l’activité de type courriel." languagecode="1036" />
+            <Description description="Shows the web link of Activity of type email." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="From">
@@ -1401,49 +1401,49 @@
               <displayname description="Type de rendez-vous" languagecode="1036" />
             </displaynames>
             <Descriptions>
-              <Description description="Type of instance of a recurring series." languagecode="1033" />
               <Description description="Type d’instance d’une série récurrente." languagecode="1036" />
+              <Description description="Type of instance of a recurring series." languagecode="1033" />
             </Descriptions>
             <options>
               <option value="0">
                 <labels>
-                  <label description="Not Recurring" languagecode="1033" />
                   <label description="Non récurrent" languagecode="1036" />
+                  <label description="Not Recurring" languagecode="1033" />
                 </labels>
               </option>
               <option value="1">
                 <labels>
-                  <label description="Recurring Master" languagecode="1033" />
                   <label description="Maître récurrent" languagecode="1036" />
+                  <label description="Recurring Master" languagecode="1033" />
                 </labels>
               </option>
               <option value="2">
                 <labels>
-                  <label description="Recurring Instance" languagecode="1033" />
                   <label description="Instance récurrente" languagecode="1036" />
+                  <label description="Recurring Instance" languagecode="1033" />
                 </labels>
               </option>
               <option value="3">
                 <labels>
-                  <label description="Recurring Exception" languagecode="1033" />
                   <label description="Exception récurrente" languagecode="1036" />
+                  <label description="Recurring Exception" languagecode="1033" />
                 </labels>
               </option>
               <option value="4">
                 <labels>
-                  <label description="Recurring Future Exception" languagecode="1033" />
                   <label description="Exception future récurrente" languagecode="1036" />
+                  <label description="Recurring Future Exception" languagecode="1033" />
                 </labels>
               </option>
             </options>
           </optionset>
           <displaynames>
-            <displayname description="Recurring Instance Type" languagecode="1033" />
             <displayname description="Type d’instance récurrente" languagecode="1036" />
+            <displayname description="Recurring Instance Type" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Type of instance of a recurring series." languagecode="1033" />
             <Description description="Type d’instance d’une série récurrente." languagecode="1036" />
+            <Description description="Type of instance of a recurring series." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="IsBilled">
@@ -1482,12 +1482,12 @@
             <IntroducedVersion>2021.10.0.0</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
-              <displayname description="Is Billed" languagecode="1033" />
               <displayname description="A été facturée" languagecode="1036" />
+              <displayname description="Is Billed" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Information regarding whether the activity was billed as part of resolving a case." languagecode="1033" />
               <Description description="Information indiquant si l’activité a été facturée dans le cadre de la résolution d’un incide" languagecode="1036" />
+              <Description description="Information regarding whether the activity was billed as part of resolving a case." languagecode="1033" />
             </Descriptions>
             <options>
               <option value="0">
@@ -1505,12 +1505,12 @@
             </options>
           </optionset>
           <displaynames>
-            <displayname description="Is Billed" languagecode="1033" />
             <displayname description="A été facturée" languagecode="1036" />
+            <displayname description="Is Billed" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Information regarding whether the activity was billed as part of resolving a case." languagecode="1033" />
             <Description description="Information indiquant si l’activité a été facturée dans le cadre de la résolution d’un incide" languagecode="1036" />
+            <Description description="Information regarding whether the activity was billed as part of resolving a case." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="IsMapiPrivate">
@@ -1656,12 +1656,12 @@
             <IntroducedVersion>2021.10.0.0</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
-              <displayname description="Is Workflow Created" languagecode="1033" />
               <displayname description="Créée à partir d’une règle de flux de travail" languagecode="1036" />
+              <displayname description="Is Workflow Created" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Information regarding whether the activity was created from a workflow rule." languagecode="1033" />
               <Description description="Information indiquant si une activité a été créée à partir d’une règle de flux de travail." languagecode="1036" />
+              <Description description="Information regarding whether the activity was created from a workflow rule." languagecode="1033" />
             </Descriptions>
             <options>
               <option value="0">
@@ -1679,12 +1679,12 @@
             </options>
           </optionset>
           <displaynames>
-            <displayname description="Is Workflow Created" languagecode="1033" />
             <displayname description="Créée à partir d’une règle de flux de travail" languagecode="1036" />
+            <displayname description="Is Workflow Created" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Information regarding whether the activity was created from a workflow rule." languagecode="1033" />
             <Description description="Information indiquant si une activité a été créée à partir d’une règle de flux de travail." languagecode="1036" />
+            <Description description="Information regarding whether the activity was created from a workflow rule." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="LastOnHoldTime">
@@ -1792,8 +1792,8 @@
             <displayname description="Message vocal laissé" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Left the voice mail" languagecode="1033" />
             <Description description="Message vocal laissé" languagecode="1036" />
+            <Description description="Left the voice mail" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ModifiedBy">
@@ -1877,8 +1877,8 @@
             <displayname description="Dernière mise à jour" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Date and time when activity was last modified." languagecode="1033" />
             <Description description="Date et heure de la dernière modification de l’activité." languagecode="1036" />
+            <Description description="Date and time when activity was last modified." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ModifiedOnBehalfBy">
@@ -2343,8 +2343,8 @@
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Delay activity processing until" languagecode="1033" />
             <displayname description="Reporter le traitement de l’activité jusqu’à" languagecode="1036" />
+            <displayname description="Delay activity processing until" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="For internal use only." languagecode="1033" />
@@ -2391,8 +2391,8 @@
               <displayname description="Priorité" languagecode="1036" />
             </displaynames>
             <Descriptions>
-              <Description description="Priority of the activity." languagecode="1033" />
               <Description description="Priorité de l’activité." languagecode="1036" />
+              <Description description="Priority of the activity." languagecode="1033" />
             </Descriptions>
             <options>
               <option value="0">
@@ -2409,8 +2409,8 @@
               </option>
               <option value="2">
                 <labels>
-                  <label description="High" languagecode="1033" />
                   <label description="Élevée" languagecode="1036" />
+                  <label description="High" languagecode="1033" />
                 </labels>
               </option>
             </options>
@@ -2420,8 +2420,8 @@
             <displayname description="Priorité" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Priority of the activity." languagecode="1033" />
             <Description description="Priorité de l’activité." languagecode="1036" />
+            <Description description="Priority of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ProcessId">
@@ -2622,12 +2622,12 @@
           <MinValue>0</MinValue>
           <MaxValue>2147483647</MaxValue>
           <displaynames>
-            <displayname description="Scheduled Duration" languagecode="1033" />
             <displayname description="Durée prévue" languagecode="1036" />
+            <displayname description="Scheduled Duration" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Scheduled duration of the activity, specified in minutes." languagecode="1033" />
             <Description description="Durée prévue de l’activité, précisée en minutes." languagecode="1036" />
+            <Description description="Scheduled duration of the activity, specified in minutes." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ScheduledEnd">
@@ -2668,8 +2668,8 @@
             <displayname description="Date d’échéance" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Scheduled end time of the activity." languagecode="1033" />
             <Description description="Heure prévue de fin de l’activité." languagecode="1036" />
+            <Description description="Scheduled end time of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ScheduledStart">
@@ -2710,8 +2710,8 @@
             <displayname description="Date de début" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Scheduled start time of the activity." languagecode="1033" />
             <Description description="Heure prévue de début de l’activité." languagecode="1036" />
+            <Description description="Scheduled start time of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="SenderMailboxId">
@@ -2790,12 +2790,12 @@
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Date Sent" languagecode="1033" />
             <displayname description="Date d’envoi" languagecode="1036" />
+            <displayname description="Date Sent" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Date and time when the activity was sent." languagecode="1033" />
             <Description description="Date et heure d’envoi de l’activité." languagecode="1036" />
+            <Description description="Date and time when the activity was sent." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="SeriesId">
@@ -2832,8 +2832,8 @@
             <displayname description="ID de la série" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Uniqueidentifier specifying the id of recurring series of an instance." languagecode="1033" />
             <Description description="Identificateur unique précisant l’identité de la série récurrente d’une instance." languagecode="1036" />
+            <Description description="Uniqueidentifier specifying the id of recurring series of an instance." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ServiceId">
@@ -2995,8 +2995,8 @@
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
           <displaynames>
-            <displayname description="Sort Date" languagecode="1033" />
             <displayname description="Tri par date" languagecode="1036" />
+            <displayname description="Sort Date" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="Shows the date and time by which the activities are sorted." languagecode="1033" />
@@ -3077,47 +3077,47 @@
             <IntroducedVersion>2021.10.0.0</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
-              <displayname description="Activity Status" languagecode="1033" />
               <displayname description="Statut de l’activité" languagecode="1036" />
+              <displayname description="Activity Status" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the activity." languagecode="1033" />
               <Description description="Statut de l’activité." languagecode="1036" />
+              <Description description="Status of the activity." languagecode="1033" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Open">
                 <labels>
-                  <label description="Open" languagecode="1033" />
                   <label description="Ouverte" languagecode="1036" />
+                  <label description="Open" languagecode="1033" />
                 </labels>
               </state>
               <state value="1" defaultstatus="2" invariantname="Completed">
                 <labels>
-                  <label description="Completed" languagecode="1033" />
                   <label description="Terminée" languagecode="1036" />
+                  <label description="Completed" languagecode="1033" />
                 </labels>
               </state>
               <state value="2" defaultstatus="3" invariantname="Canceled">
                 <labels>
-                  <label description="Canceled" languagecode="1033" />
                   <label description="Annulée" languagecode="1036" />
+                  <label description="Canceled" languagecode="1033" />
                 </labels>
               </state>
               <state value="3" defaultstatus="4" invariantname="Scheduled">
                 <labels>
-                  <label description="Scheduled" languagecode="1033" />
                   <label description="Prévue" languagecode="1036" />
+                  <label description="Scheduled" languagecode="1033" />
                 </labels>
               </state>
             </states>
           </optionset>
           <displaynames>
-            <displayname description="Activity Status" languagecode="1033" />
             <displayname description="Statut de l’activité" languagecode="1036" />
+            <displayname description="Activity Status" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Status of the activity." languagecode="1033" />
             <Description description="Statut de l’activité." languagecode="1036" />
+            <Description description="Status of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="StatusCode">
@@ -3159,32 +3159,32 @@
               <displayname description="Raison du statut" languagecode="1036" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the activity." languagecode="1033" />
               <Description description="Raison du statut de l’activité." languagecode="1036" />
+              <Description description="Reason for the status of the activity." languagecode="1033" />
             </Descriptions>
             <statuses>
               <status value="1" state="0">
                 <labels>
-                  <label description="Open" languagecode="1033" />
                   <label description="Ouverte" languagecode="1036" />
+                  <label description="Open" languagecode="1033" />
                 </labels>
               </status>
               <status value="2" state="1">
                 <labels>
-                  <label description="Completed" languagecode="1033" />
                   <label description="Terminée" languagecode="1036" />
+                  <label description="Completed" languagecode="1033" />
                 </labels>
               </status>
               <status value="3" state="2">
                 <labels>
-                  <label description="Canceled" languagecode="1033" />
                   <label description="Annulée" languagecode="1036" />
+                  <label description="Canceled" languagecode="1033" />
                 </labels>
               </status>
               <status value="4" state="3">
                 <labels>
-                  <label description="Scheduled" languagecode="1033" />
                   <label description="Prévue" languagecode="1036" />
+                  <label description="Scheduled" languagecode="1033" />
                 </labels>
               </status>
             </statuses>
@@ -3194,8 +3194,8 @@
             <displayname description="Raison du statut" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Reason for the status of the activity." languagecode="1033" />
             <Description description="Raison du statut de l’activité." languagecode="1036" />
+            <Description description="Reason for the status of the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="Subject">
@@ -3236,8 +3236,8 @@
             <displayname description="Sujet" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Subject associated with the activity." languagecode="1033" />
             <Description description="Sujet associé à l’activité." languagecode="1036" />
+            <Description description="Subject associated with the activity." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="TimeZoneRuleVersionNumber">
@@ -3406,8 +3406,8 @@
             <displayname description="Code de fuseau horaire pour la conversion UTC" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Time zone code that was in use when the record was created." languagecode="1033" />
             <Description description="Code du fuseau horaire utilisé à la création de l'enregistrement." languagecode="1036" />
+            <Description description="Time zone code that was in use when the record was created." languagecode="1033" />
           </Descriptions>
         </attribute>
       </attributes>

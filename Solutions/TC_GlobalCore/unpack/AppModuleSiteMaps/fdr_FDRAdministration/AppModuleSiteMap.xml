@@ -13,10 +13,10 @@
       </Titles>
       <Group Id="NewGroup_67ee593c" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
-          <Title LCID="1033" Title="MOC Registration" />
           <Title LCID="1036" Title="Inscription de contenant" />
+          <Title LCID="1033" Title="MOC Registration" />
         </Titles>
-        <SubArea Id="NewSubarea_a31a8f84" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_servicerequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_ee51a0e4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_servicerequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
         <SubArea Id="NewSubArea_8b6836c8" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_servicerequestservicetask" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="Time Tracking" />
@@ -49,7 +49,11 @@
         <Titles>
           <Title LCID="1033" Title="External Requests" />
         </Titles>
-        <SubArea Id="NewSubArea_96cc2a1e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_submission" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_96cc2a1e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="fdr_submission" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Submission" />
+          </Titles>
+        </SubArea>
       </Group>
     </Area>
     <Area Id="NewArea_bdef809b" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
