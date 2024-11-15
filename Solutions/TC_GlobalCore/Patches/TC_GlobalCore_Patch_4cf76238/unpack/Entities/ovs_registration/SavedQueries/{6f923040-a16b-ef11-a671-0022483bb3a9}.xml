@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6f923040-a16b-ef11-a671-0022483bb3a9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_registrationid">
+          <cell name="ovs_registration_number_num" width="158" />
+          <cell name="ovs_moc_registration_name_txt" width="155" />
+          <cell name="ovs_registration_type_id" width="138" />
+          <cell name="statuscode" width="119" />
+          <cell name="ovs_date_initial_registration_dte" width="211" />
+          <cell name="ovs_expirydate" width="109" />
+          <cell name="ovs_moc_program_cd" width="124" />
+          <cell name="a_5b09ddba5b0944bfb67604ce19a81bd5.ovs_cdriskscore" width="186" />
+          <cell name="a_5b09ddba5b0944bfb67604ce19a81bd5.ovs_cdriskcategory" width="205" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ovs_registration">
+          <attribute name="ovs_registrationid" />
+          <attribute name="ovs_moc_registration_name_txt" />
+          <attribute name="ovs_registration_type_id" />
+          <attribute name="statuscode" />
+          <attribute name="ovs_date_initial_registration_dte" />
+          <attribute name="ovs_expirydate" />
+          <attribute name="ovs_moc_program_cd" />
+          <attribute name="ovs_registration_number_num" />
+          <link-entity alias="a_5b09ddba5b0944bfb67604ce19a81bd5" name="ovs_mocregistration" to="ovs_operation_id" from="ovs_mocregistrationid" link-type="outer" visible="false">
+            <attribute name="ovs_cdriskscore" />
+            <attribute name="ovs_cdriskcategory" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="FDR Related Registrations" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="FDR Registration - &gt;Related Registrations" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

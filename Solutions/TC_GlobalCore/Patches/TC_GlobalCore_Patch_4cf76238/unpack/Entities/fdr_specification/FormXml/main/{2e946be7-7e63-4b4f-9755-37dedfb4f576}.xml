@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2e946be7-7e63-4b4f-9755-37dedfb4f576}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d1d0d99a-a262-41f8-96ce-722b294dd880}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb3624a1-458a-471a-b8da-21bdc1e8d7c9}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a2a02124-fb45-4680-8fb3-f48e8896b4ca}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_name" uniqueid="{036d68da-5471-ebbe-b523-b343b19519a0}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa238c08-fd28-4323-b1f6-300dff287cf0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Specification Categories" languagecode="1033" />
+                        </labels>
+                        <control id="fdr_specificationcategories" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_specificationcategories" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ee76021-af41-4005-aa77-7dc98d284223}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="English Name" languagecode="1033" />
+                          <label description="Nom anglais" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_englishname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_englishname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14c1c502-cbff-4f25-8df4-85c40980d0a4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="French Name" languagecode="1033" />
+                          <label description="Nom français" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_frenchname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_frenchname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24eb87a0-8e5b-4652-bc56-a94be713fb3f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="English Description" languagecode="1033" />
+                          <label description="Description en anglais" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_englishdescription" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_englishdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f2c67b4e-f993-47b9-b11e-785bf6305af4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="French Description" languagecode="1033" />
+                          <label description="Description française" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_frenchdescription" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_frenchdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cee91894-9603-4f82-aa48-54b61ca22374}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Legislation Source" languagecode="1033" />
+                          <label description="Source de réglementation" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_legislationsource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_legislationsource" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{57506b83-8eb6-4e78-a856-3566fd658fdb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b522b891-5dba-47fd-947d-3db9cb13ccf6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fe01621c-3ea1-452f-a55e-844208f242fc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f12fb337-84a0-4076-9482-b08326c4c429}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bb009d4a-e803-416e-9290-7e51e3c2e896}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{e45b1dc0-09ec-44c2-808e-b46d4d7f6cce}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{19e61ba9-b269-4cd5-bbd5-a1a5961dcf29}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{ec5a7f9d-19fb-495f-a0a6-18a1ba7d73cf}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="header_modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{088e9de8-e08d-413f-b89f-d4fab0344dfe}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{64008b40-9095-4991-a096-0711a69aa414}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6a74d576-c6a3-4a3b-9bad-5042b46a24c0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{89b60326-01ef-479b-9c15-e77040207a28}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

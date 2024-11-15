@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0fba53a8-beaf-461f-abe1-6132a3fbdee2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fdr_name" select="1" icon="1" preview="1">
+        <row name="result" id="fdr_servicerequestid">
+          <cell name="fdr_name" width="300" />
+          <cell name="fdr_site" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_82f50132c2d6ec11a7b50022483c5d62.ovs_legalname" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="fdr_operation" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_6af50132c2d6ec11a7b50022483c5d62.fdr_registrationissuedate" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_6af50132c2d6ec11a7b50022483c5d62.ovs_registrationexpiry" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="100" />
+          <cell name="fdr_relatedworkorder" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_72f50132c2d6ec11a7b50022483c5d62.statecode" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_fcb8ba90cd1c4cf9a3c8724d035f7f01.fdr_standardmetind" width="208" />
+          <cell name="fdr_tgs_duration" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="fdr_tss_duration" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="fdr_daysremaining" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="fdr_servicerequest">
+          <attribute name="fdr_name" />
+          <order attribute="fdr_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="fdr_site" />
+          <attribute name="ownerid" />
+          <link-entity alias="a_6af50132c2d6ec11a7b50022483c5d62" name="ovs_mocregistration" from="ovs_mocregistrationid" to="fdr_operation" link-type="outer" visible="false">
+            <attribute name="fdr_registrationissuedate" />
+            <attribute name="ovs_registrationexpiry" />
+          </link-entity>
+          <link-entity alias="a_82f50132c2d6ec11a7b50022483c5d62" name="account" from="accountid" to="fdr_site" link-type="outer" visible="false">
+            <attribute name="ovs_legalname" />
+          </link-entity>
+          <attribute name="fdr_relatedworkorder" />
+          <attribute name="fdr_tss_duration" />
+          <attribute name="fdr_tgs_duration" />
+          <attribute name="statuscode" />
+          <link-entity alias="a_72f50132c2d6ec11a7b50022483c5d62" name="msdyn_workorder" from="msdyn_workorderid" to="fdr_relatedworkorder" link-type="outer" visible="false">
+            <attribute name="statecode" />
+          </link-entity>
+          <attribute name="fdr_operation" />
+          <link-entity alias="a_fcb8ba90cd1c4cf9a3c8724d035f7f01" name="fdr_servicerequestperformance" to="fdr_servicerequestperformance" from="fdr_servicerequestperformanceid" link-type="outer" visible="false">
+            <attribute name="fdr_standardmetind" />
+          </link-entity>
+          <attribute name="fdr_daysremaining" />
+          <attribute name="fdr_servicerequestid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Service Requests" languagecode="1033" />
+      <LocalizedName description="Demandes de services actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

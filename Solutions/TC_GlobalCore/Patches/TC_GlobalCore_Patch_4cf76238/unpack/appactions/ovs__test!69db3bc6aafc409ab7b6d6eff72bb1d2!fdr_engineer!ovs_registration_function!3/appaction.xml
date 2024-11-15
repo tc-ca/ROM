@@ -1,0 +1,31 @@
+<appaction uniquename="ovs__test!69db3bc6aafc409ab7b6d6eff72bb1d2!fdr_engineer!ovs_registration_function!3">
+  <appmoduleid>
+    <uniquename>fdr_engineer</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="test">
+    <label description="test" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>ovs_registration_function</logicalname>
+  </contextentity>
+  <contextvalue>ovs_registration_function</contextvalue>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>3</location>
+  <name>test!69db3bc6aafc409ab7b6d6eff72bb1d2</name>
+  <onclickeventjavascriptfunctionname>filterAddExistingContact</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>570b3e95-7e6f-ef11-a671-0022483bb3a9</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100047.5000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

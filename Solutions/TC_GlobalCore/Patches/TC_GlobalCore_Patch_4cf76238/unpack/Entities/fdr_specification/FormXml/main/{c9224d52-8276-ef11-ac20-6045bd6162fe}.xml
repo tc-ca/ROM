@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c9224d52-8276-ef11-ac20-6045bd6162fe}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d1d0d99a-a262-41f8-96ce-722b294dd880}" IsUserDefined="1" labelid="{763c9a12-b688-4cc4-b2b0-5c0b85bf6a39}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb3624a1-458a-471a-b8da-21bdc1e8d7c9}" labelid="{c296ebd6-9093-4d99-8eac-16f41acd635a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a2a02124-fb45-4680-8fb3-f48e8896b4ca}" showlabel="true" locklevel="0" visible="false" labelid="{abf2ceba-37ec-4abf-8454-50127f2f0c95}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_name" uniqueid="{036d68da-5471-ebbe-b523-b343b19519a0}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa238c08-fd28-4323-b1f6-300dff287cf0}" locklevel="0" colspan="1" rowspan="1" labelid="{d90ee6ce-2cf5-45c4-a0c8-ace142c22b9f}">
+                        <labels>
+                          <label description="Specification Categories" languagecode="1033" />
+                        </labels>
+                        <control id="fdr_specificationcategories" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_specificationcategories" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ee76021-af41-4005-aa77-7dc98d284223}" locklevel="0" colspan="1" rowspan="1" labelid="{70be1b5a-1f2c-4c8e-810f-ed9957e25d64}">
+                        <labels>
+                          <label description="English Name" languagecode="1033" />
+                          <label description="Nom anglais" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_englishname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_englishname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14c1c502-cbff-4f25-8df4-85c40980d0a4}" locklevel="0" colspan="1" rowspan="1" labelid="{83c388b7-691a-4e92-9ee1-33a6eef7b9f9}">
+                        <labels>
+                          <label description="French Name" languagecode="1033" />
+                          <label description="Nom français" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_frenchname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_frenchname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24eb87a0-8e5b-4652-bc56-a94be713fb3f}" locklevel="0" colspan="1" rowspan="1" labelid="{7dc9c7b5-7324-4119-b045-01e058e8e5b4}">
+                        <labels>
+                          <label description="English Description" languagecode="1033" />
+                          <label description="Description en anglais" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_englishdescription" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_englishdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f2c67b4e-f993-47b9-b11e-785bf6305af4}" locklevel="0" colspan="1" rowspan="1" labelid="{8aa691c4-e833-4a5c-847b-c06c29c65b1c}">
+                        <labels>
+                          <label description="French Description" languagecode="1033" />
+                          <label description="Description française" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_frenchdescription" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_frenchdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cee91894-9603-4f82-aa48-54b61ca22374}" locklevel="0" colspan="1" rowspan="1" labelid="{35a53026-9905-4504-ac2b-44b2939f8eb1}">
+                        <labels>
+                          <label description="Legislation Source" languagecode="1033" />
+                          <label description="Source de réglementation" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_legislationsource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_legislationsource" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73aa1666-e870-4645-aa18-40bc385e145b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Design" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_designid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_designid" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{EED782E9-8276-EF11-AC20-6045BD6162FE}</DefaultViewId>
+                            <AvailableViewIds>{A0630836-8E87-ED11-81AD-0022483D0343},{32FB82B1-4997-40EA-80F2-BE7935AABBAE},{33B1A6A6-03A7-41A6-AAE7-7E39F6F62DA2},{F99484A8-806B-EF11-A671-000D3A843B46},{EED782E9-8276-EF11-AC20-6045BD6162FE},{2BB99766-4E49-49EC-AAB4-0361D8663CAF},{B99CC18B-7B6F-4071-885B-C181E76BA477},{A00A7F05-2472-45A1-B470-41CF30BA7F19}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{57506b83-8eb6-4e78-a856-3566fd658fdb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b522b891-5dba-47fd-947d-3db9cb13ccf6}" showlabel="false" labelid="{41f5c599-ff7e-4fed-afa8-e8b6b45d6d6d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fe01621c-3ea1-452f-a55e-844208f242fc}" showlabel="false" labelid="{dc9f7fe6-9c18-4401-bced-c0da648ee5b7}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f12fb337-84a0-4076-9482-b08326c4c429}" showlabel="false" labelid="{7b87a816-c27b-4153-adf3-4dc702bb64dc}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bb009d4a-e803-416e-9290-7e51e3c2e896}" locklevel="0" colspan="1" rowspan="1" labelid="{105a50e8-35fe-4915-b208-ae73bb512596}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{e45b1dc0-09ec-44c2-808e-b46d4d7f6cce}" locklevel="0" colspan="1" rowspan="1" labelid="{2b07f8ec-19da-4219-9d10-c5648306aab1}">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{19e61ba9-b269-4cd5-bbd5-a1a5961dcf29}" locklevel="0" colspan="1" rowspan="1" labelid="{7fdc7bcd-8f9d-4daf-a92a-3d5c10848055}">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le" languagecode="1036" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{ec5a7f9d-19fb-495f-a0a6-18a1ba7d73cf}" locklevel="0" colspan="1" rowspan="1" labelid="{50ece992-5203-4595-9a9e-054c3b507a51}">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Modifié le" languagecode="1036" />
+              </labels>
+              <control id="header_modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{088e9de8-e08d-413f-b89f-d4fab0344dfe}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{64008b40-9095-4991-a096-0711a69aa414}" showlabel="false" labelid="{e5faa0f1-dde6-4e1e-bd72-72628d0b44ea}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6a74d576-c6a3-4a3b-9bad-5042b46a24c0}" showlabel="false" labelid="{54e1ff85-fc78-426f-8ead-ebac460aa309}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{89b60326-01ef-479b-9c15-e77040207a28}" showlabel="false" labelid="{52facef2-d081-496b-83a1-b2794bd32ad6}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FDR : Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

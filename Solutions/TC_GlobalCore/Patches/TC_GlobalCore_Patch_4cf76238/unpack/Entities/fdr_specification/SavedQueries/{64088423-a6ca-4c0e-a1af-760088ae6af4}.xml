@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{64088423-a6ca-4c0e-a1af-760088ae6af4}</savedqueryid>
+    <layoutxml>
+      <grid name="fdr_specifications" jump="fdr_name" select="1" icon="1" preview="0">
+        <row name="fdr_specification" id="fdr_specificationid">
+          <cell name="fdr_name" width="300" />
+          <cell name="fdr_englishdescription" width="152" />
+          <cell name="fdr_specificationcategories" width="178" />
+          <cell name="statecode" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="modifiedon" width="113" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="fdr_specification">
+          <attribute name="fdr_specificationid" />
+          <attribute name="fdr_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="fdr_englishdescription" />
+          <attribute name="fdr_specificationcategories" />
+          <attribute name="statecode" />
+          <attribute name="modifiedon" />
+          <order attribute="fdr_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Specification Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

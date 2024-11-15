@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0ccb75e7-363d-ef11-a316-002248adc0af}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{be7f37d9-01c2-4b71-9c87-3d20212a1245}" name="tab_1" showlabel="false" labelid="{08840720-058a-41ce-9b68-844e072d892c}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{2f447965-bec3-4d30-b0aa-bdc4683dbd06}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{dc796903-626a-4934-ac2c-6f9cdac9b0d7}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1a86085b-ce40-4173-b085-fe7608592c31}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Address Type" languagecode="1033" />
+                          <label description="Type d'adresse" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_address_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_address_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b548291-9a2b-313c-6497-3703651c6667}" showlabel="true" locklevel="0" labelid="{e90d3043-21a0-41da-a1f6-ffa9d008e74a}">
+                        <labels>
+                          <label description="Street 1" languagecode="1033" />
+                          <label description="Rue 1" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06302407-1261-6610-6a80-edb2c7d66515}" showlabel="true" locklevel="0" labelid="{6bab9c22-ff60-41d4-8b53-dd37282b0ff6}">
+                        <labels>
+                          <label description="Street 2" languagecode="1033" />
+                          <label description="Rue 2" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e37b210c-85ba-a049-4316-8bbcd19b925e}" showlabel="true" locklevel="0" labelid="{5b8b189e-35f4-47d4-afdd-8c895c13bbe6}">
+                        <labels>
+                          <label description="Street 3" languagecode="1033" />
+                          <label description="Rue 3" languagecode="1036" />
+                        </labels>
+                        <control id="address1_line3" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_line3" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87d79740-24ae-b9dd-454d-862e20c10057}" showlabel="true" locklevel="0" labelid="{be7edb99-ea44-44db-bec2-432034ec90f1}">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                          <label description="Ville" languagecode="1036" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76d21390-dbbc-274b-1833-73518082baec}" showlabel="true" locklevel="0" labelid="{99996033-8001-43e8-a506-f2fd024a2718}">
+                        <labels>
+                          <label description="State/Province" languagecode="1033" />
+                          <label description="État/province" languagecode="1036" />
+                        </labels>
+                        <control id="address1_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_stateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d32c7ce6-add4-bd28-7177-c452e3b1e70a}" showlabel="true" locklevel="0" labelid="{37f0c46d-9668-423b-9e96-c27fbcd573a4}">
+                        <labels>
+                          <label description="ZIP/Postal Code" languagecode="1033" />
+                          <label description="Code postal/ZIP" languagecode="1036" />
+                        </labels>
+                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a83cabd1-5e6a-eb98-5a62-a81719b754de}" showlabel="true" locklevel="0" labelid="{997867b5-98dd-4018-ad67-15495846e4ee}">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                          <label description="Pays" languagecode="1036" />
+                        </labels>
+                        <control id="address1_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="address1_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00cbe673-45ed-5793-5b6a-26c9c1040659}" showlabel="true" locklevel="0" labelid="{40e1bcfc-152c-4960-8da3-bbc0073a31ab}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                          <label description="Région" languagecode="1036" />
+                        </labels>
+                        <control id="territoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="territoryid" disabled="false" uniqueid="{c243a2d2-35bd-57c1-95bd-63833db7d2a4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AD81B2CA-9789-4465-8C56-94C10830A6ED}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b3337e2-3c91-e7db-28e7-a16b09344b70}" showlabel="true" locklevel="0" labelid="{7b97c866-9505-4888-91f5-510ab31d9c5b}">
+                        <labels>
+                          <label description="Latitude" languagecode="1033" />
+                          <label description="Latitude" languagecode="1036" />
+                        </labels>
+                        <control id="address1_latitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="address1_latitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2628edc5-650d-0806-d85e-58b903665b57}" showlabel="true" locklevel="0" labelid="{d493fb0a-4d42-4dac-b6a2-c2c0e4d16d47}">
+                        <labels>
+                          <label description="Longitude" languagecode="1033" />
+                          <label description="Longitude" languagecode="1036" />
+                        </labels>
+                        <control id="address1_longitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="address1_longitude" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0f9f506b-ddf2-441c-aafe-6aef33be1f43}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Quarter / LSD" languagecode="1033" />
+                          <label description="Quartier/subdivision officielle" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lld_quarter" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_lld_quarter" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39339f3d-89c2-4a68-9127-b1f68085be81}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                          <label description="Section" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lld_section" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_lld_section" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9c8ca49-2351-49fa-98ca-3c1d42b84534}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Township" languagecode="1033" />
+                          <label description="Canton" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lld_township" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_lld_township" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e965fe27-9ed4-4e8d-a086-b1cada1073fb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Range" languagecode="1033" />
+                          <label description="Aire de répartition" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lld_range" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_lld_range" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="23">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Site Address DGAIS" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Site Address used by DGAIS" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

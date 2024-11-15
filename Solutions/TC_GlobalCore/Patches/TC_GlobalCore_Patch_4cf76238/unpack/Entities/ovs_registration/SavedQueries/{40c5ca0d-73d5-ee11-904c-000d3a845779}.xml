@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{40c5ca0d-73d5-ee11-904c-000d3a845779}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_registrationid">
+          <cell name="ovs_registration_number_num" width="158" />
+          <cell name="a_1a1607601a174eb599388d6cc57bc539.name" width="219" />
+          <cell name="a_1a1607601a174eb599388d6cc57bc539.ovs_legalname" width="195" />
+          <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_line1" width="169" />
+          <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_city" width="150" />
+          <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_stateorprovince" width="208" />
+          <cell name="a_1a1607601a174eb599388d6cc57bc539.address1_postalcode" width="218" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ovs_registration">
+          <attribute name="ovs_registrationid" />
+          <link-entity alias="a_1a1607601a174eb599388d6cc57bc539" name="account" to="ovs_organization_id" from="accountid" link-type="outer" visible="false">
+            <attribute name="name" />
+            <attribute name="ovs_legalname" />
+            <attribute name="address1_city" />
+            <attribute name="address1_stateorprovince" />
+            <attribute name="address1_postalcode" />
+            <attribute name="address1_line1" />
+          </link-entity>
+          <attribute name="statecode" />
+          <attribute name="ovs_registration_number_num" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.160.12.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="CRS Registrations View" languagecode="1033" />
+      <LocalizedName description="Inscriptions SIC" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

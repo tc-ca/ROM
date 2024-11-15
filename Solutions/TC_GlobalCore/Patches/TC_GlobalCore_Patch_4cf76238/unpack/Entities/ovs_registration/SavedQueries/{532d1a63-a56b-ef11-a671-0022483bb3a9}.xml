@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{532d1a63-a56b-ef11-a671-0022483bb3a9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_registrationid">
+          <cell name="ovs_registration_number_num" width="158" />
+          <cell name="ovs_moc_registration_name_txt" width="163" />
+          <cell name="ovs_registration_type_id" width="155" />
+          <cell name="ovs_date_initial_registration_dte" width="211" />
+          <cell name="ovs_date_registration_issue_dte" width="171" />
+          <cell name="ovs_expirydate" width="109" />
+          <cell name="ovs_moc_program_cd" width="124" />
+          <cell name="ovs_organization_id" width="113" />
+          <cell name="ovs_site_id" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="119" />
+          <cell name="createdon" width="125" />
+          <cell name="ovs_operation_id" width="112" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="ovs_registration">
+          <attribute name="ovs_registrationid" />
+          <attribute name="createdon" />
+          <attribute name="ovs_date_initial_registration_dte" />
+          <attribute name="ovs_moc_program_cd" />
+          <attribute name="ovs_moc_registration_name_txt" />
+          <attribute name="ovs_operation_id" />
+          <attribute name="ovs_organization_id" />
+          <attribute name="ovs_date_registration_issue_dte" />
+          <attribute name="ovs_expirydate" />
+          <attribute name="ovs_registration_type_id" />
+          <attribute name="ovs_site_id" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ovs_registration_number_num" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="FDR Active Registrations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

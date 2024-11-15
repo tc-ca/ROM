@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{30ff025e-03b7-ee11-a569-0022483cc59f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_submissionid">
+          <cell name="ovs_name" width="238" />
+          <cell name="ovs_registration_id" width="199" />
+          <cell name="ovs_version_number_num" width="133" />
+          <cell name="ovs_date_submit_dte" width="128" />
+          <cell name="ovs_date_decision_dte" width="120" />
+          <cell name="ovs_date_expiry_dte" width="113" />
+          <cell name="createdon" width="105" />
+          <cell name="statuscode" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ovs_submission">
+          <attribute name="ovs_name" />
+          <attribute name="ovs_submissionid" />
+          <attribute name="createdon" />
+          <attribute name="ovs_date_decision_dte" />
+          <attribute name="ovs_date_expiry_dte" />
+          <attribute name="ovs_date_submit_dte" />
+          <attribute name="ovs_registration_id" />
+          <attribute name="statuscode" />
+          <attribute name="ovs_version_number_num" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Submissions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

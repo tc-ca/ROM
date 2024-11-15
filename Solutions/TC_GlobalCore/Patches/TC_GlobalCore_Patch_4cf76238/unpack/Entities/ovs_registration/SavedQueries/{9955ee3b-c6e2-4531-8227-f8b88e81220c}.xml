@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9955ee3b-c6e2-4531-8227-f8b88e81220c}</savedqueryid>
+    <layoutxml>
+      <grid name="ovs_registrations" jump="ovs_name" select="1" icon="1" preview="0">
+        <row name="ovs_registration" id="ovs_registrationid">
+          <cell name="ovs_name" width="158" />
+          <cell name="ovs_moc_registration_name_txt" width="163" />
+          <cell name="ovs_organization_id" width="113" />
+          <cell name="statuscode" width="119" />
+          <cell name="statecode" width="100" />
+          <cell name="ovs_site_id" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_registration">
+          <attribute name="ovs_registrationid" />
+          <attribute name="ovs_name" />
+          <order attribute="ovs_name" descending="false" />
+          <attribute name="ovs_moc_registration_name_txt" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="ovs_organization_id" />
+          <attribute name="ovs_site_id" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Registration Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

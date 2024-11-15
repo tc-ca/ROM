@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f892a633-b4d5-449d-9f1b-fdefd3857124}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{ed218e84-97b1-4a04-9491-839253f7a486}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{68ba608d-0983-4464-a8d9-a0d9839fcf00}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e9d5bea8-c169-32c6-40b2-268ba81575e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Request Function" languagecode="1033" />
+                          <label description="Fonction de la demande de service" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_servicerequestfunction" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_servicerequestfunction" disabled="false" uniqueid="{a44811a8-a1e3-515b-e748-b5997794cc41}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27b65cb1-6318-447b-a87a-fa973581e09c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registration Function Id" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_registration_function_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_registration_function_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7aedbce0-bbc0-a385-c6eb-48277c127da7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Limitation" languagecode="1033" />
+                          <label description="Limitation" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_limitation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_limitation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b04c83b0-d830-b936-8634-0d2d14d98199}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Limitation Text (EN)" languagecode="1033" />
+                          <label description="Text (EN)" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_texten" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_texten" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24e17793-62e3-bcde-c055-353c0228923d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Limitation Text (FR)" languagecode="1033" />
+                          <label description="Text (FR)" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_textfr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_textfr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9a2b2d2-1c19-4139-c90c-076627c71728}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Maximum Pressure (kPa)" languagecode="1033" />
+                          <label description="Pression Max (kPa)" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_maximumpressure" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="fdr_maximumpressure" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{07d4c9ce-b3b8-6207-1433-21817b086add}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Minimum Pressure (kPa)" languagecode="1033" />
+                          <label description="Pression Min (kPa)" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_minimumpressure" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="fdr_minimumpressure" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c7ed801-2308-cb5b-a218-dcb33b5750ab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Dimensions (mm)" languagecode="1033" />
+                          <label description="Dimensions (mm)" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_dimensions" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="fdr_dimensions" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4421e33-8456-2491-968b-66b94a4ce70d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="English Description" languagecode="1033" />
+                          <label description="Description" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fdr_description" disabled="false" uniqueid="{3592b39d-3756-468a-6504-5bd38ccd1d76}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{133e592b-ca28-a67a-2a24-84dc146967cc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="French Description" languagecode="1033" />
+                          <label description="Description française" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_descriptionfr" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fdr_descriptionfr" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{9704a130-2ca5-4073-be53-fe697d2f9f11}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{322c6b3c-bead-2cd4-d72b-8edb49676d98}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{e8d7c7c5-93b8-4083-9aef-806a2b338b5d}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                    <label description="section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b59a2806-e7ab-4103-bf0a-197e304e9934}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{a802d9aa-81db-96a7-1ce5-7c44471b2b40}" />
+        <Library name="fdr_functionlimitation_quickcreate" libraryUniqueId="{1dabe5e4-4627-2d31-c86c-a0be89330266}" />
+        <Library name="ovs_RegistrationFunctionLimitation_QuickCreate" libraryUniqueId="{50d534be-6d74-a8dd-e2d8-50531ae3c200}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Function_Limitation_Main.OnLoad" libraryName="ovs_RegistrationFunctionLimitation_QuickCreate" handlerUniqueId="{46bc0709-1ecd-e83b-5889-268575ce8c66}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="Function_Limitation_Main.OnLoad" libraryName="fdr_functionlimitation_quickcreate" handlerUniqueId="{6086bb4a-7b3b-c40a-e0e0-d05274659b94}" enabled="false" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Limitations Quick Create Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

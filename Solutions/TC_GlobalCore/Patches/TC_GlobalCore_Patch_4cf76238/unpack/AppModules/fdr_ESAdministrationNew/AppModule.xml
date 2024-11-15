@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>fdr_ESAdministrationNew</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="59" id="{88de94cc-8b5e-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="59" id="{a3a9ee47-5093-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="1" schemaName="fdr_equipment" />
+    <AppModuleComponent type="1" schemaName="fdr_costrecoveryattribute" />
+    <AppModuleComponent type="1" schemaName="fdr_requestequivalencycertificate" />
+    <AppModuleComponent type="1" schemaName="fdr_requiredregistration" />
+    <AppModuleComponent type="1" schemaName="fdr_servicerequestservicetask" />
+    <AppModuleComponent type="1" schemaName="fdr_designmarkingrequirement" />
+    <AppModuleComponent type="1" schemaName="fdr_submission" />
+    <AppModuleComponent type="1" schemaName="ovs_registration_function" />
+    <AppModuleComponent type="1" schemaName="fdr_functionscategories" />
+    <AppModuleComponent type="1" schemaName="fdr_specificationcategories" />
+    <AppModuleComponent type="1" schemaName="fdr_regulatoryrequirement" />
+    <AppModuleComponent type="1" schemaName="fdr_limitation" />
+    <AppModuleComponent type="1" schemaName="fdr_certification" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="fdr_program" />
+    <AppModuleComponent type="1" schemaName="fdr_servicerequestfunction" />
+    <AppModuleComponent type="1" schemaName="fdr_functionlimitation" />
+    <AppModuleComponent type="1" schemaName="ovs_submission" />
+    <AppModuleComponent type="1" schemaName="fdr_containerfunction" />
+    <AppModuleComponent type="1" schemaName="fdr_specification" />
+    <AppModuleComponent type="1" schemaName="fdr_containertype" />
+    <AppModuleComponent type="1" schemaName="fdr_function" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="fdr_servicerequest" />
+    <AppModuleComponent type="1" schemaName="msdyn_servicetasktype" />
+    <AppModuleComponent type="1" schemaName="fdr_design" />
+    <AppModuleComponent type="1" schemaName="fdr_registeredmark" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotalert" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorder" />
+    <AppModuleComponent type="1" schemaName="team" />
+    <AppModuleComponent type="1" schemaName="qm_tylegislationsource" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="ovs_registration" />
+    <AppModuleComponent type="1" schemaName="ovs_mocregistration" />
+    <AppModuleComponent type="60" id="{9e0fec78-986b-ef11-a671-000d3a843b46}" />
+    <AppModuleComponent type="60" id="{76e79a3e-6304-ed11-82e6-000d3a848097}" />
+    <AppModuleComponent type="60" id="{82bfb9a7-69fc-ec11-82e6-000d3a8483f6}" />
+    <AppModuleComponent type="60" id="{c7e17dd5-6104-ed11-82e6-000d3a8483f6}" />
+    <AppModuleComponent type="60" id="{2fccee10-bd6b-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="60" id="{3e11afda-dd6e-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="60" id="{c6108101-946b-ef11-a671-0022483c7e68}" />
+    <AppModuleComponent type="60" id="{0b065527-1f35-ed11-9db1-0022483cb62f}" />
+    <AppModuleComponent type="60" id="{788f109d-7b80-ed11-81ad-0022483d0343}" />
+    <AppModuleComponent type="60" id="{ed1cc66c-4c5e-49aa-86f3-125152919325}" />
+    <AppModuleComponent type="60" id="{ca6de007-d51f-493a-b412-1db7d3aea986}" />
+    <AppModuleComponent type="60" id="{d5b01f40-3942-4459-89d2-4251da044e41}" />
+    <AppModuleComponent type="60" id="{eb9b4773-0e19-ef11-840a-6045bd602d21}" />
+    <AppModuleComponent type="60" id="{7287b699-fa38-484b-8848-77b516a7736a}" />
+    <AppModuleComponent type="60" id="{9c6f5c44-c089-4c4a-950c-9538d8f372f6}" />
+    <AppModuleComponent type="60" id="{763a1be5-6911-4ae6-b47c-e62f31b2135d}" />
+    <AppModuleComponent type="62" schemaName="fdr_ESAdministrationNew" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666400}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
+    <AppModuleComponent type="26" id="{35e2fcc9-860e-ed11-b83d-000d3a0c8551}" />
+    <AppModuleComponent type="26" id="{6289ecf9-870e-ed11-b83d-000d3a0c8551}" />
+    <AppModuleComponent type="26" id="{0b7e7b0d-331f-ed11-b83d-000d3a0c8551}" />
+    <AppModuleComponent type="26" id="{68db1e42-d46b-ef11-a671-000d3a843b46}" />
+    <AppModuleComponent type="26" id="{873176c8-b2ae-ec11-983e-000d3a8476c5}" />
+    <AppModuleComponent type="26" id="{95c1e105-6dfc-ec11-82e6-000d3a8483f6}" />
+    <AppModuleComponent type="26" id="{17b7e3b3-67b0-ec11-983e-000d3a84adbc}" />
+    <AppModuleComponent type="26" id="{00d793a4-1f0d-ed11-b83d-000d3a84cfdd}" />
+    <AppModuleComponent type="26" id="{2f040ba1-880e-ed11-b83d-000d3a84cfdd}" />
+    <AppModuleComponent type="26" id="{bb20c95b-1918-ed11-b83f-000d3a84cfdd}" />
+    <AppModuleComponent type="26" id="{906591f6-654c-ec11-8f8e-000d3ae8e96e}" />
+    <AppModuleComponent type="26" id="{b0788597-9f4c-ec11-8f8e-000d3ae8e96e}" />
+    <AppModuleComponent type="26" id="{2253be98-5ad4-eb11-bacc-000d3af38cd4}" />
+    <AppModuleComponent type="26" id="{aa2ba086-5ad4-eb11-bacc-000d3af3999c}" />
+    <AppModuleComponent type="26" id="{e7ba8bd8-440a-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="26" id="{8965dc8d-460a-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="26" id="{fdbc939a-2403-eb11-a813-000d3af3ac0d}" />
+    <AppModuleComponent type="26" id="{61273827-328e-e011-95ae-00155d9cfa02}" />
+    <AppModuleComponent type="26" id="{61273827-328e-e011-95ae-00155d9cfa03}" />
+    <AppModuleComponent type="26" id="{6f923040-a16b-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="26" id="{532d1a63-a56b-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="26" id="{1d78335b-c36b-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="26" id="{5f30311c-c46b-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="26" id="{86028c64-c46b-ef11-a671-0022483bb3a9}" />
+    <AppModuleComponent type="26" id="{a8d4d8d3-71db-eb11-bacb-0022483c561b}" />
+    <AppModuleComponent type="26" id="{72f5d6d9-5f70-ef11-a671-0022483c7e68}" />
+    <AppModuleComponent type="26" id="{1b17cf8f-cf5e-ed11-9562-0022483d0343}" />
+    <AppModuleComponent type="26" id="{19fdd647-da39-ed11-9db0-0022483d0343}" />
+    <AppModuleComponent type="26" id="{dc799dc5-4334-ed11-9db1-0022483d0343}" />
+    <AppModuleComponent type="26" id="{0d3c4b2a-6a6b-ed11-81ab-0022483e130e}" />
+    <AppModuleComponent type="26" id="{51050eb8-5c8c-ed11-81ac-0022483e130e}" />
+    <AppModuleComponent type="26" id="{72634bc6-a56b-ef11-a670-002248b2102e}" />
+    <AppModuleComponent type="26" id="{d75115bd-d1ac-438f-8db1-014113b480e5}" />
+    <AppModuleComponent type="26" id="{155107d2-bcab-4d94-a8e3-04ecf9755ee6}" />
+    <AppModuleComponent type="26" id="{74eeb80a-3bdb-4fc5-a900-0731d1afde9e}" />
+    <AppModuleComponent type="26" id="{95641b8c-b548-440c-9371-12fd166875e9}" />
+    <AppModuleComponent type="26" id="{2376727f-349f-402e-a709-1d780cf60df5}" />
+    <AppModuleComponent type="26" id="{98c7fee1-1d9f-4226-89bb-26e6be7057f8}" />
+    <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+    <AppModuleComponent type="26" id="{7e35f6a5-af6d-40f3-b3aa-3369350f8c35}" />
+    <AppModuleComponent type="26" id="{c6bfb128-7fc1-4512-b5be-3e8b808ba15f}" />
+    <AppModuleComponent type="26" id="{66b15862-fe9c-4485-a24f-5ffb5630551f}" />
+    <AppModuleComponent type="26" id="{8f8f46f2-03b7-ee11-a568-6045bd5e3464}" />
+    <AppModuleComponent type="26" id="{14ea1914-0e2c-4918-8eca-60930324f18f}" />
+    <AppModuleComponent type="26" id="{0fba53a8-beaf-461f-abe1-6132a3fbdee2}" />
+    <AppModuleComponent type="26" id="{ab582fb0-a846-453e-ad88-77f75ce91264}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{b9044922-621a-4114-8946-840548dad688}" />
+    <AppModuleComponent type="26" id="{63ef6d56-dd0b-4e10-a16c-8b7bacf9257c}" />
+    <AppModuleComponent type="26" id="{da8c6b4d-1e30-4208-ac97-8b931a9f5954}" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="ES Administration New" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="msdyn_enablertecopilot">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+    <appsetting settingdefinitionid.uniquename="msdyn_rtecopilotdefaultonruncompleted">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

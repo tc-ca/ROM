@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9e0fec78-986b-ef11-a671-000d3a843b46}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{ff127529-3ddd-471a-b98e-ea0e68fb1e34}" IsUserDefined="1" name="General" labelid="{39f077e2-c75f-479b-b4c2-7b1811222007}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="_section_382" id="4fc7e859-c765-4fcc-9a10-7bf64df07dbc" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{e5926c61-c345-4ba5-aa8b-776e2463e094}">
+                  <labels>
+                    <label description="SERVICE REQUEST" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fdad5b5e-00ee-4421-9cb2-fab2ae0ceb0b}" locklevel="0" colspan="1" rowspan="1" labelid="{8d9fb507-7eb7-48dd-a761-f2b539f5699c}">
+                        <labels>
+                          <label description="CRSD Status" languagecode="1033" />
+                          <label description="Statut de PSRC" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_crsd_status" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="fdr_crsd_status" disabled="true" />
+                      </cell>
+                      <cell id="{1e6e0b2b-8b3b-4693-b196-eae29b25189e}" locklevel="0" colspan="1" rowspan="1" labelid="{2b536e0f-521e-48fe-ad16-44f082e33e01}">
+                        <labels>
+                          <label description="General Service Duration" languagecode="1033" />
+                          <label description="Durée de la demande de service" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_tgs_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="fdr_tgs_duration" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0de81b2b-2ef9-4b50-84d3-dcf5bb9e9fde}" locklevel="0" colspan="1" rowspan="1" labelid="{057c9aac-4767-45c4-ab0a-48e1d5d83c76}">
+                        <labels>
+                          <label description="Days Remaining" languagecode="1033" />
+                          <label description="Nombre de jours restant" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_daysremaining" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="fdr_daysremaining" disabled="true" />
+                      </cell>
+                      <cell id="{6c5d94e1-4a5d-4935-8f0b-6d022fdacb2b}" locklevel="0" colspan="1" rowspan="1" labelid="{f42413cf-b6e8-49f1-bb1a-00a2afbc7d2a}">
+                        <labels>
+                          <label description="Service Standard Duration" languagecode="1033" />
+                          <label description="Durée de la norme de service" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_tss_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="fdr_tss_duration" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8f1d4962-fb41-44f5-a82e-52e22d8a5889}" name="General" columns="1" locklevel="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" labelid="{6939a980-e0ef-4627-a472-c3619867d076}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{571260de-84d6-6e03-3434-5509ac122d65}" showlabel="true" locklevel="0" labelid="{1dbc655b-2865-46aa-9e5f-652eaf95378c}">
+                        <labels>
+                          <label description="Service Request Type" languagecode="1033" />
+                          <label description="Type de demande de service" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_srtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fdr_srtype" disabled="true" uniqueid="{a26e9d00-8a31-0042-b619-2ced884dbdab}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e3854d1-8dcf-41ba-987d-00d737064865}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Submission Id" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_submission_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_submission_id" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{18a51365-aa74-4674-b49d-78c103477445}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1725569296565" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl_Submission" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_submission_id">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ovs_submission"&gt;d7f01d02-c96b-ef11-a671-0022483c7e68&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1993fcb-f2a2-4c53-9d5f-643fe6c4515a}" locklevel="0" colspan="1" rowspan="1" labelid="{c580b92b-040d-4154-84cf-d2b42e60b566}">
+                        <labels>
+                          <label description="Registration Type" languagecode="1033" />
+                          <label description="Type d'inscription" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_containertype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_containertype" disabled="true">
+                          <parameters />
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{ff481cdb-0069-4a8c-b621-c1f7556f6275}" colspan="1" rowspan="1" labelid="{f2095fb0-5055-429d-b533-7db554154463}">
+                        <labels>
+                          <label description="New QV control 1650506799661" languagecode="1033" />
+                          <label description="Type d'inscription" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1650506799661" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_containertype" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="fdr_containertype"&gt;366bdbda-af80-4f4b-8ef7-2378d8239b70&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16577e36-9094-41c1-a8bc-205877982c56}" locklevel="0" colspan="1" rowspan="1" labelid="{e090b0d9-a696-41bf-9c22-44dcd464060b}">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                          <label description="Site" languagecode="1036" />
+                        </labels>
+                        <control id="header_fdr_site" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_site" disabled="true">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                            <DefaultViewId>{7B62C6EE-865B-EB11-A812-000D3A84DB40}</DefaultViewId>
+                            <AvailableViewIds>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB},{61273827-328E-E011-95AE-00155D9CFA03},{61273827-328E-E011-95AE-00155D9CFA02},{15C63745-0A6E-4322-8416-A62C84D90279},{CFBCD7AF-AEE5-4E45-8ECC-C040D4020581},{49FB9771-09E1-4E70-B193-198752493577},{00000000-0000-0000-00AA-000010001002},{82CC4863-AA98-EB11-B1AC-000D3AE93A4F},{65FFAF9A-E8C5-432D-860B-32F841B00D87},{A0BE1CB3-8525-EC11-B6E6-0022483CB5CD},{6E812D65-8725-EC11-B6E6-0022483CB5CD},{40662D0E-D694-EC11-B3FE-000D3A0C829E},{84F03662-9E28-EC11-B6E6-0022483CB5CD},{C8DB5060-4A4D-EC11-8F8E-000D3AE9A753},{D540E97A-C892-EC11-B3FE-000D3A0C187C},{048F4D4F-C892-EC11-B3FE-000D3A0C187C},{3FFFABCB-74C0-EC11-983E-0022483DB9D8},{7DE498C2-508F-49A4-B2E8-D550D5B1B9EE},{00000000-0000-0000-00AA-000010001031},{00000000-0000-0000-00AA-000010001001},{D234426E-1F37-4944-9255-50E19B541C4C},{AA2BA086-5AD4-EB11-BACC-000D3AF3999C},{2253BE98-5AD4-EB11-BACC-000D3AF38CD4},{FDBC939A-2403-EB11-A813-000D3AF3AC0D},{8965DC8D-460A-EB11-A813-000D3AF3A7A7},{D15E48F6-E8FE-E811-8165-000D3AF92C6E},{0F928982-20D3-E811-815B-000D3AFD1036},{7B62C6EE-865B-EB11-A812-000D3A84DB40},{FF211CB9-117A-EC11-8D20-000D3AFF1221},{7C363E5F-5BD4-EB11-BACC-000D3AF3999C},{E7BA8BD8-440A-EB11-A813-000D3AF3A7A7},{906591F6-654C-EC11-8F8E-000D3AE8E96E},{57962920-5929-EB11-A813-000D3AF3A7A7}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9f1624f0-f6b1-43cf-b285-552b9dee3e40}" locklevel="0" colspan="1" rowspan="1" labelid="{082a667b-d722-4ec5-ab64-7d289e461617}">
+                        <labels>
+                          <label description="Service Request Submission Date" languagecode="1033" />
+                          <label description="Date de soumission de la demande de service" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_submissiondate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_submissiondate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c983367-1192-255a-48e9-3ea8613a7d60}" showlabel="true" locklevel="0" visible="false" labelid="{8c93ad2c-24f3-456c-aa19-c6664961c14c}">
+                        <labels>
+                          <label description="Refusal Justification" languagecode="1033" />
+                          <label description="Justification du refus" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_refusaljustification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fdr_refusaljustification" disabled="false" uniqueid="{6476bc69-7cb3-00c5-26dc-53253a9455dc}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9d5907f-3980-404f-a3f9-cc23612a3304}" locklevel="0" colspan="1" rowspan="1" labelid="{33e0c66c-e6ab-4698-9a4a-6081952d948b}">
+                        <labels>
+                          <label description="Related Work Order" languagecode="1033" />
+                          <label description="Ordre de travail correspondant" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_relatedworkorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_relatedworkorder" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{aefab680-4605-42f7-bcdb-d583b30fc08b}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1725570006339" languagecode="1033" />
+                          <label description="Attribut de recouvrement des coûts" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1725570006339" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_costrecoveryattribute">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="fdr_costrecoveryattribute"&gt;5a3b9992-ca6b-ef11-a671-0022483bb3a9&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc1bc87e-a3e9-47a1-9f08-66ebfcc7a964}" colspan="1" rowspan="1" labelid="{b56d7bd5-4398-4aa9-9b04-84a792db010d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50ef7940-cf18-4c95-81e1-fb4eb5987430}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{052d34cf-62f6-43c1-9926-72e734c4e146}">
+                        <labels>
+                          <label description="Latest Performance Change Date" languagecode="1033" />
+                        </labels>
+                        <control id="fdr_latestperformancechange" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_latestperformancechange" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="General_section_7" id="4faa6a32-45a1-429f-9c58-b8feabfd88b9" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{4aff786c-1e48-4230-91e3-36be6d21a507}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{166c4dab-5d36-4cb1-aef1-42b71d0cf148}" rowspan="15" colspan="1" labelid="{1a5a87a6-597a-46dd-ad89-3c78a86af0fa}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false">
+                          <parameters>
+                            <UClientRecordPerPage>3</UClientRecordPerPage>
+                            <UClientActivities>appointment,email,phonecall,recurringappointmentmaster,socialactivity,task,fax,letter</UClientActivities>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <UClientActivityCardMap>appointment:4201:,campaignactivity:4402:,campaignresponse:4401:,email:4202:,fax:4204:,incidentresolution:4206:,letter:4207:,opportunityclose:4208:,orderclose:4209:,phonecall:4210:,quoteclose:4211:,recurringappointmentmaster:4251:,serviceappointment:4214:,socialactivity:4216:,task:4212:,adx_alertsubscription:10662:,adx_inviteredemption:10665:,adx_portalcomment:10714:,cid_activityreviewlog:10747:,msdyn_bookingalert:10378:,msdyn_ocliveworkitem:10955:,msdyn_ocsession:10972:,msfp_alert:10261:,msfp_surveyinvite:10271:,msfp_surveyresponse:10273:,ovs_cancellationrequest:10555:,ovs_confirmationofcompliance:10558:,ovs_cyaction:10559:,ovs_followuprequest:10563:,ovs_revisedquarterrequest:10576:,</UClientActivityCardMap>
+                            <UClientActivitiesConfigurationJSON>{"opportunityclose":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"orderclose":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"campaignactivity":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"fax":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"incidentresolution":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"letter":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"quoteclose":{"showStatus":false,"canCreate":false,"createUsing":"default","openUsing":"default"},"adx_alertsubscription":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"adx_inviteredemption":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"adx_portalcomment":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"cid_activityreviewlog":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msdyn_bookingalert":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msdyn_ocliveworkitem":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"msdyn_ocsession":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msfp_alert":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"msfp_surveyinvite":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"msfp_surveyresponse":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"ovs_cancellationrequest":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_confirmationofcompliance":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_cyaction":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"},"ovs_followuprequest":{"showStatus":true,"canCreate":false,"createUsing":"default","openUsing":"default"},"ovs_revisedquarterrequest":{"showStatus":true,"canCreate":true,"createUsing":"default","openUsing":"default"}}</UClientActivitiesConfigurationJSON>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="Section_Audit" id="b891a867-1b08-43c5-8f38-65778f4d350d" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{85f6ab88-4b49-4600-828d-a10e55af4fc4}">
+                  <labels>
+                    <label description="Audit" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{49911e18-29ff-45c1-b608-28b6c372cb6e}" labelid="{5847ea8c-0f65-456d-b5bd-ab6b2aa994c5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="38933dbd-1809-4a50-ac01-9ef2352c8bcd" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" labelid="{ca2b24e4-17db-4860-b82c-fea3325904e5}">
+          <labels>
+            <label description="Integration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Integration_Section" id="648fd0eb-a185-4224-ae51-2d2f0f6bf990" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{a261d3c2-b89b-40af-83ad-deb0b7d5a41a}">
+                  <labels>
+                    <label description="IntegrationSection" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4d93806d-d267-4885-b5a8-686da36edd3c}" locklevel="0" colspan="1" rowspan="1" labelid="{a3866db8-35d4-4f50-80f4-8996b7509bb8}">
+                        <labels>
+                          <label description="MTOA SR ID" languagecode="1033" />
+                          <label description="MTOA SR ID" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_mtoa_sr_id" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="fdr_mtoa_sr_id" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23de3e88-0d08-4421-96a9-7caa9de7f6f3}" locklevel="0" colspan="1" rowspan="1" labelid="{34ac4536-4511-473f-841f-4278882e1a27}">
+                        <labels>
+                          <label description="CRSD Status" languagecode="1033" />
+                          <label description="CRSD Status" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_crsd_status" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="fdr_crsd_status" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a04dbec-827b-47a4-84e5-76917357150e}" locklevel="0" colspan="1" rowspan="1" labelid="{1ee32425-2d65-458e-8c08-1a40f00cb74a}">
+                        <labels>
+                          <label description="Portal Contact" languagecode="1033" />
+                          <label description="Contact du portail" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_portalcontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_portalcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{9d510c58-5f8e-4af5-bf14-5fcd1ec619fe}" colspan="1" rowspan="1" labelid="{6fec4dd2-e9cf-4e61-a03b-0a4dac63375b}">
+                        <labels>
+                          <label description="New QV control 1656517516992" languagecode="1033" />
+                          <label description="Contact du portail" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1656517516992" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_portalcontact">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;26994126-c2f7-ec11-82e4-000d3a8483f6&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf34abe7-581d-4266-aeca-372722890a5d}" locklevel="0" colspan="1" rowspan="1" labelid="{d78aacf0-febe-498d-b37c-29520d9a338a}">
+                        <labels>
+                          <label description="Cost Recovery Attribute" languagecode="1033" />
+                          <label description="Cost Recovery Attribute" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_costrecoveryattribute" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_costrecoveryattribute" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{563bcf10-f6c7-4590-8a1e-bf8964f030a9}" colspan="1" rowspan="1" labelid="{73a399b2-c19c-4f67-b37f-679012881cf1}">
+                        <labels>
+                          <label description="New QV control 1656517110516" languagecode="1033" />
+                          <label description="Attribut de recouvrement des coûts" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1656517110516" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_costrecoveryattribute" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="fdr_costrecoveryattribute"&gt;0db7a267-3e98-40b9-b047-14b4092b93f8&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="1e830012-4c84-459e-94f3-9ffd97c53bdb" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{ea2358f5-29e0-47ac-b0d1-06422651a98f}">
+          <labels>
+            <label description="Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" id="5c873813-13d9-4f1d-b4b6-d42d109f108f" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto" labelid="{1502efcd-82bf-41b7-98e2-df1c21d411c0}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{89186abe-2cc3-0e55-5d65-1eb743e48613}" showlabel="false" colspan="1" auto="true" rowspan="13" labelid="{275b3774-f889-4d41-88bd-228ffbb345ea}">
+                        <labels>
+                          <label description="Attach2Dynamics" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_Attach2Dynamics" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>ikl_/Attach2Dynamics/Library/index.html</Url>
+                            <PassParameters>true</PassParameters>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{AF16C0DE-3904-E911-80D1-00155D060713}</WebResourceId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_TimeTracking" id="efab1a7e-e076-4d6f-bd97-48263e400a96" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{1b22568a-259b-4a5c-827f-f85272847d61}">
+          <labels>
+            <label description="Time Tracking" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" id="8716442d-c849-42fe-b176-b1850a70aba7" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{9a1f0973-9590-4044-a65a-034519f5dbae}">
+                  <labels>
+                    <label description="TIME TRACKING" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{e8316eaf-fe3b-4446-bad7-ad32e8540218}" rowspan="6" colspan="1" auto="false" showlabel="false" labelid="{02110be1-95a4-48b9-80f6-341bcac64b68}">
+                        <labels>
+                          <label description="Service Request Service Tasks" languagecode="1033" />
+                          <label description="Suivi de temps" languagecode="1036" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_4" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{3dbd13e0-7172-89cd-b79e-3073933140e5}">
+                          <parameters>
+                            <RecordsPerPage>16</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>fdr_servicerequestservicetask</TargetEntityType>
+                            <ViewId>{F1130ECD-3C0E-42E4-AB04-FE5417F21D6E}</ViewId>
+                            <ViewIds>{F1130ECD-3C0E-42E4-AB04-FE5417F21D6E},{4E670025-E10D-ED11-B83D-000D3A0C8551}</ViewIds>
+                            <RelationshipName>fdr_fdr_servicerequestservicetask_servicerequ</RelationshipName>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_Performance" id="c5d91934-89ee-44cc-827d-9e917148fe0c" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" labelid="{ac4f0b69-8142-4e7b-868a-6005362bfe61}">
+          <labels>
+            <label description="Performance" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" id="43652565-8a35-4864-978a-de85a5690d7c" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{24286a07-783e-4236-9071-3f21e4162b83}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c449535c-6ce1-4f19-bfde-e2115cd9635c}" locklevel="0" colspan="1" rowspan="1" labelid="{e82ac7c6-0587-4b73-be37-8c6f16dc4b86}">
+                        <labels>
+                          <label description="Service Request Performance" languagecode="1033" />
+                          <label description="Rendement du demande de service" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_servicerequestperformance" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_servicerequestperformance" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{f54fc92d-94ef-4de0-b462-23be9db08626}" colspan="1" rowspan="1" labelid="{4a19f95f-8e9d-4b5a-bfec-96f7742ba988}">
+                        <labels>
+                          <label description="New QV control 1663269781398" languagecode="1033" />
+                          <label description="Numéro de la norme de service" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1663269781398" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="fdr_servicerequestperformance">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="fdr_servicerequestperformance"&gt;5f193077-2b35-ed11-9db1-0022483d0343&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="7c42c1da-0d4f-4b38-bff6-9e1b41294c38" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" labelid="{13504001-b62e-4aea-a761-5c9ebd84f216}">
+          <labels>
+            <label description="Record Log" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="92949eb7-c80e-4bee-9da3-6f7da8d116b1" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" labelid="{f3076b9a-dca7-4fd7-a7fe-c0a67b123665}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f54e1f3c-541c-4ee6-b867-200389525331}" locklevel="0" colspan="1" rowspan="1" labelid="{63295aaf-374b-4ac6-95e1-22c3aaf00760}">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                          <label description="Créé par" languagecode="1036" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                      <cell id="{b3e5e731-ac4f-4ff1-b59d-d4d9b1fd682c}" locklevel="0" colspan="1" rowspan="1" labelid="{a5d67043-d81c-49e3-a37c-2aaf48d0b113}">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Créé le" languagecode="1036" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1422fe5a-33ce-4c64-b910-7afcca4d3eab}" locklevel="0" colspan="1" rowspan="1" labelid="{680cd93b-76fb-4086-b4d0-d3de8a9a2ca6}">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                          <label description="Modifié par" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell id="{6205a9c5-ef20-4dbf-b011-b2cdfa6151b1}" locklevel="0" colspan="1" rowspan="1" labelid="{07cb45e9-7de8-471f-b5a8-c770d2788390}">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                          <label description="Modifié le" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ddf7e997-54fc-484e-a772-78a3b90019bd}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{aa5aa4d7-b4ea-425a-bb83-d89b47ca9d72}" showlabel="false" labelid="{9ada553c-fb2b-4d9e-a6ea-2d6fdbca4731}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2231d506-49ca-4ac8-b50a-dd3c41a74154}" showlabel="false" labelid="{18ce46d2-31fc-43c8-9cb2-da6304e1938a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b8cb5876-427c-05ad-abcb-7378d1eaea31}" showlabel="false" labelid="{5e22b430-925d-4e8a-a7e7-3a182550e839}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{59081760-7884-46c7-9e99-8cd79057d683}" showlabel="false" labelid="{58616adc-e771-4795-bb52-0b8145419805}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{14dd16f2-187c-495a-bffb-d69bca6f4df1}" showlabel="false" labelid="{4136458e-7c83-4327-8df0-f593415f50ed}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{93b823ac-bb89-49fe-968d-51a0dbc888ff}" showlabel="false" labelid="{763195c7-fc48-4bd0-b282-8f74147317eb}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{f986cd00-c111-4c0e-aa7a-90ea212046ec}" showlabel="false" labelid="{0f203385-2a60-49ba-9c12-499dc8aa4aa9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{68bbdd43-5794-44eb-582d-83b1285b2946}" showlabel="false" labelid="{c986fa88-aa31-4a65-b1a9-92c9f28bd8fe}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1ccc1b04-95e7-02d2-2ac0-dc371c467588}" showlabel="false" labelid="{95135991-a348-4af3-abf0-694685be799e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{c657cef5-02b5-43a9-b821-8f19277d4d85}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8833338b-987e-dec7-a542-bedec67e6b98}" showlabel="false" labelid="{53cc21fa-142a-413e-a836-b39959fcbef6}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{bc19476e-4707-4f77-8d9f-642a86178373}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c8def38b-6ac6-42ac-8ade-78908e47e929}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Current Registration Status" languagecode="1033" />
+              </labels>
+              <control id="header_ovs_current_registration_status_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_current_registration_status_cd" disabled="true" />
+            </cell>
+            <cell id="{7e0b3029-ed87-49a8-91e8-e857f71e6e35}" colspan="1" rowspan="1" labelid="{20c52c38-26d1-40c9-b359-cc9d964ad423}">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{0b124cde-d29b-4383-be37-66b8af181fda}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{9672de9c-1ff0-4d9d-8f2c-02b73d1094f9}">
+              <labels>
+                <label description="Info Received On" languagecode="1033" />
+              </labels>
+              <control id="header_fdr_inforeceivedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="fdr_inforeceivedon" disabled="false" />
+            </cell>
+            <cell locklevel="0" id="{d5e6d782-0d71-4fc2-91bc-a79daf18bcfe}" showlabel="false" labelid="{805e887c-85ef-4215-bdf1-219b7b56bafa}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell locklevel="0" id="{0e4514fb-dbf1-4fb1-8da5-fed0eeea98aa}" showlabel="false" labelid="{e63f2c08-4f72-4d99-bbaa-9934a9fa36b9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cd9a8c4d-2e8d-4ee8-9b15-540728a50978}" colspan="1" rowspan="1" labelid="{d74985d8-2204-416c-8a5d-b32871e6a047}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{c9770b7b-1b21-696d-b05d-b51e65892957}" showlabel="true" locklevel="0" colspan="1" rowspan="1" labelid="{1210f07e-1e06-4e7a-bc2f-8c2b45d0bb31}">
+              <labels>
+                <label description="Service Request ID" languagecode="1033" />
+                <label description="Numéro de demande de service" languagecode="1036" />
+              </labels>
+              <control id="header_fdr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_name" disabled="true" uniqueid="{e4423e30-d6a3-ae44-c4cb-0e9495252b70}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0aaa7f88-d50c-45ae-a8d7-e50efe710eff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2a7ae789-dd42-4131-a095-ae1257684ccc}" showlabel="false" labelid="{e7635896-85d4-4020-8a44-0fd7fbe77e39}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9ceabab0-20de-4ce1-95b9-d3a4b39e4489}" showlabel="false" labelid="{c65812ba-9973-493c-8e35-5eefde875a28}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{348583d5-da8e-4805-bc37-53d1fbc0a080}" showlabel="false" labelid="{6f7ff994-93c8-4b5c-b2a5-17d328b1170b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{3dbd13e0-7172-89cd-b79e-3073933140e5}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{F1130ECD-3C0E-42E4-AB04-FE5417F21D6E}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>fdr_fdr_servicerequestservicetask_servicerequ</RelationshipName>
+                <TargetEntityType>fdr_servicerequestservicetask</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F1130ECD-3C0E-42E4-AB04-FE5417F21D6E},{4E670025-E10D-ED11-B83D-000D3A0C8551}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{F1130ECD-3C0E-42E4-AB04-FE5417F21D6E}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>fdr_fdr_servicerequestservicetask_servicerequ</RelationshipName>
+                <TargetEntityType>fdr_servicerequestservicetask</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{F1130ECD-3C0E-42E4-AB04-FE5417F21D6E},{4E670025-E10D-ED11-B83D-000D3A0C8551}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{98524737-ebc2-8612-bc84-7b6c344c3817}" />
+        <Library name="ovs_SR_Main_Form" libraryUniqueId="{c7ddbb01-7b7e-5761-4132-a4c5a84b4455}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="SR_main.OnLoad" libraryName="ovs_SR_Main_Form" handlerUniqueId="{2e140164-9252-c9e6-077a-0695bc357e1a}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Service Request Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

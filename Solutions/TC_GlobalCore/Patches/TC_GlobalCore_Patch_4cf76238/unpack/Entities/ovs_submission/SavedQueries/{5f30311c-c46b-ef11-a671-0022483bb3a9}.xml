@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5f30311c-c46b-ef11-a671-0022483bb3a9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_submissionid">
+          <cell name="ovs_name" width="197" />
+          <cell name="ovs_registration_id" width="234" />
+          <cell name="ovs_submission_type_cd" width="137" />
+          <cell name="ovs_revocation_ind" width="104" />
+          <cell name="ovs_date_submit_dte" width="128" />
+          <cell name="ovs_date_decision_dte" width="120" />
+          <cell name="statuscode" width="119" />
+          <cell name="ovs_date_expiry_dte" width="113" />
+          <cell name="createdon" width="125" />
+          <cell name="createdby" width="104" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="ovs_submission">
+          <attribute name="ovs_submissionid" />
+          <attribute name="ovs_name" />
+          <attribute name="createdon" />
+          <attribute name="ovs_date_submit_dte" />
+          <attribute name="ovs_date_decision_dte" />
+          <attribute name="ovs_date_expiry_dte" />
+          <attribute name="ovs_registration_id" />
+          <attribute name="statuscode" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="ovs_submission_type_cd" />
+          <attribute name="ovs_revocation_ind" />
+          <attribute name="createdby" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="ovs_registration" alias="aa" link-type="inner" from="ovs_registrationid" to="ovs_registration_id">
+            <filter type="and">
+              <condition attribute="ovs_service_idname" operator="like" value="%FDR%" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="FDR Active Submissions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

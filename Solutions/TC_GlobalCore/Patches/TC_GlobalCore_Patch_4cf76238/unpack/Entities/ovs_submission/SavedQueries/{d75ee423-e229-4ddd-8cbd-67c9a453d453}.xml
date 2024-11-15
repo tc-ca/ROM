@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d75ee423-e229-4ddd-8cbd-67c9a453d453}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_submissionid">
+          <cell name="ovs_name" width="224" />
+          <cell name="ovs_registration_id" width="206" />
+          <cell name="ovs_version_number_num" width="133" />
+          <cell name="ovs_date_submit_dte" width="128" />
+          <cell name="ovs_date_decision_dte" width="120" />
+          <cell name="ovs_date_expiry_dte" width="113" />
+          <cell name="createdon" width="125" />
+          <cell name="statuscode" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_submission">
+          <attribute name="ovs_submissionid" />
+          <attribute name="ovs_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="ovs_registration_id" />
+          <attribute name="ovs_version_number_num" />
+          <attribute name="statuscode" />
+          <attribute name="ovs_date_submit_dte" />
+          <attribute name="ovs_date_decision_dte" />
+          <attribute name="ovs_date_expiry_dte" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Submissions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

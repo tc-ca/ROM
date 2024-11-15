@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{155107d2-bcab-4d94-a8e3-04ecf9755ee6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_registrationid">
+          <cell name="ovs_name" width="300" />
+          <cell name="ovs_organization_id" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_83afaff38bbcee1190796045bd5ccebb.address1_city" width="100" disableSorting="1" />
+          <cell name="a_83afaff38bbcee1190796045bd5ccebb.address1_line1" width="100" disableSorting="1" />
+          <cell name="a_83afaff38bbcee1190796045bd5ccebb.address1_line2" width="100" disableSorting="1" />
+          <cell name="a_83afaff38bbcee1190796045bd5ccebb.address1_line3" width="100" disableSorting="1" />
+          <cell name="a_83afaff38bbcee1190796045bd5ccebb.address1_postalcode" width="100" disableSorting="1" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_registration">
+          <attribute name="ovs_name" />
+          <attribute name="createdon" />
+          <order attribute="ovs_name" descending="false" />
+          <attribute name="ovs_organization_id" />
+          <link-entity alias="a_83afaff38bbcee1190796045bd5ccebb" name="account" from="accountid" to="ovs_organization_id" link-type="outer" visible="false">
+            <attribute name="address1_postalcode" />
+            <attribute name="address1_line3" />
+            <attribute name="address1_line2" />
+            <attribute name="address1_line1" />
+            <attribute name="address1_city" />
+          </link-entity>
+          <attribute name="ovs_registrationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Registration Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

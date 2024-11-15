@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ad7e7cb2-c06b-ef11-a671-0022483c7e68}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{ad09c91e-5284-4418-89b3-6fccf34e6490}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{416920a4-50e5-4087-b100-23e10a6daff0}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{d7e58e56-b6d4-4a73-ac5f-b28b24f0b1ea}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fc0b6803-a2ed-4691-ba59-56c90399bcaa}" locklevel="0" colspan="1" rowspan="1" labelid="{ec88b243-c27b-4f06-9cc2-bfd2da1fd4ff}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{470870cc-3618-4786-8069-65b58de17e61}" locklevel="0" colspan="1" rowspan="1" labelid="{5d9a5d88-25d3-4d8f-8bbf-0c912bed8604}">
+                        <labels>
+                          <label description="MOC Registration ID" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_moc_registration_name_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_moc_registration_name_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94f67160-2e15-4576-ab37-21c87d905f72}" locklevel="0" colspan="1" rowspan="1" labelid="{9ad8563d-c740-4b92-b87b-3bf630e0020a}">
+                        <labels>
+                          <label description="Registration Type" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_registration_type_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_registration_type_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54df2a19-b34c-4002-a186-17fe1d24bcc7}" locklevel="0" colspan="1" rowspan="1" visible="false" labelid="{53eff493-b187-4290-9282-03d40c280306}">
+                        <labels>
+                          <label description="Service" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_service_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_service_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b487de7-a5af-4f68-a7be-35851906e608}" locklevel="0" colspan="1" rowspan="1" labelid="{0a353e05-404a-4c87-8ee1-f7f33a1eded2}">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_organization_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_organization_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d6e29bc-a6b6-43f8-93bc-9ef7f2db52a6}" locklevel="0" colspan="1" rowspan="1" labelid="{8e4eec53-cfc0-400e-9e77-cac5cc422127}">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_site_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_site_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{428a4417-740d-48ba-8d26-a64afca827b0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Expiry Date" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_expirydate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_expirydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e4596d0-c2d3-45cb-ad99-6d6298653817}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Operation Id" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_operation_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_operation_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f65f35ba-f9fa-40c9-9124-c7873c54c2c7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="MOC Program" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_moc_program_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_moc_program_cd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{45cbe295-1345-4872-bebf-f9a231d4e926}" locklevel="0" colspan="1" rowspan="1" labelid="{ffcef8dd-0405-48c2-aff5-4d75353898a1}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                          <label description="Statut" languagecode="1036" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{704adda5-573b-487e-8a25-c833a3a2a1d5}" locklevel="0" colspan="1" rowspan="1" labelid="{45b872d0-c739-465e-92e4-c6163a501be5}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                          <label description="Raison du statut" languagecode="1036" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FDR registration quick view form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

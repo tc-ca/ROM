@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a65f50d4-2ad5-ee11-904d-002248b0ab18}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_submissionid">
+          <cell name="ovs_name" width="200" />
+          <cell name="a_756cfd234842456eb1a8225abd57e369.ovs_registration_number_num" width="240" />
+          <cell name="ovs_version_number_num" width="133" />
+          <cell name="ovs_date_submit_dte" width="128" />
+          <cell name="ovs_date_decision_dte" width="120" />
+          <cell name="ovs_date_expiry_dte" width="113" />
+          <cell name="createdon" width="105" />
+          <cell name="statuscode" width="119" />
+          <cell name="ovs_outcome_cd" width="135" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ovs_submission">
+          <attribute name="ovs_name" />
+          <attribute name="ovs_submissionid" />
+          <attribute name="ovs_version_number_num" />
+          <attribute name="ovs_date_submit_dte" />
+          <attribute name="ovs_date_decision_dte" />
+          <attribute name="ovs_date_expiry_dte" />
+          <attribute name="createdon" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <link-entity alias="a_756cfd234842456eb1a8225abd57e369" name="ovs_registration" to="ovs_registration_id" from="ovs_registrationid" link-type="outer" visible="false">
+            <attribute name="ovs_registration_number_num" />
+          </link-entity>
+          <attribute name="ovs_outcome_cd" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.160.12.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="CRS Submission" languagecode="1033" />
+      <LocalizedName description="Soumissions SIC" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6927e6f9-966b-ef11-a671-0022483bb3a9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name_txt" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_registration_functionid">
+          <cell name="ovs_name_txt" width="232" />
+          <cell name="statecode" width="100" />
+          <cell name="ovs_limitations_txt" width="300" />
+          <cell name="ovs_specifications_txt" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ovs_registration_function">
+          <attribute name="ovs_name_txt" />
+          <attribute name="ovs_registration_functionid" />
+          <attribute name="statecode" />
+          <attribute name="ovs_limitations_txt" />
+          <attribute name="ovs_specifications_txt" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Registration Functions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{eea8a60e-79a7-4885-bdb0-bf2be5dd2f28}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fdr_name" select="1" icon="1" preview="1">
+        <row name="result" id="fdr_costrecoveryattributeid">
+          <cell name="fdr_name" width="159" />
+          <cell name="fdr_servicerequesttype" width="215" />
+          <cell name="fdr_containertypeid" width="272" />
+          <cell name="fdr_serviceattributeid" width="144" />
+          <cell name="fdr_servicefeecode" width="126" />
+          <cell name="fdr_servicestandardid" width="155" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="fdr_costrecoveryattribute">
+          <attribute name="fdr_costrecoveryattributeid" />
+          <attribute name="fdr_name" />
+          <order attribute="fdr_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="fdr_servicerequesttype" />
+          <attribute name="fdr_servicefeecode" />
+          <attribute name="fdr_serviceattributeid" />
+          <attribute name="fdr_servicestandardid" />
+          <attribute name="statecode" />
+          <attribute name="fdr_containertypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Cost Recovery Attributes" languagecode="1033" />
+      <LocalizedName description="Attributs de recouvrement des coûts actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e9f3c39f-589b-4df7-87a3-66a1ed5e1138}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fdr_name" select="1" icon="1" preview="1">
+        <row name="result" id="fdr_specificationid">
+          <cell name="fdr_name" width="131" />
+          <cell name="fdr_englishname" width="137" />
+          <cell name="fdr_englishdescription" width="278" />
+          <cell name="fdr_frenchname" width="175" />
+          <cell name="fdr_frenchdescription" width="231" />
+          <cell name="statecode" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="fdr_specification">
+          <attribute name="fdr_specificationid" />
+          <attribute name="fdr_name" />
+          <attribute name="createdon" />
+          <order attribute="fdr_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="fdr_englishname" />
+          <attribute name="fdr_englishdescription" />
+          <attribute name="fdr_frenchname" />
+          <attribute name="fdr_frenchdescription" />
+          <attribute name="statecode" />
+          <attribute name="modifiedon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Specifications" languagecode="1033" />
+      <LocalizedName description="Spécifications inactifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

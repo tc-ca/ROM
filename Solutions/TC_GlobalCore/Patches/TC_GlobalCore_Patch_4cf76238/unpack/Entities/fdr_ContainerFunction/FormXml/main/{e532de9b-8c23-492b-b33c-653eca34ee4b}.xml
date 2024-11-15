@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e532de9b-8c23-492b-b33c-653eca34ee4b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{58b93304-96ed-44e5-9809-ebdb6b704ff3}" IsUserDefined="1" name="General">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="75%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8341957a-8dc1-44a9-a3bb-36f0618d0d02}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5a59994-3a23-89de-0540-0ea096a07bc2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="English Name" languagecode="1033" />
+                          <label description="Nom anglais" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_englishname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_englishname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09a86013-5995-1cd1-2487-302e86ce585d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="French Name" languagecode="1033" />
+                          <label description="Nom français" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_frenchname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_frenchname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4e70510-5dc7-451c-a003-8c37b674ec27}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Functions Categories" languagecode="1033" />
+                        </labels>
+                        <control id="fdr_functionscategories" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_functionscategories" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68b0c71f-2b6a-451a-8591-90d0b6b6e91e}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fdr_name" uniqueid="{3985789a-15a8-b076-688c-9bcae0d15ce2}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0685d89-e613-41b5-a123-f3fd93c03035}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Registration Type" languagecode="1033" />
+                          <label description="Type d'inscription" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_containertype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_containertype" disabled="false" uniqueid="{e6c90db3-e052-d1e8-046d-1c45bb7468bd}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD09B414-65D8-47E2-8D3A-C4BDE38D4880}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5187cbc6-43c5-4506-ada3-b7d6bfe2b8cc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Function" languagecode="1033" />
+                          <label description="Fonction" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_function" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_function" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4cda51f7-a346-4724-a3ba-d9042c896995}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Certificate Prefix" languagecode="1033" />
+                          <label description="Préfixe du certificat" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_certificateprefix" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fdr_certificateprefix" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{555ecea8-6611-469c-9b9e-ced2557b71f1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Legislation Source" languagecode="1033" />
+                          <label description="Sources de la législation" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_legislationsource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_legislationsource" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76a71afa-6000-400b-bf78-b18652e0d48a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Supports Design Registration" languagecode="1033" />
+                          <label description="Prend en charge l'enregistrement de conception" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_supportsdesignregistration" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="fdr_supportsdesignregistration" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{54a7a977-7f21-4720-8ac5-2fec616f2d90}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Requalification Marking English" languagecode="1033" />
+                          <label description="Marquage de requalification" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_requalificationmarking" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="fdr_requalificationmarking" disabled="false" uniqueid="{d509f2c8-7161-4dea-9aa8-fbbd2efd2290}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f8a8c81-2e96-4bb9-8de9-1174fda56d30}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Requalification Marking French" languagecode="1033" />
+                        </labels>
+                        <control id="fdr_requalificationmarkingfr" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="fdr_requalificationmarkingfr" disabled="false" uniqueid="{6f404e3c-b019-44e3-86c4-cce6b8861804}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eab5be1a-2314-9539-2a4b-be5ba8c0b6ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Personnel Training Required" languagecode="1033" />
+                          <label description="Formation du personnel requise" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_personneltrainingrequired" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="fdr_personneltrainingrequired" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="74efc8ee-8488-4b68-ae96-6611e4aea59a" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="LIMITATIONS" languagecode="1033" />
+                    <label description="Restrictions" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{446a6a05-32c8-4467-80ad-108deec73cbe}" rowspan="1" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1651161610490" languagecode="1033" />
+                          <label description="Restrictions" languagecode="1036" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>fdr_limitation</TargetEntityType>
+                            <ViewId>{384AF1BB-60CD-41D5-95CA-F29EBC332864}</ViewId>
+                            <ViewIds>{384AF1BB-60CD-41D5-95CA-F29EBC332864}</ViewIds>
+                            <RelationshipName>fdr_ContainerFunction_Limitation</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="section_Specifications" id="0038d9e6-ccae-4443-8c93-e15982753fba" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="SPECIFICATIONS" languagecode="1033" />
+                    <label description="Spécifications" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{401af47a-d1c1-4797-a6e3-dec6017ffabc}" rowspan="1" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1653919129704" languagecode="1033" />
+                          <label description="Restrictions" languagecode="1036" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <TargetEntityType>fdr_specification</TargetEntityType>
+                            <ViewId>{A98731E3-2465-4443-8F21-0FBF658A726E}</ViewId>
+                            <ViewIds>{A98731E3-2465-4443-8F21-0FBF658A726E},{28081949-EB17-ED11-B83F-000D3A84CFDD}</ViewIds>
+                            <RelationshipName>fdr_ContainerFunction_Specification</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="94e2d40f-90b2-472b-a783-b6de59c22d25" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Record Log" languagecode="1033" />
+            <label description="Journal d'enregistrement" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="54f327c4-1c4a-4c19-b624-2541bd2a3619" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2d0789a4-2401-4dbc-b395-d782c5d3bff7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                          <label description="Créé par" languagecode="1036" />
+                        </labels>
+                        <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                      </cell>
+                      <cell id="{225c019a-741d-4d88-a03d-72d49a6d8078}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Créé le" languagecode="1036" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fed8678f-54cd-4727-ba80-73a779a3a797}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                          <label description="Modifié par" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                      <cell id="{7631faaa-4708-4539-8ab5-ad33b4059416}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                          <label description="Modifié le" languagecode="1036" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d78f736a-3014-45fe-8148-2aa7d5c5cc5f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d0f87a63-1986-4685-a66c-9d4cd0f5167f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7fc150e5-3216-4585-8c15-f79f0ab1cec2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{94a5b02b-6403-4ab8-b8ba-8e986bdd1136}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{eb9023ef-da29-4efe-919f-9bb8471e3a77}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{dc93e32f-d804-43a9-a268-f82fe82f01b8}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b76b5048-6ba1-4bbd-84da-9f00acf0ea2c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5d66aac2-8d64-4385-aef2-d1cd075c15a4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3f749da9-d7b9-4dbc-9fdb-2701e3743946}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{92ff7915-440e-43aa-beec-c5189b84e88e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{d509f2c8-7161-4dea-9aa8-fbbd2efd2290}">
+          <customControl id="{E0DECE4B-6FC8-4A8F-A065-082708572369}">
+            <parameters>
+              <datafieldname>fdr_requalificationmarking</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">fdr_requalificationmarking</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">fdr_requalificationmarking</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">fdr_requalificationmarking</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{6f404e3c-b019-44e3-86c4-cce6b8861804}">
+          <customControl id="{E0DECE4B-6FC8-4A8F-A065-082708572369}">
+            <parameters>
+              <datafieldname>fdr_requalificationmarkingfr</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">fdr_requalificationmarkingfr</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">fdr_requalificationmarkingfr</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">fdr_requalificationmarkingfr</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{21aae849-c78f-4c4f-8207-eb14ea6528be}" />
+        <Library name="fdr_ContainerFunction_main.js" libraryUniqueId="{b3c1aa45-ec7b-4d70-b4ce-d42339cc0d05}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CFunctions_main.OnLoad" libraryName="fdr_ContainerFunction_main.js" handlerUniqueId="{c1716a74-af91-4bdb-af85-3e77c390405a}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

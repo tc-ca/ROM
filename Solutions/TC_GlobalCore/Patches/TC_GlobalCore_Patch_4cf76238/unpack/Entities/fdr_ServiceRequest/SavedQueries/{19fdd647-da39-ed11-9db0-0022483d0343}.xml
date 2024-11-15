@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{19fdd647-da39-ed11-9db0-0022483d0343}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fdr_name" select="1" icon="1" preview="1">
+        <row name="result" id="fdr_servicerequestid">
+          <cell name="fdr_servicerequestperformance" width="100" />
+          <cell name="fdr_name" width="200" />
+          <cell name="fdr_containertype" width="100" />
+          <cell name="fdr_site" width="100" />
+          <cell name="fdr_operation" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_startdte" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_completeddte" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_applicableunitnbr" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_adjustmentnbr" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_adjustmentapplicableunitnbr" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_adjustmentnetworkid" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_adjustmentjustificationtxt" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_standardmetind" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_standardassessmentpct" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_holidaydaynbr" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.fdr_onholddaynbr" width="100" />
+          <cell name="a_b40c1eb4f16c414ba0dc995cccbf85cf.statuscode" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="fdr_servicerequest">
+          <attribute name="fdr_name" />
+          <attribute name="fdr_servicerequestid" />
+          <attribute name="fdr_containertype" />
+          <attribute name="fdr_site" />
+          <attribute name="fdr_operation" />
+          <filter type="and">
+            <condition attribute="fdr_servicerequestperformance" operator="not-null" />
+          </filter>
+          <link-entity alias="a_b40c1eb4f16c414ba0dc995cccbf85cf" name="fdr_servicerequestperformance" to="fdr_servicerequestperformance" from="fdr_servicerequestperformanceid" link-type="inner">
+            <attribute name="fdr_startdte" />
+            <attribute name="fdr_completeddte" />
+            <attribute name="fdr_applicableunitnbr" />
+            <attribute name="fdr_adjustmentnbr" />
+            <attribute name="fdr_adjustmentapplicableunitnbr" />
+            <attribute name="fdr_adjustmentnetworkid" />
+            <attribute name="fdr_adjustmentjustificationtxt" />
+            <attribute name="fdr_standardmetind" />
+            <attribute name="fdr_standardassessmentpct" />
+            <attribute name="fdr_holidaydaynbr" />
+            <attribute name="fdr_onholddaynbr" />
+            <attribute name="statuscode" />
+            <filter type="and">
+              <condition attribute="fdr_standardmetind" operator="eq" value="0" />
+            </filter>
+          </link-entity>
+          <attribute name="fdr_servicerequestperformance" />
+          <attribute name="modifiedon" />
+          <order attribute="modifiedon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Standard Not Met" languagecode="1033" />
+      <LocalizedName description="Norme de service non satisfaite" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
