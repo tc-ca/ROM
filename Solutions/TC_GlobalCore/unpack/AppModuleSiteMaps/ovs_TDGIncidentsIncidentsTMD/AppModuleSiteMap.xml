@@ -41,11 +41,12 @@
       </Group>
       <Group Id="group_0d97035f" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
-          <Title LCID="1033" Title="Incident Management" />
+          <Title LCID="1033" Title="Incidents Management" />
+          <Title LCID="1036" Title="Gestion des incidents" />
         </Titles>
         <SubArea Id="subarea_81ba0457" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1036" Title="Dossiers des accidents" />
+            <Title LCID="1036" Title="Incident" />
             <Title LCID="1033" Title="Incident" />
           </Titles>
         </SubArea>
