@@ -42,15 +42,16 @@
           <link-entity name="ovs_registration" alias="ac" link-type="inner" from="ovs_organization_id" to="accountid">
             <filter type="and">
               <condition attribute="statuscode" operator="eq" value="918640002" />
-            </filter>
-          </link-entity>
-          <link-entity name="cid_companynaicscode" alias="ae" link-type="inner" from="cid_company" to="accountid">
-            <filter type="and">
-              <condition attribute="cid_name" operator="like" value="3%" />
               <condition attribute="statecode" operator="eq" value="0" />
             </filter>
           </link-entity>
           <attribute name="accountid" />
+          <link-entity name="ovs_organization_naics_code" alias="aa" link-type="inner" from="ovs_organization_id" to="accountid">
+            <filter type="and">
+              <condition attribute="ovs_naics_code_idname" operator="like" value="3%" />
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+          </link-entity>
         </entity>
       </fetch>
     </fetchxml>
