@@ -33,7 +33,7 @@
                         <labels>
                           <label description="Specification Categories" languagecode="1033" />
                         </labels>
-                        <control id="fdr_specificationcategories" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_specificationcategories" disabled="false" />
+                        <control id="fdr_specificationcategories" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_specificationcategories" disabled="false" uniqueid="{1da4478c-2d77-52c6-5a8a-51ca66ba2297}" />
                       </cell>
                     </row>
                     <row>
@@ -78,7 +78,7 @@
                           <label description="Legislation Source" languagecode="1033" />
                           <label description="Source de réglementation" languagecode="1036" />
                         </labels>
-                        <control id="fdr_legislationsource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_legislationsource" disabled="false" />
+                        <control id="fdr_legislationsource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_legislationsource" disabled="false" uniqueid="{a65ed38c-001c-3383-1e77-099e08eee647}" />
                       </cell>
                     </row>
                     <row>
@@ -89,7 +89,7 @@
                         <control id="ovs_designid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_designid" disabled="false" uniqueid="{5ed67d2c-653e-4e48-a78d-9e7474e0659e}">
                           <parameters>
                             <DefaultViewId>{EED782E9-8276-EF11-AC20-6045BD6162FE}</DefaultViewId>
-                            <AvailableViewIds>{EED782E9-8276-EF11-AC20-6045BD6162FE},{B99CC18B-7B6F-4071-885B-C181E76BA477}</AvailableViewIds>
+                            <AvailableViewIds>{32FB82B1-4997-40EA-80F2-BE7935AABBAE},{EED782E9-8276-EF11-AC20-6045BD6162FE}</AvailableViewIds>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
                             <DisableQuickFind>false</DisableQuickFind>
