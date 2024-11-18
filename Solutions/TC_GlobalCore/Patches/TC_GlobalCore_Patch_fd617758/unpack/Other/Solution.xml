@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24104.176" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24104.176" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24111.00180">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_fd617758</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.167.1.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_organization_manufacturer" behavior="1" />
+      <RootComponent type="61" schemaName="ovs_DGAIS_MOC_MainForm.js" behavior="0" />
+      <RootComponent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_incident" displayName="Incident" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_invitation" displayName="Invitation" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moc" displayName="MOC" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moc_dangerousgood" displayName="MOC Dangerous Good" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_contact" displayName="Organization Contact" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_manufacturer" displayName="Organization Manufacturer" solution="Active" />
+        <Dependent type="1" schemaName="ovs_organization_manufacturer" displayName="Organization Manufacturer" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_naics_code" displayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_registration" displayName="Registration" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequest" displayName="Support Request" solution="Active" />
+        <Dependent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)">
+          <package>PowerPages_Core (1.0.2409.121)</package>
+        </Required>
+        <Dependent type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_organization_manufacturer_manufacturer" displayName="ovs_organization_manufacturer_manufacturer" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Organization Manufacturer quick create form" parentDisplayName="Organization Manufacturer" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_companyclaim" displayName="Organization Claim" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Account" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)">
+          <package>PowerPages_Core (1.0.2409.121)</package>
+        </Required>
+        <Dependent type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_billingaccount" displayName="Billing Account" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="2" schemaName="msdyn_billingaccount" displayName="Billing Account" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalname" displayName="Legal Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_romid" displayName="ROM ID" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_manufacturer_id" displayName="Manufacturer" parentSchemaName="ovs_organization_manufacturer" parentDisplayName="Organization Manufacturer" solution="Active" />
+        <Dependent type="60" displayName="Organization Manufacturer quick create form" parentDisplayName="Organization Manufacturer" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_organization_manufacturer" parentDisplayName="Organization Manufacturer" solution="Active" />
+        <Dependent type="60" displayName="Organization Manufacturer quick create form" parentDisplayName="Organization Manufacturer" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_id" displayName="Organization" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_organization_naics_code" parentDisplayName="Organization NAICS Code" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_organization_id" displayName="Organization" parentSchemaName="ovs_registration" parentDisplayName="Registration" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_registration" parentDisplayName="Registration" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_registration" parentDisplayName="Registration" solution="Active" />
+        <Dependent type="26" schemaName="TDG Core Organizations - Manufacturer" displayName="TDG Core Organizations - Manufacturer" parentSchemaName="account" parentDisplayName="Account" id="{54c1c797-f6a0-ef11-a72d-000d3ae8ce17}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_CRS_OrganizationManufacturer_Main.js" displayName="ovs_CRS_OrganizationManufacturer_Main.js" solution="Active" />
+        <Dependent type="60" displayName="Organization Manufacturer quick create form" parentDisplayName="Organization Manufacturer" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Organization Manufacturer quick create form" parentDisplayName="Organization Manufacturer" id="{0b8b13d3-8622-ef11-840a-000d3a0c4626}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
