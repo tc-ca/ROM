@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24104.176" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24104.00176">
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24111.180" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24111.00180">
   <Entities />
   <Roles />
   <Workflows />
@@ -11,6 +11,94 @@
   <optionsets />
   <CustomControls />
   <EntityDataProviders />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="ovs_sharedazureblob_d44fe">
+      <connectionreferencedisplayname>SDS Blob Storage</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_azureblob</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceApprovalsTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferenceApprovalsTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_approvals</connectorid>
+      <description>MS Flow Approvals Connection using tdg.core@034gc.onmicrosoft.com connection</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceBlobSASKey">
+      <connectionreferencedisplayname>ConnectionReferenceBlobSASKey</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_azureblob</connectorid>
+      <description>connection to rom tdg blob storage account using secured SAS Key </description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceDataverseLegacyServicePrinciple">
+      <connectionreferencedisplayname>ConnectionReferenceDataverseLegacyServicePrinciple</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataservice</connectorid>
+      <description>Connection to Dataverse (legacy) using tdg.core@034gc.onmicrosoft.com account</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceDataverseServicePrinciple">
+      <connectionreferencedisplayname>ConnectionReferenceDataverseServicePrinciple</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <description>Connecting to Dataverse with TDG App Registration</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceExcelTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferenceExcelTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness</connectorid>
+      <description>connection to excel online using tdg.core@034gc.onmicrosoft.com account</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceMSTeamsTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferenceTeamsTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_teams</connectorid>
+      <description>Connection to Microsoft Teams using tdg.core@034gc.onmicrosoft.com account</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceOutlookTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferenceOutlookTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <description>Connection to Outlook 365 with tdg.core@034gc.onmicrosoft.com user</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferencePlatformAdminTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferencePlatformAdminTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_powerplatformforadmins</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceSharepointTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferenceSharepointTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <description>Connection to sharepoint using tdg.core@034gc.onmicrosoft.com</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="tdg_ConnectionReferenceWordOnlineTDGCoreUser">
+      <connectionreferencedisplayname>ConnectionReferenceWordOnlineTDGCoreUser</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_wordonlinebusiness</connectorid>
+      <description>Word online connection using tdg.core@034gc.onmicrosoft.com account</description>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
     <Language>1036</Language>
