@@ -240,6 +240,7 @@
   adx_value: '*'
 - adx_name: Authentication/Registration/LoginButtonAuthenticationType
   adx_sitesettingid: 91a18fc1-622b-e711-80df-00155dfcea14
+  adx_value: https://te-auth.id.tbs-sct.gc.ca/
   importsequencenumber: 3
 - adx_name: Authentication/OpenIdConnect/OpenId_2/ResponseMode
   adx_sitesettingid: 920ff71c-8c5f-453c-8884-48a7d2815bcc
@@ -257,7 +258,7 @@
 - adx_description: Sets whether or not the portal can redirect the user to the profile page after successful sign-in. By default, it is set to true.
   adx_name: Authentication/Registration/ProfileRedirectEnabled
   adx_sitesettingid: 95a18fc1-622b-e711-80df-00155dfcea14
-  adx_value: true
+  adx_value: True
   importsequencenumber: 3
 - adx_name: PWAFeature
   adx_sitesettingid: 95cff8e9-a7c5-ec11-a7b5-0022483e1fa3

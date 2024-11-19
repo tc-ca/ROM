@@ -2750,7 +2750,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 91a18fc1-622b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/LoginButtonAuthenticationType
-  CheckSum: d7823eed1abd06089dbd60ff7d6d20563f6eeee7136a6e4c28e83488977eee67
+  CheckSum: a52d97ff30e61ed75741b10b9b550282c0df0a747e7979530d666931ba84bab1
   IsDeleted: false
 - RecordId: 920ff71c-8c5f-453c-8884-48a7d2815bcc
   DisplayName: Authentication/OpenIdConnect/OpenId_2/ResponseMode
@@ -2770,7 +2770,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 95a18fc1-622b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/ProfileRedirectEnabled
-  CheckSum: bcc8a27872258ef955c93166d0e39474addafcc8142ecf499e4e135d4c520bfb
+  CheckSum: 275429053aea68f1bd7e5bd3b131bf2f67531a209297f7e69b036628b9825e01
   IsDeleted: false
 - RecordId: 95cff8e9-a7c5-ec11-a7b5-0022483e1fa3
   DisplayName: PWAFeature
