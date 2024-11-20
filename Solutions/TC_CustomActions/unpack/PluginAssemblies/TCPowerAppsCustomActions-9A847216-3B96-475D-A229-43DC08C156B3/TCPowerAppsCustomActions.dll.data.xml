@@ -32,9 +32,6 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.CustomActions.CustomerRequest.CustomerRequestMerger, TC.PowerApps.CustomActions, Version=1.0.0.1, Culture=neutral, PublicKeyToken=6aecae9f68df76db" PluginTypeId="270ca727-e74e-4a44-95d3-40b1bfda8a5b" Name="TC.PowerApps.CustomActions.CustomerRequest.CustomerRequestMerger">
       <FriendlyName>4270d2fa-6c27-4daf-b63d-eb1c789f3472</FriendlyName>
     </PluginType>
-    <PluginType AssemblyQualifiedName="TC.PowerApps.CustomActions.IncidentScope.CalculateIncidentScope, TC.PowerApps.CustomActions, Version=1.0.0.1, Culture=neutral, PublicKeyToken=6aecae9f68df76db" PluginTypeId="68c4d43b-91a1-412a-b999-74abf9996f1c" Name="TC.PowerApps.CustomActions.IncidentScope.CalculateIncidentScope">
-      <FriendlyName>c86582a1-0556-4202-98a0-b0907f7b9993</FriendlyName>
-    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.CustomActions.IncidentScope.CloneIncidentReport, TC.PowerApps.CustomActions, Version=1.0.0.1, Culture=neutral, PublicKeyToken=6aecae9f68df76db" PluginTypeId="0e44c226-9ab4-4365-8e4a-e7a67d811c0a" Name="TC.PowerApps.CustomActions.IncidentScope.CloneIncidentReport">
       <FriendlyName>f7403386-8dc0-4e71-a4dc-21e4529aed25</FriendlyName>
     </PluginType>

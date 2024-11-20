@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24103.192" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24103.192" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24103.00192">
+<ImportExportXml version="9.2.24111.180" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24111.180" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24111.00180">
   <SolutionManifest>
     <UniqueName>TC_CustomActions</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Custom Actions and APIs" languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.45</Version>
+    <Version>1.2.0.46</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>oversightpublisher</UniqueName>
@@ -95,7 +95,6 @@
       <RootComponent type="29" id="{bc9de0f7-d6f8-4657-a671-b472f8ff017d}" behavior="0" />
       <RootComponent type="29" id="{c433a0cb-268b-ef11-8a69-002248adac91}" behavior="0" />
       <RootComponent type="29" id="{e0ca6226-828e-ec11-8d20-0022483bb0e4}" behavior="0" />
-      <RootComponent type="29" id="{ea46f084-186a-ef11-a671-0022483bb3a9}" behavior="0" />
       <RootComponent type="29" id="{f7374f05-83f2-ee11-a1fd-002248af8802}" behavior="0" />
       <RootComponent type="91" id="{9a847216-3b96-475d-a229-43dc08c156b3}" schemaName="TC.PowerApps.CustomActions, Version=1.0.0.1, Culture=neutral, PublicKeyToken=6aecae9f68df76db" behavior="0" />
       <RootComponent type="92" id="{0ab6f06c-ecf6-ec11-82e5-000d3a848097}" behavior="0" />
@@ -109,7 +108,6 @@
       <RootComponent type="92" id="{a1d9f04d-d5b5-eb11-8236-0022483bc30f}" behavior="0" />
       <RootComponent type="92" id="{b545f2f0-6b86-ef11-ac20-000d3ae87da5}" behavior="0" />
       <RootComponent type="92" id="{cbdb5244-288b-ef11-8a69-002248adac91}" behavior="0" />
-      <RootComponent type="92" id="{cfe01caa-1c6a-ef11-a671-0022483bb3a9}" behavior="0" />
       <RootComponent type="92" id="{e7463380-8ebc-ee11-9078-002248b0ab18}" behavior="0" />
       <RootComponent type="92" id="{f28ec69b-fc4b-ec11-8f8e-000d3ae8eddc}" behavior="0" />
       <RootComponent type="92" id="{f6c0dbe8-828e-ec11-8d20-0022483bb0e4}" behavior="0" />
