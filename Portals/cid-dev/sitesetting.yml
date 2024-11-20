@@ -70,6 +70,9 @@
 - adx_name: Webapi/ovs_supportrequesttype/enabled
   adx_sitesettingid: 42ba531a-04af-ed11-83ff-0022483d0343
   adx_value: True
+- adx_name: HTTP/SameSite/Default
+  adx_sitesettingid: 44203f61-d8a6-ef11-a72d-002248b1a28a
+  adx_value: Strict
 - adx_name: Profile/ForceSignUp
   adx_sitesettingid: 479cf4df-a582-e211-a2ad-00155d036906
   adx_value: False
@@ -240,7 +243,6 @@
   adx_value: '*'
 - adx_name: Authentication/Registration/LoginButtonAuthenticationType
   adx_sitesettingid: 91a18fc1-622b-e711-80df-00155dfcea14
-  adx_value: https://te-auth.id.tbs-sct.gc.ca/
   importsequencenumber: 3
 - adx_name: Authentication/OpenIdConnect/OpenId_2/ResponseMode
   adx_sitesettingid: 920ff71c-8c5f-453c-8884-48a7d2815bcc
