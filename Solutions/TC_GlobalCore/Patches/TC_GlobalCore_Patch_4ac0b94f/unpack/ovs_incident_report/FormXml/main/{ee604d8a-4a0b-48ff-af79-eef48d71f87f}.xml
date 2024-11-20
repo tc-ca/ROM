@@ -231,6 +231,22 @@
                         </labels>
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{dc896a07-cd38-4864-b23b-b57c67401083}" locklevel="0" colspan="1" rowspan="3">
+                        <labels>
+                          <label description="French Incident Summary" languagecode="1033" />
+                          <label description="Résumé de l'incident en français" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_summary_fr_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_summary_fr_txt" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e43eccb4-7114-4a29-8d87-ce2e43f6851b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
                   </rows>
                 </section>
                 <section name="General Info_section_4" id="0175beb8-340e-4fcc-9b5a-05750f9427ab" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
