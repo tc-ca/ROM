@@ -214,14 +214,14 @@ stages:
     - 'DeployManagedSolutionToQA'
 
 #DATA
-# - template: templates/stage/DeploySolution.yml  # Template reference
-#   parameters:
-#     SolutionName: $(Build.BuildNumber)
-#     PowerPlatformSPN: $(PowerPlatformSPN_DATA)
-#     Environment: 'ACC-TDG-DATA'
-#     StageName: 'DeployManagedSolutionToDATA'
-#     dependsOn: 
-#     - 'DeployManagedSolutionToQA'
+- template: templates/stage/DeploySolution.yml  # Template reference
+  parameters:
+    SolutionName: $(Build.BuildNumber)
+    PowerPlatformSPN: $(PowerPlatformSPN_DATA)
+    Environment: 'ACC-TDG-DATA'
+    StageName: 'DeployManagedSolutionToDATA'
+    dependsOn: 
+    - 'DeployManagedSolutionToQA'
 
 #all subsequent deployments will require an explicit stage approval by an approver for that environment
 
