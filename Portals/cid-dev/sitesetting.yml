@@ -29,6 +29,12 @@
 - adx_name: Webapi/ovs_siteclass/fields
   adx_sitesettingid: 143a9800-1fe6-ee11-a203-000d3a845779
   adx_value: '*'
+- adx_name: Authentication/OpenIdConnect/OpenId_1/AllowContactMappingWithEmail
+  adx_sitesettingid: 148afc33-8f39-4512-b684-54ddfa6025fc
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ClientId
+  adx_sitesettingid: 15f4df1d-d4bc-4d4e-a075-8835c114f03d
+  adx_value: bd4b83d4-27c0-4999-b28b-a5a3cdd16c90
 - adx_name: Webapi/cid_modeoftransportation/fields
   adx_sitesettingid: 18e62cdb-5b8f-ec11-8d20-0022483bb0e4
   adx_value: '*'
@@ -39,6 +45,9 @@
 - adx_name: Maintenance/IsMaintenance
   adx_sitesettingid: 2900a753-6e8d-ee11-8179-0022483d0343
   adx_value: false
+- adx_name: Authentication/OpenIdConnect/OpenId_1/Caption
+  adx_sitesettingid: 2965e059-eec4-4d85-a46a-ebca6cc60e97
+  adx_value: Sign In Canada - CATE
 - adx_name: Webapi/adx_invitation/enabled
   adx_sitesettingid: 2a7af536-fd50-ed11-bba3-0022483d0343
   adx_value: true
@@ -48,6 +57,9 @@
 - adx_name: Site/EnableCustomPluginError
   adx_sitesettingid: 3179aa27-d182-ec11-8d20-000d3a84612b
   adx_value: true
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ClientSecret
+  adx_sitesettingid: 360fb2bb-1fe1-483f-bab7-cd665fe05a19
+  adx_value: tmMfyNm78lg9OYATRNdZ1cbsefgX3FgxsPiSKwgV
 - adx_name: Webapi/ovs_operationunnumber/enabled
   adx_sitesettingid: 37266d24-2ab4-ec11-983e-002248add234
   adx_value: True
@@ -58,6 +70,9 @@
   adx_name: Header/OutputCache/Enabled
   adx_sitesettingid: 39331662-ca04-44cf-b333-6d66b0209336
   adx_value: True
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ResponseType
+  adx_sitesettingid: 3d253b0a-73a0-46ff-8ec3-733f97594837
+  adx_value: code
 - adx_name: Profile/ShowMarketingOptionsPanel
   adx_sitesettingid: 40aef340-7441-4494-b493-2f0d97d87efe
   adx_value: False
@@ -73,6 +88,9 @@
 - adx_name: HTTP/SameSite/Default
   adx_sitesettingid: 44203f61-d8a6-ef11-a72d-002248b1a28a
   adx_value: Strict
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ValidateAudience
+  adx_sitesettingid: 4518e944-f0a9-4b2e-b0ed-cfe91907b952
+  adx_value: false
 - adx_name: Profile/ForceSignUp
   adx_sitesettingid: 479cf4df-a582-e211-a2ad-00155d036906
   adx_value: False
@@ -85,12 +103,18 @@
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 51138c9f-eb33-46ea-817a-442931cb540a
   adx_value: SAMEORIGIN
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ValidateIssuer
+  adx_sitesettingid: 5191b7f4-1cf4-4a2c-baf4-4b7e96cef5f7
+  adx_value: false
 - adx_name: Webapi/cid_historylog/enabled
   adx_sitesettingid: 521696ca-fde4-ed11-8848-0022483e130e
   adx_value: true
 - adx_name: Authentication/Registration/TwoFactorEnabled
   adx_sitesettingid: 52f15e0f-e2b3-ed11-83fe-0022483e130e
   adx_value: true
+- adx_name: Authentication/OpenIdConnect/OpenId_1/Authority
+  adx_sitesettingid: 530e3817-d2c4-42b1-bf1d-e30d61386a19
+  adx_value: https://te-auth.id.tbs-sct.gc.ca/
 - adx_name: Webapi/tdg_unnumber/enabled
   adx_sitesettingid: 533e4f4a-0051-ed11-bba3-0022483d0343
   adx_value: True
@@ -105,6 +129,9 @@
 - adx_name: WET4 - IsApplication
   adx_sitesettingid: 557974c8-3cca-ec11-a7b5-000d3a09d169
   adx_value: true
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ResponseMode
+  adx_sitesettingid: 56d6e3d9-a40f-484c-83ff-569357ac105f
+  adx_value: query
 - adx_name: Webapi/cid_temp_webapi_demo/fields
   adx_sitesettingid: 5979e39e-3aa5-ec11-b3fe-0022483c4a6f
   adx_value: '*'
@@ -124,16 +151,13 @@
 - adx_name: Webapi/cid_historylog/fields
   adx_sitesettingid: 6a388dd2-fde4-ed11-8848-0022483e130e
   adx_value: '*'
-- adx_name: Authentication/OpenIdConnect/OpenId_1/Authority
-  adx_sitesettingid: 6a65a728-5507-ec11-b6e7-0022483cc4b5
-  adx_value: https://te-auth.id.tbs-sct.gc.ca/
-- adx_name: Authentication/OpenIdConnect/OpenId_1/Caption
-  adx_sitesettingid: 6b65a728-5507-ec11-b6e7-0022483cc4b5
-  adx_value: Sign In Canada - CATE
 - adx_description: Enabling this setting will show all customer activity on the portal timeline.
   adx_name: CustomerSupport/DisplayAllUserActivitiesOnTimeline
   adx_sitesettingid: 6c25f2f8-6090-4f9e-bc3a-dae06cfee206
   adx_value: false
+- adx_name: Authentication/OpenIdConnect/OpenId_1/RedirectUri
+  adx_sitesettingid: 6c6b5c80-fedc-4070-ba20-18fc72a499db
+  adx_value: https://rd-tdgcore-dev.powerappsportals.com/signin-openid_1
 - adx_name: Authentication/Registration/LoginButtonAuthenticationType
   adx_sitesettingid: 7262a3ac-1ec3-ee11-9079-0022483cceb8
   adx_value: https://te-auth.id.tbs-sct.gc.ca/
@@ -145,15 +169,9 @@
 - adx_name: Webapi/enableReadOperationPreview
   adx_sitesettingid: 741ae11e-4454-ec11-8f8e-000d3ae9aa5f
   adx_value: True
-- adx_name: Authentication/OpenIdConnect/OpenId_1/RPInitiatedLogout
-  adx_sitesettingid: 74f38174-0959-ec11-8f8e-0022483dafed
-  adx_value: false
 - adx_name: Webapi/cid_fake_cra_bn_api/fields
   adx_sitesettingid: 754a11df-fd50-ed11-bba3-0022483d0343
   adx_value: '*'
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ValidateIssuer
-  adx_sitesettingid: 75f38174-0959-ec11-8f8e-0022483dafed
-  adx_value: false
 - adx_description: Used to group a set of entities under an entry in the record type facet view.
   adx_name: Search/RecordTypeFacetsEntities
   adx_sitesettingid: 768d104b-e732-4460-824f-e40f38f87da5
@@ -161,18 +179,6 @@
 - adx_name: Webapi/qm_environmentsettings/fields
   adx_sitesettingid: 769904a9-6e55-ed11-9561-0022483cb62f
   adx_value: '*'
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ValidateAudience
-  adx_sitesettingid: 76f38174-0959-ec11-8f8e-0022483dafed
-  adx_value: false
-- adx_name: Authentication/OpenIdConnect/OpenId_1/UseTokenLifetime
-  adx_sitesettingid: 77f38174-0959-ec11-8f8e-0022483dafed
-  adx_value: false
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ExternalLogoutEnabled
-  adx_sitesettingid: 78f38174-0959-ec11-8f8e-0022483dafed
-  adx_value: true
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ResponseType
-  adx_sitesettingid: 7af38174-0959-ec11-8f8e-0022483dafed
-  adx_value: code
 - adx_description: 'The default number of unauthenticated login attempts from an IP address before the IP address is blocked for Authentication/LoginThrottling/IpAddressTimeoutTimeSpan if the attempts occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 1000'
   adx_name: Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress
   adx_sitesettingid: 7ce4de7f-b1fa-e511-80d3-00155db754a9
@@ -228,6 +234,9 @@
   adx_sitesettingid: 8da18fc1-622b-e711-80df-00155dfcea14
   adx_value: true
   importsequencenumber: 3
+- adx_name: Authentication/OpenIdConnect/OpenId_1/Scope
+  adx_sitesettingid: 8f72a48d-1f61-4b97-a05b-4e0b073bc18e
+  adx_value: openid
 - adx_name: Authentication/Registration/InvitationEnabled
   adx_sitesettingid: 8fa18fc1-622b-e711-80df-00155dfcea14
   adx_value: true
@@ -331,6 +340,12 @@
 - adx_name: Webapi/cid_temp_webapi_demo/enabled
   adx_sitesettingid: ad323089-3aa5-ec11-b3fe-0022483c4a6f
   adx_value: True
+- adx_name: Authentication/OpenIdConnect/OpenId_1/RPInitiatedLogout
+  adx_sitesettingid: ae4a8c4a-fa15-47eb-a53f-9f022700325d
+  adx_value: false
+- adx_name: Authentication/OpenIdConnect/OpenId_1/UseTokenLifetime
+  adx_sitesettingid: af246c5e-c198-4c4d-833a-df55f116911d
+  adx_value: false
 - adx_name: Authentication/OpenAuth/LinkedIn/ConsumerKey
   adx_sitesettingid: afe2021a-6796-e211-be45-00155d03a500
 - adx_name: Webapi/cid_audithistorycode/enabled
@@ -392,6 +407,9 @@
   adx_name: Footer/OutputCache/Enabled
   adx_sitesettingid: ca93ff11-41ac-4a1c-8ac5-d9099f719f4f
   adx_value: True
+- adx_name: Authentication/OpenIdConnect/OpenId_1/ExternalLogoutEnabled
+  adx_sitesettingid: caa67348-8169-4dda-af48-4d6ea48da229
+  adx_value: true
 - adx_name: Authentication/OpenIdConnect/OpenId_2/MetadataAddress
   adx_sitesettingid: cb2a2532-73c5-45cc-ab60-84df8658b5dd
   adx_value: https://auth.dev.tc.cloud-nuage.canada.ca/034gcb2cdev.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1A_GCCF_SIGNIN_ACCOUNTS_MIN
@@ -430,24 +448,12 @@
 - adx_name: Webapi/cid_activityreviewlog/fields
   adx_sitesettingid: dd22623e-78b6-ed11-b597-0022483e130e
   adx_value: '*'
-- adx_name: Authentication/OpenIdConnect/OpenId_1/AllowContactMappingWithEmail
-  adx_sitesettingid: e3c82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: true
 - adx_name: Webapi/ovs_mocregistration_ovs_modesset/enabled
   adx_sitesettingid: e5440083-a077-ec11-8942-000d3a840e6b
   adx_value: True
 - adx_name: Authentication/OpenIdConnect/OpenId_2/ClientSecret
   adx_sitesettingid: e54f35d2-b893-4ecf-a0c5-f59264f4fdad
   adx_value: g-D8Q~ePpiYTx-wlP63p76VjwK88pgprogue4cbI
-- adx_name: Authentication/OpenIdConnect/OpenId_1/RedirectUri
-  adx_sitesettingid: e6c82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: https://rd-tdgcore-dev.powerappsportals.com/signin-openid_1
-- adx_name: Authentication/OpenIdConnect/OpenId_1/MetadataAddress
-  adx_sitesettingid: e7c82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: https://te-auth.id.tbs-sct.gc.ca/oxauth/.well-known/openid-configuration
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ClientId
-  adx_sitesettingid: e8c82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: bd4b83d4-27c0-4999-b28b-a5a3cdd16c90
 - adx_name: Authentication/OpenAuth/Microsoft/ClientSecret
   adx_sitesettingid: e98cd4cc-976c-e211-9d9e-00155d03a715
   importsequencenumber: 5
@@ -464,21 +470,15 @@
 - adx_name: Authentication/OpenIdConnect/OpenId_2/ValidateIssuer
   adx_sitesettingid: ead378f8-d6a1-4527-888b-68b1dfea9c39
   adx_value: false
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ClientSecret
-  adx_sitesettingid: ebc82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: tmMfyNm78lg9OYATRNdZ1cbsefgX3FgxsPiSKwgV
+- adx_name: Authentication/OpenIdConnect/OpenId_1/MetadataAddress
+  adx_sitesettingid: ebe8475e-f985-4e48-9d45-6cbc1255278e
+  adx_value: https://te-auth.id.tbs-sct.gc.ca/oxauth/.well-known/openid-configuration
 - adx_name: WET4 - IsExternal
   adx_sitesettingid: ec6ba606-e3ca-ec11-a7b5-000d3a09d169
   adx_value: true
 - adx_name: OnlineDomains
   adx_sitesettingid: ec7a68b8-7cba-4e09-91e8-42cc4406c660
   adx_value: sharepoint.com;microsoftonline.com
-- adx_name: Authentication/OpenIdConnect/OpenId_1/Scope
-  adx_sitesettingid: ecc82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: openid
-- adx_name: Authentication/OpenIdConnect/OpenId_1/ResponseMode
-  adx_sitesettingid: edc82f77-0959-ec11-8f8e-0022483c409d
-  adx_value: query
 - adx_description: Determines if faceted search is used for this portal.
   adx_name: Search/FacetedView
   adx_sitesettingid: ee0eb540-4c85-4dc6-8f79-9d5e33f2b1fb

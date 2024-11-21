@@ -2492,6 +2492,14 @@ adx_sitesetting:
   DisplayName: Webapi/ovs_siteclass/fields
   CheckSum: c2d1af03c5ead363bf1d035ec21a9b7564a1ccfc7e9fd608cf223cc530b8c9ae
   IsDeleted: false
+- RecordId: 148afc33-8f39-4512-b684-54ddfa6025fc
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/AllowContactMappingWithEmail
+  CheckSum: 3a669e81ae66c2298ab8ad688850374c631401272e55b050d13da00639f2bdaf
+  IsDeleted: false
+- RecordId: 15f4df1d-d4bc-4d4e-a075-8835c114f03d
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ClientId
+  CheckSum: 472dd5283e605be94639d6b8bee2a53d5c1087d92af09b03433f2d882a2b140a
+  IsDeleted: false
 - RecordId: 18e62cdb-5b8f-ec11-8d20-0022483bb0e4
   DisplayName: Webapi/cid_modeoftransportation/fields
   CheckSum: a8c40ad74f6e134e9786a4caf49041ebe4d8f220f84038ad1ca099445e14fcb3
@@ -2503,6 +2511,10 @@ adx_sitesetting:
 - RecordId: 2900a753-6e8d-ee11-8179-0022483d0343
   DisplayName: Maintenance/IsMaintenance
   CheckSum: 60b76f320011ec9e8dc7b94a21601c04c13d58bfcdcbbcb455aef01fb6fc8e15
+  IsDeleted: false
+- RecordId: 2965e059-eec4-4d85-a46a-ebca6cc60e97
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/Caption
+  CheckSum: e6d8584d8ac3e73d0d1750a71a7cf4d68c8543fc8dae60505f0a965273af8e92
   IsDeleted: false
 - RecordId: 2a7af536-fd50-ed11-bba3-0022483d0343
   DisplayName: Webapi/adx_invitation/enabled
@@ -2516,6 +2528,10 @@ adx_sitesetting:
   DisplayName: Site/EnableCustomPluginError
   CheckSum: 580608b2734b82d9e8146f7bd8daed777d85f30e81fc49a7be53af8b3f2a3e64
   IsDeleted: false
+- RecordId: 360fb2bb-1fe1-483f-bab7-cd665fe05a19
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ClientSecret
+  CheckSum: baab7497b369a03bee625f79c274c21fb8aaca3e1083939f24acac13b8c350e1
+  IsDeleted: false
 - RecordId: 37266d24-2ab4-ec11-983e-002248add234
   DisplayName: Webapi/ovs_operationunnumber/enabled
   CheckSum: 15b6410361100aa496f2690b605c6f414b4c2162bf8ce5b0d55494e5040ecfbb
@@ -2527,6 +2543,10 @@ adx_sitesetting:
 - RecordId: 39331662-ca04-44cf-b333-6d66b0209336
   DisplayName: Header/OutputCache/Enabled
   CheckSum: 0596806183e83f0832ddca53d08a39f3e6c792b32a9b1bfec8c5ca9707040e58
+  IsDeleted: false
+- RecordId: 3d253b0a-73a0-46ff-8ec3-733f97594837
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ResponseType
+  CheckSum: 0c6d8b555bf53e48d6dd07a53c9044a24136abd872b8116795339e63e157167e
   IsDeleted: false
 - RecordId: 40aef340-7441-4494-b493-2f0d97d87efe
   DisplayName: Profile/ShowMarketingOptionsPanel
@@ -2548,6 +2568,10 @@ adx_sitesetting:
   DisplayName: HTTP/SameSite/Default
   CheckSum: 9ae13192d44727ee6636570f06bf8d9a39b9b8d76e86dab0ae088ccde459413f
   IsDeleted: false
+- RecordId: 4518e944-f0a9-4b2e-b0ed-cfe91907b952
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ValidateAudience
+  CheckSum: c0213f3297badd560fc682f29dedee2fce1d7c71fece8c82c8aa5f3a7baf0427
+  IsDeleted: false
 - RecordId: 479cf4df-a582-e211-a2ad-00155d036906
   DisplayName: Profile/ForceSignUp
   CheckSum: 1505bf137fc42f79df5e121979d5f1bbc7362150f5150c835a8add46b217af16
@@ -2564,6 +2588,10 @@ adx_sitesetting:
   DisplayName: HTTP/X-Frame-Options
   CheckSum: e9ca9d54e500254e05de6e736618853285da81c047f05a3de3b7b543becb9c5f
   IsDeleted: false
+- RecordId: 5191b7f4-1cf4-4a2c-baf4-4b7e96cef5f7
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ValidateIssuer
+  CheckSum: 77810d5ea43a8803f12e3ba378b7a83968613c3335b1ae07b4d9c274312c665f
+  IsDeleted: false
 - RecordId: 521696ca-fde4-ed11-8848-0022483e130e
   DisplayName: Webapi/cid_historylog/enabled
   CheckSum: a56d3ffd45daf4b9fc7e614c8e0def7373a3ac10785fc326e8e2854e00cc36f4
@@ -2571,6 +2599,10 @@ adx_sitesetting:
 - RecordId: 52f15e0f-e2b3-ed11-83fe-0022483e130e
   DisplayName: Authentication/Registration/TwoFactorEnabled
   CheckSum: 568edaf3ea4c0cde24d8356e6e679ef74dc2fd21789fafcbb6be8ee62b3bb8b6
+  IsDeleted: false
+- RecordId: 530e3817-d2c4-42b1-bf1d-e30d61386a19
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/Authority
+  CheckSum: 1d89c5a6b216e4ad50aff7fdba02fe28fea6c55d605e983a71c3fba31da563b2
   IsDeleted: false
 - RecordId: 533e4f4a-0051-ed11-bba3-0022483d0343
   DisplayName: Webapi/tdg_unnumber/enabled
@@ -2587,6 +2619,10 @@ adx_sitesetting:
 - RecordId: 557974c8-3cca-ec11-a7b5-000d3a09d169
   DisplayName: WET4 - IsApplication
   CheckSum: b72bf0f2c688e0175da55dc25eca5a9f92159d5be94f06021e773492c5b33c79
+  IsDeleted: false
+- RecordId: 56d6e3d9-a40f-484c-83ff-569357ac105f
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ResponseMode
+  CheckSum: f2a9add6b609f20e8f3800c2fc2acd938fb2f2c2d268213813e6840fb0b31483
   IsDeleted: false
 - RecordId: 5979e39e-3aa5-ec11-b3fe-0022483c4a6f
   DisplayName: Webapi/cid_temp_webapi_demo/fields
@@ -2612,17 +2648,13 @@ adx_sitesetting:
   DisplayName: Webapi/cid_historylog/fields
   CheckSum: daef3389210ef9f9f37c06feb86faa7ee0cb4472a49845d18d561087700e9279
   IsDeleted: false
-- RecordId: 6a65a728-5507-ec11-b6e7-0022483cc4b5
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/Authority
-  CheckSum: be3c6c6cf9a9c98cceb4c9fd4b1ac0ad2601a016eb0fed65ecb896ecc734d9b1
-  IsDeleted: false
-- RecordId: 6b65a728-5507-ec11-b6e7-0022483cc4b5
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/Caption
-  CheckSum: 00069316329e8509935bde1cd84d0244efefcb1c8759a7048a0e9be4781e3008
-  IsDeleted: false
 - RecordId: 6c25f2f8-6090-4f9e-bc3a-dae06cfee206
   DisplayName: CustomerSupport/DisplayAllUserActivitiesOnTimeline
   CheckSum: 721c97f44d1f0e20da318bafdca76936ae950c2bf77294f82e017cc84579a08e
+  IsDeleted: false
+- RecordId: 6c6b5c80-fedc-4070-ba20-18fc72a499db
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/RedirectUri
+  CheckSum: c7d65ed76003e8800587fec34103d150c6d61aea5f00103f1e9a697cbd093bd1
   IsDeleted: false
 - RecordId: 7262a3ac-1ec3-ee11-9079-0022483cceb8
   DisplayName: Authentication/Registration/LoginButtonAuthenticationType
@@ -2636,17 +2668,9 @@ adx_sitesetting:
   DisplayName: Webapi/enableReadOperationPreview
   CheckSum: 88792bdb1b5f7e3128b1e6f146d4d394c16c157e442e85e66ca1a65270b8aa58
   IsDeleted: false
-- RecordId: 74f38174-0959-ec11-8f8e-0022483dafed
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/RPInitiatedLogout
-  CheckSum: fb9a6aa45e3bf7b8269ac438e1290c13ee1819345c145640f5b3d2186f7945fe
-  IsDeleted: false
 - RecordId: 754a11df-fd50-ed11-bba3-0022483d0343
   DisplayName: Webapi/cid_fake_cra_bn_api/fields
   CheckSum: 0e7a809a712d155139c0958ea01f3f9f61696caa71ca7050c146583c18663a2b
-  IsDeleted: false
-- RecordId: 75f38174-0959-ec11-8f8e-0022483dafed
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ValidateIssuer
-  CheckSum: b356ceda81fdb199236e0b736185f7a27b75fe40857be60cf07cc13f56f5e66c
   IsDeleted: false
 - RecordId: 768d104b-e732-4460-824f-e40f38f87da5
   DisplayName: Search/RecordTypeFacetsEntities
@@ -2655,22 +2679,6 @@ adx_sitesetting:
 - RecordId: 769904a9-6e55-ed11-9561-0022483cb62f
   DisplayName: Webapi/qm_environmentsettings/fields
   CheckSum: 2cbb33ecf9077fecbbe201dcf4977bbd6f1089e61d89f1e64374750d65d09f21
-  IsDeleted: false
-- RecordId: 76f38174-0959-ec11-8f8e-0022483dafed
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ValidateAudience
-  CheckSum: 147d3c43346971601df574ece70c2776d3ed564758b86c6eabe939e37a6b179d
-  IsDeleted: false
-- RecordId: 77f38174-0959-ec11-8f8e-0022483dafed
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/UseTokenLifetime
-  CheckSum: 0ac44a7b46d9abf266252f93fffd4e125c88f61f9ccba8ee00e11378c60266a8
-  IsDeleted: false
-- RecordId: 78f38174-0959-ec11-8f8e-0022483dafed
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ExternalLogoutEnabled
-  CheckSum: c2a45b1827582d164a7d53e843f1cc13e01d38ae653682c26896ee823b6fa10f
-  IsDeleted: false
-- RecordId: 7af38174-0959-ec11-8f8e-0022483dafed
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ResponseType
-  CheckSum: 7fa72cb219a5d43266146a138dfdaf615ceb52fbaf8706715616cd01f15175e5
   IsDeleted: false
 - RecordId: 7ce4de7f-b1fa-e511-80d3-00155db754a9
   DisplayName: Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress
@@ -2735,6 +2743,10 @@ adx_sitesetting:
 - RecordId: 8da18fc1-622b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/ExternalLoginEnabled
   CheckSum: fc8ca775058da5369265777c6ed1785f2e668c33cc1c4aa55b8505dd7589aac8
+  IsDeleted: false
+- RecordId: 8f72a48d-1f61-4b97-a05b-4e0b073bc18e
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/Scope
+  CheckSum: 2835f456b23547f4cc0cececc9a6cc9230603c4e95192083d4034a65c1207ea4
   IsDeleted: false
 - RecordId: 8fa18fc1-622b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/InvitationEnabled
@@ -2860,6 +2872,14 @@ adx_sitesetting:
   DisplayName: Webapi/cid_temp_webapi_demo/enabled
   CheckSum: c9bf7594ef45798d3ca43f963c8044dc52ad02e7ae9d75c86ead82fb663a553a
   IsDeleted: false
+- RecordId: ae4a8c4a-fa15-47eb-a53f-9f022700325d
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/RPInitiatedLogout
+  CheckSum: dedd7e1bd1d06091d9130d2b93881ed7312e443cf6a3442ffd6bd04ef88323e8
+  IsDeleted: false
+- RecordId: af246c5e-c198-4c4d-833a-df55f116911d
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/UseTokenLifetime
+  CheckSum: 40e010936df4c50dd97a7e2938223b5344f20e11fb3c8551bf6b743b554566fd
+  IsDeleted: false
 - RecordId: afe2021a-6796-e211-be45-00155d03a500
   DisplayName: Authentication/OpenAuth/LinkedIn/ConsumerKey
   CheckSum: e8b719202c3a095e2a825c97ada137913a43d1d83dfe06ae776bd8da7e6d41ef
@@ -2936,6 +2956,10 @@ adx_sitesetting:
   DisplayName: Footer/OutputCache/Enabled
   CheckSum: d7c5a4eb2bed73ccf055b4bc2c32a03713f3d82792a0ce7e273dee9141a6e2c5
   IsDeleted: false
+- RecordId: caa67348-8169-4dda-af48-4d6ea48da229
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ExternalLogoutEnabled
+  CheckSum: c56a47577bb4ad8b465e8a569878673e7e5be134fefe46ae0b440e9f2b498d42
+  IsDeleted: false
 - RecordId: cb2a2532-73c5-45cc-ab60-84df8658b5dd
   DisplayName: Authentication/OpenIdConnect/OpenId_2/MetadataAddress
   CheckSum: 015beb0e0142ecaaa6336460af2290f0ee6da7eb2f8767c5604e753e98bfab90
@@ -2976,10 +3000,6 @@ adx_sitesetting:
   DisplayName: Webapi/cid_activityreviewlog/fields
   CheckSum: 857b72ede97c3750814a4b33e208d3b8402e0499b70ee5aa1c2c0bd988bc7f87
   IsDeleted: false
-- RecordId: e3c82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/AllowContactMappingWithEmail
-  CheckSum: 2a5852366593a969d64d94645a9acb837c415d6eeedb036cff12f0bc1cd57049
-  IsDeleted: false
 - RecordId: e5440083-a077-ec11-8942-000d3a840e6b
   DisplayName: Webapi/ovs_mocregistration_ovs_modesset/enabled
   CheckSum: 5a3437ebc479849a040384aecac0398220196f92cc62accb0ec944f99d24d88e
@@ -2987,18 +3007,6 @@ adx_sitesetting:
 - RecordId: e54f35d2-b893-4ecf-a0c5-f59264f4fdad
   DisplayName: Authentication/OpenIdConnect/OpenId_2/ClientSecret
   CheckSum: 33031111eb64648b953ecaf6e88be00f52cd50ebab15fe25e760cd27d2b49edc
-  IsDeleted: false
-- RecordId: e6c82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/RedirectUri
-  CheckSum: 62369ff5372a816e478baed1495a06ee49801d83e7766ab8dd5ab9e7da52e493
-  IsDeleted: false
-- RecordId: e7c82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/MetadataAddress
-  CheckSum: 8f4193f210d00f9774ba2ad50a42979b447e6a76758f7871251497770f171a1d
-  IsDeleted: false
-- RecordId: e8c82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ClientId
-  CheckSum: 699fecb23ac1188cd02ed2c68548a7fe703db571f492ec510154b76e4fe865b1
   IsDeleted: false
 - RecordId: e98cd4cc-976c-e211-9d9e-00155d03a715
   DisplayName: Authentication/OpenAuth/Microsoft/ClientSecret
@@ -3020,9 +3028,9 @@ adx_sitesetting:
   DisplayName: Authentication/OpenIdConnect/OpenId_2/ValidateIssuer
   CheckSum: 110c14a9b328e4461132ba6246a7b16ebfcaefadb27dc327fb11bf9d80814161
   IsDeleted: false
-- RecordId: ebc82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ClientSecret
-  CheckSum: 3cf517485e057fbada3e540f1978a346919c3debae788c3f22985799c0522680
+- RecordId: ebe8475e-f985-4e48-9d45-6cbc1255278e
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/MetadataAddress
+  CheckSum: 3d4eb5a0799d5eb592a3179a673a1b8fe3faf7656b56f2fe497b1e309d1ff011
   IsDeleted: false
 - RecordId: ec6ba606-e3ca-ec11-a7b5-000d3a09d169
   DisplayName: WET4 - IsExternal
@@ -3031,14 +3039,6 @@ adx_sitesetting:
 - RecordId: ec7a68b8-7cba-4e09-91e8-42cc4406c660
   DisplayName: OnlineDomains
   CheckSum: f3c07a5e4edc780318c9b418626c8006362ef8dea18faabfb21b0529e681480a
-  IsDeleted: false
-- RecordId: ecc82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/Scope
-  CheckSum: 2d3cb844998d1905c9097a8588d65fbc9a938c9b1cdd8b675e3a9b32a87d4225
-  IsDeleted: false
-- RecordId: edc82f77-0959-ec11-8f8e-0022483c409d
-  DisplayName: Authentication/OpenIdConnect/OpenId_1/ResponseMode
-  CheckSum: f77847e461b4cd9f0297508db209ad42011b9c691152e92fa0a80bdaa6464b6a
   IsDeleted: false
 - RecordId: ee0eb540-4c85-4dc6-8f79-9d5e33f2b1fb
   DisplayName: Search/FacetedView
