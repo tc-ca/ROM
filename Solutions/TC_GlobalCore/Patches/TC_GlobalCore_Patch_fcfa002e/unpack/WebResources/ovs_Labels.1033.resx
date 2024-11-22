@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Booking.FiscalQuarterIsMandatory.Close" xml:space="preserve">
+    <value>Planned Fiscal Quarter is a mandatory information. Please close current Booking to fix Planned Fiscal Quarter in the WorkOrder form.</value>
+  </data>
+  <data name="Booking.FiscalQuarterIsMandatory.Delete" xml:space="preserve">
+    <value>Planned Fiscal Quarter is a mandatory information. We recomend delete this booking and start a new one.</value>
+  </data>
+  <data name="Booking.FiscalYearIsMandatory.Close" xml:space="preserve">
+    <value>Planned Fiscal Year is a mandatory information. Please close current Booking to fix  Planned Fiscal Year in the  in WorkOrder form.</value>
+  </data>
+  <data name="Booking.FiscalYearIsMandatory.Delete" xml:space="preserve">
+    <value>Planned Fiscal Year is a mandatory information. We recomend delete this booking and start a new one.</value>
+  </data>
+  <data name="Booking.starttime.OutOfPlanedFiscalYear" xml:space="preserve">
+    <value>The selected date '{0}' is outside of the planned fiscal year. Please select another date.</value>
+  </data>
+  <data name="Booking.WO.NotPopulated" xml:space="preserve">
+    <value>The booking is not associated with a Work Order </value>
+  </data>
+  <data name="IPT.ribbon.AnotherRun" xml:space="preserve">
+    <value>Another IPT run in progress. Please try later.</value>
+  </data>
+  <data name="IPT.ribbon.CallFailed" xml:space="preserve">
+    <value>Run failed due to following error:  </value>
+  </data>
+  <data name="IPT.ribbon.ProceedPrompt" xml:space="preserve">
+    <value>You’re going to start IPT calculation process. Proceed?</value>
+  </data>
+  <data name="IPT.ribbon.ProcessStarted" xml:space="preserve">
+    <value>The IPT calculation process has started. You will be notified of progress and results via emails and MS Teams messaging.</value>
+  </data>
+  <data name="IPT.ribbon.SaveForm" xml:space="preserve">
+    <value>Please save the form before running IPT.</value>
+  </data>
+  <data name="IPT.ribbon.WentWrong" xml:space="preserve">
+    <value>Something went wrong. Error: </value>
+  </data>
+  <data name="IPT.ribbon.Working" xml:space="preserve">
+    <value>Working …</value>
+  </data>
+  <data name="msdyn_workorder.ActiveSEAT.WarningMessage" xml:space="preserve">
+    <value>Please note: at least one SEAT is not marked as complete.</value>
+  </data>
+  <data name="msdyn_workorder.CloseWorkOrder.ErrorMessage" xml:space="preserve">
+    <value>Work Order cannot be closed due to an open Enforcement actions or Confirmation of Compliance.</value>
+  </data>
+  <data name="msdyn_workorder.FetchFiscalQuarter.ErrorMessage" xml:space="preserve">
+    <value>Cannot set Default Fiscal Quarter . Error :</value>
+  </data>
+  <data name="msdyn_workorder.FetchFiscalYear.ErrorMessage" xml:space="preserve">
+    <value>Cannot Set Default Fiscal Year . Error :</value>
+  </data>
+  <data name="msdyn_workorder.FetchRational.ErrorMessage" xml:space="preserve">
+    <value>Cannot retreive rational Unplanned . Error :</value>
+  </data>
+  <data name="msdyn_workorder.FetchRegion.ErrorMessage" xml:space="preserve">
+    <value>Cannot set Region. Error :</value>
+  </data>
+  <data name="msdyn_workorder.FetchWorkOrderType.ErrorMessage" xml:space="preserve">
+    <value>Cannot retreive Work Order Type. Error :</value>
+  </data>
+  <data name="msdyn_workorder.InspectionReport.ErrorTitle" xml:space="preserve">
+    <value>Cannot generate inspection report.</value>
+  </data>
+  <data name="msdyn_workorder.loading.Message" xml:space="preserve">
+    <value>loading</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.Badge.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report is missing the Badge Number of the Primary Inspector.  Please add a Badge Number to the Primary Inspector to complete generating the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.Bookings.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires that a Work Order has an associated Booking attached to it.  Please create a Booking associated to this Work Order in order to complete generating the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.Contact.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires both a Primary Contact and Primary Contact Phone Number.  One or both of these items are missing.  Please add these items to complete generating the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.Email.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires a Primary Contact E-mail address.  Please add an E-mail address to the Primary contact to complete the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.FewBookings.ErrorMessage" xml:space="preserve">
+    <value>Multiple Bookings in the Work Order are preventing you from creating an Inspection Report. Please delete or close any unnecessary bookings</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.FullName.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires that a Primary Contact has a Full Name.  Please add the Full Name to the Primary Contact in order to complete generating the Inspection Report</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.JobTitle.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires that a Primary Contact has a Job Title.  Please add the Job Title to the Primary Contact in order to complete the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.Phone.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires that the Primary Contact have a Phone Number  Please add the Phone Number to the Primary Contact in order to complete the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.PrimaryContact.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report requires a Primary Contact be attached to the Site. Please add a Primary Contact to the Site in order to complete the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.PrimaryInspector.Title" xml:space="preserve">
+    <value>The Inspection Report requires a Primary Inspector. Please add a Primary Inspector in order to complete the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.RRIN.ErrorMessage" xml:space="preserve">
+    <value>The Inspection Report is missing the RIN Numberof the Primary Inspector.  Please add a RIN Number to the Primary Inspector to complete generating the Inspection Report.</value>
+  </data>
+  <data name="msdyn_workorder.SetClosedPosted.Error" xml:space="preserve">
+    <value>Work Order cannot be closed due to an open Enforcement actions or Confirmation of Compliance.</value>
+  </data>
+  <data name="msdyn_workorder.SetOpenCompleted.Error" xml:space="preserve">
+    <value>Work Order cannot be set to 'Open - Completed' before Inspection report was generated</value>
+  </data>
+  <data name="msdyn_workorder.substatus.CancellationRequested" xml:space="preserve">
+    <value>Cancellation Requested</value>
+  </data>
+  <data name="msdyn_workorder.substatus.RevisedQuarterRequested" xml:space="preserve">
+    <value>Revised Quarter Requested</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.GWORibbon.ConfirmText" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.GWORibbon.ProcessStarted" xml:space="preserve">
+    <value>The Generating Work Orders process has started. Please check the status later.</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.GWORibbon.ValidationCheck" xml:space="preserve">
+    <value>Validation Check</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.GWORibbon.ValidationFail" xml:space="preserve">
+    <value>Missing necessary conditions, please select the form notifications to view. Click continue to ignore warning and proceed to generate the work orders.</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.GWORibbon.ValidationStarted" xml:space="preserve">
+    <value>Validating Data</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.GWORibbon.WentWrong" xml:space="preserve">
+    <value>Generation the Work Orders call response parse error</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.Validation.ActiveWOC_DoNotExists" xml:space="preserve">
+    <value>No Active Work Order Candidates assosiated with Regional NOP</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.Validation.NoAssignedQuarter" xml:space="preserve">
+    <value>Not all Work Order Candidates have an assigned quarter</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.Validation.NoInspectors" xml:space="preserve">
+    <value>Not all Work Order Candidates assigned an Inspector</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.Validation.NoStatusReason" xml:space="preserve">
+    <value>The Regional NOP Status Reason is not Approved by PBC</value>
+  </data>
+  <data name="ovs_CDRegionalNOP.Validation.NoVarianceZero" xml:space="preserve">
+    <value>The work order candidate variance is not zero</value>
+  </data>
+  <data name="ovs_enforcementaction.reasonHOTI.EN.Text" xml:space="preserve">
+    <value>The dangerous goods described in this Notice are not being handled, offered for transport, transported or imported in compliance with the Transportation of Dangerous Good Act, 1992 and the Transportation of Dangerous Goods Regulations. They are detained until an inspector is satisfied that the dangerous goods will be handled, offered for transport, transported or imported in compliance with the Act and the Regulations.</value>
+  </data>
+  <data name="ovs_enforcementaction.reasonHOTI.FR.Text" xml:space="preserve">
+    <value>La manutention, la demande de transport, le transport ou l’importation des marchandises dangereuses qui figurent dans le présent avis n’est pas conforme à la Loi de 1992 sur le transport des marchandises dangereuses et au Règlement sur le transport des marchandises dangereuses. Celles-ci sont retenues jusqu’à ce qu’un inspecteur soit convaincu que la manutention, la demande de transport, le transport ou l’importation de celles-ci sera effectué conformément à cette loi et à ce règlement</value>
+  </data>
+  <data name="ovs_enforcementaction.reasonMOC.EN.Text" xml:space="preserve">
+    <value>The means of containment described in this Notice are not being sold, offered for sale, delivered, distributed, imported or used in compliance with the Transportation of Dangerous Goods Act, 1992 and the Transportation of Dangerous Goods Regulations. They are detained until an inspector is satisfied that the means of containment will be sold, offered for sale, delivered, distributed, imported or used in compliance with the Act and the Regulations.</value>
+  </data>
+  <data name="ovs_enforcementaction.reasonMOC.FR.Text" xml:space="preserve">
+    <value>La vente, l’offre de vente, la livraison, la distribution, l’importation ou l’utilisation des contenants qui figurent dans le présent avis n’est pas conforme à la Loi de 1992 sur le transport des marchandises dangereuses et au Règlement sur le transport des marchandises dangereuses. Ceux-ci sont retenus jusqu’à ce qu’un inspecteur soit convaincu que les opérations de vente, d’offre de vente, de livraison, de distribution, d’importation ou d’utilisation des contenants seront conformes à cette loi et à ce règlement.</value>
+  </data>
+  <data name="ovs_safetyassessment.Investigation.Warning" xml:space="preserve">
+    <value>PLEASE NOTE: A follow-up inspection has been triggered for this site and will be considered for the upcoming NOP.</value>
+  </data>
+  <data name="ovs_safetyassessment.Save.Confirmation" xml:space="preserve">
+    <value>Safety Assessment Completed Successfully</value>
+  </data>
+  <data name="ovs_safetyassessment.Save.Warning" xml:space="preserve">
+    <value>Once you complete a Safety Assessment, you cannot make any further changes to it.  Would you like to complete the Safety Assessment?</value>
+  </data>
+  <data name="ovs_safetyassessment.Ticket.Warning" xml:space="preserve">
+    <value>PLEASE NOTE: A follow-up inspection has been triggered for this site and will be considered for the upcoming NOP.</value>
+  </data>
+  <data name="ovs_safetyassessment.Violations.Error" xml:space="preserve">
+    <value>A Safety Assessment must have at least one Violation.  Please add at least one Violation to the Safety Assessment.</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.COC_status" xml:space="preserve">
+    <value>COC Status</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.InspectionDate" xml:space="preserve">
+    <value>Inspection Date</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.Provision" xml:space="preserve">
+    <value>Provision</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.ViolationCount" xml:space="preserve">
+    <value>Violation Count</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.ViolationDisplay" xml:space="preserve">
+    <value>Violation Display</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.WorkOrderNumber" xml:space="preserve">
+    <value>Work Order Number</value>
+  </data>
+  <data name="qm_sytemplate.Cloning.ConfirmationMessage" xml:space="preserve">
+    <value>Cloning a template will create an exact copy along with related questions, reponses and related legislations. Do you wish to proceed?</value>
+  </data>
+  <data name="qm_sytemplate.Cloning.ConfirmationTitle" xml:space="preserve">
+    <value>Clone Template</value>
+  </data>
+  <data name="qm_sytemplate.Publishing.ConfirmationMessage" xml:space="preserve">
+    <value>Publishing a template will lock it down so it can be used in a questionnaire. You will not be able to make any further chnages to this template. Do you wish to proceed?</value>
+  </data>
+  <data name="qm_sytemplate.Publishing.ConfirmationTitle" xml:space="preserve">
+    <value>Publish Template</value>
+  </data>
+  <data name="qm_sytemplate.Publishing.FailMessage" xml:space="preserve">
+    <value>The Questionnaire Template has been already been published</value>
+  </data>
+  <data name="qm_sytemplate.Publishing.SuccessMessage" xml:space="preserve">
+    <value>The Questionnaire has been successfully published.</value>
+  </data>
+  <data name="site.HOTI.grid.message" xml:space="preserve">
+    <value>Dangerous goods that are fully exempt by Part 1 or Schedule 2 of the TDG Regulations, must not be entered in this table. Please refer to the ROM User Guide for more information.</value>
+  </data>
+  <data name="tdgReport.Cancel.CancelButton" xml:space="preserve">
+    <value>Cancel Report?</value>
+  </data>
+  <data name="tdgReport.Cancel.JustificationEmpty" xml:space="preserve">
+    <value>Justification field cannot be empty!</value>
+  </data>
+  <data name="tdgReport.Cancel.JustifyLabel" xml:space="preserve">
+    <value>Please, justify the cancellation</value>
+  </data>
+  <data name="tdgReport.Cancel.NoReport" xml:space="preserve">
+    <value>No report was selected</value>
+  </data>
+  <data name="tdgReport.Cancel.NotIssued" xml:space="preserve">
+    <value>Only Issued reports can be cancelled</value>
+  </data>
+  <data name="tdgReport.Cancel.PopupTitle" xml:space="preserve">
+    <value>Cancel Inspection Report</value>
+  </data>
+  <data name="tdgReport.Cancel.SuccessMessage" xml:space="preserve">
+    <value>Inspection Report was cancelled successfully</value>
+  </data>
+  <data name="tdgReport.Cancel.WentWrong" xml:space="preserve">
+    <value>Something went wrong. Error:</value>
+  </data>
+  <data name="tdgReport.Clone.PromptMessage" xml:space="preserve">
+    <value>You are about to clone the selected Inspection Report.  Would you like to continue?</value>
+  </data>
+  <data name="tdgReport.Clone.SuccessMessage" xml:space="preserve">
+    <value>Inspection Report cloned successfully</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage0" xml:space="preserve">
+    <value>Item required (e.g., shipping document, MOC, training certificat) is missing or incorrect.</value>
+  </data>
+  <data name="ovs_tdg_IR.DocumentTitleLimitation" xml:space="preserve">
+    <value>Special characters listed here are not supported by Microsoft (!,@,#,$,%,?,&amp;,*,^,é,è,î,), please do not use them.</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage1" xml:space="preserve">
+    <value>Major non-compliance for all or almost all items inspected.</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage2" xml:space="preserve">
+    <value>Major non-compliance for one or few items inspected.</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage3" xml:space="preserve">
+    <value>Most of the items inspected had minor non-compliances.</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage4" xml:space="preserve">
+    <value>One or few of the items had minor non-compliances.</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage5" xml:space="preserve">
+    <value>Item inspected was completely compliant.</value>
+  </data>
+  <data name="qm_cepdata.ComplianceScaleLegendMessage6" xml:space="preserve">
+    <value>N/A.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.TimeTracking.ErrorMessage" xml:space="preserve">
+    <value>Time entries for activities done before or during the inspection, i.e. travel, pre-inspection, and execution must be filled out before the inspection report is generated.</value>
+  </data>
+  <data name="generic.error.message" xml:space="preserve">
+    <value>Something went wrong. Error:</value>
+  </data>
+  <data name="ServiceRequestPerformance.ribbon.Adjustment.Form.Title" xml:space="preserve">
+    <value>Remissions Adjustment</value>
+  </data>
+  <data name="ServiceRequestServiceTask.ribbon.Rejection.Form.Title" xml:space="preserve">
+    <value>Rejection Reason</value>
+  </data>
+  <data name="customManytoMany.Control.Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="customManytoMany.Control.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="customManytoMany.Control.PlaceholderSearchText" xml:space="preserve">
+    <value>Type to search</value>
+  </data>
+  <data name="customManyToMany.Control.Title.AvailableDesigns" xml:space="preserve">
+    <value>Available Designs</value>
+  </data>
+  <data name="customManyToMany.Control.Title.AvailableEquipments" xml:space="preserve">
+    <value>Available Equipments</value>
+  </data>
+  <data name="customManyToMany.Control.Title.AvailableFunctions" xml:space="preserve">
+    <value>Available Functions</value>
+  </data>
+  <data name="customManyToMany.Control.Title.AvailableOperations" xml:space="preserve">
+    <value>Available Operations</value>
+  </data>
+  <data name="customManyToMany.Control.Title.AvailableRegulatoryRequirements" xml:space="preserve">
+    <value>Available Regulatory Requirements</value>
+  </data>
+  <data name="customManyToMany.Control.Title.AvailableSpecifications" xml:space="preserve">
+    <value>Available Specifications</value>
+  </data>
+  <data name="customManyToMany.Control.No.AvailableDesigns" xml:space="preserve">
+    <value>Operation has no associated designs</value>
+  </data>
+  <data name="customManyToMany.Control.No.AvailableEquipments" xml:space="preserve">
+    <value>Registration Type has no associated Equipments</value>
+  </data>
+  <data name="customManyToMany.Control.No.AvailableFunctions" xml:space="preserve">
+    <value>Registration Type has no associated Container Functions</value>
+  </data>
+  <data name="customManyToMany.Control.No.AvailableOperations" xml:space="preserve">
+    <value>no associated operations</value>
+  </data>
+  <data name="customManyToMany.Control.No.AvailableRegulatoryRequirements" xml:space="preserve">
+    <value>Registration Type has no associated regulations</value>
+  </data>
+  <data name="customManyToMany.Control.No.AvailableSpecifications" xml:space="preserve">
+    <value>Container Function has no associated specifications</value>
+  </data>
+  <data name="msdyn_workorder.NotAllowCreateBooking" xml:space="preserve">
+    <value>Please note that this work order has not been approved for a remote or hybrid inspection. Please change the inspection setting field to On Site in order to add a booking.</value>
+  </data>
+  <data name="msdyn_workorder.ReportValidation.BookingsEndtime.ErrorMessage" xml:space="preserve">
+    <value>Unable to generate inspection report as booking date is in the future.</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.ExternalComments" xml:space="preserve">
+    <value>External Comments</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.SiteName" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHeader.Violation" xml:space="preserve">
+    <value>Violation</value>
+  </data>
+  <data name="qm_syresult.ViolationHistoryTableHead.ActivityWONumber" xml:space="preserve">
+    <value>Activity Number / Work Order Number</value>
+  </data>
+  <data name="CopyAddress.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CopyAddress.Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="CopyAddress.PopupTitle" xml:space="preserve">
+    <value>Confirmation Message</value>
+  </data>
+  <data name="CopyAddress.Prompt" xml:space="preserve">
+    <value>The existing address will be overwritten. Continue?</value>
+  </data>
+</root>

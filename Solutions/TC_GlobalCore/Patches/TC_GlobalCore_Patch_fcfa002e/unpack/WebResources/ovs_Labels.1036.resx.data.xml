@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{6106b44c-6ab2-eb11-8236-000d3aff3315}</WebResourceId>
+  <Name>ovs_Labels.1036.resx</Name>
+  <DisplayName>Labels FR</DisplayName>
+  <LanguageCode>1036</LanguageCode>
+  <WebResourceType>12</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ovs_Labels1036resx6106B44C-6AB2-EB11-8236-000D3AFF3315</FileName>
+</WebResource>
