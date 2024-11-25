@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5406562f-9197-ef11-8a68-000d3a0bf04c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_incidentid">
+          <cell name="ovs_name" width="200" />
+          <cell name="ovs_city_txt" width="150" />
+          <cell name="ovs_state_province_txt" width="176" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="ovs_incident">
+          <attribute name="ovs_name" />
+          <attribute name="ovs_incidentid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="ovs_city_txt" />
+          <attribute name="ovs_state_province_txt" />
+          <filter type="and">
+            <condition attribute="ovs_days_2report_num" operator="gt" value="31" />
+            <condition attribute="ovs_days_2report_num" operator="le" value="60" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description=" Incidents between 31-60 days" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
