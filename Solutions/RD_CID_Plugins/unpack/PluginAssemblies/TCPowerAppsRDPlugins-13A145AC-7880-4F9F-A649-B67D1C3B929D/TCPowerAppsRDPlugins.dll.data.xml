@@ -47,8 +47,14 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PostUpdate_UpdateRelationships, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="ac150dea-30cc-4c58-a320-2daed103bce0" Name="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PostUpdate_UpdateRelationships">
       <FriendlyName>2ae88fc3-e1d2-435c-b6c2-ab434253a912</FriendlyName>
     </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PreCreate, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="cd6ee085-b189-4f92-878b-74a1c3840233" Name="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PreCreate">
+      <FriendlyName>5e8945df-1053-493f-a6d7-fa62df2d6021</FriendlyName>
+    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PreCreate_BlockManualCreationInvitationIfCompanyRegistered, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="0a1294fa-828f-4584-a6ea-5b22aa232bf7" Name="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PreCreate_BlockManualCreationInvitationIfCompanyRegistered">
       <FriendlyName>d4da4a9e-8dd1-4576-aa90-2df9b81a12f4</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PreUpdate, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="9c7b470a-5c51-439d-93b8-67d801f4d6c4" Name="TC.PowerApps.RD.Plugins.Entities.Contact.Contact_PreUpdate">
+      <FriendlyName>179dcd8b-beb0-46ef-b4d5-42796ced65dd</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.HistoryLog.HistoryLog_PostCreate_PopulateMemo, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="e19ffecb-451c-45b5-bd7e-601bb9825dcd" Name="TC.PowerApps.RD.Plugins.Entities.HistoryLog.HistoryLog_PostCreate_PopulateMemo">
       <FriendlyName>51249d30-689b-4e6c-bd33-9f5861c1166b</FriendlyName>
@@ -65,8 +71,17 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.Operation.Operation_ResetSiteAttestation, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="c09ed256-b54c-490e-bded-e132e31df43f" Name="TC.PowerApps.RD.Plugins.Entities.Operation.Operation_ResetSiteAttestation">
       <FriendlyName>f9f6e4eb-4e3b-48b4-a7a2-9f3dd2723701</FriendlyName>
     </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.Site.Account_CompanySite_DuplicateCheck, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="3745fb39-f7d1-41c7-9d2c-158e58084ba1" Name="TC.PowerApps.RD.Plugins.Entities.Site.Account_CompanySite_DuplicateCheck">
+      <FriendlyName>36037ddd-2c00-48ab-a01a-2befc4bfd273</FriendlyName>
+    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_PostCreate, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="bd01cf0b-3925-4079-869d-508e708b6af9" Name="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_PostCreate">
       <FriendlyName>4dc09b7c-7389-41fb-a9ae-bfca3c830e1f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_PreCreate, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="16349219-dcdb-4980-9b0f-e84959b67e30" Name="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_PreCreate">
+      <FriendlyName>34154432-d704-4881-a155-e02bfe8e798f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_PreUpdate, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="51a8016f-9f91-4f77-ab70-e7a8c93a003a" Name="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_PreUpdate">
+      <FriendlyName>6e0d8646-e215-4db5-830e-ca648022a660</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_ResetSiteAttestation, TC.PowerApps.RD.Plugins, Version=1.0.0.1, Culture=neutral, PublicKeyToken=736f5e6af1bbf14d" PluginTypeId="e259bc1d-88ab-456d-b8e3-f5f3dd11e08c" Name="TC.PowerApps.RD.Plugins.Entities.SiteClass.SiteClass_ResetSiteAttestation">
       <FriendlyName>bd6074ed-dabf-4da8-bcb8-8e461ee9380f</FriendlyName>
