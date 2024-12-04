@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{c974a579-7b5b-eb11-a812-000d3a84db40}</WebResourceId>
+  <Name>qm_WO_TDG_main.js</Name>
+  <DisplayName>WO_TDG_main.js</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="ovs_Labels.1033.resx" displayName="Labels EN" languagecode="1033" description="" libraryUniqueId="{e8493ad7-d8be-0024-7684-da22986a2e57}"/&gt;&lt;Library name="ovs_Labels.1036.resx" displayName="Labels FR" languagecode="1036" description="" libraryUniqueId="{264197e6-84dd-2470-991a-3237031c3e7d}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/qm_WO_TDG_mainjsC974A579-7B5B-EB11-A812-000D3A84DB40</FileName>
+</WebResource>

@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.Button2.Button.Mscrm.SubGrid.msdyn_workorder.RunReport.CustomAction" Location="Mscrm.SubGrid.msdyn_workorder.MainTab.ExportData.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <FlyoutAnchor Alt="$Resources:Ribbon.HomepageGrid.Data.Report.RunReport" Command="Mscrm.ReportMenu.Grid" Id="ovs.msdyn_workorder.Button2.Button.Mscrm.SubGrid.msdyn_workorder.RunReport" Image16by16="/_imgs/ribbon/RunReport_16.png" Image32by32="/_imgs/ribbon/runreport32.png" LabelText="$Resources:Ribbon.HomepageGrid.Data.Report.RunReport" PopulateDynamically="true" PopulateQueryCommand="Mscrm.ReportsMenu.Populate.Grid" PopulateOnlyOnce="true" Sequence="5" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Data.Report.RunReport" ToolTipDescription="$Resources:Ribbon.Tooltip.RunReport" ModernImage="Report" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.Button4.Button.Mscrm.SubGrid.msdyn_workorder.Flows.RefreshCommandBar.CustomAction" Location="Mscrm.SubGrid.msdyn_workorder.MainTab.Workflow.Controls._children" Sequence="0">
+      <CommandUIDefinition>
+        <FlyoutAnchor Alt="$Resources:RefreshCommandBar.Flows" Command="Mscrm.Form.Flows.ManageRunFlow" Id="ovs.msdyn_workorder.Button4.Button.Mscrm.SubGrid.msdyn_workorder.Flows.RefreshCommandBar" Image16by16="/_imgs/Ribbon/OpenFlows_16.png" Image32by32="/_imgs/Ribbon/OpenFlows_32.png" LabelText="$Resources:RefreshCommandBar.Flows" PopulateDynamically="true" PopulateQueryCommand="Mscrm.DynamicMenu.Grid.Flows.PopulateMenu" Sequence="0" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Data.Workflow.RunFlow" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.RunFlow" ModernImage="Flows" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.Button6.Button.Mscrm.SubGrid.msdyn_workorder.DocumentTemplate.CustomAction" Location="Mscrm.SubGrid.msdyn_workorder.MainTab.ExportData.Controls._children" Sequence="0">
+      <CommandUIDefinition>
+        <FlyoutAnchor Alt="$Resources:Ribbon.HomepageGrid.Data.DocumentTemplate.Templates" Command="Mscrm.DocumentTemplate.Templates" Id="ovs.msdyn_workorder.Button6.Button.Mscrm.SubGrid.msdyn_workorder.DocumentTemplate" Image16by16="/_imgs/ribbon/DocumentTemplate_16.png" Image32by32="/_imgs/ribbon/SaveAsExcelTemplate_32.png" LabelText="$Resources:Ribbon.HomepageGrid.Data.DocumentTemplate.Templates" PopulateDynamically="true" PopulateQueryCommand="Mscrm.DocumentTemplate.Populate.Flyout" PopulateOnlyOnce="true" Sequence="0" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Data.DocumentTemplate.Templates" ToolTipDescription="$Resources:Ribbon.Tooltip.DocumentTemplate" ModernImage="DocumentTemplates" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.Button8.Button.Mscrm.SubGrid.msdyn_workorder.OpenAssociatedGridViewStandard.CustomAction" Location="Mscrm.SubGrid.msdyn_workorder.MainTab.Management.Controls._children" Sequence="0">
+      <CommandUIDefinition>
+        <Button Alt="$Resources(EntityDisplayName):Ribbon.SubGrid.OpenAssociatedGridView" Command="Mscrm.OpenAssociatedGridViewOnLiteGridStandard" Id="ovs.msdyn_workorder.Button8.Button.Mscrm.SubGrid.msdyn_workorder.OpenAssociatedGridViewStandard" Image32by32="/_imgs/ribbon/OpenAssociatedGridView32.png" Image16by16="/_imgs/ribbon/OpenAssociatedGridView16.png" LabelText="$Resources(EntityDisplayName):Ribbon.SubGrid.OpenAssociatedGridView" Sequence="0" TemplateAlias="o1" ToolTipTitle="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_OpenAssociatedGridViewStandard_ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_OpenAssociatedGridViewStandard_ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.ClearResourceRequirements.CustomAction" Location="Mscrm.HomepageGrid.msdyn_workorder.MainTab.Management.Controls._children" Sequence="35">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.msdyn_workorder.ClearResourceRequirements.Alt" Command="ovs.msdyn_workorder.CleanResourceRequirements.Command" Id="ovs.msdyn_workorder.ClearResourceRequirements" LabelText="$LocLabels:ovs.msdyn_workorder.ClearResourceRequirements.LabelText" Sequence="35" TemplateAlias="o2" ToolTipTitle="$LocLabels:ovs.msdyn_workorder.ClearResourceRequirements.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.msdyn_workorder.ClearResourceRequirements.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.Form.TDG.InspectionReport.CustomAction" Location="Mscrm.Form.msdyn_workorder.MainTab.Save.Controls._children" Sequence="76">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.msdyn_workorder.Form.TDG.InspectionReport.Alt" Command="" Id="ovs.msdyn_workorder.Form.TDG.InspectionReport" LabelText="$LocLabels:ovs.msdyn_workorder.Form.TDG.InspectionReport.LabelText" Sequence="76" TemplateAlias="o2" ToolTipTitle="$LocLabels:ovs.msdyn_workorder.Form.TDG.InspectionReport.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.msdyn_workorder.Form.TDG.InspectionReport.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.msdyn_workorder.NewRecord.CustomAction" Location="Mscrm.SubGrid.msdyn_workorder.MainTab.Management.Controls._children" Sequence="6">
+      <CommandUIDefinition>
+        <Button Command="ovs.msdyn_workorder.AddNewRecordFromSubGridStandard" Id="ovs.msdyn_workorder.NewRecord" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:ovs.msdyn_workorder.NewRecord.LabelText" Sequence="6" TemplateAlias="o1" ToolTipTitle="$LocLabels:ovs.msdyn_workorder.NewRecord.ToolTipTitle" ToolTipDescription="$LocLabels:ovs.msdyn_workorder.NewRecord.ToolTipDescription" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.msdyn_workorder.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msdyn_workorder.DocumentTemplate" />
+    <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.msdyn_workorder.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msdyn_workorder.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.msdyn_workorder.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msdyn_workorder.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.msdyn_workorder.RunReport.Hide" Location="Mscrm.SubGrid.msdyn_workorder.RunReport" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.AddNewRecordFromSubGridStandard">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.ShowForOneToManyGrids" />
+        <DisplayRule Id="Mscrm.AppendToPrimary" />
+        <DisplayRule Id="Mscrm.CreateSelectedEntityPermission" />
+        <DisplayRule Id="Mscrm.AppendSelected" />
+        <DisplayRule Id="Mscrm.HideAddNewForChildEntities" />
+        <DisplayRule Id="ovs.msdyn_workorder.DisplayRule.HideOnAccountEntity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Open.addNewFromSubGridStandard" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryControl" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.AssignPrimaryRecord">
+      <EnableRules>
+        <EnableRule Id="Mscrm.FormStateNotNew" />
+        <EnableRule Id="Mscrm.AssignPrimaryPermission" />
+        <EnableRule Id="Mscrm.NotOffline" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.AssignPrimaryPermission" />
+        <DisplayRule Id="Mscrm.NotClosedActivity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Assign.assignObject" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.DocumentTemplate.Templates">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.ExportToExcel.ValidForXlsxExport" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.msdyn_workorder.DisplayRule19.HideDocumentTemplateWhenPrimaryEntityIsAccount" />
+      </DisplayRules>
+      <Actions />
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.ExportToExcel">
+      <EnableRules>
+        <EnableRule Id="Mscrm.ExportToExcel" />
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.SelectionCountNoneOrOutlook" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.msdyn_workorder.DisplayRule20.HideExportButtonWhenPrimaryEntityIsAccount" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Export.exportToExcel" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <IntParameter Value="5" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.Form.Activate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.CanWritePrimary" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWritePrimary" />
+        <DisplayRule Id="Mscrm.PrimaryIsInactive" />
+        <DisplayRule Id="Mscrm.PrimaryEntityHasStatecode" />
+        <DisplayRule Id="Mscrm.PrimaryIsNotActivity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Activate.activatePrimaryRecord" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.Form.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.CanWritePrimary" />
+        <EnableRule Id="ovs.msdyn_workorder.EnableRule19.DisplayOnlyForManagerOrPlanner" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWritePrimary" />
+        <DisplayRule Id="Mscrm.PrimaryIsActive" />
+        <DisplayRule Id="Mscrm.PrimaryEntityHasStatecode" />
+        <DisplayRule Id="Mscrm.PrimaryIsNotActivity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Deactivate.deactivatePrimaryRecord" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.Form.Flows.ManageRunFlow">
+      <EnableRules>
+        <EnableRule Id="Mscrm.IsMicrosoftFlowIntegrationEnabled" />
+        <EnableRule Id="Mscrm.DisplayFlowSingleMenu" />
+        <EnableRule Id="Mscrm.AnySelection" />
+        <EnableRule Id="fs5x5.msdyn_workorder.EnableRule.HideOnCreateForm" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.msdyn_workorder.DisplayRule18.HideFlowButtonWhenPrimaryEntityIsAccount" />
+      </DisplayRules>
+      <Actions />
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.HomepageGrid.Activate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWriteSelected" />
+        <DisplayRule Id="Mscrm.SelectedEntityHasStatecode" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Activate.activateRecords" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.HomepageGrid.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="ovs.msdyn_workorder.EnableRule19.DisplayOnlyForManagerOrPlanner" />
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWriteSelected" />
+        <DisplayRule Id="Mscrm.SelectedEntityHasStatecode" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Deactivate.deactivateRecords" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.OpenAssociatedGridViewOnLiteGridStandard">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="ovs.msdyn_workorder.DisplayRule21.HideAssocitedGridButtonWhenPrimaryEntityIsAccount" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Mscrm.GridCommandActions.openAssociatedGridViewOnLiteGridStandard" Library="/_static/_common/scripts/CommandBarActions.js">
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.ReportMenu.Grid">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.IsValidForHierarchyView" />
+        <EnableRule Id="Mscrm.ShowOnNonModernAndModernIfAllowed" />
+        <EnableRule Id="Mscrm.AnySelection" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.msdyn_workorder.DisplayRule17.HideRunReportWhenPrimaryEntityIsAccount" />
+      </DisplayRules>
+      <Actions />
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.msdyn_workorder.AddNewRecordFromSubGridStandard">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="WORibbon.subgridAddNew" Library="$webresource:qm_WorkOrder_Ribbons.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryControl" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.msdyn_workorder.CleanResourceRequirements.Command">
+      <EnableRules>
+        <EnableRule Id="ovs.msdyn_workorder.CleanResourceRequirements.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.msdyn_workorder.CleanResourceRequirements.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="ResReqClean.CleanResReq" Library="$webresource:ovs_TDG_Clean_ResourceRequirements_Ribbon.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.msdyn_workorder.Command.Form.TDG.InspectionReport">
+      <EnableRules>
+        <EnableRule Id="ovs.msdyn_workorder.EnableRule.isTDG.App.InspectorManagerPlanner" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="Mscrm.FormStateNotNew" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="WORibbon.startInspectionReport" Library="$webresource:qm_WorkOrder_Ribbons.js">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="ovs.msdyn_workorder.CleanResourceRequirements.DisplayRule">
+        <EntityPrivilegeRule PrivilegeType="Delete" PrivilegeDepth="None" EntityName="lead" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule.HideOnAccountEntity">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule.TDG.ExistingForm">
+        <FormStateRule State="Existing" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule.TDG.MainForm">
+        <FormTypeRule Type="Main" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule17.HideRunReportWhenPrimaryEntityIsAccount">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule18.HideFlowButtonWhenPrimaryEntityIsAccount">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule19.HideDocumentTemplateWhenPrimaryEntityIsAccount">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule20.HideExportButtonWhenPrimaryEntityIsAccount">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.msdyn_workorder.DisplayRule21.HideAssocitedGridButtonWhenPrimaryEntityIsAccount">
+        <EntityRule EntityName="account" AppliesTo="PrimaryEntity" Context="SubGridStandard" Default="false" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="fs5x5.msdyn_workorder.EnableRule.HideOnCreateForm">
+        <CustomRule FunctionName="FieldService5x5.WorkOrder.HideOnWorkOrderCreate" Library="$webresource:msdyn_/WorkOrder/FieldService5X5.WorkOrder.js" Default="false" InvertResult="true">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.AnySelection">
+        <SelectionCountRule AppliesTo="SelectedEntity" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.DisplayFlowSingleMenu">
+        <CustomRule FunctionName="XrmCore.Commands.Flows.displayFlowSingleMenu" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.EntityFormIsEnabled">
+        <FormStateRule State="Disabled" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.ExportToExcel">
+        <CustomRule FunctionName="XrmCore.Rules.Export.EnableExportToExcel" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.ExportToExcel.ValidForXlsxExport">
+        <CustomRule FunctionName="XrmCore.Rules.Export.EnabledForXlsxExport" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.FormStateNotNew">
+        <FormStateRule State="Create" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsMicrosoftFlowIntegrationEnabled">
+        <CustomRule FunctionName="XrmCore.Commands.Flows.isMicrosoftFlowEnabled" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsValidForHierarchyView">
+        <CustomRule FunctionName="XrmCore.Rules.HierarchyView.isValidForHierarchyView" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.SelectionCountNoneOrOutlook">
+        <OrRule>
+          <Or>
+            <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" InvertResult="true" />
+          </Or>
+          <Or>
+            <CrmClientTypeRule Type="Outlook" />
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.ShowOnNonModernAndModernIfAllowed">
+        <OrRule>
+          <Or>
+            <CommandClientTypeRule Type="Modern" InvertResult="true" />
+          </Or>
+          <Or>
+            <CustomRule FunctionName="XrmCore.InternalUtilities.DialogUtilities.isAllowLegacyDialogsEmbedding" Library="$webresource:Main_system_library.js" />
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="ovs.msdyn_workorder.CleanResourceRequirements.EnableRule">
+        <RecordPrivilegeRule PrivilegeType="Delete" AppliesTo="PrimaryEntity" />
+      </EnableRule>
+      <EnableRule Id="ovs.msdyn_workorder.EnableRule.isTDG.App.InspectorManagerPlanner">
+        <CustomRule FunctionName="WORibbon.isInspectionApp" Library="$webresource:qm_WorkOrder_Ribbons.js">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ovs.msdyn_workorder.EnableRule19.DisplayOnlyForManagerOrPlanner">
+        <CustomRule FunctionName="isManagerOrPlannerRole" Library="$webresource:ovs_ROMCommonFunctions">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ovs.msdyn_workorder.ClearResourceRequirements.Alt">
+      <Titles>
+        <Title description="Clean Resource Requirements" languagecode="1033" />
+        <Title description="Clean Resource Requirements" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.ClearResourceRequirements.LabelText">
+      <Titles>
+        <Title description="Clean Resource Requirements" languagecode="1033" />
+        <Title description="Clean Resource Requirements" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.ClearResourceRequirements.ToolTipDescription">
+      <Titles>
+        <Title description="Clean Resource Requirements" languagecode="1033" />
+        <Title description="Clean Resource Requirements" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.ClearResourceRequirements.ToolTipTitle">
+      <Titles>
+        <Title description="Clean Resource Requirements" languagecode="1033" />
+        <Title description="Clean Resource Requirements" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.Form.TDG.InspectionReport.Alt">
+      <Titles>
+        <Title description="Inspection Report" languagecode="1033" />
+        <Title description="Rapport d'inspection" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.Form.TDG.InspectionReport.LabelText">
+      <Titles>
+        <Title description="Inspection Report" languagecode="1033" />
+        <Title description="Rapport d'inspection" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.Form.TDG.InspectionReport.ToolTipDescription">
+      <Titles>
+        <Title description="Generate email to Primary Contact and inspection report" languagecode="1033" />
+        <Title description="Générer un courriel au contact principal et un rapport d'inspection" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.Form.TDG.InspectionReport.ToolTipTitle">
+      <Titles>
+        <Title description="Generate email to Primary Contact and inspection report" languagecode="1033" />
+        <Title description="Générer un courriel au contact principal et un rapport d'inspection" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.NewRecord.LabelText">
+      <Titles>
+        <Title description="New {0}" languagecode="1033" />
+        <Title description="Nouvel {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.NewRecord.ToolTipDescription">
+      <Titles>
+        <Title description="Create a new {0} record." languagecode="1033" />
+        <Title description="Créez un nouvel {0}." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.msdyn_workorder.NewRecord.ToolTipTitle">
+      <Titles>
+        <Title description="New {0}" languagecode="1033" />
+        <Title description="Nouvel {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

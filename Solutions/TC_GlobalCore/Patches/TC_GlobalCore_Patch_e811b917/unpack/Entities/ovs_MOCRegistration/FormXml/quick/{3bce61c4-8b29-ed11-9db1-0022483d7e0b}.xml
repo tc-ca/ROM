@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3bce61c4-8b29-ed11-9db1-0022483d7e0b}</formid>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{d3b64954-84d5-43b4-92ea-64739e208d9c}" locklevel="0" expanded="true">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+            <label description="Nouvel onglet" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{8be89fe8-c8fb-4ee9-863f-a2d7970ef8c5}" locklevel="0" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                    <label description="Nouvelle section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b83674c-fed6-4e57-84f7-a7ca9c00b420}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Line Of Business" languagecode="1033" />
+                          <label description="Secteur d’activité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusiness" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{079edd8f-d0d9-4d53-9d07-8ef8f045fc91}" locklevel="0" colspan="1" rowspan="1" labelid="{721ae8ac-bec2-4332-8d05-e4602628284f}">
+                        <labels>
+                          <label description="Operation Type" languagecode="1033" />
+                          <label description="Type d'opération" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_operationtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_operationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed721981-289f-470e-8539-2906a0dc9396}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registration Type" languagecode="1033" />
+                          <label description="Type d'inscription" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_registrationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_registrationtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Operation quick - Operation Type" languagecode="1033" />
+      <LocalizedName description="Opération rapide - Type d'opération" languagecode="1036" />
+    </LocalizedNames>
+  </systemform>
+</forms>

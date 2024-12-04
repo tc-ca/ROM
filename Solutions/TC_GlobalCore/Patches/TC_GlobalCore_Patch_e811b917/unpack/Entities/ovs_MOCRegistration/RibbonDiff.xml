@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="fdr.fdr_operation_to_srf.Button.AddExistingAssoc.CustomAction" Location="Mscrm.SubGrid.ovs_mocregistration.MainTab.Management.Controls._children" Sequence="35">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:fdr_operation_to_srf.Button.AddExistingAssoc.Alt" Command="fdr_operation_to_srf.Button.AddExistingAssoc" Id="fdr_operation_to_srf.Button.AddExistingAssoc" Image32by32="/_imgs/ribbon/AddExistingStandard_32.png" Image16by16="/_imgs/ribbon/AddExistingStandard_16.png" LabelText="$LocLabels:fdr_operation_to_srf.Button.AddExistingAssoc.LabelText" Sequence="35" TemplateAlias="o1" ToolTipTitle="$LocLabels:fdr_operation_to_srf.Button.AddExistingAssoc.ToolTipTitle" ToolTipDescription="$LocLabels:fdr_operation_to_srf.Button.AddExistingAssoc.ToolTipDescription" ModernImage="AddExisting" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.Mscrm.Form.ovs_mocregistration.NewRecord.CustomAction" Location="Mscrm.Form.ovs_mocregistration.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.New" Command="Mscrm.NewRecordFromForm" Id="Mscrm.Form.ovs_mocregistration.NewRecord" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/NewRecord_16.png" LabelText="$LocLabels:Mscrm.Form.ovs_mocregistration.NewRecord.LabelText" Sequence="45" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.New" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.Mscrm.Form.ovs_mocregistration.NewRecordForBPFEntity.CustomAction" Location="Mscrm.Form.ovs_mocregistration.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.New" Command="Mscrm.Form.NewRecordForBPFEntity" Id="Mscrm.Form.ovs_mocregistration.NewRecordForBPFEntity" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/NewRecord_16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.New" Sequence="45" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.New" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.CustomAction" Location="Mscrm.SubGrid.ovs_mocregistration.MainTab.Management.Controls._children" Sequence="30">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.Alt" Command="Mscrm.AddExistingRecordFromSubGridAssociated" Id="Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard" Image32by32="/_imgs/ribbon/AddExistingStandard_32.png" Image16by16="/_imgs/ribbon/AddExistingStandard_16.png" LabelText="$LocLabels:Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.LabelText" Sequence="30" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddExistingStandard_ToolTipDescription" ModernImage="AddExisting" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.CustomAction" Location="Mscrm.SubGrid.ovs_mocregistration.MainTab.Management.Controls._children" Sequence="20">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.Alt" Command="Mscrm.AddNewRecordFromSubGridStandard" Id="Mscrm.SubGrid.ovs_mocregistration.AddNewStandard" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.LabelText" Sequence="20" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipDescription" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="fdr_operation_to_srf.Button.AddExistingAssoc">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="fdr.Operation.EnableRule.ShowAddExisting_4_ServiceRequestFunction" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.AddExisting" />
+        <DisplayRule Id="Mscrm.ShowForManyToManyGrids" />
+        <DisplayRule Id="Mscrm.AppendToPrimary" />
+        <DisplayRule Id="Mscrm.AppendPrimary" />
+        <DisplayRule Id="Mscrm.AppendSelected" />
+        <DisplayRule Id="Mscrm.AppendToSelected" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Operation_Ribbon.openOperationsPanel" Library="$webresource:fdr_operations_ribbon">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.AddExistingRecordFromSubGridAssociated">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="fdr.Operation.EnableRule.HideAddExisting_4_ServiceRequestFunction" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.AddExisting" />
+        <DisplayRule Id="Mscrm.ShowForManyToManyGrids" />
+        <DisplayRule Id="Mscrm.AppendToPrimary" />
+        <DisplayRule Id="Mscrm.AppendPrimary" />
+        <DisplayRule Id="Mscrm.AppendSelected" />
+        <DisplayRule Id="Mscrm.AppendToSelected" />
+        <DisplayRule Id="fdr.Operation.HideAddExisting_4_ServiceRequestFunction" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.AddFromSubGrid.addExistingFromSubGridAssociated" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.NewRecordFromForm">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AvailableOnForm" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+        <EnableRule Id="fdr.ovs_mocregistration.EnableRule.HideForFDR.IsVisble.Form" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.PrimaryIsNotActivity" />
+        <DisplayRule Id="Mscrm.HideInLegacyRibbon" />
+        <DisplayRule Id="Mscrm.CreatePrimaryEntityPermission" />
+        <DisplayRule Id="Mscrm.PrimaryEntityIsNotBPFEntity" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Open.openNewRecord" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.NewRecordFromGrid">
+      <EnableRules>
+        <EnableRule Id="Mscrm.IsValidForHierarchyView" />
+        <EnableRule Id="Mscrm.IsValidForHierarchyPageInUC" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+        <EnableRule Id="Mscrm.PrimaryIsNotActivityHomePageGrid" />
+        <EnableRule Id="fdr.ovs_mocregistration.EnableRule.HideForFDR.IsVisible.Grid" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CreateSelectedEntityPermission" />
+        <DisplayRule Id="Mscrm.ShowForNonRelationshipBoundGrids" />
+        <DisplayRule Id="Mscrm.HideNewForChildEntities" />
+        <DisplayRule Id="Mscrm.HideAddressEntities" />
+        <DisplayRule Id="Mscrm.SelectedEntityIsNotBPFEntity" />
+        <DisplayRule Id="Mscrm.IsNotActivityPointer" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Open.openNewRecord" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="Mscrm.CreatePrimaryEntityPermission">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.CreateSelectedEntityPermission">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.HideAddressEntities">
+        <EntityRule EntityName="customeraddress" AppliesTo="SelectedEntity" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.HideInLegacyRibbon">
+        <CommandClientTypeRule Type="Legacy" InvertResult="true" />
+        <PageRule Address="/userdefined/edit.aspx" InvertResult="true" />
+        <PageRule Address="/advancedfind/advfind.aspx" InvertResult="true" />
+        <PageRule Address="/advancedfind/fetchData.aspx" InvertResult="true" />
+        <PageRule Address="/tools/formeditor/formeditor.aspx" InvertResult="true" />
+        <PageRule Address="/tools/visualizationdesigner/visualizationdesigner.aspx" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.HideNewForChildEntities">
+        <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="IsChildEntity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.IsNotActivityPointer">
+        <EntityRule EntityName="activitypointer" AppliesTo="SelectedEntity" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.PrimaryEntityIsNotBPFEntity">
+        <EntityPropertyRule AppliesTo="PrimaryEntity" PropertyName="IsBPFEntity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.PrimaryIsNotActivity">
+        <EntityPropertyRule AppliesTo="PrimaryEntity" PropertyName="IsActivity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.SelectedEntityIsNotBPFEntity">
+        <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="IsBPFEntity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.ShowForNonRelationshipBoundGrids">
+        <RelationshipTypeRule AppliesTo="SelectedEntity" RelationshipType="NoRelationship" />
+      </DisplayRule>
+      <DisplayRule Id="ovs.ovs_mocregistration.DisplayRule0.DisplayRule">
+        <EntityRule EntityName="fdr_servicerequestfunction" AppliesTo="SelectedEntity" Context="SubGridAssociated" Default="false" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="fdr.Operation.EnableRule.HideAddExisting_4_ServiceRequestFunction">
+        <EntityRule EntityName="fdr_servicerequestfunction" AppliesTo="PrimaryEntity" Default="false" InvertResult="true" />
+      </EnableRule>
+      <EnableRule Id="fdr.Operation.EnableRule.ShowAddExisting_4_ServiceRequestFunction">
+        <EntityRule EntityName="fdr_servicerequestfunction" AppliesTo="PrimaryEntity" Default="false" InvertResult="false" />
+      </EnableRule>
+      <EnableRule Id="fdr.ovs_mocregistration.EnableRule.HideForFDR.IsVisble.Form">
+        <EntityRule EntityName="ovs_mocregistration" AppliesTo="PrimaryEntity" Default="false" InvertResult="false" />
+        <CustomRule FunctionName="Operation_Ribbon.isNewAllowed" Library="$webresource:fdr_operations_ribbon" />
+      </EnableRule>
+      <EnableRule Id="fdr.ovs_mocregistration.EnableRule.HideForFDR.IsVisible.Grid">
+        <EntityRule EntityName="ovs_mocregistration" AppliesTo="SelectedEntity" Default="false" InvertResult="false" />
+        <CustomRule FunctionName="Operation_Ribbon.isNewAllowed" Library="$webresource:fdr_operations_ribbon" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.AvailableOnForm">
+        <EntityRule AppliesTo="PrimaryEntity" Context="Form" Default="false" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline">
+        <CustomRule FunctionName="XrmCore.Rules.Online.IsEntityAvailableForUserInMocaOffline" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsValidForHierarchyPageInUC">
+        <CustomRule FunctionName="XrmCore.Rules.HierarchyView.isValidForHierarchyPageInUC" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsValidForHierarchyView">
+        <CustomRule FunctionName="XrmCore.Rules.HierarchyView.isValidForHierarchyView" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.PrimaryIsNotActivityHomePageGrid">
+        <CustomRule FunctionName="XrmCore.Rules.Enabled.PrimaryIsNotActivityHomePageGrid" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="fdr_operation_to_srf.Button.AddExistingAssoc.Alt">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter  d'une {0} existante" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="fdr_operation_to_srf.Button.AddExistingAssoc.LabelText">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter  d'une {0} existante" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="fdr_operation_to_srf.Button.AddExistingAssoc.ToolTipDescription">
+      <Titles>
+        <Title description="Add a {0} that already exists to the record you are working with." languagecode="1033" />
+        <Title description="Ajoutez un {0} qui existe déjà à l'enregistrement avec lequel vous travaillez." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="fdr_operation_to_srf.Button.AddExistingAssoc.ToolTipTitle">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter  d'une {0} existante" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.Form.ovs_mocregistration.NewRecord.LabelText">
+      <Titles>
+        <Title description="New" languagecode="1033" />
+        <Title description="Nouveau" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.Alt">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter un {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.LabelText">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter un {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_mocregistration.AddExistingStandard.ToolTipTitle">
+      <Titles>
+        <Title description="Add Existing​​ {0}" languagecode="1033" />
+        <Title description="Ajouter un​​ {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.Alt">
+      <Titles>
+        <Title description="Add New {0}" languagecode="1033" />
+        <Title description="Nouvelle {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.LabelText">
+      <Titles>
+        <Title description="Add New {0}" languagecode="1033" />
+        <Title description="Nouvelle {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_mocregistration.AddNewStandard.ToolTipTitle">
+      <Titles>
+        <Title description="Add New {0}" languagecode="1033" />
+        <Title description="Nouvelle {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

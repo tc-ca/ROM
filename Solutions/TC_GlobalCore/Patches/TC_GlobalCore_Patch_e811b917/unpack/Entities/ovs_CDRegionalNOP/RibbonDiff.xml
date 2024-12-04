@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="new.Mscrm.Form.ovs_cdregionalnop.NewRecord.Hide" Location="Mscrm.Form.ovs_cdregionalnop.NewRecord" />
+    <HideCustomAction HideActionId="new.Mscrm.HomepageGrid.ovs_cdregionalnop.NewRecord.Hide" Location="Mscrm.HomepageGrid.ovs_cdregionalnop.NewRecord" />
+    <HideCustomAction HideActionId="new.Mscrm.SubGrid.ovs_cdregionalnop.NewRecord.Hide" Location="Mscrm.SubGrid.ovs_cdregionalnop.NewRecord" />
+    <CustomAction Id="ovs.ovs_cdregionalnop.btnFillCapacity.CustomAction" Location="Mscrm.Form.ovs_cdregionalnop.MainTab.Save.Controls._children" Sequence="46">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.ovs_cdregionalnop.btnFillCapacity.Alt" Command="ovs.ovs_cdregionalnop.Command.cmdFillRegionalCapacity" Id="ovs.ovs_cdregionalnop.btnFillCapacity" Image32by32="/_imgs/Workplace/ConvertActivity_32.png" Image16by16="/_imgs/Workplace/ConvertActivity_16.png" LabelText="$LocLabels:ovs.ovs_cdregionalnop.btnFillCapacity.LabelText" Sequence="46" TemplateAlias="o2" ToolTipTitle="$LocLabels:ovs.ovs_cdregionalnop.btnFillCapacity.ToolTipTitle" ModernImage="Process" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.CustomAction" Location="Mscrm.Form.ovs_cdregionalnop.MainTab.Save.Controls._children" Sequence="44">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.Alt" Command="ovs.ovs_cdregionalnop.Command.cmdReCalculateTotals" Id="ovs.ovs_cdregionalnop.Button.btnReCalculateTotals" Image32by32="/_imgs/ribbon/AddToQueue_32.png" Image16by16="/_imgs/ribbon/AddToQueue_16.png" LabelText="$LocLabels:ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.LabelText" Sequence="44" TemplateAlias="o2" ToolTipTitle="$LocLabels:ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.ToolTipTitle" ModernImage="AddToQueue" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="ovs.ovs_cdregionalnop.Button.GenerateWO.CustomAction" Location="Mscrm.Form.ovs_cdregionalnop.MainTab.Save.Controls._children" Sequence="48">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:ovs.ovs_cdregionalnop.Button.GenerateWO.Alt" Command="ovs.ovs_cdregionalnop.Command.GenerateWO" Id="ovs.ovs_cdregionalnop.Button.GenerateWO" Image32by32="$webresource:AppCommon/_imgs/Workplace/ConvertActivity_32.png" Image16by16="$webresource:AppCommon/_imgs/Workplace/ConvertActivity_16.png" LabelText="$LocLabels:ovs.ovs_cdregionalnop.Button.GenerateWO.LabelText" Sequence="48" TemplateAlias="o2" ToolTipTitle="$LocLabels:ovs.ovs_cdregionalnop.Button.GenerateWO.ToolTipTitle" ModernImage="$webresource:ArcSlaMigrationCommon/_imgs/MigrationTool.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="ovs.ovs_cdregionalnop.Command.cmdFillRegionalCapacity">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="RegionNOPRibbon.fillRegionalCapacity" Library="$webresource:ovs_RegionalNOP_Ribbon">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.ovs_cdregionalnop.Command.cmdReCalculateTotals">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="RegionNOPRibbon.reCalculateTotals" Library="$webresource:ovs_RegionalNOP_Ribbon">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.ovs_cdregionalnop.Command.GenerateWO">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_cdregionalnop.EnableRule.GenerateWOCandidatesButton" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="RegionNOPRibbon.on_runGenerateWO" Library="$webresource:ovs_RegionalNOP_Ribbon">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="ovs.ovs_cdregionalnop.EnableRule.GenerateWOCandidatesButton">
+        <CustomRule FunctionName="RegionNOPRibbon.toggleWOGenerationButton" Library="$webresource:ovs_RegionalNOP_Ribbon">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ovs.ovs_cdregionalnop.btnFillCapacity.Alt">
+      <Titles>
+        <Title description="Fill Regional Capacity" languagecode="1033" />
+        <Title description="Remplissez la capacité de la région" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.btnFillCapacity.LabelText">
+      <Titles>
+        <Title description="Fill Regional Capacity" languagecode="1033" />
+        <Title description="Remplissez la capacité de la région" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.btnFillCapacity.ToolTipTitle">
+      <Titles>
+        <Title description="Fill Remaining Regional Capacity With Highest Priority Score Operations." languagecode="1033" />
+        <Title description="Remplissez la capacité restante avec les opérations qui ont les scores de priorité les plus élevés." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.Alt">
+      <Titles>
+        <Title description="Recalculez les totaux" languagecode="1036" />
+        <Title description="Recalculez les totaux" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.LabelText">
+      <Titles>
+        <Title description="Recalculate Totals" languagecode="1033" />
+        <Title description="Recalculez les totaux" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.Button.btnReCalculateTotals.ToolTipTitle">
+      <Titles>
+        <Title description="Recalculate WOC Totals" languagecode="1033" />
+        <Title description=" Recalculez les totaux pour les candidats à l'ordre de travail." languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.Button.GenerateWO.Alt">
+      <Titles>
+        <Title description="Generate Work Orders" languagecode="1033" />
+        <Title description="Générez les ordres de travail" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.Button.GenerateWO.LabelText">
+      <Titles>
+        <Title description="Generate Work Orders" languagecode="1033" />
+        <Title description="Générez les ordres de travail" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_cdregionalnop.Button.GenerateWO.ToolTipTitle">
+      <Titles>
+        <Title description="Generate the Work Orders based on the Line of Business NOP" languagecode="1033" />
+        <Title description="Générez les ordres de travail en fonction du PNS secteur d'activité" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>
