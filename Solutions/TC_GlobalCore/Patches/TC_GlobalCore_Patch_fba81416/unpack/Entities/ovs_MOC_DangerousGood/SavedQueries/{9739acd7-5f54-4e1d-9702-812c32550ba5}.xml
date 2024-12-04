@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9739acd7-5f54-4e1d-9702-812c32550ba5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_moc_dangerousgoodid">
+          <cell name="ovs_un_number_id" width="110" />
+          <cell name="ovs_pg_unknown_ind" width="184" />
+          <cell name="ovs_transported_quantity_num" width="160" />
+          <cell name="ovs_units_transported_cd" width="192" />
+          <cell name="ovs_released_quantity_num" width="144" />
+          <cell name="ovs_units_released_cd" width="172" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_moc_dangerousgood">
+          <attribute name="ovs_moc_dangerousgoodid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ovs_un_number_id" />
+          <attribute name="ovs_pg_unknown_ind" />
+          <attribute name="ovs_transported_quantity_num" />
+          <attribute name="ovs_released_quantity_num" />
+          <attribute name="ovs_units_transported_cd" />
+          <attribute name="ovs_units_released_cd" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active MOC Dangerous Goods" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ovs_incidenterap" />
+  <EntityRelationship Name="lk_ovs_incidenterap_createdby" />
+  <EntityRelationship Name="lk_ovs_incidenterap_modifiedby" />
+  <EntityRelationship Name="ovs_IncidentERAP_incident_report" />
+  <EntityRelationship Name="owner_ovs_incidenterap" />
+  <EntityRelationship Name="team_ovs_incidenterap" />
+  <EntityRelationship Name="user_ovs_incidenterap" />
+</EntityRelationships>
