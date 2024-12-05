@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24112.182" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24112.182" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24112.00206">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_59566c49</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.167.12.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_cdnop" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_workordercandidate" behavior="1" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_cdnop" displayName="NOP" solution="Active" />
+        <Dependent type="1" schemaName="ovs_cdnop" displayName="NOP" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_oversighttype" displayName="Oversight Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_workordercandidate" displayName="Work Order Candidate" solution="Active" />
+        <Dependent type="1" schemaName="ovs_workordercandidate" displayName="Work Order Candidate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="qm_rclegislation" displayName="Legislation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_MOCRegistration_Site" displayName="ovs_MOCRegistration_Site" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_MOCRegistration_Site" displayName="ovs_MOCRegistration_Site" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_MOCRegistration_Site" displayName="ovs_MOCRegistration_Site" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_site_Account" displayName="ovs_workordercandidate_site_Account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_site_Account" displayName="ovs_workordercandidate_site_Account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_site_Account" displayName="ovs_workordercandidate_site_Account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_primaryinspector" displayName="ovs_workordercandidate_primaryinspector" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_primaryinspector" displayName="ovs_workordercandidate_primaryinspector" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_primaryinspector" displayName="ovs_workordercandidate_primaryinspector" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_cdnop_ovs_cdregionalnop_CDNOPId" displayName="ovs_ovs_cdnop_ovs_cdregionalnop_CDNOPId" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_CDRegionalNOP_WorkOrderCandidate" displayName="ovs_CDRegionalNOP_WorkOrderCandidate" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_CDRegionalNOP_WorkOrderCandidate" displayName="ovs_CDRegionalNOP_WorkOrderCandidate" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_CDRegionalNOP_WorkOrderCandidate" displayName="ovs_CDRegionalNOP_WorkOrderCandidate" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" displayName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" displayName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" displayName="ovs_ovs_mocregistration_ovs_workordercandidate_operationid" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_cepsampling_cdnop_ovs_oversighttype" displayName="ovs_cepsampling_cdnop_ovs_oversighttype" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_oversighttype" displayName="ovs_workordercandidate_oversighttype" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_oversighttype" displayName="ovs_workordercandidate_oversighttype" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_oversighttype" displayName="ovs_workordercandidate_oversighttype" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_cepsampling_cdnop_qm_rclegislation" displayName="ovs_cepsampling_cdnop_qm_rclegislation" parentSchemaName="qm_rclegislation" parentDisplayName="Legislation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_plannedquarter" displayName="ovs_workordercandidate_plannedquarter" parentSchemaName="tc_tcfiscalquarter" parentDisplayName="TCFiscalQuarter" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_plannedquarter" displayName="ovs_workordercandidate_plannedquarter" parentSchemaName="tc_tcfiscalquarter" parentDisplayName="TCFiscalQuarter" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_workordercandidate_plannedquarter" displayName="ovs_workordercandidate_plannedquarter" parentSchemaName="tc_tcfiscalquarter" parentDisplayName="TCFiscalQuarter" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_tc_tcfiscalyear_ovs_cdnop_CDFiscalYearId" displayName="ovs_tc_tcfiscalyear_ovs_cdnop_CDFiscalYearId" parentSchemaName="tc_tcfiscalyear" parentDisplayName="TCFiscalYear" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_air" displayName="Air" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Modes of Transportation" parentDisplayName="Account" id="{e4dbda5d-41b3-ef11-a72f-6045bd5bfaca}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_marine" displayName="Marine" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Modes of Transportation" parentDisplayName="Account" id="{e4dbda5d-41b3-ef11-a72f-6045bd5bfaca}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_rail" displayName="Rail" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Modes of Transportation" parentDisplayName="Account" id="{e4dbda5d-41b3-ef11-a72f-6045bd5bfaca}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_road" displayName="Road" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Modes of Transportation" parentDisplayName="Account" id="{e4dbda5d-41b3-ef11-a72f-6045bd5bfaca}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdfiscalyearid" displayName="Fiscal Year" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_excludebadpostalcode" displayName="Exclude Incorrect Postal Code" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_excludehub" displayName="Exclude Hub" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_excluderiskcategory" displayName="Exclude Risk Category" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_onlyactivesites" displayName="Only Active Sites" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_operationtype" displayName="Operation Type" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_recidivismsamplesize" displayName="Recidivism Sample Size" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_recidivismviolationcount" displayName="Recidivism When Violation Count Equals" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_runcepselection" displayName="Run CEP Selection" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_samplesize" displayName="CEP Sample Size" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_violationfoundbeforedate" displayName="Violation Found Prior to Date" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cepsampling_violationfoundlastnyears" displayName="Violation found during the last N Years" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_rungenerateworkordercandidates" displayName="Run Generate Work Order Candidates" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdpriorityscore" displayName="Priority Score" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdpriorityscore" displayName="Priority Score" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdpriorityscore" displayName="Priority Score" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdriskcategory" displayName="Risk Category" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdriskcategory" displayName="Risk Category" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdriskcategory" displayName="Risk Category" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdriskscore" displayName="Risk Score" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdriskscore" displayName="Risk Score" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdriskscore" displayName="Risk Score" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_currentlyplanned" displayName="Currently Planned" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_currentlyplanned" displayName="Currently Planned" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_currentlyplanned" displayName="Currently Planned" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_generate_wo" displayName="generate_wo" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_generate_wo" displayName="generate_wo" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_generate_wo" displayName="generate_wo" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_hqflag" displayName="HQ Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_hqflag" displayName="HQ Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_hqflag" displayName="HQ Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_initialrecommendation" displayName="Initial" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_initialrecommendation" displayName="Initial" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_initialrecommendation" displayName="Initial" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_justification" displayName="Justification" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_justification" displayName="Justification" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_justification" displayName="Justification" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_operationid" displayName="Operation" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_operationid" displayName="Operation" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_operationid" displayName="Operation" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_oversighttype" displayName="Oversight Type" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_oversighttype" displayName="Oversight Type" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_oversighttype" displayName="Oversight Type" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_plannedquarter" displayName="Planned Quarter" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_plannedquarter" displayName="Planned Quarter" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_plannedquarter" displayName="Planned Quarter" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_primaryinspector" displayName="Primary Inspector" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_primaryinspector" displayName="Primary Inspector" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_primaryinspector" displayName="Primary Inspector" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionalnop" displayName="Line of Business NOP" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionalnop" displayName="Line of Business NOP" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionalnop" displayName="Line of Business NOP" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionflag" displayName="Region Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionflag" displayName="Region Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionflag" displayName="Region Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_remote" displayName="Remote" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_remote" displayName="Remote" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_remote" displayName="Remote" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_site" displayName="Site" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_site" displayName="Site" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_site" displayName="Site" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_tripid" displayName="Trip ID" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_tripid" displayName="Trip ID" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_tripid" displayName="Trip ID" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Manager" solution="Active" id="{545418f6-d089-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Analyst" solution="Active" id="{6ba72790-cf89-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Base" solution="Active" id="{6ee20a40-2264-eb11-a812-000d3aff0dda}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Regional NOP Manager" solution="Active" id="{97113114-7b3e-ec11-8c62-0022483d71b4}" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Regional NOP Manager" solution="Active" id="{97113114-7b3e-ec11-8c62-0022483d71b4}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Planner" solution="Active" id="{a8d3ef08-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Inspector Mobile" solution="Active" id="{c986520a-bc01-ec11-94f0-0022483c1f45}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Inspector" solution="Active" id="{de8e34ea-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Line of Business NOP Lookup View" displayName="Line of Business NOP Lookup View" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" id="{1c8da892-ba7e-4ba9-8b7f-4cf5cec541d4}" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Line of Business NOP Lookup View" displayName="Line of Business NOP Lookup View" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" id="{1c8da892-ba7e-4ba9-8b7f-4cf5cec541d4}" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Line of Business NOP Lookup View" displayName="Line of Business NOP Lookup View" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" id="{1c8da892-ba7e-4ba9-8b7f-4cf5cec541d4}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Associated Line of Business NOPs" displayName="Associated Line of Business NOPs" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" id="{269c2c61-1317-ec11-b6e7-000d3ae8ef7b}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Legislations" displayName="Active Legislations" parentSchemaName="qm_rclegislation" parentDisplayName="Legislation" solution="Active" id="{4797655a-2612-4c5d-81be-a514900a38ea}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TCFiscalQuarter Lookup View" displayName="TCFiscalQuarter Lookup View" parentSchemaName="tc_tcfiscalquarter" parentDisplayName="TCFiscalQuarter" solution="Active" id="{72cca668-4e5d-4ab1-afef-9b00703a5c41}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Operations Lookup View" displayName="Operations Lookup View" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{7e35f6a5-af6d-40f3-b3aa-3369350f8c35}" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Operations Lookup View" displayName="Operations Lookup View" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{7e35f6a5-af6d-40f3-b3aa-3369350f8c35}" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Operations Lookup View" displayName="Operations Lookup View" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{7e35f6a5-af6d-40f3-b3aa-3369350f8c35}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Next Fiscal Year" displayName="Next Fiscal Year" parentSchemaName="tc_tcfiscalyear" parentDisplayName="TCFiscalYear" solution="Active" id="{8960ab4d-600d-eb11-a813-000d3af3ac0d}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All" displayName="All" parentSchemaName="qm_rclegislation" parentDisplayName="Legislation" solution="Active" id="{93cc0939-e290-ec11-8d20-0022483bb976}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Bookable Resource Lookup View" displayName="Bookable Resource Lookup View" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" id="{a8a3797b-e027-4b10-9647-e58070accfc4}">
+          <package>Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All" displayName="All" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" id="{c7a80f60-e290-ec11-8d20-0022483bb0e4}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Oversight Type Lookup View" displayName="Oversight Type Lookup View" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" id="{e799195b-89c5-4ccf-835e-b61fb232f4eb}" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Oversight Type Lookup View" displayName="Oversight Type Lookup View" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" id="{e799195b-89c5-4ccf-835e-b61fb232f4eb}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Oversight Types" displayName="Active Oversight Types" parentSchemaName="ovs_oversighttype" parentDisplayName="Oversight Type" solution="Active" id="{f766480c-ecae-45e6-9cc1-a6c20afc045b}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Operation Scores Display" parentDisplayName="Operation" solution="Active" id="{026925a2-097a-ec11-8d20-000d3a84a45c}" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Operation Scores Display" parentDisplayName="Operation" solution="Active" id="{026925a2-097a-ec11-8d20-000d3a84a45c}" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Operation Scores Display" parentDisplayName="Operation" solution="Active" id="{026925a2-097a-ec11-8d20-000d3a84a45c}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Site Address" parentDisplayName="Account" solution="Active" id="{7bfb73c4-a231-48c3-bbbd-563338ff9799}" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Site Address" parentDisplayName="Account" solution="Active" id="{7bfb73c4-a231-48c3-bbbd-563338ff9799}" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Site Address" parentDisplayName="Account" solution="Active" id="{7bfb73c4-a231-48c3-bbbd-563338ff9799}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_NOPMainForm" displayName="ovs_NOPMainForm" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_WorkOrderCandidate_MainForm" displayName="ovs_WorkOrderCandidate_MainForm" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_WorkOrderCandidate_MainForm" displayName="ovs_WorkOrderCandidate_MainForm" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_WorkOrderCandidate_MainForm" displayName="ovs_WorkOrderCandidate_MainForm" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Line of Business NOP Manager's form" parentDisplayName="Work Order Candidate" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="NOP" id="{c92e3ed8-1c9e-4646-bf05-04f9818fe34c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Planner's form" parentDisplayName="Work Order Candidate" id="{e5d2d33b-14e5-46eb-a31b-d19fe44f5870}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Work Order Candidate" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

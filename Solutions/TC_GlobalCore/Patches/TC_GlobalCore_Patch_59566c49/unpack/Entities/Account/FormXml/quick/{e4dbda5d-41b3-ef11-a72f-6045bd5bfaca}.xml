@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e4dbda5d-41b3-ef11-a72f-6045bd5bfaca}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{89b04ca7-9b4a-4e3f-adbf-1c142a0583ba}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" visible="true" labelid="{799a2ece-4838-4e62-a02c-2f13e3290033}">
+                  <labels>
+                    <label description="Modes of Transportation" languagecode="1033" />
+                    <label description="Modes de transport" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="C0550AC7-0F44-45A4-8EF5-D2911C0689D9" labelid="{b2bcb345-989c-4ce7-ab96-31762dee8620}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e08c328-4447-4d49-b27d-c837c90e207e}" locklevel="0" colspan="1" rowspan="1" labelid="{38dc33fd-3adb-4ee5-b63d-9988b7bb25f5}">
+                        <labels>
+                          <label description="Marine" languagecode="1033" />
+                          <label description="Maritime" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_marine" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_marine" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7addbfc4-adf5-4583-8f71-461cae338ed6}" locklevel="0" colspan="1" rowspan="1" labelid="{86d88092-972f-4231-bf04-2e81f4d48ffe}">
+                        <labels>
+                          <label description="Road" languagecode="1033" />
+                          <label description="Route" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_road" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_road" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c413da0-f654-4065-a304-fc94c2ea8a64}" locklevel="0" colspan="1" rowspan="1" labelid="{b16acea0-1b9c-44ab-85b9-4315eaefe5f7}">
+                        <labels>
+                          <label description="Rail" languagecode="1033" />
+                          <label description="Ferroviaire" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_rail" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_rail" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db32d5c2-375d-4a40-ad4f-d80a724bcb8a}" locklevel="0" colspan="1" rowspan="1" labelid="{dd838220-a9c3-4ded-aa1d-3a72fb5f34cf}">
+                        <labels>
+                          <label description="Air" languagecode="1033" />
+                          <label description="Aérien" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_air" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_air" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="25" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{e90ba2b5-9fad-4c6b-8652-21eac42a206b}" />
+        <Role Id="{7c7f13f2-7326-49cc-b6f3-5e0e02c8ea21}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{187ba5b8-3461-4a69-ace6-8698520013ef}" />
+        <Role Id="{23c7becf-9eea-4e38-a313-8b82d1139aa2}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+        <Role Id="{c18e8aee-8935-4643-bf15-f73272f9a8fe}" />
+        <Role Id="{06a0eaa6-e1ee-4e95-b31b-f88a32b8f873}" />
+        <Role Id="{4a223677-ab8d-4d7f-82a3-f899f36aea58}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Modes of Transportation" languagecode="1033" />
+      <LocalizedName description="Modes de transport" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Display the modes of transportation at the site level" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
