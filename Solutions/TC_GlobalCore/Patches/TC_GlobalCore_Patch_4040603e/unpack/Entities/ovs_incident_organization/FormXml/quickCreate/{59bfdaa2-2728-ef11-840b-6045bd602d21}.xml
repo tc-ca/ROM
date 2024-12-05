@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{59bfdaa2-2728-ef11-840b-6045bd602d21}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{d3a2d701-97c6-4770-9eff-27ee01474925}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{18ceec8e-be12-45eb-bf7d-26e8673d6173}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{73ca8705-fbec-43bc-8cfb-698d20b32e5d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c82f695c-bb1f-44f2-9ea4-e910fd607f4c}" locklevel="0" colspan="1" rowspan="1" labelid="{1de8f72f-c636-4438-b627-95914f04b7e0}">
+                        <labels>
+                          <label description="Incident" languagecode="1033" />
+                          <label description="Incident" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_incident_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_incident_id" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bd047b3-5d7b-4fe8-9309-40c94df2c0e1}" locklevel="0" colspan="1" rowspan="1" labelid="{137fe22c-d951-4e8e-ab7a-36fb770324ff}">
+                        <labels>
+                          <label description="Participant" languagecode="1033" />
+                          <label description="Participant" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_participant_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_participant_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1f1d1c76-8a5e-4fd6-bd3a-19e71e249396}" locklevel="0" colspan="1" rowspan="1" labelid="{a6f53a9b-b88e-4c51-8f93-2b44561f4689}">
+                        <labels>
+                          <label description="Responsible to Report" languagecode="1033" />
+                          <label description="Doit soumettre une déclaration" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_responsible_report_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_responsible_report_ind" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{958d8174-5c4c-4b65-b004-202402ab32d1}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{415e2dbe-4698-4cc0-b28c-32e8524f7227}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{9ce46f62-cbea-4cde-aba4-fc586a7296a0}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{dd550774-ef05-4229-9789-ea2cdf091895}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Incident Participant quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
