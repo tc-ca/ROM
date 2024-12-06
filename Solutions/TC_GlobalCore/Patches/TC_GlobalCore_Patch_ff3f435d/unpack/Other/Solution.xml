@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24112.182" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24112.182" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24112.00206">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_ff3f435d</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.167.13.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msdyn_workorder" behavior="1" />
+      <RootComponent type="1" schemaName="ovs_moc_dangerousgood" behavior="2" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moc_dangerousgood" displayName="MOC Dangerous Good" solution="Active" />
+        <Dependent type="1" schemaName="ovs_moc_dangerousgood" displayName="MOC Dangerous Good" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="modifiedon" displayName="Modified On" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_address1" displayName="Street 1" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_city" displayName="City" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_functionallocation" displayName="Functional Location" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="msdyn_FieldService_patch_update (8.8.126.9)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_functionallocation" displayName="Functional Location" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="msdyn_FieldService_patch_update (8.8.126.9)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Work Order Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Work Order Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Work Order Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_primaryincidentdescription" displayName="Primary Incident Description" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_primaryincidentdescription" displayName="Primary Incident Description" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_primaryincidenttype" displayName="Primary Incident Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_primaryincidenttype" displayName="Primary Incident Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_serviceaccount" displayName="Site" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_serviceaccount" displayName="Site" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_serviceaccount" displayName="Site" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_stateorprovince" displayName="Province" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_substatus" displayName="Substatus" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_substatus" displayName="Substatus" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_systemstatus" displayName="Record Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_systemstatus" displayName="Record Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_systemstatus" displayName="Record Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workorderid" displayName="WO Number" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workordertype" displayName="Work Order Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_workordertype" displayName="Work Order Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_fiscalquarter" displayName="Planned Fiscal Quarter" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_fiscalyear" displayName="Planned Fiscal Year" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocoperationid" displayName="Operation" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocoperationid" displayName="Operation" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocoperationid" displayName="Operation" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_oversighttype" displayName="Oversight Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_primaryinspector" displayName="Primary Inspector" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lineofbusiness" displayName="Line of Business" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lineofbusiness" displayName="Line of Business" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lineofbusiness" displayName="Line of Business" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocregistrationid" displayName="Operation Id" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocregistrationid" displayName="Operation Id" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocregistrationid" displayName="Operation Id" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Icons/Entity/WorkOrder_16.png" displayName="msdyn_/Icons/Entity/WorkOrder_16.png" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Icons/Entity/WorkOrder_32/_imgs/NavBar/Invisible.gif" displayName="msdyn_/Icons/Entity/WorkOrder_32/_imgs/NavBar/Invisible.gif" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Icons/SVG/WorkOrders.svg" displayName="msdyn_/Icons/SVG/WorkOrders.svg" solution="FieldService (8.8.0.88)">
+          <package>FieldService_Anchor (8.8.126.9)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_workorder" displayName="Work Order" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_serviceaccount" width="150" />
+          <cell name="a_159cc1aed14d4b82952a8c5fb3d61fc3.ovs_lineofbusiness" width="137" />
+          <cell name="msdyn_functionallocation" width="150" />
+          <cell name="msdyn_substatus" width="100" />
+          <cell name="msdyn_systemstatus" width="125" />
+          <cell name="createdon" width="125" />
+          <cell name="msdyn_workordertype" width="125" />
+          <cell name="msdyn_primaryincidenttype" width="150" />
+          <cell name="msdyn_primaryincidentdescription" width="200" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="msdyn_primaryincidenttype" />
+          <attribute name="msdyn_primaryincidentdescription" />
+          <attribute name="msdyn_workordertype" />
+          <attribute name="msdyn_substatus" />
+          <attribute name="msdyn_workorderid" />
+          <attribute name="msdyn_functionallocation" />
+          <link-entity alias="a_159cc1aed14d4b82952a8c5fb3d61fc3" name="ovs_mocregistration" to="ovs_mocoperationid" from="ovs_mocregistrationid" link-type="outer" visible="false">
+            <attribute name="ovs_lineofbusiness" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>3.1.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Work Orders" languagecode="1033" />
+      <LocalizedName description="Ordres de travail actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

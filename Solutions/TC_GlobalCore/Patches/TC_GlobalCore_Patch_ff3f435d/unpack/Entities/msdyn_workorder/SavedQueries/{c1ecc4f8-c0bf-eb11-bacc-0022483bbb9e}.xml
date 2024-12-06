@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msdyn_name" select="1" icon="1" preview="1">
+        <row name="result" id="msdyn_workorderid">
+          <cell name="msdyn_name" width="150" />
+          <cell name="msdyn_serviceaccount" width="115" />
+          <cell name="ovs_oversighttype" width="134" />
+          <cell name="a_a85c7f4fe8924ae4a555f5c7548ab416.ovs_lineofbusiness" width="137" />
+          <cell name="msdyn_address1" width="100" />
+          <cell name="msdyn_city" width="100" />
+          <cell name="msdyn_stateorprovince" width="100" />
+          <cell name="ovs_primaryinspector" width="142" />
+          <cell name="ovs_fiscalyear" width="140" />
+          <cell name="ovs_fiscalquarter" width="163" />
+          <cell name="msdyn_systemstatus" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msdyn_workorder">
+          <attribute name="msdyn_name" />
+          <attribute name="msdyn_workorderid" />
+          <attribute name="msdyn_serviceaccount" />
+          <attribute name="ovs_oversighttype" />
+          <attribute name="msdyn_address1" />
+          <attribute name="msdyn_city" />
+          <attribute name="msdyn_stateorprovince" />
+          <attribute name="ovs_primaryinspector" />
+          <attribute name="ovs_fiscalquarter" />
+          <attribute name="msdyn_systemstatus" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="ovs_fiscalyear" />
+          <link-entity alias="a_a85c7f4fe8924ae4a555f5c7548ab416" name="ovs_mocregistration" to="ovs_mocoperationid" from="ovs_mocregistrationid" link-type="outer" visible="false">
+            <attribute name="ovs_lineofbusiness" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Work Orders" languagecode="1033" />
+      <LocalizedName description="Tous les ordres de travail" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="View of Active and Inactive Work orders" languagecode="1033" />
+      <Description description="Vue des ordres de travail actifs et inactifs" languagecode="1036" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>
