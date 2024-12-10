@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24034.218" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.24113.188" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24113.188" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24113.00188">
   <SolutionManifest>
     <UniqueName>TDG_NOP_Flows</UniqueName>
     <LocalizedNames>
       <LocalizedName description="TDG.NOP.Flows" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.48</Version>
+    <Version>1.0.0.49</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -92,13 +92,13 @@
     <MissingDependencies>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.109.12)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates" id="{577ea3a9-7b4c-ec11-8f8e-000d3ae8e96e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.109.12)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates on Demand" id="{f084ea5e-610c-ed11-b83d-000d3a0c8551}" />
       </MissingDependency>
@@ -111,52 +111,44 @@
         <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates on Demand" id="{f084ea5e-610c-ed11-b83d-000d3a0c8551}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="TDG Inspection - Update RNOP Flag to generate Work Orders" id="{1492ee5f-bd53-ed11-9561-0022483d0343}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Process Hubs" id="{346f0951-4963-ec11-8f8e-000d3aff1142}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Process Targeted" id="{356f0951-4963-ec11-8f8e-000d3aff1142}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates" id="{577ea3a9-7b4c-ec11-8f8e-000d3ae8e96e}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Process Follow-Ups" id="{8e207c9a-065d-ec11-8f8e-000d3a843476}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Process CEP" id="{a7f2064f-4963-ec11-8f8e-000d3aff196d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="TDG Inspection - Close WOCs based on Regional NOP status" id="{b2b56a37-37a9-ec11-983e-0022483d8060}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Process Accidents" id="{b9f2064f-4963-ec11-8f8e-000d3aff196d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates on Demand" id="{f084ea5e-610c-ed11-b83d-000d3a0c8551}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="ovs_ceprun" displayName="CEP Run" solution="Active" />
         <Dependent type="29" displayName="TDG: Create CEP Run Log" id="{8fe219a0-502d-ed11-9db0-0022483d0343}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="ovs_lob" displayName="LOB" solution="Active" />
-        <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates" id="{577ea3a9-7b4c-ec11-8f8e-000d3ae8e96e}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="ovs_lob" displayName="LOB" solution="Active" />
-        <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates on Demand" id="{f084ea5e-610c-ed11-b83d-000d3a0c8551}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
@@ -299,7 +291,7 @@
         <Dependent type="29" displayName="TDG Inspections - Generate Work Order Candidates on Demand" id="{f084ea5e-610c-ed11-b83d-000d3a0c8551}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_generateworkorder" displayName="Generate Work Order " parentSchemaName="ovs_cdregionalnop" parentDisplayName="Regional NOP" solution="Active" />
+        <Required type="2" schemaName="ovs_generateworkorder" displayName="Generate Work Order " parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="TDG Inspection - Update RNOP Flag to generate Work Orders" id="{1492ee5f-bd53-ed11-9561-0022483d0343}" />
       </MissingDependency>
       <MissingDependency>

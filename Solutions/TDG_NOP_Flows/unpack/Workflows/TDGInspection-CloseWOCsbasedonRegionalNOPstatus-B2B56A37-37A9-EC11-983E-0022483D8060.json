@@ -60,7 +60,7 @@
         "Apply_to_each": {
           "foreach": "@outputs('Get_WOCs')?['body/value']",
           "actions": {
-            "Update_a_row": {
+            "Update_a_row:_WOC_set_to_inactive": {
               "runAfter": {},
               "metadata": {
                 "operationMetadataId": "bc0861ce-8476-42be-9243-8330873e2ae8"
@@ -124,7 +124,7 @@
         }
       }
     },
-    "templateName": null
+    "templateName": ""
   },
   "schemaVersion": "1.0.0.0"
 }
