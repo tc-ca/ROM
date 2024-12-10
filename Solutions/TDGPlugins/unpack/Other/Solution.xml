@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24104.176" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24104.176" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24104.00176">
+<ImportExportXml version="9.2.24113.188" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24113.188" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24113.00188">
   <SolutionManifest>
     <UniqueName>TDGPlugins</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Main solution for TDG Inspection Related Plugins&#xA;1.0.0.1 - WO Pre Create and Pre Update were modified." languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.140</Version>
+    <Version>1.2.0.141</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -165,127 +165,127 @@
     <MissingDependencies>
       <MissingDependency>
         <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
-          <package>Scheduling_Anchor (9.0.7.3)</package>
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Booking.Booking_PreStateChange: Update of bookableresourcebooking" id="{a872a6be-72fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
-          <package>Scheduling_Anchor (9.0.7.3)</package>
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
         </Required>
         <Dependent type="93" id="{a7f4f555-79fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreAssign: Assign of msdyn_workorder" id="{0994427e-0bb8-eb11-8236-0022483bc30f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostCreate_RemoveSiteAddress: Create of msdyn_workorder" id="{120a05c2-57f8-ee11-a1fe-002248af8802}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostCreateCEP: Create of msdyn_workorder" id="{2bbe310e-ca09-ec11-b6e6-000d3ae8f8cc}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreUpdatePrimaryIncident: Update of msdyn_workorder" id="{3d9bf209-5b2c-ec11-b6e6-0022483c628a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreCreateSetEmail: Create of msdyn_workorder" id="{4bb8479a-1939-ed11-9db0-0022483cb62f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreCreateFiscal: Create of msdyn_workorder" id="{58f69981-63c6-eb11-bacc-000d3af39889}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" id="{5ec95753-bf00-ef11-9f89-0022483d0141}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostUpdateSecondoryInspector: Update of msdyn_workorder" id="{63b0f230-f83f-ed11-bba2-0022483cb62f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostUpdateSetOwner: Update of msdyn_workorder" id="{72dc92db-83bd-eb11-bacc-0022483bbb9e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreCreate: Create of msdyn_workorder" id="{72f5d924-08a2-eb11-b1ac-000d3ae8b93a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostUpdateOwnerSetForAllRelated: Update of msdyn_workorder" id="{ac43cdf5-4e2d-ed11-9db0-0022483cb62f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostCreateSetOwner: Create of msdyn_workorder" id="{d7d0ad8a-84bd-eb11-bacc-0022483bbb9e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreUpdateFiscal: Update of msdyn_workorder" id="{e0201ab1-63c6-eb11-bacc-000d3af39889}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreUpdate: Update of msdyn_workorder" id="{e5b5ed4e-08a2-eb11-b1ac-000d3ae8b93a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostStateChangeCloseRelatedRecords: Update of msdyn_workorder" id="{fd9c2806-66d7-eb11-bacb-0022483c5afb}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{60c1a0dc-66d7-eb11-bacb-0022483c5afb}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{67d320d4-65c6-eb11-bacc-000d3af39889}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{85ac12f6-f82c-ec11-b6e6-0022483c628a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{ef2aa488-1aa2-eb11-b1ac-000d3ae8b93a}" />
       </MissingDependency>
@@ -302,11 +302,11 @@
         <Dependent type="93" id="{6424b450-d51b-ec11-b6e7-000d3ae9b59b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.RegionalNOP.RegionalNOP_PreCreate: Create of ovs_cdregionalnop" id="{aebee8b6-753e-ec11-8c62-0022483d71b4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.RegionalNOP.RegionalNOP_PostCreate: Create of ovs_cdregionalnop" id="{db84fda4-753e-ec11-8c62-0022483d71b4}" />
       </MissingDependency>
       <MissingDependency>
@@ -691,13 +691,13 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="bookableresourcebookingid" displayName="Bookable Resource Booking" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
-          <package>Scheduling_Anchor (9.0.7.3)</package>
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
         </Required>
         <Dependent type="93" id="{a7f4f555-79fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_workorder" displayName="Work Order" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{a7f4f555-79fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
@@ -715,31 +715,31 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="bookableresourcebooking" parentDisplayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
-          <package>Scheduling_Anchor (9.0.7.3)</package>
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Booking.Booking_PreStateChange: Update of bookableresourcebooking" id="{a872a6be-72fb-eb11-94ef-0022483bb3ca}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_primaryincidenttype" displayName="Primary Incident Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreUpdatePrimaryIncident: Update of msdyn_workorder" id="{3d9bf209-5b2c-ec11-b6e6-0022483c628a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_primaryincidenttype" displayName="Primary Incident Type" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{85ac12f6-f82c-ec11-b6e6-0022483c628a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_systemstatus" displayName="Record Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PreUpdate: Update of msdyn_workorder" id="{e5b5ed4e-08a2-eb11-b1ac-000d3ae8b93a}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_systemstatus" displayName="Record Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{ef2aa488-1aa2-eb11-b1ac-000d3ae8b93a}" />
       </MissingDependency>
@@ -777,25 +777,25 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostStateChangeCloseRelatedRecords: Update of msdyn_workorder" id="{fd9c2806-66d7-eb11-bacb-0022483c5afb}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{60c1a0dc-66d7-eb11-bacb-0022483c5afb}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrder.WorkOrder_PostStateChangeCloseRelatedRecords: Update of msdyn_workorder" id="{fd9c2806-66d7-eb11-bacb-0022483c5afb}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.126.9)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{60c1a0dc-66d7-eb11-bacb-0022483c5afb}" />
       </MissingDependency>
@@ -1068,7 +1068,7 @@
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Operation.Operation_PreUpdateValidation: Update of ovs_mocregistration" id="{214b0692-e698-ed11-aad0-0022483e130e}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_lineofbusiness" displayName="Line Of Business" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Required type="2" schemaName="ovs_lineofbusiness" displayName="Line of Business" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Operation.Operation_PreUpdateValidation: Update of ovs_mocregistration" id="{214b0692-e698-ed11-aad0-0022483e130e}" />
       </MissingDependency>
       <MissingDependency>
@@ -1296,7 +1296,7 @@
         <Dependent type="93" id="{81cbf110-77ab-ec11-983e-0022483d853b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_regionalnop" displayName="Regional NOP" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Required type="2" schemaName="ovs_regionalnop" displayName="Line of Business NOP" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
         <Dependent type="93" id="{81cbf110-77ab-ec11-983e-0022483d853b}" />
       </MissingDependency>
       <MissingDependency>
