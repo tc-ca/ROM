@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24113.188" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24113.188" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24113.00188">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_c68703b6</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.167.19.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="cid_historylog" displayName="History Log" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_accountkpiitem" displayName="Account KPI Item" solution="RelationshipAnalytics (9.0.24112.10002)">
+          <package appName="msdynce_SalesInsights" version="9.0.24112.10007">msdynce_SalesInsightsAnchor (9.0.24112.10007)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_aircrafttype" displayName="Aircraft Type" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="Air Operator Function" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_airoperatortype" displayName="Air Operator Type" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_mocregistration" displayName="Operation" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moctype" displayName="MOC Type" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_operationunnumber" displayName="Site UN Number" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_siteclass" displayName="Site Class" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_siteclass" displayName="Site Class" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequest" displayName="Support Request" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_tyohsequipmenttype" displayName="OHS Equipment Type" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_tyohsnote" displayName="OHS Note" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cid_account_cid_historylog_Company" displayName="cid_account_cid_historylog_Company" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_accountkpiitem_accountid" displayName="msdyn_account_msdyn_accountkpiitem_accountid" parentSchemaName="account" parentDisplayName="Account" solution="RelationshipAnalytics (9.0.24112.10002)">
+          <package appName="msdynce_SalesInsights" version="9.0.24112.10007">msdynce_SalesInsightsAnchor (9.0.24112.10007)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_BillingAccount" displayName="msdyn_account_msdyn_agreement_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_BillingAccount" displayName="msdyn_account_msdyn_agreement_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_ServiceAccount" displayName="msdyn_account_msdyn_agreement_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_ServiceAccount" displayName="msdyn_account_msdyn_agreement_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_payment_Account" displayName="msdyn_account_msdyn_payment_Account" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_payment_Account" displayName="msdyn_account_msdyn_payment_Account" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_BillingAccount" displayName="msdyn_account_msdyn_rma_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_BillingAccount" displayName="msdyn_account_msdyn_rma_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_ServiceAccount" displayName="msdyn_account_msdyn_rma_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_ServiceAccount" displayName="msdyn_account_msdyn_rma_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rtv_Vendor" displayName="msdyn_account_msdyn_rtv_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rtv_Vendor" displayName="msdyn_account_msdyn_rtv_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_account_contact" displayName="ovs_account_contact" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_Account_ovs_aircrafttype" displayName="ovs_Account_ovs_aircrafttype" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_Account_ovs_airoperatorfunction" displayName="ovs_Account_ovs_airoperatorfunction" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_Account_ovs_airOperatortype" displayName="ovs_Account_ovs_airOperatortype" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_Account_ovs_moctype" displayName="ovs_Account_ovs_moctype" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_account_tyequipmenttype" displayName="ovs_account_tyequipmenttype" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_MOCRegistration_Site" displayName="ovs_MOCRegistration_Site" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_MOCRegistration_Site" displayName="ovs_MOCRegistration_Site" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_operationunnumber_Site_account" displayName="ovs_operationunnumber_Site_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_Company_account" displayName="ovs_ovs_supportrequest_Company_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_supportrequest_Site_account" displayName="ovs_ovs_supportrequest_Site_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_siteclass_Site_account" displayName="ovs_siteclass_Site_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_siteclass_Site_account" displayName="ovs_siteclass_Site_account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_tyohsnote_Account_Account" displayName="ovs_tyohsnote_Account_Account" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.6)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+          <package appName="msdynce_Service" version="9.0.24112.1002">msdynce_ServiceAnchor (9.0.24112.1002)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.6)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+          <package appName="msdynce_Service" version="9.0.24112.1002">msdynce_ServiceAnchor (9.0.24112.1002)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_account_inspection_zone_ovs_inspection_zo" displayName="ovs_account_inspection_zone_ovs_inspection_zo" parentSchemaName="ovs_inspection_zone" parentDisplayName="Zone" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_cidflag" displayName="CID Flag" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_cidflag" displayName="CID Flag" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_cidsitestatus" displayName="Site Status" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_handlingsitetype" displayName="Handle" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_handlingsitetype" displayName="Handle" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_importingsitetype" displayName="Import" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_importingsitetype" displayName="Import" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_iscompanyattested" displayName="Is Organization Attested?" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_issiteattested" displayName="Is Site Attested?" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_offeringfortransportsitetype" displayName="Offer for Transport" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_offeringfortransportsitetype" displayName="Offer for Transport" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_same_as_company" displayName="Same as the Organization address?" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_siteclaim" displayName="Site Status" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_siteid" displayName="Site ID" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_sitename" displayName="Site Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_transportingsitetype" displayName="Transport" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_transportingsitetype" displayName="Transport" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_address_type" displayName="Input Address Type" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_address1_province" displayName="Province / Territory" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_air" displayName="Air" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_air" displayName="Air" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_application" displayName="Source App" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_application" displayName="Source App" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdpopulationdensity" displayName="Population Density" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_inspection_zone" displayName="Zone" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalname" displayName="Legal Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalname" displayName="Legal Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalnamefr" displayName="Legal Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lld_meridian" displayName="Meridian" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lld_quarter" displayName="Quarter / LSD" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lld_range" displayName="Range" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lld_section" displayName="Section" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lld_township" displayName="Township" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_marine" displayName="Marine" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_marine" displayName="Marine" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocexpiry" displayName="MOC Registration Expiry" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_mocid" displayName="MOC Registration" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_naicscode" displayName="NAICS Code" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_naicscode" displayName="NAICS Code" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_namefr" displayName="Operating Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_namefr" displayName="Operating Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_rail" displayName="Rail" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_rail" displayName="Rail" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_road" displayName="Road" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_road" displayName="Road" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_romid" displayName="ROM ID" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_romid" displayName="ROM ID" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_supplychaindirection" displayName="Supply Chain Direction" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.24112.10005">msdynce_SalesAnchor (9.0.24112.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="CID Admin" solution="Active" id="{17448407-4847-ee11-be6f-0022483e130e}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Manager" solution="Active" id="{545418f6-d089-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="CID User" solution="Active" id="{6b799c8f-dd4f-ed11-bba3-0022483d0343}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Analyst" solution="Active" id="{6ba72790-cf89-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Planner" solution="Active" id="{a8d3ef08-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Inspector" solution="Active" id="{de8e34ea-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Support Requests" displayName="Active Support Requests" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{035953f1-3ef6-455b-8288-9a62194e215f}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - Validation - Sites" displayName="CID Portal - Validation - Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{048f4d4f-c892-ec11-b3fe-000d3a0c187c}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Service Account" displayName="Service Account" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)" id="{0f928982-20d3-e811-815b-000d3afd1036}">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - In year Company Sites" displayName="CID Portal - In year Company Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{153aa606-2043-ed11-bba3-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Associated Classes" displayName="Site Associated Classes" parentSchemaName="ovs_siteclass" parentDisplayName="Site Class" solution="Active" id="{165d86c4-84d2-ee11-904d-002248b0ab18}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Associated Classes" displayName="Site Associated Classes" parentSchemaName="ovs_siteclass" parentDisplayName="Site Class" solution="Active" id="{165d86c4-84d2-ee11-904d-002248b0ab18}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Associated Sites" displayName="All Associated Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{2225cdfb-321f-ee11-9966-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Region's Inactive Sites" displayName="My Region's Inactive Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{2253be98-5ad4-eb11-bacc-000d3af38cd4}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active OHS Notes" displayName="Active OHS Notes" parentSchemaName="ovs_tyohsnote" parentDisplayName="OHS Note" solution="Active" id="{228abdfa-9513-479c-82ac-c14abfb5b341}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID - Parent Organizations (ROM &amp; CID)" displayName="CID - Parent Organizations (ROM &amp; CID)" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{27025ebd-1817-ed11-b83f-000d3a84cfdd}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Account Associated View" displayName="CID Account Associated View" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{28d5ab71-642a-ee11-bdf4-0022483d0c87}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="DG Classes" displayName="DG Classes" parentSchemaName="ovs_siteclass" parentDisplayName="Site Class" solution="Active" id="{29319724-14d1-ee11-904d-002248b0ab18}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="DG Classes" displayName="DG Classes" parentSchemaName="ovs_siteclass" parentDisplayName="Site Class" solution="Active" id="{29319724-14d1-ee11-904d-002248b0ab18}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Site UN Numbers" displayName="Active Site UN Numbers" parentSchemaName="ovs_operationunnumber" parentDisplayName="Site UN Number" solution="Active" id="{2e7c7b15-98b4-4cc3-a0da-0f193b0759d2}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - Validation - Unclaimed Sites" displayName="CID Portal - Validation - Unclaimed Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{3fffabcb-74c0-ec11-983e-0022483db9d8}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - OData - Parent Companies" displayName="CID Portal - OData - Parent Companies" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{40662d0e-d694-ec11-b3fe-000d3a0c829e}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Active Accounts by Relationship" displayName="My Active Accounts by Relationship" parentSchemaName="account" parentDisplayName="Account" solution="RelationshipAnalytics (9.0.24112.10002)" id="{4bfea08c-9a4d-e611-80fc-0024e84720c6}">
+          <package appName="msdynce_SalesInsights" version="9.0.24112.10007">msdynce_SalesInsightsAnchor (9.0.24112.10007)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Account KPI Items" displayName="Active Account KPI Items" parentSchemaName="msdyn_accountkpiitem" parentDisplayName="Account KPI Item" solution="RelationshipAnalytics (9.0.24112.10002)" id="{5205cc80-9729-4978-bef9-6e8b821f6964}">
+          <package appName="msdynce_SalesInsights" version="9.0.24112.10007">msdynce_SalesInsightsAnchor (9.0.24112.10007)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Air Operator Functions" displayName="Active Air Operator Functions" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="Air Operator Function" solution="Active" id="{570df2bd-257b-4369-a5c6-f02fa59ba2f1}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Transportation of Dangerous Goods" displayName="Transportation of Dangerous Goods" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{57962920-5929-eb11-a813-000d3af3a7a7}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts I Follow" displayName="Accounts I Follow" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{61273827-328e-e011-95ae-00155d9cfa02}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Accounts Being Followed" displayName="Accounts Being Followed" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{61273827-328e-e011-95ae-00155d9cfa03}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Sites" displayName="All Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{631f1f30-1bff-ed11-8f6d-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID - Not Claim Sites" displayName="CID - Not Claim Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{6e812d65-8725-ec11-b6e6-0022483cb5cd}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account Lookup View - Organizations" displayName="Account Lookup View - Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{71537ab2-06cd-ee11-9079-0022483cceb8}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="History Logs (All)" displayName="History Logs (All)" parentSchemaName="cid_historylog" parentDisplayName="History Log" solution="Active" id="{72873a02-e53f-4409-a63f-ab934b131a24}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Organizations" displayName="All Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{74bbeebe-f9fe-ed11-8f6d-0022483e130e}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Lookup View" displayName="Site Lookup View" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{7b62c6ee-865b-eb11-a812-000d3a84db40}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Sites" displayName="Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{7c363e5f-5bd4-eb11-bacc-000d3af3999c}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Excluded Accounts Campaigns" displayName="Excluded Accounts Campaigns" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_MarketingPatch (9.0.1904.1019)" id="{7de498c2-508f-49a4-b2e8-d550d5b1b9ee}">
+          <package appName="msdynce_Marketing" version="9.0.24112.10001">msdynce_MarketingAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TDG Core Sites" displayName="TDG Core Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{7fa4b59f-485d-ee11-8df0-0022483d0c87}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Parent Lookup View" displayName="Parent Lookup View" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{80d24aa0-2b6c-ed11-81ac-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Child Accounts" displayName="Active Child Accounts" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{82cc4863-aa98-eb11-b1ac-000d3ae93a4f}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - Parent Companies" displayName="CID Portal - Parent Companies" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{84f03662-9e28-ec11-b6e6-0022483cb5cd}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Aircraft Types" displayName="Active Aircraft Types" parentSchemaName="ovs_aircrafttype" parentDisplayName="Aircraft Type" solution="Active" id="{88caeabd-3ad9-475b-91cd-75ce996edf16}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Companies" displayName="Companies" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{8965dc8d-460a-eb11-a813-000d3af3a7a7}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Site Classes" displayName="Active Site Classes" parentSchemaName="ovs_siteclass" parentDisplayName="Site Class" solution="Active" id="{8bcd3001-fb04-477b-9fc5-0c3724545c6c}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active OHS Equipment Types" displayName="Active OHS Equipment Types" parentSchemaName="ovs_tyohsequipmenttype" parentDisplayName="OHS Equipment Type" solution="Active" id="{8ce18d7f-d3e4-47e6-a481-93982bb8060a}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive OHS Notes" displayName="Inactive OHS Notes" parentSchemaName="ovs_tyohsnote" parentDisplayName="OHS Note" solution="Active" id="{8e352772-eac2-4fe7-9a76-8929b3306c85}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Sites With No Operations" displayName="Sites With No Operations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{906591f6-654c-ec11-8f8e-000d3ae8e96e}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Operations" displayName="Active Operations" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{98c7fee1-1d9f-4226-89bb-26e6be7057f8}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Operations" displayName="Active Operations" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{98c7fee1-1d9f-4226-89bb-26e6be7057f8}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account Duplicated per Customer request" displayName="Account Duplicated per Customer request" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{9b760bd0-0437-ee11-bdf4-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID - Claim Sites" displayName="CID - Claim Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{a0be1cb3-8525-ec11-b6e6-0022483cb5cd}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TDG Core Organizations" displayName="TDG Core Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{a5a9b46c-475d-ee11-8df0-0022483e130e}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Associated Operations" displayName="Site Associated Operations" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{a6fbfbaa-153c-ec11-8c62-0022483d71b4}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Associated Operations" displayName="Site Associated Operations" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" id="{a6fbfbaa-153c-ec11-8c62-0022483d71b4}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active MOC Types" displayName="Active MOC Types" parentSchemaName="ovs_moctype" parentDisplayName="MOC Type" solution="Active" id="{a759bf0f-872d-491d-b04a-ae7737c6f78e}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Region's Active Sites" displayName="My Region's Active Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{aa2ba086-5ad4-eb11-bacc-000d3af3999c}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="HOTI / HOTI GOA Sites" displayName="HOTI / HOTI GOA Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{aba6669f-1cff-ed11-8f6d-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Air Operator Types" displayName="Active Air Operator Types" parentSchemaName="ovs_airoperatortype" parentDisplayName="Air Operator Type" solution="Active" id="{b07fee2e-98d2-423b-bb64-381ce482cc19}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Open History Logs" displayName="My Open History Logs" parentSchemaName="cid_historylog" parentDisplayName="History Log" solution="Active" id="{be3c4ba9-64eb-4d08-9375-dbdb8cef8d28}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Work Orders" displayName="All Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="Active" id="{c1ecc4f8-c0bf-eb11-bacc-0022483bbb9e}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - Sites" displayName="CID Portal - Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{c8db5060-4a4d-ec11-8f8e-000d3ae9a753}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Selected Accounts Campaigns" displayName="Selected Accounts Campaigns" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_MarketingPatch (9.0.1904.1019)" id="{d15e48f6-e8fe-e811-8165-000d3af92c6e}">
+          <package appName="msdynce_Marketing" version="9.0.24112.10001">msdynce_MarketingAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - Validation - Attested Sites" displayName="CID Portal - Validation - Attested Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{d540e97a-c892-ec11-b3fe-000d3a0c187c}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Work Orders" displayName="Inactive Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{d928c332-8c65-43fc-95b2-5df41d2fa558}">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account N:N Contacts" displayName="Account N:N Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" id="{dc799dc5-4334-ed11-9db1-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Sites with Unknown CID Flag" displayName="CID Sites with Unknown CID Flag" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{e2298c2d-12c1-ee11-9078-0022483cceb8}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="HOTI / HOTI GOA Organizations" displayName="HOTI / HOTI GOA Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{e3847669-10ff-ed11-8f6d-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Sites" displayName="Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{e7ba8bd8-440a-eb11-a813-000d3af3a7a7}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="CID Portal - Portal Created Sites" displayName="CID Portal - Portal Created Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{efe63e51-3040-ed11-bba2-0022483d0343}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Related Support Requests" displayName="Related Support Requests" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{f1961ca2-880f-ee11-8f6e-0022483cbd89}" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Work Orders" displayName="Active Work Orders" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)" id="{fce37246-eba1-4e92-bb9d-f8cb3ec38e3f}">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Organizations" displayName="Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{fdbc939a-2403-eb11-a813-000d3af3ac0d}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Site Population Density" displayName="Site Population Density" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{ff211cb9-117a-ec11-8d20-000d3aff1221}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="CID Company Profile" parentDisplayName="Account" solution="Active" id="{f31699dc-96d1-ee11-904d-0022483cceb8}" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cid_site.js" displayName="cid_site.js" solution="Active" />
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Account/Account.Library.js" displayName="msdyn_/Account/Account.Library.js" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Utils/FieldServiceTrial.js" displayName="msdyn_/Utils/FieldServiceTrial.js" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_Account_TDGSiteProfile.js" displayName="ovs_Account_TDGSiteProfile.js" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_/ViolationHistoryGrid.html" displayName="qm_/ViolationHistoryGrid.html" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_AccountTDG_main.js" displayName="qm_AccountTDG_main.js" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.24112.10005">msdynce_SalesAnchor (9.0.24112.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2411.3023)">
+          <package appName="Base Custom Controls" version="9.0.2411.3023">BaseCustomControlsCore (9.0.2411.3023)</package>
+        </Required>
+        <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2411.3023)">
+          <package appName="Base Custom Controls" version="9.0.2411.3023">BaseCustomControlsCore (9.0.2411.3023)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
