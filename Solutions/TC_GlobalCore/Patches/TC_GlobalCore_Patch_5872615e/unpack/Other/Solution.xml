@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24113.188" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24113.188" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24113.00188">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_5872615e</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.167.23.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="territory" behavior="1" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="territory" displayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="1" schemaName="territory" displayName="Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_BillingAccount" displayName="msdyn_account_msdyn_agreement_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_agreement_ServiceAccount" displayName="msdyn_account_msdyn_agreement_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_payment_Account" displayName="msdyn_account_msdyn_payment_Account" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldServiceCommon (1.0.0.882)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_BillingAccount" displayName="msdyn_account_msdyn_rma_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rma_ServiceAccount" displayName="msdyn_account_msdyn_rma_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_rtv_Vendor" displayName="msdyn_account_msdyn_rtv_Vendor" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_account_contact" displayName="ovs_account_contact" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.6)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+          <package appName="msdynce_Service" version="9.0.24112.1002">msdynce_ServiceAnchor (9.0.24112.1002)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_team_territory_regionalnopteam" displayName="ovs_team_territory_regionalnopteam" parentSchemaName="team" parentDisplayName="Team" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_territory_regionalteam_team" displayName="ovs_territory_regionalteam_team" parentSchemaName="team" parentDisplayName="Team" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_territory_msdyn_resourceterritory_Territory" displayName="msdyn_territory_msdyn_resourceterritory_Territory" parentSchemaName="territory" parentDisplayName="Region" solution="MicrosoftDynamicsScheduling (3.12.0.448)">
+          <package appName="msdynce_CoreServiceScheduling" version="9.0.24112.1003">msdynce_CoreServiceSchedulingAnchor (9.0.24112.1003)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_cidcompanystatus" displayName="Organization Status" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_crabusinessnumber" displayName="CRA Business Number" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_nextannualcomplianceupdate" displayName="Next Annual Compliance Update Required On" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_reasonfornobnnumber" displayName="Reason for no CRA Business Number" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_reasonfornobnnumber_other" displayName="Other Reason" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cid_registrationasof" displayName="Registration As Of" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_application" displayName="Source App" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalname" displayName="Legal Name" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_legalnamefr" displayName="Legal Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_naicscode" displayName="NAICS Code" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_namefr" displayName="Operating Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.24114.10003">msdynce_SalesAnchor (9.0.24114.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="managerid" displayName="Manager" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Regions" displayName="All Regions" parentSchemaName="territory" parentDisplayName="Region" id="{00000000-0000-0000-00aa-000010001050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="managerid" displayName="Manager" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="TDG Regions" displayName="TDG Regions" parentSchemaName="territory" parentDisplayName="Region" id="{b6e3caab-ee3b-ec11-8c62-0022483d71b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Territory Name" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Regions" displayName="All Regions" parentSchemaName="territory" parentDisplayName="Region" id="{00000000-0000-0000-00aa-000010001050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Territory Name" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Territory Name" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="TDG Regions" displayName="TDG Regions" parentSchemaName="territory" parentDisplayName="Region" id="{b6e3caab-ee3b-ec11-8c62-0022483d71b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Territory Name" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="Province/Territory to Region" displayName="Province/Territory to Region" parentSchemaName="territory" parentDisplayName="Region" id="{c7493402-8c71-ed11-81ac-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Territory Name" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionalnopteam" displayName="Regional NOP Team" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_regionalteam" displayName="Regional Team" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_tc_region" displayName="TC Regions Distribution" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="26" schemaName="Province/Territory to Region" displayName="Province/Territory to Region" parentSchemaName="territory" parentDisplayName="Region" id="{c7493402-8c71-ed11-81ac-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_tc_region" displayName="TC Regions Distribution" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_territorynameenglish" displayName="Territory Name (English)" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="26" schemaName="TDG Regions" displayName="TDG Regions" parentSchemaName="territory" parentDisplayName="Region" id="{b6e3caab-ee3b-ec11-8c62-0022483d71b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_territorynameenglish" displayName="Territory Name (English)" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="26" schemaName="Province/Territory to Region" displayName="Province/Territory to Region" parentSchemaName="territory" parentDisplayName="Region" id="{c7493402-8c71-ed11-81ac-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_territorynameenglish" displayName="Territory Name (English)" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_territorynamefrench" displayName="Territory Name (French)" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="26" schemaName="TDG Regions" displayName="TDG Regions" parentSchemaName="territory" parentDisplayName="Region" id="{b6e3caab-ee3b-ec11-8c62-0022483d71b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_territorynamefrench" displayName="Territory Name (French)" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="26" schemaName="Province/Territory to Region" displayName="Province/Territory to Region" parentSchemaName="territory" parentDisplayName="Region" id="{c7493402-8c71-ed11-81ac-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_territorynamefrench" displayName="Territory Name (French)" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="parentterritoryid" displayName="Parent" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommonPatch201904 (9.0.24112.10001)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Regions" displayName="All Regions" parentSchemaName="territory" parentDisplayName="Region" id="{00000000-0000-0000-00aa-000010001050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="parentterritoryid" displayName="Parent" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommonPatch201904 (9.0.24112.10001)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Regions" displayName="All Regions" parentSchemaName="territory" parentDisplayName="Region" id="{00000000-0000-0000-00aa-000010001050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="TDG Regions" displayName="TDG Regions" parentSchemaName="territory" parentDisplayName="Region" id="{b6e3caab-ee3b-ec11-8c62-0022483d71b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="Province/Territory to Region" displayName="Province/Territory to Region" parentSchemaName="territory" parentDisplayName="Region" id="{c7493402-8c71-ed11-81ac-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG QA" solution="Active" id="{1b6b3c98-4f33-ec11-b6e6-0022483cc1c9}" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Manager" solution="Active" id="{545418f6-d089-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Manager" solution="Active" id="{545418f6-d089-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Analyst" solution="Active" id="{6ba72790-cf89-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Analyst" solution="Active" id="{6ba72790-cf89-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Planner" solution="Active" id="{a8d3ef08-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Planner" solution="Active" id="{a8d3ef08-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Inspector Mobile" solution="Active" id="{c986520a-bc01-ec11-94f0-0022483c1f45}" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Inspector" solution="Active" id="{de8e34ea-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="TDG Inspector" solution="Active" id="{de8e34ea-d189-eb11-b1ac-000d3ae92dbf}" />
+        <Dependent type="60" displayName="TDG Region" parentDisplayName="Region" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Regions" displayName="All Regions" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)" id="{00000000-0000-0000-00aa-000010001050}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Regions" displayName="All Regions" parentSchemaName="territory" parentDisplayName="Region" id="{00000000-0000-0000-00aa-000010001050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Child Accounts" displayName="Active Child Accounts" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{82cc4863-aa98-eb11-b1ac-000d3ae93a4f}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account N:N Contacts" displayName="Account N:N Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" id="{dc799dc5-4334-ed11-9db1-0022483d0343}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Child Accounts" displayName="All Child Accounts" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{e7292e30-4fd2-ee11-904d-0022483cc3b7}" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Account/Account.Library.js" displayName="msdyn_/Account/Account.Library.js" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Utils/FieldServiceTrial.js" displayName="msdyn_/Utils/FieldServiceTrial.js" solution="FieldService (8.8.0.88)">
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_CompanyComplianceHistoryGrid.html" displayName="ovs_CompanyComplianceHistoryGrid.html" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_AccountTDG_main.js" displayName="qm_AccountTDG_main.js" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2411.3023)">
+          <package appName="Base Custom Controls" version="9.0.2411.3023">BaseCustomControlsCore (9.0.2411.3023)</package>
+        </Required>
+        <Dependent type="60" displayName="Company" parentDisplayName="Account" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001050}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="territories" jump="name" select="1" icon="1" preview="1">
+        <row name="territory" id="territoryid">
+          <cell name="name" width="300" />
+          <cell name="managerid" width="150" />
+          <cell name="ovs_obsolete_ind" width="100" />
+          <cell name="parentterritoryid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <attribute name="managerid" />
+          <attribute name="territoryid" />
+          <order attribute="name" descending="false" />
+          <attribute name="ovs_obsolete_ind" />
+          <attribute name="parentterritoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Regions" languagecode="1033" />
+      <LocalizedName description="Toutes les régions" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ad81b2ca-9789-4465-8c56-94c10830a6ed}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="0" icon="1">
+        <row name="result" id="territoryid">
+          <cell name="name" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="territory">
+          <attribute name="name" />
+          <attribute name="territoryid" />
+          <filter type="and">
+            <filter type="or">
+              <condition attribute="ovs_obsolete_ind" operator="eq" value="0" />
+              <condition attribute="ovs_obsolete_ind" operator="null" />
+            </filter>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Territories Lookup View" languagecode="1033" />
+      <LocalizedName description="Vue Recherche de secteurs de vente" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
