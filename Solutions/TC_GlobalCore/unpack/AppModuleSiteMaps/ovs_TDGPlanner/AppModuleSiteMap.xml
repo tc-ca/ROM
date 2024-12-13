@@ -73,8 +73,8 @@
         </SubArea>
         <SubArea Id="NewSubArea_58698036" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cdregionalnop" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1033" Title="Regional NOPs" />
-            <Title LCID="1036" Title="Les PNS régional" />
+            <Title LCID="1033" Title="Line of Business NOPs" />
+            <Title LCID="1036" Title="PNS du secteur d'activité" />
           </Titles>
         </SubArea>
         <SubArea Id="NewSubArea_f4e521b7" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_mocregistration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
@@ -93,6 +93,7 @@
       <Group Id="NewGroup_5436ed03" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="CRS Services" />
+          <Title LCID="1036" Title="Services SIC" />
         </Titles>
         <SubArea Id="NewSubArea_a479d7cf" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>

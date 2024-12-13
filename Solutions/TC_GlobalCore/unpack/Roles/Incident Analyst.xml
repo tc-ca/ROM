@@ -34,6 +34,7 @@
     <RolePrivilege name="prvAppendovs_incident_injury" level="Local" />
     <RolePrivilege name="prvAppendovs_incident_organization" level="Local" />
     <RolePrivilege name="prvAppendovs_incident_report" level="Local" />
+    <RolePrivilege name="prvAppendovs_IncidentERAP" level="Local" />
     <RolePrivilege name="prvAppendovs_invitation" level="Deep" />
     <RolePrivilege name="prvAppendovs_lob" level="Global" />
     <RolePrivilege name="prvAppendovs_MOC" level="Global" />
@@ -89,6 +90,7 @@
     <RolePrivilege name="prvAppendToovs_incident_injury" level="Local" />
     <RolePrivilege name="prvAppendToovs_incident_organization" level="Local" />
     <RolePrivilege name="prvAppendToovs_incident_report" level="Local" />
+    <RolePrivilege name="prvAppendToovs_IncidentERAP" level="Local" />
     <RolePrivilege name="prvAppendToovs_invitation" level="Deep" />
     <RolePrivilege name="prvAppendToovs_lob" level="Global" />
     <RolePrivilege name="prvAppendToovs_MOC" level="Global" />
@@ -102,6 +104,7 @@
     <RolePrivilege name="prvAppendToovs_registration_contact" level="Global" />
     <RolePrivilege name="prvAppendToovs_SiteType" level="Deep" />
     <RolePrivilege name="prvAppendToProduct" level="Global" />
+    <RolePrivilege name="prvAppendToQueue" level="Global" />
     <RolePrivilege name="prvAppendToRatingModel" level="Basic" />
     <RolePrivilege name="prvAppendToRatingValue" level="Basic" />
     <RolePrivilege name="prvAppendToSettingDefinition" level="Global" />
@@ -162,6 +165,7 @@
     <RolePrivilege name="prvCreateovs_incident_injury" level="Local" />
     <RolePrivilege name="prvCreateovs_incident_organization" level="Local" />
     <RolePrivilege name="prvCreateovs_incident_report" level="Local" />
+    <RolePrivilege name="prvCreateovs_IncidentERAP" level="Local" />
     <RolePrivilege name="prvCreateovs_invitation" level="Deep" />
     <RolePrivilege name="prvCreateovs_MOC" level="Local" />
     <RolePrivilege name="prvCreateovs_MOC_DangerousGood" level="Local" />
@@ -281,6 +285,7 @@
     <RolePrivilege name="prvReadovs_incident_injury" level="Global" />
     <RolePrivilege name="prvReadovs_incident_organization" level="Global" />
     <RolePrivilege name="prvReadovs_incident_report" level="Global" />
+    <RolePrivilege name="prvReadovs_IncidentERAP" level="Global" />
     <RolePrivilege name="prvReadovs_invitation" level="Deep" />
     <RolePrivilege name="prvReadovs_lob" level="Global" />
     <RolePrivilege name="prvReadovs_MOC" level="Global" />
@@ -392,6 +397,7 @@
     <RolePrivilege name="prvWriteovs_incident_injury" level="Local" />
     <RolePrivilege name="prvWriteovs_incident_organization" level="Local" />
     <RolePrivilege name="prvWriteovs_incident_report" level="Local" />
+    <RolePrivilege name="prvWriteovs_IncidentERAP" level="Local" />
     <RolePrivilege name="prvWriteovs_invitation" level="Deep" />
     <RolePrivilege name="prvWriteovs_MOC" level="Local" />
     <RolePrivilege name="prvWriteovs_MOC_DangerousGood" level="Local" />

@@ -1,16 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <WebResourceId>{36a5b3ba-c58b-ef11-8a69-002248ae9ce3}</WebResourceId>
-  <Name>ovs_incident_ribbon.js</Name>
-  <DisplayName>DGAIS Incident ribbon js</DisplayName>
+  <WebResourceId>{6eae9d8a-53b2-ef11-a72f-002248b1a28a}</WebResourceId>
+  <Name>ovs_IncidentERAP.js</Name>
+  <DisplayName>DGAIS Incident ERAP js</DisplayName>
   <LanguageCode>0</LanguageCode>
   <WebResourceType>3</WebResourceType>
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
   <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
-  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
   <IsCustomizable>1</IsCustomizable>
   <CanBeDeleted>1</CanBeDeleted>
   <IsHidden>0</IsHidden>
-  <FileName>/WebResources/ovs_incident_ribbonjs36A5B3BA-C58B-EF11-8A69-002248AE9CE3</FileName>
+  <FileName>/WebResources/ovs_IncidentERAPjs6EAE9D8A-53B2-EF11-A72F-002248B1A28A</FileName>
 </WebResource>

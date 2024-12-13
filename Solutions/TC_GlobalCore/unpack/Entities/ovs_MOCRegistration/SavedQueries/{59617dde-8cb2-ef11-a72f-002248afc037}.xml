@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{59617dde-8cb2-ef11-a72f-002248afc037}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_mocregistrationid">
+          <cell name="cid_modeoftransportationmarine" width="100" />
+          <cell name="cid_modeoftransportationroad" width="100" />
+          <cell name="cid_modeoftransportationrail" width="100" />
+          <cell name="cid_modeoftransportationair" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ovs_mocregistration">
+          <attribute name="ovs_mocregistrationid" />
+          <attribute name="cid_modeoftransportationair" />
+          <attribute name="cid_modeoftransportationmarine" />
+          <attribute name="cid_modeoftransportationroad" />
+          <attribute name="cid_modeoftransportationrail" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Modes of Transport" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays the modes of transport in a read only state." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

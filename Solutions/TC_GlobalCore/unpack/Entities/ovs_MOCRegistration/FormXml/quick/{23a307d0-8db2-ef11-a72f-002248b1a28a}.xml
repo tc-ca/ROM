@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{23a307d0-8db2-ef11-a72f-002248b1a28a}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{103c865d-7c67-431a-9fad-95072aef0ab7}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{072a251b-6ea7-4db4-8a40-a0b4ea29dc22}">
+                  <labels>
+                    <label description="Modes of Transport" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b76ff893-9e3f-4eb9-93c1-f14289b8bc29}" locklevel="0" colspan="1" rowspan="1" labelid="{227e7c77-5d93-4d5e-8716-5ba7be702288}">
+                        <labels>
+                          <label description="Marine" languagecode="1033" />
+                          <label description="Transport Maritime" languagecode="1036" />
+                        </labels>
+                        <control id="cid_modeoftransportationmarine" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_modeoftransportationmarine" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff1d2831-b7ff-44b3-8804-28d1da8b9eaf}" locklevel="0" colspan="1" rowspan="1" labelid="{6bd5e87c-7584-473f-8c02-5c7236b1234d}">
+                        <labels>
+                          <label description="Road" languagecode="1033" />
+                          <label description="Transport Routier" languagecode="1036" />
+                        </labels>
+                        <control id="cid_modeoftransportationroad" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_modeoftransportationroad" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{203d8647-fa28-4e12-b95a-b2d988831c55}" locklevel="0" colspan="1" rowspan="1" labelid="{f8753463-3e4e-48ca-9312-59a8538f385a}">
+                        <labels>
+                          <label description="Rail" languagecode="1033" />
+                          <label description="Transport Ferroviaire" languagecode="1036" />
+                        </labels>
+                        <control id="cid_modeoftransportationrail" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_modeoftransportationrail" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c8f07bc-a445-4a59-a7ba-0696b4b5240e}" locklevel="0" colspan="1" rowspan="1" labelid="{f8799c66-fcc5-40df-b8f6-65add60372a0}">
+                        <labels>
+                          <label description="Air" languagecode="1033" />
+                          <label description="Transport Aérien" languagecode="1036" />
+                        </labels>
+                        <control id="cid_modeoftransportationair" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cid_modeoftransportationair" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="5" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{e90ba2b5-9fad-4c6b-8652-21eac42a206b}" />
+        <Role Id="{7c7f13f2-7326-49cc-b6f3-5e0e02c8ea21}" />
+        <Role Id="{0027534f-a13c-4545-8c9c-762c77c766e7}" />
+        <Role Id="{ca2bfa94-9106-4895-8597-772c87e06a60}" />
+        <Role Id="{9987184c-b38f-4abb-b80d-7ce5ae5f00fd}" />
+        <Role Id="{a8803b62-5fb9-4917-b1b4-8030ec2aee5c}" />
+        <Role Id="{187ba5b8-3461-4a69-ace6-8698520013ef}" />
+        <Role Id="{23c7becf-9eea-4e38-a313-8b82d1139aa2}" />
+        <Role Id="{b0a7f14c-6015-4c66-b246-9bc6163071bf}" />
+        <Role Id="{4e56f67c-cdfc-4caa-a053-a606ac80419b}" />
+        <Role Id="{7b20cb4c-a59f-43bd-92ea-be907322d4b7}" />
+        <Role Id="{93642fd5-c88e-4f57-b796-de105c687a36}" />
+        <Role Id="{c18e8aee-8935-4643-bf15-f73272f9a8fe}" />
+        <Role Id="{06a0eaa6-e1ee-4e95-b31b-f88a32b8f873}" />
+        <Role Id="{4a223677-ab8d-4d7f-82a3-f899f36aea58}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Modes of Transport" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays the modes of transport in a read only state" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

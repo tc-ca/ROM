@@ -102,7 +102,8 @@
         </tab>
         <tab name="tab_2" id="{e5436259-bc24-9358-795b-c08c059237e3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
-            <label description="Regional NOPs" languagecode="1033" />
+            <label description="Line of Business NOPs" languagecode="1033" />
+            <label description="PNS du secteur d'activité" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -115,8 +116,8 @@
                     <row>
                       <cell id="{a548a090-40c1-6339-3841-8098b3a934a5}" showlabel="true" colspan="1" auto="false" rowspan="13">
                         <labels>
-                          <label description="Regional NOPs (NOP)" languagecode="1033" />
-                          <label description="Regional NOPs" languagecode="1036" />
+                          <label description="Line of Business NOPs (NOP)" languagecode="1033" />
+                          <label description="PNS du secteur d'activité" languagecode="1036" />
                         </labels>
                         <control id="grdRegionalNOP" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9aac4d5c-61d3-b325-a4c0-2081ad9a2c12}">
                           <parameters>
@@ -282,7 +283,7 @@
                       <cell locklevel="0" id="{b7b2b82d-4184-419c-ac49-4b0ab9925bfb}" rowspan="1" colspan="1">
                         <labels>
                           <label description="Exclude violation of type" languagecode="1033" />
-                          <label description="Regional NOPs" languagecode="1036" />
+                          <label description="Line of Business NOPs" languagecode="1036" />
                         </labels>
                         <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
                           <parameters>
@@ -300,7 +301,7 @@
                       <cell locklevel="0" id="{edbdf188-087c-4a74-831a-26f47db657c9}" rowspan="1" colspan="1">
                         <labels>
                           <label description="Exclude inspections of type" languagecode="1033" />
-                          <label description="Regional NOPs" languagecode="1036" />
+                          <label description="Line of Business NOPs" languagecode="1036" />
                         </labels>
                         <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
                           <parameters>
@@ -378,30 +379,7 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
-      <controlDescriptions>
-        <controlDescription forControl="{9206185e-ca0c-463b-a8e1-3e59641d8d79}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>ovs_cepsampling_runcepselection</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_cepsampling_runcepselection</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_cepsampling_runcepselection</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_cepsampling_runcepselection</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-      </controlDescriptions>
+      <controlDescriptions />
       <formLibraries>
         <Library name="qm_globalHelper.js" libraryUniqueId="{7469db3d-70d2-24de-ceb0-b77b79dde552}" />
         <Library name="ovs_NOPMainForm" libraryUniqueId="{85e6b1b8-9421-d2ac-5815-e3058c50990b}" />
@@ -447,9 +425,11 @@
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />
+      <Description description="A form for this entity." languagecode="1036" />
     </Descriptions>
   </systemform>
 </forms>

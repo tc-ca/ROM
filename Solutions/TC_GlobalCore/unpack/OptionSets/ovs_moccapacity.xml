@@ -14,7 +14,7 @@
   <options>
     <option value="1" ExternalValue="">
       <labels>
-        <label description="Package - Small Container(Less than 450 litres/Kilograms)" languagecode="1033" />
+        <label description="Package - Small Container (Less or equal to 449 litres/Kilograms)" languagecode="1033" />
         <label description="Paqet - Petit conteneur (Moins de 450 litres / kilogrammes)" languagecode="1036" />
       </labels>
       <Descriptions>
@@ -23,8 +23,8 @@
     </option>
     <option value="2" ExternalValue="">
       <labels>
-        <label description="Bulk - Large Container(More than 450 litres/Kilograms)" languagecode="1033" />
-        <label description="Vrac - Grand récipent (plus que 450 litres / kilogrammes" languagecode="1036" />
+        <label description="Bulk - Large Container (Equal to or more than 450 litres/Kilograms)" languagecode="1033" />
+        <label description="Vrac - Grand récipent (plus que 450 litres / kilogrammes)" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

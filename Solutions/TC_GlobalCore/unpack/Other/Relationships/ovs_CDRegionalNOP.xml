@@ -201,7 +201,7 @@
     <ReferencingAttributeName>ovs_regionalnop</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="Which regional NOP is this Work Order candidate for" languagecode="1033" />
+        <Description description="Which line of business NOP is this Work Order candidate for" languagecode="1033" />
         <Description description="" languagecode="1036" />
       </Descriptions>
     </RelationshipDescription>

@@ -55,12 +55,11 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{52b2f22d-b3bf-45ed-8964-f41d8a2e8261}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{c9e74404-915c-474b-a338-b8b00081b4cc}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Number of packages that​ sustained a release" languagecode="1033" />
-                          <label description="Nombre d'emballages ayant subi un rejet" languagecode="1036" />
+                          <label description="Package Type" languagecode="1033" />
                         </labels>
-                        <control id="ovs_packages_released_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_packages_released_num" disabled="false" />
+                        <control id="ovs_package_type_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_package_type_cd" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -77,6 +76,13 @@
                           <label description="Localisation du rejet" languagecode="1036" />
                         </labels>
                         <control id="ovs_release_location_mcd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_release_location_mcd" disabled="false" />
+                      </cell>
+                      <cell id="{52b2f22d-b3bf-45ed-8964-f41d8a2e8261}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Number of packages that​ sustained a release" languagecode="1033" />
+                          <label description="Nombre d'emballages ayant subi un rejet" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_packages_released_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_packages_released_num" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -328,7 +334,7 @@
             <cell id="{14851455-9679-4c3e-aa3b-f60abf3a84f6}" locklevel="0" colspan="1" rowspan="1">
               <labels>
                 <label description="Incident Report" languagecode="1033" />
-                <label description="Incident Report" languagecode="1036" />
+                <label description="Rapport d’incident" languagecode="1036" />
               </labels>
               <control id="header_ovs_incident_report_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_incident_report_id" disabled="true" />
             </cell>

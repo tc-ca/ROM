@@ -116,8 +116,8 @@
     </LocLabel>
     <LocLabel Id="ovs.ovs_cdregionalnop.Button.GenerateWO.ToolTipTitle">
       <Titles>
-        <Title description="Generate the Work Orders based on the Regional NOP" languagecode="1033" />
-        <Title description="Générez les ordres de travail en fonction du PNS régional" languagecode="1036" />
+        <Title description="Generate the Work Orders based on the Line of Business NOP" languagecode="1033" />
+        <Title description="Générez les ordres de travail en fonction du PNS secteur d'activité" languagecode="1036" />
       </Titles>
     </LocLabel>
   </LocLabels>

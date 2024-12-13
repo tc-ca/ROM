@@ -1203,11 +1203,11 @@
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
-            <displayname description="Regional NOP" languagecode="1033" />
-            <displayname description="PNS régional" languagecode="1036" />
+            <displayname description="Line of Business NOP" languagecode="1033" />
+            <displayname description="PNS du secteur d'activité" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Which regional NOP is this Work Order candidate for" languagecode="1033" />
+            <Description description="Which line of business NOP is this Work Order candidate for" languagecode="1033" />
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>

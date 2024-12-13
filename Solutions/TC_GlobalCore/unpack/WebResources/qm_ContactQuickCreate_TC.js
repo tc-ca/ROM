@@ -1,5 +1,4 @@
 ﻿///<reference path="../../Utilities/GlobalHelper.js"/>
-///<reference path="../../Utilities/questionnaireFunctions.js"/>
 
 var Contact_QC_TC= (function (window, document) {
 
@@ -10,6 +9,8 @@ var Contact_QC_TC= (function (window, document) {
             
             var formContext = executionContext.getFormContext();
 
+            var langId = Xrm.Utility.getGlobalContext().userSettings.languageId;
+         
             // Set Account as Required field.
             glHelper.SetRequiredLevel(formContext, "firstname", true);
             glHelper.SetRequiredLevel(formContext, "lastname", true);
@@ -19,7 +20,16 @@ var Contact_QC_TC= (function (window, document) {
             glHelper.SetRequiredLevel(formContext, "jobtitle", true);
             glHelper.SetRequiredLevel(formContext, "telephone1", true);
             glHelper.SetRequiredLevel(formContext, "parentcustomerid", true);
-            
+
+            /// PBI# 344522: Set Fields Mandatory on the Quick Create Contact Form for CRS app
+
+            var globalContext = Xrm.Utility.getGlobalContext();
+            globalContext.getCurrentAppName().then(function (appName) {
+                var isCRS = (langId == 1033 && appName.indexOf("CRS") != -1) || (langId == 1036 && appName.indexOf("SIC") != -1) ;
+                    if (formContext.getAttribute("emailaddress1") != null) glHelper.SetRequiredLevel(formContext, "emailaddress1", isCRS);
+                    if (formContext.getAttribute("mobilephone") != null) glHelper.SetRequiredLevel(formContext, "mobilephone", isCRS);
+            });
+
             if (window.top.QuickCreateHelper != null && window.top.QuickCreateHelper != undefined
                 && window.top.QuickCreateHelper.site != null && window.top.QuickCreateHelper != undefined) {
 

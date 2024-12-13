@@ -90,9 +90,9 @@
         <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Command="Mscrm.DeletePrimaryRecord" Id="ovs.account.Button33.Button.Mscrm.Form.account.Delete" Image32by32="/_imgs/Workplace/remove_32.png" Image16by16="/_imgs/ribbon/delete16.png" LabelText="$Resources:Ribbon.HomepageGrid.MainTab.Management.Delete" Sequence="67" TemplateAlias="o1" ToolTipTitle="$Resources:Mscrm_Form_Other_MainTab_Management_Delete_ToolTipTitle" ToolTipDescription="$Resources(EntityPluralDisplayName):Ribbon.Tooltip.Delete" ModernImage="Remove" />
       </CommandUIDefinition>
     </CustomAction>
-    <CustomAction Id="ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.CustomAction" Location="Mscrm.SubGrid.account.MainTab.Management.Controls._children" Sequence="0">
+    <CustomAction Id="ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.CustomAction" Location="Mscrm.SubGrid.account.MainTab.Management.Controls._children" Sequence="1">
       <CommandUIDefinition>
-        <Button Alt="$Resources(EntityDisplayName):Ribbon.SubGrid.AddNew" Command="Mscrm.AddNewRecordFromSubGridStandard" Id="ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.LabelText" Sequence="0" TemplateAlias="o1" ToolTipTitle="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipDescription" ModernImage="New" />
+        <Button Alt="$Resources(EntityDisplayName):Ribbon.SubGrid.AddNew" Command="Mscrm.AddNewRecordFromSubGridStandard" Id="ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard.LabelText" Sequence="1" TemplateAlias="o1" ToolTipTitle="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Mscrm_SubGrid_EntityLogicalName_MainTab_Management_AddNewStandard_ToolTipDescription" ModernImage="New" />
       </CommandUIDefinition>
     </CustomAction>
     <CustomAction Id="ovs.account.Button37.Button.Form.account.CustomDeactivate.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="50">
@@ -143,6 +143,11 @@
     </CustomAction>
     <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.account.AddNewStandard.Hide" Location="Mscrm.SubGrid.account.AddNewStandard" />
     <HideCustomAction HideActionId="ovs.Mscrm.SubGrid.account.Deactivate.Hide" Location="Mscrm.SubGrid.account.Deactivate" />
+    <CustomAction Id="ovs.Mscrm.SubGrid.account.NewRecord.CustomAction" Location="Mscrm.SubGrid.account.MainTab.Management.Controls._children" Sequence="0">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.SubGrid.account.NewRecord.Alt" Command="Mscrm.NewRecordFromGrid" Id="Mscrm.SubGrid.account.NewRecord" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/New_16.png" LabelText="$LocLabels:Mscrm.SubGrid.account.NewRecord.LabelText" Sequence="0" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.account.NewRecord.ToolTipTitle" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
   </CustomActions>
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
@@ -201,6 +206,25 @@
           <CrmParameter Value="SelectedControl" />
           <CrmParameter Value="SelectedControlSelectedItemReferences" />
           <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.account.Button39.Button.ovs.account.Button35.Button.Mscrm.SubGrid.account.AddNewStandard">
+      <EnableRules>
+        <EnableRule Id="Mscrm.AppendToPrimary" />
+        <EnableRule Id="Mscrm.EntityFormIsEnabled" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="ovs.account.DisplayRule0.HideAddNewSubGridStandardWhenOnAccount" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Open.addNewFromSubGridStandard" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="PrimaryControl" />
+          <CrmParameter Value="SelectedControl" />
         </JavaScriptFunction>
       </Actions>
     </CommandDefinition>
@@ -526,6 +550,21 @@
       <Titles>
         <Title description="Add Existing Site" languagecode="1033" />
         <Title description="Ajouter un site existant" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.account.NewRecord.Alt">
+      <Titles>
+        <Title description="Add New {0}" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.account.NewRecord.LabelText">
+      <Titles>
+        <Title description="New {0}" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.account.NewRecord.ToolTipTitle">
+      <Titles>
+        <Title description="Add New {0}" languagecode="1033" />
       </Titles>
     </LocLabel>
     <LocLabel Id="ovs.account.Button2.Button.Mscrm.HomepageGrid.account.RefreshModernButton.LabelText">

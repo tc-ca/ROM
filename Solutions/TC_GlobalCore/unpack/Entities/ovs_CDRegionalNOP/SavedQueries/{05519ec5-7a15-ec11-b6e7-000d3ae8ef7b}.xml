@@ -21,10 +21,10 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My Regional NOPs" languagecode="1033" />
+      <LocalizedName description="My Line of Business NOPs" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Active Regional NOPs owned by me" languagecode="1033" />
+      <Description description="Active Line of Business NOPs owned by me" languagecode="1033" />
     </Descriptions>
   </savedquery>
 </savedqueries>

@@ -61,7 +61,12 @@
             <Title LCID="1036" Title="Rapports d'incidents" />
           </Titles>
         </SubArea>
-        <SubArea Id="SubArea_MOCDG" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_moc_dangerousgood" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="SubArea_MOCDG" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_moc_dangerousgood" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="MOC Dangerous Goods" />
+            <Title LCID="1036" Title="Contenants de marchandises dangereuses" />
+          </Titles>
+        </SubArea>
       </Group>
     </Area>
   </SiteMap>

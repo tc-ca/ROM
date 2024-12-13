@@ -545,7 +545,7 @@
                 <section name="Site_Profile" id="5562890b-eeaa-439c-814f-760c1d9b8ee9" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1111" labelwidth="283" height="auto">
                   <labels>
                     <label description="SITE PROFILE" languagecode="1033" />
-                    <label description="Profile du site" languagecode="1036" />
+                    <label description="Profil du site" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -746,7 +746,45 @@
                     <row />
                   </rows>
                 </section>
-                <section name="AVIATION_PROFILE" showlabel="false" showbar="false" locklevel="0" id="{c4b0e5eb-d699-818b-978e-bb3ec14d763e}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="tab_Operations_section_aviation" id="0581845d-5ba9-432d-a1b5-526ad6c7fd37" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" availableforphone="false">
+                  <labels>
+                    <label description="Aviation Profile" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{78a55f0d-6dd9-4afd-9165-59ea99c95b9d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Aircraft Type" languagecode="1033" />
+                          <label description="Types d'aéronefs" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_aircraft_type_cd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_aircraft_type_cd" disabled="false" />
+                      </cell>
+                      <cell id="{a759b14e-9d1f-4f49-b631-106a227dcd27}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Air Operator Type" languagecode="1033" />
+                          <label description="Type d'exploitant aériens" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_air_operator_type_cd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_air_operator_type_cd" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85c2080b-52ad-433c-a20c-f12e5f319996}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Air Operator Tasks" languagecode="1033" />
+                          <label description="Tâches de l'exploitant aérien" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_air_operator_tasks_cd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_air_operator_tasks_cd" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{5077a0e0-9b32-49b0-95c3-9f3be8dd9705}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="AVIATION_PROFILE" showlabel="false" showbar="false" locklevel="0" id="{c4b0e5eb-d699-818b-978e-bb3ec14d763e}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" availableforphone="false" visible="false">
                   <labels>
                     <label description="AVIATION PROFILE" languagecode="1033" />
                   </labels>

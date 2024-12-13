@@ -161,7 +161,7 @@
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Air" languagecode="1033" />
-              <displayname description="Air" languagecode="1036" />
+              <displayname description="Aérien" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -227,7 +227,7 @@
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Marine" languagecode="1033" />
-              <displayname description="Marin" languagecode="1036" />
+              <displayname description="Maritime" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -293,7 +293,7 @@
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Rail" languagecode="1033" />
-              <displayname description="Rail" languagecode="1036" />
+              <displayname description="Ferroviaire" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -2447,11 +2447,11 @@
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
-            <displayname description="Line Of Business" languagecode="1033" />
+            <displayname description="Line of Business" languagecode="1033" />
             <displayname description="Secteur d’activité" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Line Of Business for this operation." languagecode="1033" />
+            <Description description="Line of Business" languagecode="1033" />
             <Description description="Division pour cette opération." languagecode="1036" />
           </Descriptions>
         </attribute>

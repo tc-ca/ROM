@@ -24,12 +24,13 @@
         var clientUrl = globalContext.getClientUrl();
         var formContext;
         var Xrm;
-        var LCID = 1033;
 
 
         function getAddress(siteID) {
 
-            Xrm.WebApi.online.retrieveRecord("account", siteID, "?$select=address1_city,address1_country,address1_latitude,address1_line1,address1_line2,address1_line3,address1_longitude,address1_postalcode,address1_stateorprovince,ovs_address_type,ovs_lld_quarter,ovs_lld_range,ovs_lld_meridian,ovs_lld_section,ovs_lld_township,_territoryid_value").then(
+            //removed the region
+            //,_territoryid_value
+            Xrm.WebApi.online.retrieveRecord("account", siteID, "?$select=address1_city,address1_country,address1_latitude,address1_line1,address1_line2,address1_line3,address1_longitude,address1_postalcode,address1_stateorprovince,ovs_address_type,ovs_lld_quarter,ovs_lld_range,ovs_lld_meridian,ovs_lld_section,ovs_lld_township").then(
                 function success(result) {
 
                     ////ovs_address_type_cd
@@ -59,11 +60,11 @@
                     var address1_stateorprovince = result["address1_stateorprovince"];
                     glHelper.SetValue(formContext, "ovs_state_province_txt", address1_stateorprovince);
 
-                    //ovs_region_id 
-                    var _territoryid_value = result["_territoryid_value"];
-                    var _territoryid_value_formatted = result["_territoryid_value@OData.Community.Display.V1.FormattedValue"];
-                    var _territoryid_value_lookuplogicalname = result["_territoryid_value@Microsoft.Dynamics.CRM.lookuplogicalname"];
-                    glHelper.SetLookup(formContext, "ovs_region_id", _territoryid_value_lookuplogicalname, _territoryid_value, _territoryid_value_formatted)
+                    ////ovs_region_id 
+                    //var _territoryid_value = result["_territoryid_value"];
+                    //var _territoryid_value_formatted = result["_territoryid_value@OData.Community.Display.V1.FormattedValue"];
+                    //var _territoryid_value_lookuplogicalname = result["_territoryid_value@Microsoft.Dynamics.CRM.lookuplogicalname"];
+                    //glHelper.SetLookup(formContext, "ovs_region_id", _territoryid_value_lookuplogicalname, _territoryid_value, _territoryid_value_formatted)
 
                     //ovs_latitude_nbr
                     var address1_latitude = result["address1_latitude"];
@@ -110,8 +111,23 @@
 
         function copyAddress(siteID) {
 
+            var userSettings = globalContext.userSettings;
+            LCID = userSettings.languageId;
+
+            if (LCID == 1033)
+                resexResourceName = "ovs_Labels.1033.resx";
+            else if (LCID == 1036)
+                resexResourceName = "ovs_Labels.1036.resx";
+
+
+            var cancelMessage = Xrm.Utility.getResourceString(resexResourceName, "CopyAddress.Cancel");
+            var continueMessage = Xrm.Utility.getResourceString(resexResourceName, "CopyAddress.Continue");
+            var promptMessage = Xrm.Utility.getResourceString(resexResourceName, "CopyAddress.Prompt");
+            var titleMessage = Xrm.Utility.getResourceString(resexResourceName, "Confirmation Message");
+
+
             var confirmed = false;
-            var confirmStrings = { text: "The existing address will be overriden. Continue with copy?", title: "Confirmation Dialog", cancelButtonLabel: "Cancel", confirmButtonLabel: "Copy", subtitle: "FR:Confirmation Dialog" };
+            var confirmStrings = { text: promptMessage, title: titleMessage, cancelButtonLabel: cancelMessage, confirmButtonLabel: continueMessage };
             var confirmOptions = { height: 200, width: 450 };
             Xrm.Navigation.openConfirmDialog(confirmStrings, confirmOptions).then(function (success) {
 

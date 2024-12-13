@@ -27,11 +27,6 @@
                         </labels>
                         <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" uniqueid="{5c9687b7-a08c-620c-8baa-0843c098be05}" disabled="true" />
                       </cell>
-                      <cell id="{8c9106c2-163e-4d81-a616-2d1b9e1fa84e}" labelid="{a06460e8-f585-41b8-bad8-b7c2b02d049c}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
                     </row>
                     <row>
                       <cell id="{a8a66d95-a6e2-4646-b486-5681876d427b}" locklevel="0" labelid="{318770a3-46c8-4a56-a7e9-1f7dc9a04cf0}">
@@ -110,6 +105,20 @@
                         <control id="ovs_tc_region" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_tc_region" disabled="false" />
                       </cell>
                       <cell locklevel="0" id="{8fcef86e-8704-42b0-af83-bef6bbd2bd09}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dccb354f-b81f-4229-a9aa-e6a91146bc7d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Obsolete" languagecode="1033" />
+                          <label description="Obsolète" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_obsolete_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_obsolete_ind" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{65a381af-cb47-42f8-91fb-aa696ed1dcf1}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

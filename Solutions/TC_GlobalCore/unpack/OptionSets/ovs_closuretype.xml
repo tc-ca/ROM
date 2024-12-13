@@ -22,7 +22,7 @@
     </option>
     <option value="2" ExternalValue="">
       <labels>
-        <label description="Air(Cargo) Terminal" languagecode="1033" />
+        <label description="Air (Cargo) Facility" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -30,7 +30,7 @@
     </option>
     <option value="3" ExternalValue="">
       <labels>
-        <label description="Road Terminal" languagecode="1033" />
+        <label description="Road Facility" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -38,7 +38,7 @@
     </option>
     <option value="4" ExternalValue="">
       <labels>
-        <label description="Rail Terminal" languagecode="1033" />
+        <label description="Rail Facility" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -46,7 +46,7 @@
     </option>
     <option value="5" ExternalValue="">
       <labels>
-        <label description="Marine Terminal" languagecode="1033" />
+        <label description="Marine Facility" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

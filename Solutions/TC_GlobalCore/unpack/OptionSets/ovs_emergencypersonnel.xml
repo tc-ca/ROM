@@ -186,8 +186,17 @@
     </option>
     <option value="21" ExternalValue="">
       <labels>
-        <label description="Emergency Response Personnel or Other Environment Services" languagecode="1033" />
+        <label description="Other Emergency Response Personnel or Other Environment Services" languagecode="1033" />
         <label description="Personnel d'intervention d'urgence ou autres services environnementaux" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="22">
+      <labels>
+        <label description="TDG Inspectors" languagecode="1033" />
+        <label description="Inspecteurs TMD" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

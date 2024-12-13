@@ -73,7 +73,7 @@
         </SubArea>
         <SubArea Id="NewSubArea_7b6b8c9e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_cdregionalnop" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1036" Title="Les PNS régional" />
+            <Title LCID="1036" Title="PNS du secteur d'activité" />
           </Titles>
         </SubArea>
         <SubArea Id="NewSubArea_ed1f6489" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_mocregistration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
@@ -126,6 +126,7 @@
       <Group Id="NewGroup_68e9d4fa" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="CRS Services" />
+          <Title LCID="1036" Title="Services SIC" />
         </Titles>
         <SubArea Id="NewSubArea_3b69ad57" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_registration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>

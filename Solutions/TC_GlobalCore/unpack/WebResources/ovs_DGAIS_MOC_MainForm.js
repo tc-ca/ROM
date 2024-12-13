@@ -109,9 +109,9 @@ var DGAIS_MOC_MainForm = (function (window, document) {
             vType.removeOnChange(DGAIS_MOC_MainForm.VehicleType_OnChange);
             vType.addOnChange(DGAIS_MOC_MainForm.VehicleType_OnChange);
 
-            var isCanadianMOC = formContext.getAttribute("ovs_moc_built_in_canada_ind");
-            isCanadianMOC.removeOnChange(DGAIS_MOC_MainForm.WasCanMOC_OnChange);
-            isCanadianMOC.addOnChange(DGAIS_MOC_MainForm.WasCanMOC_OnChange);
+            //var isCanadianMOC = formContext.getAttribute("ovs_moc_built_in_canada_ind");
+            //isCanadianMOC.removeOnChange(DGAIS_MOC_MainForm.WasCanMOC_OnChange);
+            //isCanadianMOC.addOnChange(DGAIS_MOC_MainForm.WasCanMOC_OnChange);
 
 
             
@@ -125,7 +125,7 @@ var DGAIS_MOC_MainForm = (function (window, document) {
                 damageType.fireOnChange();
                 damageLocation.fireOnChange();
                 vType.fireOnChange();
-                isCanadianMOC.fireOnChange();
+                //isCanadianMOC.fireOnChange();
             }
         },
 
@@ -173,14 +173,21 @@ var DGAIS_MOC_MainForm = (function (window, document) {
             var isDamage = formContext.getAttribute("ovs_damage_ind").getValue();
 
             if (!isDamage) {
+
                 formContext.getAttribute("ovs_damage_type_cds").setValue(null);
                 formContext.getAttribute("ovs_damage_location_cds").setValue(null);
             }
-            glHelper.SetDisabled(formContext, "ovs_damage_type_cds", !isDamage);
-            glHelper.SetRequiredLevel(formContext, "ovs_damage_type_cds", isDamage);
-            glHelper.SetDisabled(formContext, "ovs_damage_location_cds", !isDamage);
-            glHelper.SetRequiredLevel(formContext, "ovs_damage_location_cds", isDamage);
 
+            DGAIS_MOC_MainForm.DamageLocation_OnChange(executionContext);
+            DGAIS_MOC_MainForm.DamageType_OnChange(executionContext);
+
+            glHelper.SetControlVisibility(formContext, "ovs_damage_type_cds", isDamage);
+            glHelper.SetControlVisibility(formContext, "ovs_damage_location_cds", isDamage);
+
+            //glHelper.SetDisabled(formContext, "ovs_damage_type_cds", !isDamage);
+            glHelper.SetRequiredLevel(formContext, "ovs_damage_type_cds", isDamage);
+            //glHelper.SetDisabled(formContext, "ovs_damage_location_cds", !isDamage);
+            glHelper.SetRequiredLevel(formContext, "ovs_damage_location_cds", isDamage);
         },
 
         VehicleType_OnChange: function (executionContext) {
@@ -196,6 +203,7 @@ var DGAIS_MOC_MainForm = (function (window, document) {
             }
         },
 
+        //not in use
         WasCanMOC_OnChange: function (executionContext) {
 
             var formContext = executionContext.getFormContext();
@@ -206,30 +214,20 @@ var DGAIS_MOC_MainForm = (function (window, document) {
 
                 glHelper.SetDisabled(formContext, "ovs_specification_id", true);
                 glHelper.SetDisabled(formContext, "ovs_other_code_txt", true);
-                glHelper.SetDisabled(formContext, "ovs_moc_form_cd", true);
                 return;
             }
             //update
             glHelper.SetRequiredLevel(formContext, "ovs_specification_id", isCanadian);
             glHelper.SetRequiredLevel(formContext, "ovs_other_code_txt", !isCanadian);
-            glHelper.SetRequiredLevel(formContext, "ovs_moc_form_cd", !isCanadian);
             glHelper.SetDisabled(formContext, "ovs_specification_id", false);
             glHelper.SetDisabled(formContext, "ovs_other_code_txt", isCanadian);
-            glHelper.SetDisabled(formContext, "ovs_moc_form_cd", isCanadian);
-            //glHelper.SetControlVisibility(formContext, "ovs_other_code_txt", !isCanadian);
-            //glHelper.SetControlVisibility(formContext, "ovs_moc_form_cd", !isCanadian);
+
             if (isCanadian) {
 
                 glHelper.SetValue(formContext, "ovs_other_code_txt", null);
-                //glHelper.SetValue(formContext, "ovs_moc_form_cd", null);
                 var specs = formContext.getAttribute("ovs_specification_id");
                 specs.fireOnChange();
             }
-            else {
-                var MOC_list = formContext.getAttribute("ovs_moc_form_cd");
-                MOC_list.fireOnChange();
-            }
-
         },
 
     };

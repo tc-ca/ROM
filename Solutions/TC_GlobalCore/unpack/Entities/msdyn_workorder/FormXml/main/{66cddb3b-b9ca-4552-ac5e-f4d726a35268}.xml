@@ -668,6 +668,71 @@
                     </row>
                   </rows>
                 </section>
+                <section name="tab_summary_section_modes" id="6e5e4ab0-337b-4ef3-a5e4-d1803b8581a9" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115" visible="false" availableforphone="false">
+                  <labels>
+                    <label description="Modes Inspected" languagecode="1033" />
+                    <label description="Les modes inspectés" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{86a35a65-e1c3-450d-a6ff-ade55e09a9b8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Road" languagecode="1033" />
+                          <label description="Route" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_road_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_road_cd" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{0639b721-2dcf-4e25-b359-2b052113620c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a6c82c5-9f07-4bda-a60b-9e8074f2eb77}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Air" languagecode="1033" />
+                          <label description="Aérien" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_air_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_air_cd" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e19b2d1e-a7b1-4d62-89af-58170d341edf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7bdb0f68-055f-4543-afb3-6686a85c7213}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Rail" languagecode="1033" />
+                          <label description="Ferroviaire" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_rail_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_rail_cd" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{574448c7-1f49-47f6-b6af-ec62050f2548}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fabe2f7b-1cb9-4658-951e-e7867d30a22e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Marine" languagecode="1033" />
+                          <label description="Maritime" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_marine_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_marine_cd" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{95b5f6cd-ae7b-45e4-80c8-218298aaaf0b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section id="{e7a0ac80-237c-8b8c-1dcc-5317840db618}" name="{b8e326ee-5c21-4a18-ba55-e3b56966c249}_section_2" labelid="{fb15fa8a-709f-4678-9006-fc21ef23121e}" showlabel="false" locklevel="0" IsUserDefined="0" celllabelposition="Top" celllabelalignment="Left" labelwidth="115" columns="1" showbar="false" layout="varwidth">
                   <labels>
                     <label description="Social Pane" languagecode="1033" />

@@ -256,6 +256,51 @@
             </column>
             <column width="36%">
               <sections>
+                <section name="CID_Company_Profile1" id="5b152b8a-deb7-4b9f-a776-9d18761e28a3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="CID COMPANY PROFILE" languagecode="1033" />
+                    <label description="Profil BDIC de l'entreprise" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{0bfc9ead-8317-4712-9d71-d146cffd521e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Organization Status" languagecode="1033" />
+                          <label description="Statut de l’organisation" languagecode="1036" />
+                        </labels>
+                        <control id="cid_cidcompanystatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cid_cidcompanystatus" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{624427ff-738c-4293-b6d6-ec7fa0862d9b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registration As Of" languagecode="1033" />
+                          <label description="Inscription en date du" languagecode="1036" />
+                        </labels>
+                        <control id="cid_registrationasof" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cid_registrationasof" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4ce0218-801d-46f4-8839-ec53d5ef49af}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Next Annual Compliance Update Required On" languagecode="1033" />
+                          <label description="Prochaine mise à jour annuelle de conformité exigée le" languagecode="1036" />
+                        </labels>
+                        <control id="cid_nextannualcomplianceupdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cid_nextannualcomplianceupdate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4bc27e5-8040-45c2-9f82-cd96412d6374}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                          <label description="Contact principal" languagecode="1036" />
+                        </labels>
+                        <control id="primarycontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="primarycontactid" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" name="SOCIAL_PANE_TAB" IsUserDefined="0" showlabel="false" locklevel="0" labelid="{67354991-b737-43ca-9839-fc3daa6c43b2}" showbar="false" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" celllabelalignment="Left">
                   <labels>
                     <label description="SOCIAL PANE" languagecode="1033" />

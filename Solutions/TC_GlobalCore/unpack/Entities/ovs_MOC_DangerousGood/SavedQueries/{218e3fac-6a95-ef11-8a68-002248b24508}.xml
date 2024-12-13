@@ -16,8 +16,6 @@
           <cell name="ovs_units_transported_cd" width="150" />
           <cell name="ovs_released_quantity_num" width="144" />
           <cell name="ovs_units_released_cd" width="150" />
-          <cell name="ovs_erap_number_txt" width="125" />
-          <cell name="ovs_erap_implemented_ind" width="150" />
         </row>
       </grid>
     </layoutxml>
@@ -31,8 +29,6 @@
           </link-entity>
           <attribute name="ovs_pg_unknown_ind" />
           <attribute name="ovs_transported_quantity_num" />
-          <attribute name="ovs_erap_number_txt" />
-          <attribute name="ovs_erap_implemented_ind" />
           <attribute name="ovs_units_transported_cd" />
           <attribute name="ovs_released_quantity_num" />
           <attribute name="ovs_units_released_cd" />

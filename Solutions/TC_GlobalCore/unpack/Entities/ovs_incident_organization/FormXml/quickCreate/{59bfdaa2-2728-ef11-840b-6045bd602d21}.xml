@@ -45,15 +45,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9362ffa3-9135-4d95-8328-f26886e895c9}" locklevel="0" colspan="1" rowspan="1" labelid="{1110b5b8-d5c7-4e01-89ed-f0298696e2f7}">
-                        <labels>
-                          <label description="Participant Role" languagecode="1033" />
-                          <label description="Participant Rôle" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_participant_role_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_participant_role_cds" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{1f1d1c76-8a5e-4fd6-bd3a-19e71e249396}" locklevel="0" colspan="1" rowspan="1" labelid="{a6f53a9b-b88e-4c51-8f93-2b44561f4689}">
                         <labels>
                           <label description="Responsible to Report" languagecode="1033" />

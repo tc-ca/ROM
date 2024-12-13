@@ -39,7 +39,7 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Regional NOP Associated View" languagecode="1033" />
+      <LocalizedName description="Line of Business NOP Associated View" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

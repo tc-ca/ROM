@@ -11,7 +11,6 @@
       <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
         <row name="result" id="ovs_incidentid">
           <cell name="ovs_name" width="200" />
-          <cell name="ovs_incident_date_dte" width="163" />
           <cell name="ovs_city_txt" width="150" />
           <cell name="ovs_state_province_txt" width="176" />
           <cell name="statecode" width="100" />
@@ -25,7 +24,6 @@
         <entity name="ovs_incident">
           <attribute name="ovs_name" />
           <attribute name="ovs_incidentid" />
-          <attribute name="ovs_incident_date_dte" />
           <attribute name="statecode" />
           <attribute name="statuscode" />
           <attribute name="ovs_city_txt" />

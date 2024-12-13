@@ -25,29 +25,9 @@
                       <cell id="{5d95a819-8edb-4db9-b9ce-1f60bf884d31}" colspan="1" rowspan="1">
                         <labels>
                           <label description="Name" languagecode="1033" />
+                          <label description="Name" languagecode="1036" />
                         </labels>
                         <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" />
-                      </cell>
-                      <cell id="{4b2bd76f-43b6-4a4d-aa70-6daf8734f3aa}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="ERAP Implemented" languagecode="1033" />
-                          <label description="PIU mis en oeuvre" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_erap_implemented_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_erap_implemented_ind" disabled="false" uniqueid="{af9f85de-8bf6-436a-b8fe-58f48bc2070c}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell locklevel="0" id="{b52931cb-72f3-4b16-977c-ad87ea782135}">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell id="{01b87cbf-d8fa-4e11-8c99-45a209da9570}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="ERAP Number" languagecode="1033" />
-                          <label description="Numéro du PIU" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_erap_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_erap_number_txt" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -69,6 +49,7 @@
                 <section name="section_release" id="ff03f4c1-21cd-4975-945d-2e171a6b3b96" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
                   <labels>
                     <label description="Release" languagecode="1033" />
+                    <label description="Rejet" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -80,7 +61,7 @@
                       <cell id="{f60088cb-0e41-471a-9953-d4316642dbd6}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Released Quantity" languagecode="1033" />
-                          <label description="Quantité du rejet" languagecode="1036" />
+                          <label description="Quantité rejetée" languagecode="1036" />
                         </labels>
                         <control id="ovs_released_quantity_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_released_quantity_num" disabled="false" />
                       </cell>
@@ -125,6 +106,7 @@
                 <section name="section_pg" id="ff510559-b7df-449d-b148-f7a7ecea518e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
                   <labels>
                     <label description="Packing Group" languagecode="1033" />
+                    <label description="Groupe d'emballage" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -202,6 +184,7 @@
             <cell id="{878c74e0-76f5-4fb9-9945-43abacbfca24}" locklevel="0" colspan="1" rowspan="1">
               <labels>
                 <label description="MOC" languagecode="1033" />
+                <label description="MOC" languagecode="1036" />
               </labels>
               <control id="header_ovs_moc_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_moc_id" disabled="false" />
             </cell>
@@ -232,30 +215,7 @@
       <DisplayConditions Order="0" FallbackForm="true">
         <Everyone />
       </DisplayConditions>
-      <controlDescriptions>
-        <controlDescription forControl="{af9f85de-8bf6-436a-b8fe-58f48bc2070c}">
-          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
-            <parameters>
-              <datafieldname>ovs_erap_implemented_ind</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_erap_implemented_ind</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_erap_implemented_ind</value>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
-            <parameters>
-              <value type="TwoOptions">ovs_erap_implemented_ind</value>
-            </parameters>
-          </customControl>
-        </controlDescription>
-      </controlDescriptions>
+      <controlDescriptions />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

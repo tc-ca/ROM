@@ -67,6 +67,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{db65bd00-1ef3-429f-81ce-b43885184a29}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Line Of Business" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_lineofbusiness_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{a0449ae8-e341-402c-498b-65ab9b156072}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Region" languagecode="1033" />
@@ -99,7 +107,7 @@
                           <label description="Unplanned Forecast" languagecode="1033" />
                           <label description="Prévisions non-planifiées" languagecode="1036" />
                         </labels>
-                        <control id="ovs_unplannedforecast" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_unplannedforecast" disabled="true" uniqueid="{0e32cc9a-8e19-b87d-002d-b5239725a1a5}" />
+                        <control id="ovs_unplannedforecast" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_unplannedforecast" disabled="false" uniqueid="{0e32cc9a-8e19-b87d-002d-b5239725a1a5}" />
                       </cell>
                     </row>
                     <row>
@@ -123,8 +131,8 @@
                     <row>
                       <cell id="{28e5d686-d8de-3a5c-4d9a-91a2d3b4cb98}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Region Variance" languagecode="1033" />
-                          <label description="La variance pour la région" languagecode="1036" />
+                          <label description="Business Variance" languagecode="1033" />
+                          <label description="La variance du secteur d'activité" languagecode="1036" />
                         </labels>
                         <control id="ovs_cdregionvariance" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_cdregionvariance" disabled="false" />
                       </cell>

@@ -43,8 +43,8 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Associated Regional NOPs" languagecode="1033" />
-      <LocalizedName description="PNS régionaux associés" languagecode="1036" />
+      <LocalizedName description="Associated Line of Business NOPs" languagecode="1033" />
+      <LocalizedName description="PNS secteur d'activité associés" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

@@ -684,6 +684,7 @@
     <RolePrivilege name="prvReadmsdyn_teamsdialeradminsettings" level="Global" />
     <RolePrivilege name="prvReadmsdyn_templateforproperties" level="Global" />
     <RolePrivilege name="prvReadmsdyn_templateparameter" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_templateruleset" level="Global" />
     <RolePrivilege name="prvReadmsdyn_timetracker" level="Global" />
     <RolePrivilege name="prvReadmsdyn_wallsavedquery" level="Global" />
     <RolePrivilege name="prvReadmsdyn_wallsavedqueryusersettings" level="Basic" />

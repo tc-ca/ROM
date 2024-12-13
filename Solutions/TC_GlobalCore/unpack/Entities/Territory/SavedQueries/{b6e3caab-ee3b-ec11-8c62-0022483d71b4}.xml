@@ -14,6 +14,7 @@
           <cell name="ovs_territorynameenglish" width="217" />
           <cell name="ovs_territorynamefrench" width="259" />
           <cell name="managerid" width="150" />
+          <cell name="ovs_obsolete_ind" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -27,6 +28,7 @@
           <order attribute="name" descending="false" />
           <attribute name="ovs_territorynameenglish" />
           <attribute name="ovs_territorynamefrench" />
+          <attribute name="ovs_obsolete_ind" />
         </entity>
       </fetch>
     </fetchxml>

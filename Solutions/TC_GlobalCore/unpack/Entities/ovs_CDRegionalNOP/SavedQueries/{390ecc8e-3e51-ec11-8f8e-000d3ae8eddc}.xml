@@ -43,8 +43,8 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Summary Regional NOPs" languagecode="1033" />
-      <LocalizedName description="Résumé des PNS régionaux" languagecode="1036" />
+      <LocalizedName description="Summary Line of Business NOPs" languagecode="1033" />
+      <LocalizedName description="Résumé des PNS secteur d'activité" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

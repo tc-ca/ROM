@@ -13,6 +13,7 @@
           <cell name="msdyn_name" width="150" />
           <cell name="msdyn_serviceaccount" width="115" />
           <cell name="ovs_oversighttype" width="134" />
+          <cell name="a_a85c7f4fe8924ae4a555f5c7548ab416.ovs_lineofbusiness" width="137" />
           <cell name="msdyn_address1" width="100" />
           <cell name="msdyn_city" width="100" />
           <cell name="msdyn_stateorprovince" width="100" />
@@ -42,6 +43,9 @@
           <attribute name="modifiedon" />
           <attribute name="modifiedby" />
           <attribute name="ovs_fiscalyear" />
+          <link-entity alias="a_a85c7f4fe8924ae4a555f5c7548ab416" name="ovs_mocregistration" to="ovs_mocoperationid" from="ovs_mocregistrationid" link-type="outer" visible="false">
+            <attribute name="ovs_lineofbusiness" />
+          </link-entity>
         </entity>
       </fetch>
     </fetchxml>

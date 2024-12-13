@@ -16,7 +16,7 @@
     <option value="1" ExternalValue="">
       <labels>
         <label description="Urban/Commercial" languagecode="1033" />
-        <label description="urbain/commercial" languagecode="1036" />
+        <label description="Urbaine / Commerciale" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -34,7 +34,7 @@
     <option value="3" ExternalValue="">
       <labels>
         <label description="Industrial" languagecode="1033" />
-        <label description="Industriel" languagecode="1036" />
+        <label description="Industrielle" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -43,7 +43,7 @@
     <option value="4" ExternalValue="">
       <labels>
         <label description="Rural" languagecode="1033" />
-        <label description="Rural" languagecode="1036" />
+        <label description="Rurale" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -52,7 +52,7 @@
     <option value="5" ExternalValue="">
       <labels>
         <label description="Unknown" languagecode="1033" />
-        <label description="INCONNU" languagecode="1036" />
+        <label description="Inconnue" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

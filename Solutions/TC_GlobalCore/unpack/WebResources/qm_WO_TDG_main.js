@@ -23,6 +23,16 @@ var WO_TDG_main = (function (window, document) {
     var k_inspection_setting_remote = 1;
     var k_inspection_setting_hybrid = 2;
     var msdyn_systemstatus_list = [];
+    var CurrentWoStatus;
+    var GC_Oversites_Types_Id = [
+        "018d22b2-c3fe-eb11-94f0-0022483c6f5e",
+        "460b6c2a-5f9c-eb11-b1ac-000d3ae92708",
+        "1cd7bd09-279e-eb11-b1ac-000d3ae924d1",
+        "50d0bdf1-269e-eb11-b1ac-000d3ae924d1",
+        "07966e1c-5f9c-eb11-b1ac-000d3ae92708",
+        "72afccd3-269e-eb11-b1ac-000d3ae924d1",
+        "9dee7316-5f9c-eb11-b1ac-000d3ae92708"
+    ];
 
     //********************private methods*******************
 
@@ -397,6 +407,7 @@ var WO_TDG_main = (function (window, document) {
                 systemStatus.removeOnChange(WO_TDG_main.WO_SystemStatus_OnChange);
                 systemStatus.addOnChange(WO_TDG_main.WO_SystemStatus_OnChange);
             }
+            CurrentWoStatus = formContext.getAttribute("msdyn_systemstatus").getValue();
 
             //WO Number/msdyn_name
             glHelper.SetControlVisibility(formContext, "msdyn_name", false);
@@ -602,33 +613,45 @@ var WO_TDG_main = (function (window, document) {
             var formContext = executionContext.getFormContext();
             //get current rational
             var oversightType = glHelper.GetLookupName(formContext, "ovs_oversighttype");
-          
+            var oversightTypeId;
+            if (formContext.getAttribute("ovs_oversighttype").getValue() != null) {
+                oversightTypeId = glHelper.GetLookupAttrId(formContext, "ovs_oversighttype").replace('{', '').replace('}', '');
 
-            if (oversightType == "GC Consignment"
-                || oversightType == "Envoi CG"
-                || oversightType == "GC Undeclared/ Misdeclared"
-                || oversightType == "CG non déclaré / mal déclaré"
-                || oversightType == "MOC Consignment"
-                || oversightType == "Envoi MOC") {
-                //show section of the consignment address
-                glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_summary_section_8", true);
-                glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_8_section_2", true);
-                //set address required
-                glHelper.SetRequiredLevel(formContext, "msdyn_address1", true);
-                glHelper.SetRequiredLevel(formContext, "msdyn_stateorprovince", true);
-                glHelper.SetRequiredLevel(formContext, "msdyn_postalcode", true);
-                glHelper.SetRequiredLevel(formContext, "msdyn_country", true);
-                glHelper.SetRequiredLevel(formContext, "msdyn_city", true);
-            }
-            else {
-                glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_summary_section_8", false);
-                glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_8_section_2", false);
-                //set address not required
-                glHelper.SetRequiredLevel(formContext, "msdyn_address1", false);
-                glHelper.SetRequiredLevel(formContext, "msdyn_stateorprovince", false);
-                glHelper.SetRequiredLevel(formContext, "msdyn_postalcode", false);
-                glHelper.SetRequiredLevel(formContext, "msdyn_country", false);
-                glHelper.SetRequiredLevel(formContext, "msdyn_city", false);
+                if (GC_Oversites_Types_Id.includes(oversightTypeId.toLowerCase())) {
+                    //show modes section
+                    glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_summary_section_modes", true);
+                }
+                else {
+                    glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_summary_section_modes", false);
+                }
+
+                if (oversightType == "GC Consignment"
+                    || oversightType == "Envoi CG"
+                    || oversightType == "GC Undeclared/ Misdeclared"
+                    || oversightType == "CG non déclaré / mal déclaré"
+                    || oversightType == "MOC Consignment"
+                    || oversightType == "Envoi MOC") {
+                    //show section of the consignment address
+                    glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_summary_section_8", true);
+                    glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_8_section_2", true);
+                    //set address required
+                    glHelper.SetRequiredLevel(formContext, "msdyn_address1", true);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_stateorprovince", true);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_postalcode", true);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_country", true);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_city", true);
+                }
+                else {
+                    glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_summary_section_8", false);
+                    glHelper.SetSectionVisibility(formContext, "tab_summary", "tab_8_section_2", false);
+
+                    //set address not required
+                    glHelper.SetRequiredLevel(formContext, "msdyn_address1", false);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_stateorprovince", false);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_postalcode", false);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_country", false);
+                    glHelper.SetRequiredLevel(formContext, "msdyn_city", false);
+                }
             }
         },
         Rational_OnChange: function (executionContext) {
@@ -906,7 +929,6 @@ var WO_TDG_main = (function (window, document) {
             debugger;
             var formContext = executionContext.getFormContext();
             var systemStatus = formContext.getAttribute("msdyn_systemstatus").getValue();
-
             //If system status is set to completed, closed or canceled check business logic called via custom action.
             if (systemStatus == 690970003 || systemStatus == 690970004 || systemStatus == 690970005) {
                 var parameters = {};
@@ -946,6 +968,10 @@ var WO_TDG_main = (function (window, document) {
                                         Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "OK", text: responseBody.message });
                                     }
                                     else {
+                                        //set modes fields requirement level based on status and display message if anyone of them is null when user trying to close WO
+                                        WO_TDG_main.setModesRequiredBasedOnWOStatus(formContext, systemStatus);
+                                        //refresh system status because system might reset back the value of modes are entered for certain scenarios
+                                        systemStatus = formContext.getAttribute("msdyn_systemstatus").getValue();
                                         //If system status is set to closed
                                         if (systemStatus == 690970004) {
                                             //Set required Recommendation - 244620
@@ -970,6 +996,8 @@ var WO_TDG_main = (function (window, document) {
                 formContext.getAttribute("statecode").setValue(0);
                 formContext.getAttribute("statuscode").setValue(1);
             }
+
+           
         },
 
         WO_SystemStatus_FilterOptionSet: function (formContext, isPlanned) {
@@ -1116,6 +1144,50 @@ var WO_TDG_main = (function (window, document) {
             } else {
                 glHelper.SetRequiredLevel(formContext, "ovs_recommendation", true);
             }
+        },
+
+        setModesRequiredBasedOnWOStatus: function (formContext, systemStatus) {
+            var oversightTypeId = glHelper.GetLookupAttrId(formContext, "ovs_oversighttype").replace('{', '').replace('}', '');
+ 
+            debugger;
+            if (systemStatus == 690970004 && GC_Oversites_Types_Id.includes(oversightTypeId.toLowerCase())) {
+                glHelper.SetRequiredLevel(formContext, "ovs_air_cd", true);
+                glHelper.SetRequiredLevel(formContext, "ovs_road_cd", true);
+                glHelper.SetRequiredLevel(formContext, "ovs_rail_cd", true);
+                glHelper.SetRequiredLevel(formContext, "ovs_marine_cd", true);
+
+                var ModeAirValue = formContext.getAttribute("ovs_air_cd").getValue(); 
+                var ModeRoadValue = formContext.getAttribute("ovs_road_cd").getValue(); 
+                var ModeRailValue = formContext.getAttribute("ovs_rail_cd").getValue(); 
+                var ModeMarineValue = formContext.getAttribute("ovs_marine_cd").getValue(); 
+
+                if (ModeAirValue != null &&  ModeRoadValue != null && ModeMarineValue != null && ModeRailValue != null) {
+                   
+                    CurrentWoStatus = systemStatus;
+
+                }
+                else {
+                   
+                    var ModesErrorMessage = "";
+                    if (LCID == 1033)
+                        ModesErrorMessage = "The user must indicate which Modes of Transportation were or were not inspected before this Work Order can be set as Closed - Posted.";
+                    else if (LCID == 1036)
+                        ModesErrorMessage = "L'utilisateur doit indiquer quels modes de transport ont été ou n'ont pas été inspectés avant que l'ordre de travail puisse être défini comme étant Fermé-Publié.";
+                    //reset back the status to pervious one
+                    glHelper.SetValue(formContext, "msdyn_systemstatus", CurrentWoStatus);
+                    Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "OK", text: ModesErrorMessage });
+                }
+
+            }
+            else {
+                glHelper.SetRequiredLevel(formContext, "ovs_air_cd", false);
+                glHelper.SetRequiredLevel(formContext, "ovs_road_cd", false);
+                glHelper.SetRequiredLevel(formContext, "ovs_rail_cd", false);
+                glHelper.SetRequiredLevel(formContext, "ovs_marine_cd", false);
+                CurrentWoStatus = systemStatus;
+
+            }
+
         },
 
         /*setDefaultInspectionSynopsis: function (executionContext) {

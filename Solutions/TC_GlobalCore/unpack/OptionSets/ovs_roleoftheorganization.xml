@@ -24,7 +24,7 @@
     <option value="2" ExternalValue="">
       <labels>
         <label description="Consignor" languagecode="1033" />
-        <label description="Expéditeur  " languagecode="1036" />
+        <label description="Expéditeur " languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -42,7 +42,7 @@
     <option value="4" ExternalValue="">
       <labels>
         <label description="Facility" languagecode="1033" />
-        <label description="Établissement" languagecode="1036" />
+        <label description="Installation" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

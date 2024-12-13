@@ -15,35 +15,7 @@
   <Templates>
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>
-  <CommandDefinitions>
-    <CommandDefinition Id="ovs.ovs_incident.Command.Form.CalculateScope">
-      <EnableRules>
-        <EnableRule Id="ovs.ovs_incident.EnableRule.ExistingForm" />
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="Incident_Ribbon.calculateScope_IncidentForm" Library="$webresource:ovs_incident_ribbon.js">
-          <CrmParameter Value="FirstPrimaryItemId" />
-          <CrmParameter Value="UserLcid" />
-          <CrmParameter Value="PrimaryControl" />
-        </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition>
-    <CommandDefinition Id="ovs.ovs_incident.Command.HomeGrid.CalculateScope">
-      <EnableRules>
-        <EnableRule Id="ovs.ovs_incident.EnableRule.SingleSelection" />
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="Incident_Ribbon.calculateScope_IncidentGrid" Library="$webresource:ovs_incident_ribbon.js">
-          <CrmParameter Value="FirstSelectedItemId" />
-          <CrmParameter Value="UserLcid" />
-          <CrmParameter Value="SelectedControl" />
-          <CrmParameter Value="PrimaryControl" />
-        </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition>
-  </CommandDefinitions>
+  <CommandDefinitions />
   <RuleDefinitions>
     <TabDisplayRules />
     <DisplayRules />

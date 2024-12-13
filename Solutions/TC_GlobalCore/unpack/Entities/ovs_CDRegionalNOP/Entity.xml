@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Regional NOP" OriginalName="Regional NOP">ovs_CDRegionalNOP</Name>
+  <Name LocalizedName="Line of Business NOP" OriginalName="Regional NOP">ovs_CDRegionalNOP</Name>
   <EntityInfo>
     <entity Name="ovs_CDRegionalNOP">
       <LocalizedNames>
-        <LocalizedName description="Regional NOP" languagecode="1033" />
-        <LocalizedName description="PNS régional" languagecode="1036" />
+        <LocalizedName description="Line of Business NOP" languagecode="1033" />
+        <LocalizedName description="PNS du secteur d'activité" languagecode="1036" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Regional NOPs" languagecode="1033" />
-        <LocalizedCollectionName description="Les PNS régional" languagecode="1036" />
+        <LocalizedCollectionName description="Line of Business NOPS" languagecode="1033" />
+        <LocalizedCollectionName description="PNS du secteur d'activité" languagecode="1036" />
       </LocalizedCollectionNames>
       <Descriptions>
-        <Description description="NOP For Each Region" languagecode="1033" />
+        <Description description="NOP For Each Line of Business" languagecode="1033" />
         <Description description="" languagecode="1036" />
       </Descriptions>
       <attributes>
@@ -503,8 +503,8 @@
           <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <displaynames>
-            <displayname description="Regional NOP" languagecode="1033" />
-            <displayname description="PNS régional" languagecode="1036" />
+            <displayname description="Line of Business NOP" languagecode="1033" />
+            <displayname description="PNS du secteur d'activité" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="Unique identifier for entity instances" languagecode="1033" />
@@ -585,11 +585,11 @@
           <MinValue>-2147483648</MinValue>
           <MaxValue>2147483647</MaxValue>
           <displaynames>
-            <displayname description="Region Variance" languagecode="1033" />
-            <displayname description="Variance régionale" languagecode="1036" />
+            <displayname description="Business Variance" languagecode="1033" />
+            <displayname description="Variance du secteur d'activité" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="The Variance Between Planned Capacity and Region Flag Inspections." languagecode="1033" />
+            <Description description="The Variance Between Planned Capacity and Business Flag Inspections." languagecode="1033" />
             <Description description="La variance entre la capacité planifiée et les inspections de la région signalée" languagecode="1036" />
           </Descriptions>
           <FormulaDefinitionFileName>/Formulas/ovs_cdregionalnop-ovs_cdregionvariance.xaml</FormulaDefinitionFileName>
@@ -806,11 +806,13 @@
               <option value="1" ExternalValue="">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -864,6 +866,44 @@
             <Description description="Nombre total de candidats à l'ordre de travail avec AC = Oui" languagecode="1036" />
           </Descriptions>
           <FormulaDefinitionFileName>/Formulas/ovs_cdregionalnop-ovs_hqrollup.xaml</FormulaDefinitionFileName>
+        </attribute>
+        <attribute PhysicalName="ovs_lineofbusiness_id">
+          <Type>lookup</Type>
+          <Name>ovs_lineofbusiness_id</Name>
+          <LogicalName>ovs_lineofbusiness_id</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.8</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Line Of Business" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_name">
           <Type>nvarchar</Type>
@@ -945,8 +985,8 @@
             <displayname description="Capacité prévue" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Number Of Planned Work Order Candidates Related To This Regional NOP." languagecode="1033" />
-            <Description description="Le nombre de candidats à l'ordre de travail planifiés liés à ce PNS régional" languagecode="1036" />
+            <Description description="Number Of Planned Work Order Candidates Related To This Line of Business NOP." languagecode="1033" />
+            <Description description="Le nombre de candidats à l'ordre de travail planifiés liés à ce PNS secteur d'activité" languagecode="1036" />
           </Descriptions>
           <FormulaDefinitionFileName>/Formulas/ovs_cdregionalnop-ovs_plannedwoccount.xaml</FormulaDefinitionFileName>
         </attribute>
@@ -1264,7 +1304,7 @@
               <displayname description="Status" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the Regional NOP" languagecode="1033" />
+              <Description description="Status of the Line of Business NOP" languagecode="1033" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Active">
@@ -1286,8 +1326,8 @@
             <displayname description="Statut" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Status of the Regional NOP" languagecode="1033" />
-            <Description description="Statut de l'élément Regional NOP" languagecode="1036" />
+            <Description description="Status of the Line of Business NOP" languagecode="1033" />
+            <Description description="Statut de l'élément secteur d'activité PNS" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="statuscode">
@@ -1328,7 +1368,7 @@
               <displayname description="Status Reason" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the Regional NOP" languagecode="1033" />
+              <Description description="Reason for the status of the Line of Business NOP" languagecode="1033" />
             </Descriptions>
             <statuses>
               <status value="1" state="0" TransitionData="" Color="#0000ff">
@@ -1374,8 +1414,8 @@
             <displayname description="Raison du statut" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Reason for the status of the Regional NOP" languagecode="1033" />
-            <Description description="Raison du statut de l'élément Regional NOP" languagecode="1036" />
+            <Description description="Reason for the status of the Line of Business NOP" languagecode="1033" />
+            <Description description="Raison du statut de l'élément secteur d'activité PNS" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="TimeZoneRuleVersionNumber">
@@ -1553,6 +1593,7 @@
       <CanCreateViews>1</CanCreateViews>
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+      <IconVectorName></IconVectorName>
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>

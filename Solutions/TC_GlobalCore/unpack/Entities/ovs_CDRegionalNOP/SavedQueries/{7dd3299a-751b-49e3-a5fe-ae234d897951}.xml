@@ -13,6 +13,7 @@
           <cell name="ovs_name" width="300" />
           <cell name="ovs_cdfiscalyearid" width="100" />
           <cell name="ovs_cdnopid" width="100" />
+          <cell name="ovs_lineofbusiness_id" width="138" />
           <cell name="ovs_cdregionid" width="100" />
           <cell name="ovs_capacity" width="100" />
           <cell name="ovs_cdwoccount" width="230" />
@@ -38,13 +39,14 @@
           <attribute name="ovs_cdwocvariance" />
           <attribute name="ovs_cdregionalnopid" />
           <attribute name="ovs_cdwoccount" />
+          <attribute name="ovs_lineofbusiness_id" />
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Active Regional NOPs" languagecode="1033" />
-      <LocalizedName description="PNS régionaux actifs" languagecode="1036" />
+      <LocalizedName description="Active Line of Business NOPs" languagecode="1033" />
+      <LocalizedName description="PNS secteur d'activité actifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

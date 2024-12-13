@@ -49,7 +49,23 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2b52dbc7-8d5d-4c53-807b-ade0b9ea5992}">
+                      <cell id="{ef114de6-4d7b-441c-8c53-8ec4d399d284}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="LOB NOP Team" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_lob_nop_team_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lob_nop_team_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b07e87f9-c6f6-4b7e-95a5-887c44dddd36}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="LOB Team" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_lob_team_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lob_team_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b52dbc7-8d5d-4c53-807b-ade0b9ea5992}" colspan="1" rowspan="1">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                           <label description="Propriétaire" languagecode="1036" />

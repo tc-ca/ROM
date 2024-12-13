@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Regional NOP Process Flow" OriginalName="Regional NOP Process Flow">ovs_regionalnopprocessflow</Name>
+  <Name LocalizedName="Line of Business NOP Process Flow" OriginalName="Regional NOP Process Flow">ovs_regionalnopprocessflow</Name>
   <EntityInfo>
     <entity Name="ovs_regionalnopprocessflow">
       <LocalizedNames>
-        <LocalizedName description="Regional NOP Process Flow" languagecode="1033" />
+        <LocalizedName description="Line of Business NOP Process Flow" languagecode="1033" />
         <LocalizedName description="Regional NOP Process Flow" languagecode="1036" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Regional NOP Process Flow" languagecode="1033" />
+        <LocalizedCollectionName description="Line of Business NOP Process Flows" languagecode="1033" />
         <LocalizedCollectionName description="Regional NOP Process Flow" languagecode="1036" />
       </LocalizedCollectionNames>
       <Descriptions>
-        <Description description="Base entity for process Regional NOP Process Flow" languagecode="1033" />
+        <Description description="Base entity for process Line of Business NOP Process Flow" languagecode="1033" />
         <Description description="" languagecode="1036" />
       </Descriptions>
       <attributes>
@@ -978,6 +978,7 @@
       <IsCollaboration>0</IsCollaboration>
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
       <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
@@ -1024,9 +1025,11 @@
       <CanCreateViews>1</CanCreateViews>
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+      <IconVectorName></IconVectorName>
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>

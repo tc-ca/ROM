@@ -465,4 +465,16 @@
   <data name="qm_syresult.ViolationHistoryTableHead.ActivityWONumber" xml:space="preserve">
     <value>Numéro de l'ordre de travail</value>
   </data>
+  <data name="CopyAddress.Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="CopyAddress.Continue" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="CopyAddress.PopupTitle" xml:space="preserve">
+    <value>Message de confirmation</value>
+  </data>
+  <data name="CopyAddress.Prompt" xml:space="preserve">
+    <value>L'adresse existante sera écrasée. Continuer?</value>
+  </data>
 </root>

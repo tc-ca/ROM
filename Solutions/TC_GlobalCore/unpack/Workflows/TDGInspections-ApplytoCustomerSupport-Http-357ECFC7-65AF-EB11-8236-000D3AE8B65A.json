@@ -1,0 +1,492 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps_1": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "tdg_ConnectionReferenceDataverseServicePrinciple"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_teams_1": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "tdg_ConnectionReferenceMSTeamsTDGCoreUser"
+        },
+        "api": {
+          "name": "shared_teams"
+        }
+      },
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "tdg_ConnectionReferenceOutlookTDGCoreUser"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "be8f4734-5c6b-4c7f-a924-559fd4af2f2e"
+          },
+          "type": "Request",
+          "kind": "Http",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "isBugOrFeature": {
+                  "type": "string"
+                },
+                "isStop": {
+                  "type": "string"
+                },
+                "langId": {
+                  "type": "string"
+                }
+              }
+            },
+            "method": "POST",
+            "triggerAuthenticationType": "All"
+          }
+        }
+      },
+      "actions": {
+        "User_Id": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "72cb2888-8dcb-4ef3-beac-1376487e7172"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "UserId",
+                "type": "string",
+                "value": "@triggerBody()?['userId']"
+              }
+            ]
+          }
+        },
+        "CS_Message": {
+          "runAfter": {
+            "User_Id": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "41e2a9a6-f380-4dae-9d12-f159521fce6f"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "CSmessage",
+                "type": "string",
+                "value": "@triggerBody()?['message']"
+              }
+            ]
+          }
+        },
+        "Get_Sender": {
+          "runAfter": {
+            "User_Language_Type": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "5b2f73d7-66ab-4b5a-816f-c1e975953fa5"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps_1",
+              "operationId": "GetItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "systemusers",
+              "recordId": "@variables('UserId')",
+              "$select": "fullname,lastname,firstname,internalemailaddress,systemuserid,domainname"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Get_Customer_Support_team": {
+          "runAfter": {
+            "Get_Sender": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "b1640843-3d94-485e-ae24-a3f5a9f39521"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps_1",
+              "operationId": "ListRecords",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "qm_environmentsettingses",
+              "$filter": "(qm_name eq 'CustomerSupportTeam')",
+              "$top": 1
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "SupportTeam": {
+          "runAfter": {
+            "Is_bug_or_feature": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "38b12fb8-26a7-4f00-99ec-a16fcbfcc76a"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": " SupportTeam",
+                "type": "array"
+              }
+            ]
+          }
+        },
+        "Current_user_id": {
+          "runAfter": {
+            "SupportTeam": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "327f9321-9a3e-4c6a-bd7a-77896a8c1e42"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "currentUserId",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "Process_Support_Team": {
+          "foreach": "@outputs('Get_Customer_Support_team')?['body/value']",
+          "actions": {
+            "Set_support_team_list": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "248eebb0-1c6e-41da-a229-ef5c65f9586f"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": " SupportTeam",
+                "value": "@split(items('Process_Support_Team')?['qm_value'],';')"
+              }
+            },
+            "Send_Message": {
+              "foreach": "@variables(' SupportTeam')",
+              "actions": {
+                "Get_TO's": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "bdf527fa-4bc5-45c9-81f9-c2c380411f50"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "connectionName": "shared_commondataserviceforapps_1",
+                      "operationId": "ListRecords",
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                    },
+                    "parameters": {
+                      "entityName": "systemusers",
+                      "$select": "fullname,lastname,firstname,internalemailaddress,systemuserid,domainname",
+                      "$filter": "(domainname eq '@{items('Send_Message')}')",
+                      "$top": 1
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                },
+                "Get_To_ID": {
+                  "foreach": "@outputs('Get_TO''s')?['body/value']",
+                  "actions": {
+                    "Set_current_addressee_id": {
+                      "runAfter": {},
+                      "metadata": {
+                        "operationMetadataId": "2ac5c180-8aaa-4b88-9a34-7e796d8f3de0"
+                      },
+                      "type": "SetVariable",
+                      "inputs": {
+                        "name": "currentUserId",
+                        "value": "@items('Get_To_ID')?['systemuserid']"
+                      }
+                    },
+                    "Create_an_email": {
+                      "runAfter": {
+                        "Set_current_addressee_id": [
+                          "Succeeded"
+                        ]
+                      },
+                      "metadata": {
+                        "operationMetadataId": "c453b847-075f-4206-8e35-5ab7ad6d6f05"
+                      },
+                      "type": "OpenApiConnection",
+                      "inputs": {
+                        "host": {
+                          "connectionName": "shared_commondataserviceforapps_1",
+                          "operationId": "CreateRecord",
+                          "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                        },
+                        "parameters": {
+                          "entityName": "emails",
+                          "item/activitypointer_activity_parties": [
+                            {
+                              "participationtypemask": 1,
+                              "partyid@odata.bind": "/systemusers(@{variables('UserId')})"
+                            },
+                            {
+                              "participationtypemask": 2,
+                              "partyid@odata.bind": "/systemusers(@{variables('currentUserId')})"
+                            }
+                          ],
+                          "item/description": "<p>Hi</p><p>@{variables('CSmessage')}</p>",
+                          "item/subject": "Customer Support request from @{outputs('Get_Sender')?['body/fullname']}"
+                        },
+                        "authentication": "@parameters('$authentication')"
+                      }
+                    }
+                  },
+                  "runAfter": {
+                    "Get_TO's": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "0d90c52e-f606-468b-bd0d-f4dc1a8b3bec"
+                  },
+                  "type": "Foreach"
+                },
+                "Post_a_message_as_the_Flow_bot_to_a_user": {
+                  "runAfter": {
+                    "Get_To_ID": [
+                      "Succeeded",
+                      "Failed",
+                      "Skipped",
+                      "TimedOut"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "a5d978d5-79cb-4fd1-afdf-c58634b08e55"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "connectionName": "shared_teams_1",
+                      "operationId": "PostUserNotification",
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams"
+                    },
+                    "parameters": {
+                      "PostNotificationRequest/recipient/to": "@{items('Send_Message')};",
+                      "PostNotificationRequest/messageBody": "Hello / Bonjour,\nI have found an issue using ROM / J'ai trouvé un problème en utilisant le GSR.\nThe steps to reproduce the issue are as follows / Les étapes pour reproduire le problème sont les suivantes:\n@{variables('CSmessage')}\n\nIs this issue preventing you from completing an inspection? / Ce problème vous empêche-t-il d'effectuer une inspection ?\n@{variables('isStopping')}\n\nIs this bug or just a feature that would be nice to have in the system? / S'agit-il d'un bogue ou simplement d'une fonctionnalité qu'il serait bon d'avoir dans le système ?\n@{variables('isBugOrFeature')}",
+                      "PostNotificationRequest/messageTitle": "Customer Support request from @{outputs('Get_Sender')?['body/fullname']}",
+                      "PostNotificationRequest/recipient/isAlert": true
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                }
+              },
+              "runAfter": {
+                "Set_support_team_list": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "c625fb29-133f-4477-8741-e758c93d3610"
+              },
+              "type": "Foreach"
+            },
+            "Send_an_email_(V2)": {
+              "runAfter": {
+                "Send_Message": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "49b31c1c-2879-4ca8-9c32-ba76ea764d99"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_office365",
+                  "operationId": "SendEmailV2",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+                },
+                "parameters": {
+                  "emailMessage/To": " TDGOversight-SurveillanceTMD@tc.gc.ca;@{outputs('Get_Sender')?['body/domainname']}",
+                  "emailMessage/Subject": "Customer Support request from @{outputs('Get_Sender')?['body/fullname']}",
+                  "emailMessage/Body": "<p>Hello / Bonjour,<br>\nI have found an issue using ROM / J'ai trouvé un problème en utilisant le GSR.<br>\nThe steps to reproduce the issue are as follows / Les étapes pour reproduire le problème sont les suivantes:<br>\n@{variables('CSmessage')}<br>\n<br>\nIs this issue preventing you from completing an inspection? / Ce problème vous empêche-t-il d'effectuer une inspection ?<br>\n@{variables('isStopping')}<br>\n<br>\nIs this bug or just a feature that would be nice to have in the system? / S'agit-il d'un bogue ou simplement d'une fonctionnalité qu'il serait bon d'avoir dans le système ?<br>\n@{variables('isBugOrFeature')}</p>",
+                  "emailMessage/Cc": "@items('Process_Support_Team')?['qm_value']"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {
+            "Get_Customer_Support_team": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "443d7d13-3c9a-44f6-adab-910f005cf041"
+          },
+          "type": "Foreach"
+        },
+        "Is_Stopping_issue": {
+          "runAfter": {
+            "CS_Message": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a56d2cc2-4eed-4fae-8518-d0b5cc78e850"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "isStopping",
+                "type": "string",
+                "value": "@triggerBody()?['isStop']"
+              }
+            ]
+          }
+        },
+        "Is_bug_or_feature": {
+          "runAfter": {
+            "Is_Stopping_issue": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "6067a9e0-ec45-4190-b848-9886fa65d5a4"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "isBugOrFeature",
+                "type": "string",
+                "value": "@triggerBody()?['isBugOrFeature']"
+              }
+            ]
+          }
+        },
+        "User_Language_Type": {
+          "runAfter": {
+            "Current_user_id": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "65996fee-7aad-4668-ab41-3ac3d4446f82"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "IsLangFrench",
+                "type": "boolean",
+                "value": "@not(equals(triggerBody()?['langId'], '1033'))"
+              }
+            ]
+          }
+        },
+        "Condition": {
+          "actions": {
+            "Response_Language_French": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "fe701f1d-8964-447f-91b4-e35249d0704d"
+              },
+              "type": "Response",
+              "kind": "Http",
+              "inputs": {
+                "statusCode": 200,
+                "headers": {
+                  "ContentType": "text/plain"
+                },
+                "body": "Votre demande a été soumise avec succès à: @{join(variables(' SupportTeam'), ',')}"
+              }
+            }
+          },
+          "runAfter": {
+            "Process_Support_Team": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {
+              "Response_Language_English": {
+                "runAfter": {},
+                "metadata": {
+                  "operationMetadataId": "980dbc51-eabc-471c-86e7-ccc47e625b04"
+                },
+                "type": "Response",
+                "kind": "Http",
+                "inputs": {
+                  "statusCode": 200,
+                  "headers": {
+                    "ContentType": "text/plain"
+                  },
+                  "body": "Your request was successfully submitted to: @{join(variables(' SupportTeam'),',')}"
+                }
+              }
+            }
+          },
+          "expression": {
+            "equals": [
+              "@variables('IsLangFrench')",
+              true
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "55611418-34b3-4849-ad98-315693e0d622"
+          },
+          "type": "If"
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

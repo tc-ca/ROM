@@ -43,8 +43,8 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Inactive Regional NOPs" languagecode="1033" />
-      <LocalizedName description="PNS régionaux inactifs" languagecode="1036" />
+      <LocalizedName description="Inactive Line of Business NOPs" languagecode="1033" />
+      <LocalizedName description="PNS secteur d'activité inactifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

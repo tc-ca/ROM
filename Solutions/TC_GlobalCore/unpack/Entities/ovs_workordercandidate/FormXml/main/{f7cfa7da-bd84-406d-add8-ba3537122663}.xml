@@ -97,20 +97,22 @@
                 </section>
                 <section name="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}_section_6" showlabel="true" showbar="false" locklevel="0" id="{5d3078d5-419c-5352-58b5-d1ce51ac4b87}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="Modes" languagecode="1033" />
+                    <label description="Modes of Transportation" languagecode="1033" />
+                    <label description="Modes de transport" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{3ba90c51-0a36-84e8-b8d4-0ccce24dee9e}" showlabel="true" colspan="1" auto="false">
                         <labels>
-                          <label description="Modes" languagecode="1033" />
-                          <label description="Opération" languagecode="1036" />
+                          <label description="Modes of Transportation" languagecode="1033" />
+                          <label description="Modes de transport" languagecode="1036" />
                         </labels>
-                        <control id="frmOperationModes" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_operationid" disabled="false">
+                        <control id="frmOperationModes" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_site" disabled="false">
                           <parameters>
-                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ovs_mocregistration"&gt;20691350-3944-478a-a6a4-e2c780e4210b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;e4dbda5d-41b3-ef11-a72f-6045bd5bfaca&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
                             <ControlMode>Edit</ControlMode>
                             <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
                           </parameters>
                         </control>
                       </cell>
@@ -383,8 +385,8 @@
           <row>
             <cell id="{1d769c86-27e5-6c99-48be-99b849919e15}" showlabel="true" locklevel="0">
               <labels>
-                <label description="Regional NOP" languagecode="1033" />
-                <label description="PNS régional" languagecode="1036" />
+                <label description="Line of Business NOP" languagecode="1033" />
+                <label description="PNS du secteur d'activité" languagecode="1036" />
               </labels>
               <control id="header_ovs_regionalnop" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_regionalnop" disabled="false" uniqueid="{e992c1d3-ac72-cec4-6213-2dedac2e94a2}">
                 <parameters>
@@ -401,7 +403,7 @@
         </rows>
       </header>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

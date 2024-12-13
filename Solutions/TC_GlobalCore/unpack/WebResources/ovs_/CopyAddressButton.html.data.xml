@@ -8,7 +8,7 @@
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
   <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
-  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="ovs_Labels.1033.resx" displayName="Labels EN" languagecode="1033" description="" libraryUniqueId="{649ee2de-59a3-9dd9-0eb3-7c10767067ee}"/&gt;&lt;Library name="ovs_Labels.1036.resx" displayName="Labels FR" languagecode="1036" description="" libraryUniqueId="{50a19675-494c-b717-19de-abd569833933}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
   <IsCustomizable>1</IsCustomizable>
   <CanBeDeleted>1</CanBeDeleted>
   <IsHidden>0</IsHidden>

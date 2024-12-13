@@ -4,23 +4,29 @@
   <RolePrivileges>
     <RolePrivilege name="prvAppendovs_CDNOP" level="Local" />
     <RolePrivilege name="prvAppendovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvAppendovs_lob" level="Global" />
     <RolePrivilege name="prvAppendovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvAppendToovs_CDNOP" level="Local" />
     <RolePrivilege name="prvAppendToovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvAppendToovs_lob" level="Global" />
     <RolePrivilege name="prvAppendToovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvAssignovs_CDNOP" level="Local" />
     <RolePrivilege name="prvAssignovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvAssignovs_lob" level="Global" />
     <RolePrivilege name="prvAssignovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvBulkEdit" level="Global" />
     <RolePrivilege name="prvCreateovs_CDNOP" level="Local" />
     <RolePrivilege name="prvCreateovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvCreateovs_lob" level="Global" />
     <RolePrivilege name="prvCreateovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeleteovs_lob" level="Global" />
     <RolePrivilege name="prvDeleteovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvReadappnotification" level="Global" />
     <RolePrivilege name="prvReadmsdyn_workorder" level="Local" />
     <RolePrivilege name="prvReadovs_CDNOP" level="Local" />
     <RolePrivilege name="prvReadovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvReadovs_lob" level="Global" />
     <RolePrivilege name="prvReadovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvReadPluginAssembly" level="Global" />
     <RolePrivilege name="prvReadPluginType" level="Global" />
@@ -31,9 +37,11 @@
     <RolePrivilege name="prvReadSharePointDocument" level="Global" />
     <RolePrivilege name="prvShareovs_CDNOP" level="Local" />
     <RolePrivilege name="prvShareovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvShareovs_lob" level="Global" />
     <RolePrivilege name="prvShareovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvWriteovs_CDNOP" level="Local" />
     <RolePrivilege name="prvWriteovs_CDRegionalNOP" level="Local" />
+    <RolePrivilege name="prvWriteovs_lob" level="Global" />
     <RolePrivilege name="prvWriteovs_workordercandidate" level="Local" />
     <RolePrivilege name="prvWriteSharePointData" level="Global" />
   </RolePrivileges>

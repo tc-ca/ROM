@@ -113,5 +113,13 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
+    <option value="100000010">
+      <labels>
+        <label description="Gigabecquerels" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
   </options>
 </optionset>

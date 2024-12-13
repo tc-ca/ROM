@@ -7,44 +7,21 @@
     <FormActivationState>1</FormActivationState>
     <form headerdensity="HighWithControls">
       <tabs>
-        <tab verticallayout="true" id="{607f8be4-12eb-4cc2-98ea-5eb2d07b27da}" IsUserDefined="1">
+        <tab verticallayout="true" id="{607f8be4-12eb-4cc2-98ea-5eb2d07b27da}" IsUserDefined="1" name="General">
           <labels>
             <label description="General" languagecode="1033" />
             <label description="Général" languagecode="1036" />
           </labels>
           <columns>
-            <column width="100%">
+            <column width="50%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9a9ab4c1-6329-4c6f-84fd-31833be2d097}" name="general" columns="11">
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{9a9ab4c1-6329-4c6f-84fd-31833be2d097}" name="section_orgInfo" columns="1">
                   <labels>
-                    <label description="General" languagecode="1033" />
+                    <label description="Organization Information" languagecode="1033" />
                     <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0feb7d75-500f-4b3f-b9ee-8de8fcfc8005}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="First Name" languagecode="1033" />
-                          <label description="Prénom " languagecode="1036" />
-                        </labels>
-                        <control id="ovs_first_name_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_first_name_txt" disabled="false" />
-                      </cell>
-                      <cell id="{3f1a9f76-162c-41b0-987a-fe6c17025c74}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Last Name" languagecode="1033" />
-                          <label description="Nom" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_last_name_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_last_name_txt" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{1346a248-db77-4010-b93d-f8ae61576486}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Title" languagecode="1033" />
-                          <label description="Titre" languagecode="1036" />
-                        </labels>
-                        <control id="ovs_title_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_title_txt" disabled="false" />
-                      </cell>
                       <cell id="{1da61c21-4566-4c01-b87e-ec3e5ce412e1}" colspan="1" rowspan="1">
                         <labels>
                           <label description="Organization Name" languagecode="1033" />
@@ -59,8 +36,10 @@
                           <label description="Street 1" languagecode="1033" />
                           <label description="Street 1" languagecode="1036" />
                         </labels>
-                        <control id="ovs_street_1_txt" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_street_1_txt" disabled="false" uniqueid="{ba4ed6bf-d2e3-4834-8ebe-8ccadcb50b5c}" />
+                        <control id="ovs_street_1_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_street_1_txt" disabled="false" />
                       </cell>
+                    </row>
+                    <row>
                       <cell id="{bfe9c552-6ae3-4335-a842-c86ff6485467}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Street 2" languagecode="1033" />
@@ -77,6 +56,8 @@
                         </labels>
                         <control id="ovs_street_3_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_street_3_txt" disabled="false" />
                       </cell>
+                    </row>
+                    <row>
                       <cell id="{7b426adf-8709-4425-9b9b-575fa3355a0a}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="City" languagecode="1033" />
@@ -93,6 +74,8 @@
                         </labels>
                         <control id="ovs_state_province_territory_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_state_province_territory_txt" disabled="false" />
                       </cell>
+                    </row>
+                    <row>
                       <cell id="{2ae16e68-66c1-46ff-9dd9-25744d1c2b8c}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Zip/Postal Code" languagecode="1033" />
@@ -109,6 +92,24 @@
                         </labels>
                         <control id="ovs_country_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_country_txt" disabled="false" />
                       </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b37aabb-24c4-426b-9504-3423e03a8b2a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Organization Phone" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_organization_phone_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_organization_phone_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{361abe6a-95b3-4ec8-9b8b-2ac909dc5921}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Organization Email" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_organization_email_txt" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="ovs_organization_email_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{613c37c3-6a94-40cb-bb74-9f156e176935}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Role of the Organization" languagecode="1033" />
@@ -118,19 +119,21 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{453f6645-c82a-43ff-b623-ac988327537a}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{be7d4f96-92c4-4ec3-86bb-56d308f0d05c}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Telephone " languagecode="1033" />
-                          <label description="Téléphone " languagecode="1036" />
+                          <label description="Responsible to Report" languagecode="1033" />
+                          <label description="Responsable de signaler" languagecode="1036" />
                         </labels>
-                        <control id="ovs_telephone_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_telephone_txt" disabled="false" />
+                        <control id="ovs_responsible_report_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_responsible_report_ind" disabled="false" uniqueid="{30c91142-c018-4aaa-a776-b8e013b0cff0}" />
                       </cell>
-                      <cell id="{dad00fdb-11e7-4796-8cca-a8729711edc2}" locklevel="0" colspan="1" rowspan="1">
+                    </row>
+                    <row>
+                      <cell id="{53ddcabf-f31d-43b9-a61d-7670e54850ca}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Email" languagecode="1033" />
-                          <label description="Courriel  " languagecode="1036" />
+                          <label description="Report Submitted" languagecode="1033" />
+                          <label description="Rapport soumis" languagecode="1036" />
                         </labels>
-                        <control id="ovs_email_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_email_txt" disabled="false" />
+                        <control id="ovs_report_submitted_ind" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_report_submitted_ind" disabled="false" uniqueid="{763701f5-8a83-4c47-b561-1c219345bb4a}" />
                       </cell>
                     </row>
                     <row>
@@ -141,10 +144,62 @@
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
-                      <cell locklevel="0" id="{cf3932aa-d929-403e-aaa8-b68fe38a97f9}">
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="section_personal" id="c61a866d-aa35-4665-8c6d-3ee817ccd1b3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Personal Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{1346a248-db77-4010-b93d-f8ae61576486}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Title" languagecode="1033" />
+                          <label description="Titre" languagecode="1036" />
                         </labels>
+                        <control id="ovs_title_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_title_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0feb7d75-500f-4b3f-b9ee-8de8fcfc8005}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                          <label description="Prénom " languagecode="1036" />
+                        </labels>
+                        <control id="ovs_first_name_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_first_name_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3f1a9f76-162c-41b0-987a-fe6c17025c74}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_last_name_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_last_name_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dad00fdb-11e7-4796-8cca-a8729711edc2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                          <label description="Courriel  " languagecode="1036" />
+                        </labels>
+                        <control id="ovs_email_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_email_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{453f6645-c82a-43ff-b623-ac988327537a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Telephone " languagecode="1033" />
+                          <label description="Téléphone " languagecode="1036" />
+                        </labels>
+                        <control id="ovs_telephone_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_telephone_txt" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -200,70 +255,51 @@
         <Everyone />
       </DisplayConditions>
       <controlDescriptions>
-        <controlDescription forControl="{ba4ed6bf-d2e3-4834-8ebe-8ccadcb50b5c}">
-          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+        <controlDescription forControl="{30c91142-c018-4aaa-a776-b8e013b0cff0}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
             <parameters>
-              <datafieldname>ovs_street_1_txt</datafieldname>
+              <datafieldname>ovs_responsible_report_ind</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="0" name="fdn_Canadapost.addressComplete">
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
             <parameters>
-              <api_key type="SingleLine.Text" static="true">MM95-DM44-MP35-XM79</api_key>
-              <useProvinceCode type="Enum" static="true">Yes</useProvinceCode>
-              <country_code type="SingleLine.Text" static="true">CA</country_code>
-              <option_allowcountry type="SingleLine.Text" static="true">true</option_allowcountry>
-              <option_showlogo type="SingleLine.Text" static="true">true</option_showlogo>
-              <address_line_1 type="SingleLine.Text">ovs_street_1_txt</address_line_1>
-              <address_line_2 type="SingleLine.Text">ovs_street_2_txt</address_line_2>
-              <province_or_state type="SingleLine.Text">ovs_state_province_territory_txt</province_or_state>
-              <city type="SingleLine.Text">ovs_city_txt</city>
-              <postcode type="SingleLine.Text">ovs_zip_postal_code_txt</postcode>
-              <country type="SingleLine.Text">ovs_country_txt</country>
+              <value type="TwoOptions">ovs_responsible_report_ind</value>
             </parameters>
           </customControl>
-          <customControl formFactor="2" name="fdn_Canadapost.addressComplete">
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
             <parameters>
-              <api_key type="SingleLine.Text" static="true">MM95-DM44-MP35-XM79</api_key>
-              <useProvinceCode type="Enum" static="true">Yes</useProvinceCode>
-              <country_code type="SingleLine.Text" static="true">CA</country_code>
-              <option_allowcountry type="SingleLine.Text" static="true">true</option_allowcountry>
-              <option_showlogo type="SingleLine.Text" static="true">true</option_showlogo>
-              <address_line_1 type="SingleLine.Text">ovs_street_1_txt</address_line_1>
-              <address_line_2 type="SingleLine.Text">ovs_street_2_txt</address_line_2>
-              <province_or_state type="SingleLine.Text">ovs_state_province_territory_txt</province_or_state>
-              <city type="SingleLine.Text">ovs_city_txt</city>
-              <postcode type="SingleLine.Text">ovs_zip_postal_code_txt</postcode>
-              <country type="SingleLine.Text">ovs_country_txt</country>
+              <value type="TwoOptions">ovs_responsible_report_ind</value>
             </parameters>
           </customControl>
-          <customControl formFactor="1" name="fdn_Canadapost.addressComplete">
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
             <parameters>
-              <api_key type="SingleLine.Text" static="true">MM95-DM44-MP35-XM79</api_key>
-              <useProvinceCode type="Enum" static="true">Yes</useProvinceCode>
-              <country_code type="SingleLine.Text" static="true">CA</country_code>
-              <option_allowcountry type="SingleLine.Text" static="true">true</option_allowcountry>
-              <option_showlogo type="SingleLine.Text" static="true">true</option_showlogo>
-              <address_line_1 type="SingleLine.Text">ovs_street_1_txt</address_line_1>
-              <address_line_2 type="SingleLine.Text">ovs_street_2_txt</address_line_2>
-              <province_or_state type="SingleLine.Text">ovs_state_province_territory_txt</province_or_state>
-              <city type="SingleLine.Text">ovs_city_txt</city>
-              <postcode type="SingleLine.Text">ovs_zip_postal_code_txt</postcode>
-              <country type="SingleLine.Text">ovs_country_txt</country>
+              <value type="TwoOptions">ovs_responsible_report_ind</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{763701f5-8a83-4c47-b561-1c219345bb4a}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ovs_report_submitted_ind</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ovs_report_submitted_ind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ovs_report_submitted_ind</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ovs_report_submitted_ind</value>
             </parameters>
           </customControl>
         </controlDescription>
       </controlDescriptions>
-      <formLibraries>
-        <Library name="ovs_incident_organization_main.js" libraryUniqueId="{383aa97f-ca00-42a0-b566-4730796e94c7}" />
-        <Library name="qm_globalHelper.js" libraryUniqueId="{bfeee43f-3808-4185-855e-7333d9e416a3}" />
-      </formLibraries>
-      <events>
-        <event name="onload" application="false" active="false">
-          <Handlers>
-            <Handler functionName="TDG_IncidentOrganization_MainForm.OnLoad" libraryName="ovs_incident_organization_main.js" handlerUniqueId="{f2e8599a-faf0-4ff8-a3a2-aadd79771d75}" enabled="true" parameters="" passExecutionContext="true" />
-          </Handlers>
-        </event>
-      </events>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

@@ -560,10 +560,10 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_below_threshold_ind">
-          <Type>bit</Type>
-          <Name>ovs_below_threshold_ind</Name>
-          <LogicalName>ovs_below_threshold_ind</LogicalName>
+        <attribute PhysicalName="ovs_below_threshold_cd">
+          <Type>picklist</Type>
+          <Name>ovs_below_threshold_cd</Name>
+          <LogicalName>ovs_below_threshold_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -590,34 +590,8 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_below_threshold_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Released quantity below threshold" languagecode="1033" />
-              <displayname description="Quantité libérée inférieure au seuil" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Released quantity below threshold" languagecode="1033" />
             <displayname description="Quantité libérée inférieure au seuil" languagecode="1036" />
@@ -710,10 +684,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_closure_ind">
-          <Type>bit</Type>
-          <Name>ovs_closure_ind</Name>
-          <LogicalName>ovs_closure_ind</LogicalName>
+        <attribute PhysicalName="ovs_closure_cd">
+          <Type>picklist</Type>
+          <Name>ovs_closure_cd</Name>
+          <LogicalName>ovs_closure_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -740,34 +714,8 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_closure_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Closure" languagecode="1033" />
-              <displayname description="Fermeture" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Closure" languagecode="1033" />
             <displayname description="Fermeture" languagecode="1036" />
@@ -900,10 +848,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_damage_ind">
-          <Type>bit</Type>
-          <Name>ovs_damage_ind</Name>
-          <LogicalName>ovs_damage_ind</LogicalName>
+        <attribute PhysicalName="ovs_damage_cd">
+          <Type>picklist</Type>
+          <Name>ovs_damage_cd</Name>
+          <LogicalName>ovs_damage_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -930,34 +878,8 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_damage_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Damage" languagecode="1033" />
-              <displayname description="Dommage" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Damage" languagecode="1033" />
             <displayname description="Dommage" languagecode="1036" />
@@ -1008,48 +930,6 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_date_canutec_dte">
-          <Type>datetime</Type>
-          <Name>ovs_date_canutec_dte</Name>
-          <LogicalName>ovs_date_canutec_dte</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>date</Format>
-          <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
-          <Behavior>1</Behavior>
-          <displaynames>
-            <displayname description="Canutec" languagecode="1033" />
-            <displayname description="CANUTEC" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The date the incident was reported to CANUTEC" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="ovs_date_declared_completion_dte">
           <Type>datetime</Type>
           <Name>ovs_date_declared_completion_dte</Name>
@@ -1092,133 +972,6 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_date_received_dte">
-          <Type>datetime</Type>
-          <Name>ovs_date_received_dte</Name>
-          <LogicalName>ovs_date_received_dte</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>date</Format>
-          <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
-          <Behavior>1</Behavior>
-          <displaynames>
-            <displayname description="Received" languagecode="1033" />
-            <displayname description="Reçu" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The date the 30-Day Follow-up Report is received." languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_days_2report_num">
-          <Type>int</Type>
-          <Name>ovs_days_2report_num</Name>
-          <LogicalName>ovs_days_2report_num</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>0</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>0</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format></Format>
-          <MinValue>-2147483648</MinValue>
-          <MaxValue>2147483647</MaxValue>
-          <displaynames>
-            <displayname description="Days to Report" languagecode="1033" />
-            <displayname description="Days to Report" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The number of days from the incident to the receipt of the report." languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-          <FormulaDefinitionFileName>/Formulas/ovs_incident-ovs_days_2report_num.xaml</FormulaDefinitionFileName>
-        </attribute>
-        <attribute PhysicalName="ovs_destination_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_destination_txt</Name>
-          <LogicalName>ovs_destination_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Destination" languagecode="1033" />
-            <displayname description="Destination" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="ovs_dgais_legacy_seqno_s">
           <Type>int</Type>
           <Name>ovs_dgais_legacy_seqno_s</Name>
@@ -1254,6 +1007,7 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="DGAIS Legacy Incident Sequence Number" languagecode="1033" />
+            <displayname description="Ancien numéro de séquence du SIACMD" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="Maps to the SEQNO_S column in the legacy incident table in DGAIS " languagecode="1033" />
@@ -1299,6 +1053,46 @@
           <Descriptions>
             <Description description="" languagecode="1033" />
             <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_evacuation_cd">
+          <Type>picklist</Type>
+          <Name>ovs_evacuation_cd</Name>
+          <LogicalName>ovs_evacuation_cd</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
+          <displaynames>
+            <displayname description="Evacuation" languagecode="1033" />
+            <displayname description="Évacuation" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_evacuation_due_incident_ind">
@@ -1515,10 +1309,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_fatalities_ind">
-          <Type>bit</Type>
-          <Name>ovs_fatalities_ind</Name>
-          <LogicalName>ovs_fatalities_ind</LogicalName>
+        <attribute PhysicalName="ovs_fatalities_cd">
+          <Type>picklist</Type>
+          <Name>ovs_fatalities_cd</Name>
+          <LogicalName>ovs_fatalities_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -1545,119 +1339,11 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_fatalities_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Fatalities" languagecode="1033" />
-              <displayname description="Décès" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Fatalities" languagecode="1033" />
             <displayname description="Décès" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_geographic_area_cd">
-          <Type>picklist</Type>
-          <Name>ovs_geographic_area_cd</Name>
-          <LogicalName>ovs_geographic_area_cd</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>ovs_geographicarea</OptionSetName>
-          <displaynames>
-            <displayname description="Geographic Area" languagecode="1033" />
-            <displayname description="zone géogrpahique" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_incident_date_dte">
-          <Type>datetime</Type>
-          <Name>ovs_incident_date_dte</Name>
-          <LogicalName>ovs_incident_date_dte</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>datetime</Format>
-          <Behavior>1</Behavior>
-          <displaynames>
-            <displayname description="Incident Date &amp; Time" languagecode="1033" />
-            <displayname description="Date et heure de l'incident" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -1701,10 +1387,10 @@
             <Description description="Identificateur unique des instances d'entité" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_injuries_ind">
-          <Type>bit</Type>
-          <Name>ovs_injuries_ind</Name>
-          <LogicalName>ovs_injuries_ind</LogicalName>
+        <attribute PhysicalName="ovs_injuries_cd">
+          <Type>picklist</Type>
+          <Name>ovs_injuries_cd</Name>
+          <LogicalName>ovs_injuries_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -1731,41 +1417,14 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_injuries_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Injuries" languagecode="1033" />
-              <displayname description="Blessures" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Injuries" languagecode="1033" />
             <displayname description="Blessures" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_latitude_nbr">
@@ -1915,6 +1574,45 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="ovs_meridian_cd">
+          <Type>picklist</Type>
+          <Name>ovs_meridian_cd</Name>
+          <LogicalName>ovs_meridian_cd</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <OptionSetName>ovs_lld_meridian</OptionSetName>
+          <displaynames>
+            <displayname description="Meridian" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="ovs_mileage_txt">
           <Type>nvarchar</Type>
           <Name>ovs_mileage_txt</Name>
@@ -2023,47 +1721,6 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_moc_capacity_cd">
-          <Type>picklist</Type>
-          <Name>ovs_moc_capacity_cd</Name>
-          <LogicalName>ovs_moc_capacity_cd</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>ovs_moccapacity</OptionSetName>
-          <displaynames>
-            <displayname description="MOC Capacity" languagecode="1033" />
-            <displayname description=" Capacité du contenant" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="ovs_mode_cd">
           <Type>picklist</Type>
           <Name>ovs_mode_cd</Name>
@@ -2140,7 +1797,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Name" languagecode="1033" />
-            <displayname description="Name" languagecode="1036" />
+            <displayname description="Nom" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2211,48 +1868,6 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_origin_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_origin_txt</Name>
-          <LogicalName>ovs_origin_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Origin" languagecode="1033" />
-            <displayname description="Origine" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_other_physical_impact_txt">
@@ -2445,10 +2060,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_pi_damage_ind">
-          <Type>bit</Type>
-          <Name>ovs_pi_damage_ind</Name>
-          <LogicalName>ovs_pi_damage_ind</LogicalName>
+        <attribute PhysicalName="ovs_pi_damage_cd">
+          <Type>picklist</Type>
+          <Name>ovs_pi_damage_cd</Name>
+          <LogicalName>ovs_pi_damage_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -2475,41 +2090,14 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_pi_damage_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Property &amp; Infrastructure Damage" languagecode="1033" />
-              <displayname description="Coût des dommages matériels et aux infrastructures" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Property &amp; Infrastructure Damage" languagecode="1033" />
             <displayname description="Coût des dommages matériels et aux infrastructures" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_quarter_lsd_cd">
@@ -2588,46 +2176,6 @@
           <displaynames>
             <displayname description="Range" languagecode="1033" />
             <displayname description="Étendue" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_region_id">
-          <Type>lookup</Type>
-          <Name>ovs_region_id</Name>
-          <LogicalName>ovs_region_id</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Region" languagecode="1033" />
-            <displayname description="Région" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2874,10 +2422,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_serious_jeopardy_ind">
-          <Type>bit</Type>
-          <Name>ovs_serious_jeopardy_ind</Name>
-          <LogicalName>ovs_serious_jeopardy_ind</LogicalName>
+        <attribute PhysicalName="ovs_serious_jeopardy_cd">
+          <Type>picklist</Type>
+          <Name>ovs_serious_jeopardy_cd</Name>
+          <LogicalName>ovs_serious_jeopardy_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -2904,86 +2452,20 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_serious_jeopardy_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Serious Jeopardy(Air only mode)" languagecode="1033" />
-              <displayname description="Grave péril(Mode air seulement)" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
-            <displayname description="Serious Jeopardy(Air only mode)" languagecode="1033" />
+            <displayname description="Serious Jeopardy (Air only mode)" languagecode="1033" />
             <displayname description="Grave péril(Mode air seulement)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_site_id">
-          <Type>lookup</Type>
-          <Name>ovs_site_id</Name>
-          <LogicalName>ovs_site_id</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Site" languagecode="1033" />
-            <displayname description="Site" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_ss_crack_ind">
-          <Type>bit</Type>
-          <Name>ovs_ss_crack_ind</Name>
-          <LogicalName>ovs_ss_crack_ind</LogicalName>
+        <attribute PhysicalName="ovs_ss_crack_cd">
+          <Type>picklist</Type>
+          <Name>ovs_ss_crack_cd</Name>
+          <LogicalName>ovs_ss_crack_cd</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -3010,41 +2492,14 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_ovs_ss_crack_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Stub Sill Crack (Greater than 15cm/6in)" languagecode="1033" />
-              <displayname description="Fissure dans la longrine tronquée (supérieur à 15 cm / 6 pouces)" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
+          <AppDefaultValue>2</AppDefaultValue>
+          <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Stub Sill Crack (Greater than 15cm/6in)" languagecode="1033" />
             <displayname description="Fissure dans la longrine tronquée (supérieur à 15 cm / 6 pouces)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_state_province_txt">
@@ -3082,7 +2537,7 @@
           <Length>100</Length>
           <displaynames>
             <displayname description="State/Province​/Territory" languagecode="1033" />
-            <displayname description="État / Province / Territoire+E3353" languagecode="1036" />
+            <displayname description="État / Province / Territoire" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3843,6 +3298,15 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </status>
+              <status value="918640005" state="0">
+                <labels>
+                  <label description="Closed" languagecode="1033" />
+                  <label description="Fermé" languagecode="1036" />
+                </labels>
+                <Descriptions>
+                  <Description description="" languagecode="1033" />
+                </Descriptions>
+              </status>
             </statuses>
           </optionset>
           <displaynames>
@@ -3955,7 +3419,7 @@
       <IsBPFEntity>0</IsBPFEntity>
       <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
       <EntityMask>ActivityPointer</EntityMask>
-      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsAuditEnabled>1</IsAuditEnabled>
       <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
       <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
       <IsActivity>0</IsActivity>

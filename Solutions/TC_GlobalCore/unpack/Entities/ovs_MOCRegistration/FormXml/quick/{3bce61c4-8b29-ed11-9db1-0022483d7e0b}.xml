@@ -22,6 +22,15 @@
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{6b83674c-fed6-4e57-84f7-a7ca9c00b420}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Line of Business" languagecode="1033" />
+                          <label description="Secteur d’activité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusiness" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{079edd8f-d0d9-4d53-9d07-8ef8f045fc91}" locklevel="0" colspan="1" rowspan="1" labelid="{721ae8ac-bec2-4332-8d05-e4602628284f}">
                         <labels>
                           <label description="Operation Type" languagecode="1033" />
