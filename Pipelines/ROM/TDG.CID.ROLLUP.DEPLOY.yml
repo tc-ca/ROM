@@ -63,8 +63,8 @@ stages:
     - 'RollupSolutionOnDev'
 - template: templates/stage/DependencyCheck.yml  # Template reference
   parameters:
-    ConnectionStringDest: $(Pipeline_ConnectionStringDev)
-    ConnectionStringSource: $(Pipeline_ConnectionStringQA)
+    ConnectionStringDest: $(Pipeline_ConnectionStringQA)
+    ConnectionStringSource: $(Pipeline_ConnectionStringDev)
     SolutionName: $(SolutionName)
     StageName: 'CheckForMissingDependencies'
     dependsOn: 
