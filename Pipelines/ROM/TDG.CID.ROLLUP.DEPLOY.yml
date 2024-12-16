@@ -5,6 +5,7 @@ pr:
 - none
 
 #variable 'Pipeline_ConnectionStringDev' defined in devops
+#variable 'Pipeline_ConnectionStringDA' defined in devops
 
 variables:
   - name: PowerPlatformSPN_Dev
@@ -60,13 +61,21 @@ stages:
     StageName: 'BuildAndPublishArtifacts'
     dependsOn: 
     - 'RollupSolutionOnDev'
+- template: templates/stage/DependencyCheck.yml  # Template reference
+  parameters:
+    ConnectionStringDest: $(Pipeline_ConnectionStringDev)
+    ConnectionStringSource: $(Pipeline_ConnectionStringQA)
+    SolutionName: $(SolutionName)
+    StageName: 'CheckForMissingDependencies'
+    dependsOn: 
+    - 'BuildAndPublishArtifacts'
 - template: templates/stage/PatchSolution.yml  # Template reference
   parameters:
     SolutionName: $(SolutionName)
     ConnectionString: $(Pipeline_ConnectionStringDev)
     StageName: 'CreatePatchOnDev'
     dependsOn: 
-    - 'BuildAndPublishArtifacts'
+    - 'CheckForMissingDependencies'
 
 - stage: ImportSolutionToQA
   pool:
