@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="750770000">
+    <option value="750770000" IsHidden="0">
       <labels>
         <label description="N/A" languagecode="1033" />
         <label description="S.O." languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="750770001">
+    <option value="750770001" IsHidden="0">
       <labels>
         <label description="Equivalency" languagecode="1033" />
         <label description="Équivalence" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="750770002">
+    <option value="750770002" IsHidden="0">
       <labels>
         <label description="Temporary" languagecode="1033" />
         <label description="Temporaire" languagecode="1036" />
@@ -41,7 +41,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="750770003">
+    <option value="750770003" IsHidden="0">
       <labels>
         <label description="Emergency" languagecode="1033" />
         <label description="Urgence" languagecode="1036" />

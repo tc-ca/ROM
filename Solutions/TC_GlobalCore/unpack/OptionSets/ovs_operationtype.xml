@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640038">
+    <option value="918640038" IsHidden="0">
       <labels>
         <label description="HOTI" languagecode="1033" />
         <label description="MDTI" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640042">
+    <option value="918640042" IsHidden="0">
       <labels>
         <label description="HOTI - GOA" languagecode="1033" />
         <label description="MDTI - GDA" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640040">
+    <option value="918640040" IsHidden="0">
       <labels>
         <label description="Civil Aviation Documentation Review" languagecode="1033" />
         <label description="Examen des documents de l'aviation civile" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640041">
+    <option value="918640041" IsHidden="0">
       <labels>
         <label description="Aerosol - manufacture (ES) 40-2-" languagecode="1033" />
         <label description="Bombes aérosol - fabrication (SI) 40-2-" languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640048">
+    <option value="918640048" IsHidden="0">
       <labels>
         <label description="Cylinder - Acetylene requalify (ES) 26-9-2-" languagecode="1033" />
         <label description="Bouteilles à gaz - requalification - acétylène (SI) 26-9-2-" languagecode="1036" />
@@ -62,7 +62,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640039">
+    <option value="918640039" IsHidden="0">
       <labels>
         <label description="Cylinder - Acetylene requalify (region) 26-9-2-" languagecode="1033" />
         <label description="Bouteilles à gaz - requalification - acétylène (région) 26-9-2-" languagecode="1036" />
@@ -72,7 +72,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640000">
+    <option value="918640000" IsHidden="0">
       <labels>
         <label description="Cylinder - External visual (Region) 26-9-" languagecode="1033" />
         <label description="Bouteilles à gaz - examen visuel (région) 26-9-" languagecode="1036" />
@@ -82,7 +82,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="Cylinder - independant inspector (ES) 26-7-" languagecode="1033" />
         <label description="Bouteilles à gaz  - inspecteur indépendant (SI) 26-7-" languagecode="1036" />
@@ -92,7 +92,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="Cylinder - manufacture (ES) 26-2-" languagecode="1033" />
         <label description="Bouteilles à gaz  - fabrication (SI) 26-2-" languagecode="1036" />
@@ -102,7 +102,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640004">
+    <option value="918640004" IsHidden="0">
       <labels>
         <label description="Cylinder - Rebuild (ES) 26-5-" languagecode="1033" />
         <label description="Bouteilles à gaz - réfection (SI) 26-5-" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640005">
+    <option value="918640005" IsHidden="0">
       <labels>
         <label description="Cylinder - reheat treatment (ES) 26-4-" languagecode="1033" />
         <label description="Bouteilles à gaz - traitement thermique (SI) 26-4-" languagecode="1036" />
@@ -122,7 +122,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640006">
+    <option value="918640006" IsHidden="0">
       <labels>
         <label description="Cylinder - repair (ES) 26-3-" languagecode="1033" />
         <label description="Bouteilles à gaz - réparation (SI) 26-3-" languagecode="1036" />
@@ -132,7 +132,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640007">
+    <option value="918640007" IsHidden="0">
       <labels>
         <label description="Cylinder - Ultrasonic test or Acoustic Emission (ES) 26-6-" languagecode="1033" />
         <label description="Bouteilles à gaz - Ultrason ou émission acoustique (SI) 26-6-" languagecode="1036" />
@@ -142,7 +142,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Cylinder / UN pressure receptacle - Hydrostatic (Region) 26-6-" languagecode="1033" />
         <label description="Bouteilles à gaz / Récipient à pression UN - examen hydrostatique (région) 26-6-" languagecode="1036" />
@@ -152,7 +152,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640008">
+    <option value="918640008" IsHidden="0">
       <labels>
         <label description="Highway Tank - Design Engineer 35-" languagecode="1033" />
         <label description="Citerne routière - Ingénieurs de conceptions (SI) 35-" languagecode="1036" />
@@ -162,7 +162,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640011">
+    <option value="918640011" IsHidden="0">
       <labels>
         <label description="Highway Tank - Designated agency (ES) 34-10-" languagecode="1033" />
         <label description="Citerne routière - Organisme désigné (SI) 34-10-" languagecode="1036" />
@@ -172,7 +172,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640009">
+    <option value="918640009" IsHidden="0">
       <labels>
         <label description="Highway tank - manufacture, modify, assemble (ES) 25-" languagecode="1033" />
         <label description="Citerne routière - Fabrication,modification,assemblage (SI) 25-" languagecode="1036" />
@@ -182,7 +182,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640010">
+    <option value="918640010" IsHidden="0">
       <labels>
         <label description="Highway tank - test, inspect, repair (Region) 25-" languagecode="1033" />
         <label description="Citerne routière - inspection, essai, et réparation (région) 25-" languagecode="1036" />
@@ -192,7 +192,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640012">
+    <option value="918640012" IsHidden="0">
       <labels>
         <label description="Highway Tank - Training Organisation (ES) 45-" languagecode="1033" />
         <label description="Citerne routière - Organisme de formation (SI) 45-" languagecode="1036" />
@@ -202,7 +202,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640013">
+    <option value="918640013" IsHidden="0">
       <labels>
         <label description="IBC - leak test, inspect (Region) 33-" languagecode="1033" />
         <label description="GRV - essai d’étanchéité, inspection (région) 33-" languagecode="1036" />
@@ -212,7 +212,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640014">
+    <option value="918640014" IsHidden="0">
       <labels>
         <label description="IBC - manufacture (ES) 46-" languagecode="1033" />
         <label description="GRV - fabrication (SI) 46-" languagecode="1036" />
@@ -222,7 +222,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640015">
+    <option value="918640015" IsHidden="0">
       <labels>
         <label description="Infectious substance packaging - manufacture (ES) 42-" languagecode="1033" />
         <label description="Emballage pour des matières infectueuses -fabrication (SI) 42-" languagecode="1036" />
@@ -232,7 +232,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640016">
+    <option value="918640016" IsHidden="0">
       <labels>
         <label description="Large Packaging - manufacture (ES) 56-" languagecode="1033" />
         <label description="Grands emballages - fabrication (SI) 56-" languagecode="1036" />
@@ -242,7 +242,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640045">
+    <option value="918640045" IsHidden="0">
       <labels>
         <label description="Non-registered (MOC facilities that are not registered) 99-6-" languagecode="1033" />
         <label description="Non enregistré (installations qui ne sont pas enregistrées) 99-6-" languagecode="1036" />
@@ -252,7 +252,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640043">
+    <option value="918640043" IsHidden="0">
       <labels>
         <label description="Non-registered (MOC Owners/Leasers/Users) 99-2-" languagecode="1033" />
         <label description="Non enregistré (propriétaires/locataires/utilisateurs de contenants) 99-2-" languagecode="1036" />
@@ -262,7 +262,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640046">
+    <option value="918640046" IsHidden="0">
       <labels>
         <label description="Non-registered (MOC Users that require an EC for the use of a MOC) 99-8-" languagecode="1033" />
         <label description="Non enregistré (Utilisateurs de contenants qui ont besoin d'un CE pour l'utilisation d'un contenant) 99-8-" languagecode="1036" />
@@ -272,7 +272,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640044">
+    <option value="918640044" IsHidden="0">
       <labels>
         <label description="Non-registered (MOC Vendors) 99-4-" languagecode="1033" />
         <label description="Non enregistré (fournisseurs de contenants) 99-4-" languagecode="1036" />
@@ -282,7 +282,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640017">
+    <option value="918640017" IsHidden="0">
       <labels>
         <label description="Small packaging - 4G box manufacture (Region) 36-" languagecode="1033" />
         <label description="Petits emballages - fabrication de boîtes 4G (Région) 36-" languagecode="1036" />
@@ -292,7 +292,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640018">
+    <option value="918640018" IsHidden="0">
       <labels>
         <label description="Small packaging - Drum reconditioner (Region) 29-" languagecode="1033" />
         <label description="Petits emballages - reconditionement des fûts (Région) 29-" languagecode="1036" />
@@ -302,7 +302,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640019">
+    <option value="918640019" IsHidden="0">
       <labels>
         <label description="Small packaging - fleet operator (ES) 11-" languagecode="1033" />
         <label description="Petits emballages - exploitant de contenant (SI) 11-" languagecode="1036" />
@@ -312,7 +312,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640020">
+    <option value="918640020" IsHidden="0">
       <labels>
         <label description="Small packaging - manufacture other than 4G box (ES) 36-" languagecode="1033" />
         <label description="Petits emballages - fabrication autres que la boîte de 4g (SI) 36-" languagecode="1036" />
@@ -322,7 +322,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640021">
+    <option value="918640021" IsHidden="0">
       <labels>
         <label description="Tank car - facility (ES) 32-24-" languagecode="1033" />
         <label description="Wagons-citernes - installations (SI) 32-24-" languagecode="1036" />
@@ -332,7 +332,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640022">
+    <option value="918640022" IsHidden="0">
       <labels>
         <label description="Ton Container - independant inspector (ES) 32-15-5-" languagecode="1033" />
         <label description="Contenant d'une tonne - inspecteur indépendant (SI) 32-15-5-" languagecode="1036" />
@@ -342,7 +342,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640023">
+    <option value="918640023" IsHidden="0">
       <labels>
         <label description="Ton Container - manufacture (ES) 32-15-2-" languagecode="1033" />
         <label description="Contenant d'une tonne - fabrication (SI) 32-15-2-" languagecode="1036" />
@@ -352,7 +352,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640047">
+    <option value="918640047" IsHidden="0">
       <labels>
         <label description="Ton Container - test, inspection (ES) 32-15-3-" languagecode="1033" />
         <label description="Conternant d'une tonne - essai et inspection (SI) 32-15-3-" languagecode="1036" />
@@ -362,7 +362,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640024">
+    <option value="918640024" IsHidden="0">
       <labels>
         <label description="Ton Container - test, inspection (Region) 32-15-3-" languagecode="1033" />
         <label description="Conternant d'une tonne - essai et inspection (région) 32-15-3-" languagecode="1036" />
@@ -372,7 +372,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640025">
+    <option value="918640025" IsHidden="0">
       <labels>
         <label description="UN Portable Tank - design review, independent inspector (ES) 30-7-" languagecode="1033" />
         <label description="Citernes mobiles UN - revue de conception,  inspecteur indépendant (SI) 30-7-" languagecode="1036" />
@@ -382,7 +382,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640026">
+    <option value="918640026" IsHidden="0">
       <labels>
         <label description="UN portable tank - impact test (ES) 31-" languagecode="1033" />
         <label description="Contenant d'une tonne - test d'impact (SI) 31-" languagecode="1036" />
@@ -392,7 +392,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640027">
+    <option value="918640027" IsHidden="0">
       <labels>
         <label description="UN portable tank - impact test witness (ES) 31-20-" languagecode="1033" />
         <label description="Contenant d'une tonne - témoin d’épreuve d'impact (SI) 31-20-" languagecode="1036" />
@@ -402,7 +402,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640028">
+    <option value="918640028" IsHidden="0">
       <labels>
         <label description="UN Portable tank - manufacture (ES) 30-6-" languagecode="1033" />
         <label description="Citernes mobiles UN - fabrication (SI) 30-6-" languagecode="1036" />
@@ -412,7 +412,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640029">
+    <option value="918640029" IsHidden="0">
       <labels>
         <label description="UN Portable Tank - Test, Inspect, Repair (Region) 30-6-" languagecode="1033" />
         <label description="Citernes mobiles UN - inspection, essai et réparation (région) 30-6-" languagecode="1036" />
@@ -422,7 +422,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640030">
+    <option value="918640030" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle - periodic testing - acetylene (ES) 39-9-2-" languagecode="1033" />
         <label description="Récipient à pression UN - mise à l'essai périodic - acétylène (SI) 39-9-2-" languagecode="1036" />
@@ -432,7 +432,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640031">
+    <option value="918640031" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle - periodic testing - adsorbed gases (ES) 39-9-3-" languagecode="1033" />
         <label description="Récipient à pression UN - mise à l'essai périodic - gaz adsorbés (SI) 39-9-3-" languagecode="1036" />
@@ -442,7 +442,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640032">
+    <option value="918640032" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle - periodic testing - metal hydride (ES) 39-9-4-" languagecode="1033" />
         <label description="Récipient à pression UN - mise à l'essai périodic - hydrure métallique  (SI) 39-9-4-" languagecode="1036" />
@@ -452,7 +452,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640033">
+    <option value="918640033" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle and MEGC - design review agency (ES) 39-5-" languagecode="1033" />
         <label description="Récipient à pression UN et CGEM - organisme de revue de conception (SI) 39-5-" languagecode="1036" />
@@ -462,7 +462,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640034">
+    <option value="918640034" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle and MEGC - inspection body (ES) 39-7-" languagecode="1033" />
         <label description="Récipient à pression UN et CGEM - organisme d'inspection (SI) 39-9-" languagecode="1036" />
@@ -472,7 +472,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640035">
+    <option value="918640035" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle and MEGC - manufacture (ES) 39-2-" languagecode="1033" />
         <label description="Récipient à pression UN et CGEM -  fabrication (SI) 39-2-" languagecode="1036" />
@@ -482,7 +482,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640036">
+    <option value="918640036" IsHidden="0">
       <labels>
         <label description="UN pressure receptacle and MEGC - repair (ES) 39-3-" languagecode="1033" />
         <label description="Récipient à pression UN et CGEM - réparation (SI) 39-3-" languagecode="1036" />
@@ -492,7 +492,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600000">
+    <option value="794600000" IsHidden="0">
       <labels>
         <label description="MOC" languagecode="1033" />
         <label description="Contenants" languagecode="1036" />

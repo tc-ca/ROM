@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Standard Flatbed" languagecode="1033" />
         <label description="REMORQUE PLATEAU STANDARD" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Stake Flatbed" languagecode="1033" />
         <label description="REMORQUE PLATEAU À RIDELLES" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Standard Van" languagecode="1033" />
         <label description="FOURGON STANDARD" languagecode="1036" />
@@ -40,7 +40,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Thermal Van" languagecode="1033" />
         <label description="FOURGON THERMIQUE" languagecode="1036" />
@@ -49,7 +49,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Standard Tank" languagecode="1033" />
         <label description="CITERNE STANDARD" languagecode="1036" />
@@ -58,7 +58,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Waste Tank" languagecode="1033" />
         <label description="RÉSERVOIR À DÉCHARGE" languagecode="1036" />
@@ -67,7 +67,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Dump Unit" languagecode="1033" />
         <label description="TOMBEREAU BASCULEUR" languagecode="1036" />
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hopper" languagecode="1033" />
         <label description="TRÉMIE" languagecode="1036" />
@@ -85,7 +85,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Miscellaneous Unit" languagecode="1033" />
         <label description="Autre Unité de transport" languagecode="1036" />
@@ -94,7 +94,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tube Unit" languagecode="1033" />
         <label description="UNITÉ CYLINDRIQUE" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pneumatic Dry Bulk Unit" languagecode="1033" />
         <label description="UNITÉ PNEUMATIQUE DE VRAC" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Chassis Trailer" languagecode="1033" />
         <label description="REMORQUE-CHÂSSIS" languagecode="1036" />
@@ -121,7 +121,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Nurse Tank" languagecode="1033" />
         <label description="RÉSERVOIR RAVITAILLEUR" languagecode="1036" />
@@ -130,7 +130,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="14" ExternalValue="">
+    <option value="14" ExternalValue="" IsHidden="0">
       <labels>
         <label description="With Nurse Tank" languagecode="1033" />
         <label description="AVEC RÉSERVOIR RAVITAILLEUR" languagecode="1036" />
@@ -139,7 +139,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="15" ExternalValue="">
+    <option value="15" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Without Nurse Tank" languagecode="1033" />
         <label description="SANS RÉSERVOIR RAVITAILLEUR" languagecode="1036" />
@@ -148,7 +148,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="16" ExternalValue="">
+    <option value="16" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Boxcar" languagecode="1033" />
         <label description="WAGON COUVERT" languagecode="1036" />
@@ -157,7 +157,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="17" ExternalValue="">
+    <option value="17" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Flatcar" languagecode="1033" />
         <label description="WAGON PLAT" languagecode="1036" />
@@ -166,7 +166,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="18" ExternalValue="">
+    <option value="18" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Gondola Car" languagecode="1033" />
         <label description="WAGON GONDOLE" languagecode="1036" />
@@ -175,7 +175,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="19" ExternalValue="">
+    <option value="19" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hopper Car" languagecode="1033" />
         <label description="WAGON TRÉMIE" languagecode="1036" />
@@ -184,7 +184,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="20" ExternalValue="">
+    <option value="20" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tank Car" languagecode="1033" />
         <label description="WAGON CITERNE" languagecode="1036" />
@@ -193,7 +193,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="21" ExternalValue="">
+    <option value="21" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Passenger Car" languagecode="1033" />
         <label description="Voiture de passager" languagecode="1036" />
@@ -202,7 +202,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="22" ExternalValue="">
+    <option value="22" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Refrigerator Car" languagecode="1033" />
         <label description="VOITURE RÉFRIGÉRÉE" languagecode="1036" />
@@ -211,7 +211,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="23" ExternalValue="">
+    <option value="23" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Breakbulk" languagecode="1033" />
         <label description="MARCHANDISES DIVERSES" languagecode="1036" />
@@ -220,7 +220,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="24" ExternalValue="">
+    <option value="24" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tanker" languagecode="1033" />
         <label description="NAVIRE-CITERNE" languagecode="1036" />
@@ -229,7 +229,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="25" ExternalValue="">
+    <option value="25" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bulk Carrier" languagecode="1033" />
         <label description="TRANSPORTEUR DE VRAC" languagecode="1036" />
@@ -238,7 +238,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="26" ExternalValue="">
+    <option value="26" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fishing Vessel" languagecode="1033" />
         <label description="BATEAU DE PÊCHE" languagecode="1036" />
@@ -247,7 +247,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="27" ExternalValue="">
+    <option value="27" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Container" languagecode="1033" />
         <label description="CONTENANT" languagecode="1036" />
@@ -256,7 +256,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="28" ExternalValue="">
+    <option value="28" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cargo" languagecode="1033" />
         <label description="CARGO" languagecode="1036" />
@@ -265,7 +265,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="29" ExternalValue="">
+    <option value="29" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Passenger" languagecode="1033" />
         <label description="PASSAGER" languagecode="1036" />
@@ -274,7 +274,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="30" ExternalValue="">
+    <option value="30" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Passenger/Cargo" languagecode="1033" />
         <label description="PASSAGER / CARGO" languagecode="1036" />
@@ -283,7 +283,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="31" ExternalValue="">
+    <option value="31" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="INCONNU" languagecode="1036" />

@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Anticipated Release" languagecode="1033" />
         <label description="&#x9;Rejet appréhendé" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Release" languagecode="1033" />
         <label description="&#x9; Rejet" languagecode="1036" />
@@ -30,7 +30,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Interference" languagecode="1033" />
         <label description="&#x9; Interférence" languagecode="1036" />
@@ -39,7 +39,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Lost or Theft" languagecode="1033" />
         <label description=" Perdu ou volé" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Misdeclared" languagecode="1033" />
         <label description="Mal déclaré" languagecode="1036" />
@@ -57,7 +57,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Undeclared" languagecode="1033" />
         <label description="Non déclaré" languagecode="1036" />

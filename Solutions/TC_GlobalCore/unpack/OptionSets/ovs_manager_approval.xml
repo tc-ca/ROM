@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="0" ExternalValue="">
+    <option value="0" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Approved" languagecode="1033" />
         <label description="Approuvé" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Rejected" languagecode="1033" />
         <label description="Rejeté" languagecode="1036" />

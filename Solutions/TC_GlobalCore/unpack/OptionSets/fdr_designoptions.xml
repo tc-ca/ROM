@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="794600003">
+    <option value="794600003" IsHidden="0">
       <labels>
         <label description="U" languagecode="1033" />
         <label description="U" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600000" ExternalValue="">
+    <option value="794600000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="V" languagecode="1033" />
         <label description="V" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001" ExternalValue="">
+    <option value="794600001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="T" languagecode="1033" />
         <label description="T" languagecode="1036" />
@@ -41,7 +41,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600002" ExternalValue="">
+    <option value="794600002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="W" languagecode="1033" />
         <label description="W" languagecode="1036" />

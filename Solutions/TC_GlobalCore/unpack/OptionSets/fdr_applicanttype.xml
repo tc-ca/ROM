@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="794600000" ExternalValue="" Color="">
+    <option value="794600000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Container Facility" languagecode="1033" />
         <label description="Installation de contenants" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001" ExternalValue="" Color="">
+    <option value="794600001" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Independent Inspection / Design Validation" languagecode="1033" />
         <label description="Inspection et validation de la conception tiers" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600002" ExternalValue="" Color="">
+    <option value="794600002" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Independent Test" languagecode="1033" />
         <label description="Mise à l'essai tiers" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600003" ExternalValue="" Color="">
+    <option value="794600003" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Training Organization" languagecode="1033" />
         <label description="Organisme de formation" languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600004" ExternalValue="" Color="">
+    <option value="794600004" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Design Engineer" languagecode="1033" />
         <label description="Ingénieur de conception" languagecode="1036" />

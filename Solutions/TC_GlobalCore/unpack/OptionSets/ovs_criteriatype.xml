@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Condition" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Exception" languagecode="1033" />
       </labels>

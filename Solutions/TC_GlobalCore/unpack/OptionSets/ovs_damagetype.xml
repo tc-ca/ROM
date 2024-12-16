@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Ruptured" languagecode="1033" />
         <label description="RUPTURÉ" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cracked/Fractured" languagecode="1033" />
         <label description="FISSURÉ/FRACTURÉ" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Torn/Ripped" languagecode="1033" />
         <label description="DÉFORMÉ/DÉCHIRÉ" languagecode="1036" />
@@ -40,7 +40,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Crushed" languagecode="1033" />
         <label description="ÉCRASÉ" languagecode="1036" />
@@ -49,7 +49,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Collapsed" languagecode="1033" />
         <label description="EFFODRÉ" languagecode="1036" />
@@ -58,7 +58,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Deteriorated" languagecode="1033" />
         <label description="DÉTÉRIORÉ" languagecode="1036" />
@@ -67,7 +67,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Shattered" languagecode="1033" />
         <label description="ÉCLATÉ" languagecode="1036" />
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Melted/Burnt" languagecode="1033" />
         <label description="FONDU / BRÛLÉ" languagecode="1036" />
@@ -85,7 +85,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Dented" languagecode="1033" />
         <label description="CABOSSÉ" languagecode="1036" />
@@ -94,7 +94,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Defective" languagecode="1033" />
         <label description="DÉFECTUEUX" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bent" languagecode="1033" />
         <label description="TORDU" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
         <label description="AUTRE" languagecode="1036" />
@@ -121,7 +121,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="14">
+    <option value="14" IsHidden="0">
       <labels>
         <label description="Punctured by External Force" languagecode="1033" />
         <label description="Percé par une force externe" languagecode="1036" />
@@ -130,7 +130,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="INCONNU" languagecode="1036" />

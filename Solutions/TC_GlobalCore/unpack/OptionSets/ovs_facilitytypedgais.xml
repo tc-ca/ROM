@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Road Terminal" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Distribution Terminal" languagecode="1033" />
         <label description="centre de distribution" languagecode="1036" />
@@ -29,7 +29,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Trucking Company" languagecode="1033" />
         <label description="entreprise de camionnage" languagecode="1036" />
@@ -38,7 +38,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Leasing Company" languagecode="1033" />
         <label description="entreprise de leasing" languagecode="1036" />
@@ -47,7 +47,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tank Maintenance Facility" languagecode="1033" />
         <label description="établissement de maintenance des contenants" languagecode="1036" />
@@ -56,7 +56,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Road Terminal - Trucking Terminal" languagecode="1033" />
         <label description="terminal routier - (non sélectionnable par l'utilisateur)" languagecode="1036" />
@@ -65,7 +65,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Rail Terminal" languagecode="1033" />
         <label description="terminal ferroviaire" languagecode="1036" />
@@ -74,7 +74,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Air Terminal" languagecode="1033" />
         <label description="terminal aérien" languagecode="1036" />
@@ -83,7 +83,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Marine Terminal" languagecode="1033" />
         <label description="terminal maritime" languagecode="1036" />
@@ -92,7 +92,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Warehouse" languagecode="1033" />
         <label description="entrepôt" languagecode="1036" />
@@ -101,7 +101,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bulk Storage Plant" languagecode="1033" />
         <label description="usine de stockage en vrac" languagecode="1036" />
@@ -110,7 +110,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Parking Lot/Gas Station" languagecode="1033" />
         <label description="stationnement/station-essence" languagecode="1036" />
@@ -119,7 +119,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Gas Station" languagecode="1033" />
         <label description="station-essence" languagecode="1036" />
@@ -128,7 +128,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="14" ExternalValue="">
+    <option value="14" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Parking Lot" languagecode="1033" />
         <label description="terrain de stationnement" languagecode="1036" />
@@ -137,7 +137,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="15" ExternalValue="">
+    <option value="15" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Processing Plant" languagecode="1033" />
         <label description="usine de transformation" languagecode="1036" />
@@ -146,7 +146,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="16" ExternalValue="">
+    <option value="16" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Processing - Oil/Gas Plant" languagecode="1033" />
         <label description="usine de transformation - usine pétrole / gaz" languagecode="1036" />
@@ -155,7 +155,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="17" ExternalValue="">
+    <option value="17" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Processing - Food" languagecode="1033" />
         <label description=" usine de transformation - transformation alimentaire" languagecode="1036" />
@@ -164,7 +164,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="18" ExternalValue="">
+    <option value="18" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Chemical/Gas Manufacturer" languagecode="1033" />
         <label description="usine de transformation - fabricant de produits chimiques/de gaz" languagecode="1036" />
@@ -173,7 +173,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="19" ExternalValue="">
+    <option value="19" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hospital/Laboratory" languagecode="1033" />
         <label description="hôpital/laboratoire" languagecode="1036" />
@@ -182,7 +182,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="20" ExternalValue="">
+    <option value="20" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hospital" languagecode="1033" />
         <label description="hôpital" languagecode="1036" />
@@ -191,7 +191,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="21" ExternalValue="">
+    <option value="21" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Laboratory" languagecode="1033" />
         <label description="laboratoire" languagecode="1036" />
@@ -200,7 +200,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="22" ExternalValue="">
+    <option value="22" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other Plant Facility" languagecode="1033" />
         <label description="autre établissement - usine" languagecode="1036" />
@@ -209,7 +209,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="23" ExternalValue="">
+    <option value="23" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fertilizer Facility" languagecode="1033" />
         <label description="usine d'engrais" languagecode="1036" />
@@ -218,7 +218,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="24" ExternalValue="">
+    <option value="24" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Oil Wellhead/Battery" languagecode="1033" />
         <label description="usine - puits de pétrole" languagecode="1036" />
@@ -227,7 +227,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="25" ExternalValue="">
+    <option value="25" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Waste Site(Oil/Gas)" languagecode="1033" />
         <label description="site de déchets (pétrole/gaz)" languagecode="1036" />
@@ -236,7 +236,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="26" ExternalValue="">
+    <option value="26" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Waste Site(Hazardous)" languagecode="1033" />
         <label description="site de déchets (matieres dangereuses)" languagecode="1036" />
@@ -245,7 +245,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="27" ExternalValue="">
+    <option value="27" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Farm" languagecode="1033" />
         <label description="ferme" languagecode="1036" />
@@ -254,7 +254,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="28" ExternalValue="">
+    <option value="28" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="INCONNU" languagecode="1036" />

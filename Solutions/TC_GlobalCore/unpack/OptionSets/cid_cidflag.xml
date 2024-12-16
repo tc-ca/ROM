@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000" ExternalValue="">
+    <option value="100000000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="Inconnu" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="New CID Sites " languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="">
+    <option value="100000001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="In Scope" languagecode="1033" />
         <label description="Non Exempté" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="Any Site that was an Active ROM site and got claimed as a CID Company" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="">
+    <option value="100000002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Exempt" languagecode="1033" />
         <label description="Exempté" languagecode="1036" />

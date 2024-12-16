@@ -8,7 +8,7 @@
     <displayname description="DependencyGroupRuleType" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="930840000">
+    <option value="930840000" IsHidden="0">
       <labels>
         <label description="Visibility" languagecode="1033" />
         <label description="Visibilité" languagecode="1036" />
@@ -18,7 +18,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840001">
+    <option value="930840001" IsHidden="0">
       <labels>
         <label description="Enable Validator" languagecode="1033" />
         <label description="Activer le valideur" languagecode="1036" />
@@ -28,7 +28,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840002">
+    <option value="930840002" IsHidden="0">
       <labels>
         <label description="Set Validator Value" languagecode="1033" />
         <label description="Définir la valeur du valideur" languagecode="1036" />

@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="7" ExternalValue="" Color="#0000ff">
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The regulated party accepted responsibility and mitigated any harm, or no mitigation was required (Low)" languagecode="1033" />
         <label description="La partie réglementée a accepté la responsabilité et a atténué le préjudice, ou aucune atténuation requise (Faible)" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="49" ExternalValue="" Color="#0000ff">
+    <option value="49" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="There was some acceptance of responsibility and an attempt at mitigation was made (Moderate)" languagecode="1033" />
         <label description="La responsabilité a été acceptée dans une certaine mesure et certaines tentatives d'atténuation ont été entreprises (Moyen)" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2401" ExternalValue="" Color="#0000ff">
+    <option value="2401" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="There was no acceptance of responsibility for the non-compliant and/or did not attempt to mitigate its effects (High)" languagecode="1033" />
         <label description="La partie réglementée n'a pas accepté la responsabilité de la non-conformité ou n'a pas tenté d'en atténuer les effets (Élevé)" languagecode="1036" />

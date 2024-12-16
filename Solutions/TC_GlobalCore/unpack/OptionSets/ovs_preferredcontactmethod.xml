@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Any" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Email" languagecode="1033" />
         <label description="Courriel" languagecode="1036" />
@@ -29,7 +29,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Phone" languagecode="1033" />
         <label description="Téléphone" languagecode="1036" />
@@ -38,7 +38,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fax" languagecode="1033" />
       </labels>
@@ -46,7 +46,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Mail" languagecode="1033" />
       </labels>

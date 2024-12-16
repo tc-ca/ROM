@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="794600000" ExternalValue="" Color="#0000ff">
+    <option value="794600000" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Required Registration" languagecode="1033" />
         <label description="Inscription obligatoire" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001" ExternalValue="" Color="#0000ff">
+    <option value="794600001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Equivalency Certificate" languagecode="1033" />
         <label description="Certificat d'équivalence" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600002" ExternalValue="" Color="#0000ff">
+    <option value="794600002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Authorized Locations" languagecode="1033" />
         <label description="Lieux authorisés" languagecode="1036" />

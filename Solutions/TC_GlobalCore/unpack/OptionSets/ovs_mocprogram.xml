@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640002" ExternalValue="" Color="#0000ff">
+    <option value="918640002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Packaging and IBC (UN small packaging, UN Large packaging, UN IBC, infectious substance packaging)" languagecode="1033" />
         <label description="Port UN" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="" Color="#0000ff">
+    <option value="918640003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Rail (Tank cars)" languagecode="1033" />
         <label description="Petits emballages" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640000" ExternalValue="" Color="#0000ff">
+    <option value="918640000" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Highway Tanks (Highway tanks, TC portable tanks and UN Portable tanks)" languagecode="1033" />
         <label description="Citernes routières" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="" Color="#0000ff">
+    <option value="918640001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Cylinders (Cylinders, spheres, tubes, UN pressure receptacles, MEGC's and Ton containers)" languagecode="1033" />
         <label description="Bouteilles" languagecode="1036" />

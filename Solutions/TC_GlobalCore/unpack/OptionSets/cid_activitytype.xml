@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000" ExternalValue="">
+    <option value="100000000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Registration Download" languagecode="1033" />
         <label description="Téléchargement de l’inscription" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="">
+    <option value="100000001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Registration Upload" languagecode="1033" />
         <label description="Téléversement de l’inscription" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="">
+    <option value="100000002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="In Year Download" languagecode="1033" />
         <label description="Téléchargement en cours d’année" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="">
+    <option value="100000003" ExternalValue="" IsHidden="0">
       <labels>
         <label description="In Year Upload " languagecode="1033" />
         <label description="Téléversement en cours d’année " languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000004" ExternalValue="">
+    <option value="100000004" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Year End Download" languagecode="1033" />
         <label description="Téléchargement de fin d’année" languagecode="1036" />
@@ -62,7 +62,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000005" ExternalValue="">
+    <option value="100000005" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Year End Upload" languagecode="1033" />
         <label description="Téléversement en fin d’année" languagecode="1036" />

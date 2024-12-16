@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000">
+    <option value="918640000" IsHidden="0">
       <labels>
         <label description="Draft" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Active" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="Confirmation On-Site" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -41,7 +41,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="Confirmation Received - On-Time" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -51,7 +51,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640004">
+    <option value="918640004" IsHidden="0">
       <labels>
         <label description="Confirmation Received - Late" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -61,7 +61,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640005">
+    <option value="918640005" IsHidden="0">
       <labels>
         <label description="Closed - Unresolved" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -71,7 +71,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640006">
+    <option value="918640006" IsHidden="0">
       <labels>
         <label description="Closed - Escalated" languagecode="1033" />
         <label description="" languagecode="1036" />

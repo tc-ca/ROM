@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tank Truck" languagecode="1033" />
         <label description="Camion-citerne" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tank Trailer" languagecode="1033" />
         <label description="Remorque-citerne" languagecode="1036" />

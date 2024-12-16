@@ -910,31 +910,31 @@
               <Description description="Type d’instance d’une série périodique." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="Not Recurring" languagecode="1033" />
                   <label description="Non périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Recurring Master" languagecode="1033" />
                   <label description="Enregistrement principal périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="Recurring Instance" languagecode="1033" />
                   <label description="Instance périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="3">
+              <option value="3" IsHidden="0">
                 <labels>
                   <label description="Recurring Exception" languagecode="1033" />
                   <label description="Exception périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="4">
+              <option value="4" IsHidden="0">
                 <labels>
                   <label description="Recurring Future Exception" languagecode="1033" />
                   <label description="Exception future périodique" languagecode="1036" />
@@ -995,7 +995,7 @@
               <Description description="Information indiquant si l'activité a été facturée dans le cadre de la résolution d'un incident." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1004,7 +1004,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1067,7 +1067,7 @@
               <Description description="Utilisation interne uniquement." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1076,7 +1076,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1181,7 +1181,7 @@
               <Description description="Information indiquant si l'activité a été créée à partir d'une règle de workflow." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1190,7 +1190,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1296,7 +1296,7 @@
               <Description description="Message vocal laissé." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1305,7 +1305,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1748,55 +1748,55 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="918640000" ExternalValue="" Color="#0000ff">
+              <option value="918640000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Detention Notice" languagecode="1033" />
                   <label description="Avis de rétention" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640001" ExternalValue="" Color="#0000ff">
+              <option value="918640001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Notice of Direction To Remedy" languagecode="1033" />
                   <label description="Avis d'ordre de prendre des mesures correctives" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640002" ExternalValue="" Color="#0000ff">
+              <option value="918640002" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Notice of Direction Not To Import" languagecode="1033" />
                   <label description="Avis d'ordre de ne pas importer ou de renvoyer au point de départ" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640003" ExternalValue="" Color="#0000ff">
+              <option value="918640003" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Direction issued under Subsection 19(1)" languagecode="1033" />
                   <label description="Ordre émis en vertu du paragraphe 19(1)" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640004" ExternalValue="" Color="#0000ff">
+              <option value="918640004" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Notice of Infraction" languagecode="1033" />
                   <label description="Avis d'infraction" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640005" ExternalValue="" Color="#0000ff">
+              <option value="918640005" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Ticket" languagecode="1033" />
                   <label description="Contravention" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640006" ExternalValue="" Color="#0000ff">
+              <option value="918640006" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Investigation" languagecode="1033" />
                   <label description="Enquête" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640007">
+              <option value="918640007" IsHidden="0">
                 <labels>
                   <label description="Notice of defective construction or recall 9(2)" languagecode="1033" />
                   <label description="Avis de défectuosité ou de rappel 9(2)" languagecode="1036" />
                 </labels>
               </option>
-              <option value="918640008">
+              <option value="918640008" IsHidden="0">
                 <labels>
                   <label description="Notice of defective repair or defective testing 9(3)" languagecode="1033" />
                   <label description="Avis d’échec de réparation ou de mise à l’essai 9(3)" languagecode="1036" />
@@ -1897,13 +1897,13 @@
               <Description description="Exists a Court Order of a Case Report" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2003,13 +2003,13 @@
               <Description description="Are Judge's Comments attached?" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2441,13 +2441,13 @@
               <Description description="Exists evidence documents for the Recommendation for Prosecution? Yes or No" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2506,13 +2506,13 @@
               <Description description="Exists any Photography for the Recommendation for Prosecution? Yes or No" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2571,13 +2571,13 @@
               <Description description="Exists evidence samples for the Recommendation for Prosecution? Yes or No" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2636,13 +2636,13 @@
               <Description description="Exists any Statement for the Recommendation for Prosecution" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -3156,13 +3156,13 @@
               <Description description="Inspectors will choose this value to indicate that the reason for the Detention Notice is related to DGs." languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -3221,13 +3221,13 @@
               <Description description="Inspector will indicate this if the Detention Notice is related to MOCs" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -3747,19 +3747,19 @@
               <Description description="Priorité de l'activité." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="Low" languagecode="1033" />
                   <label description="Faible" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Normal" languagecode="1033" />
                   <label description="Normale" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="Élevée" languagecode="1036" />
                   <label description="High" languagecode="1033" />

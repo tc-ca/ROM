@@ -719,7 +719,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="794600000" ExternalValue="">
+              <option value="794600000" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Parent" languagecode="1033" />
                   <label description="Modèle type" languagecode="1036" />
@@ -729,7 +729,7 @@
                   <Description description="" languagecode="1036" />
                 </Descriptions>
               </option>
-              <option value="794600001" ExternalValue="">
+              <option value="794600001" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Child" languagecode="1033" />
                   <label description="Modèle dérivé" languagecode="1036" />

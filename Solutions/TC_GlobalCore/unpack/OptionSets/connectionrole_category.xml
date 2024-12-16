@@ -12,7 +12,7 @@
     <Description description="Catégories des rôles de connexion." languagecode="1036" />
   </Descriptions>
   <options>
-    <option value="1">
+    <option value="1" IsHidden="0">
       <labels>
         <label description="Business" languagecode="1033" />
         <label description="Professionnel" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2">
+    <option value="2" IsHidden="0">
       <labels>
         <label description="Family" languagecode="1033" />
         <label description="Famille" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="3">
+    <option value="3" IsHidden="0">
       <labels>
         <label description="Social" languagecode="1033" />
         <label description="Social" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="4">
+    <option value="4" IsHidden="0">
       <labels>
         <label description="Sales" languagecode="1033" />
         <label description="Ventes" languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="5">
+    <option value="5" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
         <label description="Autre" languagecode="1036" />
@@ -62,7 +62,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1000">
+    <option value="1000" IsHidden="0">
       <labels>
         <label description="Stakeholder" languagecode="1033" />
         <label description="Partie prenante" languagecode="1036" />
@@ -72,7 +72,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1001">
+    <option value="1001" IsHidden="0">
       <labels>
         <label description="Sales Team" languagecode="1033" />
         <label description="ÉQUIPE DES VENTES" languagecode="1036" />
@@ -82,7 +82,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1002">
+    <option value="1002" IsHidden="0">
       <labels>
         <label description="Service" languagecode="1033" />
         <label description="Service" languagecode="1036" />
@@ -92,7 +92,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="FDR" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -102,7 +102,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="TDG" languagecode="1033" />
       </labels>
@@ -110,7 +110,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="CID" languagecode="1033" />
       </labels>

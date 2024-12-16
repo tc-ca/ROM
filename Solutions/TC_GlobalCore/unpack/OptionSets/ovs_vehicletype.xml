@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Truck" languagecode="1033" />
         <label description="CAMION" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Farm Tractor" languagecode="1033" />
         <label description="TRACTEUR DE FERME" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Off Road Vehicle" languagecode="1033" />
         <label description="VEHICULE HORS ROUTE" languagecode="1036" />
@@ -40,7 +40,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown Road Vehicle" languagecode="1033" />
         <label description="VEHICULE ROUTIER INCONNU" languagecode="1036" />
@@ -49,7 +49,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Car/Bus" languagecode="1033" />
         <label description="Voiture / BUS" languagecode="1036" />
@@ -58,7 +58,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Locomotive" languagecode="1033" />
         <label description="Locomotive" languagecode="1036" />
@@ -67,7 +67,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown Rail Vehicle" languagecode="1033" />
         <label description="VEHICULE FERROVIAIRE INCONNU" languagecode="1036" />
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Ship" languagecode="1033" />
         <label description="NAVIRE" languagecode="1036" />
@@ -85,7 +85,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Barge" languagecode="1033" />
         <label description="BARGE" languagecode="1036" />
@@ -94,7 +94,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown Marine Vehicle" languagecode="1033" />
         <label description="VEHICULE MARITIME INCONNU" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Airplane" languagecode="1033" />
         <label description="AVION" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Helicopter" languagecode="1033" />
         <label description="HÉLICOPTÈRE" languagecode="1036" />
@@ -121,7 +121,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown Air Vehicle" languagecode="1033" />
         <label description="VEHICULE AERIEN INCONNU" languagecode="1036" />

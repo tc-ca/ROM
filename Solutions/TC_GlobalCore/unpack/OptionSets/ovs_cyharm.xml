@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="7" ExternalValue="" Color="#0000ff">
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="No actual harm and/or the potential actual harm was slight (Low)" languagecode="1033" />
         <label description="Pas de préjudice réel et/ou le risque de préjudice réel était faible (Faible)" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="49" ExternalValue="" Color="#0000ff">
+    <option value="49" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Some actual harm but not significant and/or there was a realistic potential for actual harm to occur (Moderate)" languagecode="1033" />
         <label description="Un certain préjudice réel, mais non considérable et/ou il y avait un risque potentiel réel qu'un préjudice se produise (Moyen)" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2401" ExternalValue="" Color="#0000ff">
+    <option value="2401" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Actual harm and/or realistic potential that significant harm could have occurred (High)" languagecode="1033" />
         <label description="Un préjudice réel et/ou un risque potentiel réel de préjudice important qui aurait pu se produire (Élevé)" languagecode="1036" />

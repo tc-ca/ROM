@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="7" ExternalValue="" Color="#0000ff">
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Accident for which the regulated party is responsible and still occurred (Low)" languagecode="1033" />
         <label description="Accident dont la partie réglementé est responsable et qui s'est quand même produit (Faible)" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="49" ExternalValue="" Color="#0000ff">
+    <option value="49" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="It was foreseeable as something that could have happened and the regulated party took the risk anyway (Moderate)" languagecode="1033" />
         <label description="C'était prévisible comme quelque chose susceptible de se produire et la partie réglementée a pris le risque de toute façon (Moyen)" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2401" ExternalValue="" Color="#0000ff">
+    <option value="2401" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The regulated party deliberately took the steps and committed the non-compliance (High)" languagecode="1033" />
         <label description="La partie réglementée a délibérément pris des mesures et a commis la non-conformité (Élevée)" languagecode="1036" />

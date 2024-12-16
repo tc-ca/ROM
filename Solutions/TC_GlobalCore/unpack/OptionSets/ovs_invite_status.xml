@@ -12,7 +12,7 @@
     <Description description="The choice assigned to identify a Status of the Organization Invite Request (Rejected, Sent, Approved, Expired etc.)" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="0">
+    <option value="0" IsHidden="0">
       <labels>
         <label description="Draft" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Sent" languagecode="1033" />
       </labels>
@@ -28,7 +28,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Approved" languagecode="1033" />
       </labels>
@@ -36,7 +36,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Expired" languagecode="1033" />
       </labels>
@@ -44,7 +44,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Rejected" languagecode="1033" />
       </labels>
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5">
+    <option value="5" IsHidden="0">
       <labels>
         <label description="Pending Send" languagecode="1033" />
       </labels>

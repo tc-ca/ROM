@@ -9,7 +9,7 @@
     <displayname description="Duplicate site Flag" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="sale / merger / acquisition" languagecode="1033" />
         <label description="Cession / fusion / acquisition" languagecode="1036" />
@@ -18,7 +18,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Shared" languagecode="1033" />
         <label description="Partagė" languagecode="1036" />

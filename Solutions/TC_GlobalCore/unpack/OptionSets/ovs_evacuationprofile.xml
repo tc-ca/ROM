@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Employee(s)" languagecode="1033" />
         <label description="Employés" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Emergency Response Personnel" languagecode="1033" />
         <label description="PERSONNEL D'INTERVENTION D'URGENCE" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Resident(s)/Other(s)" languagecode="1033" />
         <label description="Résidents / autres" languagecode="1036" />
@@ -40,7 +40,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Not Specified/Unknown" languagecode="1033" />
         <label description="Non spécifié / inconnu" languagecode="1036" />

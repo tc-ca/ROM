@@ -399,7 +399,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Item" languagecode="1033" />
                   <label description="Élément" languagecode="1036" />
@@ -458,13 +458,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -563,13 +563,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Conflict" languagecode="1033" />
                   <label description="Conflit" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No Conflict" languagecode="1033" />
                   <label description="Absence de conflit" languagecode="1036" />
@@ -668,13 +668,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Manual" languagecode="1033" />
                   <label description="Manuel" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Automated" languagecode="1033" />
                   <label description="Automatique" languagecode="1036" />
@@ -1405,31 +1405,31 @@
               <Description description="Type of instance of a recurring series." languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="Non récurrent" languagecode="1036" />
                   <label description="Not Recurring" languagecode="1033" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Maître récurrent" languagecode="1036" />
                   <label description="Recurring Master" languagecode="1033" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="Instance récurrente" languagecode="1036" />
                   <label description="Recurring Instance" languagecode="1033" />
                 </labels>
               </option>
-              <option value="3">
+              <option value="3" IsHidden="0">
                 <labels>
                   <label description="Exception récurrente" languagecode="1036" />
                   <label description="Recurring Exception" languagecode="1033" />
                 </labels>
               </option>
-              <option value="4">
+              <option value="4" IsHidden="0">
                 <labels>
                   <label description="Exception future récurrente" languagecode="1036" />
                   <label description="Recurring Future Exception" languagecode="1033" />
@@ -1490,13 +1490,13 @@
               <Description description="Information regarding whether the activity was billed as part of resolving a case." languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1556,13 +1556,13 @@
               <Description description="Utilisation interne uniquement." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1664,13 +1664,13 @@
               <Description description="Information regarding whether the activity was created from a workflow rule." languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1773,13 +1773,13 @@
               <Description description="Message vocal laissé." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -2395,19 +2395,19 @@
               <Description description="Priority of the activity." languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="Low" languagecode="1033" />
                   <label description="Faible" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Normal" languagecode="1033" />
                   <label description="Normale" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="Élevée" languagecode="1036" />
                   <label description="High" languagecode="1033" />

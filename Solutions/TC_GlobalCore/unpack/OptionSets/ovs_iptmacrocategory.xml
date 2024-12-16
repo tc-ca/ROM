@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000" ExternalValue="" Color="#0000ff">
+    <option value="918640000" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="General (Without Consignment)" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="" Color="#0000ff">
+    <option value="918640001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Consignment" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="" Color="#0000ff">
+    <option value="918640002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="MOC" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="" Color="#0000ff">
+    <option value="918640003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
         <label description="" languagecode="1036" />

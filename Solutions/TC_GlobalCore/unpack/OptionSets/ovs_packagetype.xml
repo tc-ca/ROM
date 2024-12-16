@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bags" languagecode="1033" />
         <label description="Sacs" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Barrels" languagecode="1033" />
         <label description="Barils" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Boxes" languagecode="1033" />
         <label description="Boîtes" languagecode="1036" />
@@ -40,7 +40,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bottles" languagecode="1033" />
         <label description="Bouteilles" languagecode="1036" />
@@ -49,7 +49,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bulk" languagecode="1033" />
         <label description="En gros" languagecode="1036" />
@@ -58,7 +58,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Jars" languagecode="1033" />
         <label description="Pots" languagecode="1036" />
@@ -67,7 +67,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Carboys" languagecode="1033" />
         <label description="Bonbonnes" languagecode="1036" />
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bales" languagecode="1033" />
         <label description="Balles" languagecode="1036" />
@@ -85,7 +85,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bins" languagecode="1033" />
         <label description="Bacs" languagecode="1036" />
@@ -94,7 +94,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cans" languagecode="1033" />
         <label description=" Contenants aérosols" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cartons" languagecode="1033" />
         <label description="Boîtes de carton" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cases" languagecode="1033" />
         <label description="Coffres" languagecode="1036" />
@@ -121,7 +121,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Containers" languagecode="1033" />
         <label description="Contenants" languagecode="1036" />
@@ -130,7 +130,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="14" ExternalValue="">
+    <option value="14" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Crates" languagecode="1033" />
         <label description="Caisses" languagecode="1036" />
@@ -139,7 +139,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="15" ExternalValue="">
+    <option value="15" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cylinders" languagecode="1033" />
         <label description="Bouteilles à gaz" languagecode="1036" />
@@ -148,7 +148,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="16" ExternalValue="">
+    <option value="16" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cartridges" languagecode="1033" />
         <label description="Cartouches" languagecode="1036" />
@@ -157,7 +157,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="17" ExternalValue="">
+    <option value="17" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Drums" languagecode="1033" />
         <label description="Fûts" languagecode="1036" />
@@ -166,7 +166,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="18" ExternalValue="">
+    <option value="18" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Jugs" languagecode="1033" />
         <label description="Cruches" languagecode="1036" />
@@ -175,7 +175,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="19" ExternalValue="">
+    <option value="19" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Miscellaneous Packages (Includes Envelopes, Mail Bags and Parcels)" languagecode="1033" />
         <label description="Colis divers (comprend les enveloppes, le courrier, les sacs et les colis)" languagecode="1036" />
@@ -184,7 +184,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="20" ExternalValue="">
+    <option value="20" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pails" languagecode="1033" />
         <label description="Seaux" languagecode="1036" />
@@ -193,7 +193,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="21" ExternalValue="">
+    <option value="21" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tanks" languagecode="1033" />
         <label description="Réservoirs" languagecode="1036" />
@@ -202,7 +202,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="22" ExternalValue="">
+    <option value="22" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Vials" languagecode="1033" />
         <label description="Flacons" languagecode="1036" />
@@ -211,7 +211,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="23" ExternalValue="">
+    <option value="23" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pallets/Skids" languagecode="1033" />
         <label description="Palettes" languagecode="1036" />
@@ -220,7 +220,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="24" ExternalValue="">
+    <option value="24" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Transformer" languagecode="1033" />
         <label description="Transformateur" languagecode="1036" />
@@ -229,7 +229,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="25" ExternalValue="">
+    <option value="25" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Baggage" languagecode="1033" />
         <label description="Baggages" languagecode="1036" />
@@ -238,7 +238,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="26" ExternalValue="">
+    <option value="26" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Equipment or Appliances with Batteries" languagecode="1033" />
         <label description="Équipements ou appareils avec piles" languagecode="1036" />
@@ -247,7 +247,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="27" ExternalValue="">
+    <option value="27" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tote Tanks" languagecode="1033" />
         <label description="Bacs citernes" languagecode="1036" />
@@ -256,7 +256,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="28" ExternalValue="">
+    <option value="28" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Jerrican" languagecode="1033" />
         <label description="Jerrican" languagecode="1036" />
@@ -265,7 +265,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="29" ExternalValue="">
+    <option value="29" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other (Includes Generator, Pipeline Camera, Cargo, Engine)" languagecode="1033" />
         <label description="Autre (comprend un générateur, une caméra de pipeline, une cargaison, un moteur)" languagecode="1036" />
@@ -274,7 +274,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="30" ExternalValue="">
+    <option value="30" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="Inconnu" languagecode="1036" />

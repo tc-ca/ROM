@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000">
+    <option value="918640000" IsHidden="0">
       <labels>
         <label description="Out of time" languagecode="1033" />
         <label description="Hors délai" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Out of resources" languagecode="1033" />
         <label description="Manque de ressources" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="Unable to book" languagecode="1033" />
         <label description="Impossible de réserver" languagecode="1036" />

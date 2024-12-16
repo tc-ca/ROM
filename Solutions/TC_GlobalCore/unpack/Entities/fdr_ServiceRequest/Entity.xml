@@ -1560,7 +1560,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Draft" languagecode="1033" />
                 </labels>
@@ -1568,7 +1568,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="918640001" ExternalValue="">
+              <option value="918640001" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Pending Registration" languagecode="1033" />
                 </labels>
@@ -1576,7 +1576,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="918640002" ExternalValue="">
+              <option value="918640002" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Registered" languagecode="1033" />
                 </labels>
@@ -1584,7 +1584,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="918640005" ExternalValue="">
+              <option value="918640005" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Expired" languagecode="1033" />
                 </labels>
@@ -1592,7 +1592,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="918640003" ExternalValue="">
+              <option value="918640003" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Closed" languagecode="1033" />
                 </labels>

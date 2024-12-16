@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="794600002" ExternalValue="" Color="#0000ff">
+    <option value="794600002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Personnel Training" languagecode="1033" />
         <label description="Formation du personnel" languagecode="1036" />

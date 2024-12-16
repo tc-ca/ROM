@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000" ExternalValue="" Color="#0000ff">
+    <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Handling" languagecode="1033" />
         <label description="Manutention" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="#0000ff">
+    <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Offering for Transport" languagecode="1033" />
         <label description="Offre de transport" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="#0000ff">
+    <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Transporting" languagecode="1033" />
         <label description="Transport" languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="" Color="#0000ff">
+    <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Importing" languagecode="1033" />
         <label description="Importation" languagecode="1036" />

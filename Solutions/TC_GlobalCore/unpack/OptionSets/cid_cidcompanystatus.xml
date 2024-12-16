@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000006" ExternalValue="" Color="#0000ff">
+    <option value="100000006" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: Part of CID reporting" languagecode="1033" />
         <label description="Actif : Fait partie de la production de rapport BDIC" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000005" ExternalValue="" Color="#0000ff">
+    <option value="100000005" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Registration Valid" languagecode="1033" />
         <label description="Inscription valide" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000007" ExternalValue="" Color="#0000ff">
+    <option value="100000007" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactivated via CID" languagecode="1033" />
         <label description="Inactif : Rendu inactif par la BDIC" languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000008" ExternalValue="" Color="#0000ff">
+    <option value="100000008" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Not Applicable: ROM Organization not required to register" languagecode="1033" />
         <label description="Sans objet : Organisation GSR n’a pas besoin de s’inscrire" languagecode="1036" />
@@ -53,7 +53,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000000" ExternalValue="" Color="">
+    <option value="100000000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Initial Registration - Organization Complete" languagecode="1033" />
         <label description="Inscription initiale - Organisation terminée" languagecode="1036" />
@@ -63,7 +63,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000009" ExternalValue="" Color="#0000ff">
+    <option value="100000009" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Initial Registration - Site In Progress" languagecode="1033" />
         <label description="Inscription initiale - Site en cours" languagecode="1036" />
@@ -73,7 +73,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000004" ExternalValue="" Color="#0000ff">
+    <option value="100000004" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Active: Pending registration, email invitation sent" languagecode="1033" />
         <label description="Actif en attente : En attente de l’inscription, invitation par courriel envoyée" languagecode="1036" />
@@ -83,7 +83,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="" Color="#0000ff">
+    <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Active: Pending registration, no email invitation sent" languagecode="1033" />
         <label description="Actif en attente : En attente de l’inscription, aucune invitation par courriel envoyé" languagecode="1036" />
@@ -93,7 +93,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000010" ExternalValue="" Color="#0000ff">
+    <option value="100000010" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Active: Pending registration, email invitation pending to be sent" languagecode="1033" />
         <label description="Actif en attente : En attente de l’inscription, invitation par courriel en attente d’envoi" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="">
+    <option value="100000001" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Initial Registration - Organization In Progress" languagecode="1033" />
         <label description="Inscription initiale - Organisation en cours" languagecode="1036" />
@@ -113,7 +113,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="#0000ff">
+    <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Unknown: Pending classification as ROM only, or CID registered" languagecode="1033" />
         <label description="Inconnu : En attente de classification à titre de GSR, ou d’inscription à la BDIC" languagecode="1036" />
@@ -123,7 +123,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="278410001">
+    <option value="278410001" IsHidden="0">
       <labels>
         <label description="Pending Active, Registration Started, Duplicate CORE Data." languagecode="1033" />
       </labels>
@@ -131,7 +131,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Registration Overdue" languagecode="1033" />
         <label description="Inscription en retard" languagecode="1036" />
@@ -140,7 +140,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="Unregistered" languagecode="1033" />
         <label description="Non enregistré" languagecode="1036" />

@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Package Material" languagecode="1033" />
         <label description="MATÉRIEL DU PAQUET" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Dome/Hatch/Manway Cover" languagecode="1033" />
         <label description="COUVERCLE DÔME / TRAPPE / MANWAY" languagecode="1036" />
@@ -30,7 +30,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="">
+    <option value="918640002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Vent" languagecode="1033" />
         <label description="CONDUIT" languagecode="1036" />
@@ -39,7 +39,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="">
+    <option value="918640003" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Valve" languagecode="1033" />
         <label description="VALVE" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640004" ExternalValue="">
+    <option value="918640004" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pipe" languagecode="1033" />
         <label description="VALVE ET TUYAU" languagecode="1036" />
@@ -57,7 +57,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640005" ExternalValue="">
+    <option value="918640005" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fittings" languagecode="1033" />
         <label description="RACCORDS" languagecode="1036" />
@@ -66,7 +66,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640006" ExternalValue="">
+    <option value="918640006" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Gasket" languagecode="1033" />
         <label description="RACCORDS ET JOINT" languagecode="1036" />
@@ -75,7 +75,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640007" ExternalValue="">
+    <option value="918640007" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hose/Transfer System" languagecode="1033" />
         <label description="RACCORDS ET SYSTÈME DE TUYAU / TRANSFERT" languagecode="1036" />
@@ -84,7 +84,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640008" ExternalValue="">
+    <option value="918640008" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Closure" languagecode="1033" />
         <label description="FERMETURE" languagecode="1036" />
@@ -93,7 +93,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640009" ExternalValue="">
+    <option value="918640009" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Chime" languagecode="1033" />
         <label description="CARILLON" languagecode="1036" />
@@ -102,7 +102,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640010" ExternalValue="">
+    <option value="918640010" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Weld" languagecode="1033" />
         <label description="SOUDURE" languagecode="1036" />
@@ -111,7 +111,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640011" ExternalValue="">
+    <option value="918640011" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Seams" languagecode="1033" />
         <label description="COUTURES" languagecode="1036" />
@@ -120,7 +120,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640012" ExternalValue="">
+    <option value="918640012" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Inner Liner/Outer Shell" languagecode="1033" />
         <label description="DOUBLURE INTÉRIEURE / COQUE EXTÉRIEURE" languagecode="1036" />
@@ -129,7 +129,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640013" ExternalValue="">
+    <option value="918640013" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Gauging Device Assembly" languagecode="1033" />
         <label description="DISPOSITIF DE JAUGE" languagecode="1036" />
@@ -138,7 +138,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640014" ExternalValue="">
+    <option value="918640014" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Multiple Location" languagecode="1033" />
         <label description="LIEU MULTIPLE" languagecode="1036" />
@@ -147,7 +147,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640015" ExternalValue="">
+    <option value="918640015" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Front Unit" languagecode="1033" />
         <label description="UNITÉ AVANT" languagecode="1036" />
@@ -156,7 +156,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640016" ExternalValue="">
+    <option value="918640016" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Back Unit" languagecode="1033" />
         <label description="UNITÉ ARRIÈRE" languagecode="1036" />
@@ -165,7 +165,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640017" ExternalValue="">
+    <option value="918640017" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Side Unit" languagecode="1033" />
         <label description="UNITÉ LATÉRALE" languagecode="1036" />
@@ -174,7 +174,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640018" ExternalValue="">
+    <option value="918640018" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Stationary Tank" languagecode="1033" />
         <label description="RÉSERVOIR STATIONNAIRE" languagecode="1036" />
@@ -183,7 +183,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640019" ExternalValue="">
+    <option value="918640019" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
         <label description="AUTRES" languagecode="1036" />
@@ -192,7 +192,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640020" ExternalValue="">
+    <option value="918640020" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="INCONNUE" languagecode="1036" />

@@ -85,25 +85,25 @@
               <Description description="Type de l'adresse 1, tel que l'adresse de facturation, l'adresse d'expédition ou l'adresse principale." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Bill To" languagecode="1033" />
                   <label description="Facturation" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="Ship To" languagecode="1033" />
                   <label description="Expédition" languagecode="1036" />
                 </labels>
               </option>
-              <option value="3">
+              <option value="3" IsHidden="0">
                 <labels>
                   <label description="Primary" languagecode="1033" />
                   <label description="Principale" languagecode="1036" />
                 </labels>
               </option>
-              <option value="4">
+              <option value="4" IsHidden="0">
                 <labels>
                   <label description="Other" languagecode="1033" />
                   <label description="Autre" languagecode="1036" />
@@ -336,13 +336,13 @@
               <Description description="Conditions de transport de l’adresse 1." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="FOB" languagecode="1033" />
                   <label description="FAB" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="No Charge" languagecode="1033" />
                   <label description="Sans frais" languagecode="1036" />
@@ -720,43 +720,43 @@
               <Description description="Méthode d’expédition pour l’adresse 1." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Airborne" languagecode="1033" />
                   <label description="Aérien" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="DHL" languagecode="1033" />
                   <label description="DHL" languagecode="1036" />
                 </labels>
               </option>
-              <option value="3">
+              <option value="3" IsHidden="0">
                 <labels>
                   <label description="FedEx" languagecode="1033" />
                   <label description="FedEx" languagecode="1036" />
                 </labels>
               </option>
-              <option value="4">
+              <option value="4" IsHidden="0">
                 <labels>
                   <label description="UPS" languagecode="1033" />
                   <label description="UPS" languagecode="1036" />
                 </labels>
               </option>
-              <option value="5">
+              <option value="5" IsHidden="0">
                 <labels>
                   <label description="Postal Mail" languagecode="1033" />
                   <label description="Courrier postal" languagecode="1036" />
                 </labels>
               </option>
-              <option value="6">
+              <option value="6" IsHidden="0">
                 <labels>
                   <label description="Full Load" languagecode="1033" />
                   <label description="Pleine charge" languagecode="1036" />
                 </labels>
               </option>
-              <option value="7">
+              <option value="7" IsHidden="0">
                 <labels>
                   <label description="Will Call" languagecode="1033" />
                   <label description="Appellera" languagecode="1036" />
@@ -1031,13 +1031,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1097,13 +1097,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" ExternalValue="">
+              <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1204,13 +1204,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1560,13 +1560,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -1710,49 +1710,49 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Start" languagecode="1033" />
                   <label description="Début" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Company Details" languagecode="1033" />
                   <label description="Détails de l'entreprise Détails de l'entreprise" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000002" ExternalValue="" Color="#0000ff">
+              <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Contacts" languagecode="1033" />
                   <label description="Personnes-ressources" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000003" ExternalValue="" Color="#0000ff">
+              <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="NAICS Codes" languagecode="1033" />
                   <label description="Codes du SCIAN" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000004" ExternalValue="" Color="#0000ff">
+              <option value="100000004" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="ERAPs" languagecode="1033" />
                   <label description="PIU" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000005" ExternalValue="" Color="#0000ff">
+              <option value="100000005" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Attestation" languagecode="1033" />
                   <label description="Certification" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000006" ExternalValue="" Color="#0000ff">
+              <option value="100000006" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Sites" languagecode="1033" />
                   <label description="Sites" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000007" ExternalValue="" Color="#0000ff">
+              <option value="100000007" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Application Submission" languagecode="1033" />
                   <label description="Présentation de la demande" languagecode="1036" />
@@ -1853,13 +1853,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2044,13 +2044,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -2111,13 +2111,13 @@
               <Description description="NOUVEAU" languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -2177,13 +2177,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -2243,13 +2243,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2309,13 +2309,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2375,13 +2375,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -2690,13 +2690,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -2924,19 +2924,19 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Organization and all of its Sites are no longer operational" languagecode="1033" />
                   <label description="L’organisation et tous ses sites ne font plus affaires" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Organization and its Sites are being sold to another Organization" languagecode="1033" />
                   <label description="L’organisation et ses sites sont vendus à une autre organisation" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000002" ExternalValue="" Color="#0000ff">
+              <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Organization and its Sites are being merged into another Organization" languagecode="1033" />
                   <label description="L’organisation et ses sites sont fusionnés dans une autre organisation" languagecode="1036" />
@@ -3079,25 +3079,25 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Still owned, but no longer dealing with dangerous goods" languagecode="1033" />
                   <label description="Toujours propriétaire, mais ne traite plus de marchandises dangereuses" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Still owned and no activity at all" languagecode="1033" />
                   <label description="Toujours propriétaire et aucune activité" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000002" ExternalValue="" Color="#0000ff">
+              <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No longer owned by this Company" languagecode="1033" />
                   <label description="L’organisation n’est plus propriétaire" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000003" ExternalValue="" Color="#0000ff">
+              <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No longer owned as Company is no longer in operations" languagecode="1033" />
                   <label description="L’organisation ne fait plus affaires" languagecode="1036" />
@@ -3404,13 +3404,13 @@
               <Description description="Identique à l'adresse de l'entreprise?" languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -3969,13 +3969,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -4110,7 +4110,7 @@
               <Description description="Type de compte." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="794600000" ExternalValue="" Color="#0000ff">
+              <option value="794600000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="FDR Authorized Location" languagecode="1033" />
                   <label description="Emplacement autorisé RICI" languagecode="1036" />
@@ -4119,7 +4119,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="1" ExternalValue="" Color="">
+              <option value="1" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Competitor" languagecode="1033" />
                   <label description="Concurrent" languagecode="1036" />
@@ -4128,7 +4128,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="2" ExternalValue="" Color="">
+              <option value="2" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Consultant" languagecode="1033" />
                   <label description="Consultant" languagecode="1036" />
@@ -4137,7 +4137,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="3" ExternalValue="" Color="">
+              <option value="3" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Customer" languagecode="1033" />
                   <label description="Client" languagecode="1036" />
@@ -4146,7 +4146,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="4" ExternalValue="" Color="">
+              <option value="4" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Investor" languagecode="1033" />
                   <label description="Investisseur" languagecode="1036" />
@@ -4155,7 +4155,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="5" ExternalValue="" Color="">
+              <option value="5" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Partner" languagecode="1033" />
                   <label description="Partenaire" languagecode="1036" />
@@ -4165,7 +4165,7 @@
                   <Description description="The insurance provider." languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="6" ExternalValue="" Color="">
+              <option value="6" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Influencer" languagecode="1033" />
                   <label description="Influenceur" languagecode="1036" />
@@ -4174,7 +4174,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="7" ExternalValue="" Color="">
+              <option value="7" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Press" languagecode="1033" />
                   <label description="Presse" languagecode="1036" />
@@ -4183,7 +4183,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="8" ExternalValue="" Color="">
+              <option value="8" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Prospect" languagecode="1033" />
                   <label description="Prospect" languagecode="1036" />
@@ -4192,7 +4192,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="9" ExternalValue="" Color="">
+              <option value="9" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Reseller" languagecode="1033" />
                   <label description="Revendeur" languagecode="1036" />
@@ -4201,7 +4201,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="10" ExternalValue="" Color="">
+              <option value="10" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Supplier" languagecode="1033" />
                   <label description="Fournisseur" languagecode="1036" />
@@ -4210,7 +4210,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="11" ExternalValue="" Color="">
+              <option value="11" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Vendor" languagecode="1033" />
                   <label description="Fournisseur" languagecode="1036" />
@@ -4219,7 +4219,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="12" ExternalValue="" Color="">
+              <option value="12" ExternalValue="" Color="" IsHidden="0">
                 <labels>
                   <label description="Other" languagecode="1033" />
                   <label description="Autre" languagecode="1036" />
@@ -4228,7 +4228,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="948010000" ExternalValue="" Color="#0000ff">
+              <option value="948010000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Parent Company" languagecode="1033" />
                   <label description="Nom de la société mère" languagecode="1036" />
@@ -4237,7 +4237,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="948010001" ExternalValue="" Color="#0000ff">
+              <option value="948010001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Site" languagecode="1033" />
                   <label description="Site" languagecode="1036" />
@@ -4246,7 +4246,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="13" ExternalValue="" Color="#0000ff">
+              <option value="13" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Other" languagecode="1033" />
                   <label description="Autre" languagecode="1036" />
@@ -4863,13 +4863,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" ExternalValue="">
+              <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -4928,7 +4928,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Classifying Dangerous Goods" languagecode="1033" />
                   <label description="Classification des marchandises dangereuses" languagecode="1036" />
@@ -4937,7 +4937,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="2" ExternalValue="">
+              <option value="2" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Preparing Dangerous Goods Shipment" languagecode="1033" />
                   <label description="Préparation d’une expédition de marchandises dangereuses" languagecode="1036" />
@@ -4946,7 +4946,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="3" ExternalValue="">
+              <option value="3" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Processing/Accepting Cargo" languagecode="1033" />
                   <label description="Traitement et acceptation du fret" languagecode="1036" />
@@ -4955,7 +4955,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="4" ExternalValue="">
+              <option value="4" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Managing Cargo Pre-Loading" languagecode="1033" />
                   <label description="Gestion du préchargement du fret" languagecode="1036" />
@@ -4964,7 +4964,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="5" ExternalValue="">
+              <option value="5" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Accepting Passenger and Crew Baggage" languagecode="1033" />
                   <label description="Acceptation des bagages des passagers et des membres d’équipage" languagecode="1036" />
@@ -4973,7 +4973,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="6" ExternalValue="">
+              <option value="6" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Transporting Cargo/Baggage" languagecode="1033" />
                   <label description="Transport de fret et des bagages" languagecode="1036" />
@@ -4982,7 +4982,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="7" ExternalValue="">
+              <option value="7" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Collecting Safety Data" languagecode="1033" />
                   <label description="Collecte de données sur la sécurité" languagecode="1036" />
@@ -5044,7 +5044,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="604 Private Operator" languagecode="1033" />
                   <label description="604 Opérateur privé" languagecode="1036" />
@@ -5053,7 +5053,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="2" ExternalValue="">
+              <option value="2" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="702 Aerial Work" languagecode="1033" />
                   <label description="702 Travail aérien" languagecode="1036" />
@@ -5062,7 +5062,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="3" ExternalValue="">
+              <option value="3" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="703 Air Taxi" languagecode="1033" />
                   <label description="703 Taxi aérien" languagecode="1036" />
@@ -5071,7 +5071,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="4" ExternalValue="">
+              <option value="4" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="704 Commuter Operations" languagecode="1033" />
                   <label description="704 Aéronef-navette" languagecode="1036" />
@@ -5080,7 +5080,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="5" ExternalValue="">
+              <option value="5" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="705 Airline Operations" languagecode="1033" />
                   <label description="705 Exploitation" languagecode="1036" />
@@ -5142,7 +5142,7 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Cargo Aircraft" languagecode="1033" />
                   <label description="Aéronef cargo" languagecode="1036" />
@@ -5151,7 +5151,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="2" ExternalValue="">
+              <option value="2" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Combi Aircraft" languagecode="1033" />
                   <label description="Aéronef Combi" languagecode="1036" />
@@ -5160,7 +5160,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="3" ExternalValue="">
+              <option value="3" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Passenger Aircraft" languagecode="1033" />
                   <label description="Aéronef de passagers" languagecode="1036" />
@@ -5169,7 +5169,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="4">
+              <option value="4" IsHidden="0">
                 <labels>
                   <label description="Aerial Applicator" languagecode="1033" />
                   <label description="Applicateur aérien" languagecode="1036" />
@@ -5801,13 +5801,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -6240,13 +6240,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" ExternalValue="">
+              <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -6638,13 +6638,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" ExternalValue="">
+              <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -6704,13 +6704,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" ExternalValue="">
+              <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />

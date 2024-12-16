@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000">
+    <option value="918640000" IsHidden="0">
       <labels>
         <label description="Guilt" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Acquitted" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="Dismissed" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -41,7 +41,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="Withdrawn" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -51,7 +51,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640004">
+    <option value="918640004" IsHidden="0">
       <labels>
         <label description="Stayed" languagecode="1033" />
         <label description="" languagecode="1036" />

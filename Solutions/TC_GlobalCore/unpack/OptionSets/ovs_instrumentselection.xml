@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000" ExternalValue="" Color="#0000ff">
+    <option value="918640000" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="N/A" languagecode="1033" />
         <label description="S.O." languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="" Color="#0000ff">
+    <option value="918640001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Detention Notice issued under Subsection 17(1)" languagecode="1033" />
         <label description="Avis de rétention en vertu du paragraphe 17(1)" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="" Color="#0000ff">
+    <option value="918640002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Notice of Direction to Remedy Non Compliance issued under Subsection 17(2)" languagecode="1033" />
         <label description="Avis d'ordre de prendre des mesures correctives en vertu du paragraphe 17(2)" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="" Color="#0000ff">
+    <option value="918640003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Notice of Direction not to Import or to Return to Place of Origin issued under Subsection 17(3)" languagecode="1033" />
         <label description="Avis d'ordre de ne pas importer ou de renvoyer au point de départ en vertu du paragraphe 17(3)" languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640004" ExternalValue="" Color="#0000ff">
+    <option value="918640004" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Direction issued under Subsection 19 (1)" languagecode="1033" />
         <label description="Ordre émis en vertu du paragraphe 19(1)" languagecode="1036" />

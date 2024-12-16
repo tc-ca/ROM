@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Human" languagecode="1033" />
         <label description="HUMAIN" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Mechanical" languagecode="1033" />
         <label description="MÉCANIQUE" languagecode="1036" />
@@ -30,7 +30,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Equipment" languagecode="1033" />
         <label description="ÉQUIPEMENT" languagecode="1036" />
@@ -39,7 +39,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Packaging" languagecode="1033" />
         <label description="EMBALLAGE" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Infrastructure" languagecode="1033" />
         <label description="INFRASTRUCTURE" languagecode="1036" />
@@ -57,7 +57,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="External" languagecode="1033" />
         <label description="EXTERNE" languagecode="1036" />
@@ -66,7 +66,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Weather" languagecode="1033" />
         <label description="MÉTÉO" languagecode="1036" />
@@ -75,7 +75,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="INCONNU" languagecode="1036" />
@@ -84,7 +84,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
         <label description="AUTRE" languagecode="1036" />

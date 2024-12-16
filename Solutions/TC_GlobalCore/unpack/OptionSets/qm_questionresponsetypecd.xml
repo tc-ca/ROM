@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="5" ExternalValue="" Color="">
+    <option value="5" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Text" languagecode="1033" />
         <label description="Texte" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="" Color="#0000ff">
+    <option value="3" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Reference" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="" Color="">
+    <option value="2" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Radio" languagecode="1033" />
         <label description="Radio" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="" Color="">
+    <option value="4" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Select" languagecode="1033" />
         <label description="Sélectionner" languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="" Color="">
+    <option value="1" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Number" languagecode="1033" />
         <label description="Nombre" languagecode="1036" />

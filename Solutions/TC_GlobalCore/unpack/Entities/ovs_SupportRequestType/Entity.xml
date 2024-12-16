@@ -477,13 +477,13 @@
               <Description description="Utilisateur externe" languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="1" ExternalValue="">
+              <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
-              <option value="0" ExternalValue="">
+              <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
@@ -749,7 +749,7 @@
               <Description description="Type de requête" languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="918640000" ExternalValue="">
+              <option value="918640000" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="CID Reg" languagecode="1033" />
                   <label description="BDIC Régulier" languagecode="1036" />
@@ -758,7 +758,7 @@
                   <Description description="" languagecode="1033" />
                 </Descriptions>
               </option>
-              <option value="918640001" ExternalValue="">
+              <option value="918640001" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="CID In Year" languagecode="1033" />
                   <label description="BDIC en cours d’année" languagecode="1036" />

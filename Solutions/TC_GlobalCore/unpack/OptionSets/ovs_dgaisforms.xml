@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Aerosol Containers and Gas Cartridges" languagecode="1033" />
         <label description="Contenants aérosol et cartouches de gaz" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tanks Cars" languagecode="1033" />
         <label description="Wagons-citernes" languagecode="1036" />
@@ -30,7 +30,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Ton Containers" languagecode="1033" />
         <label description="Contenants d'une tonne" languagecode="1036" />
@@ -39,7 +39,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Highway Tanks" languagecode="1033" />
         <label description="Citernes routières" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="TC Portable Tanks and Nurse Tanks" languagecode="1033" />
         <label description="Citernes amovibles  TC et les réservoirs ravitailleurs" languagecode="1036" />
@@ -57,7 +57,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Intermediate Bulk Containers (IBC) and Large Packagings (LP)" languagecode="1033" />
         <label description="Grands récipients pour vrac et les grands emballages" languagecode="1036" />
@@ -66,7 +66,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Portable Tanks" languagecode="1033" />
         <label description="Citernes mobiles" languagecode="1036" />
@@ -75,7 +75,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Cylinders, Spheres and Tubes" languagecode="1033" />
         <label description="Bouteilles à gaz et tubes" languagecode="1036" />
@@ -84,7 +84,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Small Containers(Other than Cylinders and Intermediate Bulk Containers (IBC))" languagecode="1033" />
         <label description="Petits contenants (autres que les cylindres et grands récipients pour vrac (GRV))" languagecode="1036" />

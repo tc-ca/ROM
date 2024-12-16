@@ -9,7 +9,7 @@
     <displayname description="CEP Replacement Reason" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Operation Selected Previous Fiscal Year" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -19,7 +19,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Operation Deactivated" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -29,7 +29,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002">
+    <option value="918640002" IsHidden="0">
       <labels>
         <label description="Attempted Replacement: No CEP Replacement Found Within Possible Stratas" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -39,7 +39,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="Attempted Replacement: Operation is not a CEP Selection" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -49,7 +49,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640004">
+    <option value="918640004" IsHidden="0">
       <labels>
         <label description="Attempted Replacement: Operation is not a Frame Selection" languagecode="1033" />
         <label description="" languagecode="1036" />

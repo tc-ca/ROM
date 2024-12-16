@@ -98,13 +98,13 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Company" languagecode="1033" />
                   <label description="" languagecode="1036" />
                 </labels>
               </option>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Site" languagecode="1033" />
                   <label description="" languagecode="1036" />

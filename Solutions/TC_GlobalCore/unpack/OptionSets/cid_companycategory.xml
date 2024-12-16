@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000" ExternalValue="" Color="">
+    <option value="100000000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Organization: Pending classification as ROM only, or CID registered" languagecode="1033" />
         <label description="Organisation : En attente de classification à titre de GSR, ou d’inscription au à la BDIC" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="">
+    <option value="100000001" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="ROM Organization: CID not required" languagecode="1033" />
         <label description="Organisation GSR : BDIC non exigé " languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="">
+    <option value="100000002" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="ROM Organization: Pending CID registration" languagecode="1033" />
         <label description="Organisation GSR : En attente d’inscription à la BDIC " languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="" Color="">
+    <option value="100000003" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="CID  Organization: Registered" languagecode="1033" />
         <label description="Organisation BDIC : Inscrite" languagecode="1036" />
@@ -53,7 +53,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000004" ExternalValue="" Color="">
+    <option value="100000004" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="CID Organization: Registered (Voluntary Basis)" languagecode="1033" />
         <label description="Organisation BDIC : Inscrite (sur une base volontaire) " languagecode="1036" />

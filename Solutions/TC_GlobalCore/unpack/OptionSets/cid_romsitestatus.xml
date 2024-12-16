@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000" ExternalValue="" Color="">
+    <option value="100000000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Pending Active: Added as Active CID Site, pending required information" languagecode="1033" />
         <label description="Actif en attente : Ajouté à titre de site BDIC actif, en attente de l’information requise" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="#0000ff">
+    <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Inactive: Added as Inactive CID Site, pending required information" languagecode="1033" />
         <label description="Inactif en attente : Ajouté à titre de site BDIC inactif, en attente de l’information requise" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="#0000ff">
+    <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: No inspections yet at this Sites to date" languagecode="1033" />
         <label description="Actif : Aucune inspection des sites jusqu’à maintenant " languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="" Color="#0000ff">
+    <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: At least one Site inspection within the last 12 months" languagecode="1033" />
         <label description="Actif : Au moins une inspection de site au cours des 12 derniers mois " languagecode="1036" />
@@ -53,7 +53,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000004" ExternalValue="" Color="#0000ff">
+    <option value="100000004" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: Latest Site inspection over one year" languagecode="1033" />
         <label description="Actif : La dernière inspection du site date de plus d'un an" languagecode="1036" />
@@ -63,7 +63,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000005" ExternalValue="" Color="#0000ff">
+    <option value="100000005" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactivated by CID Company (no Inspector confirmation)" languagecode="1033" />
         <label description="Inactif : Inactivé par l'organisation dans BDIC (aucune confirmation de l'inspecteur)" languagecode="1036" />
@@ -73,7 +73,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000006" ExternalValue="" Color="#0000ff">
+    <option value="100000006" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactivated by CID Company (Inspector confirmed)" languagecode="1033" />
         <label description="Inactif : Inactivé dans BDIC (confirmé par l'inspecteur)" languagecode="1036" />
@@ -83,7 +83,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000007" ExternalValue="" Color="#0000ff">
+    <option value="100000007" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactivated by ROM (pending CID update)" languagecode="1033" />
         <label description="Inactif : désactivé par GSR (en attendant la mis à jour dans BDIC)" languagecode="1036" />
@@ -93,7 +93,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000008" ExternalValue="" Color="#0000ff">
+    <option value="100000008" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Deactivated in ROM" languagecode="1033" />
         <label description="Inactif : désactivé par GSR" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000009" ExternalValue="" Color="#0000ff">
+    <option value="100000009" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Deactivated in ROM, pending CID follow-up request to mark Inactive" languagecode="1033" />
         <label description="Inactif : désactivé dans la GSR, demande de suivi dans BDIC en attente pour marquer Inactif" languagecode="1036" />
@@ -113,7 +113,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000010" ExternalValue="" Color="#0000ff">
+    <option value="100000010" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Deactivated in ROM, pending CID follow-up request to mark Inactive, past 30 day limit" languagecode="1033" />
         <label description="Inactif : désactivé dans la GSR, demande de suivi dans BDIC en attente pour marquer Inactif, limite des 30 jours passés" languagecode="1036" />
@@ -123,7 +123,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000011" ExternalValue="" Color="#0000ff">
+    <option value="100000011" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactivated by CID Company shortly after negative inspection (Inspector confirmation)" languagecode="1033" />
         <label description="Inactif : Inactivé par l'organisation dans BDIC peu de temps après l'inspection négative (confirmation de l'inspecteur)" languagecode="1036" />
@@ -133,7 +133,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000012" ExternalValue="" Color="#0000ff">
+    <option value="100000012" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: Inactivated by CID Company, found to be active, beyond 30 day CID update period" languagecode="1033" />
         <label description="Actif : désactivé  par l'organisation dans BDIC, trouvé actif, au-delà de la période de mise à jour BDIC de 30 jours" languagecode="1036" />
@@ -143,7 +143,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000013" ExternalValue="" Color="#0000ff">
+    <option value="100000013" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Active CID Company, found to be inactive, pending owner follow-up in CID" languagecode="1033" />
         <label description="Inactif : l'organisation active dans BDIC, jugée inactive, suivi du propriétaire en attente dans BDIC" languagecode="1036" />
@@ -153,7 +153,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000014" ExternalValue="" Color="#0000ff">
+    <option value="100000014" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Active CID Company, found to be inactive, beyond 30 day CID update period" languagecode="1033" />
         <label description="Inactif : organisation dans BDIC active, jugée inactive, au-delà de la période de mise à jour BDIC de 30 jours" languagecode="1036" />
@@ -163,7 +163,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000015" ExternalValue="" Color="#0000ff">
+    <option value="100000015" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactivated by CID Company shortly after negative, beyond 30 day CID update period" languagecode="1033" />
         <label description="Inactif : inactivé par l'organisation dans BDIC peu de temps après un résultat négatif, au-delà de la période de mise à jour BDIC de 30 jours" languagecode="1036" />
@@ -173,7 +173,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000016" ExternalValue="" Color="#0000ff">
+    <option value="100000016" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Inactive: CID registration claimed ROM parent company, but not this Site" languagecode="1033" />
         <label description="En attente d'inactivité : l'enregistrement dans BDIC est revendiqué par la société mère dans GSR, mais pas ce site" languagecode="1036" />

@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="0" ExternalValue="">
+    <option value="0" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Equal" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="NotEqual" languagecode="1033" />
       </labels>
@@ -28,7 +28,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Null" languagecode="1033" />
       </labels>
@@ -36,7 +36,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="NotNull" languagecode="1033" />
       </labels>
@@ -44,7 +44,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10001">
+    <option value="10001" IsHidden="0">
       <labels>
         <label description="Check Duplicates" languagecode="1033" />
       </labels>
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10002">
+    <option value="10002" IsHidden="0">
       <labels>
         <label description="Must Be Approved" languagecode="1033" />
       </labels>
@@ -60,7 +60,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10003">
+    <option value="10003" IsHidden="0">
       <labels>
         <label description="Approve Association/Disassociation" languagecode="1033" />
       </labels>
@@ -68,7 +68,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10004">
+    <option value="10004" IsHidden="0">
       <labels>
         <label description="Address Duplicates Validation" languagecode="1033" />
       </labels>

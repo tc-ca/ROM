@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640001" ExternalValue="" Color="">
+    <option value="918640001" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="High" languagecode="1033" />
         <label description="Élevé" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="" Color="">
+    <option value="918640002" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Moderate" languagecode="1033" />
         <label description="Modérée" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="" Color="">
+    <option value="918640003" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Low" languagecode="1033" />
         <label description="Faible" languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640000" ExternalValue="" Color="">
+    <option value="918640000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Very Low" languagecode="1033" />
         <label description="Très Faible" languagecode="1036" />

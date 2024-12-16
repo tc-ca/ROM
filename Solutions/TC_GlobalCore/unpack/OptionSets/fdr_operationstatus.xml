@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="794600000">
+    <option value="794600000" IsHidden="0">
       <labels>
         <label description="Expired" languagecode="1033" />
         <label description="Expiré" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001">
+    <option value="794600001" IsHidden="0">
       <labels>
         <label description="Registered" languagecode="1033" />
         <label description="Inscrit" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600002">
+    <option value="794600002" IsHidden="0">
       <labels>
         <label description="Unregistered" languagecode="1033" />
         <label description="Non inscrit" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600003">
+    <option value="794600003" IsHidden="0">
       <labels>
         <label description="Closed" languagecode="1033" />
         <label description="Fermé" languagecode="1036" />

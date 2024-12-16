@@ -9,7 +9,7 @@
     <displayname description="Request Source" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="794600000" ExternalValue="">
+    <option value="794600000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Internal" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -19,7 +19,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001" ExternalValue="">
+    <option value="794600001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="External" languagecode="1033" />
         <label description="" languagecode="1036" />
@@ -29,7 +29,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600002">
+    <option value="794600002" IsHidden="0">
       <labels>
         <label description="Global" languagecode="1033" />
       </labels>

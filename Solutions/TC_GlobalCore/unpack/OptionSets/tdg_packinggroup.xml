@@ -8,7 +8,7 @@
     <displayname description="Packing Group" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="0">
+    <option value="0" IsHidden="0">
       <labels>
         <label description="Category A" languagecode="1033" />
         <label description="Catégorie A" languagecode="1036" />
@@ -18,7 +18,7 @@
         <Description description="Catégorie A" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1">
+    <option value="1" IsHidden="0">
       <labels>
         <label description="Category B" languagecode="1033" />
         <label description="Catégorie B" languagecode="1036" />
@@ -28,7 +28,7 @@
         <Description description="Catégorie B" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2">
+    <option value="2" IsHidden="0">
       <labels>
         <label description="I" languagecode="1033" />
         <label description="I" languagecode="1036" />
@@ -38,7 +38,7 @@
         <Description description="I" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="3">
+    <option value="3" IsHidden="0">
       <labels>
         <label description="II" languagecode="1033" />
         <label description="II" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="II" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="4">
+    <option value="4" IsHidden="0">
       <labels>
         <label description="III" languagecode="1033" />
         <label description="III" languagecode="1036" />

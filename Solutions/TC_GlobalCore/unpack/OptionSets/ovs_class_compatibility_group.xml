@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="" Color="#0000ff">
+    <option value="1" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="A" languagecode="1033" />
         <label description="A" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="" Color="#0000ff">
+    <option value="2" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="B" languagecode="1033" />
         <label description="B" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="" Color="#0000ff">
+    <option value="3" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="C" languagecode="1033" />
         <label description="C" languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="" Color="#0000ff">
+    <option value="4" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="D" languagecode="1033" />
         <label description="D" languagecode="1036" />
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="" Color="#0000ff">
+    <option value="5" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="E" languagecode="1033" />
         <label description="E" languagecode="1036" />
@@ -62,7 +62,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="" Color="#0000ff">
+    <option value="6" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="F" languagecode="1033" />
         <label description="F" languagecode="1036" />
@@ -72,7 +72,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="" Color="#0000ff">
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="G" languagecode="1033" />
         <label description="G" languagecode="1036" />
@@ -82,7 +82,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="" Color="#0000ff">
+    <option value="8" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="H" languagecode="1033" />
         <label description="H" languagecode="1036" />
@@ -92,7 +92,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="" Color="#0000ff">
+    <option value="9" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="I" languagecode="1033" />
         <label description="I" languagecode="1036" />
@@ -102,7 +102,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="" Color="#0000ff">
+    <option value="10" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="J" languagecode="1033" />
         <label description="J" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="" Color="#0000ff">
+    <option value="11" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="K" languagecode="1033" />
         <label description="K" languagecode="1036" />
@@ -122,7 +122,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="" Color="#0000ff">
+    <option value="12" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="L" languagecode="1033" />
         <label description="L" languagecode="1036" />

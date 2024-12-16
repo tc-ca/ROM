@@ -12,7 +12,7 @@
     <Description description="Used to know whether a user is being invited to an Organization as a Primary or Secondary Contact." languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1">
+    <option value="1" IsHidden="0">
       <labels>
         <label description="Primary Contact" languagecode="1033" />
         <label description="Contact Principal" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2">
+    <option value="2" IsHidden="0">
       <labels>
         <label description="Secondary Contact" languagecode="1033" />
         <label description="Contact Secondaire" languagecode="1036" />

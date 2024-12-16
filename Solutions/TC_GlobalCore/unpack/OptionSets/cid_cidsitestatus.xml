@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000018" ExternalValue="" Color="#0000ff">
+    <option value="100000018" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active, part of CID reporting" languagecode="1033" />
         <label description="Actif, fait partie de la production de rapport BDIC" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000014" ExternalValue="" Color="#0000ff">
+    <option value="100000014" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: Pending follow-up request to mark Inactive" languagecode="1033" />
         <label description="Actif : En attente après une demande de marquage comme étant inactif" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000013" ExternalValue="" Color="#0000ff">
+    <option value="100000013" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Active: Registration complete, part of CID reporting" languagecode="1033" />
         <label description="Actif : Inscription terminée, fait partie de la production de rapport BDIC" languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000023" ExternalValue="" Color="#0000ff">
+    <option value="100000023" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive Status - Inactive: No longer owned, sold to another Organization, pending sale completion" languagecode="1033" />
         <label description="Statut inactif - Inactif : N’est plus propriétaire, vendu à une autre organisation, en attente de l’exécution de la vente" languagecode="1036" />
@@ -53,7 +53,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000022" ExternalValue="" Color="#0000ff">
+    <option value="100000022" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive Status - Inactive: Still owned and no activity at all" languagecode="1033" />
         <label description="Statut inactif - Inactif : Toujours propriétaire et aucune activité" languagecode="1036" />
@@ -63,7 +63,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000021" ExternalValue="" Color="#0000ff">
+    <option value="100000021" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive Status - Inactive: Still owned, but no longer HOTI" languagecode="1033" />
         <label description="Statut inactif - Inactif : Toujours propriétaire, mais n’est plus MOTTIMD" languagecode="1036" />
@@ -73,7 +73,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000024" ExternalValue="" Color="#0000ff">
+    <option value="100000024" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive Status - Reason choice “Inactive: Claimed Site by mistake, never officially owned” - switches to a ROM Site than be claimed by any Organization" languagecode="1033" />
         <label description="Statut inactif = Raison du choix “Inactif : Site réclamé par erreur, jamais été propriétaire officiel“ - passe à un site de GSR qui peut être réclamé par n’importe quelle organisation" languagecode="1036" />
@@ -83,7 +83,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000019" ExternalValue="" Color="#0000ff">
+    <option value="100000019" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactive found to be Active, pending user update" languagecode="1033" />
         <label description="Inactif : Inactif s’avérant actif, en attente de la mise à jour de l’utilisateur" languagecode="1036" />
@@ -93,7 +93,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000020" ExternalValue="" Color="#0000ff">
+    <option value="100000020" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Inactive found to be Active, pending user update, past 30 day limit" languagecode="1033" />
         <label description="Inactif : Inactif s’avérant actif, en attente de la mise à jour de l’utilisateur, limite de 30 jours dépassée" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000015" ExternalValue="" Color="#0000ff">
+    <option value="100000015" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Inactive: Registration complete, part of CID reporting" languagecode="1033" />
         <label description="Inactif : Inscription terminée, fait partie de la production de rapport BDIC" languagecode="1036" />
@@ -113,7 +113,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000017" ExternalValue="" Color="#0000ff">
+    <option value="100000017" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Not Applicable: CID registration claimed ROM parent Organization, but not this Site" languagecode="1033" />
         <label description="Sans objet : Inscription à la BDIC a réclamé une société mère - GSR, mais pas ce site" languagecode="1036" />
@@ -123,7 +123,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="#0000ff">
+    <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Not Applicable: ROM Organization not required to register" languagecode="1033" />
         <label description="Sans objet : Organisation GSR n’a pas besoin de s’inscrire" languagecode="1036" />
@@ -133,7 +133,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000000" ExternalValue="" Color="">
+    <option value="100000000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Pending Active: Added as Active CID Site, pending required information" languagecode="1033" />
         <label description="Actif en attente : Ajouté à titre de site BDIC actif, en attente de l’information requise" languagecode="1036" />
@@ -143,7 +143,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000009" ExternalValue="" Color="#0000ff">
+    <option value="100000009" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Site Valid" languagecode="1033" />
         <label description="Site valide" languagecode="1036" />
@@ -153,7 +153,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000006" ExternalValue="" Color="#0000ff">
+    <option value="100000006" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Active: Claimed as Active Site, pending registration completion" languagecode="1033" />
         <label description="Actif en attente : Ajouté à titre de site actif, en attente de l’achèvement de l’inscription" languagecode="1036" />
@@ -163,7 +163,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000025" ExternalValue="" Color="#0000ff">
+    <option value="100000025" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Site Registration In Progress" languagecode="1033" />
         <label description="Enregistrement du site en cours" languagecode="1036" />
@@ -173,7 +173,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000004" ExternalValue="" Color="#0000ff">
+    <option value="100000004" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Active: Pending registration, email invitation sent" languagecode="1033" />
         <label description="Actif en attente : En attente de l’inscription, invitation par courriel envoyée" languagecode="1036" />
@@ -183,7 +183,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000005" ExternalValue="" Color="#0000ff">
+    <option value="100000005" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Active: Pending registration, no email invitation sent" languagecode="1033" />
         <label description="Actif en attente : En attente de l’inscription, aucune invitation par courriel envoyée" languagecode="1036" />
@@ -193,7 +193,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000011" ExternalValue="" Color="#0000ff">
+    <option value="100000011" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Site attested" languagecode="1033" />
         <label description="Site attesté" languagecode="1036" />
@@ -203,7 +203,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="#0000ff">
+    <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Inactive: Added as Inactive CID Site, pending required information" languagecode="1033" />
         <label description="Inactif en attente : Ajouté à titre de site BDIC inactif, en attente de l’information requise" languagecode="1036" />
@@ -213,7 +213,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000010" ExternalValue="" Color="#0000ff">
+    <option value="100000010" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Inactive: Added as Inactive Site, pending registration completion" languagecode="1033" />
         <label description="Inactif en attente : Ajouté à titre de site inactif, en attente de l’achèvement de l’inscription" languagecode="1036" />
@@ -223,7 +223,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000007" ExternalValue="" Color="#0000ff">
+    <option value="100000007" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Inactive: Claimed as Inactive Site, pending registration completion" languagecode="1033" />
         <label description="Inactif en attente : Réclamé à titre de site inactif, en attente de l’achèvement de l’inscription" languagecode="1036" />
@@ -233,7 +233,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000012" ExternalValue="" Color="#0000ff">
+    <option value="100000012" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Inactive: Site attestation complete, pending official registration completion" languagecode="1033" />
         <label description="Inactif en attente : Certification du site terminée, en attente de l’achèvement de l’inscription officielle" languagecode="1036" />
@@ -243,7 +243,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000016" ExternalValue="" Color="#0000ff">
+    <option value="100000016" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Not Applicable: CID registration claimed ROM parent Organization, but not this Site" languagecode="1033" />
         <label description="En attente sans objet : Inscription à la BDIC a réclamé une société mère - GSR, mais pas ce site" languagecode="1036" />
@@ -253,7 +253,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000008" ExternalValue="" Color="#0000ff">
+    <option value="100000008" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Pending Not Applicable: Designated as not owned by this Organization" languagecode="1033" />
         <label description="En attente sans objet : Désigné comme n’appartenant pas à cette organisation" languagecode="1036" />
@@ -263,7 +263,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="" Color="#0000ff">
+    <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Unknown: Pending classification as ROM only, or CID registered" languagecode="1033" />
         <label description="Inconnu : En attente de classification à titre de GSR, ou d’inscription à la BDIC" languagecode="1036" />
@@ -273,7 +273,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Site and mode valid" languagecode="1033" />
         <label description="Site et mode de validité" languagecode="1036" />

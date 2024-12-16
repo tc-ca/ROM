@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000" ExternalValue="" Color="#0000ff">
+    <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="CID" languagecode="1033" />
         <label description="BDIC" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="#0000ff">
+    <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="ROM" languagecode="1033" />
         <label description="GSR" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="#0000ff">
+    <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="FDR" languagecode="1033" />
         <label description="RICI" languagecode="1036" />

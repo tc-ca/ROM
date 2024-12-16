@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000">
+    <option value="918640000" IsHidden="0">
       <labels>
         <label description="Site not operational" languagecode="1033" />
         <label description="Site non opérationnel" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640001">
+    <option value="918640001" IsHidden="0">
       <labels>
         <label description="Change of business operation" languagecode="1033" />
         <label description="Changement des opérations commerciales" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
         <label description="Autre" languagecode="1036" />

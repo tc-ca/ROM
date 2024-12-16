@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000000">
+    <option value="100000000" IsHidden="0">
       <labels>
         <label description="Active, no conflicts" languagecode="1033" />
         <label description="Actif, aucun conflit" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001">
+    <option value="100000001" IsHidden="0">
       <labels>
         <label description="Active, with conflict" languagecode="1033" />
         <label description="Actif, avec conflit" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002">
+    <option value="100000002" IsHidden="0">
       <labels>
         <label description="Inactive, no conflicts " languagecode="1033" />
         <label description="Inactif, aucun conflit " languagecode="1036" />
@@ -42,7 +42,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003">
+    <option value="100000003" IsHidden="0">
       <labels>
         <label description="Inactive, with conflict" languagecode="1033" />
         <label description="Inactif, avec conflit" languagecode="1036" />

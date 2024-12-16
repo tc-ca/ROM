@@ -8,7 +8,7 @@
     <displayname description="Secondary Class" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="0">
+    <option value="0" IsHidden="0">
       <labels>
         <label description="1" languagecode="1033" />
         <label description="1" languagecode="1036" />
@@ -18,7 +18,7 @@
         <Description description="1" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1">
+    <option value="1" IsHidden="0">
       <labels>
         <label description="2.1" languagecode="1033" />
         <label description="2.1" languagecode="1036" />
@@ -28,7 +28,7 @@
         <Description description="2.1" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2">
+    <option value="2" IsHidden="0">
       <labels>
         <label description="3" languagecode="1033" />
         <label description="3" languagecode="1036" />
@@ -38,7 +38,7 @@
         <Description description="3" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="3">
+    <option value="3" IsHidden="0">
       <labels>
         <label description="4.1" languagecode="1033" />
         <label description="4.1" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="4.1" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="4">
+    <option value="4" IsHidden="0">
       <labels>
         <label description="4.2" languagecode="1033" />
         <label description="4.2" languagecode="1036" />
@@ -58,7 +58,7 @@
         <Description description="4.2" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="5">
+    <option value="5" IsHidden="0">
       <labels>
         <label description="4.3" languagecode="1033" />
         <label description="4.3" languagecode="1036" />
@@ -68,7 +68,7 @@
         <Description description="4.3" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="6">
+    <option value="6" IsHidden="0">
       <labels>
         <label description="5.1" languagecode="1033" />
         <label description="5.1" languagecode="1036" />
@@ -78,7 +78,7 @@
         <Description description="5.1" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="7">
+    <option value="7" IsHidden="0">
       <labels>
         <label description="6.1" languagecode="1033" />
         <label description="6.1" languagecode="1036" />
@@ -88,7 +88,7 @@
         <Description description="6.1" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="8">
+    <option value="8" IsHidden="0">
       <labels>
         <label description="7" languagecode="1033" />
         <label description="7" languagecode="1036" />
@@ -98,7 +98,7 @@
         <Description description="7" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="9">
+    <option value="9" IsHidden="0">
       <labels>
         <label description="8" languagecode="1033" />
         <label description="8" languagecode="1036" />

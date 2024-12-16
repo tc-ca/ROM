@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Improper Turning" languagecode="1033" />
         <label description="VIRAGE INADÉQUAT" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Failure to Signal" languagecode="1033" />
         <label description="ÉCHEC DE LA SIGNALISATION" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Following too closely" languagecode="1033" />
         <label description="SUIVI DE TROP PRÈS D'UN AUTRE VÉHICULE" languagecode="1036" />
@@ -40,7 +40,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Disregarding Traffic Control" languagecode="1033" />
         <label description="NE PAS TENIR COMPTE DE L'APPAREIL DE CONTRÔLE DU TRAFIC" languagecode="1036" />
@@ -49,7 +49,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Excessive Hours of Service" languagecode="1033" />
         <label description="HEURES DE SERVICE EXCESSIVES" languagecode="1036" />
@@ -58,7 +58,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Failure to Yield Right of Way" languagecode="1033" />
         <label description="DÉFAUT DE CÉDER LE DROIT DE PASSAGE" languagecode="1036" />
@@ -67,7 +67,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Untrained Personnel" languagecode="1033" />
         <label description="PERSONNEL NON FORMÉ" languagecode="1036" />
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Illness" languagecode="1033" />
         <label description="MALADIE" languagecode="1036" />
@@ -85,7 +85,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Driver Fell Asleep" languagecode="1033" />
         <label description="LE CONDUCTEUR S'EST ENDORMI" languagecode="1036" />
@@ -94,7 +94,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Driving While Impaired" languagecode="1033" />
         <label description="CONDUITE EN ÉTAT D'ÉBRIÉTÉ" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Excessive Speed" languagecode="1033" />
         <label description="VITESSE EXCESSIVE" languagecode="1036" />
@@ -112,7 +112,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Driving Too Fast For Road Conditions" languagecode="1033" />
         <label description="CONDUIRE TROP VITE POUR LES CONDITIONS ROUTIÈRES" languagecode="1036" />
@@ -121,7 +121,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Intentional Release" languagecode="1033" />
         <label description="LIBÉRATION INTENTIONNELLE" languagecode="1036" />
@@ -130,7 +130,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="14" ExternalValue="">
+    <option value="14" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Failure To Follow Air Regulatory Shipping Procedures" languagecode="1033" />
         <label description="Non-respect des procédures réglementaires en matière de transport  aérien " languagecode="1036" />
@@ -139,7 +139,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="15" ExternalValue="">
+    <option value="15" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Loss Of Control" languagecode="1033" />
         <label description="PERTE DE CONTRÔLE" languagecode="1036" />
@@ -148,7 +148,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="16" ExternalValue="">
+    <option value="16" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Improper Loading/Unloading/Handling" languagecode="1033" />
         <label description="CHARGEMENT, DÉCHARGEMENT, MANUTENTION INCORRECTS" languagecode="1036" />
@@ -157,7 +157,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="17" ExternalValue="">
+    <option value="17" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Improper Blocking/Bracing" languagecode="1033" />
         <label description="BLOCAGE / BLOCAGE ABUSIF" languagecode="1036" />
@@ -166,7 +166,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="18" ExternalValue="">
+    <option value="18" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Carelessness/Negligence" languagecode="1033" />
         <label description="INSOUCIANCE/NÉGLIGENCE" languagecode="1036" />
@@ -175,7 +175,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="19" ExternalValue="">
+    <option value="19" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Overfill" languagecode="1033" />
         <label description="SURREMPLISSAGE" languagecode="1036" />
@@ -184,7 +184,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="20" ExternalValue="">
+    <option value="20" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Overflow" languagecode="1033" />
         <label description="DÉBORDEMENT" languagecode="1036" />
@@ -193,7 +193,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="21" ExternalValue="">
+    <option value="21" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Failure To Disconnect Transfer Hose Prior To Departure" languagecode="1033" />
         <label description="DÉFAUT DE DÉCONNEXION DU TUYAU DE TRANSFERT AVANT LE DÉPART" languagecode="1036" />
@@ -202,7 +202,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="22" ExternalValue="">
+    <option value="22" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Quick Brake Causing Derailment" languagecode="1033" />
         <label description="FREINAGE BRUSQUE CAUSANT UN DÉRAILLEMENT" languagecode="1036" />
@@ -211,7 +211,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="23" ExternalValue="">
+    <option value="23" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Miscommunication" languagecode="1033" />
         <label description="MAUVAISE COMMUNICATION" languagecode="1036" />
@@ -220,7 +220,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="24" ExternalValue="">
+    <option value="24" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Rear End Collision By 3rd Party" languagecode="1033" />
         <label description="COLLISION PAR L'ARRIÈRE PAR UNE TIERCE PARTIE" languagecode="1036" />
@@ -229,7 +229,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="25" ExternalValue="">
+    <option value="25" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Loss" languagecode="1033" />
         <label description="Perte" languagecode="1036" />
@@ -238,7 +238,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="26" ExternalValue="">
+    <option value="26" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Loss &amp; Recovery" languagecode="1033" />
         <label description="Perte et récupération" languagecode="1036" />
@@ -247,7 +247,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="27" ExternalValue="">
+    <option value="27" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Theft" languagecode="1033" />
         <label description="Vol" languagecode="1036" />
@@ -256,7 +256,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="28" ExternalValue="">
+    <option value="28" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Theft &amp; Recovery" languagecode="1033" />
         <label description="Vol et récupération" languagecode="1036" />
@@ -265,7 +265,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="29" ExternalValue="">
+    <option value="29" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Terrorism" languagecode="1033" />
         <label description="TERRORISME" languagecode="1036" />
@@ -274,7 +274,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="30" ExternalValue="">
+    <option value="30" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Vandalism" languagecode="1033" />
         <label description="VANDALISME" languagecode="1036" />
@@ -283,7 +283,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="31" ExternalValue="">
+    <option value="31" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Discovery" languagecode="1033" />
         <label description="DÉCOUVERTE" languagecode="1036" />
@@ -292,7 +292,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="32" ExternalValue="">
+    <option value="32" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Discovery of Misdeclared DG" languagecode="1033" />
         <label description="DÉCOUVERTE D'UNE MD MAL DÉCLARÉE" languagecode="1036" />
@@ -301,7 +301,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="33" ExternalValue="">
+    <option value="33" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Discovery of Undeclared DG" languagecode="1033" />
         <label description="DÉCOUVERTE D'UNE MD NON DÉCLARÉE" languagecode="1036" />
@@ -310,7 +310,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="34" ExternalValue="">
+    <option value="34" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Poor Weather/Driving Conditions" languagecode="1033" />
         <label description="MAUVAIS TEMPS / MAUVAISES CONDITIONS DE CONDUITE" languagecode="1036" />
@@ -319,7 +319,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="35" ExternalValue="">
+    <option value="35" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Poor Infrastructure Conditions/Issues" languagecode="1033" />
         <label description="MAUVAISES CONDITIONS/PROBLÈMES D'INFRASTRUCTURE" languagecode="1036" />
@@ -328,7 +328,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="36" ExternalValue="">
+    <option value="36" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bridge Collapse" languagecode="1033" />
         <label description="EFFONDREMENT D'UN PONT" languagecode="1036" />
@@ -337,7 +337,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="37" ExternalValue="">
+    <option value="37" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Obstacle/Road Debris In Path" languagecode="1033" />
         <label description="OBSTACLE SUR LE CHEMIN" languagecode="1036" />
@@ -346,7 +346,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="38" ExternalValue="">
+    <option value="38" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Temperature" languagecode="1033" />
         <label description="TEMPÉRATURE" languagecode="1036" />
@@ -355,7 +355,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="39" ExternalValue="">
+    <option value="39" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Water Damage" languagecode="1033" />
         <label description="DÉGÂTS DES EAUX" languagecode="1036" />
@@ -364,7 +364,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="40" ExternalValue="">
+    <option value="40" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Power Failure" languagecode="1033" />
         <label description="PANNE D'ÉLECTRICITÉ" languagecode="1036" />
@@ -373,7 +373,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="41" ExternalValue="">
+    <option value="41" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Loose Fittings/Valve/Dome Cover" languagecode="1033" />
         <label description="RACCORDS LIBRES/VALVE/COUVERCLE DE DÔME" languagecode="1036" />
@@ -382,7 +382,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="42" ExternalValue="">
+    <option value="42" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Defective Fittings/Valve/Dome Cover" languagecode="1033" />
         <label description="RACCORDS DÉFECTUEUX/VALVE/COUVERCLE DE DÔME" languagecode="1036" />
@@ -391,7 +391,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="43" ExternalValue="">
+    <option value="43" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Inaccurate Device Reading" languagecode="1033" />
         <label description="LECTURE INEXACTE DE L'APPAREIL" languagecode="1036" />
@@ -400,7 +400,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="44" ExternalValue="">
+    <option value="44" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Camlock Failure" languagecode="1033" />
         <label description="Défaillance du  raccord à came" languagecode="1036" />
@@ -409,7 +409,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="45" ExternalValue="">
+    <option value="45" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Journal Failure" languagecode="1033" />
         <label description="ÉCHEC DE LA REVUE" languagecode="1036" />
@@ -418,7 +418,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="46" ExternalValue="">
+    <option value="46" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hose Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DE TUYAU" languagecode="1036" />
@@ -427,7 +427,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="47" ExternalValue="">
+    <option value="47" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pump Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DE POMPE" languagecode="1036" />
@@ -436,7 +436,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="48" ExternalValue="">
+    <option value="48" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Valve Failure(Not Loose)" languagecode="1033" />
         <label description="DÉFAILLANCE DE SOUPAPE (NON LÂCHE OU DÉFECTUEUSE)" languagecode="1036" />
@@ -445,7 +445,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="49" ExternalValue="">
+    <option value="49" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pipe/Sump Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DE TUYAUTERIE/CUVETTE" languagecode="1036" />
@@ -454,7 +454,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="50" ExternalValue="">
+    <option value="50" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Gasket/Flange/Coupling Failure(Not Loose)" languagecode="1033" />
         <label description="DÉFAILLANCE DE JOINT/GARNITURE (NON LÂCHE OU DÉFECTUEUSE)" languagecode="1036" />
@@ -463,7 +463,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="51" ExternalValue="">
+    <option value="51" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Weld/Seam Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DE SOUDURE/COUTURE" languagecode="1036" />
@@ -472,7 +472,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="52" ExternalValue="">
+    <option value="52" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tank/Package Body Failure Or Defect" languagecode="1033" />
         <label description="DÉFAILLANCE OU DÉFAUT DU CORPS DU RÉSERVOIR/DE L'EMBALLAGE" languagecode="1036" />
@@ -481,7 +481,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="53" ExternalValue="">
+    <option value="53" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Metal Fatigue" languagecode="1033" />
         <label description="USURE DU MÉTAL" languagecode="1036" />
@@ -490,7 +490,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="54" ExternalValue="">
+    <option value="54" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Corrosion" languagecode="1033" />
         <label description="CORROSION" languagecode="1036" />
@@ -499,7 +499,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="55" ExternalValue="">
+    <option value="55" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Brake/Tire Failure/Fire" languagecode="1033" />
         <label description="PANNE DE FREINS" languagecode="1036" />
@@ -508,7 +508,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="56" ExternalValue="">
+    <option value="56" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Steering Failure" languagecode="1033" />
         <label description="ÉCHEC DE LA DIRECTION" languagecode="1036" />
@@ -517,7 +517,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="57" ExternalValue="">
+    <option value="57" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Suspension/Axel Failure" languagecode="1033" />
         <label description="ÉCHEC DE LA SUSPENSION" languagecode="1036" />
@@ -526,7 +526,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="58" ExternalValue="">
+    <option value="58" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Transmission Failure" languagecode="1033" />
         <label description="ÉCHEC DE LA TRANSMISSION" languagecode="1036" />
@@ -535,7 +535,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="59" ExternalValue="">
+    <option value="59" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Engine Failure" languagecode="1033" />
         <label description="PANNE DE MOTEUR" languagecode="1036" />
@@ -544,7 +544,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="60" ExternalValue="">
+    <option value="60" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Electrical Failure" languagecode="1033" />
         <label description="PANNE ÉLECTRIQUE" languagecode="1036" />
@@ -553,7 +553,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="61" ExternalValue="">
+    <option value="61" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Switch Failure" languagecode="1033" />
         <label description="PANNE DE L'INTERRUPTEUR" languagecode="1036" />
@@ -562,7 +562,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="62" ExternalValue="">
+    <option value="62" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Signal Failure" languagecode="1033" />
         <label description="ÉCHEC DU SIGNAL" languagecode="1036" />
@@ -571,7 +571,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="63" ExternalValue="">
+    <option value="63" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Tire Blowout" languagecode="1033" />
         <label description="EXPLOSION DE PNEU/ROUE" languagecode="1036" />
@@ -580,7 +580,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="64" ExternalValue="">
+    <option value="64" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Rigging Equipment Failure" languagecode="1033" />
         <label description="DÉFAILLANCE D'ÉQUIPEMENT DE GRÉAGE" languagecode="1036" />
@@ -589,7 +589,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="65" ExternalValue="">
+    <option value="65" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Pallet/Skid Failure/Defect" languagecode="1033" />
         <label description="DÉFAILLANCE/DÉFAUT DE LA PALETTE/DE LA PLANCHE" languagecode="1036" />
@@ -598,7 +598,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="66" ExternalValue="">
+    <option value="66" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Door Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DE LA PORTE" languagecode="1036" />
@@ -607,7 +607,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="67" ExternalValue="">
+    <option value="67" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Forklift Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DU CHARIOT ÉLÉVATEUR" languagecode="1036" />
@@ -616,7 +616,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="68" ExternalValue="">
+    <option value="68" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bearing Burnout" languagecode="1033" />
         <label description="ÉPUISEMENT DES ROULEMENTS" languagecode="1036" />
@@ -625,7 +625,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="69" ExternalValue="">
+    <option value="69" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hitch Failure" languagecode="1033" />
         <label description="ÉCHEC DE L'ATTELAGE" languagecode="1036" />
@@ -634,7 +634,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="70" ExternalValue="">
+    <option value="70" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Drawbar/Train Connector-Coupler Failure" languagecode="1033" />
         <label description="DÉFAILLANCE DU COUPLEUR" languagecode="1036" />
@@ -643,7 +643,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="71" ExternalValue="">
+    <option value="71" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Chemical Reaction" languagecode="1033" />
         <label description="RÉACTION CHIMIQUE" languagecode="1036" />
@@ -652,7 +652,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="72" ExternalValue="">
+    <option value="72" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Combustion" languagecode="1033" />
         <label description="COMBUTION" languagecode="1036" />
@@ -661,7 +661,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="73" ExternalValue="">
+    <option value="73" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Internal Pressure" languagecode="1033" />
         <label description="PRESSION INTERNE" languagecode="1036" />
@@ -670,7 +670,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="74" ExternalValue="">
+    <option value="74" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Incompatibility of Package Material" languagecode="1033" />
         <label description="INCOMPATIBILITÉ DU MATÉRIEL D'EMBALLAGE" languagecode="1036" />
@@ -679,7 +679,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="75">
+    <option value="75" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="Inconnu" languagecode="1036" />

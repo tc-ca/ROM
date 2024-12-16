@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="7" ExternalValue="" Color="#0000ff">
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The non-compliance was reported by regulated party (Low)" languagecode="1033" />
         <label description="La non-conformité a été signalée par la partie réglementée (Faible)" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="49" ExternalValue="" Color="#0000ff">
+    <option value="49" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The non-compliance was discovered during routine inspection before any harm may have occurred (Moderate)" languagecode="1033" />
         <label description="La non-conformité a été découverte au cours d'une inspection de routine avant qu'un préjudice ne puisse être causé (Moyen)" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2401" ExternalValue="" Color="#0000ff">
+    <option value="2401" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The non-compliance was discovered only as a result of an accident or a complaint (High)" languagecode="1033" />
         <label description="La non-conformité n'a été découverte qu'à la suite d'un accident ou d'une plainte (Élevé)" languagecode="1036" />

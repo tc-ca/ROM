@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Duplicates Found" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Field Requires Approval" languagecode="1033" />
       </labels>
@@ -28,7 +28,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="">
+    <option value="918640002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Mandatory Field Not Populated" languagecode="1033" />
       </labels>
@@ -36,7 +36,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="">
+    <option value="918640003" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Association Needs Approval" languagecode="1033" />
       </labels>
@@ -44,7 +44,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640004" ExternalValue="">
+    <option value="918640004" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Disassociation Needs Approval" languagecode="1033" />
       </labels>
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640005" ExternalValue="">
+    <option value="918640005" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Address Validation Failed" languagecode="1033" />
       </labels>

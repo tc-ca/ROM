@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="7" ExternalValue="" Color="#0000ff">
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The regulated party facilitated and assisted throughout (Low)" languagecode="1033" />
         <label description="La partie réglementée a collaboré du début à la fin (Faible)" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="49" ExternalValue="" Color="#0000ff">
+    <option value="49" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The regulated party assisted when asked but was not actively engaged in facilitating the inspection (Moderate)" languagecode="1033" />
         <label description="La partie réglementée a aidé lorsqu'on lui a demandé de la faire, mais elle n'a pas participé activement pour faciliter l'inspection (Moyen)" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2401" ExternalValue="" Color="#0000ff">
+    <option value="2401" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="The regulated party assisted only when asked and actively or passively almost obstructed the work of the inspector (High)" languagecode="1033" />
         <label description="La partie réglementée n'a aidé que lorsqu'on le lui a demandé et a presque entraver activement ou passivement le travail de l'inspecteur (Élevé)" languagecode="1036" />

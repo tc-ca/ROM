@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Package - Small Container (Less or equal to 449 litres/Kilograms)" languagecode="1033" />
         <label description="Paqet - Petit conteneur (Moins de 450 litres / kilogrammes)" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bulk - Large Container (Equal to or more than 450 litres/Kilograms)" languagecode="1033" />
         <label description="Vrac - Grand récipent (plus que 450 litres / kilogrammes)" languagecode="1036" />
@@ -30,7 +30,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Freight Container(20 ft or 40 ft Long)" languagecode="1033" />
         <label description="Conteneur de fret (20 ou 40 pieds)" languagecode="1036" />
@@ -39,7 +39,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other Cargo" languagecode="1033" />
         <label description="Autre cargo" languagecode="1036" />
@@ -48,7 +48,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Unknown" languagecode="1033" />
         <label description="Inconnu" languagecode="1036" />

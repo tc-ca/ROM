@@ -9,7 +9,7 @@
     <displayname description="Yes/No" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="794600000" ExternalValue="">
+    <option value="794600000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Yes" languagecode="1033" />
         <label description="Oui" languagecode="1036" />
@@ -19,7 +19,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001" ExternalValue="">
+    <option value="794600001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="No" languagecode="1033" />
         <label description="Non" languagecode="1036" />

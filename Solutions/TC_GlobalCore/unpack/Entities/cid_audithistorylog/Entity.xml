@@ -408,12 +408,12 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="0" Color="#0000ff">
+              <option value="0" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                 </labels>
               </option>
-              <option value="1" Color="#0000ff">
+              <option value="1" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                 </labels>
@@ -747,22 +747,22 @@
               <Description description="" languagecode="1033" />
             </Descriptions>
             <options>
-              <option value="100000000" ExternalValue="" Color="#0000ff">
+              <option value="100000000" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Create" languagecode="1033" />
                 </labels>
               </option>
-              <option value="100000001" ExternalValue="" Color="#0000ff">
+              <option value="100000001" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Update" languagecode="1033" />
                 </labels>
               </option>
-              <option value="100000002" ExternalValue="" Color="#0000ff">
+              <option value="100000002" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Delete" languagecode="1033" />
                 </labels>
               </option>
-              <option value="100000003" ExternalValue="" Color="#0000ff">
+              <option value="100000003" ExternalValue="" Color="#0000ff" IsHidden="0">
                 <labels>
                   <label description="Access" languagecode="1033" />
                 </labels>

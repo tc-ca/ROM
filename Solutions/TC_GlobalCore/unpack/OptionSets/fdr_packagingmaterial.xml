@@ -9,7 +9,7 @@
     <displayname description="FDR Packaging Material" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="794600000" ExternalValue="">
+    <option value="794600000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Solid" languagecode="1033" />
         <label description="Solid" languagecode="1036" />
@@ -19,7 +19,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600001" ExternalValue="">
+    <option value="794600001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Combination Packaging" languagecode="1033" />
         <label description="Emballage combiné" languagecode="1036" />
@@ -29,7 +29,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="794600002" ExternalValue="">
+    <option value="794600002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="N/A" languagecode="1033" />
         <label description="N/A" languagecode="1036" />

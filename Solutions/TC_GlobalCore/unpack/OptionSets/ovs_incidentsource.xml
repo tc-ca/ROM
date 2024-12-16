@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="30-Day Follow-Up Report" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="CANUTEC Report" languagecode="1033" />
       </labels>
@@ -28,7 +28,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="">
+    <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="TDG Inspectors" languagecode="1033" />
       </labels>
@@ -36,7 +36,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="">
+    <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="RMS Inspectors" languagecode="1033" />
       </labels>
@@ -44,7 +44,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="5" ExternalValue="">
+    <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Environment Canada" languagecode="1033" />
       </labels>
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="6" ExternalValue="">
+    <option value="6" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Newspaper/Media Report/Twitter" languagecode="1033" />
       </labels>
@@ -60,7 +60,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="7" ExternalValue="">
+    <option value="7" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Manitoba Provincial Ministry of Environment" languagecode="1033" />
       </labels>
@@ -68,7 +68,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="8" ExternalValue="">
+    <option value="8" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Canada Nuclear Safety Commission Formerly AECB" languagecode="1033" />
       </labels>
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="9" ExternalValue="">
+    <option value="9" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Provincial Ministry of Environment" languagecode="1033" />
       </labels>
@@ -84,7 +84,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="10" ExternalValue="">
+    <option value="10" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Surface Group - Rail" languagecode="1033" />
       </labels>
@@ -92,7 +92,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="11" ExternalValue="">
+    <option value="11" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Canadian Coast Guard" languagecode="1033" />
       </labels>
@@ -100,7 +100,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="12" ExternalValue="">
+    <option value="12" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Provincial Ministry of Transport" languagecode="1033" />
       </labels>
@@ -108,7 +108,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="13" ExternalValue="">
+    <option value="13" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fire or Police Department" languagecode="1033" />
       </labels>
@@ -116,7 +116,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="14" ExternalValue="">
+    <option value="14" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Transportation Safety Board" languagecode="1033" />
       </labels>
@@ -124,7 +124,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="15" ExternalValue="">
+    <option value="15" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Accident Attendance Report" languagecode="1033" />
       </labels>
@@ -132,7 +132,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="16" ExternalValue="">
+    <option value="16" ExternalValue="" IsHidden="0">
       <labels>
         <label description="DG Occurrence Report(ICAO) As of July 2017" languagecode="1033" />
       </labels>
@@ -140,7 +140,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="17" ExternalValue="">
+    <option value="17" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Emergency Management BC (EM BC)" languagecode="1033" />
       </labels>
@@ -148,7 +148,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="18" ExternalValue="">
+    <option value="18" ExternalValue="" IsHidden="0">
       <labels>
         <label description="TDG Inspectors IIR" languagecode="1033" />
       </labels>
@@ -156,7 +156,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="19" ExternalValue="">
+    <option value="19" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Sitcen Report" languagecode="1033" />
       </labels>
@@ -164,7 +164,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="20" ExternalValue="">
+    <option value="20" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Urgence-Environment, Quebec" languagecode="1033" />
       </labels>
@@ -172,7 +172,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="21" ExternalValue="">
+    <option value="21" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Alberta Environmental and Dangerous Goods Emergencies(Edge)" languagecode="1033" />
       </labels>
@@ -180,7 +180,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="23" ExternalValue="">
+    <option value="23" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
       </labels>

@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Spill" languagecode="1033" />
       </labels>
@@ -20,7 +20,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Leak" languagecode="1033" />
       </labels>
@@ -28,7 +28,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="">
+    <option value="918640002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Explosion" languagecode="1033" />
       </labels>
@@ -36,7 +36,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640003" ExternalValue="">
+    <option value="918640003" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fire/Smoke" languagecode="1033" />
       </labels>
@@ -44,7 +44,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640004" ExternalValue="">
+    <option value="918640004" ExternalValue="" IsHidden="0">
       <labels>
         <label description="No Release/Anticipated Release" languagecode="1033" />
       </labels>
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640005" ExternalValue="">
+    <option value="918640005" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Venting" languagecode="1033" />
       </labels>
@@ -60,7 +60,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640006" ExternalValue="">
+    <option value="918640006" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Bleve" languagecode="1033" />
       </labels>
@@ -68,7 +68,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640007" ExternalValue="">
+    <option value="918640007" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Vapour" languagecode="1033" />
       </labels>
@@ -76,7 +76,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640008" ExternalValue="">
+    <option value="918640008" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
       </labels>

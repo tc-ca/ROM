@@ -14,7 +14,7 @@
     <Description description="Organisation sans numéro d’organisation de l’ARC" languagecode="1036" />
   </Descriptions>
   <options>
-    <option value="1" ExternalValue="" Color="#0000ff">
+    <option value="1" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Indigenous Company" languagecode="1033" />
         <label description="Entreprise autochtone" languagecode="1036" />
@@ -24,7 +24,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="" Color="#0000ff">
+    <option value="2" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Federal / Provincial / Territorial / Municipal" languagecode="1033" />
         <label description="Fédérale / Provinciale / Territoriale / Municipale" languagecode="1036" />
@@ -34,7 +34,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="4" ExternalValue="" Color="#0000ff">
+    <option value="4" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Sole Proprietor" languagecode="1033" />
         <label description="Propriétaire unique" languagecode="1036" />
@@ -44,7 +44,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="5" Color="#0000ff">
+    <option value="5" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Not Registered in Canada" languagecode="1033" />
       </labels>
@@ -52,7 +52,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="3" ExternalValue="" Color="#0000ff">
+    <option value="3" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Other industry type that does not require a CRA Business Number" languagecode="1033" />
         <label description="Autre secteur d’activités n’exigeant pas un numéro d’organisation de l’ARC" languagecode="1036" />

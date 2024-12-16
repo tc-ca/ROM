@@ -12,7 +12,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="0" ExternalValue="" Color="#0000ff">
+    <option value="0" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Postal Address" languagecode="1033" />
         <label description="Adresse postale" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="" Color="#0000ff">
+    <option value="1" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Legal Land Description" languagecode="1033" />
         <label description="Description légale du terrain" languagecode="1036" />
@@ -32,7 +32,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="" Color="#0000ff">
+    <option value="2" ExternalValue="" Color="#0000ff" IsHidden="0">
       <labels>
         <label description="Latitude / Longitude" languagecode="1033" />
         <label description="Latitude / Longitude" languagecode="1036" />

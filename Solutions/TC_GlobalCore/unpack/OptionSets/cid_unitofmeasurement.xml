@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="100000008" ExternalValue="" Color="">
+    <option value="100000008" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Barrels" languagecode="1033" />
         <label description="Barils" languagecode="1036" />
@@ -23,7 +23,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000007" ExternalValue="" Color="">
+    <option value="100000007" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Cubic Metres" languagecode="1033" />
         <label description="Mètres cubes" languagecode="1036" />
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000002" ExternalValue="" Color="">
+    <option value="100000002" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Grams" languagecode="1033" />
         <label description="Grammes" languagecode="1036" />
@@ -43,7 +43,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000003" ExternalValue="" Color="">
+    <option value="100000003" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Kilograms" languagecode="1033" />
         <label description="Kilogrammes" languagecode="1036" />
@@ -53,7 +53,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000005" ExternalValue="" Color="">
+    <option value="100000005" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Lbs." languagecode="1033" />
         <label description="Livres" languagecode="1036" />
@@ -63,7 +63,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000001" ExternalValue="" Color="">
+    <option value="100000001" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Litres" languagecode="1033" />
         <label description="Litres" languagecode="1036" />
@@ -73,7 +73,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000009" ExternalValue="" Color="">
+    <option value="100000009" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Micro Sieverts" languagecode="1033" />
         <label description="Micro Sieverts" languagecode="1036" />
@@ -83,7 +83,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000000" ExternalValue="" Color="">
+    <option value="100000000" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Millilitres" languagecode="1033" />
         <label description="Millilitres" languagecode="1036" />
@@ -93,7 +93,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000004" ExternalValue="" Color="">
+    <option value="100000004" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="Metric Tonnes" languagecode="1033" />
         <label description="Tonnes métriques" languagecode="1036" />
@@ -103,7 +103,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000006" ExternalValue="" Color="">
+    <option value="100000006" ExternalValue="" Color="" IsHidden="0">
       <labels>
         <label description="​Imperial Tons" languagecode="1033" />
         <label description="Tonnes impériales" languagecode="1036" />
@@ -113,7 +113,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="100000010">
+    <option value="100000010" IsHidden="0">
       <labels>
         <label description="Gigabecquerels" languagecode="1033" />
       </labels>

@@ -9,7 +9,7 @@
     <displayname description="Customer Request Sub-Type" languagecode="1033" />
   </displaynames>
   <options>
-    <option value="918640000" ExternalValue="">
+    <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Organization" languagecode="1033" />
       </labels>
@@ -17,7 +17,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640001" ExternalValue="">
+    <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Site" languagecode="1033" />
       </labels>
@@ -25,7 +25,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640002" ExternalValue="">
+    <option value="918640002" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Contact" languagecode="1033" />
       </labels>
@@ -33,7 +33,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="918640003">
+    <option value="918640003" IsHidden="0">
       <labels>
         <label description="Relationship" languagecode="1033" />
       </labels>

@@ -910,31 +910,31 @@
               <Description description="Type d’instance d’une série périodique." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="Not Recurring" languagecode="1033" />
                   <label description="Non périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Recurring Master" languagecode="1033" />
                   <label description="Enregistrement principal périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="Recurring Instance" languagecode="1033" />
                   <label description="Instance périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="3">
+              <option value="3" IsHidden="0">
                 <labels>
                   <label description="Recurring Exception" languagecode="1033" />
                   <label description="Exception périodique" languagecode="1036" />
                 </labels>
               </option>
-              <option value="4">
+              <option value="4" IsHidden="0">
                 <labels>
                   <label description="Recurring Future Exception" languagecode="1033" />
                   <label description="Exception future périodique" languagecode="1036" />
@@ -995,13 +995,13 @@
               <Description description="Information indiquant si l'activité a été facturée dans le cadre de la résolution d'un incident." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1061,13 +1061,13 @@
               <Description description="Utilisation interne uniquement." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1169,13 +1169,13 @@
               <Description description="Information indiquant si l'activité a été créée à partir d'une règle de workflow." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -1278,13 +1278,13 @@
               <Description description="Message vocal laissé." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
                   <label description="Non" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
                   <label description="Oui" languagecode="1036" />
@@ -2060,19 +2060,19 @@
               <Description description="Priorité de l'activité." languagecode="1036" />
             </Descriptions>
             <options>
-              <option value="0">
+              <option value="0" IsHidden="0">
                 <labels>
                   <label description="Low" languagecode="1033" />
                   <label description="Faible" languagecode="1036" />
                 </labels>
               </option>
-              <option value="1">
+              <option value="1" IsHidden="0">
                 <labels>
                   <label description="Normal" languagecode="1033" />
                   <label description="Normale" languagecode="1036" />
                 </labels>
               </option>
-              <option value="2">
+              <option value="2" IsHidden="0">
                 <labels>
                   <label description="High" languagecode="1033" />
                   <label description="Haute" languagecode="1036" />

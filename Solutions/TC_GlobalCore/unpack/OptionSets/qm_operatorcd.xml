@@ -11,7 +11,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="930840000">
+    <option value="930840000" IsHidden="0">
       <labels>
         <label description="Equal" languagecode="1033" />
         <label description="Égale" languagecode="1036" />
@@ -21,7 +21,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840001">
+    <option value="930840001" IsHidden="0">
       <labels>
         <label description="Not Equal" languagecode="1033" />
         <label description="Inégale" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840002">
+    <option value="930840002" IsHidden="0">
       <labels>
         <label description="Greater Than" languagecode="1033" />
         <label description="Supérieure à" languagecode="1036" />
@@ -41,7 +41,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840003">
+    <option value="930840003" IsHidden="0">
       <labels>
         <label description="Less Than" languagecode="1033" />
         <label description="Inférieure à " languagecode="1036" />
@@ -51,7 +51,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840004">
+    <option value="930840004" IsHidden="0">
       <labels>
         <label description="Length Less Than" languagecode="1033" />
         <label description="Longueur inférieure à" languagecode="1036" />
@@ -61,7 +61,7 @@
         <Description description="" languagecode="1036" />
       </Descriptions>
     </option>
-    <option value="930840005">
+    <option value="930840005" IsHidden="0">
       <labels>
         <label description="Length Greater Than" languagecode="1033" />
         <label description="Longueur supérieure à" languagecode="1036" />

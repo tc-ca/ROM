@@ -13,7 +13,7 @@
     <Description description="" languagecode="1033" />
   </Descriptions>
   <options>
-    <option value="0" ExternalValue="">
+    <option value="0" ExternalValue="" IsHidden="0">
       <labels>
         <label description="On site" languagecode="1033" />
         <label description="Sur place" languagecode="1036" />
@@ -22,7 +22,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="1" ExternalValue="">
+    <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Remote" languagecode="1033" />
         <label description="À distance" languagecode="1036" />
@@ -31,7 +31,7 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
     </option>
-    <option value="2" ExternalValue="">
+    <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Hybrid" languagecode="1033" />
         <label description="Hybride" languagecode="1036" />
