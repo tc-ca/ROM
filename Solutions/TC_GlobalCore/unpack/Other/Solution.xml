@@ -14358,7 +14358,7 @@
         <Required type="61" schemaName="Activities/SystemLibraries/Task_main_system_library.js" displayName="Activities/SystemLibraries/Task_main_system_library.js" solution="msdynce_Activities (9.0.1.2033)">
           <package appName="msdynce_Activities" version="9.0.24105.241031000">msdynce_EnableUCIByDefault (9.0.24105.241031000)</package>
         </Required>
-        <Dependent type="60" displayName="Information" parentDisplayName="Task" id="{b62ce022-cc0f-4c8c-bb29-21948f70dc74}" />
+        <Dependent type="60" displayName="Annual Compliance" parentDisplayName="Task" id="{36b2696a-5e75-4f8b-a1e2-e7dc7d0b7dc3}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="adx_Form_16.png" displayName="adx_Form_16.png" solution="PowerPages_RuntimeCore (1.0.2407.1)">
@@ -14640,6 +14640,12 @@
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
           <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
         </Required>
+        <Dependent type="60" displayName="Contact Main Form" parentDisplayName="Contact" id="{2c961780-b9f9-ea11-a815-000d3af3ac0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
         <Dependent type="60" displayName="Profile Web Form - Japanese" parentDisplayName="Contact" id="{36cc830c-eeab-4a89-a7c9-da2ac6c451a1}" />
       </MissingDependency>
       <MissingDependency>
@@ -14653,12 +14659,6 @@
           <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
         </Required>
         <Dependent type="60" displayName="TDG Contact Core2" parentDisplayName="Contact" id="{4b062092-0e62-ee11-8df0-0022483d0343}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
-        </Required>
-        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
@@ -15951,13 +15951,13 @@
         <Required type="61" schemaName="msdyncrm_/KnowledgeManagement/KnowledgeArticle/KnowledgeArticleMainSystemLibrary.js" displayName="msdyncrm_/KnowledgeManagement/KnowledgeArticle/KnowledgeArticleMainSystemLibrary.js" solution="msdynce_KnowledgeManagementPatch (9.0.24112.5004)">
           <package appName="msdynce_KnowledgeManagement" version="9.0.24112.5004">msdynce_KnowledgeManagementAnchor (9.0.24112.5004)</package>
         </Required>
-        <Dependent type="60" displayName="CID Portal - Knowledge Article Details" parentDisplayName="Knowledge Article" id="{84cc2d2b-5955-433d-9a8f-a80c7bde8f23}" />
+        <Dependent type="60" displayName="Knowledge Article" parentDisplayName="Knowledge Article" id="{e7ef555e-7f57-4164-b604-59fa4f0a7e2e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyncrm_/KnowledgeManagement/KnowledgeArticle/KnowledgeArticleMainSystemLibrary.js" displayName="msdyncrm_/KnowledgeManagement/KnowledgeArticle/KnowledgeArticleMainSystemLibrary.js" solution="msdynce_KnowledgeManagementPatch (9.0.24112.5004)">
           <package appName="msdynce_KnowledgeManagement" version="9.0.24112.5004">msdynce_KnowledgeManagementAnchor (9.0.24112.5004)</package>
         </Required>
-        <Dependent type="60" displayName="Knowledge Article" parentDisplayName="Knowledge Article" id="{e7ef555e-7f57-4164-b604-59fa4f0a7e2e}" />
+        <Dependent type="60" displayName="Knowledge Article for Interactive experience" parentDisplayName="Knowledge Article" id="{f7502aaf-4874-49fc-868d-cc201c6c4453}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyncrm_/KnowledgeManagementFeatureWebResource/KnowledgeArticleAttachment/KnowledgeArticleAttachment.js" displayName="msdyncrm_/KnowledgeManagementFeatureWebResource/KnowledgeArticleAttachment/KnowledgeArticleAttachment.js" solution="msdynce_KnowledgeManagementFeatures (9.0.24112.5004)">
@@ -16006,12 +16006,6 @@
           <package appName="msdynce_Sales" version="9.0.24114.10003">msdynce_SalesAnchor (9.0.24114.10003)</package>
         </Required>
         <Dependent type="60" displayName="CID - Organizations (NOT IN USED)" parentDisplayName="Account" id="{003e2f6c-5b0a-ec11-b6e6-000d3ae8f7de}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
-          <package appName="msdynce_Sales" version="9.0.24114.10003">msdynce_SalesAnchor (9.0.24114.10003)</package>
-        </Required>
-        <Dependent type="60" displayName="TDG Site Profile - Custom DeActivation Button" parentDisplayName="Account" id="{05264e2c-47d5-4669-bd52-f903380ba1fa}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
@@ -16204,6 +16198,12 @@
           <package appName="msdynce_Sales" version="9.0.24114.10003">msdynce_SalesAnchor (9.0.24114.10003)</package>
         </Required>
         <Dependent type="60" displayName="FDR Organization" parentDisplayName="Account" id="{c7e17dd5-6104-ed11-82e6-000d3a8483f6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.24114.10003">msdynce_SalesAnchor (9.0.24114.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Site" parentDisplayName="Account" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">

@@ -3,6 +3,7 @@
   <WebResourceId>{b882f67b-1378-ec11-8942-000d3a840cdc}</WebResourceId>
   <Name>ovs_WorkOrderCandidate_MainForm</Name>
   <DisplayName>WorkOrder Candidate MainForm.js</DisplayName>
+  <LanguageCode>0</LanguageCode>
   <WebResourceType>3</WebResourceType>
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
