@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ovs_lob" />
+  <EntityRelationship Name="lk_ovs_lob_createdby" />
+  <EntityRelationship Name="lk_ovs_lob_modifiedby" />
+  <EntityRelationship Name="ovs_cdregionalnop_lineofbusiness" />
+  <EntityRelationship Name="ovs_CDRegionalNOP_WorkOrderCandidate" />
+  <EntityRelationship Name="ovs_lob_lob_nop_team_id_team" />
+  <EntityRelationship Name="ovs_lob_team_team" />
+  <EntityRelationship Name="ovs_territory_ovs_cdregionalnop_CDProvinceId" />
+  <EntityRelationship Name="owner_ovs_lob" />
+  <EntityRelationship Name="team_ovs_lob" />
+  <EntityRelationship Name="user_ovs_lob" />
+</EntityRelationships>

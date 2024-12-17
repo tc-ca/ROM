@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7a047987-630f-4cea-a2cc-ab799a1b4fcb}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{037d4923-a1cf-46ef-a0b9-3cc9c1d6177c}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1ab4a45a-8363-4f75-9350-1f18ecedf6c3}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6bb95fbe-b350-4c8b-9c59-cc447e901452}" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{55a7c358-2795-4285-9242-921a719e2502}" locklevel="0">
+                        <labels>
+                          <label description="Line of Business Name (English)" languagecode="1033" />
+                          <label description="Nom du secteur d'activité (anglais)" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusinessnameenglish" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_lineofbusinessnameenglish" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{886b6cfb-0303-4087-894f-20c9b22c1e91}" locklevel="0">
+                        <labels>
+                          <label description="Line of Business Name (French)" languagecode="1033" />
+                          <label description="Nom du secteur d'activité (français)" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusinessnamefrench" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_lineofbusinessnamefrench" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ef114de6-4d7b-441c-8c53-8ec4d399d284}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="LOB NOP Team" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_lob_nop_team_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lob_nop_team_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b07e87f9-c6f6-4b7e-95a5-887c44dddd36}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="LOB Team" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_lob_team_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lob_team_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b52dbc7-8d5d-4c53-807b-ade0b9ea5992}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{89f4dd0e-4bd4-44e8-b925-1b8e9becf4ff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e36bc417-71c8-4c48-8a52-1e3300c79d1e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d220e812-f6cc-4655-8ea2-998478e11fc0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{63bceee6-b3f6-4ca5-ac6c-32c1477f7b2a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{478c92fa-19da-42e1-8f59-157b6f60d845}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{227ea6b7-9a39-41b4-b460-98dc3f5d4df3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7f0ba922-555d-45a6-b20d-a651cd9c54a0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{be753da1-44af-440c-8f36-8ffffff3859f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7dd3299a-751b-49e3-a5fe-ae234d897951}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_cdregionalnopid">
+          <cell name="ovs_name" width="300" />
+          <cell name="ovs_cdfiscalyearid" width="100" />
+          <cell name="ovs_cdnopid" width="100" />
+          <cell name="ovs_lineofbusiness_id" width="138" />
+          <cell name="ovs_cdregionid" width="100" />
+          <cell name="ovs_capacity" width="100" />
+          <cell name="ovs_cdwoccount" width="230" />
+          <cell name="ovs_cdwocvariance" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_cdregionalnop">
+          <attribute name="ovs_name" />
+          <attribute name="createdon" />
+          <order attribute="ovs_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ovs_cdregionid" />
+          <attribute name="ovs_cdnopid" />
+          <attribute name="ovs_cdfiscalyearid" />
+          <attribute name="ovs_capacity" />
+          <attribute name="ovs_cdwocvariance" />
+          <attribute name="ovs_cdregionalnopid" />
+          <attribute name="ovs_cdwoccount" />
+          <attribute name="ovs_lineofbusiness_id" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Line of Business NOPs" languagecode="1033" />
+      <LocalizedName description="PNS secteur d'activité actifs" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

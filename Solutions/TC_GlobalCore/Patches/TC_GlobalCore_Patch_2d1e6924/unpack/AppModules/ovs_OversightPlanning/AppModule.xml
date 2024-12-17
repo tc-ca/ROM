@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ovs_OversightPlanning</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="29" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" />
+    <AppModuleComponent type="59" id="{8e746648-1a4e-e111-93b3-000c2959f9b8}" />
+    <AppModuleComponent type="59" id="{f36b83d7-3e03-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="59" id="{c5bb56fd-90b0-e111-98ce-00155d28960b}" />
+    <AppModuleComponent type="59" id="{88de94cc-8b5e-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="59" id="{5b290fff-355f-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="59" id="{74a622c0-5193-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="59" id="{edf35649-5293-de11-97d4-00155da3b01e}" />
+    <AppModuleComponent type="59" id="{be178262-6142-4b41-85b7-4ccedc62cfd9}" />
+    <AppModuleComponent type="1" schemaName="ovs_siteclass" />
+    <AppModuleComponent type="1" schemaName="msdyn_customerassetcategory" />
+    <AppModuleComponent type="1" schemaName="sharepointdocument" />
+    <AppModuleComponent type="1" schemaName="appointment" />
+    <AppModuleComponent type="1" schemaName="msdyn_incidenttype" />
+    <AppModuleComponent type="1" schemaName="ovs_questionnaire" />
+    <AppModuleComponent type="1" schemaName="qm_sytemplate" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookableresourcebookingquicknote" />
+    <AppModuleComponent type="1" schemaName="ovs_unplannedforecast" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="ovs_workordercandidate" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorderservice" />
+    <AppModuleComponent type="1" schemaName="connection" />
+    <AppModuleComponent type="1" schemaName="ovs_oversighttype" />
+    <AppModuleComponent type="1" schemaName="ovs_sitetype" />
+    <AppModuleComponent type="1" schemaName="bookableresource" />
+    <AppModuleComponent type="1" schemaName="ovs_tdginspectionreport" />
+    <AppModuleComponent type="1" schemaName="ovs_tyohsequipmenttype" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorderservicetask" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorderincident" />
+    <AppModuleComponent type="1" schemaName="tc_tcfiscalyear" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingtimestamp" />
+    <AppModuleComponent type="1" schemaName="transactioncurrency" />
+    <AppModuleComponent type="1" schemaName="tc_tcfiscalquarter" />
+    <AppModuleComponent type="1" schemaName="email" />
+    <AppModuleComponent type="1" schemaName="ovs_cdregionalnop" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="1" schemaName="bookingstatus" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+    <AppModuleComponent type="1" schemaName="connectionrole" />
+    <AppModuleComponent type="1" schemaName="qm_rclegislation" />
+    <AppModuleComponent type="1" schemaName="ovs_followuprequest" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourceterritory" />
+    <AppModuleComponent type="1" schemaName="qm_syresponse" />
+    <AppModuleComponent type="1" schemaName="msdyn_servicetasktype" />
+    <AppModuleComponent type="1" schemaName="ovs_tyrational" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="actioncard" />
+    <AppModuleComponent type="1" schemaName="bookableresourcebooking" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorderproduct" />
+    <AppModuleComponent type="1" schemaName="msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39" />
+    <AppModuleComponent type="1" schemaName="qm_tylegislationtype" />
+    <AppModuleComponent type="1" schemaName="msdyn_workordersubstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorder" />
+    <AppModuleComponent type="1" schemaName="ovs_operationunnumber" />
+    <AppModuleComponent type="1" schemaName="qm_syquestion" />
+    <AppModuleComponent type="1" schemaName="qm_syresult" />
+    <AppModuleComponent type="1" schemaName="territory" />
+    <AppModuleComponent type="1" schemaName="msdyn_timegroupdetail" />
+    <AppModuleComponent type="1" schemaName="qm_tylegislationsource" />
+    <AppModuleComponent type="1" schemaName="ovs_cdnop" />
+    <AppModuleComponent type="1" schemaName="ovs_tyohsnote" />
+    <AppModuleComponent type="1" schemaName="ovs_revisedquarterrequest" />
+    <AppModuleComponent type="1" schemaName="leadtoopportunitysalesprocess" />
+    <AppModuleComponent type="1" schemaName="ovs_registration" />
+    <AppModuleComponent type="1" schemaName="ovs_cyaction" />
+    <AppModuleComponent type="1" schemaName="ovs_cancellationrequest" />
+    <AppModuleComponent type="1" schemaName="tc_tcfiscalperiod" />
+    <AppModuleComponent type="1" schemaName="msdyn_inspection" />
+    <AppModuleComponent type="1" schemaName="ovs_mocregistration" />
+    <AppModuleComponent type="1" schemaName="ovs_cysafetyassessment" />
+    <AppModuleComponent type="1" schemaName="ovs_confirmationofcompliance" />
+    <AppModuleComponent type="1" schemaName="qm_tylegislationcharacteristic" />
+    <AppModuleComponent type="60" id="{44564bcc-8919-ed11-b83e-000d3a0c8551}" />
+    <AppModuleComponent type="60" id="{026925a2-097a-ec11-8d20-000d3a84a45c}" />
+    <AppModuleComponent type="60" id="{799e79c9-87f4-eb11-94ef-000d3a84a4e1}" />
+    <AppModuleComponent type="60" id="{90a5e862-cda1-ef11-a72d-000d3ae8ce17}" />
+    <AppModuleComponent type="60" id="{d76f196a-9e9c-eb11-b1ac-000d3ae924d1}" />
+    <AppModuleComponent type="60" id="{6768019c-3b8e-eb11-b1ac-000d3ae92dbf}" />
+    <AppModuleComponent type="60" id="{906d0737-8ca7-eb11-9442-000d3ae99322}" />
+    <AppModuleComponent type="60" id="{ec2f9560-2f03-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="60" id="{e631a301-3f03-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="60" id="{c0da77e9-2f03-eb11-a813-000d3af3ac0d}" />
+    <AppModuleComponent type="60" id="{1a8ac070-c043-eb11-a812-000d3af3fc19}" />
+    <AppModuleComponent type="60" id="{ec7b5b17-85b9-eb11-8236-0022483bc67c}" />
+    <AppModuleComponent type="60" id="{5f5ffe7a-71e3-eb11-bacb-0022483c5e2f}" />
+    <AppModuleComponent type="60" id="{5e818a16-ee3b-ec11-8c62-0022483d7564}" />
+    <AppModuleComponent type="60" id="{0cc5dd73-e311-4f4f-a98f-079f30e8b5c6}" />
+    <AppModuleComponent type="60" id="{b0dc190e-9603-444b-94b3-07b98a8f1d60}" />
+    <AppModuleComponent type="60" id="{8c3b7506-2401-45fa-99cb-122adaebfa48}" />
+    <AppModuleComponent type="60" id="{cea28746-8d51-4c2c-9672-16e0d255893a}" />
+    <AppModuleComponent type="60" id="{3682d20f-3e9b-475c-a774-1a6ebdc29f21}" />
+    <AppModuleComponent type="60" id="{45185d20-c89e-49b3-a219-2794a5221863}" />
+    <AppModuleComponent type="60" id="{444fd031-7381-4a73-a520-2b2fd7ebe013}" />
+    <AppModuleComponent type="60" id="{39d6d35e-3c67-462a-a844-439d8ff90095}" />
+    <AppModuleComponent type="60" id="{bfbf5ed5-9618-41ae-9191-454623c99001}" />
+    <AppModuleComponent type="60" id="{b6627ebb-062e-4b86-9771-46ed5fabaf62}" />
+    <AppModuleComponent type="60" id="{1facd650-2e04-4d3f-8399-491bb309c68b}" />
+    <AppModuleComponent type="60" id="{dc0a1880-c2c9-497c-9bbc-5ff6f83ea1fd}" />
+    <AppModuleComponent type="60" id="{948e0d30-ed86-407a-bca3-6beaf5a1c91e}" />
+    <AppModuleComponent type="60" id="{2ee0f0dd-f245-40d7-a998-706aeb7b9246}" />
+    <AppModuleComponent type="60" id="{17d9c5aa-e51d-453f-9233-79a546d1b18d}" />
+    <AppModuleComponent type="60" id="{2dbe9c3a-901a-484d-9e68-8424cd897f8d}" />
+    <AppModuleComponent type="60" id="{75035ca7-0dfc-4ebd-862c-8a19fc72d692}" />
+    <AppModuleComponent type="60" id="{b0ec202a-3514-4409-8ea2-8db772ad3a81}" />
+    <AppModuleComponent type="60" id="{1b9a121e-2445-4514-9949-9d17addf1375}" />
+    <AppModuleComponent type="60" id="{784422a9-fcda-4763-a12c-9dfac2cb6c41}" />
+    <AppModuleComponent type="60" id="{a0a35d2b-67c5-46e3-8e91-b5f0e6b66981}" />
+    <AppModuleComponent type="60" id="{f7cfa7da-bd84-406d-add8-ba3537122663}" />
+    <AppModuleComponent type="60" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+    <AppModuleComponent type="60" id="{1d590902-6249-4341-ac51-bbc9d98d208f}" />
+    <AppModuleComponent type="60" id="{a09fc69f-3ace-46b5-85f1-be132f683042}" />
+    <AppModuleComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+    <AppModuleComponent type="60" id="{a86b0d9c-3802-4fed-9a93-c27c6ddbac15}" />
+    <AppModuleComponent type="60" id="{b7c53e87-a189-4870-a48b-c6ef6b4634cb}" />
+    <AppModuleComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+    <AppModuleComponent type="60" id="{6a6a2a39-0796-4246-9bee-d3a2b0519e1f}" />
+    <AppModuleComponent type="60" id="{db5d5927-e1b5-440f-b55b-e0a95e1b053b}" />
+    <AppModuleComponent type="60" id="{097f6a5f-2777-402a-ba3b-e35fcbfaa145}" />
+    <AppModuleComponent type="60" id="{61416bf9-d4e4-4f94-b6ef-eead8e6fb889}" />
+    <AppModuleComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+    <AppModuleComponent type="60" id="{66cddb3b-b9ca-4552-ac5e-f4d726a35268}" />
+    <AppModuleComponent type="60" id="{c6120a5b-59de-403d-9888-f6cec9f4ed5c}" />
+    <AppModuleComponent type="62" schemaName="ovs_OversightPlanning" />
+    <AppModuleComponent type="26" id="{82e357fe-4361-e111-ac14-000c2959f9b8}" />
+    <AppModuleComponent type="26" id="{637fd9ff-b25b-e111-b0e5-000c2959f9b8}" />
+    <AppModuleComponent type="26" id="{40c5ca0d-73d5-ee11-904c-000d3a845779}" />
+    <AppModuleComponent type="26" id="{fe8f7daa-7d58-eb11-a812-000d3a84da66}" />
+    <AppModuleComponent type="26" id="{c8c68eb4-7e58-eb11-a812-000d3a84da66}" />
+    <AppModuleComponent type="26" id="{7bc9f704-7f58-eb11-a812-000d3a84da66}" />
+    <AppModuleComponent type="26" id="{8907b66d-f15f-eb11-a812-000d3a84fd7b}" />
+    <AppModuleComponent type="26" id="{83e8d5e6-dec3-eb11-bacc-000d3ae868f0}" />
+    <AppModuleComponent type="26" id="{d8d2c355-71a4-eb11-b1ac-000d3ae8b93a}" />
+    <AppModuleComponent type="26" id="{920688a2-94a7-eb11-9442-000d3ae99322}" />
+    <AppModuleComponent type="26" id="{63d7ac99-20a8-eb11-9442-000d3ae99322}" />
+    <AppModuleComponent type="26" id="{626329e8-20a8-eb11-9442-000d3ae99322}" />
+    <AppModuleComponent type="26" id="{b8cd6b52-20a8-eb11-9442-000d3ae99bee}" />
+    <AppModuleComponent type="26" id="{df26b7fd-067b-eb11-a812-000d3af31cea}" />
+    <AppModuleComponent type="26" id="{36bda4f2-64d4-eb11-bacc-000d3af38cd4}" />
+    <AppModuleComponent type="26" id="{ad231260-65d4-eb11-bacc-000d3af38cd4}" />
+    <AppModuleComponent type="26" id="{7c363e5f-5bd4-eb11-bacc-000d3af3999c}" />
+    <AppModuleComponent type="26" id="{c9f98aed-5fd4-eb11-bacc-000d3af3999c}" />
+    <AppModuleComponent type="26" id="{385a52aa-18d5-eb11-bacc-000d3af3999c}" />
+    <AppModuleComponent type="26" id="{861a305d-1fd5-eb11-bacc-000d3af3999c}" />
+    <AppModuleComponent type="26" id="{8965dc8d-460a-eb11-a813-000d3af3a7a7}" />
+    <AppModuleComponent type="26" id="{e69e584b-1af9-ea11-a815-000d3af3ac0d}" />
+    <AppModuleComponent type="26" id="{293498de-a23c-e311-974a-00155da8fa1b}" />
+    <AppModuleComponent type="26" id="{3f0e8ed5-3acd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{43d03694-3dcd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{1d8db8c4-42cd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{bf2b6f75-44cd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{c7637aa7-47cd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{69e96920-49cd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{25605b69-4acd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{26ac959a-4ccd-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{2fcdb78b-62d0-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{aad03db1-66d0-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{2ef5fd10-67d0-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{16df01c9-6ad0-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{2f1530ca-72d0-eb11-bacc-0022483c0d29}" />
+    <AppModuleComponent type="26" id="{4f3d8167-eae3-eb11-bacb-0022483c5173}" />
+    <AppModuleComponent type="26" id="{c7493402-8c71-ed11-81ac-0022483d0343}" />
+    <AppModuleComponent type="26" id="{2b492e52-cbb9-ec11-983f-0022483d62f4}" />
+    <AppModuleComponent type="26" id="{b6e3caab-ee3b-ec11-8c62-0022483d71b4}" />
+    <AppModuleComponent type="26" id="{29319724-14d1-ee11-904d-002248b0ab18}" />
+    <AppModuleComponent type="26" id="{165d86c4-84d2-ee11-904d-002248b0ab18}" />
+    <AppModuleComponent type="26" id="{cf5ff572-9613-47a1-8974-02a49d48a3a3}" />
+    <AppModuleComponent type="26" id="{ae0d8547-6871-4854-91ba-03b0c619dbe1}" />
+    <AppModuleComponent type="26" id="{0016f9f3-41cc-4276-9d11-04308d15858d}" />
+    <AppModuleComponent type="26" id="{92afd454-0f2e-4397-a1c8-05e37c6ad699}" />
+    <AppModuleComponent type="26" id="{c2b848e9-8d49-4972-8e80-06a8b98802a1}" />
+    <AppModuleComponent type="26" id="{8951ee1c-5ade-43ad-8746-0743412f87ea}" />
+    <AppModuleComponent type="26" id="{8bcd3001-fb04-477b-9fc5-0c3724545c6c}" />
+    <AppModuleComponent type="26" id="{98c7fee1-1d9f-4226-89bb-26e6be7057f8}" />
+    <AppModuleComponent type="26" id="{76e344db-276f-49f7-a5db-2c6531154968}" />
+    <AppModuleComponent type="26" id="{dc1ba6bd-aa88-44da-b6b8-2fd5462a2c5d}" />
+    <AppModuleComponent type="26" id="{130eea39-ba4d-4393-a23f-30aded3a9ed7}" />
+    <AppModuleComponent type="26" id="{4de23d19-7523-4514-b6d4-31b079838062}" />
+    <AppModuleComponent type="26" id="{7e35f6a5-af6d-40f3-b3aa-3369350f8c35}" />
+    <AppModuleComponent type="26" id="{28db6631-4a50-4cc1-b95a-3730f6313cb4}" />
+    <AppModuleComponent type="26" id="{9c2bcbc1-29df-44f9-81d7-39faef7f3978}" />
+    <AppModuleComponent type="26" id="{853304d8-897f-4f84-b721-3cb9cc5a6695}" />
+    <AppModuleComponent type="26" id="{5e97b27e-8ae9-4b14-89fe-3d5ad7ccec9c}" />
+    <AppModuleComponent type="26" id="{d902f510-929c-43d3-a797-40336d4262fb}" />
+    <AppModuleComponent type="26" id="{0312a55e-e22c-4afb-abff-4bdbf5cfd601}" />
+    <AppModuleComponent type="26" id="{47f96161-081e-4885-b167-5267b44358e6}" />
+    <AppModuleComponent type="26" id="{912b9ead-c8ca-49dd-a11e-5362d0011729}" />
+    <AppModuleComponent type="26" id="{94f59929-ef79-4a33-aab1-5e340bf1ef5d}" />
+    <AppModuleComponent type="26" id="{66f834cf-8d1f-4375-b6b0-60b786e98e0a}" />
+    <AppModuleComponent type="26" id="{d7d451c8-8656-4bf5-98be-66263f412592}" />
+    <AppModuleComponent type="26" id="{3b6057a9-1840-49c1-95ab-66e11b51b25e}" />
+    <AppModuleComponent type="26" id="{1662ced4-9bc6-4e77-90b2-6bbf2bef029f}" />
+    <AppModuleComponent type="26" id="{19839811-189d-4b23-8a32-6cbe03f254d7}" />
+    <AppModuleComponent type="26" id="{90871801-b829-4f28-9fcd-70de41d716c8}" />
+    <AppModuleComponent type="26" id="{8afd6674-1e68-4d71-8b0d-723057647ac7}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{c218571e-468c-4271-815f-811c72c2f338}" />
+    <AppModuleComponent type="26" id="{3901d077-2043-4201-b4dc-826cb16d28c7}" />
+    <AppModuleComponent type="26" id="{8ce18d7f-d3e4-47e6-a481-93982bb8060a}" />
+    <AppModuleComponent type="26" id="{9befd676-51a6-42a8-888a-980ac9610fb6}" />
+    <AppModuleComponent type="26" id="{4b4548a2-7a1c-4f35-a58b-98a27848b1f9}" />
+    <AppModuleComponent type="26" id="{25e8285a-0aab-46bf-9509-99a6585328f9}" />
+    <AppModuleComponent type="26" id="{72cca668-4e5d-4ab1-afef-9b00703a5c41}" />
+    <AppModuleComponent type="26" id="{6e549e50-dce5-4f9a-8db2-a0d5e7b8eb4b}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{de8e34ea-d189-eb11-b1ac-000d3ae92dbf}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="TDG Inspections / Inspections TMD" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="TDG Inspectors app" languagecode="1033" />
+  </Descriptions>
+  <appelements>
+    <appelement uniquename="ct_ovs_OversightPlanning_canvasappid_ct_oversightplanningdefaultcommandlibrary_59ac5">
+      <canvasappid>
+        <name>ct_oversightplanningdefaultcommandlibrary_59ac5</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>ct_ovs_OversightPlanning_canvasappid_ct_oversightplanningdefaultcommandlibrary_59ac5</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AllowNotificationsEarlyAccess">
+      <iscustomizable>1</iscustomizable>
+      <value>true</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

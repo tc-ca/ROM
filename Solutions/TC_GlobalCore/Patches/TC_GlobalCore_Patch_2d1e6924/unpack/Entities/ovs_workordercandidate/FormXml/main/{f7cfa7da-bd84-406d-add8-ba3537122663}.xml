@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f7cfa7da-bd84-406d-add8-ba3537122663}</formid>
+    <IntroducedVersion>1.115.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}" IsUserDefined="1" name="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{30fae4ca-1be0-4446-990c-884fa48dbb02}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{68687eab-1384-b58e-cd9d-061d689d9621}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                          <label description="Site" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_site" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_site" disabled="true" uniqueid="{7be6490e-d623-b79e-6a1a-aee172e8352d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ea90c95-35b6-90c7-a314-4b600eb98cb2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Operation" languagecode="1033" />
+                          <label description="Opération" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_operationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_operationid" disabled="true" uniqueid="{4c671e4b-8947-0456-27de-21144a990178}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{7E35F6A5-AF6D-40F3-B3AA-3369350F8C35}</DefaultViewId>
+                            <FilterRelationshipName>ovs_MOCRegistration_Site</FilterRelationshipName>
+                            <DependentAttributeName>ovs_workordercandidate.ovs_site</DependentAttributeName>
+                            <DependentAttributeType>account</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{972ed23a-91c8-78b5-986e-9ee4b97e0cdb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Oversight Type" languagecode="1033" />
+                          <label description="Type de surveillance" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_oversighttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_oversighttype" disabled="true" uniqueid="{b1c71016-0b55-7a5c-7bec-06988e150147}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E799195B-89C5-4CCF-835E-B61FB232F4EB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{897ece6f-5ec0-4849-9c0d-e2a3b3ae143a}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1734387385649" languagecode="1033" />
+                          <label description="Opération" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1734387385649" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_operationid">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ovs_mocregistration"&gt;c1675b2e-fbbb-ef11-a72e-002248b1707c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d143916b-3bad-d823-05c5-d49b14beb6dc}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Site Address" languagecode="1033" />
+                          <label description="Site" languagecode="1036" />
+                        </labels>
+                        <control id="frmSiteAddress" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_site" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;7bfb73c4-a231-48c3-bbbd-563338ff9799&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}_section_6" showlabel="true" showbar="false" locklevel="0" id="{5d3078d5-419c-5352-58b5-d1ce51ac4b87}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Modes of Transportation" languagecode="1033" />
+                    <label description="Modes de transport" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3ba90c51-0a36-84e8-b8d4-0ccce24dee9e}" showlabel="true" colspan="1" auto="false">
+                        <labels>
+                          <label description="Modes of Transportation" languagecode="1033" />
+                          <label description="Modes de transport" languagecode="1036" />
+                        </labels>
+                        <control id="frmOperationModes" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_site" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="account"&gt;e4dbda5d-41b3-ef11-a72f-6045bd5bfaca&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}_section_3" showlabel="true" showbar="false" locklevel="0" id="{1e0ce430-8618-8747-d91a-e37365b9d07b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Regional Planning" languagecode="1033" />
+                    <label description="Planification régionale" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3792e86d-06b1-6b48-d000-6cb9018e4c54}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Inspector" languagecode="1033" />
+                          <label description="Inspecteur principal" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_primaryinspector" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_primaryinspector" disabled="false" uniqueid="{e4ae50a8-56ee-01d9-9b58-90942d62b62d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6643c22e-7b7e-b5a9-b68b-d80cdee18463}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Planned Quarter" languagecode="1033" />
+                          <label description="Trimestre prévu" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_plannedquarter" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_plannedquarter" disabled="false" uniqueid="{ea1d795a-91b8-de81-95c6-89aee5bde285}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{72CCA668-4E5D-4AB1-AFEF-9B00703A5C41}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7862428e-30be-cab3-2a19-2b4a9b2ed92e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Remote" languagecode="1033" />
+                          <label description="À distance" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_remote" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_remote" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{567cc6cb-e328-1d21-a668-71387395bbbb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Trip ID" languagecode="1033" />
+                          <label description="L’ID de voyage" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_tripid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_tripid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}_section_5" showlabel="true" showbar="false" locklevel="0" id="{95c468a2-46e5-5273-5b89-11cc63b0187e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Recommendation Status" languagecode="1033" />
+                    <label description="État de la recommandation" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b21ec235-c901-2e46-4b79-c014a52bd471}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Initial" languagecode="1033" />
+                          <label description="Initiale" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_initialrecommendation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ovs_initialrecommendation" disabled="true" uniqueid="{8508d3a6-c5ac-933d-b72b-7d9b61860c27}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b961935-c8de-ad76-b621-cca28885e55e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="HQ" languagecode="1033" />
+                          <label description="QG" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_hqflag" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_hqflag" disabled="true" uniqueid="{81d56d7d-eac4-79dd-3c49-7c6d4d91b244}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44b2aaa9-3e1d-9a61-1c7a-21c1b993a4b6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                          <label description="Région" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_regionflag" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_regionflag" disabled="false" uniqueid="{c79039c1-45b5-93bb-63de-9e9675568c83}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{001dab4b-815c-d511-ab65-6803d012942e}" showlabel="true" locklevel="0" colspan="1" rowspan="5">
+                        <labels>
+                          <label description="Justification" languagecode="1033" />
+                          <label description="Justification" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_justification" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ovs_justification" disabled="false" uniqueid="{5b9e7c92-04a2-d2ed-ea53-b0e60e66eae0}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_2_section_2" showlabel="true" showbar="false" locklevel="0" id="{9ec30916-8c1e-18dd-ae58-33aed4243745}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Current Risk" languagecode="1033" />
+                    <label description="Risque actuel" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{b870b107-3144-4d3f-b889-93065c7d87be}" colspan="1" rowspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Operation Risk Scores" languagecode="1033" />
+                          <label description="Scores de risque d’opération" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1642694508031" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_operationid" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ovs_mocregistration"&gt;026925a2-097a-ec11-8d20-000d3a84a45c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{3ecc3c3a-a2d9-43fd-aadb-280026b04c80}_section_2" showlabel="true" showbar="false" locklevel="0" id="{0093dd69-85ea-462a-b540-91c07d134b08}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Initial Risk" languagecode="1033" />
+                    <label description="Risque initial" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9ab3080-155c-c669-865d-112368a6853b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Currently Planned" languagecode="1033" />
+                          <label description="Actuellement planifié" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_currentlyplanned" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_currentlyplanned" disabled="true" uniqueid="{1c2a91ab-ba30-4e9b-a6c1-b18255be4651}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78e59073-5c30-73a7-e144-0d59add1a783}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Risk Score" languagecode="1033" />
+                          <label description="Score de risque" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdriskscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="ovs_cdriskscore" disabled="true" uniqueid="{c6806a2d-3b01-cd32-ebc3-bd9c89822960}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c9263d1-6bb4-4cca-d083-659411577346}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Risk Category" languagecode="1033" />
+                          <label description="Catégorie de risque" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdriskcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ovs_cdriskcategory" disabled="true" uniqueid="{c2cd5ceb-b927-e620-3053-0675b38e4335}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3561e227-1e9b-abec-99a2-2826d2c34913}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority Score" languagecode="1033" />
+                          <label description="Score de priorité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdpriorityscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="ovs_cdpriorityscore" disabled="true" uniqueid="{366d0ccd-b173-e3bc-6d67-9108236eb7e5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61111132-c020-4852-8e58-6fdb44d84623}" userspacer="true" showlabel="false" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{39e1dbed-467b-b17a-7d0a-60631a72b55d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Record Log" languagecode="1033" />
+            <label description="Journal d'enregistrement" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{752482bd-2daa-a8ca-bd51-98868155bc4a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{845a0df9-5710-4fcd-be57-2a6ad5801664}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nom" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" disabled="true" uniqueid="{d3eab8ee-0403-01a6-2420-67eba33cb993}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a776b3d-37c5-0619-cd62-d49a0b23354c}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Propriétaire" languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" uniqueid="{4a9c0682-c766-873e-e6a3-3edbc9b6d0e7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d0e65a9-a777-4d11-bedd-e6833d942820}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="generate_wo" languagecode="1033" />
+                          <label description="generate_wo" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_generate_wo" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_generate_wo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42b5257d-3439-a434-0ba8-6364705077e5}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                          <label description="Statut" languagecode="1036" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{5db1caee-82e6-5091-4851-8d27d51975a9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58855954-ce0a-063c-8610-bc314dc1b4e7}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                          <label description="Raison du statut" languagecode="1036" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" uniqueid="{02261742-7479-e73b-ac76-707733bd622a}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3bff62f0-0061-4524-ac91-1a917991214a}" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{1d769c86-27e5-6c99-48be-99b849919e15}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Line of Business NOP" languagecode="1033" />
+                <label description="PNS du secteur d'activité" languagecode="1036" />
+              </labels>
+              <control id="header_ovs_regionalnop" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_regionalnop" disabled="false" uniqueid="{e992c1d3-ac72-cec4-6213-2dedac2e94a2}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                  <DisableQuickFind>false</DisableQuickFind>
+                  <DisableViewPicker>false</DisableViewPicker>
+                  <DefaultViewId>{1C8DA892-BA7E-4BA9-8B7F-4CF5CEC541D4}</DefaultViewId>
+                  <AllowFilterOff>false</AllowFilterOff>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{56ad48f0-7315-4ab5-91df-86b0e641e7d4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5c824379-1303-49cd-a792-13f20d2ccf1c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ca89d470-d9b2-46b4-b7dd-2de6852566a5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{63bbe433-b2fc-41be-8ae7-0c3e5c8584c5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{7580dd91-fde3-4bb9-9421-e6fe21c9db03}" />
+        <Library name="ovs_WorkOrderCandidate_MainForm" libraryUniqueId="{6615049d-d361-4705-9fe4-58bc296e55dc}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers>
+            <Handler functionName="Candidates_TDG_main.OnLoad" libraryName="ovs_WorkOrderCandidate_MainForm" handlerUniqueId="{cbdc8060-81a8-4529-91a9-8f42ad9432d5}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{97113114-7B3E-EC11-8C62-0022483D71B4}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{6BA72790-CF89-EB11-B1AC-000D3AE92DBF}" />
+        <Role Id="{6EE20A40-2264-EB11-A812-000D3AFF0DDA}" />
+        <Role Id="{DE8E34EA-D189-EB11-B1AC-000D3AE92DBF}" />
+        <Role Id="{C986520A-BC01-EC11-94F0-0022483C1F45}" />
+        <Role Id="{545418F6-D089-EB11-B1AC-000D3AE92DBF}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
