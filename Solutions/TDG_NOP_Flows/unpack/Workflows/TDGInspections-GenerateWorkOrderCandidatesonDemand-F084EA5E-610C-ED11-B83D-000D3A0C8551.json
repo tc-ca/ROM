@@ -269,7 +269,7 @@
         },
         "Try": {
           "actions": {
-            "Get_All_Active_Region_NOPs_by_NOP": {
+            "Get_All_Active_Line_of_business_NOPs_by_NOP": {
               "runAfter": {},
               "metadata": {
                 "operationMetadataId": "bad5f53b-c90f-4f7c-ae16-1cbc25bdeb1d"
@@ -289,7 +289,7 @@
               }
             },
             "For_Each_Region_NOP": {
-              "foreach": "@outputs('Get_All_Active_Region_NOPs_by_NOP')?['body/value']",
+              "foreach": "@outputs('Get_All_Active_Line_of_business_NOPs_by_NOP')?['body/value']",
               "actions": {
                 "Get_All_Active_Operations_By_LOB": {
                   "runAfter": {},
@@ -380,6 +380,7 @@
                             },
                             "parameters": {
                               "entityName": "msdyn_workorders",
+                              "$select": "msdyn_name",
                               "$filter": "(_msdyn_serviceaccount_value eq '@{items('For_Each_Operation')?['_ovs_siteid_value']}' and (msdyn_systemstatus eq 690970001 or msdyn_systemstatus eq 690970000)) and (ovs_FiscalYear/tc_iscurrentfiscalyear eq true)",
                               "$expand": "ovs_FiscalYear($select=tc_tcfiscalyearid)"
                             },
@@ -449,6 +450,7 @@
                             },
                             "parameters": {
                               "entityName": "ovs_workordercandidates",
+                              "$select": "ovs_name, _ovs_regionalnop_value",
                               "$filter": "(_ovs_operationid_value eq '@{items('For_Each_Operation')['ovs_mocregistrationid']}'  and _ovs_plannedfiscalyear_value eq '@{items('For_Each_Region_NOP')?['_ovs_cdfiscalyearid_value']}')"
                             },
                             "authentication": "@parameters('$authentication')"
@@ -459,27 +461,60 @@
                             "For_Each_WOC": {
                               "foreach": "@outputs('Get_Current_WOCs_For_Operation')?['body/value']",
                               "actions": {
-                                "Update_a_row:_Existing_WOC": {
-                                  "runAfter": {},
-                                  "metadata": {
-                                    "operationMetadataId": "e76b849a-b6f7-4f60-8ebe-5609225113f6"
+                                "Condition:_Check_if_LOB_NOP_match": {
+                                  "actions": {
+                                    "Update_a_row:_Existing_WOC": {
+                                      "runAfter": {},
+                                      "metadata": {
+                                        "operationMetadataId": "e76b849a-b6f7-4f60-8ebe-5609225113f6"
+                                      },
+                                      "type": "OpenApiConnection",
+                                      "inputs": {
+                                        "host": {
+                                          "connectionName": "shared_commondataserviceforapps",
+                                          "operationId": "UpdateRecord",
+                                          "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                                        },
+                                        "parameters": {
+                                          "entityName": "ovs_workordercandidates",
+                                          "recordId": "@items('For_Each_WOC')?['ovs_workordercandidateid']",
+                                          "item/ovs_currentlyplanned": "@variables('IsCurrentlyPlanned')",
+                                          "item/ovs_regionalnop@odata.bind": "/ovs_cdregionalnops/@{items('For_Each_Region_NOP')?['ovs_cdregionalnopid']}",
+                                          "item/ownerid@odata.bind": "/teams/@{items('For_Each_Region_NOP')?['_ownerid_value']}"
+                                        },
+                                        "authentication": "@parameters('$authentication')"
+                                      }
+                                    }
                                   },
-                                  "type": "OpenApiConnection",
-                                  "inputs": {
-                                    "host": {
-                                      "connectionName": "shared_commondataserviceforapps",
-                                      "operationId": "UpdateRecord",
-                                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
-                                    },
-                                    "parameters": {
-                                      "entityName": "ovs_workordercandidates",
-                                      "recordId": "@items('For_Each_WOC')?['ovs_workordercandidateid']",
-                                      "item/ovs_currentlyplanned": "@variables('IsCurrentlyPlanned')",
-                                      "item/ownerid@odata.bind": "/teams/@{triggerOutputs()?['body/_ownerid_value']}",
-                                      "item/ovs_regionalnop@odata.bind": "/ovs_cdregionalnops/@{items('For_Each_Region_NOP')?['ovs_cdregionalnopid']}"
-                                    },
-                                    "authentication": "@parameters('$authentication')"
-                                  }
+                                  "runAfter": {},
+                                  "expression": {
+                                    "or": [
+                                      {
+                                        "equals": [
+                                          "@items('For_Each_WOC')?['_ovs_regionalnop_value']",
+                                          "@null"
+                                        ]
+                                      },
+                                      {
+                                        "equals": [
+                                          "@empty(items('For_Each_WOC')?['_ovs_regionalnop_value'])",
+                                          "@true"
+                                        ]
+                                      },
+                                      {
+                                        "not": {
+                                          "equals": [
+                                            "@items('For_Each_WOC')?['_ovs_regionalnop_value']",
+                                            "@items('For_Each_Region_NOP')?['ovs_cdregionalnopid']"
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "metadata": {
+                                    "operationMetadataId": "361ff17e-7871-4b44-99e9-99b1f6d4c89f"
+                                  },
+                                  "type": "If"
                                 }
                               },
                               "runAfter": {},
@@ -496,7 +531,7 @@
                           },
                           "else": {
                             "actions": {
-                              "Add_a_new_row": {
+                              "Add_a_new_row:_WOC": {
                                 "runAfter": {},
                                 "metadata": {
                                   "operationMetadataId": "0b54c7b5-6639-4362-b9d1-bd47f9dbd9a0"
@@ -513,13 +548,13 @@
                                     "item/ovs_site@odata.bind": "/accounts/@{items('For_Each_Operation')?['_ovs_siteid_value']}",
                                     "item/statuscode": 1,
                                     "item/ovs_currentlyplanned": "@variables('IsCurrentlyPlanned')",
+                                    "item/ovs_regionalnop@odata.bind": "/ovs_cdregionalnops/@{items('For_Each_Region_NOP')?['ovs_cdregionalnopid']}",
                                     "item/ovs_name": "WOC - @{items('For_Each_Operation')?['ovs_name']}",
                                     "item/ovs_operationid@odata.bind": "/ovs_mocregistrations/@{items('For_Each_Operation')?['ovs_mocregistrationid']}",
                                     "item/ovs_oversighttype@odata.bind": "/ovs_oversighttypes/@{variables('FinalOversightType')}",
                                     "item/ownerid@odata.bind": "/teams/@{items('For_Each_Region_NOP')?['_ownerid_value']}",
                                     "item/ovs_plannedfiscalyear@odata.bind": "/tc_tcfiscalyears/@{items('For_Each_Region_NOP')?['_ovs_cdfiscalyearid_value']}",
                                     "item/ovs_cdpriorityscore": "@items('For_Each_Operation')?['ovs_cdpriorityscore']",
-                                    "item/ovs_regionalnop@odata.bind": "/ovs_cdregionalnops/@{items('For_Each_Region_NOP')?['ovs_cdregionalnopid']}",
                                     "item/ovs_cdriskcategory": "@items('For_Each_Operation')?['ovs_cdriskcategory']",
                                     "item/ovs_cdriskscore": "@items('For_Each_Operation')?['ovs_cdriskscore']"
                                   },
@@ -579,7 +614,7 @@
                 }
               },
               "runAfter": {
-                "Get_All_Active_Region_NOPs_by_NOP": [
+                "Get_All_Active_Line_of_business_NOPs_by_NOP": [
                   "Succeeded"
                 ]
               },
