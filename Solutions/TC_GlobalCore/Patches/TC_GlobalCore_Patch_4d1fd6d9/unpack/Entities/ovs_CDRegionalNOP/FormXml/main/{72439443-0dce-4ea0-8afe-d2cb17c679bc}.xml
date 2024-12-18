@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{72439443-0dce-4ea0-8afe-d2cb17c679bc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{7496e746-4fb2-4e1e-8943-847ac9149c1e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Général" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a726b8b5-cd8d-4363-b9ce-95db62b4a4a1}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Général" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d2362885-b138-488d-b934-6bd48c61bcaa}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Name" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" uniqueid="{1cdcc03a-2216-5465-ce0d-4dc767ea738b}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95cbd5da-511d-2146-a1b7-d3ecd8d1880c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="NOP" languagecode="1033" />
+                          <label description="PNS" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdnopid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_cdnopid" disabled="true" uniqueid="{59d5954b-91eb-74dd-1645-8d601a465b8b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{DC4E3577-07B5-4EE7-8C7F-2D6AC3DF3D00}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e299a32-ea6c-6a35-ac09-ae869c33aad2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fiscal Year" languagecode="1033" />
+                          <label description="Année fiscale" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdfiscalyearid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_cdfiscalyearid" disabled="true" uniqueid="{b22150dc-b6db-5733-a98b-6540a428eba2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C2B848E9-8D49-4972-8E80-06A8B98802A1}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db65bd00-1ef3-429f-81ce-b43885184a29}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Line Of Business" languagecode="1033" />
+                          <label description="Nom du secteur d'activité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusiness_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0449ae8-e341-402c-498b-65ab9b156072}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                          <label description="Région" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdregionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_cdregionid" disabled="false" uniqueid="{87a407be-c198-e3ca-d734-20e2d9914d72}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AD81B2CA-9789-4465-8C56-94C10830A6ED}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74b7eed4-8c74-d12a-c542-831d73a9dbab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Capacity" languagecode="1033" />
+                          <label description="Capacité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_capacity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_capacity" disabled="false" uniqueid="{76d430e6-b35e-0d10-0984-3c42aed3d579}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cc5edbc-5be6-0e8c-31a6-2ab3c4cd0ebb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unplanned Forecast" languagecode="1033" />
+                          <label description="Prévisions non-planifiées" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_unplannedforecast" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_unplannedforecast" disabled="false" uniqueid="{0e32cc9a-8e19-b87d-002d-b5239725a1a5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8571bba-d2c8-a85e-7477-2d81508ae0cc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Planned Capacity" languagecode="1033" />
+                          <label description="Capacité prévue" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_plannedwoccount" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_plannedwoccount" disabled="false" uniqueid="{dd3b98b7-2687-8a53-1021-e528e6a21830}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e82d824b-74b8-a62a-82d7-614903d69a3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="HQ Variance" languagecode="1033" />
+                          <label description="La variance pour les candidats à l'ordre de travail" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdwocvariance" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_cdwocvariance" disabled="false" uniqueid="{862d8495-35cb-bda9-0cd0-46dda23d9ab7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28e5d686-d8de-3a5c-4d9a-91a2d3b4cb98}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Business Variance" languagecode="1033" />
+                          <label description="La variance du secteur d'activité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdregionvariance" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ovs_cdregionvariance" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{da0f1c90-87ff-49fd-892d-ef41ceb7ba64}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{ba6c76ff-983f-4861-bc41-d7ab27923b66}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                          <label description="Texte de la remarque" languagecode="1036" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="bc2e6086-983c-4c8d-85d7-83d83951735b" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Work Order Candidates" languagecode="1033" />
+            <label description="Candidat à l’ordre de travail" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="3c4b170d-f50e-4034-bf82-ff058ec74e1d" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Planned Inspections" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{693fdba2-bc3e-4648-b81a-2058eae4d072}" rowspan="5" colspan="1" showlabel="true" auto="true">
+                        <labels>
+                          <label description="Planned Inspections" languagecode="1033" />
+                          <label description="Work Order Candidates" languagecode="1036" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{ce823438-e3c3-2569-23b6-86b3121c7eda}">
+                          <parameters>
+                            <TargetEntityType>ovs_workordercandidate</TargetEntityType>
+                            <ViewId>{BA8A6646-0C52-EC11-8F8E-000D3AE8EDDC}</ViewId>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <RelationshipName>ovs_CDRegionalNOP_WorkOrderCandidate</RelationshipName>
+                            <RecordsPerPage>50</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ViewIds />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_2_section_4" id="b71de38e-51f9-4129-9784-83893b3842c0" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a684f4f4-9af4-407c-b6c4-1aa8f0b08084}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Generate Work Order Flag" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_generateworkorder" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_generateworkorder" disabled="false" />
+                      </cell>
+                      <cell id="{ee5f3148-cb09-4fd8-813a-cacc5b99bf2f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Count of WOCs to Generate WO" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_cntwoctogeneratewo" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cntwoctogeneratewo" disabled="false" />
+                      </cell>
+                      <cell id="{0e55679a-9b1a-41be-8de6-3f498285195f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total WO generated" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_cntgeneratedwo" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cntgeneratedwo" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{038dfd71-0084-47c2-9b2c-afb1aa20d5db}" columns="111">
+        <rows>
+          <row>
+            <cell id="{753a07ee-8901-e134-489b-c3b71b063e73}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Statut" languagecode="1036" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="true" />
+            </cell>
+            <cell id="{aea40cba-72e3-c62b-bd69-d5069bd0a815}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+                <label description="Raison du statut" languagecode="1036" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="true" uniqueid="{18ee3506-0b3c-dd83-c84c-102b92dadc16}" />
+            </cell>
+            <cell id="{4d927726-189e-a795-388b-76e08dd18c8a}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{ce823438-e3c3-2569-23b6-86b3121c7eda}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <TargetEntityType>ovs_workordercandidate</TargetEntityType>
+              <ViewId>{BA8A6646-0C52-EC11-8F8E-000D3AE8EDDC}</ViewId>
+              <EnableViewPicker>true</EnableViewPicker>
+              <RelationshipName>ovs_CDRegionalNOP_WorkOrderCandidate</RelationshipName>
+              <RecordsPerPage>50</RecordsPerPage>
+              <AutoExpand>Auto</AutoExpand>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+              <IsUserView>false</IsUserView>
+              <EnableQuickFind>true</EnableQuickFind>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <ViewIds />
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{BA8A6646-0C52-EC11-8F8E-000D3AE8EDDC}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>ovs_CDRegionalNOP_WorkOrderCandidate</RelationshipName>
+                <TargetEntityType>ovs_workordercandidate</TargetEntityType>
+                <EnableViewPicker>true</EnableViewPicker>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{BA8A6646-0C52-EC11-8F8E-000D3AE8EDDC}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>ovs_CDRegionalNOP_WorkOrderCandidate</RelationshipName>
+                <TargetEntityType>ovs_workordercandidate</TargetEntityType>
+                <EnableViewPicker>true</EnableViewPicker>
+                <FilteredViewIds />
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{b8d84b06-045f-4b34-b98e-0d3e7210e638}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1c1593f1-9607-4edf-a0e9-84114cddd08a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b6355e4d-9a68-4e23-8064-7165e38fb0b9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b2b23a15-2b82-4b95-a9e9-ad091d1a40d4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{4ce05cbc-16e0-8b0e-6bc0-a14135bcb80a}" />
+        <Library name="ovs_RNOP_ValidationFunctions.js" libraryUniqueId="{5baec5ad-6c5e-716b-a62a-44d301ad6ea1}" />
+        <Library name="ovs_RegionalNOPMainForm" libraryUniqueId="{d9e72280-07ec-d70e-b3cd-2e7ad2b3459c}" />
+        <Library name="ovs_RegionalNOP_Ribbon" libraryUniqueId="{3bc0c0cb-b721-1202-284b-dcdadca2e25b}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Regional_NOP_main.OnLoad" libraryName="ovs_RegionalNOPMainForm" handlerUniqueId="{0a1ceadb-676d-a0c9-8d50-14e7b9e43d37}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

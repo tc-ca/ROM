@@ -1,0 +1,90 @@
+﻿///<reference path="../../Utilities/GlobalHelper.js"/>
+///<reference path="../../Utilities/RNOP_ValidationFunctions.js"/>
+
+
+
+var Regional_NOP_main = (function (window, document) {
+
+
+    var LCID;
+    var userSettings;
+
+
+    return {
+
+        OnLoad: function (executionContext) {
+            //get context
+            globalContext = glHelper.getGlobalContext();
+            var formContext = executionContext.getFormContext();
+            var id = glHelper.GetCurrentRecordId(formContext);
+
+            // 0 = Undefined, 1 = Create, 2 = Update, 3 = Read Only, 4 = Disabled, 6 = Bulk Edit
+            formType = glHelper.GetFormType(formContext);
+
+            userSettings = Xrm.Utility.getGlobalContext().userSettings;
+
+            LCID = userSettings.languageId;
+
+            if (LCID == 1033)
+                resexResourceName = "ovs_Labels.1033.resx";
+            else if (LCID == 1036)
+                resexResourceName = "ovs_Labels.1036.resx";
+
+            var statusReasonValue = glHelper.GetValue(formContext, 'statuscode');
+
+
+            //If form is new, autosave so we can add violations
+            if (formType != 1) {
+
+                glHelper.SetDisabled(formContext, "ovs_cdfiscalyearid", true);
+                glHelper.SetDisabled(formContext, "ovs_cdregionid", true);
+                glHelper.SetDisabled(formContext, "ovs_lineofbusiness_id", true);
+
+                var statusReason = formContext.getAttribute("statuscode");
+                statusReason.addOnChange(Regional_NOP_main.statusReason_OnChange);
+
+                // Validation for WorkOrder Generation
+                if (statusReasonValue != null && (statusReasonValue == 918640004 || statusReasonValue == 918640005))
+                    rnopHelper.ReturnValidationFunction(formContext, id);
+            }            
+
+
+            var isPlanner = glHelper.hasCurrentUserRole("TDG Planner")
+                || glHelper.hasCurrentUserRole("System Administrator");
+            var isRegionalNOP_Manager = glHelper.hasCurrentUserRole("Regional NOP Manager");
+            var isInProgressRegion = (statusReasonValue == 918640001);
+
+            glHelper.SetDisabled(formContext, "ovs_capacity", !isPlanner);
+            glHelper.SetDisabled(formContext, "header_statecode", !isPlanner);
+            glHelper.SetDisabled(formContext, "header_statuscode", !(isPlanner || (isRegionalNOP_Manager && isInProgressRegion)));
+            glHelper.SetDisabled(formContext, "header_ownerid", !isPlanner);
+
+            //users with the Regional NOP Manager role should not be able to set the Regional NOP status to anything other than "Approved By Regional Director
+            if (isInProgressRegion && isRegionalNOP_Manager) {
+
+                var toKeep = new Array("918640001", "918640004");
+                glHelper.filterOptionSet(formContext, "header_statuscode", toKeep, true);
+            }
+
+            ////These fields show be visible by Planners only
+            //glHelper.SetControlVisibility(formContext, "ovs_capacity", isPlanner);
+            //glHelper.SetControlVisibility(formContext, "ovs_cdwoccount", isPlanner);
+            //glHelper.SetControlVisibility(formContext, "ovs_cdwocvariance", isPlanner);
+        },
+
+        statusReason_OnChange: function (executionContext) {
+
+            var formContext = executionContext.getFormContext();
+            var statusReasonValue = glHelper.GetValue(formContext, 'statuscode');
+            var id = glHelper.GetCurrentRecordId(formContext);
+
+
+            if (statusReasonValue == null || (statusReasonValue != 918640004 && statusReasonValue != 918640005))
+                formContext.ui.clearFormNotification("StatusReason");
+            else if (statusReasonValue == 918640005)
+                Xrm.Page.ui.clearFormNotification("StatusReason");
+            else if (statusReasonValue == 918640004)
+                rnopHelper.ReturnValidationFunction(formContext, id);
+        }
+    }
+})(window, document)
