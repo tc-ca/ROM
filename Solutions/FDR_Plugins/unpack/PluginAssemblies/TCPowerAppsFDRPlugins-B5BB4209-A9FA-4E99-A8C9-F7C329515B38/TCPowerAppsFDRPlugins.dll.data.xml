@@ -14,6 +14,9 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.Operation.Operation_PostUpdateStatus_CreateWorkOrder, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="5eee960d-574a-4bfb-9d02-b47b08ef16df" Name="TC.PowerApps.FDR.Plugins.Entities.Operation.Operation_PostUpdateStatus_CreateWorkOrder">
       <FriendlyName>4b978c14-a5a1-40cd-a362-c448a9726ab8</FriendlyName>
     </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.Registration.Registration_PostUpdate_StatusChange, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="ffde292c-9463-4988-b59f-b2ed11b486e3" Name="TC.PowerApps.FDR.Plugins.Entities.Registration.Registration_PostUpdate_StatusChange">
+      <FriendlyName>3e38e2ab-02c5-40a8-8c68-afaea57b8a5d</FriendlyName>
+    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.PreCreate_PopulateCostRecovery, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="cc30f3e3-895e-486e-ad94-a767fdaad965" Name="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.PreCreate_PopulateCostRecovery">
       <FriendlyName>8eda78fa-948b-4103-b520-3fe77d2a5ceb</FriendlyName>
     </PluginType>
@@ -29,8 +32,8 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_AddTimeEntry, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="166c157f-5785-41a5-8005-f39e2ad97b37" Name="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_AddTimeEntry">
       <FriendlyName>b2197452-2c73-4eae-a052-5c76b999b273</FriendlyName>
     </PluginType>
-    <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_CloneServiceRequest, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="db0a9875-7a44-464b-be11-62f1459ad024" Name="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_CloneServiceRequest">
-      <FriendlyName>6c894206-9d1a-46ca-9668-00565a7dd1fd</FriendlyName>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_CloneServiceRequest, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="cbc749d3-1c74-4188-9a07-0beebcb67d20" Name="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_CloneServiceRequest">
+      <FriendlyName>a42d05a4-676b-41e6-9a93-7075c424475f</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostUpdate_AddTimeEntry, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="e03bd0c6-f7dc-4f38-a2db-4a88f8ef2383" Name="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostUpdate_AddTimeEntry">
       <FriendlyName>1f15d140-1a44-4066-83f3-1fcb1eba48a1</FriendlyName>
@@ -76,6 +79,9 @@
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PreUpdate_TimeEntryValidation, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="c21a2208-433b-48b7-a240-326051ded002" Name="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PreUpdate_TimeEntryValidation">
       <FriendlyName>e15ac3d9-6cd9-45be-acdc-5e3a61889f14</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.Submission.Submission_PostCreate_CreateSR, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="e458fbe9-4d87-4678-8f05-f522587c79df" Name="TC.PowerApps.FDR.Plugins.Entities.Submission.Submission_PostCreate_CreateSR">
+      <FriendlyName>1125f634-919f-4767-8353-e333229e9f5a</FriendlyName>
     </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.FDR.Plugins.Entities.WorkOrder.WorkOrder_PostStateChange_UpdateOperationStatus, TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" PluginTypeId="3d1a8f98-b405-414d-9b55-24c9e4704f6d" Name="TC.PowerApps.FDR.Plugins.Entities.WorkOrder.WorkOrder_PostStateChange_UpdateOperationStatus">
       <FriendlyName>1f04085b-861a-4ac4-a76c-bcb99670f748</FriendlyName>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24015.154" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.24114.196" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24114.196" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24114.00196">
   <SolutionManifest>
     <UniqueName>FDR_Plugins</UniqueName>
     <LocalizedNames>
       <LocalizedName description="FDR.Plugins" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.2.0.120</Version>
+    <Version>1.2.0.121</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>FDR</UniqueName>
@@ -83,7 +83,6 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="91" id="{b5bb4209-a9fa-4e99-a8c9-f7c329515b38}" schemaName="TC.PowerApps.FDR.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9bc8cc6fc66199f2" behavior="0" />
-      <RootComponent type="92" id="{130de5a8-d792-ed11-aad0-0022483e130e}" behavior="0" />
       <RootComponent type="92" id="{321103bd-c995-ed11-aad0-0022483e130e}" behavior="0" />
       <RootComponent type="92" id="{35087c5f-af02-ed11-82e6-000d3a848097}" behavior="0" />
       <RootComponent type="92" id="{3b0a030a-1914-ed11-b83e-000d3a84cfdd}" behavior="0" />
@@ -121,10 +120,6 @@
       <MissingDependency>
         <Required type="1" schemaName="fdr_design" displayName="Design" solution="Active" />
         <Dependent type="93" id="{1c084f7a-e37f-ed11-81ac-0022483e130e}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="fdr_servicerequest" displayName="Service Request" solution="Active" />
-        <Dependent type="92" displayName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostCreate_CloneServiceRequest: Create of fdr_servicerequest" id="{130de5a8-d792-ed11-aad0-0022483e130e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="fdr_servicerequest" displayName="Service Request" solution="Active" />
@@ -244,19 +239,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.106.22)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.FDR.Plugins.Entities.ServiceRequest.SR_PostWorkOrderCompleteEvent: fdr_WorkOrderCompleteEvent of msdyn_workorder" id="{473d0dde-430f-ed11-b83d-000d3a0c8551}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.106.22)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.FDR.Plugins.Entities.WorkOrder.WorkOrder_PostStateChange_UpdateOperationStatus: Update of msdyn_workorder" id="{568d7189-7a68-ee11-9ae7-0022483e130e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.106.22)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{fb5d8ab6-7a68-ee11-9ae7-0022483e130e}" />
       </MissingDependency>
@@ -498,7 +493,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_systemstatus" displayName="Record Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.106.22)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.FDR.Plugins.Entities.WorkOrder.WorkOrder_PostStateChange_UpdateOperationStatus: Update of msdyn_workorder" id="{568d7189-7a68-ee11-9ae7-0022483e130e}" />
       </MissingDependency>
@@ -508,15 +503,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.106.22)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{fb5d8ab6-7a68-ee11-9ae7-0022483e130e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.106.22)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="93" id="{fb5d8ab6-7a68-ee11-9ae7-0022483e130e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lineofbusiness" displayName="Line of Business" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />
+        <Dependent type="93" id="{705041d8-5377-ee11-8179-0022483e130e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="ovs_siteid" displayName="Site" parentSchemaName="ovs_mocregistration" parentDisplayName="Operation" solution="Active" />

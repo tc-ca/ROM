@@ -19,7 +19,7 @@
   <SdkMessageProcessingStepImages>
     <SdkMessageProcessingStepImage Name="PostImage">
       <SdkMessageProcessingStepImageId>{705041d8-5377-ee11-8179-0022483e130e}</SdkMessageProcessingStepImageId>
-      <Attributes>ovs_siteid</Attributes>
+      <Attributes>ovs_lineofbusiness,ovs_siteid</Attributes>
       <EntityAlias>PostImage</EntityAlias>
       <ImageType>1</ImageType>
       <MessagePropertyName>Target</MessagePropertyName>
