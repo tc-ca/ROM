@@ -29,9 +29,6 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="ad5e344f-f483-448d-b301-4aadfc27bc10" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdate_TdgActivities_Create_HOTI_Operation">
       <FriendlyName>80302e70-430b-477b-8d2f-28406c5ab89e</FriendlyName>
     </PluginType>
-    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateCompanyLegalName, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="26dfb5ba-ab16-42cd-aae9-3799350d1ffb" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateCompanyLegalName">
-      <FriendlyName>8c37b30d-2023-4d34-9480-2fdefc5197b3</FriendlyName>
-    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateEmail, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="11495a23-d9bf-41c7-839d-ae7c3172c526" Name="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateEmail">
       <FriendlyName>bad613c8-1c56-410b-a7b1-feb6ec92bcea</FriendlyName>
     </PluginType>

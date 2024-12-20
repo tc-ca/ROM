@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24113.188" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24113.188" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24113.00188">
+<ImportExportXml version="9.2.24114.196" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24114.196" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24114.00196">
   <SolutionManifest>
     <UniqueName>TDGPlugins</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Main solution for TDG Inspection Related Plugins&#xA;1.0.0.1 - WO Pre Create and Pre Update were modified." languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.141</Version>
+    <Version>1.2.0.142</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -100,7 +100,6 @@
       <RootComponent type="92" id="{242668b5-9ea3-eb11-b1ac-000d3ae8b8ae}" behavior="0" />
       <RootComponent type="92" id="{2bbe310e-ca09-ec11-b6e6-000d3ae8f8cc}" behavior="0" />
       <RootComponent type="92" id="{2e47b8f9-8fbc-ee11-9078-0022483cceb8}" behavior="0" />
-      <RootComponent type="92" id="{330f7ce1-6264-ee11-8df0-0022483d0c87}" behavior="0" />
       <RootComponent type="92" id="{3359752f-297a-eb11-a812-000d3af31ad8}" behavior="0" />
       <RootComponent type="92" id="{33ef25c3-4538-ed11-9db0-0022483cb62f}" behavior="0" />
       <RootComponent type="92" id="{3c8bd2b9-4b92-ef11-8a69-000d3a0bf04c}" behavior="0" />
@@ -660,10 +659,6 @@
       <MissingDependency>
         <Required type="2" schemaName="ovs_namefr" displayName="Operating Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.CustomerRequest.DataAccess_RequestManager: Update of account" id="{01348402-91bc-ee11-9078-0022483cceb8}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="2" schemaName="ovs_namefr" displayName="Operating Name (French)" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
-        <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.Account.Account_PostUpdateCompanyLegalName: Update of account" id="{330f7ce1-6264-ee11-8df0-0022483d0c87}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="ovs_rail" displayName="Rail" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
