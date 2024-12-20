@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ovs_offendercompliancehistory" localizedName="Offender Compliance History" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Offender Compliance History" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="7" ExternalValue="" Color="#0000ff" IsHidden="0">
+      <labels>
+        <label description="No history of non-compliance (Low)" languagecode="1033" />
+        <label description="Aucun antécédent de non-conformité (Faible)" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="49" ExternalValue="" Color="#0000ff" IsHidden="0">
+      <labels>
+        <label description="There is some history of non-compliance but not similar (Moderate)" languagecode="1033" />
+        <label description="Il y a des antécédents de non-conformité, mais ne sont pas semblables (Moyen)" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+    <option value="2401" ExternalValue="" Color="#0000ff" IsHidden="0">
+      <labels>
+        <label description="There is either a history of similar non-compliance or a general pattern of non-compliance which shows a disregard for the rules (High)" languagecode="1033" />
+        <label description="Soit des antécédents de non-conformité semblables, soit une tendence générale de non-comformité qui montre un mépris pour le respect des règles (Élevé)" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>
