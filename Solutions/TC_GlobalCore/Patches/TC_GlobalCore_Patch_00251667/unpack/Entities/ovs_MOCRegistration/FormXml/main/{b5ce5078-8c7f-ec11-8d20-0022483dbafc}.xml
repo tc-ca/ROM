@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b5ce5078-8c7f-ec11-8d20-0022483dbafc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{0b52e8b7-4c54-45b9-8320-a991567a9562}" IsUserDefined="1" labelid="{7142bdfa-03d5-4e4e-af3d-99de61282a11}" name="General">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ca013b40-edb2-4890-9c35-3fc563cc0710}" name="tab_General" labelid="{b2113cfd-9b19-4825-bef0-7f6c904fd349}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7a3c1be2-3b75-413d-85bc-c9581afa301c}" showlabel="true" locklevel="0" visible="false" labelid="{4b9597a9-371d-41cf-a2a6-5dbcd46c4fa7}">
+                        <labels>
+                          <label description="Operation ID" languagecode="1033" />
+                          <label description="ID de l'opération" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" uniqueid="{7d9d8c7c-a494-6be0-8c58-e8e804e0b494}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c93b371e-cc1c-46d0-aabf-f37316968f16}" locklevel="0" colspan="1" rowspan="1" showlabel="true" labelid="{1ba41f35-0e1a-49da-b39e-aee5202461ed}">
+                        <labels>
+                          <label description="Operation Type" languagecode="1033" />
+                          <label description="Type d'opération" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_operationtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_operationtype" disabled="false" uniqueid="{d2059b79-807e-7732-da4e-29a74a6d0aca}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d65cd400-a86f-4f44-b6df-13249aafdadc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registration Type" languagecode="1033" />
+                          <label description="Type d'inscription" languagecode="1036" />
+                        </labels>
+                        <control id="fdr_registrationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fdr_registrationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{513beecd-cebd-4d00-8542-e76d7178f512}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="IIS Created Date" languagecode="1033" />
+                          <label description="Date de création dans SII" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_iiscreateddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_iiscreateddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d454819b-04ab-0764-ce84-c3105417a400}" showlabel="true" locklevel="0" labelid="{a571b029-feae-45ea-a071-059661e88481}">
+                        <labels>
+                          <label description="MOC Registration ID" languagecode="1033" />
+                          <label description="ID d’inscription - contenant" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_mocregistrationname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_mocregistrationname" disabled="false" uniqueid="{57258723-5d24-2c9e-2856-20cc2631c663}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{337e8358-8b6a-d0e0-c339-0b28eb4447c8}" showlabel="true" locklevel="0" labelid="{2e71dc89-6dcb-4dde-9bb2-d3177aa8c20a}">
+                        <labels>
+                          <label description="MOC Initial Registration Date" languagecode="1033" />
+                          <label description="Date d'enregistrement initial du MOC(Céé le)" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_mocinitialregistrationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ovs_mocinitialregistrationdate" disabled="false" uniqueid="{ce755806-67a2-17e6-5812-17c1d6ce2c08}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c47fdd8-5e27-4b18-8659-98d73ab671bb}" locklevel="0" labelid="{01154e22-2e11-4b0e-b517-d401ee4e152e}">
+                        <labels>
+                          <label description="MOC Registration Expiry" languagecode="1033" />
+                          <label description="Expiration de l’inscription - contenant" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_registrationexpiry" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_registrationexpiry" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ec58376-0748-51d9-b423-dbc69cc96dd6}" showlabel="true" locklevel="0" labelid="{6b046959-5756-4ff7-8ad7-59b50584502a}">
+                        <labels>
+                          <label description="MOC Program" languagecode="1033" />
+                          <label description="Programme MOC" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_mocprogram" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ovs_mocprogram" disabled="false" uniqueid="{9e5967cc-1a60-9639-a800-c3367b2a445c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e64a7066-81ec-ea9d-1c34-ddb5a60a4db7}" showlabel="true" locklevel="0" colspan="1" rowspan="1" labelid="{4801a185-bb9e-41dc-8570-d17c38edd03a}">
+                        <labels>
+                          <label description="Line Of Business" languagecode="1033" />
+                          <label description="Secteur d’activité" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_lineofbusiness" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39d10d06-7c90-b209-0cad-bc59a3dd1350}" showlabel="true" locklevel="0" labelid="{b8226b29-418e-47ba-9543-297a196ca654}">
+                        <labels>
+                          <label description="Risk Score" languagecode="1033" />
+                          <label description="Score de risque" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdriskscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="ovs_cdriskscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{415ba5d5-d28a-d4ac-bd10-de38ba4e4927}" showlabel="true" locklevel="0" labelid="{75c7a600-d29a-4678-8afd-1cb5ac639da0}">
+                        <labels>
+                          <label description="Priority Score" languagecode="1033" />
+                          <label description="Score de priorité‎" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdpriorityscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="ovs_cdpriorityscore" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81c107ca-aa43-13ee-9556-9eb6aa4877b0}" showlabel="true" locklevel="0" labelid="{311a8b89-5569-44f6-86e7-f7243516c6b4}">
+                        <labels>
+                          <label description="Risk Category" languagecode="1033" />
+                          <label description="Catégorie de risque" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cdriskcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ovs_cdriskcategory" disabled="true" uniqueid="{4a04a465-d6ba-619c-63e2-7719a752b481}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{750d6321-a596-48fb-8601-f7f503c09e8b}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                          <label description="Site" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_siteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_siteid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{aa61e692-e804-13ce-eac5-7c46d4113179}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{d965959b-a09b-4bbb-8dcf-2a65376b1d40}">
+          <labels>
+            <label description="NOP Profile" languagecode="1033" />
+            <label description="Profil du PNS" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{12b5a511-98ed-12e1-3267-471a17894377}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{5910be83-31c7-484f-811f-3f0b17a422c6}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                    <label description="Section" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aa7c189d-41d6-8ca4-8c38-80c5d821035d}" showlabel="true" locklevel="0" labelid="{316272f5-4cf6-4475-be7a-92af1a064d9d}">
+                        <labels>
+                          <label description="Hub" languagecode="1033" />
+                          <label description="Concentrateur" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_hubind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_hubind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{157c2a7e-1224-580a-8067-ba717dacbd62}" showlabel="true" locklevel="0" labelid="{115c376f-afc8-4d75-8def-2756485e36b8}">
+                        <labels>
+                          <label description="Targeted" languagecode="1033" />
+                          <label description="Ciblé" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_targetedind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_targetedind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{286399ce-d2ab-51ad-3ac0-15ae71a9a589}" showlabel="true" locklevel="0" labelid="{6495eecb-55aa-4058-aae8-b02fb911b486}">
+                        <labels>
+                          <label description="Accident" languagecode="1033" />
+                          <label description="Accident" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_accidentind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_accidentind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bb31472-0b34-5ab5-5792-dbd6a34810ad}" showlabel="true" locklevel="0" labelid="{8e99b7ab-6648-422d-9464-3fbf497d5ec8}">
+                        <labels>
+                          <label description="CEP" languagecode="1033" />
+                          <label description="PEC" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepind" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a403a45-dbd0-4ed9-e7e9-1cdabdde849d}" showlabel="true" locklevel="0" labelid="{128cd47e-12a4-4bfd-be85-ab79afcb40fd}">
+                        <labels>
+                          <label description="Follow-UP" languagecode="1033" />
+                          <label description="Suivi" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_followupind" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_followupind" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4_cep_profile" id="5849b6d8-1754-4da8-8b3b-dddd064287c9" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="CEP Profile" languagecode="1033" />
+            <label description="Profil PEC" languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_cep_sampling" id="56f400d0-78c3-4db0-9efa-ee77c29f1aae" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="CEP Sampling" languagecode="1033" />
+                    <label description="Échantillon pec" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7a4b718e-f856-4fbb-95e6-0ad3a310c846}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Strata Name" languagecode="1033" />
+                          <label description="Nom de strate" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_strataname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_cepsampling_strataname" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89b0516b-7c1a-9158-d0dc-31ea7c9e22a3}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Inspected in Previous Fiscal Year" languagecode="1033" />
+                          <label description="Inspecté au cours de l'exercice précédent" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_inspectedinprevfiscalyear" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepsampling_inspectedinprevfiscalyear" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4934cc4-c814-648b-8009-1d07c6de8993}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sample area" languagecode="1033" />
+                          <label description="Échantillon pec zone" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_area" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_cepsampling_area" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1e41295-3211-4a9d-9ff5-0243130e3dcf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Recidivism" languagecode="1033" />
+                          <label description="Récidive" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_recidivism" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepsampling_recidivism" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ef72ac8-c904-4c0f-98a4-1efd9c7dbe30}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Strata" languagecode="1033" />
+                          <label description="Strata" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_strata" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cepsampling_strata" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba7d7f14-294f-40d5-90d5-d6fa53cff65c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Recidivism Count" languagecode="1033" />
+                          <label description="Nombre de récidives" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_recidivismcount" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cepsampling_recidivismcount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5915de71-d611-422b-ace4-517896ebfa3b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="N1" languagecode="1033" />
+                          <label description="N1" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_n1" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cepsampling_n1" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2c0e41b-5ba8-430a-8955-1e321726896e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="n2" languagecode="1033" />
+                          <label description="n2" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_n2" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cepsampling_n2" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04161abd-7be1-4bde-afd4-ca3ec1e7336a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="n2 sum" languagecode="1033" />
+                          <label description="n2 sum" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_ovs_cepsampling_n2sum" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_ovs_cepsampling_n2sum" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd365600-6f83-4821-8f5f-0fcfe832befe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Strata Sample size n" languagecode="1033" />
+                          <label description="Strate Taille de l'échantillon n" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_n" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_cepsampling_n" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd5ecedb-f7ec-4ae6-9698-0d8513079835}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Wave 1 Selection" languagecode="1033" />
+                          <label description="Sélectionné au hasard par le système" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_randomlyselectedbysystem" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepsampling_randomlyselectedbysystem" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{266b7231-ca29-4a22-a48e-cc355a25e9dd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Repeated CEP Selection" languagecode="1033" />
+                          <label description="Sélection CEP répétée" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_repeatedcepselection" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepsampling_repeatedcepselection" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2beb5aa7-4fe3-4dfb-b370-99ae1c0e167b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Replacement Operation" languagecode="1033" />
+                          <label description="Opération de remplacement" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_replacementoperation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_cepsampling_replacementoperation" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2f5c962e-2de8-40f1-893b-e1c449160e0a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="CEP Replacement Reason" languagecode="1033" />
+                          <label description="Raison du remplacement du CEP" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepreplacementreason" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_cepreplacementreason" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5f08e50-8294-4a79-b828-887ef3bc558d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Wave 2 Selection" languagecode="1033" />
+                          <label description="Sélection Vague 2" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepsampling_newselectionbysystem" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepsampling_newselectionbysystem" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{56a64aa6-4a66-4357-823e-5ac6ff7b64c5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="CEP" languagecode="1033" />
+                          <label description="PEC" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cepind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_cepind" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="da49a08c-e5fc-445e-be70-8371b7fc1ce2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="CEP History" languagecode="1033" />
+                    <label description="Historique du CEP" languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{4341fbd9-6574-4d99-b15a-fcf18fd03d79}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1659992281288" languagecode="1033" />
+                          <label description="Nouveau contrôle SG 1659992281288" languagecode="1036" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>tc_tcfiscalyear</TargetEntityType>
+                            <ViewId>{292CAA41-5D17-ED11-B83F-000D3A84CFDD}</ViewId>
+                            <ViewIds>{53C8FCC5-2443-49C1-9357-67D41B0CE6D5},{292CAA41-5D17-ED11-B83F-000D3A84CFDD}</ViewIds>
+                            <RelationshipName>ovs_operation_fiscalyear_where_cepselecected</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{20384781-d055-490c-8deb-ed175a012815}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0ec1cc72-04a7-9027-1eb6-308330837a50}" showlabel="true" locklevel="0" labelid="{f8011c23-b0a8-454f-8c4e-22cc389f1eba}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Propriétaire" languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{7602c771-87c0-006c-a3e1-b4ee3cbe67a3}" showlabel="true" locklevel="0" labelid="{229b617e-e1af-4344-a481-80385a10c5f8}">
+              <labels>
+                <label description="Site" languagecode="1033" />
+                <label description="Site" languagecode="1036" />
+              </labels>
+              <control id="header_ovs_siteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_siteid" disabled="false" uniqueid="{70c36607-993d-3150-9cdb-06852d5267e7}" />
+            </cell>
+            <cell id="{0da76355-a0d7-4f63-bb54-7b4c740e6244}" showlabel="false" labelid="{49259f64-7c70-424a-9de3-0d62b69602ed}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{346409d5-19da-4b95-b087-505cec1cf3d2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{15a52b86-0c43-4da5-93b0-ff2daf7b11ce}" showlabel="false" labelid="{32c4bca9-7026-4294-af64-1c535fc7a35c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cae61cf9-8efb-4c15-a5c0-e02aa8df2223}" showlabel="false" labelid="{12c978e5-99df-4990-8933-9976cc7768dc}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bca04bc8-2391-4311-9f1b-ecad12d9bde9}" showlabel="false" labelid="{bfd0efbd-3940-45f2-b30d-7fc0bc4ed8d9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="qm_globalHelper.js" libraryUniqueId="{3f1d6e2e-f948-4e84-a9f4-7fa0c0730c9f}" />
+        <Library name="ovs_moc_mainform_planner" libraryUniqueId="{5372ab6b-97c5-4a18-8120-ac8fe0875a3a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers>
+            <Handler functionName="Operation_main_Planner.OnLoad" libraryName="ovs_moc_mainform_planner" handlerUniqueId="{15d9446e-350f-4a32-a07a-a4d0a5d8ff56}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="2" FallbackForm="false">
+        <Role Id="{A8D3EF08-D189-EB11-B1AC-000D3AE92DBF}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Operation Planner Form" languagecode="1033" />
+      <LocalizedName description="Formulaire de planificateur d'opération" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Un formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

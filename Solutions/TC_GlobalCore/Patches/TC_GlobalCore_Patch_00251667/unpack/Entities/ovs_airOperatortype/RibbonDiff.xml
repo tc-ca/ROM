@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="tc.Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.CustomAction" Location="Mscrm.SubGrid.ovs_airoperatortype.MainTab.Management.Controls._children" Sequence="40">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.Alt" Command="Mscrm.AddExistingRecordFromSubGridAssociated" Id="Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc" Image32by32="/_imgs/ribbon/AddExistingStandard_32.png" Image16by16="/_imgs/ribbon/AddExistingStandard_16.png" LabelText="$LocLabels:Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.LabelText" Sequence="40" TemplateAlias="o1" ToolTipTitle="$LocLabels:Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.ToolTipDescription" ModernImage="AddExisting" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.Alt">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter un {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.LabelText">
+      <Titles>
+        <Title description="Add Existing {0}" languagecode="1033" />
+        <Title description="Ajouter un {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.ToolTipDescription">
+      <Titles>
+        <Title description="Add a {0} that already exists to the record you are working with." languagecode="1033" />
+        <Title description="Ajouter un {0} qui existe déja dans l'enregistrement avec lequel vous travaillez" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.ovs_airoperatortype.AddExistingAssoc.ToolTipTitle">
+      <Titles>
+        <Title description="Add Existing​​ {0}" languagecode="1033" />
+        <Title description="Ajouter un {0}" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>
