@@ -57,6 +57,7 @@
     <RolePrivilege name="prvAppendmsdyn_copilotinteraction" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_copilottranscriptdata" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvAppendmsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_entityattachment" level="Local" />
     <RolePrivilege name="prvAppendmsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvAppendmsdyn_federatedarticle" level="Global" />
@@ -171,6 +172,7 @@
     <RolePrivilege name="prvAppendTomsdyn_casefollowupandclosureconfiguration" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_copilotinteractiondata" level="Basic" />
     <RolePrivilege name="prvAppendTomsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvAppendTomsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_entityattachment" level="Local" />
     <RolePrivilege name="prvAppendTomsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvAppendTomsdyn_federatedarticle" level="Global" />
@@ -283,6 +285,7 @@
     <RolePrivilege name="prvAssignmsdyn_agentgroup" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_agentgroupmembership" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvAssignmsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvAssignmsdyn_entityattachment" level="Basic" />
     <RolePrivilege name="prvAssignmsdyn_FunctionalLocation" level="Deep" />
     <RolePrivilege name="prvAssignmsdyn_Intent" level="Basic" />
@@ -371,6 +374,7 @@
     <RolePrivilege name="prvCreatemsdyn_copilotinteractiondata" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_copilottranscriptdata" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvCreatemsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_entityattachment" level="Basic" />
     <RolePrivilege name="prvCreatemsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvCreatemsdyn_federatedarticle" level="Deep" />
@@ -453,6 +457,7 @@
     <RolePrivilege name="prvDeleteMailboxTrackingFolder" level="Basic" />
     <RolePrivilege name="prvDeleteMailMergeTemplate" level="Basic" />
     <RolePrivilege name="prvDeletemsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvDeletemsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvDeletemsdyn_entityattachment" level="Basic" />
     <RolePrivilege name="prvDeletemsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvDeletemsdyn_FunctionalLocation" level="Basic" />
@@ -614,6 +619,7 @@
     <RolePrivilege name="prvReadmsdyn_copilottranscriptdata" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_customerasset" level="Global" />
     <RolePrivilege name="prvReadmsdyn_datainsightsandanalyticsfeature" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvReadmsdyn_entityattachment" level="Global" />
     <RolePrivilege name="prvReadmsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvReadmsdyn_federatedarticle" level="Global" />
@@ -799,6 +805,7 @@
     <RolePrivilege name="prvSharemsdyn_agentgroup" level="Basic" />
     <RolePrivilege name="prvSharemsdyn_agentgroupmembership" level="Basic" />
     <RolePrivilege name="prvSharemsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvSharemsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvSharemsdyn_entityattachment" level="Global" />
     <RolePrivilege name="prvSharemsdyn_FunctionalLocation" level="Deep" />
     <RolePrivilege name="prvSharemsdyn_Intent" level="Basic" />
@@ -894,6 +901,7 @@
     <RolePrivilege name="prvWritemsdyn_copilotinteractiondata" level="Basic" />
     <RolePrivilege name="prvWritemsdyn_copilottranscriptdata" level="Basic" />
     <RolePrivilege name="prvWritemsdyn_customerasset" level="Global" />
+    <RolePrivilege name="prvWritemsdyn_emailsentiment" level="Global" />
     <RolePrivilege name="prvWritemsdyn_entityattachment" level="Basic" />
     <RolePrivilege name="prvWritemsdyn_favoriteknowledgearticle" level="Global" />
     <RolePrivilege name="prvWritemsdyn_federatedarticleincident" level="Global" />

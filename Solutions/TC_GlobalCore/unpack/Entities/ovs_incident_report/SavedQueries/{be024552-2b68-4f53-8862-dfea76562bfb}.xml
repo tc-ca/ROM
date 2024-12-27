@@ -32,6 +32,7 @@
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
       <LocalizedName description="Active Incident Reports" languagecode="1033" />
+      <LocalizedName description="Rapports d’incidents actifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

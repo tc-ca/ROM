@@ -144,7 +144,8 @@ var Incident_Report= (function (window, document) {
 
             if (!isClosure) {
                 formContext.getAttribute("ovs_closure_type_cds").setValue(null);
-            }
+                formContext.getAttribute("ovs_duration_closure_num").setValue(null);
+           }
             glHelper.SetDisabled(formContext, "ovs_closure_type_cds", !isClosure);
             glHelper.SetDisabled(formContext, "ovs_duration_closure_num", !isClosure);
 

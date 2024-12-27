@@ -79,6 +79,21 @@
                       </cell>
                     </row>
                     <row>
+                      <cell locklevel="0" id="{897ece6f-5ec0-4849-9c0d-e2a3b3ae143a}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1734387385649" languagecode="1033" />
+                          <label description="Opération" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1734387385649" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_operationid">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ovs_mocregistration"&gt;c1675b2e-fbbb-ef11-a72e-002248b1707c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{d143916b-3bad-d823-05c5-d49b14beb6dc}" showlabel="false" colspan="1" auto="false">
                         <labels>
                           <label description="Site Address" languagecode="1033" />
@@ -212,8 +227,8 @@
                     <row>
                       <cell id="{44b2aaa9-3e1d-9a61-1c7a-21c1b993a4b6}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Region" languagecode="1033" />
-                          <label description="Région" languagecode="1036" />
+                          <label description="Selected" languagecode="1033" />
+                          <label description="Sélectionné" languagecode="1036" />
                         </labels>
                         <control id="ovs_regionflag" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_regionflag" disabled="false" uniqueid="{c79039c1-45b5-93bb-63de-9e9675568c83}" />
                       </cell>

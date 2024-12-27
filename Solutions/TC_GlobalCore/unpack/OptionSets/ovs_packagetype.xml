@@ -178,7 +178,7 @@
     <option value="19" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Miscellaneous Packages (Includes Envelopes, Mail Bags and Parcels)" languagecode="1033" />
-        <label description="Colis divers (comprend les enveloppes, le courrier, les sacs et les colis)" languagecode="1036" />
+        <label description="Colis divers (comprend les enveloppes, sacs postaux et colis)" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

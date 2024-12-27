@@ -352,7 +352,7 @@
                 },
                 "parameters": {
                   "emailMessage/To": " TDGOversight-SurveillanceTMD@tc.gc.ca;@{outputs('Get_Sender')?['body/domainname']}",
-                  "emailMessage/Subject": "Customer Support request from @{outputs('Get_Sender')?['body/fullname']}",
+                  "emailMessage/Subject": "Customer Support request from @{outputs('Get_Sender')?['body/fullname']} // Demande d'assistance au client de @{outputs('Get_Sender')?['body/fullname']}",
                   "emailMessage/Body": "<p>Hello / Bonjour,<br>\nI have found an issue using ROM / J'ai trouvé un problème en utilisant le GSR.<br>\nThe steps to reproduce the issue are as follows / Les étapes pour reproduire le problème sont les suivantes:<br>\n@{variables('CSmessage')}<br>\n<br>\nIs this issue preventing you from completing an inspection? / Ce problème vous empêche-t-il d'effectuer une inspection ?<br>\n@{variables('isStopping')}<br>\n<br>\nIs this bug or just a feature that would be nice to have in the system? / S'agit-il d'un bogue ou simplement d'une fonctionnalité qu'il serait bon d'avoir dans le système ?<br>\n@{variables('isBugOrFeature')}</p>",
                   "emailMessage/Cc": "@items('Process_Support_Team')?['qm_value']"
                 },

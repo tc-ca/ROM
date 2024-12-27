@@ -751,7 +751,18 @@
                     <label description="Aviation Profile" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell id="{ce4324fb-b6a7-458c-8df4-fa67708284ac}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{581aae2c-d4b3-4ed9-bda2-b46afed8102a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell id="{78a55f0d-6dd9-4afd-9165-59ea99c95b9d}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -776,105 +787,12 @@
                         </labels>
                         <control id="ovs_air_operator_tasks_cd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_air_operator_tasks_cd" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{5077a0e0-9b32-49b0-95c3-9f3be8dd9705}">
+                      <cell locklevel="0" id="{5077a0e0-9b32-49b0-95c3-9f3be8dd9705}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
-                  </rows>
-                </section>
-                <section name="AVIATION_PROFILE" showlabel="false" showbar="false" locklevel="0" id="{c4b0e5eb-d699-818b-978e-bb3ec14d763e}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" availableforphone="false" visible="false">
-                  <labels>
-                    <label description="AVIATION PROFILE" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{04e27ed5-b0c5-8d0b-7398-618c5d1a0a14}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="AIRCRAFT TYPE" languagecode="1033" />
-                          <label description="Types d'aéronefs" languagecode="1036" />
-                        </labels>
-                        <control id="AIRCRAFT_TYPE" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{458e5e6a-9465-07bc-49ea-0688301e7ddb}">
-                          <parameters>
-                            <ViewId>{88CAEABD-3AD9-475B-91CD-75CE996EDF16}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>ovs_Account_ovs_aircrafttype</RelationshipName>
-                            <TargetEntityType>ovs_aircrafttype</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{88CAEABD-3AD9-475B-91CD-75CE996EDF16}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
-                          </parameters>
-                        </control>
-                      </cell>
-                      <cell id="{c86660bd-4455-7d1a-28d4-4d4562be03c6}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="AIR OPERATOR TYPE" languagecode="1033" />
-                          <label description="Type d'exploitant aériens" languagecode="1036" />
-                        </labels>
-                        <control id="AIR_OPERATOR_TYPE" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{552c6627-1dc6-2324-0a3c-26e48bb7805b}">
-                          <parameters>
-                            <ViewId>{B07FEE2E-98D2-423B-BB64-381CE482CC19}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>ovs_Account_ovs_airOperatortype</RelationshipName>
-                            <TargetEntityType>ovs_airoperatortype</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{B07FEE2E-98D2-423B-BB64-381CE482CC19}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
-                          </parameters>
-                        </control>
-                      </cell>
-                      <cell id="{4548bb1d-d179-4155-c194-d62e6c608c58}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="AIR OPERATOR FUNCTION" languagecode="1033" />
-                          <label description="Fonctions de l'exploitant aériens" languagecode="1036" />
-                        </labels>
-                        <control id="Air_Operator_Functions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{2b651c3d-46b3-6696-995e-45977bce454b}">
-                          <parameters>
-                            <ViewId>{570DF2BD-257B-4369-A5C6-F02FA59BA2F1}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>ovs_Account_ovs_airoperatorfunction</RelationshipName>
-                            <TargetEntityType>ovs_airoperatorfunction</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{570DF2BD-257B-4369-A5C6-F02FA59BA2F1}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
                   </rows>
                 </section>
                 <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{a66c7031-0b75-de52-e32a-b073d289549a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
@@ -1492,6 +1410,11 @@
               <Title Text="联系人" LCID="2052" />
               <Title Text="連絡人" LCID="3076" />
               <Title Text="連絡人" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Area="Info" Show="false" RelationshipName="ovs_operationunnumber_Site_account" Id="nav_ovs_operationunnumber_Site_account" Sequence="9045">
+            <Titles>
+              <Title Text="Site UN Numbers" LCID="1033" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem Id="navAsyncOperations" Area="ProcessCenter" Sequence="9500" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Show="false">
@@ -2444,11 +2367,6 @@
               <Title Text="采购订单" LCID="2052" />
               <Title Text="採購單" LCID="3076" />
               <Title Text="採購單" LCID="1028" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem Area="Info" Show="false" RelationshipName="ovs_operationunnumber_Site_account" Id="nav_ovs_operationunnumber_Site_account" Sequence="9045">
-            <Titles>
-              <Title Text="Site UN Numbers" LCID="1033" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>

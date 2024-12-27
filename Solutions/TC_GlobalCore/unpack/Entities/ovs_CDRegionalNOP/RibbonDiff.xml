@@ -68,14 +68,14 @@
   <LocLabels>
     <LocLabel Id="ovs.ovs_cdregionalnop.btnFillCapacity.Alt">
       <Titles>
-        <Title description="Fill Regional Capacity" languagecode="1033" />
-        <Title description="Remplissez la capacité de la région" languagecode="1036" />
+        <Title description="Fill Capacity" languagecode="1033" />
+        <Title description="Remplissez la capacité" languagecode="1036" />
       </Titles>
     </LocLabel>
     <LocLabel Id="ovs.ovs_cdregionalnop.btnFillCapacity.LabelText">
       <Titles>
-        <Title description="Fill Regional Capacity" languagecode="1033" />
-        <Title description="Remplissez la capacité de la région" languagecode="1036" />
+        <Title description="Fill Capacity" languagecode="1033" />
+        <Title description="Remplissez la capacité" languagecode="1036" />
       </Titles>
     </LocLabel>
     <LocLabel Id="ovs.ovs_cdregionalnop.btnFillCapacity.ToolTipTitle">

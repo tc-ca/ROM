@@ -23,6 +23,7 @@
     <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Air (Cargo) Facility" languagecode="1033" />
+        <label description="Installation de fret aérien" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -31,6 +32,7 @@
     <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Road Facility" languagecode="1033" />
+        <label description="Installation routière" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -39,6 +41,7 @@
     <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Rail Facility" languagecode="1033" />
+        <label description="Installation ferrovière" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -47,6 +50,7 @@
     <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Marine Facility" languagecode="1033" />
+        <label description="Installation maritime" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

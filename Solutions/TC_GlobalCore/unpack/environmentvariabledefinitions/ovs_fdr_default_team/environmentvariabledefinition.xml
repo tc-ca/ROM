@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="ovs_fdr_default_team">
+  <defaultvalue>69f72e34-e4e3-eb11-bacb-000d3ae8d621</defaultvalue>
+  <displayname default="Fdr Default Team">
+    <label description="Fdr Default Team" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

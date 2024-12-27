@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Air Operator Function" OriginalName="Air Operator Function">ovs_airoperatorfunction</Name>
+  <Name LocalizedName="To be deleted - Air Operator Function" OriginalName="Air Operator Function">ovs_airoperatorfunction</Name>
   <EntityInfo>
     <entity Name="ovs_airoperatorfunction">
       <LocalizedNames>
-        <LocalizedName description="Air Operator Function" languagecode="1033" />
+        <LocalizedName description="To be deleted - Air Operator Function" languagecode="1033" />
         <LocalizedName description="Fonction de l'opérateur aérien" languagecode="1036" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Air Operator Functions" languagecode="1033" />
+        <LocalizedCollectionName description="To be deleted - Air Operator Functions" languagecode="1033" />
         <LocalizedCollectionName description="Fonctions de l'opérateur aérien" languagecode="1036" />
       </LocalizedCollectionNames>
       <Descriptions>
@@ -891,6 +891,7 @@
       <IsCollaboration>0</IsCollaboration>
       <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
       <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <EntityColor></EntityColor>
       <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
       <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
       <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
@@ -937,9 +938,11 @@
       <CanCreateViews>1</CanCreateViews>
       <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
       <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+      <IconVectorName></IconVectorName>
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>

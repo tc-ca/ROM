@@ -15,9 +15,9 @@
           <columns>
             <column width="50%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{30fae4ca-1be0-4446-990c-884fa48dbb02}" labelid="{2127f74d-943e-428b-bcbd-d8f404ee2dda}">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{30fae4ca-1be0-4446-990c-884fa48dbb02}" labelid="{2127f74d-943e-428b-bcbd-d8f404ee2dda}" name="LOB">
                   <labels>
-                    <label description="General" languagecode="1033" />
+                    <label description="LOB" languagecode="1033" />
                     <label description="Général" languagecode="1036" />
                   </labels>
                   <rows>
@@ -74,6 +74,21 @@
                             <DisableViewPicker>false</DisableViewPicker>
                             <DefaultViewId>{E799195B-89C5-4CCF-835E-B61FB232F4EB}</DefaultViewId>
                             <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{71fb15cd-8260-42bb-a43c-37324883d26d}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1734387486928" languagecode="1033" />
+                          <label description="Opération" languagecode="1036" />
+                        </labels>
+                        <control id="QuickviewControl1734387486928" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ovs_operationid">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ovs_mocregistration"&gt;c1675b2e-fbbb-ef11-a72e-002248b1707c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>true</HideQuickFormBorder>
                           </parameters>
                         </control>
                       </cell>
@@ -193,8 +208,8 @@
                     <row>
                       <cell id="{44b2aaa9-3e1d-9a61-1c7a-21c1b993a4b6}" showlabel="true" locklevel="0" labelid="{dffc181b-69ac-4cdf-b646-67890cf142a1}">
                         <labels>
-                          <label description="Region" languagecode="1033" />
-                          <label description="Région" languagecode="1036" />
+                          <label description="Selected" languagecode="1033" />
+                          <label description="Sélectionné" languagecode="1036" />
                         </labels>
                         <control id="ovs_regionflag" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_regionflag" disabled="false" uniqueid="{c79039c1-45b5-93bb-63de-9e9675568c83}" />
                       </cell>

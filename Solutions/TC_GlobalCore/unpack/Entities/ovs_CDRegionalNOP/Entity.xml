@@ -900,6 +900,7 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Line Of Business" languagecode="1033" />
+            <displayname description="Nom du secteur d'activité" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />

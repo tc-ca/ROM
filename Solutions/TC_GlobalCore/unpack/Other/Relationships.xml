@@ -1359,7 +1359,6 @@
   <EntityRelationship Name="ovs_incident_report_incident_organization" />
   <EntityRelationship Name="ovs_incident_report_injury" />
   <EntityRelationship Name="ovs_incident_report_moc" />
-  <EntityRelationship Name="ovs_incident_report_region_territory" />
   <EntityRelationship Name="ovs_incident_report_submitting_contact" />
   <EntityRelationship Name="ovs_IncidentERAP_incident_report" />
   <EntityRelationship Name="ovs_invitation_contact" />

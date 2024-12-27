@@ -15,6 +15,7 @@
     <option value="918640000" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Spill" languagecode="1033" />
+        <label description="Déversement" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -23,6 +24,7 @@
     <option value="918640001" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Leak" languagecode="1033" />
+        <label description="Fuite" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -39,6 +41,7 @@
     <option value="918640003" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Fire/Smoke" languagecode="1033" />
+        <label description="Incendie/Fumée" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -47,6 +50,7 @@
     <option value="918640004" ExternalValue="" IsHidden="0">
       <labels>
         <label description="No Release/Anticipated Release" languagecode="1033" />
+        <label description="Aucun rejet / Rejet appréhendé" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -71,6 +75,7 @@
     <option value="918640007" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Vapour" languagecode="1033" />
+        <label description="Vapeur" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -79,6 +84,7 @@
     <option value="918640008" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Other" languagecode="1033" />
+        <label description="Autre" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

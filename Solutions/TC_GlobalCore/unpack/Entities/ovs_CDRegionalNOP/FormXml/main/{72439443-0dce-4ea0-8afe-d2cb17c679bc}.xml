@@ -70,6 +70,7 @@
                       <cell id="{db65bd00-1ef3-429f-81ce-b43885184a29}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Line Of Business" languagecode="1033" />
+                          <label description="Nom du secteur d'activité" languagecode="1036" />
                         </labels>
                         <control id="ovs_lineofbusiness_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_lineofbusiness_id" disabled="false" />
                       </cell>

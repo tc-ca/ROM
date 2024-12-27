@@ -466,6 +466,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Analyst Report" languagecode="1033" />
+              <displayname description="Rapport d'analyste" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -532,6 +533,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Any Damage to property or environment?" languagecode="1033" />
+              <displayname description="Dommages aux biens ou à l'environnement ?" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -540,11 +542,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -635,7 +639,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="CANUTEC Reference Number" languagecode="1033" />
-            <displayname description="NUMERO DE REFERENCE CANUTEC" languagecode="1036" />
+            <displayname description="Numéro de référence CANUTEC+E143" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -950,7 +954,7 @@
           <Accuracy>2</Accuracy>
           <displaynames>
             <displayname description="Emergency Response Cost" languagecode="1033" />
-            <displayname description="Coût de l'ntervention d'urgence" languagecode="1036" />
+            <displayname description="Coût de l'intervention d'urgence" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -1248,6 +1252,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Deaths" languagecode="1033" />
+              <displayname description="Décès" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -1256,11 +1261,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -1440,6 +1447,72 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="ovs_didtheincidentresultininjuryordeath_ind">
+          <Type>bit</Type>
+          <Name>ovs_didtheincidentresultininjuryordeath_ind</Name>
+          <LogicalName>ovs_didtheincidentresultininjuryordeath_ind</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="ovs_incident_report_ovs_didtheincidentresultininjuryordeath_ind">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.1</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="Did the incident result in  injury or death?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+              </option>
+              <option value="0" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Did the incident result in  injury or death?" languagecode="1033" />
+            <displayname description="L'incident a-t-il entraîné des blessures ou décès ?" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="ovs_didyou_reportthis_incidentto_CANUTEC_ind">
           <Type>bit</Type>
           <Name>ovs_didyou_reportthis_incidentto_canutec_ind</Name>
@@ -1478,6 +1551,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Did you report this incident to CANUTEC?" languagecode="1033" />
+              <displayname description="Avez-vous signalé cet incident à CANUTEC?" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -1486,11 +1560,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -1962,7 +2038,7 @@
           <OptionSetName>ovs_geographicarea</OptionSetName>
           <displaynames>
             <displayname description="Geographic Area" languagecode="1033" />
-            <displayname description=" Zone géographique&#x9;" languagecode="1036" />
+            <displayname description=" Zone géographique " languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2403,6 +2479,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Major Injuries" languagecode="1033" />
+              <displayname description="Blessures graves" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -2411,11 +2488,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -2592,6 +2671,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Minor Injuries" languagecode="1033" />
+              <displayname description="Blessures mineures" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -2600,11 +2680,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -2739,6 +2821,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Moderate Injuries" languagecode="1033" />
+              <displayname description="Blessures modérées" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -2747,11 +2830,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -2842,7 +2927,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Name" languagecode="1033" />
-            <displayname description="Name" languagecode="1036" />
+            <displayname description="Nom" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2929,6 +3014,7 @@
             <ExternalTypeName></ExternalTypeName>
             <displaynames>
               <displayname description="Any serious jeopardy to aircraft or persons aboard" languagecode="1033" />
+              <displayname description="Mise en danger grave de l'aéronef ou de personnes à bord?" languagecode="1036" />
             </displaynames>
             <Descriptions>
               <Description description="" languagecode="1033" />
@@ -2937,11 +3023,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -3001,11 +3089,13 @@
               <option value="1" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
                 </labels>
               </option>
               <option value="0" ExternalValue="" IsHidden="0">
                 <labels>
                   <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
                 </labels>
               </option>
             </options>
@@ -3330,7 +3420,7 @@
           <OptionSetName>ovs_lld_quarter</OptionSetName>
           <displaynames>
             <displayname description="Quarter / LSD" languagecode="1033" />
-            <displayname description="Quart/DSL" languagecode="1036" />
+            <displayname description="Quartier / Subdivision officielle" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3414,46 +3504,6 @@
           <displaynames>
             <displayname description="Received Date" languagecode="1033" />
             <displayname description="Date de réception" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_region_id">
-          <Type>lookup</Type>
-          <Name>ovs_region_id</Name>
-          <LogicalName>ovs_region_id</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Region" languagecode="1033" />
-            <displayname description="Région" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />

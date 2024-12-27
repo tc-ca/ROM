@@ -281,84 +281,18 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="classes_readonly" showlabel="true" showbar="true" locklevel="0" id="{579db9db-04e3-5664-04b2-3a8a72936a3b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="operations_summary_section_3" id="a7265258-3706-4fb2-8ce7-59ca0120eb07" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
-                    <label description="Classes" languagecode="1033" />
-                    <label description="Classes" languagecode="1036" />
+                    <label description="New Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d707804c-0941-eead-78a0-3b0b8ce0592e}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                      <cell id="{37ce77ad-90e8-47c2-86cc-a5000916a9a7}">
                         <labels>
-                          <label description="Classes" languagecode="1033" />
-                          <label description="Classes" languagecode="1036" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="classes" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{098081d8-eaa3-eba4-32da-50451d6a1da1}">
-                          <parameters>
-                            <ViewId>{96B22408-C97B-EC11-8D20-000D3AFF1221}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>ovs_ovs_mocregistration_ovs_operationclass_OperationClass</RelationshipName>
-                            <TargetEntityType>ovs_operationclass</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{96B22408-C97B-EC11-8D20-000D3AFF1221},{AFFE1090-E5C2-4951-854A-1AC530D0DFA0}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
                       </cell>
                     </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-                <section name="un_numbers_readonly" showlabel="true" showbar="true" locklevel="0" id="{196db115-0232-4705-2375-94d60b1ae34d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="UN Numbers" languagecode="1033" />
-                    <label description="Numéros ONU" languagecode="1036" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{2727305c-5891-9477-1075-ab47084e07ba}" showlabel="false" colspan="1" auto="false" rowspan="6">
-                        <labels>
-                          <label description="UN Numbers" languagecode="1033" />
-                          <label description="Numéros ONU" languagecode="1036" />
-                        </labels>
-                        <control id="un_numbers" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <ViewId>{121715D2-C97B-EC11-8D20-000D3AFF1221}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>ovs_OperationUNNumber_OperationUNNumber_o</RelationshipName>
-                            <TargetEntityType>ovs_operationunnumber</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{121715D2-C97B-EC11-8D20-000D3AFF1221},{2E7C7B15-98B4-4CC3-A0DA-0F193B0759D2}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>Grid</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
                   </rows>
                 </section>
               </sections>
@@ -413,7 +347,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -450,7 +384,7 @@
       <events>
         <event name="onload" application="true" active="true">
           <Handlers>
-            <Handler functionName="OnLoad" libraryName="ovs_moc_mainform" handlerUniqueId="{656a2259-59cd-4e1e-83b8-c4a5ee02d6b7}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="OnLoad" libraryName="ovs_moc_mainform" handlerUniqueId="{656a2259-59cd-4e1e-83b8-c4a5ee02d6b7}" enabled="false" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
         <event name="onchange" application="false" active="false" attribute="ovs_operationtype">

@@ -41,6 +41,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
       <LocalizedName description="Incident grid - Active Incident Reports " languagecode="1033" />
+      <LocalizedName description="Tableau d’incidents – Rapports d’incidents actifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

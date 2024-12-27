@@ -1268,8 +1268,8 @@
             </options>
           </optionset>
           <displaynames>
-            <displayname description="Region Flag" languagecode="1033" />
-            <displayname description="Signal de la region" languagecode="1036" />
+            <displayname description="Selected" languagecode="1033" />
+            <displayname description="Sélectionné" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
