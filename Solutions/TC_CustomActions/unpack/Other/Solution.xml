@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24111.180" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24111.180" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24111.00180">
+<ImportExportXml version="9.2.24122.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24122.148" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24122.00148">
   <SolutionManifest>
     <UniqueName>TC_CustomActions</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Custom Actions and APIs" languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.46</Version>
+    <Version>1.2.0.47</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>oversightpublisher</UniqueName>
@@ -114,19 +114,19 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Fill Regional Capacity" id="{235f485f-27f4-4272-a273-b972f3c7f559}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Regional NOP" solution="Active" />
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.CustomActions.RegionalNOP.FillRegionalCapacity: ovs_FillRegionalCapacity of ovs_cdregionalnop" id="{1df45bca-129f-ec11-b3fe-000d3a842be7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_cdregionalnopid" displayName="Regional NOP" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Regional NOP" solution="Active" />
+        <Required type="2" schemaName="ovs_cdregionalnopid" displayName="Line of Business NOP" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Fill Regional Capacity" id="{235f485f-27f4-4272-a273-b972f3c7f559}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Regional NOP" solution="Active" />
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
         <Dependent type="29" displayName="Fill Regional Capacity" id="{235f485f-27f4-4272-a273-b972f3c7f559}" />
       </MissingDependency>
     </MissingDependencies>
