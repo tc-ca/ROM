@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<visualization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedqueryvisualizationid>{5B290FFF-355F-DF11-AE90-00155D2E3002}</savedqueryvisualizationid>
+  <datadescription>
+    <datadefinition>
+      <fetchcollection>
+        <fetch mapping="logical" aggregate="true">
+          <entity name="account">
+            <attribute alias="aggregate_column" name="accountid" aggregate="count" />
+            <attribute groupby="true" alias="groupby_column" dategrouping="month" name="createdon" />
+          </entity>
+        </fetch>
+      </fetchcollection>
+      <categorycollection>
+        <category>
+          <measurecollection>
+            <measure alias="aggregate_column" />
+          </measurecollection>
+        </category>
+      </categorycollection>
+    </datadefinition>
+  </datadescription>
+  <presentationdescription>
+    <Chart>
+      <Series>
+        <Series IsValueShownAsLabel="True" Color="91, 151, 213" BackSecondaryColor="41, 88, 145" Font="{0}, 9.5px" LabelForeColor="59, 59, 59" CustomProperties="PointWidth=0.75, MaxPixelPointWidth=40">
+          <SmartLabelStyle Enabled="True" />
+        </Series>
+      </Series>
+      <ChartAreas>
+        <ChartArea BorderColor="White" BorderDashStyle="Solid">
+          <AxisY LabelAutoFitMinFontSize="8" TitleForeColor="59, 59, 59" TitleFont="{0}, 10.5px" LineColor="165, 172, 181">
+            <MajorGrid LineColor="239, 242, 246" />
+            <MajorTickMark LineColor="165, 172, 181" />
+            <LabelStyle Font="{0}, 10.5px" ForeColor="59, 59, 59" />
+          </AxisY>
+          <AxisX LabelAutoFitMinFontSize="8" TitleForeColor="59, 59, 59" TitleFont="{0}, 10.5px" LineColor="165, 172, 181">
+            <MajorGrid Enabled="False" />
+            <MajorTickMark Enabled="False" />
+            <LabelStyle Font="{0}, 10.5px" ForeColor="59, 59, 59" />
+          </AxisX>
+        </ChartArea>
+      </ChartAreas>
+      <Titles>
+        <Title Alignment="TopLeft" DockingOffset="-3" Font="{0}, 13px" ForeColor="59, 59, 59"></Title>
+      </Titles>
+    </Chart>
+  </presentationdescription>
+  <isdefault>0</isdefault>
+  <LocalizedNames>
+    <LocalizedName description="New Accounts By Month" languagecode="1033" />
+    <LocalizedName description="Nouveaux comptes par mois" languagecode="1036" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Shows the number of new accounts in a month." languagecode="1033" />
+    <Description description="Affiche le nombre de nouveaux comptes au cours d’un mois." languagecode="1036" />
+  </Descriptions>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+</visualization>
