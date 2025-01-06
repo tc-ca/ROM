@@ -1,4 +1,4 @@
-﻿///<reference path="../../Utilities/GlobalHelper.js"/>
+///<reference path="../../Utilities/GlobalHelper.js"/>
 ///<reference path="../../Utilities/questionnaireFunctions.js"/>
 
 
@@ -20,6 +20,13 @@ var Incident_Report= (function (window, document) {
             if (doClearHideEase) glHelper.SetValue(formContext, arrayOfFields[i], null);
             glHelper.SetControlVisibility(formContext, arrayOfFields[i], !doClearHideEase);
             glHelper.SetRequiredLevel(formContext, arrayOfFields[i], !doClearHideEase);
+        }
+    }
+
+    function hideTime(formContext, fieldName) { // Modified hideTime function
+        let dateControl = formContext.getControl(fieldName);
+        if (dateControl) {
+            dateControl.setShowTime(false);
         }
     }
 
@@ -89,7 +96,9 @@ var Incident_Report= (function (window, document) {
             ////initiate Copy Address control
             //var wrControl = formContext.getControl("WebResource_CopyButton");
             //if (wrControl) wrControl.getContentWindow().then(function (contentWindow) {contentWindow.setClientApiContext(Xrm, formContext);})  
-
+         
+            hideTime(formContext, "ovs_initial30dayfollowupreportsubmissiondate"); // Call hideTime here
+           
             if (formType == glHelper.FORMTYPE_CREATE) {
 
 

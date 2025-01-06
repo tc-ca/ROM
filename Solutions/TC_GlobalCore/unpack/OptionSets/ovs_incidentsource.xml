@@ -67,7 +67,7 @@
     </option>
     <option value="8" ExternalValue="" IsHidden="0">
       <labels>
-        <label description="Canada Nuclear Safety Commission (formerly AECB)" languagecode="1033" />
+        <label description="Canada Nuclear Safety Commission" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -131,7 +131,7 @@
     </option>
     <option value="16" ExternalValue="" IsHidden="0">
       <labels>
-        <label description="DG Occurrence Report (ICAD) As of July 2017" languagecode="1033" />
+        <label description="Dangerous Goods Occurrence Report (ICAO)" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

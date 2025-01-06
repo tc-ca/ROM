@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24122.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24122.148" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24122.00148">
+<ImportExportXml version="9.2.24122.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24122.148" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24122.00154">
   <SolutionManifest>
     <UniqueName>TC_GlobalCore</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Upgrade of TDG Core Schema" languagecode="1033" />
     </Descriptions>
-    <Version>1.169.0.1</Version>
+    <Version>1.170.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>oversightpublisher</UniqueName>
@@ -410,6 +410,7 @@
       <RootComponent type="29" id="{6207db7a-ae0d-ed11-b83d-000d3a0c8551}" behavior="0" />
       <RootComponent type="29" id="{73e6b519-3096-ef11-8a68-000d3a0bf04c}" behavior="0" />
       <RootComponent type="29" id="{749d75f3-6aa4-ec11-b3fe-0022483c9e11}" behavior="0" />
+      <RootComponent type="29" id="{77747f2f-ae60-ef11-bfe4-0022483bb3a9}" behavior="0" />
       <RootComponent type="29" id="{77a44236-9cdb-ec11-bb3c-000d3a848097}" behavior="0" />
       <RootComponent type="29" id="{8176a2cd-9ddb-ec11-bb3c-000d3a848097}" behavior="0" />
       <RootComponent type="29" id="{8752932b-a809-ec11-b6e6-000d3ae8f2bd}" behavior="0" />
@@ -14611,12 +14612,6 @@
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
           <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
         </Required>
-        <Dependent type="60" displayName="Contact Main Form" parentDisplayName="Contact" id="{2c961780-b9f9-ea11-a815-000d3af3ac0d}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
-        </Required>
         <Dependent type="60" displayName="Profile Web Form - Japanese" parentDisplayName="Contact" id="{36cc830c-eeab-4a89-a7c9-da2ac6c451a1}" />
       </MissingDependency>
       <MissingDependency>
@@ -14630,6 +14625,12 @@
           <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
         </Required>
         <Dependent type="60" displayName="TDG Contact Core2" parentDisplayName="Contact" id="{4b062092-0e62-ee11-8df0-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
@@ -14768,7 +14769,7 @@
           <package appName="Dynamics 365 Sales Integration &amp; AddOns" version="9.0.24111.10002">msdyn_SalesIntegrationsAddOns (9.0.24111.10002)</package>
           <package appName="Dynamics 365 Sales Insights Add-On" version="9.0.22054.10002">msdyn_SalesIntegrationsAddOns (9.0.22054.10002)</package>
         </Required>
-        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyn_/Account/Account.Library.js" displayName="msdyn_/Account/Account.Library.js" solution="FieldService (8.8.0.88)">
@@ -15988,12 +15989,6 @@
         <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
           <package appName="msdynce_Sales" version="9.0.24114.10004">msdynce_SalesAnchor (9.0.24114.10004)</package>
         </Required>
-        <Dependent type="60" displayName="FDR Contact" parentDisplayName="Contact" id="{0b065527-1f35-ed11-9db1-0022483cb62f}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
-          <package appName="msdynce_Sales" version="9.0.24114.10004">msdynce_SalesAnchor (9.0.24114.10004)</package>
-        </Required>
         <Dependent type="60" displayName="CID - Site" parentDisplayName="Account" id="{0e37df7d-990c-45f9-b2a7-3bc3b15d6973}" />
       </MissingDependency>
       <MissingDependency>
@@ -16169,6 +16164,12 @@
           <package appName="msdynce_Sales" version="9.0.24114.10004">msdynce_SalesAnchor (9.0.24114.10004)</package>
         </Required>
         <Dependent type="60" displayName="CID Portal - Edit Contact Form" parentDisplayName="Contact" id="{b5fd5416-28c1-4a1f-8774-2d794708ca15}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.24114.10004">msdynce_SalesAnchor (9.0.24114.10004)</package>
+        </Required>
+        <Dependent type="60" displayName="FDR Organization" parentDisplayName="Account" id="{c7e17dd5-6104-ed11-82e6-000d3a8483f6}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="Sales/ClientCommon/Sales_ClientCommon.js" displayName="Sales/ClientCommon/Sales_ClientCommon.js" solution="msdynce_Sales (9.0.4.0076)">

@@ -88,12 +88,10 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c12653da-2022-4d74-b2d5-b2687aabcee2}" locklevel="0" colspan="1" rowspan="1">
+                      <cell locklevel="0" id="{04e08553-aeaf-4cd9-8f60-eb18dfc99447}">
                         <labels>
-                          <label description="CANUTEC Reference Number" languagecode="1033" />
-                          <label description="Numéro de référence CANUTEC+E143" languagecode="1036" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="ovs_canutec_reference_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_canutec_reference_number_txt" disabled="false" />
                       </cell>
                       <cell id="{00f10856-c818-40f3-b438-2d736e3d1437}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -104,6 +102,21 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{9abf2232-465a-4264-b3c4-2dcb03a1da53}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="CANUTEC Reference Number" languagecode="1033" />
+                          <label description="Numéro de référence CANUTEC" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_canutec_reference_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_canutec_reference_number_txt" disabled="false" />
+                      </cell>
+                      <cell id="{916070b2-4be5-49d7-9670-4a2e3cc11cd9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Days to Report" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_days_to_report_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_days_to_report_num" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{7c052b75-c0a9-401f-a0d7-9ec2df2106d6}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Did you report this incident to CANUTEC?" languagecode="1033" />
@@ -111,26 +124,11 @@
                         </labels>
                         <control id="ovs_didyou_reportthis_incidentto_canutec_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_didyou_reportthis_incidentto_canutec_ind" disabled="false" />
                       </cell>
-                      <cell id="{f6c4face-daab-4e28-b3f5-2ce0dfaf1bc0}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{0ab3231e-444e-4298-9c46-10e92e6bc985}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Days to Report" languagecode="1033" />
-                          <label description="Days to Report" languagecode="1036" />
+                          <label description="Days Elapsed Before Reporting" languagecode="1033" />
                         </labels>
-                        <control id="ovs_days_2report_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_days_2report_num" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell locklevel="0" id="{8e4a48db-9e6f-4c92-a847-1070953e8485}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                      <cell id="{d1033e85-648b-4921-b940-83c7e147692d}" locklevel="0" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="Created On" languagecode="1033" />
-                          <label description="Créé le" languagecode="1036" />
-                        </labels>
-                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                        <control id="ovs_dayselapsedbeforereporting" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_dayselapsedbeforereporting" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -141,12 +139,12 @@
                         </labels>
                         <control id="ovs_source_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_source_cd" disabled="false" />
                       </cell>
-                      <cell id="{b1dd9404-89f1-4ba6-8e60-2026a307ec06}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{d1033e85-648b-4921-b940-83c7e147692d}" locklevel="0" rowspan="1" colspan="1">
                         <labels>
-                          <label description="Origin" languagecode="1033" />
-                          <label description="Origine" languagecode="1036" />
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Créé le" languagecode="1036" />
                         </labels>
-                        <control id="ovs_origin_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_origin_txt" disabled="false" />
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -157,12 +155,12 @@
                         </labels>
                         <control id="ovs_other_source_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_other_source_txt" disabled="false" />
                       </cell>
-                      <cell id="{3ac6b2f2-d54e-47a8-8129-fd65e8961bf2}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{b1dd9404-89f1-4ba6-8e60-2026a307ec06}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Destination" languagecode="1033" />
-                          <label description="Destination" languagecode="1036" />
+                          <label description="Origin" languagecode="1033" />
+                          <label description="Origine" languagecode="1036" />
                         </labels>
-                        <control id="ovs_destination_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_destination_txt" disabled="false" />
+                        <control id="ovs_origin_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_origin_txt" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -173,12 +171,12 @@
                         </labels>
                         <control id="ovs_release_type_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_release_type_cds" disabled="false" />
                       </cell>
-                      <cell id="{ccd39170-5cc4-48d2-9d29-f3df95ffd05b}" locklevel="0" colspan="1" rowspan="4">
+                      <cell id="{3ac6b2f2-d54e-47a8-8129-fd65e8961bf2}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Route Description" languagecode="1033" />
-                          <label description="Description de la route" languagecode="1036" />
+                          <label description="Destination" languagecode="1033" />
+                          <label description="Destination" languagecode="1036" />
                         </labels>
-                        <control id="ovs_route_description_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_route_description_txt" disabled="false" />
+                        <control id="ovs_destination_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_destination_txt" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -188,6 +186,13 @@
                           <label description="Autre type de rejet" languagecode="1036" />
                         </labels>
                         <control id="ovs_release_type_other_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_release_type_other_txt" disabled="false" />
+                      </cell>
+                      <cell id="{ccd39170-5cc4-48d2-9d29-f3df95ffd05b}" locklevel="0" colspan="1" rowspan="4">
+                        <labels>
+                          <label description="Route Description" languagecode="1033" />
+                          <label description="Description de la route" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_route_description_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_route_description_txt" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -216,19 +221,14 @@
                         </labels>
                         <control id="ovs_summary_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_summary_txt" disabled="false" />
                       </cell>
+                    </row>
+                    <row>
                       <cell id="{5f65da61-a78f-4f23-a59b-6ef570004ec6}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Geographic Area" languagecode="1033" />
                           <label description=" Zone géographique " languagecode="1036" />
                         </labels>
                         <control id="ovs_geographic_area_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_geographic_area_cd" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{4425d635-469c-c9c7-0cbd-a611aca43ad3}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
                       </cell>
                     </row>
                     <row>
@@ -267,6 +267,19 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{fbfb9063-a6ee-4331-9755-60e9c54a898e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Initial 30-Day Follow-Up Report Submission Date" languagecode="1033" />
+                        </labels>
+                        <control id="ovs_initial30dayfollowupreportsubmissiondate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_initial30dayfollowupreportsubmissiondate" disabled="false" />
+                      </cell>
+                      <cell id="{76429e17-a264-211d-42a1-6a540a02b381}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{80cae8a3-3cb5-4886-ba72-71c0a8cff37d}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Initial 30-Day Follow-Up Receipt Date" languagecode="1033" />
@@ -274,7 +287,7 @@
                         </labels>
                         <control id="ovs_initial_30day_follow_up_receipt_date_dte" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ovs_initial_30day_follow_up_receipt_date_dte" disabled="false" />
                       </cell>
-                      <cell id="{76429e17-a264-211d-42a1-6a540a02b381}" showlabel="false">
+                      <cell id="{3b91ea65-ae4e-9b60-ec37-1e07ac807b19}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -294,7 +307,7 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell id="{3b91ea65-ae4e-9b60-ec37-1e07ac807b19}" showlabel="false">
+                      <cell id="{3d9b54ce-0eb8-8bd6-18c5-6dec72aa1438}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -308,7 +321,7 @@
                         </labels>
                         <control id="ovs_submitting_contact_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_submitting_contact_id" disabled="false" />
                       </cell>
-                      <cell id="{3d9b54ce-0eb8-8bd6-18c5-6dec72aa1438}" showlabel="false">
+                      <cell locklevel="0" id="{4bff4563-436a-4ebe-8f76-3302d85791d4}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -322,7 +335,7 @@
                         </labels>
                         <control id="ovs_role_of_organization_cds" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_role_of_organization_cds" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{4bff4563-436a-4ebe-8f76-3302d85791d4}">
+                      <cell locklevel="0" id="{27a2da31-5428-4028-bec4-0406fcbde9b2}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -588,12 +601,10 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8a43d8d3-5362-434d-8a87-223fe92ebcc7}" locklevel="0" colspan="1" rowspan="1">
+                      <cell locklevel="0" id="{8d7738e4-84c7-4e56-a857-9f67cd6f18a8}">
                         <labels>
-                          <label description="Emergency Response Cost" languagecode="1033" />
-                          <label description="Coût de l'ntervention d'urgence" languagecode="1036" />
+                          <label description="" languagecode="1033" />
                         </labels>
-                        <control id="ovs_cost_of_remediation_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_remediation_num" disabled="false" />
                       </cell>
                       <cell id="{c943c15d-94b2-4631-8581-277c6625dc4f}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -604,12 +615,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{0d1413ff-f431-48c7-9694-ac35b5cacb20}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{47d51394-c515-4595-addf-5d0a72489c87}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Material Loss of Dangerous Goods" languagecode="1033" />
-                          <label description="Pertes matérielles de marchandises dangereuses " languagecode="1036" />
+                          <label description="Emergency Response Cost" languagecode="1033" />
+                          <label description="Coût de l'intervention d'urgence" languagecode="1036" />
                         </labels>
-                        <control id="ovs_cost_of_dangerous_goods_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_dangerous_goods_num" disabled="false" />
+                        <control id="ovs_cost_of_remediation_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_remediation_num" disabled="false" />
                       </cell>
                       <cell id="{89f8123a-6aad-4e5e-956b-b9314795fa15}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -617,6 +628,20 @@
                           <label description="Coûts totaux" languagecode="1036" />
                         </labels>
                         <control id="ovs_total_cost_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_total_cost_num" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d1413ff-f431-48c7-9694-ac35b5cacb20}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Material Loss of Dangerous Goods" languagecode="1033" />
+                          <label description="Pertes matérielles de marchandises dangereuses " languagecode="1036" />
+                        </labels>
+                        <control id="ovs_cost_of_dangerous_goods_num" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_cost_of_dangerous_goods_num" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{59683b0c-f157-401f-8cc5-c81121906985}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>
@@ -960,14 +985,14 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_moc" id="2e876caa-3726-40f4-8df1-0548ac3026e5" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="singleComponent">
+        <tab name="tab_moc" id="2e876caa-3726-40f4-8df1-0548ac3026e5" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="cardSections">
           <labels>
             <label description="MOCs" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_4_section_1" id="37c708f8-b3bd-478e-801d-6b98cd23e8b0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                <section name="tab_4_section_1" id="37c708f8-b3bd-478e-801d-6b98cd23e8b0" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="New Section" languagecode="1033" />
                   </labels>

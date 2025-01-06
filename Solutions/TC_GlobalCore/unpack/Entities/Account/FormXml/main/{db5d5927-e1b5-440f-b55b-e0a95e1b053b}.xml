@@ -764,14 +764,16 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{78a55f0d-6dd9-4afd-9165-59ea99c95b9d}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{78a55f0d-6dd9-4afd-9165-59ea99c95b9d}" locklevel="0" colspan="2" rowspan="1">
                         <labels>
                           <label description="Aircraft Type" languagecode="1033" />
                           <label description="Types d'aéronefs" languagecode="1036" />
                         </labels>
                         <control id="ovs_aircraft_type_cd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_aircraft_type_cd" disabled="false" />
                       </cell>
-                      <cell id="{a759b14e-9d1f-4f49-b631-106a227dcd27}" locklevel="0" colspan="1" rowspan="1">
+                    </row>
+                    <row>
+                      <cell id="{a759b14e-9d1f-4f49-b631-106a227dcd27}" locklevel="0" colspan="2" rowspan="1">
                         <labels>
                           <label description="Air Operator Type" languagecode="1033" />
                           <label description="Type d'exploitant aériens" languagecode="1036" />
@@ -780,17 +782,12 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{85c2080b-52ad-433c-a20c-f12e5f319996}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{85c2080b-52ad-433c-a20c-f12e5f319996}" locklevel="0" colspan="2" rowspan="1">
                         <labels>
                           <label description="Air Operator Tasks" languagecode="1033" />
                           <label description="Tâches de l'exploitant aérien" languagecode="1036" />
                         </labels>
                         <control id="ovs_air_operator_tasks_cd" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="ovs_air_operator_tasks_cd" disabled="false" />
-                      </cell>
-                      <cell locklevel="0" id="{5077a0e0-9b32-49b0-95c3-9f3be8dd9705}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
                       </cell>
                     </row>
                   </rows>

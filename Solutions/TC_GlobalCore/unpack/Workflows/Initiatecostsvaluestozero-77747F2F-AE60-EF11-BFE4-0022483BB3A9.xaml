@@ -47,9 +47,9 @@
                 <mxswa:ActivityReference.Properties>
                   <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
                   <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
-                    <Sequence DisplayName="SetDefaultValueStep_ConditionBranchStep2_1: ECC">
+                    <Sequence DisplayName="SetDefaultValueStep1: ECC">
                       <Sequence.Variables>
-                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep_ConditionBranchStep2_1_1" />
+                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep1_1" />
                       </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident_report&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
@@ -60,22 +60,22 @@
                           <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
-                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep_ConditionBranchStep2_1_1]</OutArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep1_1]</OutArgument>
                         </mxswa:ActivityReference.Arguments>
                       </mxswa:ActivityReference>
-                      <mxswa:SetEntityProperty Attribute="ovs_event_cleanup_costs_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep_ConditionBranchStep2_1_1]">
+                      <mxswa:SetEntityProperty Attribute="ovs_event_cleanup_costs_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep1_1]">
                         <mxswa:SetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
                         </mxswa:SetEntityProperty.TargetType>
                       </mxswa:SetEntityProperty>
-                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep_ConditionBranchStep2_1" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
+                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep1" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
                       <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
                     </Sequence>
-                    <Sequence DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_6: Other Cost">
+                    <Sequence DisplayName="SetDefaultValueStep5: PIDC">
                       <Sequence.Variables>
-                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep_ConditionBranchStep2_1_6_1" />
+                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep5_1" />
                       </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident_report&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
@@ -86,22 +86,22 @@
                           <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
-                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep_ConditionBranchStep2_1_6_1]</OutArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep5_1]</OutArgument>
                         </mxswa:ActivityReference.Arguments>
                       </mxswa:ActivityReference>
-                      <mxswa:SetEntityProperty Attribute="ovs_other_costs_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep_ConditionBranchStep2_1_6_1]">
+                      <mxswa:SetEntityProperty Attribute="ovs_cost_of_damages_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep5_1]">
                         <mxswa:SetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
                         </mxswa:SetEntityProperty.TargetType>
                       </mxswa:SetEntityProperty>
-                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_6" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
+                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep5" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
                       <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
                     </Sequence>
-                    <Sequence DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_5: PIDC">
+                    <Sequence DisplayName="SetDefaultValueStep2: CODG">
                       <Sequence.Variables>
-                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep_ConditionBranchStep2_1_5_1" />
+                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep2_1" />
                       </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident_report&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
@@ -112,22 +112,22 @@
                           <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
-                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep_ConditionBranchStep2_1_5_1]</OutArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep2_1]</OutArgument>
                         </mxswa:ActivityReference.Arguments>
                       </mxswa:ActivityReference>
-                      <mxswa:SetEntityProperty Attribute="ovs_cost_of_damages_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep_ConditionBranchStep2_1_5_1]">
+                      <mxswa:SetEntityProperty Attribute="ovs_cost_of_dangerous_goods_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep2_1]">
                         <mxswa:SetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
                         </mxswa:SetEntityProperty.TargetType>
                       </mxswa:SetEntityProperty>
-                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_5" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
+                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep2" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
                       <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
                     </Sequence>
-                    <Sequence DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_2: CODG">
+                    <Sequence DisplayName="SetDefaultValueStep4: COR">
                       <Sequence.Variables>
-                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep_ConditionBranchStep2_1_2_1" />
+                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep4_1" />
                       </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident_report&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
@@ -138,22 +138,22 @@
                           <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
-                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep_ConditionBranchStep2_1_2_1]</OutArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep4_1]</OutArgument>
                         </mxswa:ActivityReference.Arguments>
                       </mxswa:ActivityReference>
-                      <mxswa:SetEntityProperty Attribute="ovs_cost_of_dangerous_goods_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep_ConditionBranchStep2_1_2_1]">
+                      <mxswa:SetEntityProperty Attribute="ovs_cost_of_remediation_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep4_1]">
                         <mxswa:SetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
                         </mxswa:SetEntityProperty.TargetType>
                       </mxswa:SetEntityProperty>
-                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_2" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
+                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep4" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
                       <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
                     </Sequence>
-                    <Sequence DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_2_4: COR">
+                    <Sequence DisplayName="SetDefaultValueStep3: DGCC">
                       <Sequence.Variables>
-                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep_ConditionBranchStep2_1_2_4_1" />
+                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep3_1" />
                       </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident_report&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
@@ -164,43 +164,17 @@
                           <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
-                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep_ConditionBranchStep2_1_2_4_1]</OutArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep3_1]</OutArgument>
                         </mxswa:ActivityReference.Arguments>
                       </mxswa:ActivityReference>
-                      <mxswa:SetEntityProperty Attribute="ovs_cost_of_remediation_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep_ConditionBranchStep2_1_2_4_1]">
+                      <mxswa:SetEntityProperty Attribute="ovs_dangerous_goods_cleanup_cost_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep3_1]">
                         <mxswa:SetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
                           </InArgument>
                         </mxswa:SetEntityProperty.TargetType>
                       </mxswa:SetEntityProperty>
-                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_2_4" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
-                      <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
-                    </Sequence>
-                    <Sequence DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_2_3: DGCC">
-                      <Sequence.Variables>
-                        <Variable x:TypeArguments="x:Object" Name="SetDefaultValueStep_ConditionBranchStep2_1_2_3_1" />
-                      </Sequence.Variables>
-                      <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;ovs_incident_report&quot;)]" />
-                      <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
-                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
-                        <mxswa:ActivityReference.Arguments>
-                          <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
-                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Decimal, "0" }]</InArgument>
-                          <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
-                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetDefaultValueStep_ConditionBranchStep2_1_2_3_1]</OutArgument>
-                        </mxswa:ActivityReference.Arguments>
-                      </mxswa:ActivityReference>
-                      <mxswa:SetEntityProperty Attribute="ovs_dangerous_goods_cleanup_cost_num" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" Value="[SetDefaultValueStep_ConditionBranchStep2_1_2_3_1]">
-                        <mxswa:SetEntityProperty.TargetType>
-                          <InArgument x:TypeArguments="s:Type">
-                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:Decimal" />
-                          </InArgument>
-                        </mxswa:SetEntityProperty.TargetType>
-                      </mxswa:SetEntityProperty>
-                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep_ConditionBranchStep2_1_2_3" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
+                      <mcwc:SetDefaultValue DisplayName="SetDefaultValueStep3" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="ovs_incident_report" />
                       <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
                     </Sequence>
                   </sco:Collection>

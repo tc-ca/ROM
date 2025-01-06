@@ -1,0 +1,1 @@
+ovs_dayselapsedbeforereporting: =DateDiff( ovs_incident_date_dte,ovs_initial30dayfollowupreportsubmissiondate)
