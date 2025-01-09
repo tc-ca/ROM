@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24122.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24122.148" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24122.00154">
+  <SolutionManifest>
+    <UniqueName>TC_GlobalCore_Patch_31672a25</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TDG Core Schema" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patch for TDG Core Schema" languagecode="1033" />
+    </Descriptions>
+    <ParentUniqueName>TC_GlobalCore</ParentUniqueName>
+    <Version>1.170.1.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>oversightpublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Oversight" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the common solution for AvSec Inspection and TDG Inspection." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ovs</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>91864</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ovs_cdregionalnop" behavior="1" />
+      <RootComponent type="9" schemaName="ovs_incidentsource" behavior="0" />
+      <RootComponent type="61" schemaName="ovs_RegionalNOPMainForm" behavior="0" />
+      <RootComponent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core" version="1.0.2409.121">PowerPages_Core (1.0.2409.121)</package>
+        </Required>
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_icdextension" displayName="ICD Extension" solution="msdyn_OmnichannelICD (1.10.0.12)">
+          <package appName="OmnichannelPrimeCCaaSApi" version="1.5.26.48246754">msdyn_OmnichannelPrimeCCaaSApi (1.5.26.48246754)</package>
+        </Required>
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" solution="Active" />
+        <Dependent type="1" schemaName="ovs_cdregionalnop" displayName="Line of Business NOP" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_incident" displayName="Incident" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_invitation" displayName="Invitation" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moc" displayName="MOC" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_moc_dangerousgood" displayName="MOC Dangerous Good" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_organization_contact" displayName="Organization Contact" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequest" displayName="Support Request" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_workordercandidate" displayName="Work Order Candidate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_ovs_cdnop_ovs_cdregionalnop_CDNOPId" displayName="ovs_ovs_cdnop_ovs_cdregionalnop_CDNOPId" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_cdregionalnop_lineofbusiness" displayName="ovs_cdregionalnop_lineofbusiness" parentSchemaName="ovs_lob" parentDisplayName="LOB" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_tc_tcfiscalyear_ovs_cdregionalnop_CDFiscalYearId" displayName="ovs_tc_tcfiscalyear_ovs_cdregionalnop_CDFiscalYearId" parentSchemaName="tc_tcfiscalyear" parentDisplayName="TCFiscalYear" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="ovs_territory_ovs_cdregionalnop_CDProvinceId" displayName="ovs_territory_ovs_cdregionalnop_CDProvinceId" parentSchemaName="territory" parentDisplayName="Region" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_capacity" displayName="Total Capacity" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="2" schemaName="ovs_plannedwoccount" displayName="Planned Capacity" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_capacity" displayName="Total Capacity" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdfiscalyearid" displayName="Fiscal Year" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdnopid" displayName="NOP" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdregionid" displayName="Region" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdregionvariance" displayName="Business Variance" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cdwocvariance" displayName="HQ Variance" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cntgeneratedwo" displayName="CntGeneratedWO" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_cntwoctogeneratewo" displayName="CntWOCToGenerateWO" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_generateworkorder" displayName="Generate Work Order " parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_lineofbusiness_id" displayName="Line Of Business" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="ovs_cdregionalnop" parentDisplayName="Line of Business NOP" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Incident Analyst" solution="Active" id="{dcd94023-b82c-ef11-8e50-000d3a0c4626}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Support Request Advanced Find View" displayName="Support Request Advanced Find View" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{1dc074b9-e8e4-470c-9a17-ff58d823a630}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Invitations" displayName="Inactive Invitations" parentSchemaName="ovs_invitation" parentDisplayName="Invitation" solution="Active" id="{301e7af2-7676-4e90-90dd-100be894a4b7}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="DGAIS Active Invitations" displayName="DGAIS Active Invitations" parentSchemaName="ovs_invitation" parentDisplayName="Invitation" solution="Active" id="{400d5f47-3e4f-ef11-accd-0022483bb3a9}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Invitation Associated View" displayName="Invitation Associated View" parentSchemaName="ovs_invitation" parentDisplayName="Invitation" solution="Active" id="{4cd8a034-b1e4-4225-9637-808f143a1bb7}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Sites" displayName="All Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{631f1f30-1bff-ed11-8f6d-0022483d0343}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Support Requests" displayName="Quick Find Active Support Requests" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{6a94cfdf-2549-4143-91aa-a68ac73b4ab5}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Support Request Associated View" displayName="Support Request Associated View" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{716d0412-9552-4b98-b77d-d37df4f62a6c}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Organizations" displayName="All Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{74bbeebe-f9fe-ed11-8f6d-0022483e130e}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Invitation Lookup View" displayName="Invitation Lookup View" parentSchemaName="ovs_invitation" parentDisplayName="Invitation" solution="Active" id="{8a2044ca-88c7-47b0-9c0c-cae30c745d54}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Quick Find Active Invitations" displayName="Quick Find Active Invitations" parentSchemaName="ovs_invitation" parentDisplayName="Invitation" solution="Active" id="{a13681d9-1251-432e-b952-51e8ea725865}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Region's Contacts" displayName="My Region's Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" id="{a8d4d8d3-71db-eb11-bacb-0022483c561b}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Territories Lookup View" displayName="Territories Lookup View" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)" id="{ad81b2ca-9789-4465-8c56-94c10830a6ed}">
+          <package appName="msdynce_AppCommon" version="9.0.24112.10001">msdynce_AppCommonAnchor (9.0.24112.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Support Request Lookup View" displayName="Support Request Lookup View" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{ae9d977e-ae60-424a-8718-dacd211e93b9}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Import Work Order Candidates" displayName="Import Work Order Candidates" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" id="{ba8a6646-0c52-ec11-8f8e-000d3ae8eddc}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="TCFiscalYear Lookup View" displayName="TCFiscalYear Lookup View" parentSchemaName="tc_tcfiscalyear" parentDisplayName="TCFiscalYear" solution="Active" id="{c2b848e9-8d49-4972-8e80-06a8b98802a1}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="NOP Lookup View" displayName="NOP Lookup View" parentSchemaName="ovs_cdnop" parentDisplayName="NOP" solution="Active" id="{dc4e3577-07b5-4ee7-8c7f-2d6ac3df3d00}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Support Requests DGAIS" displayName="Active Support Requests DGAIS" parentSchemaName="ovs_supportrequest" parentDisplayName="Support Request" solution="Active" id="{e31dea5a-1250-ef11-accd-0022483c7e68}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Sites" displayName="Sites" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{e7ba8bd8-440a-eb11-a813-000d3af3a7a7}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Organizations" displayName="Organizations" parentSchemaName="account" parentDisplayName="Account" solution="Active" id="{fdbc939a-2403-eb11-a813-000d3af3ac0d}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Invitation Advanced Find View" displayName="Invitation Advanced Find View" parentSchemaName="ovs_invitation" parentDisplayName="Invitation" solution="Active" id="{fefc25ee-b554-40a7-a044-0815caae218a}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Accounts By Territories" displayName="Accounts By Territories" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_Sales (9.0.4.0076)" id="{88de94cc-8b5e-df11-ae90-00155d2e3002}">
+          <package appName="msdynce_Sales" version="9.0.24114.10004">msdynce_SalesAnchor (9.0.24114.10004)</package>
+        </Required>
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Support Request" solution="Active" id="{6c911b68-d5ab-48b1-ade7-3ef39e39dd97}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="DGAIS Organization" parentDisplayName="Account" solution="Active" id="{6cfff89f-351c-ef11-840a-6045bd614ecd}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="DGAIS Site Profile" parentDisplayName="Account" solution="Active" id="{8e8ef593-361c-ef11-840a-000d3a0c4626}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="TDG Incident Contact" parentDisplayName="Contact" solution="Active" id="{9f0eda25-2c1d-ef11-840a-6045bd614ecd}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Incident" solution="Active" id="{a58c2822-51b7-4919-b85c-d94204f76f09}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Incident" solution="Active" id="{b8315c28-e2b0-4d15-aec8-5fa434056f2d}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="DGAIS Invitation form" parentDisplayName="Invitation" solution="Active" id="{c18e41da-404f-ef11-accd-000d3a843b46}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Invitation" solution="Active" id="{c29522e7-6f88-4e01-94fc-52afb598ffb6}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Incident Organization Contact" parentDisplayName="Organization Contact" solution="Active" id="{e038b892-2d1d-ef11-840a-000d3a0c4626}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Support Request" solution="Active" id="{f9813d7a-892a-476d-b4d9-30abdf8de48e}" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_RegionalNOP_Ribbon" displayName="ovs_RegionalNOP_Ribbon" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ovs_RNOP_ValidationFunctions.js" displayName="ovs_RNOP_ValidationFunctions.js" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="qm_globalHelper.js" displayName="qm_globalHelper.js" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" solution="Active" />
+        <Dependent type="80" schemaName="ovs_TDGIncidentsIncidentsTMD" displayName="TDG Incidents / Incidents TMD" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2412.2001)">
+          <package appName="Base Custom Controls" version="9.0.2412.2001">BaseCustomControlsCore (9.0.2412.2001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Line of Business NOP" id="{72439443-0dce-4ea0-8afe-d2cb17c679bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.16">PowerAppsAppFramework_Anchor (1.0.0.16)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=ovs_TDGIncidentsIncidentsTMD,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="ovs_TDGIncidentsIncidentsTMD" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
