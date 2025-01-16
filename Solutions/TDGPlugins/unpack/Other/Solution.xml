@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24114.196" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24114.196" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24114.00196">
+<ImportExportXml version="9.2.24123.208" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24123.208" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24123.00208">
   <SolutionManifest>
     <UniqueName>TDGPlugins</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Main solution for TDG Inspection Related Plugins&#xA;1.0.0.1 - WO Pre Create and Pre Update were modified." languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.142</Version>
+    <Version>1.2.0.143</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -1295,11 +1295,11 @@
         <Dependent type="93" id="{81cbf110-77ab-ec11-983e-0022483d853b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_regionflag" displayName="Region Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Required type="2" schemaName="ovs_regionflag" displayName="Selected" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.WorkOrderCandidate.WOC_PostUpd_JustificationCheck: Update of ovs_workordercandidate" id="{66c4339e-76ab-ec11-983e-0022483d853b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_regionflag" displayName="Region Flag" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
+        <Required type="2" schemaName="ovs_regionflag" displayName="Selected" parentSchemaName="ovs_workordercandidate" parentDisplayName="Work Order Candidate" solution="Active" />
         <Dependent type="93" id="{81cbf110-77ab-ec11-983e-0022483d853b}" />
       </MissingDependency>
       <MissingDependency>
