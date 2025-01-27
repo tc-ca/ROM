@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{075f5160-a434-ef11-8e4e-000d3af34b22}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ovs_name" select="1" icon="1" preview="1">
+        <row name="result" id="ovs_mocid">
+          <cell name="ovs_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ovs_release_ind" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ovs_moc">
+          <attribute name="ovs_name" />
+          <order attribute="ovs_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ovs_release_ind" />
+          <attribute name="ovs_mocid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Incident Active MOCs" languagecode="1033" />
+      <LocalizedName description="Contenants actifs d’incidents" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="fdr.ovs.ovs_incident_report.Button.Form.CloneReport.CustomAction" Location="Mscrm.Form.ovs_incident_report.MainTab.Save.Controls._children" Sequence="42">
+      <CommandUIDefinition>
+        <Button Command="ovs.ovs_incident_report.Command.Form.CloneReport" Id="ovs.ovs_incident_report.Button.Form.CloneReport" LabelText="$LocLabels:ovs.ovs_incident_report.Button.Form.CloneReport.LabelText" Sequence="42" TemplateAlias="o1" ToolTipDescription="$LocLabels:ovs.ovs_incident_report.Button.Form.CloneReport.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.ovs_incident_report.Button.Form.SetPrimary.CustomAction" Location="Mscrm.Form.ovs_incident_report.MainTab.Save.Controls._children" Sequence="38">
+      <CommandUIDefinition>
+        <Button Command="ovs.ovs_incident_report.Command.Form.SetPrimary" Id="ovs.ovs_incident_report.Button.Form.SetPrimary" LabelText="$LocLabels:ovs.ovs_incident_report.Button.Form.SetPrimary.LabelText" Sequence="38" TemplateAlias="o1" ToolTipDescription="$LocLabels:ovs.ovs_incident_report.Button.Form.SetPrimary.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.ovs_incident_report.Button.SubGrid.CloneReport.CustomAction" Location="Mscrm.SubGrid.ovs_incident_report.MainTab.Management.Controls._children" Sequence="48">
+      <CommandUIDefinition>
+        <Button Command="ovs.ovs_incident_report.Command.SubGrid.CloneReport" Id="ovs.ovs_incident_report.Button.SubGrid.CloneReport" LabelText="$LocLabels:ovs.ovs_incident_report.Button.SubGrid.CloneReport.LabelText" Sequence="48" TemplateAlias="o1" ToolTipDescription="$LocLabels:ovs.ovs_incident_report.Button.SubGrid.CloneReport.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="fdr.ovs.ovs_incident_report.Button.SubGrid.SetPrimary.CustomAction" Location="Mscrm.SubGrid.ovs_incident_report.MainTab.Management.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Command="ovs.ovs_incident_report.Command.SubGrid.SetPrimary" Id="ovs.ovs_incident_report.Button.SubGrid.SetPrimary" LabelText="$LocLabels:ovs.ovs_incident_report.Button.SubGrid.SetPrimary.LabelText" Sequence="45" TemplateAlias="o1" ToolTipDescription="$LocLabels:ovs.ovs_incident_report.Button.SubGrid.SetPrimary.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="ovs.ovs_incident_report.Command.Form.CloneReport">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotNewForm" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotAnalystReport" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="irRibbon.cloneReportForm" Library="$webresource:ovs_incidentReport_ribbon.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.ovs_incident_report.Command.Form.SetPrimary">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotNewForm" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotPrimaryReport" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotAnalystReport" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="irRibbon.setReportPrimaryForm" Library="$webresource:ovs_incidentReport_ribbon.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.ovs_incident_report.Command.SubGrid.CloneReport">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotNewForm" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.SingleSelection" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotAnalystReport" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="irRibbon.cloneReportFormGrid" Library="$webresource:ovs_incidentReport_ribbon.js">
+          <CrmParameter Value="FirstSelectedItemId" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ovs.ovs_incident_report.Command.SubGrid.SetPrimary">
+      <EnableRules>
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotNewForm" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.SingleSelection" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotPrimaryReport" />
+        <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotAnalystReport" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="irRibbon.setReportPrimaryGrid" Library="$webresource:ovs_incidentReport_ribbon.js">
+          <CrmParameter Value="FirstSelectedItemId" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <CrmParameter Value="UserLcid" />
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotAnalystReport">
+        <OrRule>
+          <Or>
+            <ValueRule Field="ovs_analyst_report_ind" Value="0" />
+          </Or>
+          <Or>
+            <ValueRule Field="ovs_analyst_report_ind" Value="null" />
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotNewForm">
+        <FormStateRule State="Existing" />
+      </EnableRule>
+      <EnableRule Id="ovs.ovs_incident_report.EnableRule.NotPrimaryReport">
+        <OrRule>
+          <Or>
+            <ValueRule Field="ovs_primary_report_ind" Value="0" />
+          </Or>
+          <Or>
+            <ValueRule Field="ovs_primary_report_ind" Value="null" />
+          </Or>
+        </OrRule>
+      </EnableRule>
+      <EnableRule Id="ovs.ovs_incident_report.EnableRule.SingleSelection">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Maximum="1" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ovs.ovs_incident_report.Button.Form.CloneReport.LabelText">
+      <Titles>
+        <Title description="Clone/Merge to Analyst Report" languagecode="1033" />
+        <Title description="Cloner ou fusionner avec le rapport d'analyste" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.Form.CloneReport.ToolTipDescription">
+      <Titles>
+        <Title description="Merges current report to Analyst Report, if any, otherwise, clones to a new Analyst Report" languagecode="1033" />
+        <Title description="Fusionne la sélection avec le Rapport d'analyste, le cas échéant, sinon, clone dans un nouveau Rapport d'analyste" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.Form.SetPrimary.LabelText">
+      <Titles>
+        <Title description="Set as Primary Report" languagecode="1033" />
+        <Title description="Définir en tant que rapport principal" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.Form.SetPrimary.ToolTipDescription">
+      <Titles>
+        <Title description="Sets selected report as primary report" languagecode="1033" />
+        <Title description="Définit le rapport sélectionné comme rapport principal" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.SubGrid.CloneReport.LabelText">
+      <Titles>
+        <Title description="Clone/Merge to Analyst Report" languagecode="1033" />
+        <Title description="Cloner ou fusionner avec le rapport d'analyste" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.SubGrid.CloneReport.ToolTipDescription">
+      <Titles>
+        <Title description="Merges selected report to Analyst Report, if any, otherwise, clones to a new Analyst Report" languagecode="1033" />
+        <Title description="Fusionne la sélection avec le Rapport d'analyste, le cas échéant, sinon, clone dans un nouveau Rapport d'analyste" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.SubGrid.SetPrimary.LabelText">
+      <Titles>
+        <Title description="Set as Primary Report" languagecode="1033" />
+        <Title description="Définir en tant que rapport principal" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ovs.ovs_incident_report.Button.SubGrid.SetPrimary.ToolTipDescription">
+      <Titles>
+        <Title description="Sets selected report as primary report" languagecode="1033" />
+        <Title description="Définit le rapport sélectionné comme rapport principal" languagecode="1036" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>
