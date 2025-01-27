@@ -1,1 +1,0 @@
-ovs_days_elapsed_reporting_nbr: =DateDiff( ovs_incident_date_dte,ovs_initial_30day_follow_up_receipt_date_dte)
