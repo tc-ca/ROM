@@ -558,6 +558,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_below_threshold_cd">
@@ -598,6 +599,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_canutec_reference_number_txt">
@@ -635,7 +637,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Canutec Reference Number" languagecode="1033" />
-            <displayname description="NUMERO DE REFERENCE CANUTEC" languagecode="1036" />
+            <displayname description="Numéro de référence CANUTEC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -722,6 +724,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_contributing_factor_other_txt">
@@ -759,7 +762,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Other Contributing Factor" languagecode="1033" />
-            <displayname description="AUTRE FACTEURS CONTRIBUTIFS" languagecode="1036" />
+            <displayname description="Autre facteurs contributifs" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -886,6 +889,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_date_30day_requested_dte">
@@ -1011,15 +1015,16 @@
           </displaynames>
           <Descriptions>
             <Description description="Maps to the SEQNO_S column in the legacy incident table in DGAIS " languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_estimated_temperature_num">
-          <Type>int</Type>
-          <Name>ovs_estimated_temperature_num</Name>
-          <LogicalName>ovs_estimated_temperature_num</LogicalName>
+        <attribute PhysicalName="ovs_estimated_temperature_nbr">
+          <Type>decimal</Type>
+          <Name>ovs_estimated_temperature_nbr</Name>
+          <LogicalName>ovs_estimated_temperature_nbr</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -1043,15 +1048,15 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <Format>none</Format>
-          <MinValue>-2147483648</MinValue>
-          <MaxValue>2147483647</MaxValue>
+          <MinValue>-999</MinValue>
+          <MaxValue>999</MaxValue>
+          <Accuracy>2</Accuracy>
           <displaynames>
-            <displayname description="Estimated Temperature(Celcius)" languagecode="1033" />
+            <displayname description="Estimated Temperature (Celsius)" languagecode="1033" />
             <displayname description="Température estimée" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="The estimated temperature recorded during the incident, measured in degrees Celsius." languagecode="1033" />
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
@@ -1093,6 +1098,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_evacuation_due_incident_ind">
@@ -1200,6 +1206,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_exemption_ind">
@@ -1266,6 +1273,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_facility_type_cd">
@@ -1347,6 +1355,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_IncidentId">
@@ -1425,6 +1434,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_latitude_nbr">
@@ -1462,9 +1472,11 @@
           <Accuracy>7</Accuracy>
           <displaynames>
             <displayname description="Latitude" languagecode="1033" />
+            <displayname description="Latitude" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_longitude_nbr">
@@ -1502,9 +1514,11 @@
           <Accuracy>7</Accuracy>
           <displaynames>
             <displayname description="Longitude" languagecode="1033" />
+            <displayname description="Longitude" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_loss_theft_ind">
@@ -1608,9 +1622,11 @@
           <OptionSetName>ovs_lld_meridian</OptionSetName>
           <displaynames>
             <displayname description="Meridian" languagecode="1033" />
+            <displayname description="Meridian" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_mileage_txt">
@@ -1719,6 +1735,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_mode_cd">
@@ -1868,6 +1885,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_other_physical_impact_txt">
@@ -2098,6 +2116,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_quarter_lsd_cd">
@@ -2246,6 +2265,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_release_ind">
@@ -2312,6 +2332,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_reportable_ind">
@@ -2456,10 +2477,11 @@
           <OptionSetName>ovs_yesnounknown</OptionSetName>
           <displaynames>
             <displayname description="Serious Jeopardy (Air only mode)" languagecode="1033" />
-            <displayname description="Grave péril(Mode air seulement)" languagecode="1036" />
+            <displayname description="Grave péril (Mode air seulement)" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_ss_crack_cd">
@@ -2500,6 +2522,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_state_province_txt">
@@ -2817,6 +2840,7 @@
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_vandalism_terrorism_ind">

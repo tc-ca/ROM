@@ -1,4 +1,4 @@
-///<reference path="../../Utilities/GlobalHelper.js"/>
+﻿///<reference path="../../Utilities/GlobalHelper.js"/>
 ///<reference path="../../Utilities/questionnaireFunctions.js"/>
 
 
@@ -64,26 +64,6 @@ var Incident_Report= (function (window, document) {
             emergencyPers.removeOnChange(Incident_Report.EmergencyPersonnel_OnChange);
             emergencyPers.addOnChange(Incident_Report.EmergencyPersonnel_OnChange);
 
-            var minorInjuries = formContext.getAttribute("ovs_minor_injuries_ind");
-            minorInjuries.removeOnChange(Incident_Report.MinorInjuries_OnChange);
-            minorInjuries.addOnChange(Incident_Report.MinorInjuries_OnChange);
-            minorInjuries.fireOnChange();
-
-            var moderateInjuries = formContext.getAttribute("ovs_moderate_injuries_ind");
-            moderateInjuries.removeOnChange(Incident_Report.ModerateInjuries_OnChange);
-            moderateInjuries.addOnChange(Incident_Report.ModerateInjuries_OnChange);
-            moderateInjuries.fireOnChange();
-
-            var majorInjuries = formContext.getAttribute("ovs_major_injuries_ind");
-            majorInjuries.removeOnChange(Incident_Report.MajorInjuries_OnChange);
-            majorInjuries.addOnChange(Incident_Report.MajorInjuries_OnChange);
-            majorInjuries.fireOnChange();
-
-            var deaths = formContext.getAttribute("ovs_deaths_ind");
-            deaths.removeOnChange(Incident_Report.Death_OnChange);
-            deaths.addOnChange(Incident_Report.Death_OnChange);
-            deaths.fireOnChange();
-
             var anyseriousjeopard = formContext.getAttribute("ovs_nyseriousjeopardytoaircraftorpersonsa_ind");
             anyseriousjeopard.removeOnChange(Incident_Report.Anyseriousjeopard_OnChange);
             anyseriousjeopard.addOnChange(Incident_Report.Anyseriousjeopard_OnChange);
@@ -97,7 +77,7 @@ var Incident_Report= (function (window, document) {
             //var wrControl = formContext.getControl("WebResource_CopyButton");
             //if (wrControl) wrControl.getContentWindow().then(function (contentWindow) {contentWindow.setClientApiContext(Xrm, formContext);})  
          
-            hideTime(formContext, "ovs_initial30dayfollowupreportsubmissiondate"); // Call hideTime here
+            hideTime(formContext, "ovs_initial_30day_follow_up_receipt_date_dte");
            
             if (formType == glHelper.FORMTYPE_CREATE) {
 
@@ -180,38 +160,7 @@ var Incident_Report= (function (window, document) {
 
             glHelper.openOtherFromChoice_s(formContext, "ovs_emergency_response_personnel_cds", "21", "ovs_other_emergency_response_personnel_txt");
         },
-        MinorInjuries_OnChange: function (executionContext) {
-            var formContext = executionContext.getFormContext();
-            var isMinorInjuries = formContext.getAttribute("ovs_minor_injuries_ind").getValue();
 
-            glHelper.SetRequiredLevel(formContext, "ovs_minorinjuriesattributedtodangerousgds_txt", isMinorInjuries);
-            glHelper.SetRequiredLevel(formContext, "ovs_minor_injuries_attributed_to_incident_txt", isMinorInjuries);
-
-        },
-        ModerateInjuries_OnChange: function (executionContext) {
-            var formContext = executionContext.getFormContext();
-            var isMinorInjuries = formContext.getAttribute("ovs_moderate_injuries_ind").getValue();
-
-            glHelper.SetRequiredLevel(formContext, "ovs_oderateinjuriesattributedtodangerousg_txt", isMinorInjuries);
-            glHelper.SetRequiredLevel(formContext, "ovs_moderate_injuriesattributedtoincident_txt", isMinorInjuries);
-
-        },
-        MajorInjuries_OnChange: function (executionContext) {
-            var formContext = executionContext.getFormContext();
-            var isMinorInjuries = formContext.getAttribute("ovs_major_injuries_ind").getValue();
-
-            glHelper.SetRequiredLevel(formContext, "ovs_majorinjuriesattributedtodangerousg_txt", isMinorInjuries);
-            glHelper.SetRequiredLevel(formContext, "ovs_major_injuries_attributed_to_incident_txt", isMinorInjuries);
-
-        },
-        Death_OnChange: function (executionContext) {
-            var formContext = executionContext.getFormContext();
-            var isMinorInjuries = formContext.getAttribute("ovs_deaths_ind").getValue();
-
-            glHelper.SetRequiredLevel(formContext, "ovs_deaths_attributed_to_dangerous_goods_txt", isMinorInjuries);
-            glHelper.SetRequiredLevel(formContext, "ovs_deaths_attributed_to_incident_txt", isMinorInjuries);
-
-        },
         Anyseriousjeopard_OnChange: function (executionContext) {
             var formContext = executionContext.getFormContext();
             var isMinorInjuries = formContext.getAttribute("ovs_nyseriousjeopardytoaircraftorpersonsa_ind").getValue();

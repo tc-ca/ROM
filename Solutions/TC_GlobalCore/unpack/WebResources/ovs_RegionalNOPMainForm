@@ -38,6 +38,7 @@ var Regional_NOP_main = (function (window, document) {
 
                 glHelper.SetDisabled(formContext, "ovs_cdfiscalyearid", true);
                 glHelper.SetDisabled(formContext, "ovs_cdregionid", true);
+                glHelper.SetDisabled(formContext, "ovs_lineofbusiness_id", true);
 
                 var statusReason = formContext.getAttribute("statuscode");
                 statusReason.addOnChange(Regional_NOP_main.statusReason_OnChange);

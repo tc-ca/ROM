@@ -31,7 +31,8 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Active MOCS" languagecode="1033" />
+      <LocalizedName description="Active MOCs" languagecode="1033" />
+      <LocalizedName description="Contenants actifs" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

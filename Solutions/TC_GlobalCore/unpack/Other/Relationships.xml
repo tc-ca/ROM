@@ -166,7 +166,6 @@
   <EntityRelationship Name="business_unit_ovs_dataaccessrule" />
   <EntityRelationship Name="business_unit_ovs_enforcementactionviolation" />
   <EntityRelationship Name="business_unit_ovs_incident" />
-  <EntityRelationship Name="business_unit_ovs_incident_injury" />
   <EntityRelationship Name="business_unit_ovs_incident_organization" />
   <EntityRelationship Name="business_unit_ovs_incident_report" />
   <EntityRelationship Name="business_unit_ovs_incidenterap" />
@@ -582,8 +581,6 @@
   <EntityRelationship Name="lk_ovs_enforcementactionviolation_createdby" />
   <EntityRelationship Name="lk_ovs_enforcementactionviolation_modifiedby" />
   <EntityRelationship Name="lk_ovs_incident_createdby" />
-  <EntityRelationship Name="lk_ovs_incident_injury_createdby" />
-  <EntityRelationship Name="lk_ovs_incident_injury_modifiedby" />
   <EntityRelationship Name="lk_ovs_incident_modifiedby" />
   <EntityRelationship Name="lk_ovs_incident_organization_createdby" />
   <EntityRelationship Name="lk_ovs_incident_organization_modifiedby" />
@@ -1357,7 +1354,6 @@
   <EntityRelationship Name="ovs_incident_organization_incident" />
   <EntityRelationship Name="ovs_incident_report_account" />
   <EntityRelationship Name="ovs_incident_report_incident_organization" />
-  <EntityRelationship Name="ovs_incident_report_injury" />
   <EntityRelationship Name="ovs_incident_report_moc" />
   <EntityRelationship Name="ovs_incident_report_submitting_contact" />
   <EntityRelationship Name="ovs_IncidentERAP_incident_report" />
@@ -1545,7 +1541,6 @@
   <EntityRelationship Name="owner_ovs_dataaccessrule" />
   <EntityRelationship Name="owner_ovs_enforcementactionviolation" />
   <EntityRelationship Name="owner_ovs_incident" />
-  <EntityRelationship Name="owner_ovs_incident_injury" />
   <EntityRelationship Name="owner_ovs_incident_organization" />
   <EntityRelationship Name="owner_ovs_incident_report" />
   <EntityRelationship Name="owner_ovs_incidenterap" />
@@ -1684,7 +1679,6 @@
   <EntityRelationship Name="team_ovs_dataaccessrule" />
   <EntityRelationship Name="team_ovs_enforcementactionviolation" />
   <EntityRelationship Name="team_ovs_incident" />
-  <EntityRelationship Name="team_ovs_incident_injury" />
   <EntityRelationship Name="team_ovs_incident_organization" />
   <EntityRelationship Name="team_ovs_incident_report" />
   <EntityRelationship Name="team_ovs_incidenterap" />
@@ -1773,7 +1767,6 @@
   <EntityRelationship Name="user_ovs_dataaccessrule" />
   <EntityRelationship Name="user_ovs_enforcementactionviolation" />
   <EntityRelationship Name="user_ovs_incident" />
-  <EntityRelationship Name="user_ovs_incident_injury" />
   <EntityRelationship Name="user_ovs_incident_organization" />
   <EntityRelationship Name="user_ovs_incident_report" />
   <EntityRelationship Name="user_ovs_incidenterap" />

@@ -31,7 +31,6 @@
     <RolePrivilege name="prvAppendovs_CustomerRequest" level="Global" />
     <RolePrivilege name="prvAppendovs_DataAccessRule" level="Global" />
     <RolePrivilege name="prvAppendovs_Incident" level="Local" />
-    <RolePrivilege name="prvAppendovs_incident_injury" level="Local" />
     <RolePrivilege name="prvAppendovs_incident_organization" level="Local" />
     <RolePrivilege name="prvAppendovs_incident_report" level="Local" />
     <RolePrivilege name="prvAppendovs_IncidentERAP" level="Local" />
@@ -87,7 +86,6 @@
     <RolePrivilege name="prvAppendToovs_CustomerRequest" level="Global" />
     <RolePrivilege name="prvAppendToovs_DataAccessRule" level="Global" />
     <RolePrivilege name="prvAppendToovs_Incident" level="Local" />
-    <RolePrivilege name="prvAppendToovs_incident_injury" level="Local" />
     <RolePrivilege name="prvAppendToovs_incident_organization" level="Local" />
     <RolePrivilege name="prvAppendToovs_incident_report" level="Local" />
     <RolePrivilege name="prvAppendToovs_IncidentERAP" level="Local" />
@@ -162,7 +160,6 @@
     <RolePrivilege name="prvCreateNote" level="Basic" />
     <RolePrivilege name="prvCreateovs_CustomerRequest" level="Global" />
     <RolePrivilege name="prvCreateovs_Incident" level="Local" />
-    <RolePrivilege name="prvCreateovs_incident_injury" level="Local" />
     <RolePrivilege name="prvCreateovs_incident_organization" level="Local" />
     <RolePrivilege name="prvCreateovs_incident_report" level="Local" />
     <RolePrivilege name="prvCreateovs_IncidentERAP" level="Local" />
@@ -282,7 +279,6 @@
     <RolePrivilege name="prvReadovs_CustomerRequest" level="Global" />
     <RolePrivilege name="prvReadovs_DataAccessRule" level="Global" />
     <RolePrivilege name="prvReadovs_Incident" level="Global" />
-    <RolePrivilege name="prvReadovs_incident_injury" level="Global" />
     <RolePrivilege name="prvReadovs_incident_organization" level="Global" />
     <RolePrivilege name="prvReadovs_incident_report" level="Global" />
     <RolePrivilege name="prvReadovs_IncidentERAP" level="Global" />
@@ -394,7 +390,6 @@
     <RolePrivilege name="prvWriteNote" level="Basic" />
     <RolePrivilege name="prvWriteovs_CustomerRequest" level="Global" />
     <RolePrivilege name="prvWriteovs_Incident" level="Local" />
-    <RolePrivilege name="prvWriteovs_incident_injury" level="Local" />
     <RolePrivilege name="prvWriteovs_incident_organization" level="Local" />
     <RolePrivilege name="prvWriteovs_incident_report" level="Local" />
     <RolePrivilege name="prvWriteovs_IncidentERAP" level="Local" />

@@ -101,7 +101,7 @@
                       <cell id="{ea77bf5d-2a49-4540-a364-6562545d7f24}" locklevel="0" colspan="1" rowspan="1" visible="false">
                         <labels>
                           <label description="Other Contributing Factor" languagecode="1033" />
-                          <label description="AUTRE FACTEURS CONTRIBUTIFS" languagecode="1036" />
+                          <label description="Autre facteurs contributifs" languagecode="1036" />
                         </labels>
                         <control id="ovs_contributing_factor_other_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_contributing_factor_other_txt" disabled="false" />
                       </cell>
@@ -159,10 +159,10 @@
                     <row>
                       <cell id="{d194ee78-fbf3-43c2-8c0c-35f54d3bce56}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
-                          <label description="Estimated Temperature(Celcius)" languagecode="1033" />
+                          <label description="Estimated Temperature (Celsius)" languagecode="1033" />
                           <label description="Température estimée" languagecode="1036" />
                         </labels>
-                        <control id="ovs_estimated_temperature_num" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ovs_estimated_temperature_num" disabled="false" />
+                        <control id="ovs_estimated_temperature_nbr" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_estimated_temperature_nbr" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -289,6 +289,7 @@
                       <cell id="{d20df614-6d5f-44ca-b373-0a409d8e232b}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Latitude" languagecode="1033" />
+                          <label description="Latitude" languagecode="1036" />
                         </labels>
                         <control id="ovs_latitude_nbr" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_latitude_nbr" disabled="false" />
                       </cell>
@@ -297,6 +298,7 @@
                       <cell id="{ee06697c-387f-4104-a101-ca22b056aeff}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Longitude" languagecode="1033" />
+                          <label description="Longitude" languagecode="1036" />
                         </labels>
                         <control id="ovs_longitude_nbr" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ovs_longitude_nbr" disabled="false" />
                       </cell>
@@ -305,7 +307,7 @@
                       <cell id="{6b2830e0-5382-485c-8565-2b89a9adc286}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Quarter / LSD" languagecode="1033" />
-                          <label description="Quart/DSL" languagecode="1036" />
+                          <label description="Quartier / Subdivision officielle" languagecode="1036" />
                         </labels>
                         <control id="ovs_quarter_lsd_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_quarter_lsd_cd" disabled="false" />
                       </cell>
@@ -341,6 +343,7 @@
                       <cell id="{8925de4d-9b20-49ad-9e5a-2e94fad3d740}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Meridian" languagecode="1033" />
+                          <label description="Meridian" languagecode="1036" />
                         </labels>
                         <control id="ovs_meridian_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_meridian_cd" disabled="false" />
                       </cell>
@@ -418,6 +421,7 @@
                 <section name="general_scope" id="b7d3a08e-618c-4e94-bfae-2940cb2b0c27" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="283">
                   <labels>
                     <label description="Scope" languagecode="1033" />
+                    <label description="Portée " languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -470,6 +474,7 @@
                 <section name="general_impact" id="cf936242-8477-4503-8cdd-18eb92c3b432" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="283">
                   <labels>
                     <label description="Main Impact" languagecode="1033" />
+                    <label description="Impact principal" languagecode="1036" />
                   </labels>
                   <rows>
                     <row>
@@ -539,7 +544,7 @@
                       <cell id="{2a0bc772-f101-4ed5-ac41-357dac6b0767}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Serious Jeopardy (Air only mode)" languagecode="1033" />
-                          <label description="Grave péril(Mode air seulement)" languagecode="1036" />
+                          <label description="Grave péril (Mode air seulement)" languagecode="1036" />
                         </labels>
                         <control id="ovs_serious_jeopardy_cd" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ovs_serious_jeopardy_cd" disabled="false" uniqueid="{f4a14ab1-3a7e-4724-9a2b-459645f159f6}" />
                       </cell>
@@ -599,6 +604,7 @@
         <tab name="tab_report" id="e2321d3c-7c20-4083-9d64-9c7b95081727" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="cardSections">
           <labels>
             <label description="Reports" languagecode="1033" />
+            <label description="Rapports" languagecode="1036" />
           </labels>
           <columns>
             <column width="100%">
@@ -726,7 +732,7 @@
             <cell id="{77d03095-9b1e-4055-bd46-09889e6c5286}" locklevel="0" colspan="1" rowspan="1">
               <labels>
                 <label description="Canutec Reference Number" languagecode="1033" />
-                <label description="NUMERO DE REFERENCE CANUTEC" languagecode="1036" />
+                <label description="Numéro de référence CANUTEC" languagecode="1036" />
               </labels>
               <control id="header_ovs_canutec_reference_number_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_canutec_reference_number_txt" disabled="false" />
             </cell>

@@ -15,6 +15,7 @@
     <option value="1" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Minor" languagecode="1033" />
+        <label description="Mineur" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -23,6 +24,7 @@
     <option value="2" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Moderate" languagecode="1033" />
+        <label description="Modéré" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -31,6 +33,7 @@
     <option value="3" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Major" languagecode="1033" />
+        <label description="Majeur" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -39,6 +42,7 @@
     <option value="4" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Severe" languagecode="1033" />
+        <label description="Grave" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -47,6 +51,7 @@
     <option value="5" ExternalValue="" IsHidden="0">
       <labels>
         <label description="Catastrophic" languagecode="1033" />
+        <label description="Catastrophique" languagecode="1036" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

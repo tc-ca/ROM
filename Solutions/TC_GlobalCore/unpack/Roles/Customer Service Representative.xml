@@ -595,7 +595,11 @@
     <RolePrivilege name="prvReadMobileOfflineProfile" level="Global" />
     <RolePrivilege name="prvReadmsdyn_adaptivecardconfiguration" level="Global" />
     <RolePrivilege name="prvReadmsdyn_agentgroup" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_agentgrouplanguage" level="Global" />
     <RolePrivilege name="prvReadmsdyn_agentgroupmembership" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_agentgroupregion" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_agentlanguage" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_agentregion" level="Global" />
     <RolePrivilege name="prvReadmsdyn_AIModel" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_AITemplate" level="Global" />
     <RolePrivilege name="prvReadmsdyn_appconfiguration" level="Global" />
@@ -650,6 +654,7 @@
     <RolePrivilege name="prvReadmsdyn_knowledgeconfiguration" level="Global" />
     <RolePrivilege name="prvReadmsdyn_knowledgemanagementsetting" level="Global" />
     <RolePrivilege name="prvReadmsdyn_knowledgepersonalfilter" level="Basic" />
+    <RolePrivilege name="prvReadmsdyn_language" level="Global" />
     <RolePrivilege name="prvReadmsdyn_macrosession" level="Global" />
     <RolePrivilege name="prvReadmsdyn_nextaction" level="Global" />
     <RolePrivilege name="prvReadmsdyn_notificationfield" level="Global" />
@@ -672,6 +677,7 @@
     <RolePrivilege name="prvReadmsdyn_propertyassetassociation" level="Global" />
     <RolePrivilege name="prvReadmsdyn_propertylog" level="Deep" />
     <RolePrivilege name="prvReadmsdyn_propertytemplateassociation" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_region" level="Global" />
     <RolePrivilege name="prvReadmsdyn_reportbookmark" level="Basic" />
     <RolePrivilege name="prvReadmsdyn_servicecopilotplugin" level="Global" />
     <RolePrivilege name="prvReadmsdyn_servicecopilotpluginaction" level="Global" />

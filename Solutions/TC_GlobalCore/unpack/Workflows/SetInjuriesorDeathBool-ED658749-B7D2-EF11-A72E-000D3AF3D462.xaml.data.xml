@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{ed658749-b7d2-ef11-a72e-000d3af3d462}" Name="Set Injuries or Death Bool" Description="Click to add description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/SetInjuriesorDeathBool-ED658749-B7D2-EF11-A72E-000D3AF3D462.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
+  <PrimaryEntity>ovs_incident_report</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Set Injuries or Death Bool" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+</Workflow>

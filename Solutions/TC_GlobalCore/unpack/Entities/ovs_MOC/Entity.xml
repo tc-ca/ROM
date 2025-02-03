@@ -700,6 +700,48 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="ovs_legacy_moc_spec_txt">
+          <Type>nvarchar</Type>
+          <Name>ovs_legacy_moc_spec_txt</Name>
+          <LogicalName>ovs_legacy_moc_spec_txt</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>textarea</Format>
+          <MaxLength>1000</MaxLength>
+          <Length>2000</Length>
+          <displaynames>
+            <displayname description="Legacy MOC Specification" languagecode="1033" />
+            <displayname description="Spécification de l'ancien contenant" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Contains legacy specification details consolidated from MOC_SPEC_1 and MOC_SPEC_2 fields in the legacy system. This field is for reference purposes and may not align with current specifications." languagecode="1033" />
+            <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="ovs_MOC_built_in_canada_ind">
           <Type>bit</Type>
           <Name>ovs_moc_built_in_canada_ind</Name>
@@ -923,7 +965,7 @@
           <Length>200</Length>
           <displaynames>
             <displayname description="Name" languagecode="1033" />
-            <displayname description="Name" languagecode="1036" />
+            <displayname description="Nom" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -1090,9 +1132,11 @@
           <OptionSetName>ovs_packagetype</OptionSetName>
           <displaynames>
             <displayname description="Package Type" languagecode="1033" />
+            <displayname description="Package Type" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_packages_num">

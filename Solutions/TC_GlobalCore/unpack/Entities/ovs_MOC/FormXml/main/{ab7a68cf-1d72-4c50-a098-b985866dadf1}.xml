@@ -58,6 +58,7 @@
                       <cell id="{c9e74404-915c-474b-a338-b8b00081b4cc}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Package Type" languagecode="1033" />
+                          <label description="Package Type" languagecode="1036" />
                         </labels>
                         <control id="ovs_package_type_cd" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ovs_package_type_cd" disabled="false" />
                       </cell>
@@ -108,7 +109,7 @@
                       <cell id="{587a90b0-f128-4a70-ba8a-ace9487f1b20}" visible="false">
                         <labels>
                           <label description="Name" languagecode="1033" />
-                          <label description="Name" languagecode="1036" />
+                          <label description="Nom" languagecode="1036" />
                         </labels>
                         <control id="ovs_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ovs_name" />
                       </cell>
@@ -181,7 +182,18 @@
                     <label description="Forms selection" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row />
+                    <row>
+                      <cell locklevel="0" id="{457d0f74-d51a-4c07-981c-f199a8c11c15}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{6f7c9ba3-3a7b-427a-ab56-9461a2cc15c9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell id="{3a362c93-1010-4ae1-a246-74f01c460f3b}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
@@ -190,12 +202,12 @@
                         </labels>
                         <control id="ovs_moc_built_in_canada_ind" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ovs_moc_built_in_canada_ind" disabled="false" />
                       </cell>
-                      <cell id="{f0eebe66-003b-412e-bdb3-a3d2388f6866}" locklevel="0" colspan="1" rowspan="1">
+                      <cell id="{62c648b0-1ef7-4b46-bf0b-07e2b0c2b054}" locklevel="0" colspan="1" rowspan="6" auto="false">
                         <labels>
-                          <label description="Other Code" languagecode="1033" />
-                          <label description="Other Code" languagecode="1036" />
+                          <label description="Legacy MOC Specification" languagecode="1033" />
+                          <label description="Spécification de l'ancien contenant" languagecode="1036" />
                         </labels>
-                        <control id="ovs_other_code_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_other_code_txt" disabled="false" />
+                        <control id="ovs_legacy_moc_spec_txt" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ovs_legacy_moc_spec_txt" disabled="true" />
                       </cell>
                     </row>
                     <row>
@@ -205,6 +217,36 @@
                           <label description="Spécification" languagecode="1036" />
                         </labels>
                         <control id="ovs_specification_id" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ovs_specification_id" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0eebe66-003b-412e-bdb3-a3d2388f6866}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Other Code" languagecode="1033" />
+                          <label description="Other Code" languagecode="1036" />
+                        </labels>
+                        <control id="ovs_other_code_txt" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ovs_other_code_txt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{01010420-3ce2-4e96-8e9d-8366f822a397}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{4bd95645-9cb9-4894-b12c-266a97a544a1}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{cb70375e-26d0-4774-b248-1ad259299720}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>

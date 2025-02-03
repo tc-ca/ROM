@@ -21,7 +21,7 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My MOCS" languagecode="1033" />
+      <LocalizedName description="My MOCs" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="Active MOCS owned by me" languagecode="1033" />

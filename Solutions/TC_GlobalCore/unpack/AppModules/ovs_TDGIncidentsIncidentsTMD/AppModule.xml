@@ -21,6 +21,7 @@
     <AppModuleComponent type="1" schemaName="adx_invitation" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="msdyn_icdextension" />
     <AppModuleComponent type="60" id="{8e8ef593-361c-ef11-840a-000d3a0c4626}" />
     <AppModuleComponent type="60" id="{e038b892-2d1d-ef11-840a-000d3a0c4626}" />
     <AppModuleComponent type="60" id="{c18e41da-404f-ef11-accd-000d3a843b46}" />
@@ -34,6 +35,7 @@
     <AppModuleComponent type="62" schemaName="ovs_TDGIncidentsIncidentsTMD" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{075f5160-a434-ef11-8e4e-000d3af34b22}" />
     <AppModuleComponent type="26" id="{e7ba8bd8-440a-eb11-a813-000d3af3a7a7}" />
     <AppModuleComponent type="26" id="{fdbc939a-2403-eb11-a813-000d3af3ac0d}" />
     <AppModuleComponent type="26" id="{400d5f47-3e4f-ef11-accd-0022483bb3a9}" />
@@ -43,10 +45,16 @@
     <AppModuleComponent type="26" id="{74bbeebe-f9fe-ed11-8f6d-0022483e130e}" />
     <AppModuleComponent type="26" id="{fefc25ee-b554-40a7-a044-0815caae218a}" />
     <AppModuleComponent type="26" id="{301e7af2-7676-4e90-90dd-100be894a4b7}" />
+    <AppModuleComponent type="26" id="{8d1d7fb6-52eb-4fae-afc4-151e1459134d}" />
+    <AppModuleComponent type="26" id="{d5805d19-3312-406c-b84f-16624ddaf903}" />
+    <AppModuleComponent type="26" id="{16c7fdca-c2ea-4bf8-af28-49824c5a829d}" />
     <AppModuleComponent type="26" id="{a13681d9-1251-432e-b952-51e8ea725865}" />
     <AppModuleComponent type="26" id="{4cd8a034-b1e4-4225-9637-808f143a1bb7}" />
+    <AppModuleComponent type="26" id="{8f11f038-0210-4649-b356-8d79a6f8c4d0}" />
     <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
     <AppModuleComponent type="26" id="{6a94cfdf-2549-4143-91aa-a68ac73b4ab5}" />
+    <AppModuleComponent type="26" id="{40c1ecd8-d32c-477d-9f9a-a7209b3c7945}" />
+    <AppModuleComponent type="26" id="{2d6e4415-960f-4540-a300-c76b9ac07146}" />
     <AppModuleComponent type="26" id="{8a2044ca-88c7-47b0-9c0c-cae30c745d54}" />
     <AppModuleComponent type="26" id="{716d0412-9552-4b98-b77d-d37df4f62a6c}" />
     <AppModuleComponent type="26" id="{ae9d977e-ae60-424a-8718-dacd211e93b9}" />

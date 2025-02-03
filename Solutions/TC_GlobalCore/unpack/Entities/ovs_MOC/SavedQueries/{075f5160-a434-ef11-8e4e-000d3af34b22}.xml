@@ -31,7 +31,8 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Incident Active MOCS" languagecode="1033" />
+      <LocalizedName description="Incident Active MOCs" languagecode="1033" />
+      <LocalizedName description="Contenants actifs d’incidents" languagecode="1036" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

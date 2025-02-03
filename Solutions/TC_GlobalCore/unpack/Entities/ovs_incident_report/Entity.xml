@@ -13,6 +13,7 @@
       </LocalizedCollectionNames>
       <Descriptions>
         <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1036" />
       </Descriptions>
       <attributes>
         <attribute PhysicalName="CreatedBy">
@@ -426,6 +427,45 @@
           <Descriptions>
             <Description description="" languagecode="1033" />
             <Description description="" languagecode="1036" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_address_type_cd">
+          <Type>picklist</Type>
+          <Name>ovs_address_type_cd</Name>
+          <LogicalName>ovs_address_type_cd</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <OptionSetName>ovs_address_type</OptionSetName>
+          <displaynames>
+            <displayname description="Address Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Specifies the type of address associated with the incident, such as postal address, legal land description, or latitude/longitude coordinates." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_analyst_report_ind">
@@ -1087,49 +1127,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_days_to_report_num">
+        <attribute PhysicalName="ovs_days_elapsed_reporting_nbr">
           <Type>decimal</Type>
-          <Name>ovs_days_to_report_num</Name>
-          <LogicalName>ovs_days_to_report_num</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <MinValue>-100000000000</MinValue>
-          <MaxValue>100000000000</MaxValue>
-          <displaynames>
-            <displayname description="Days to Report" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_DaysElapsedBeforeReporting">
-          <Type>decimal</Type>
-          <Name>ovs_dayselapsedbeforereporting</Name>
-          <LogicalName>ovs_dayselapsedbeforereporting</LogicalName>
+          <Name>ovs_days_elapsed_reporting_nbr</Name>
+          <LogicalName>ovs_days_elapsed_reporting_nbr</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -1161,162 +1162,13 @@
           <Accuracy>0</Accuracy>
           <displaynames>
             <displayname description="Days Elapsed Before Reporting" languagecode="1033" />
+            <displayname description="Nombre de jours pour la production du rapport" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1036" />
           </Descriptions>
           <FormulaDefinitionFileName>/Formulas/ovs_incident_report-FormulaDefinitions.yaml</FormulaDefinitionFileName>
-        </attribute>
-        <attribute PhysicalName="ovs_deaths_attributed_to_dangerous_goods_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_deaths_attributed_to_dangerous_goods_txt</Name>
-          <LogicalName>ovs_deaths_attributed_to_dangerous_goods_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Deaths attributed to Dangerous Goods" languagecode="1033" />
-            <displayname description="Décès attribuables aux marchandises dangereuses" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_deaths_attributed_to_incident_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_deaths_attributed_to_incident_txt</Name>
-          <LogicalName>ovs_deaths_attributed_to_incident_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Deaths attributed to Incident" languagecode="1033" />
-            <displayname description="Décès attribuables à l'incident" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_deaths_ind">
-          <Type>bit</Type>
-          <Name>ovs_deaths_ind</Name>
-          <LogicalName>ovs_deaths_ind</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.1</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_report_ovs_deaths_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.1</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Deaths" languagecode="1033" />
-              <displayname description="Décès" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Death" languagecode="1033" />
-            <displayname description="Décès" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_DescribeanyDamagetopropertyorenvironment">
           <Type>ntext</Type>
@@ -1400,10 +1252,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_destination_txt">
+        <attribute PhysicalName="ovs_destination_city_nm">
           <Type>nvarchar</Type>
-          <Name>ovs_destination_txt</Name>
-          <LogicalName>ovs_destination_txt</LogicalName>
+          <Name>ovs_destination_city_nm</Name>
+          <LogicalName>ovs_destination_city_nm</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -1434,12 +1286,52 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Destination" languagecode="1033" />
-            <displayname description="Destination" languagecode="1036" />
+            <displayname description="Destination City" languagecode="1033" />
+            <displayname description="Ville de destination" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
+            <Description description="Specifies the city to which the dangerous goods shipment is destined." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_destination_province_state_nm">
+          <Type>nvarchar</Type>
+          <Name>ovs_destination_province_state_nm</Name>
+          <LogicalName>ovs_destination_province_state_nm</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Destination Province or State" languagecode="1033" />
+            <displayname description="Province ou territoire ou État de destination" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Specifies the province or state to which the dangerous goods shipment is destined." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_dgais_legacy_seqno_s">
@@ -1481,72 +1373,6 @@
           </displaynames>
           <Descriptions>
             <Description description="Maps to the SEQNO_S column in the legacy incident table in DGAIS " languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_didtheincidentresultininjuryordeath_ind">
-          <Type>bit</Type>
-          <Name>ovs_didtheincidentresultininjuryordeath_ind</Name>
-          <LogicalName>ovs_didtheincidentresultininjuryordeath_ind</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.1</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_report_ovs_didtheincidentresultininjuryordeath_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.1</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Did the incident result in  injury or death?" languagecode="1033" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Did the incident result in  injury or death?" languagecode="1033" />
-            <displayname description="L'incident a-t-il entraîné des blessures ou décès ?" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
@@ -2342,7 +2168,7 @@
           <IsLocalizable>0</IsLocalizable>
           <Format>datetime</Format>
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
-          <Behavior>3</Behavior>
+          <Behavior>1</Behavior>
           <displaynames>
             <displayname description="Initial 30-Day Follow-Up Receipt Date" languagecode="1033" />
             <displayname description="Date de réception du Rapport de suivi dans les 30 jours" languagecode="1036" />
@@ -2352,13 +2178,13 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_initial_followup_submission_dte">
-          <Type>datetime</Type>
-          <Name>ovs_initial_followup_submission_dte</Name>
-          <LogicalName>ovs_initial_followup_submission_dte</LogicalName>
+        <attribute PhysicalName="ovs_injuries_death_dg_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_death_dg_nbr</Name>
+          <LogicalName>ovs_injuries_death_dg_nbr</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
+          <ImeMode>disabled</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -2382,22 +2208,24 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <Format>datetime</Format>
-          <Behavior>1</Behavior>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
           <displaynames>
-            <displayname description="30-Day Follow-Up Report Submission Date" languagecode="1033" />
+            <displayname description="Deaths Attributed to Dangerous Goods" languagecode="1033" />
+            <displayname description="Décès attribuables aux marchandises dangereuses" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_Initial30DayFollowUpReportSubmissionDate">
-          <Type>datetime</Type>
-          <Name>ovs_initial30dayfollowupreportsubmissiondate</Name>
-          <LogicalName>ovs_initial30dayfollowupreportsubmissiondate</LogicalName>
+        <attribute PhysicalName="ovs_injuries_death_incident_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_death_incident_nbr</Name>
+          <LogicalName>ovs_injuries_death_incident_nbr</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
+          <ImeMode>disabled</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -2421,10 +2249,583 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <Format>datetime</Format>
-          <Behavior>1</Behavior>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
           <displaynames>
-            <displayname description="Initial 30-Day Follow-Up Report Submission Date" languagecode="1033" />
+            <displayname description="Deaths Attributed to Incident" languagecode="1033" />
+            <displayname description="Décès attribuables à l'incident" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_death_ind">
+          <Type>bit</Type>
+          <Name>ovs_injuries_death_ind</Name>
+          <LogicalName>ovs_injuries_death_ind</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="ovs_incident_report_ovs_injuries_death_ind">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="Deaths?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+              </option>
+              <option value="0" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Deaths?" languagecode="1033" />
+            <displayname description="Décès ?" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_major_dg_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_major_dg_nbr</Name>
+          <LogicalName>ovs_injuries_major_dg_nbr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Major Injuries Attributed to Dangerous Goods" languagecode="1033" />
+            <displayname description="Blessures graves attribuables aux marchandises dangereuses" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_major_incident_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_major_incident_nbr</Name>
+          <LogicalName>ovs_injuries_major_incident_nbr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Major Injuries Attributed to Incident" languagecode="1033" />
+            <displayname description="Blessures graves attribuables à l'incident" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_major_ind">
+          <Type>bit</Type>
+          <Name>ovs_injuries_major_ind</Name>
+          <LogicalName>ovs_injuries_major_ind</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="ovs_incident_report_ovs_injuries_major_ind">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="xMajor Injuries?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+              </option>
+              <option value="0" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Major Injuries?" languagecode="1033" />
+            <displayname description="Blessures graves ?" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_minor_dg_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_minor_dg_nbr</Name>
+          <LogicalName>ovs_injuries_minor_dg_nbr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Minor Injuries Attributed to Dangerous Goods" languagecode="1033" />
+            <displayname description="Blessures mineures attribuables aux marchandises dangereuses" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Number of minor injuries directly attributed to dangerous goods." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_minor_incident_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_minor_incident_nbr</Name>
+          <LogicalName>ovs_injuries_minor_incident_nbr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Minor Injuries Attributed to Incident" languagecode="1033" />
+            <displayname description="Blessures mineures attribuables à l'incident" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_minor_ind">
+          <Type>bit</Type>
+          <Name>ovs_injuries_minor_ind</Name>
+          <LogicalName>ovs_injuries_minor_ind</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="ovs_incident_report_ovs_injuries_minor_ind">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="xMinor Injuries?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+              </option>
+              <option value="0" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Minor Injuries?" languagecode="1033" />
+            <displayname description="Blessures mineures ?" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_moderate_dg_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_moderate_dg_nbr</Name>
+          <LogicalName>ovs_injuries_moderate_dg_nbr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Moderate Injuries Attributed to Dangerous Goods" languagecode="1033" />
+            <displayname description="Blessures modérées attribuables aux marchandises dangereuses" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_moderate_incident_nbr">
+          <Type>int</Type>
+          <Name>ovs_injuries_moderate_incident_nbr</Name>
+          <LogicalName>ovs_injuries_moderate_incident_nbr</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Moderate Injuries Attributed to Incident" languagecode="1033" />
+            <displayname description="Blessure modérées attribuables à l'incident" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_moderate_ind">
+          <Type>bit</Type>
+          <Name>ovs_injuries_moderate_ind</Name>
+          <LogicalName>ovs_injuries_moderate_ind</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="ovs_incident_report_ovs_injuries_moderate_ind">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="xModerate Injuries?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+              </option>
+              <option value="0" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Moderate Injuries?" languagecode="1033" />
+            <displayname description="Blessures modérées ?" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ovs_injuries_or_death_ind">
+          <Type>bit</Type>
+          <Name>ovs_injuries_or_death_ind</Name>
+          <LogicalName>ovs_injuries_or_death_ind</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="ovs_incident_report_ovs_injuries_or_death_ind">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname description="xDid the incident result in injury or death?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Oui" languagecode="1036" />
+                </labels>
+              </option>
+              <option value="0" ExternalValue="" IsHidden="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Non" languagecode="1036" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Did the incident result in injury or death?" languagecode="1033" />
+            <displayname description="L'incident a-t-il entraîné des blessures ou décès ?" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2472,6 +2873,46 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
+        <attribute PhysicalName="ovs_legacy_source_txt">
+          <Type>ntext</Type>
+          <Name>ovs_legacy_source_txt</Name>
+          <LogicalName>ovs_legacy_source_txt</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>1000</MaxLength>
+          <displaynames>
+            <displayname description="Legacy Source" languagecode="1033" />
+            <displayname description="Source héritée" languagecode="1036" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
         <attribute PhysicalName="ovs_longitude_nbr">
           <Type>decimal</Type>
           <Name>ovs_longitude_nbr</Name>
@@ -2508,157 +2949,6 @@
           <displaynames>
             <displayname description="Longitude" languagecode="1033" />
             <displayname description="Longitude" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_major_injuries_attributed_to_incident_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_major_injuries_attributed_to_incident_txt</Name>
-          <LogicalName>ovs_major_injuries_attributed_to_incident_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Major Injuries attributed to Incident" languagecode="1033" />
-            <displayname description="Blessures graves attribuables à l'incident" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_major_injuries_ind">
-          <Type>bit</Type>
-          <Name>ovs_major_injuries_ind</Name>
-          <LogicalName>ovs_major_injuries_ind</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.1</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_report_ovs_major_injuries_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.1</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Major Injuries" languagecode="1033" />
-              <displayname description="Blessures graves" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Major Injuries" languagecode="1033" />
-            <displayname description="Blessures graves" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_majorinjuriesattributedtodangerousg_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_majorinjuriesattributedtodangerousg_txt</Name>
-          <LogicalName>ovs_majorinjuriesattributedtodangerousg_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Major Injuries attributed to Dangerous Goods" languagecode="1033" />
-            <displayname description="Blessures graves attribuables aux marchandises dangereuses" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -2706,157 +2996,6 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_minor_injuries_attributed_to_incident_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_minor_injuries_attributed_to_incident_txt</Name>
-          <LogicalName>ovs_minor_injuries_attributed_to_incident_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Minor Injuries attributed to Incident" languagecode="1033" />
-            <displayname description="Blessures mineures attribuables à l'incident" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_minor_injuries_ind">
-          <Type>bit</Type>
-          <Name>ovs_minor_injuries_ind</Name>
-          <LogicalName>ovs_minor_injuries_ind</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.1</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_report_ovs_minor_injuries_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.1</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Minor Injuries" languagecode="1033" />
-              <displayname description="Blessures mineures" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Minor Injuries" languagecode="1033" />
-            <displayname description="Blessures mineures" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_minorinjuriesattributedtodangerousgds_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_minorinjuriesattributedtodangerousgds_txt</Name>
-          <LogicalName>ovs_minorinjuriesattributedtodangerousgds_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Minor Injuries attributed to Dangerous Goods" languagecode="1033" />
-            <displayname description="Blessures mineures attribuables aux marchandises dangereuses" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="ovs_mode_cd">
           <Type>picklist</Type>
           <Name>ovs_mode_cd</Name>
@@ -2892,115 +3031,6 @@
           <displaynames>
             <displayname description="Mode" languagecode="1033" />
             <displayname description="Mode" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_moderate_injuries_ind">
-          <Type>bit</Type>
-          <Name>ovs_moderate_injuries_ind</Name>
-          <LogicalName>ovs_moderate_injuries_ind</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.1</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="ovs_incident_report_ovs_moderate_injuries_ind">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0.1</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <ExternalTypeName></ExternalTypeName>
-            <displaynames>
-              <displayname description="Moderate Injuries" languagecode="1033" />
-              <displayname description="Blessures modérées" languagecode="1036" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="1" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                  <label description="Oui" languagecode="1036" />
-                </labels>
-              </option>
-              <option value="0" ExternalValue="" IsHidden="0">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                  <label description="Non" languagecode="1036" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Moderate Injuries" languagecode="1033" />
-            <displayname description="Blessures modérées" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="ovs_moderate_injuriesattributedtoincident_txt">
-          <Type>nvarchar</Type>
-          <Name>ovs_moderate_injuriesattributedtoincident_txt</Name>
-          <LogicalName>ovs_moderate_injuriesattributedtoincident_txt</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <IsSearchable>0</IsSearchable>
-          <IsFilterable>0</IsFilterable>
-          <IsRetrievable>0</IsRetrievable>
-          <IsLocalizable>0</IsLocalizable>
-          <Format>text</Format>
-          <MaxLength>100</MaxLength>
-          <Length>200</Length>
-          <displaynames>
-            <displayname description="Moderate Injuries attributed to Incident" languagecode="1033" />
-            <displayname description="Blessure modérées attribuables à l'incident" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -3224,10 +3254,10 @@
             <Description description="" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_oderateinjuriesattributedtodangerousg_txt">
+        <attribute PhysicalName="ovs_origin_city_nm">
           <Type>nvarchar</Type>
-          <Name>ovs_oderateinjuriesattributedtodangerousg_txt</Name>
-          <LogicalName>ovs_oderateinjuriesattributedtodangerousg_txt</LogicalName>
+          <Name>ovs_origin_city_nm</Name>
+          <LogicalName>ovs_origin_city_nm</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -3258,18 +3288,17 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Moderate Injuries attributed to Dangerous Goods" languagecode="1033" />
-            <displayname description="Blessures modérées attribuables aux marchandises dangereuses" languagecode="1036" />
+            <displayname description="Origin City" languagecode="1033" />
+            <displayname description="Ville d'origine" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
+            <Description description="Specifies the city from which the dangerous goods shipment originates." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="ovs_origin_txt">
+        <attribute PhysicalName="ovs_origin_province_state_nm">
           <Type>nvarchar</Type>
-          <Name>ovs_origin_txt</Name>
-          <LogicalName>ovs_origin_txt</LogicalName>
+          <Name>ovs_origin_province_state_nm</Name>
+          <LogicalName>ovs_origin_province_state_nm</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -3300,12 +3329,11 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Origin" languagecode="1033" />
-            <displayname description="Origine" languagecode="1036" />
+            <displayname description="Origin Province or State" languagecode="1033" />
+            <displayname description="Province ou territoire ou État d'origine" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="" languagecode="1033" />
-            <Description description="" languagecode="1036" />
+            <Description description="Specifies the province or state from which the dangerous goods shipment originates." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="ovs_other_emergency_response_personnel_txt">
