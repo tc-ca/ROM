@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ovs_damagelocation" localizedName="Damage Location" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Damage Location" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Package Material" languagecode="1033" />
+        <label description="Matériel du paquet" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Dome/Hatch/Manway Cover" languagecode="1033" />
+        <label description="Couvercle dôme / Trappe / Manway" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Vent" languagecode="1033" />
+        <label description="Conduit" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Valve" languagecode="1033" />
+        <label description="Valve" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Pipe" languagecode="1033" />
+        <label description="Valve et tuyau" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Fittings" languagecode="1033" />
+        <label description="Raccords" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="7" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Gasket" languagecode="1033" />
+        <label description="Raccords et joint" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="8" IsHidden="0">
+      <labels>
+        <label description="Hose/Transfer System" languagecode="1033" />
+        <label description="Raccords et système de tuyau / Transfert" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="9" IsHidden="0">
+      <labels>
+        <label description="Closure" languagecode="1033" />
+        <label description="Fermeture" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="10" IsHidden="0">
+      <labels>
+        <label description="Chime" languagecode="1033" />
+        <label description="Carillon" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="11" IsHidden="0">
+      <labels>
+        <label description="Weld" languagecode="1033" />
+        <label description="Soudure" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="12" IsHidden="0">
+      <labels>
+        <label description="Seams" languagecode="1033" />
+        <label description="Coutures" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="13" IsHidden="0">
+      <labels>
+        <label description="Inner Liner/Outer Shell" languagecode="1033" />
+        <label description="Doublure intérieure / Coque extérieure" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="14" IsHidden="0">
+      <labels>
+        <label description="Gauging Device Assembly" languagecode="1033" />
+        <label description="Dispositif de jauge" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="15" IsHidden="0">
+      <labels>
+        <label description="Multiple Locations" languagecode="1033" />
+        <label description="À plusieurs endroits" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="16" IsHidden="0">
+      <labels>
+        <label description="Front of Unit" languagecode="1033" />
+        <label description="Le devant de l'unité" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="17" IsHidden="0">
+      <labels>
+        <label description="Back of Unit" languagecode="1033" />
+        <label description="L'arrière de l'unité" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="18" IsHidden="0">
+      <labels>
+        <label description="Side of Unit" languagecode="1033" />
+        <label description="Le côté de l'unité" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="19" IsHidden="0">
+      <labels>
+        <label description="Stationary Tank" languagecode="1033" />
+        <label description="Réservoir stationnaire" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="20" IsHidden="0">
+      <labels>
+        <label description="Centre of Stub Sill Crack (Greater than 15cm/6in)" languagecode="1033" />
+        <label description="Le centre de la longrine tronquée (plus grand que 15 cm / 6 pouces)" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="21" IsHidden="0">
+      <labels>
+        <label description="Entire MOC Compromised" languagecode="1033" />
+        <label description="Le contenant entier a été compromis" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="22" IsHidden="0">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Autre" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="23" IsHidden="0">
+      <labels>
+        <label description="Unknown" languagecode="1033" />
+        <label description="Inconnu" languagecode="1036" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>
