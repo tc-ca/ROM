@@ -1,21 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SdkMessageProcessingStep Name="TC.PowerApps.Localization.Retrieve: Retrieve of fdr_functionlimitation" SdkMessageProcessingStepId="{78493005-65a2-ed11-aad1-0022483d0343}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SdkMessageProcessingStep Name="TC.PowerApps.Localization.Retrieve: Retrieve of ovs_supportrequest" SdkMessageProcessingStepId="{556a3682-bf15-ee11-9cbe-0022483d0343}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>f2bdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
   <PluginTypeName>TC.PowerApps.Localization.Retrieve, TC.PowerApps.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=46cc66017b727c59</PluginTypeName>
   <PluginTypeId>917f33a1-fc11-4fff-ad37-c2676669c797</PluginTypeId>
-  <PrimaryEntity>fdr_functionlimitation</PrimaryEntity>
+  <PrimaryEntity>ovs_supportrequest</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Configuration>&lt;Settings&gt;
     &lt;Items&gt;
-       &lt;Item&gt;
-          &lt;Field&gt;fdr_name&lt;/Field&gt;
-        &lt;/Item&gt;
         &lt;Item&gt;
-          &lt;Field&gt;fdr_limitation&lt;/Field&gt;
+            &lt;Field&gt;ovs_requestdetails&lt;/Field&gt;
         &lt;/Item&gt;
     &lt;/Items&gt;
 &lt;/Settings&gt;</Configuration>
-  <Description>TC.PowerApps.Localization.Retrieve: Retrieve of fdr_functionlimitation</Description>
+  <Description>TC.PowerApps.Localization.Retrieve: Retrieve of ovs_supportrequest</Description>
   <FilteringAttributes></FilteringAttributes>
   <InvocationSource>0</InvocationSource>
   <Mode>0</Mode>

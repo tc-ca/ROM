@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23054.184" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.25013.172" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25013.172" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25013.00172">
   <SolutionManifest>
     <UniqueName>CoreLocalization</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Core Localization Plugin and Plugin Steps for TDG Inspection related entities " languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.26</Version>
+    <Version>1.2.0.29</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>tccorepublisher</UniqueName>
@@ -140,8 +140,11 @@
       <RootComponent type="92" id="{46b7d93f-dc72-eb11-a812-000d3af399b3}" behavior="0" />
       <RootComponent type="92" id="{48a6edf0-5688-ec11-8d20-0022483e002f}" behavior="0" />
       <RootComponent type="92" id="{4e54fa46-14ad-eb11-8236-000d3ae8b65a}" behavior="0" />
+      <RootComponent type="92" id="{4e8ce66d-c80e-ee11-8f6e-0022483e130e}" behavior="0" />
       <RootComponent type="92" id="{52cbdd15-9f96-ed11-aad0-0022483e130e}" behavior="0" />
+      <RootComponent type="92" id="{556a3682-bf15-ee11-9cbe-0022483d0343}" behavior="0" />
       <RootComponent type="92" id="{571f2976-bb90-ec11-8d20-0022483bb976}" behavior="0" />
+      <RootComponent type="92" id="{57f17560-c70e-ee11-8f6e-0022483e130e}" behavior="0" />
       <RootComponent type="92" id="{59c58905-1cb3-eb11-8236-000d3aff3315}" behavior="0" />
       <RootComponent type="92" id="{5ada14e0-9343-ed11-bba3-0022483d0343}" behavior="0" />
       <RootComponent type="92" id="{5d609887-00ca-eb11-bacc-000d3af39889}" behavior="0" />
@@ -212,6 +215,7 @@
       <RootComponent type="92" id="{ad1e4bb3-9817-eb11-a813-000d3af3a7a7}" behavior="0" />
       <RootComponent type="92" id="{ae7a1b0b-26f6-eb11-94ef-000d3a84a4e1}" behavior="0" />
       <RootComponent type="92" id="{b1b70356-e7d5-eb11-bacc-000d3af38cd4}" behavior="0" />
+      <RootComponent type="92" id="{b2840686-c70e-ee11-8f6e-000d3af35f84}" behavior="0" />
       <RootComponent type="92" id="{b4eefd63-f9f3-ed11-8849-0022483d0343}" behavior="0" />
       <RootComponent type="92" id="{b7610fb5-b87a-eb11-a812-000d3af31ad8}" behavior="0" />
       <RootComponent type="92" id="{bb906e34-17b7-eb11-8236-0022483bc67c}" behavior="0" />
@@ -247,6 +251,7 @@
       <RootComponent type="92" id="{e0c0770c-e8d5-eb11-bacc-000d3af38cd4}" behavior="0" />
       <RootComponent type="92" id="{e2d8129d-9d3f-ed11-bba2-0022483d0343}" behavior="0" />
       <RootComponent type="92" id="{e3139f90-8dd7-ec11-a7b5-0022483c547f}" behavior="0" />
+      <RootComponent type="92" id="{e51a2b8f-c80e-ee11-8f6e-0022483d0343}" behavior="0" />
       <RootComponent type="92" id="{e645a8f5-9b3f-ed11-bba2-0022483d0343}" behavior="0" />
       <RootComponent type="92" id="{e727b50c-b63d-ec11-8c62-0022483d7564}" behavior="0" />
       <RootComponent type="92" id="{e75bbcae-d0c4-ed11-b597-0022483d0343}" behavior="0" />
@@ -267,47 +272,69 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of bookableresource" id="{64290837-26f6-eb11-94ef-000d3a84a4e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of bookableresource" id="{ae7a1b0b-26f6-eb11-94ef-000d3a84a4e1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcebooking" displayName="Booking" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of bookableresourcebooking" id="{00f8232d-7adf-eb11-bacb-000d3ae97460}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of bookableresourcecategory" id="{2fbdaf98-65cf-eb11-bacc-0022483c0d29}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of bookableresourcecategory" id="{59c58905-1cb3-eb11-8236-000d3aff3315}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of bookableresourcecategory" id="{5e09f520-1cb3-eb11-8236-000d3aff3315}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.Create: Create of bookableresourcecategory" id="{831e4247-65cf-eb11-bacc-0022483c0d29}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of bookableresourcecategoryassn" id="{2cf4f60a-1db3-eb11-8236-000d3aff3315}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of bookableresourcecategoryassn" id="{3502a81d-1db3-eb11-8236-000d3aff3315}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookingstatus" displayName="Booking Status" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookingstatus" displayName="Booking Status" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of bookingstatus" id="{069eecfd-63df-eb11-bacb-000d3ae97460}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="bookingstatus" displayName="Booking Status" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Required type="1" schemaName="bookingstatus" displayName="Booking Status" solution="msdynce_Scheduling (9.0.0.0)">
+          <package appName="Dynamics 365 For Scheduling" version="9.0.7.3">Scheduling_Anchor (9.0.7.3)</package>
+        </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of bookingstatus" id="{603e2d95-cee0-eb11-bacb-000d3ae97b46}" />
       </MissingDependency>
       <MissingDependency>
@@ -552,176 +579,176 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Update: Update of msdyn_incidenttype" id="{3b62d115-cf17-ec11-b6e7-000d3ae8ef7b}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of msdyn_incidenttype" id="{7bf56681-cd17-ec11-b6e7-000d3a84cf5f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Create: Create of msdyn_incidenttype" id="{d8a8ec29-cd17-ec11-b6e7-000d3a84cf5f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_incidenttype" displayName="Incident Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_incidenttype" id="{ea007bb6-cd17-ec11-b6e7-000d3a84cf5f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_incidenttypeservicetask" displayName="Incident Type Service Task" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_incidenttypeservicetask" id="{3acbdcc0-ec17-ec11-b6e7-000d3a84cf5f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_incidenttypeservicetask" displayName="Incident Type Service Task" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of msdyn_incidenttypeservicetask" id="{78a503e1-ed17-ec11-b6e7-000d3a84cf5f}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_servicetasktype" displayName="Service Task Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of msdyn_servicetasktype" id="{14720053-b97a-eb11-a812-000d3af31ad8}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_servicetasktype" displayName="Service Task Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_servicetasktype" id="{8fcefc46-b97a-eb11-a812-000d3af31ad8}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_servicetasktype" displayName="Service Task Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of msdyn_servicetasktype" id="{b7610fb5-b87a-eb11-a812-000d3af31ad8}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_servicetasktype" displayName="Service Task Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Create: Create of msdyn_servicetasktype" id="{ecb783f2-b87a-eb11-a812-000d3af31ad8}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of msdyn_workorder" id="{04d81363-6c18-eb11-a813-000d3af3ac0d}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_workorder" id="{25295884-6c18-eb11-a813-000d3af3ac0d}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workorderservicetask" displayName="Work Order Service Task" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_workorderservicetask" id="{f623ba50-0a1b-ec11-b6e7-000d3ae9b203}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordersubstatus" displayName="Work Order Substatus" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of msdyn_workordersubstatus" id="{188d8e0d-2504-ec11-b6e7-0022483cc243}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordersubstatus" displayName="Work Order Substatus" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_workordersubstatus" id="{3d512e31-2504-ec11-b6e7-0022483cc243}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordersubstatus" displayName="Work Order Substatus" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Update: Update of msdyn_workordersubstatus" id="{451a39e7-2404-ec11-b6e7-0022483cc243}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordersubstatus" displayName="Work Order Substatus" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="TC.PowerApps.Localization.Create: Create of msdyn_workordersubstatus" id="{8dbdbab0-2404-ec11-b6e7-0022483cc243}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of msdyn_workordertype" id="{1724e0d8-d872-eb11-a812-000d3af399b3}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of msdyn_workordertype" id="{2941def0-d872-eb11-a812-000d3af399b3}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Create: Create of msdyn_workordertype" id="{6c94bd92-d872-eb11-a812-000d3af399b3}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="msdyn_workordertype" displayName="Work Order Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of msdyn_workordertype" id="{c312cac1-d872-eb11-a812-000d3af399b3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_aircrafttype" displayName="Aircraft Type" solution="Active" />
+        <Required type="1" schemaName="ovs_aircrafttype" displayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Create: Create of ovs_aircrafttype" id="{7324e137-e6d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_aircrafttype" displayName="Aircraft Type" solution="Active" />
+        <Required type="1" schemaName="ovs_aircrafttype" displayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_aircrafttype" id="{8f61e6fc-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_aircrafttype" displayName="Aircraft Type" solution="Active" />
+        <Required type="1" schemaName="ovs_aircrafttype" displayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of ovs_aircrafttype" id="{b1b70356-e7d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_aircrafttype" displayName="Aircraft Type" solution="Active" />
+        <Required type="1" schemaName="ovs_aircrafttype" displayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of ovs_aircrafttype" id="{f5ce6f13-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="Air Operator Function" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatorfunction" id="{2dd7e312-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="Air Operator Function" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Create: Create of ovs_airoperatorfunction" id="{a768ebb8-e6d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="Air Operator Function" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of ovs_airoperatorfunction" id="{a9080e26-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="Air Operator Function" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatorfunction" displayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of ovs_airoperatorfunction" id="{e0c0770c-e8d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatortype" displayName="Air Operator Type" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatortype" displayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Create: Create of ovs_airoperatortype" id="{3ca428d8-e6d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatortype" displayName="Air Operator Type" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatortype" displayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of ovs_airoperatortype" id="{454e022d-e8d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatortype" displayName="Air Operator Type" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatortype" displayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of ovs_airoperatortype" id="{6082323c-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_airoperatortype" displayName="Air Operator Type" solution="Active" />
+        <Required type="1" schemaName="ovs_airoperatortype" displayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatortype" id="{803af93b-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
@@ -789,27 +816,27 @@
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of ovs_moctype" id="{fc85d76f-e8d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_modes" displayName="Modes" solution="Active" />
+        <Required type="1" schemaName="ovs_modes" displayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of ovs_modes" id="{10c8c7ba-e8d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_modes" displayName="Modes" solution="Active" />
+        <Required type="1" schemaName="ovs_modes" displayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Create: Create of ovs_modes" id="{27c3e812-e7d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_modes" displayName="Modes" solution="Active" />
+        <Required type="1" schemaName="ovs_modes" displayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_modes" id="{6593ef7a-ebd5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_modes" displayName="Modes" solution="Active" />
+        <Required type="1" schemaName="ovs_modes" displayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of ovs_modes" id="{741c9184-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_operationunnumber" displayName="Operation UN Number" solution="Active" />
+        <Required type="1" schemaName="ovs_operationunnumber" displayName="Site UN Number" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of ovs_operationunnumber" id="{e727b50c-b63d-ec11-8c62-0022483d7564}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="ovs_operationunnumber" displayName="Operation UN Number" solution="Active" />
+        <Required type="1" schemaName="ovs_operationunnumber" displayName="Site UN Number" solution="Active" />
         <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of ovs_operationunnumber" id="{f529bad6-b53d-ec11-8c62-0022483d7564}" />
       </MissingDependency>
       <MissingDependency>
@@ -859,6 +886,26 @@
       <MissingDependency>
         <Required type="1" schemaName="ovs_sitetype" displayName="Site Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of ovs_sitetype" id="{f9039232-fbc9-eb11-bacc-000d3af39889}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_support_request_outcome" displayName="Support Request Outcome" solution="Active" />
+        <Dependent type="92" displayName="TC.PowerApps.Localization.RetrieveMultiple: RetrieveMultiple of ovs_support_request_outcome" id="{4e8ce66d-c80e-ee11-8f6e-0022483e130e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_support_request_outcome" displayName="Support Request Outcome" solution="Active" />
+        <Dependent type="92" displayName="TC.PowerApps.Localization.Create: Create of ovs_support_request_outcome" id="{57f17560-c70e-ee11-8f6e-0022483e130e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_support_request_outcome" displayName="Support Request Outcome" solution="Active" />
+        <Dependent type="92" displayName="TC.PowerApps.Localization.Update: Update of ovs_support_request_outcome" id="{b2840686-c70e-ee11-8f6e-000d3af35f84}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_support_request_outcome" displayName="Support Request Outcome" solution="Active" />
+        <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of ovs_support_request_outcome" id="{e51a2b8f-c80e-ee11-8f6e-0022483d0343}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ovs_supportrequest" displayName="Support Request" solution="Active" />
+        <Dependent type="92" displayName="TC.PowerApps.Localization.Retrieve: Retrieve of ovs_supportrequest" id="{556a3682-bf15-ee11-9cbe-0022483d0343}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="ovs_tdginspectionreport" displayName="TDG Inspection Report" solution="Active" />
@@ -1010,25 +1057,25 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="territory" displayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package>msdynce_AppCommonAnchor (9.0.23053.10002)</package>
+          <package appName="msdynce_AppCommon" version="9.0.25012.10001">msdynce_AppCommonAnchor (9.0.25012.10001)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Retrieve: Retrieve of territory" id="{1efbc2d8-9817-eb11-a813-000d3af3a7a7}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="territory" displayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package>msdynce_AppCommonAnchor (9.0.23053.10002)</package>
+          <package appName="msdynce_AppCommon" version="9.0.25012.10001">msdynce_AppCommonAnchor (9.0.25012.10001)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of territory" id="{38c5b839-9917-eb11-a813-000d3af3a7a7}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="territory" displayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package>msdynce_AppCommonAnchor (9.0.23053.10002)</package>
+          <package appName="msdynce_AppCommon" version="9.0.25012.10001">msdynce_AppCommonAnchor (9.0.25012.10001)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Create: Create of territory" id="{ad1e4bb3-9817-eb11-a813-000d3af3a7a7}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="territory" displayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package>msdynce_AppCommonAnchor (9.0.23053.10002)</package>
+          <package appName="msdynce_AppCommon" version="9.0.25012.10001">msdynce_AppCommonAnchor (9.0.25012.10001)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.RetrieveMultiple: RetrieveMultiple of territory" id="{e09cddf5-9817-eb11-a813-000d3af3a7a7}" />
       </MissingDependency>
@@ -1074,7 +1121,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_servicetasktype" parentDisplayName="Service Task Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of msdyn_servicetasktype" id="{b7610fb5-b87a-eb11-a812-000d3af31ad8}" />
       </MissingDependency>
@@ -1088,7 +1135,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_workordertype" parentDisplayName="Work Order Type" solution="FieldService (8.8.0.88)">
-          <package>FieldService_Anchor (8.8.93.28)</package>
+          <package appName="Field Service" version="8.8.130.34">FieldService_Anchor (8.8.130.34)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of msdyn_workordertype" id="{2941def0-d872-eb11-a812-000d3af399b3}" />
       </MissingDependency>
@@ -1101,39 +1148,39 @@
         <Dependent type="92" displayName="Core.Localization.Update: Update of msdyn_workordertype" id="{2941def0-d872-eb11-a812-000d3af399b3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_aircrafttype" parentDisplayName="Aircraft Type" solution="Active" />
+        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_aircrafttype" parentDisplayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_aircrafttype" id="{8f61e6fc-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_aircrafttype" parentDisplayName="Aircraft Type" solution="Active" />
+        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_aircrafttype" parentDisplayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_aircrafttype" id="{8f61e6fc-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_aircrafttype" parentDisplayName="Aircraft Type" solution="Active" />
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_aircrafttype" parentDisplayName="To be deleted - Aircraft Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_aircrafttype" id="{8f61e6fc-e9d5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="Air Operator Function" solution="Active" />
+        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatorfunction" id="{2dd7e312-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="Air Operator Function" solution="Active" />
+        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatorfunction" id="{2dd7e312-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="Air Operator Function" solution="Active" />
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_airoperatorfunction" parentDisplayName="To be deleted - Air Operator Function" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatorfunction" id="{2dd7e312-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_airoperatortype" parentDisplayName="Air Operator Type" solution="Active" />
+        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_airoperatortype" parentDisplayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatortype" id="{803af93b-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_airoperatortype" parentDisplayName="Air Operator Type" solution="Active" />
+        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_airoperatortype" parentDisplayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatortype" id="{803af93b-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_airoperatortype" parentDisplayName="Air Operator Type" solution="Active" />
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_airoperatortype" parentDisplayName="To be deleted - Air Operator Type" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_airoperatortype" id="{803af93b-ead5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
@@ -1149,15 +1196,15 @@
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_moctype" id="{1e53825b-ebd5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_modes" parentDisplayName="Modes" solution="Active" />
+        <Required type="2" schemaName="ovs_englishlabel" displayName="English Label" parentSchemaName="ovs_modes" parentDisplayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_modes" id="{6593ef7a-ebd5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_modes" parentDisplayName="Modes" solution="Active" />
+        <Required type="2" schemaName="ovs_frenchlabel" displayName="French Label" parentSchemaName="ovs_modes" parentDisplayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_modes" id="{6593ef7a-ebd5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_modes" parentDisplayName="Modes" solution="Active" />
+        <Required type="2" schemaName="ovs_name" displayName="Name" parentSchemaName="ovs_modes" parentDisplayName="To be deleted - Modes" solution="Active" />
         <Dependent type="92" displayName="Core.Localization.Update: Update of ovs_modes" id="{6593ef7a-ebd5-eb11-bacc-000d3af38cd4}" />
       </MissingDependency>
       <MissingDependency>
@@ -1242,7 +1289,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="name" displayName="Territory Name" parentSchemaName="territory" parentDisplayName="Region" solution="msdynce_AppCommon (9.0.4.0066)">
-          <package>msdynce_AppCommonAnchor (9.0.23053.10002)</package>
+          <package appName="msdynce_AppCommon" version="9.0.25012.10001">msdynce_AppCommonAnchor (9.0.25012.10001)</package>
         </Required>
         <Dependent type="92" displayName="Core.Localization.Update: Update of territory" id="{38c5b839-9917-eb11-a813-000d3af3a7a7}" />
       </MissingDependency>

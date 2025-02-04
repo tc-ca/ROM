@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="TC.PowerApps.Localization.Update: Update of ovs_support_request_outcome" SdkMessageProcessingStepId="{b2840686-c70e-ee11-8f6e-000d3af35f84}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>TC.PowerApps.Localization.Update, TC.PowerApps.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=46cc66017b727c59</PluginTypeName>
+  <PluginTypeId>3e5ff06c-1fd0-439e-947b-dc69c4e4ba89</PluginTypeId>
+  <PrimaryEntity>ovs_support_request_outcome</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;Settings&gt; 
+    &lt;Items&gt; 
+        &lt;Item&gt; 
+            &lt;Field&gt;ovs_name&lt;/Field&gt; 
+            &lt;FieldEn&gt;ovs_name_en&lt;/FieldEn&gt; 
+            &lt;FieldFr&gt;ovs_name_fr&lt;/FieldFr&gt; 
+        &lt;/Item&gt;
+    &lt;/Items&gt; 
+&lt;/Settings&gt; </Configuration>
+  <Description>TC.PowerApps.Localization.Update: Update of ovs_support_request_outcome</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
