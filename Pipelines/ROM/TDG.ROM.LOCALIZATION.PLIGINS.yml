@@ -8,8 +8,8 @@ variables:
     value: 'TDG CORE QA'
   - name: PowerPlatformSPN_ACC
     value: 'ROM ACC TDG'
-  - name: PowerPlatformSPN_ACCDATA
-    value: 'ROM ACC TDG DATA'
+  - name: PowerPlatformSPN_DATA
+    value: 'TDG CORE DATA'
   - name: PowerPlatformSPN_PREPROD
     value: 'ROM PREPROD TDG'
   - name: PowerPlatformSPN_PROD
@@ -62,6 +62,17 @@ stages:
     StageName: 'DeployManagedSolutionToQA'
     dependsOn: 
     - 'BuildAndPublishArtifacts'
+
+#DATA
+- template: templates/stage/DeploySolution.yml  # Template reference
+  parameters:
+    SolutionName: $(SolutionName)
+    PowerPlatformSPN: $(PowerPlatformSPN_DATA)
+    Environment: 'ACC-TDG-DATA'
+    StageName: 'DeployManagedSolutionToDATA'
+    dependsOn: 
+    - 'DeployManagedSolutionToQA'
+
 #ACC
 - template: templates/stage/DeploySolution.yml  # Template reference
   parameters:
@@ -71,6 +82,7 @@ stages:
     StageName: 'DeployManagedSolutionToACC'
     dependsOn: 
     - 'DeployManagedSolutionToQA'
+
 #PREPROD
 - template: templates/stage/DeploySolution.yml  # Template reference
   parameters:
