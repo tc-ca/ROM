@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.24124.146" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24124.146" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25012.00154">
+<ImportExportXml version="9.2.25013.172" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25013.172" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25013.00172">
   <SolutionManifest>
     <UniqueName>TDGPlugins</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Main solution for TDG Inspection Related Plugins&#xA;1.0.0.1 - WO Pre Create and Pre Update were modified." languagecode="1033" />
     </Descriptions>
-    <Version>1.2.0.144</Version>
+    <Version>1.2.0.145</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>transportationofdangerousgoods</UniqueName>
@@ -84,7 +84,6 @@
       <RootComponent type="92" id="{01348402-91bc-ee11-9078-0022483cceb8}" behavior="0" />
       <RootComponent type="92" id="{0994427e-0bb8-eb11-8236-0022483bc30f}" behavior="0" />
       <RootComponent type="92" id="{0a0fb9fa-8ebc-ee11-9078-002248b0ab18}" behavior="0" />
-      <RootComponent type="92" id="{0aa9f2c2-9260-ef11-bfe4-0022483bb3a9}" behavior="0" />
       <RootComponent type="92" id="{0ae13e35-a0d5-ee11-904c-002248b1f200}" behavior="0" />
       <RootComponent type="92" id="{0f23ec08-ef9a-ef11-8a69-000d3a0bf04c}" behavior="0" />
       <RootComponent type="92" id="{10f3d41c-90bc-ee11-9078-6045bd60dfd7}" behavior="0" />
@@ -339,10 +338,6 @@
       <MissingDependency>
         <Required type="1" schemaName="ovs_cysafetyassessment" displayName="Safety Assessment" solution="Active" />
         <Dependent type="93" id="{98d46cfc-268b-eb11-b1ac-000d3ae92932}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />
-        <Dependent type="92" displayName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PostCreate_Injuries: Create of ovs_incident_report" id="{0aa9f2c2-9260-ef11-bfe4-0022483bb3a9}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="ovs_incident_report" displayName="Incident Report" solution="Active" />

@@ -95,9 +95,6 @@
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.EnforcementAction.EnforcementAction_PreUpdateStateChange, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="2d555930-ea89-483c-850d-5aa93cffd4c3" Name="TC.PowerApps.Plugins.Entities.EnforcementAction.EnforcementAction_PreUpdateStateChange">
       <FriendlyName>4b1b0c38-5f08-4e77-b086-8a4ee380bf90</FriendlyName>
     </PluginType>
-    <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PostCreate_Injuries, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="72decdb4-802d-4a40-82ce-43aaa83c7b1e" Name="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PostCreate_Injuries">
-      <FriendlyName>c35a3e1f-693b-4457-9757-b6f82b2bb208</FriendlyName>
-    </PluginType>
     <PluginType AssemblyQualifiedName="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PreCreateValidation, TC.PowerApps.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b2d7e786232fae7" PluginTypeId="fb12772b-de4e-4e1e-9cf3-09b3e075d0b8" Name="TC.PowerApps.Plugins.Entities.IncidentReport.IncidentReport_PreCreateValidation">
       <FriendlyName>c82c7cd2-87d3-47cc-b378-f5741689b4d8</FriendlyName>
     </PluginType>
