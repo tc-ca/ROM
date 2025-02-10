@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ovs_TDGIncidentsIncidentsTMD</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="area_ffa99633" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Area1" />
+      </Titles>
+      <Group Id="group_2fad8419" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Portal Support" />
+          <Title LCID="1036" Title="Support de Portail " />
+        </Titles>
+        <SubArea Id="subarea_759943ba" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_supportrequest" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Demandes de Support" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_2050b1bb" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_invitation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Invitations" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_1f5d7972" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Core Data" />
+          <Title LCID="1036" Title="Données du noyau" />
+        </Titles>
+        <SubArea Id="subarea_a7f97c05" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_777c09e9" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_organization_contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_ac9a3589" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="subarea_6cda998b" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/main.aspx?appid=78945c66-9588-ee11-8179-0022483c5d19&amp;forceUCI=1&amp;pagetype=entitylist&amp;etn=account&amp;viewid=7fa4b59f-485d-ee11-8df0-0022483d0c87&amp;viewType=1039" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Sites" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="group_0d97035f" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Incident Management" />
+          <Title LCID="1036" Title="Gestion des incidents" />
+        </Titles>
+        <SubArea Id="subarea_81ba0457" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Incidents" />
+            <Title LCID="1033" Title="Incidents" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_b842971d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_moc" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="MOCs" />
+            <Title LCID="1036" Title="Contenants" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="subarea_ac6eeef3" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_incident_report" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1036" Title="Rapports d'incidents" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="SubArea_MOCDG" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ovs_moc_dangerousgood" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Dangerous Goods within MOC" />
+            <Title LCID="1036" Title="Marchandises dangereuses dans le contenant" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="TDG Incidents / Incidents TMD" languagecode="1033" />
+    <LocalizedName description="TDG Incidents / Incidents TMD" languagecode="1036" />
+  </LocalizedNames>
+</AppModuleSiteMap>
